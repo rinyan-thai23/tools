@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINE風ストーリー動画クリエイター Pro</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: #1a1a2e;
+            color: #eee;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .main-container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            animation: fadeInDown 0.8s ease-out;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #06C755, #4ECDC4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .content-wrapper {
+            display: flex;
+            gap: 30px;
+            animation: fadeIn 1s ease-out;
+        }
+
+        /* コントロールパネル */
+        .control-panel {
+            flex: 1;
+            background: #16213e;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            max-height: calc(100vh - 120px);
+            overflow-y: auto;
+        }
+
+        .control-section {
+            margin-bottom: 25px;
+            padding-bottom: 25px;
+            border-bottom: 1px solid #2d3561;
+        }
+
+        .control-section:last-child {
+            border-bottom: none;
+        }
+
+        .section-title {
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: #4ECDC4;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section-title::before {
+            content: '';
+            width: 4px;
+            height: 20px;
+            background: #06C755;
+            border-radius: 2px;
+        }
+
+        /* キャラクター設定 */
+        .character-card {
+            background: #0f3460;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            transition: all 0.3s;
+        }
+
+        .character-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .character-input-group {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .character-input-group input[type="text"] {
+            flex: 1;
+            padding: 10px;
+            background: #1a1a2e;
+            border: 1px solid #2d3561;
+            border-radius: 5px;
+            color: #eee;
+            transition: all 0.3s;
+        }
+
+        .character-input-group input[type="text"]:focus {
+            outline: none;
+            border-color: #4ECDC4;
+            box-shadow: 0 0 0 2px rgba(78, 205, 196, 0.2);
+        }
+
+        .color-picker-wrapper {
+            position: relative;
+        }
+
+        .color-picker {
+            width: 50px;
+            height: 40px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .color-picker:hover {
+            transform: scale(1.1);
+        }
+
+        .avatar-preview {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: white;
+            font-size: 18px;
+        }
+
+        /* エフェクト設定 */
+        .effect-options {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        .effect-checkbox {
+            background: #0f3460;
+            padding: 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .effect-checkbox:hover {
+            background: #1a4a7a;
+        }
+
+        .effect-checkbox input {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+        }
+
+        .effect-checkbox label {
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        /* スクリプトエリア */
+        .script-textarea {
+            width: 100%;
+            min-height: 300px;
+            padding: 15px;
+            background: #0f3460;
+            border: 2px solid #2d3561;
+            border-radius: 10px;
+            color: #eee;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            line-height: 1.6;
+            resize: vertical;
+            transition: all 0.3s;
+        }
+
+        .script-textarea:focus {
+            outline: none;
+            border-color: #4ECDC4;
+            background: #1a4a7a;
+        }
+
+        .format-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+            flex-wrap: wrap;
+        }
+
+        .format-btn {
+            padding: 8px 15px;
+            background: #0f3460;
+            border: 1px solid #4ECDC4;
+            color: #4ECDC4;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 13px;
+            transition: all 0.3s;
+        }
+
+        .format-btn:hover {
+            background: #4ECDC4;
+            color: #0f3460;
+        }
+
+        /* コントロールボタン */
+        .control-buttons {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .control-btn {
+            padding: 15px;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .play-btn {
+            background: linear-gradient(45deg, #06C755, #05a847);
+            color: white;
+            grid-column: span 2;
+        }
+
+        .play-btn:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(6, 199, 85, 0.4);
+        }
+
+        .pause-btn {
+            background: linear-gradient(45deg, #ff9a00, #ff7700);
+            color: white;
+        }
+
+        .reset-btn {
+            background: linear-gradient(45deg, #e74c3c, #c0392b);
+            color: white;
+        }
+
+        .control-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* プレビューエリア */
+        .preview-container {
+            position: sticky;
+            top: 20px;
+            height: fit-content;
+        }
+
+        .phone-wrapper {
+            position: relative;
+            animation: slideInRight 0.8s ease-out;
+        }
+
+        .recording-indicator {
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #e74c3c;
+            color: white;
+            padding: 5px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+            display: none;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .recording-indicator.show {
+            display: flex;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.6; }
+            100% { opacity: 1; }
+        }
+
+        .rec-dot {
+            width: 8px;
+            height: 8px;
+            background: white;
+            border-radius: 50%;
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
+        }
+
+        .phone-container {
+            width: 375px;
+            height: 667px;
+            background: #000;
+            border-radius: 35px;
+            padding: 10px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .phone-screen {
+            width: 100%;
+            height: 100%;
+            border-radius: 25px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            background: #7494C0;
+            transition: background-color 0.5s;
+        }
+
+        /* 背景エフェクト */
+        .phone-screen.night-mode {
+            background: #1a1a2e;
+        }
+
+        .phone-screen.dramatic-mode {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        /* チャットヘッダー */
+        .chat-header {
+            background: rgba(41, 58, 76, 0.95);
+            color: white;
+            padding: 40px 20px 15px;
+            text-align: center;
+            font-weight: bold;
+            backdrop-filter: blur(10px);
+            position: relative;
+            z-index: 10;
+        }
+
+        /* メッセージエリア */
+        .chat-messages {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            scroll-behavior: smooth;
+        }
+
+        /* メッセージスタイル */
+        .message {
+            display: flex;
+            align-items: flex-start;
+            opacity: 0;
+            animation: messageSlideIn 0.4s ease-out forwards;
+        }
+
+        @keyframes messageSlideIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .message.shake {
+            animation: messageSlideIn 0.4s ease-out forwards, shake 0.5s ease-in-out;
+        }
+
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-10px); }
+            75% { transform: translateX(10px); }
+        }
+
+        .message.me {
+            flex-direction: row-reverse;
+        }
+
+        .avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin: 0 10px;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+
+        .message-content {
+            max-width: 70%;
+        }
+
+        .message-bubble {
+            background: white;
+            padding: 12px 16px;
+            border-radius: 18px;
+            position: relative;
+            word-wrap: break-word;
+            white-space: pre-wrap;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+            font-size: 15px;
+            line-height: 1.4;
+            color: #333;  /* 友達のメッセージ用の濃い文字色 */
+        }
+
+        .message.friend .message-bubble {
+            border-top-left-radius: 4px;
+        }
+
+        .message.me .message-bubble {
+            background: #A4E86C;
+            border-top-right-radius: 4px;
+            color: #1a1a1a;  /* 自分のメッセージ用の濃い文字色 */
+        }
+
+        /* 特殊テキストスタイル */
+        .message-bubble .text-large {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .message-bubble .text-small {
+            font-size: 12px;
+            opacity: 0.8;
+        }
+
+        .message-bubble .text-shake {
+            display: inline-block;
+            animation: textShake 0.3s ease-in-out infinite;
+        }
+
+        @keyframes textShake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-2px); }
+            75% { transform: translateX(2px); }
+        }
+
+        /* スタンプ */
+        .stamp {
+            width: 120px;
+            height: 120px;
+            background: #f0f0f0;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+            margin: 10px 0;
+        }
+
+        /* タイピングインジケーター */
+        .typing-indicator {
+            display: none;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 20px;
+            opacity: 0;
+            animation: fadeIn 0.3s forwards;
+        }
+
+        .typing-indicator.show {
+            display: flex;
+        }
+
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+
+        .typing-dots {
+            display: flex;
+            gap: 4px;
+            background: white;
+            padding: 10px 14px;
+            border-radius: 18px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        }
+
+        .typing-dots span {
+            width: 8px;
+            height: 8px;
+            background: #999;
+            border-radius: 50%;
+            animation: typingBounce 1.4s infinite ease-in-out;
+        }
+
+        .typing-dots span:nth-child(1) { animation-delay: -0.32s; }
+        .typing-dots span:nth-child(2) { animation-delay: -0.16s; }
+
+        @keyframes typingBounce {
+            0%, 80%, 100% {
+                transform: scale(0.8);
+                opacity: 0.5;
+            }
+            40% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        /* ユーティリティ */
+        .speed-control {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            background: #0f3460;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .speed-slider {
+            flex: 1;
+            height: 6px;
+            background: #2d3561;
+            border-radius: 3px;
+            outline: none;
+            -webkit-appearance: none;
+        }
+
+        .speed-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 18px;
+            height: 18px;
+            background: #4ECDC4;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .speed-slider::-webkit-slider-thumb:hover {
+            transform: scale(1.2);
+            box-shadow: 0 0 0 5px rgba(78, 205, 196, 0.2);
+        }
+
+        .speed-value {
+            min-width: 50px;
+            text-align: center;
+            font-weight: bold;
+            color: #4ECDC4;
+        }
+
+        /* アニメーション */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        /* レスポンシブ */
+        @media (max-width: 1200px) {
+            .content-wrapper {
+                flex-direction: column;
+            }
+            .preview-container {
+                position: relative;
+                margin: 0 auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="header">
+            <h1>LINE風ストーリー動画クリエイター Pro</h1>
+            <p>ドラマチックなLINE風動画を簡単作成</p>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="control-panel">
+                <!-- キャラクター設定 -->
+                <div class="control-section">
+                    <h3 class="section-title">キャラクター設定</h3>
+                    
+                    <div class="character-card">
+                        <div class="character-input-group">
+                            <div class="avatar-preview" id="myAvatar" style="background-color: #4ECDC4">太</div>
+                            <input type="text" id="myName" placeholder="自分の名前" value="太郎">
+                            <div class="color-picker-wrapper">
+                                <input type="color" class="color-picker" id="myColor" value="#4ECDC4">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="character-card">
+                        <div class="character-input-group">
+                            <div class="avatar-preview" id="friendAvatar" style="background-color: #FF6B6B">花</div>
+                            <input type="text" id="friendName" placeholder="友達の名前" value="花子">
+                            <div class="color-picker-wrapper">
+                                <input type="color" class="color-picker" id="friendColor" value="#FF6B6B">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="character-card">
+                        <div class="character-input-group">
+                            <div class="avatar-preview" id="otherAvatar" style="background-color: #95E1D3">次</div>
+                            <input type="text" id="otherName" placeholder="第三者の名前" value="次郎">
+                            <div class="color-picker-wrapper">
+                                <input type="color" class="color-picker" id="otherColor" value="#95E1D3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- エフェクト設定 -->
+                <div class="control-section">
+                    <h3 class="section-title">視覚エフェクト</h3>
+                    <div class="effect-options">
+                        <div class="effect-checkbox">
+                            <input type="checkbox" id="shakeEffect" checked>
+                            <label for="shakeEffect">衝撃演出（!）</label>
+                        </div>
+                        <div class="effect-checkbox">
+                            <input type="checkbox" id="nightMode">
+                            <label for="nightMode">ナイトモード</label>
+                        </div>
+                        <div class="effect-checkbox">
+                            <input type="checkbox" id="dramaticBg">
+                            <label for="dramaticBg">ドラマチック背景</label>
+                        </div>
+                        <div class="effect-checkbox">
+                            <input type="checkbox" id="readDelay" checked>
+                            <label for="readDelay">既読遅延演出</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- スピード設定 -->
+                <div class="control-section">
+                    <h3 class="section-title">再生速度</h3>
+                    <div class="speed-control">
+                        <span>遅い</span>
+                        <input type="range" class="speed-slider" id="speedSlider" min="0.5" max="3" step="0.1" value="1">
+                        <span>速い</span>
+                        <span class="speed-value" id="speedValue">1.0x</span>
+                    </div>
+                </div>
+
+                <!-- スクリプト入力 -->
+                <div class="control-section">
+                    <h3 class="section-title">会話スクリプト</h3>
+                    <textarea class="script-textarea" id="scriptInput" placeholder="会話スクリプトを入力...">友達: おい、大変だ！
+自分: どうした？そんなに慌てて
+友達: さっき道で...
+[間: 2秒]
+友達: 100万円入った財布を拾った！
+自分: ！！！！
+自分: マジで！？
+[震え]
+友達: どうしよう...警察に届けるべきだよね？
+自分: そりゃそうだろ！
+[間: 1秒]
+第三者: あの〜すみません
+友達: ？
+第三者: 財布を落としてしまって...
+第三者: この辺りで黒い財布見ませんでしたか？
+[間: 3秒]
+友達: も、もしかして...
+友達: 100万円入ってました？
+第三者: え！？はい！結婚資金で...
+自分: （これは運命的な出会いだ...）
+友達: 良かった！今拾ったところです！
+[スタンプ: 😊]
+第三者: 本当にありがとうございます！！
+第三者: お礼をさせてください！
+友達: いえいえ、当然のことです
+自分: 花子、カッコいい！
+[間: 2秒]
+第三者: せめてお茶でも...
+友達: じゃあ、みんなで行きましょうか
+自分: いいね！新しい友達ができた！
+[スタンプ: 🎉]
+[大文字]めでたしめでたし！</textarea>
+                    
+                    <div class="format-buttons">
+                        <button class="format-btn" onclick="insertFormat('[間: 2秒]')">間を入れる</button>
+                        <button class="format-btn" onclick="insertFormat('(((震える文字)))')">震え文字</button>
+                        <button class="format-btn" onclick="insertFormat('[大文字]')">大文字</button>
+                        <button class="format-btn" onclick="insertFormat('[小文字]')">小文字</button>
+                        <button class="format-btn" onclick="insertFormat('[スタンプ: 😊]')">スタンプ</button>
+                    </div>
+                </div>
+
+                <!-- コントロールボタン -->
+                <div class="control-buttons">
+                    <button class="control-btn play-btn" id="playBtn">▶ 再生開始</button>
+                    <button class="control-btn pause-btn" id="pauseBtn" disabled>⏸ 一時停止</button>
+                    <button class="control-btn reset-btn" id="resetBtn">↺ リセット</button>
+                </div>
+            </div>
+
+            <!-- プレビュー画面 -->
+            <div class="preview-container">
+                <div class="phone-wrapper">
+                    <div class="recording-indicator" id="recordingIndicator">
+                        <div class="rec-dot"></div>
+                        <span>録画準備OK</span>
+                    </div>
+                    <div class="phone-container">
+                        <div class="phone-screen" id="phoneScreen">
+                            <div class="chat-header" id="chatHeader">グループチャット</div>
+                            <div class="chat-messages" id="chatMessages">
+                                <!-- メッセージが動的に追加される -->
+                            </div>
+                            <div class="typing-indicator" id="typingIndicator">
+                                <div class="avatar" id="typingAvatar"></div>
+                                <div class="typing-dots">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // グローバル変数
+        let characters = {
+            '自分': { name: '太郎', color: '#4ECDC4', type: 'me' },
+            '友達': { name: '花子', color: '#FF6B6B', type: 'friend' },
+            '第三者': { name: '次郎', color: '#95E1D3', type: 'friend' }
+        };
+
+        let messages = [];
+        let currentMessageIndex = 0;
+        let isPlaying = false;
+        let isPaused = false;
+        let playbackSpeed = 1;
+        let playTimeout = null;
+
+        // キャラクター設定の初期化と更新
+        function initializeCharacters() {
+            // 自分
+            document.getElementById('myName').addEventListener('input', (e) => {
+                characters['自分'].name = e.target.value || '太郎';
+                updateAvatar('myAvatar', characters['自分']);
+            });
+            document.getElementById('myColor').addEventListener('input', (e) => {
+                characters['自分'].color = e.target.value;
+                updateAvatar('myAvatar', characters['自分']);
+            });
+
+            // 友達
+            document.getElementById('friendName').addEventListener('input', (e) => {
+                characters['友達'].name = e.target.value || '花子';
+                updateAvatar('friendAvatar', characters['友達']);
+            });
+            document.getElementById('friendColor').addEventListener('input', (e) => {
+                characters['友達'].color = e.target.value;
+                updateAvatar('friendAvatar', characters['友達']);
+            });
+
+            // 第三者
+            document.getElementById('otherName').addEventListener('input', (e) => {
+                characters['第三者'].name = e.target.value || '次郎';
+                updateAvatar('otherAvatar', characters['第三者']);
+            });
+            document.getElementById('otherColor').addEventListener('input', (e) => {
+                characters['第三者'].color = e.target.value;
+                updateAvatar('otherAvatar', characters['第三者']);
+            });
+        }
+
+        function updateAvatar(avatarId, character) {
+            const avatar = document.getElementById(avatarId);
+            avatar.style.backgroundColor = character.color;
+            avatar.textContent = character.name.charAt(0);
+        }
+
+        // 速度調整
+        document.getElementById('speedSlider').addEventListener('input', (e) => {
+            playbackSpeed = parseFloat(e.target.value);
+            document.getElementById('speedValue').textContent = playbackSpeed.toFixed(1) + 'x';
+        });
+
+        // エフェクト設定
+        document.getElementById('nightMode').addEventListener('change', (e) => {
+            document.getElementById('phoneScreen').classList.toggle('night-mode', e.target.checked);
+        });
+
+        document.getElementById('dramaticBg').addEventListener('change', (e) => {
+            document.getElementById('phoneScreen').classList.toggle('dramatic-mode', e.target.checked);
+        });
+
+        // スクリプトパーサー
+        function parseScript(script) {
+            const lines = script.trim().split('\n');
+            const parsedMessages = [];
+            
+            for (const line of lines) {
+                const trimmedLine = line.trim();
+                if (!trimmedLine) continue;
+                
+                // 特殊コマンドの処理
+                if (trimmedLine.startsWith('[') && trimmedLine.endsWith(']')) {
+                    const command = trimmedLine.slice(1, -1);
+                    
+                    // 間の処理
+                    if (command.startsWith('間:')) {
+                        const duration = parseInt(command.match(/\d+/)[0]) * 1000;
+                        parsedMessages.push({
+                            type: 'pause',
+                            duration: duration
+                        });
+                    }
+
+                    // テキストスタイル
+                    else if (command === '大文字' || command === '小文字') {
+                        parsedMessages.push({
+                            type: 'style',
+                            style: command
+                        });
+                    }
+                    // スタンプ
+                    else if (command.startsWith('スタンプ:')) {
+                        const emoji = command.split(':')[1].trim();
+                        parsedMessages.push({
+                            type: 'stamp',
+                            emoji: emoji
+                        });
+                    }
+                    continue;
+                }
+                
+                // メッセージの処理
+                const messageMatch = trimmedLine.match(/^(自分|友達|第三者):\s*(.+)$/);
+                if (messageMatch) {
+                    const [, sender, text] = messageMatch;
+                    parsedMessages.push({
+                        type: 'message',
+                        sender: sender,
+                        text: text
+                    });
+                }
+            }
+            
+            return parsedMessages;
+        }
+
+        // メッセージ追加関数
+        let currentStyle = null;
+        
+        function addMessage(sender, text) {
+            const chatMessages = document.getElementById('chatMessages');
+            const character = characters[sender];
+            const time = new Date().toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' });
+            
+            const messageEl = document.createElement('div');
+            messageEl.className = `message ${character.type}`;
+            
+            // 震え効果のチェック（半角・全角両方に対応）
+            if (document.getElementById('shakeEffect').checked && (text.includes('!') || text.includes('！'))) {
+                messageEl.classList.add('shake');
+            }
+            
+            const avatarInitial = character.name.charAt(0);
+            
+            // テキストスタイルの適用
+            let styledText = escapeHtml(text);
+            if (currentStyle === '大文字') {
+                styledText = `<span class="text-large">${styledText}</span>`;
+                currentStyle = null;
+            } else if (currentStyle === '小文字') {
+                styledText = `<span class="text-small">${styledText}</span>`;
+                currentStyle = null;
+            }
+            
+            // 震え文字の処理 - 三重カッコを検出して中身だけを震えさせる
+            styledText = styledText.replace(/\(\(\((.*?)\)\)\)/g, '<span class="text-shake">$1</span>');
+            
+            messageEl.innerHTML = `
+                <div class="avatar" style="background-color: ${character.color}">${avatarInitial}</div>
+                <div class="message-content">
+                    <div class="message-bubble">${styledText}</div>
+                    <div class="message-time">
+                        ${time}
+                        ${character.type === 'me' ? '<span class="read-mark" style="opacity: 0">既読</span>' : ''}
+                    </div>
+                </div>
+            `;
+            
+            chatMessages.appendChild(messageEl);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+            
+            // 既読アニメーション
+            if (character.type === 'me' && document.getElementById('readDelay').checked) {
+                setTimeout(() => {
+                    const readMark = messageEl.querySelector('.read-mark');
+                    if (readMark) {
+                        readMark.style.transition = 'opacity 0.3s';
+                        readMark.style.opacity = '1';
+                    }
+                }, 800 / playbackSpeed);
+            }
+        }
+
+        // スタンプ追加関数
+        function addStamp(emoji) {
+            const chatMessages = document.getElementById('chatMessages');
+            const stampEl = document.createElement('div');
+            stampEl.className = 'message friend';
+            stampEl.innerHTML = `
+                <div class="avatar" style="background-color: transparent"></div>
+                <div class="message-content">
+                    <div class="stamp">${emoji}</div>
+                </div>
+            `;
+            chatMessages.appendChild(stampEl);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        // タイピングインジケーター
+        function showTypingIndicator(sender) {
+            const character = characters[sender];
+            const indicator = document.getElementById('typingIndicator');
+            const avatar = document.getElementById('typingAvatar');
+            
+            avatar.style.backgroundColor = character.color;
+            avatar.textContent = character.name.charAt(0);
+            indicator.classList.add('show');
+            
+            document.getElementById('chatMessages').scrollTop = document.getElementById('chatMessages').scrollHeight;
+        }
+
+        function hideTypingIndicator() {
+            document.getElementById('typingIndicator').classList.remove('show');
+        }
+
+        // 再生制御
+        async function playMessages() {
+            if (isPlaying && !isPaused) return;
+            
+            const script = document.getElementById('scriptInput').value;
+            if (!script.trim()) {
+                alert('スクリプトを入力してください');
+                return;
+            }
+            
+            if (!isPaused) {
+                messages = parseScript(script);
+                if (messages.length === 0) {
+                    alert('有効なメッセージが見つかりません');
+                    return;
+                }
+            }
+            
+            isPlaying = true;
+            isPaused = false;
+            document.getElementById('playBtn').disabled = true;
+            document.getElementById('pauseBtn').disabled = false;
+            document.getElementById('recordingIndicator').classList.add('show');
+            
+            for (let i = currentMessageIndex; i < messages.length; i++) {
+                if (!isPlaying || isPaused) break;
+                
+                const item = messages[i];
+                
+                if (item.type === 'pause') {
+                    await sleep(item.duration / playbackSpeed);
+                } 
+                else if (item.type === 'effect') {
+                    // エフェクトは次のメッセージに適用（現在は使用されていない）
+                }
+                else if (item.type === 'style') {
+                    currentStyle = item.style;
+                }
+                else if (item.type === 'stamp') {
+                    addStamp(item.emoji);
+                    currentMessageIndex = i + 1;
+                    await sleep(1000 / playbackSpeed);
+                }
+                else if (item.type === 'message') {
+                    // 自分以外の場合は入力中表示
+                    if (characters[item.sender].type !== 'me') {
+                        showTypingIndicator(item.sender);
+                        await sleep(800 / playbackSpeed);
+                        hideTypingIndicator();
+                        // ラグを解消するため、待機時間を削除
+                    }
+                    
+                    addMessage(item.sender, item.text);
+                    currentMessageIndex = i + 1;
+                    
+                    // 次のメッセージまでの間隔
+                    const baseDelay = item.text.length > 20 ? 2000 : 1500;
+                    await sleep(baseDelay / playbackSpeed);
+                }
+            }
+            
+            isPlaying = false;
+            document.getElementById('playBtn').disabled = false;
+            document.getElementById('pauseBtn').disabled = true;
+            document.getElementById('recordingIndicator').classList.remove('show');
+            
+            if (currentMessageIndex >= messages.length) {
+                currentMessageIndex = 0;
+                document.getElementById('playBtn').textContent = '▶ もう一度再生';
+            }
+        }
+
+        // 一時停止
+        function pausePlayback() {
+            if (!isPlaying) return;
+            isPaused = true;
+            isPlaying = false;
+            document.getElementById('playBtn').disabled = false;
+            document.getElementById('pauseBtn').disabled = true;
+            document.getElementById('playBtn').textContent = '▶ 再開';
+            clearTimeout(playTimeout);
+        }
+
+        // リセット
+        function reset() {
+            isPlaying = false;
+            isPaused = false;
+            currentMessageIndex = 0;
+            currentStyle = null;
+            document.getElementById('chatMessages').innerHTML = '';
+            document.getElementById('playBtn').disabled = false;
+            document.getElementById('pauseBtn').disabled = true;
+            document.getElementById('playBtn').textContent = '▶ 再生開始';
+            document.getElementById('recordingIndicator').classList.remove('show');
+            hideTypingIndicator();
+            clearTimeout(playTimeout);
+        }
+
+        // フォーマット挿入
+        function insertFormat(format) {
+            const textarea = document.getElementById('scriptInput');
+            const start = textarea.selectionStart;
+            const end = textarea.selectionEnd;
+            const text = textarea.value;
+            
+            textarea.value = text.substring(0, start) + '\n' + format + '\n' + text.substring(end);
+            textarea.focus();
+            textarea.setSelectionRange(start + format.length + 2, start + format.length + 2);
+        }
+
+        // ユーティリティ関数
+        function sleep(ms) {
+            return new Promise(resolve => {
+                playTimeout = setTimeout(resolve, ms);
+            });
+        }
+
+        function escapeHtml(text) {
+            const map = {
+                '&': '&amp;',
+                '<': '&lt;',
+                '>': '&gt;',
+                '"': '&quot;',
+                "'": '&#039;'
+            };
+            return text.replace(/[&<>"']/g, m => map[m]);
+        }
+
+        // イベントリスナーの設定
+        document.getElementById('playBtn').addEventListener('click', playMessages);
+        document.getElementById('pauseBtn').addEventListener('click', pausePlayback);
+        document.getElementById('resetBtn').addEventListener('click', reset);
+
+        // 初期化
+        initializeCharacters();
+
+        // キーボードショートカット
+        document.addEventListener('keydown', (e) => {
+            if (e.code === 'Space' && e.target.tagName !== 'TEXTAREA') {
+                e.preventDefault();
+                if (isPlaying && !isPaused) {
+                    pausePlayback();
+                } else {
+                    playMessages();
+                }
+            }
+        });
+    </script>
+</body>
+</html>

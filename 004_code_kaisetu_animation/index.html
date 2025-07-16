@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>タイピング開始時ハイライト機能付きプログラミングコード解説ツール</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div id="app">
+        <div id="inputContainer">
+            <select id="languageSelect">
+                <option value="javascript">JavaScript</option>
+                <option value="python">Python</option>
+                <option value="java">Java</option>
+                <option value="csharp">C#</option>
+                <option value="cpp">C++</option>
+            </select>
+            <textarea id="codeInput" class="textInput" placeholder="ここにプログラミングコードを入力してください"></textarea>
+            <textarea id="explanationInput" class="textInput" placeholder="ここにコードの解説を入力してください。各行の解説は '##行番号' で始めてください。複数行の場合は '##開始行.終了行' と指定してください。"></textarea>
+            <div class="setting">
+                <label for="typingSpeed">タイピング速度 (ms):</label>
+                <input type="number" id="typingSpeed" value="10" min="10" max="1000">
+            </div>
+            <button id="startButton">開始</button>
+        </div>
+        <div id="outputContainer">
+            <pre id="leftPanel"><code id="codeOutput"></code></pre>
+            <div id="rightPanel"></div>
+            <div id="controlButtons">
+                <button id="pauseResumeButton">一時停止</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-python.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-java.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-csharp.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-cpp.min.js"></script>
+
+
+
+</body>
+</html>

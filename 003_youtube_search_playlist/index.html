@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTubeプレイリスト検索ツール</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <h1>YouTubeプレイリスト検索ツール</h1>
+
+    <h2>自由検索項目:</h2>
+    <div>
+        <input type="text" id="customKeywordInput" placeholder="検索キーワードを入力">
+        <button id="customSearchButton">プレイリスト検索</button>
+    </div>
+
+    <hr>
+
+    <h2>プリセットキーワード検索:</h2>
+    <div>
+        <input type="text" id="prefixKeywordInput" placeholder="追加キーワード（任意）">
+        <span> + 以下のキーワードで検索</span>
+    </div>
+    <div id="presetButtons">
+        <!-- ここにJavaScriptでカテゴリとボタンが生成されます -->
+    </div>
+
+    <!-- JavaScriptファイルを読み込み -->
+    <script src="script.js"></script>
+
+</body>
+</html>

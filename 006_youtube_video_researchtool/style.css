@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.api-key-section, .search-section {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="number"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.results-section {
+    margin-top: 20px;
+}
+
+.result-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.result-item img {
+    max-width: 100px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.result-item h3 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.result-item span {
+    display: block;
+    margin-top: 5px;
+}

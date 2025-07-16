@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>テキストフィールドツール</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .text-field {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            transition: all 0.3s ease;
+        }
+        .text-field:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+        }
+        textarea {
+            width: 100%;
+            height: 80px;
+            border: none;
+            resize: none;
+            font-size: 14px;
+            font-family: inherit;
+            background-color: transparent;
+            outline: none;
+        }
+        .char-count {
+            font-size: 12px;
+            color: #666;
+            display: block;
+            text-align: right;
+            margin-top: 5px;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        #addField {
+            background-color: #4CAF50;
+            color: white;
+        }
+        #saveButton {
+            background-color: #2196F3;
+            color: white;
+        }
+        #clearButton {
+            background-color: #f44336;
+            color: white;
+        }
+        button:hover {
+            opacity: 0.8;
+            transform: translateY(-2px);
+        }
+        .total-count {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        #totalCount {
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+        .pulse {
+            animation: pulse 0.5s ease-in-out;
+        }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="textFields"></div>
+    <div class="buttons">
+        <button id="addField">フィールド追加</button>
+        <button id="saveButton">保存</button>
+        <button id="clearButton">クリア</button>
+    </div>
+    <p class="total-count">合計文字数: <span id="totalCount">0</span></p>
+
+    <script>
+        const container = document.getElementById('textFields');
+        const addFieldButton = document.getElementById('addField');
+        const saveButton = document.getElementById('saveButton');
+        const clearButton = document.getElementById('clearButton');
+        const totalCountSpan = document.getElementById('totalCount');
+
+        const initialFieldCount = 10;
+        let fieldCount = initialFieldCount;
+
+        function createTextField(index) {
+            const div = document.createElement('div');
+            div.className = 'text-field';
+            const textarea = document.createElement('textarea');
+            textarea.id = `field${index}`;
+            textarea.placeholder = `テキスト ${index}`;
+            textarea.addEventListener('input', updateCount);
+            div.appendChild(textarea);
+            const countSpan = document.createElement('span');
+            countSpan.className = 'char-count';
+            countSpan.id = `count${index}`;
+            countSpan.textContent = '0 文字';
+            div.appendChild(countSpan);
+            return div;
+        }
+
+        function initFields() {
+            container.innerHTML = '';
+            for (let i = 1; i <= fieldCount; i++) {
+                container.appendChild(createTextField(i));
+            }
+        }
+
+        function updateCount() {
+            let total = 0;
+            for (let i = 1; i <= fieldCount; i++) {
+                const field = document.getElementById(`field${i}`);
+                const count = field.value.length;
+                document.getElementById(`count${i}`).textContent = `${count} 文字`;
+                total += count;
+            }
+            totalCountSpan.textContent = total;
+            totalCountSpan.classList.add('pulse');
+            setTimeout(() => totalCountSpan.classList.remove('pulse'), 500);
+            saveToLocalStorage();
+        }
+
+        function addField() {
+            fieldCount++;
+            container.appendChild(createTextField(fieldCount));
+        }
+
+        function saveToFile() {
+            const now = new Date();
+            const dateString = `${now.getFullYear()}年${now.getMonth() + 1}月${now.getDate()}日 ${now.getHours()}:${now.getMinutes()}:${now.getSeconds()}`;
+            let content = `${dateString}のメモ\n\n`;
+            for (let i = 1; i <= fieldCount; i++) {
+                const field = document.getElementById(`field${i}`);
+                if (field.value.trim() !== '') {
+                    content += `${field.value.trim()}\n\n`;
+                }
+            }
+            const blob = new Blob([content], { type: 'text/plain' });
+            const a = document.createElement('a');
+            a.href = URL.createObjectURL(blob);
+            a.download = `memo_${now.getFullYear()}${(now.getMonth() + 1).toString().padStart(2, '0')}${now.getDate().toString().padStart(2, '0')}.txt`;
+            a.click();
+        }
+
+        function clearFields() {
+            fieldCount = initialFieldCount;
+            initFields();
+            localStorage.removeItem('textFieldsData');
+            updateCount();
+        }
+
+        function saveToLocalStorage() {
+            const data = {};
+            for (let i = 1; i <= fieldCount; i++) {
+                const field = document.getElementById(`field${i}`);
+                data[`field${i}`] = field.value;
+            }
+            data.fieldCount = fieldCount;
+            localStorage.setItem('textFieldsData', JSON.stringify(data));
+        }
+
+        function loadFromLocalStorage() {
+            const data = JSON.parse(localStorage.getItem('textFieldsData') || '{}');
+            fieldCount = data.fieldCount || initialFieldCount;
+            initFields();
+            for (let i = 1; i <= fieldCount; i++) {
+                const field = document.getElementById(`field${i}`);
+                if (field && data[`field${i}`]) {
+                    field.value = data[`field${i}`];
+                }
+            }
+            updateCount();
+        }
+
+        initFields();
+        loadFromLocalStorage();
+        addFieldButton.addEventListener('click', addField);
+        saveButton.addEventListener('click', saveToFile);
+        clearButton.addEventListener('click', clearFields);
+    </script>
+</body>
+</html>

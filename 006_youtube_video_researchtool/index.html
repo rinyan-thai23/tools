@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Video Research Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>YouTube Video Research Tool</h1>
+        <div class="api-key-section">
+            <label for="api-key">API Key:</label>
+            <input type="text" id="api-key">
+            <p class="api-key-info">※APIキーはブラウザのローカルストレージにのみ保存され、外部に送信されることはありません。次回アクセス時も自動で入力されます。</p>
+        </div>
+        <div class="search-section">
+            <label for="keyword">Keyword:</label>
+            <input type="text" id="keyword">
+            <label for="channel-id">Channel ID:</label>
+            <input type="text" id="channel-id">
+            <label for="max-results">Max Results:</label>
+            <input type="number" id="max-results" value="10">
+            <button id="search-button">Search</button>
+        </div>
+        <div class="results-section">
+            <h2>Results</h2>
+            <div id="results"></div>
+        </div>
+        <div class="url-section">
+            <h2>Video URLs</h2>
+            <textarea id="video-urls" rows="10" cols="80"></textarea>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

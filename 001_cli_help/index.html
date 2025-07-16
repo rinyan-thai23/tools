@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini Prompt Helper</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Gemini Prompt Helper ✨</h1>
+        <div class="container">
+            <div class="left-column">
+                <h2>1. プロンプト作成エリア</h2>
+                <textarea id="prompt-input" placeholder="ここにプロンプトを入力してください..."></textarea>
+                <div id="placeholder-inputs-container">
+                    <!-- プレースホルダー用の入力欄がここに追加されます -->
+                </div>
+                <div class="prompt-actions">
+                    <button id="copy-prompt-button">プロンプトをコピー</button>
+                    <button id="save-prompt-button">このプロンプトを保存</button>
+                </div>
+                 <div class="saved-prompts-container">
+                    <h3>保存したプロンプト</h3>
+                    <select id="saved-prompts-select">
+                        <option value="">選択してください...</option>
+                    </select>
+                    <button id="delete-prompt-button">削除</button>
+                </div>
+            </div>
+            <div class="right-column">
+                <h2>2. よく使うコマンド</h2>
+                <div id="command-buttons-container">
+                    <!-- コマンドボタンがここに追加されます -->
+                </div>
+                <div class="custom-command-container">
+                    <h3>カスタムコマンド</h3>
+                    <div id="custom-command-buttons-container">
+                        <!-- カスタムコマンドボタンがここに追加されます -->
+                    </div>
+                    <button id="add-custom-command-button">+ 追加</button>
+                </div>
+
+                <section>
+                    <h2>3. プロンプト・テンプレート</h2>
+                    <div id="template-buttons-container" class="buttons-container">
+                        <!-- ボタンはJavaScriptで動的に生成されます -->
+                    </div>
+                </section>
+                <div id="tooltip-area">ボタンにマウスを合わせると説明が表示されます。</div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
