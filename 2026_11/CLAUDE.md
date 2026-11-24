@@ -133,3 +133,18 @@ DataForSEOのAPIを1つずつ使った、小さなWebツールの集まり。
 - `site-config.json` の他の項目：`site_url`（canonical・sitemap用）、`google_site_verification`（Search Console確認用。トップの `<head>` に自動で入る）、`contact_url`（カスタム依頼の窓口。まだ未使用）
 - `noindex` を書いたページは sitemap に載らない（カスタム依頼ページは仮のため noindex）
 - 目的：①アフィリエイト ②カスタムツール・データ定期便の依頼。データだけ欲しい人向けには、GAS か公式MCPで出す案（未定）
+
+## ツールの追加のしかた（2026-11 に仕組みを変更）
+ページと一覧はビルドが自動で作る。1本あたり、書くのは次の4つだけ。
+
+1. `site/Cxx/tool.json` — エンドポイント、入力欄、国・言語の有無、件数、結果の取り出し方と列、`who`（誰の）
+   - `result.items`：結果の配列の場所（例 `result.0.items`）、`where`：絞り込み、`columns`：`key`・`from`（元の項目。`a.b` で入れ子も可）・`label`（文言のキー）・`link`・`transform`（今は `strip_www`）
+   - 検索系（Googleの結果リンクを直すもの）は `"slow_search": true`
+2. `site/Cxx/sample.json` — 実データを短くしたもの。`keyword`・`fetched_at`・`tasks` を持つ
+3. `site/Cxx/_content.<言語>.html` — SEO本文（比較表・メリット・向かない場面・FAQ）。`_` で始まるファイルは公開されない
+4. `site/locales/<言語>.json` に `cxx.name` `cxx.desc` `cxx.price` `cxx.eta` `cxx.title` `cxx.meta`、入力欄・列の文言を足す
+
+- 本文ファイルとロケールがそろった言語だけ、ページが作られる（言語を足す時は `scripts/langs.json` に追加）
+- トップページ（`/`=ja、`/en/` など）は、`who` ごとにツールが並ぶ。`who` の名前は locales の `who.<キー>`
+- 共通の動きは `site/shared/tool.js`。個別の JS は書かない。`tool.json` で足りない時だけ、`tool.js` に足す（全ツールで使える形で）
+- 確認：`node scripts/build-worker.mjs` → ブラウザでサンプル表示 → 実APIを1回だけ

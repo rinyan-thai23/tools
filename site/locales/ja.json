@@ -44,5 +44,22 @@
   "ui.took": "かかった時間",
   "c01.count": "取得件数（上位から）",
   "c01.eta": "このツールの目安：約1〜1.5分",
-  "ui.slow_search": "ⓘ Googleの検索結果は、各リンクがいったんGoogleを経由する仕様（クリックの計測のため）に変わりました。そのため、本物のURLを確かめる分、取得に時間がかかります。"
+  "ui.slow_search": "ⓘ Googleの検索結果は、各リンクがいったんGoogleを経由する仕様（クリックの計測のため）に変わりました。そのため、本物のURLを確かめる分、取得に時間がかかります。",
+  "c01.title": "検索の上位を見る｜Google検索結果を件数・国・言語を指定して確認【無料サンプルあり】",
+  "c01.meta": "キーワードで検索したGoogleの上位（順位・タイトル・URL・ドメイン）を、件数・国・言語を指定して確認。月額なしの従量課金で、10件で約$0.004。Ahrefs・Semrush・GRCとの比較表つき。",
+  "ui.top": "トップ",
+  "who.beginner_blogger": "初心者ブロガー向け",
+  "who.asp_affiliate": "ASPアフィリエイター向け",
+  "who.local_shop": "地元の店主向け",
+  "who.freelancer_seo": "Web制作・SEO受託のフリーランス向け",
+  "who.seller": "物販（Amazon・メルカリ）の方向け",
+  "who.kindle_note": "Kindle作家・note書き向け",
+  "who.b2b_sales": "B2Bの営業担当向け",
+  "who.smb_pr": "中小企業の経営者・広報向け",
+  "who.lodging": "宿・観光業のオーナー向け",
+  "who.inbound": "インバウンド・海外向け発信者向け",
+  "who.app_dev": "個人のアプリ開発者向け",
+  "who.youtuber": "YouTuber志望の方向け",
+  "site.index_title": "DataForSEO 1機能ツール集｜SEO・検索データを1つずつ試せる",
+  "site.index_meta": "DataForSEOのAPIを、1機能ずつ画面で使えるツール集。検索順位、地図、ニュースなどを、必要な分だけ従量課金で。無料サンプルつき。"
 }

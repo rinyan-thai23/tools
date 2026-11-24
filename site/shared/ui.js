@@ -1,7 +1,7 @@
 // 画面の共通部品（文言・キー欄・国言語・表・CSV）
 import { getCreds, setCreds, clearCreds } from './api.js';
 
-export const lang = document.documentElement.lang === 'en' ? 'en' : 'ja';
+export const lang = document.documentElement.lang || 'ja';
 let L = {};
 export const t = (k, v = {}) => (L[k] || k).replace(/\{(\w+)\}/g, (_, n) => v[n] ?? '');
 
@@ -33,7 +33,7 @@ function renderKeyBox(box, referral) {
         <p class="note">${t('key.note')}</p>
         <button id="k-save">${t('key.save')}</button>
         <button id="k-clear" class="sub">${t('key.clear')}</button>
-        <p class="note"><a href="${referral || 'https://dataforseo.com/'}" target="_blank" rel="noopener${referral ? ' sponsored' : ''}">${t('key.create')}</a>${referral ? ' （' + t('key.referral') + '）' : ''} ／ <a href="/dfs-${lang}.html">${t('key.about')}</a></p>
+        <p class="note"><a href="${referral || 'https://dataforseo.com/'}" target="_blank" rel="noopener${referral ? ' sponsored' : ''}">${t('key.create')}</a>${referral ? ' （' + t('key.referral') + '）' : ''} ／ <a href="/dfs-${lang === 'ja' ? 'ja' : 'en'}.html">${t('key.about')}</a></p>
       </details>`;
     box.querySelector('#k-save').onclick = () => {
       setCreds(box.querySelector('#k-login').value.trim(), box.querySelector('#k-pass').value.trim());
@@ -46,9 +46,9 @@ function renderKeyBox(box, referral) {
 
 export async function fillMarkets(countrySel, langSel) {
   const m = await getJson('/shared/markets.json');
-  const opt = (a, d) => a.map((x) => `<option value="${x.code}" ${x.code === d ? 'selected' : ''}>${x[lang]}</option>`).join('');
-  countrySel.innerHTML = opt(m.countries, m.defaults[lang].country);
-  langSel.innerHTML = opt(m.languages, m.defaults[lang].language);
+  const opt = (a, d) => a.map((x) => `<option value="${x.code}" ${x.code === d ? 'selected' : ''}>${x[lang] || x.en}</option>`).join('');
+  countrySel.innerHTML = opt(m.countries, (m.defaults[lang] || m.defaults.en).country);
+  langSel.innerHTML = opt(m.languages, (m.defaults[lang] || m.defaults.en).language);
 }
 
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -70,7 +70,7 @@ export function downloadCsv(name, cols, rows) {
   setTimeout(() => URL.revokeObjectURL(a.href), 1000);
 }
 
-export const fmtDate = (d) => d.toLocaleString(lang === 'ja' ? 'ja-JP' : 'en-US');
+export const fmtDate = (d) => d.toLocaleString(lang);
 
 // 取得中の表示：動くバー＋経過時間＋目安。終わったら stop() で止めて、かかった秒数を返す
 export function startProgress(el, etaText) {

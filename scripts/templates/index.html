@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="{{LANG}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{TITLE}}</title>
+<!--SITE_VERIFY-->
+<meta name="description" content="{{META}}">
+<link rel="canonical" href="{{CANON}}">
+{{ALT}}
+<meta property="og:title" content="{{TITLE}}">
+<meta property="og:description" content="{{META}}">
+<link rel="stylesheet" href="/shared/style.css">
+</head>
+<body>
+<!--SITE_HEADER-->
+<span class="lang">{{SWITCH}}</span>
+<h1>{{H1}}</h1>
+<p>{{LEAD}}</p>
+<div id="keybox"></div>
+<p>{{ABOUT}}</p>
+<h2 id="tools">{{TOOLS_TITLE}}</h2>
+{{LIST}}
+<!--SITE_FOOTER-->
+<script type="module">
+import { init } from '/shared/ui.js';
+init();
+</script>
+</body>
+</html>

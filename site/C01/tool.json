@@ -1,0 +1,53 @@
+{
+  "id": "C01",
+  "endpoint": "serp/google/organic/live/advanced",
+  "who": "beginner_blogger",
+  "markets": true,
+  "slow_search": true,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keyword",
+      "label": "c01.keyword"
+    }
+  ],
+  "count": {
+    "param": "depth",
+    "options": [
+      10,
+      20,
+      30,
+      50,
+      100
+    ],
+    "label": "c01.count"
+  },
+  "result": {
+    "items": "result.0.items",
+    "where": {
+      "type": "organic"
+    },
+    "columns": [
+      {
+        "key": "rank",
+        "from": "rank_group",
+        "label": "c01.col.rank"
+      },
+      {
+        "key": "title",
+        "label": "c01.col.title"
+      },
+      {
+        "key": "url",
+        "label": "c01.col.url",
+        "link": true
+      },
+      {
+        "key": "domain",
+        "label": "c01.col.domain",
+        "transform": "strip_www"
+      }
+    ]
+  },
+  "csv": "C01.csv"
+}
