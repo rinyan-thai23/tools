@@ -12,9 +12,9 @@ export const transforms = {
   pct: (v) => (typeof v === 'number' ? Math.round(v * 1000) / 10 + '%' : v), // 0.642 → "64.2%"
   score100: (v) => (typeof v === 'number' ? Math.round(v * 100) : v), // 0.34 → 34
   clean: (v) => String(v ?? '').replace(/\u00a0/g, ' '), // 改行なしスペース → 通常のスペース
-  texts: (v) => (Array.isArray(v) ? v.map((x) => x.text).filter(Boolean).join(' ') : ''),
+  texts: (v) => (Array.isArray(v) ? v.map((x) => x.text).filter(Boolean).join(' ') : ''), // [{text}] → 本文をつなぐ
   hlevel: (v) => (v == null ? '' : 'H' + v), // 3 → "H3"
-  ym: (v) => String(v ?? '').slice(0, 7), // "2026-11-01" → "2026-11" // [{text}] → 本文をつなぐ
+  ym: (v) => String(v ?? '').slice(0, 7), // "2026-11-01" → "2026-11"
   ids: (v) => (Array.isArray(v) ? v.map((a) => a.advertiser_id).join(', ') : String(v ?? '')), // 広告主IDの配列 → "AR..., AR..."
 };
 

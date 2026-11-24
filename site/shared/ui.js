@@ -62,7 +62,7 @@ export function renderTable(el, cols, rows) {
     .join('')}</tbody></table></div>`;
 }
 
-// DataForSEO の画像（スクショ）は、キーを付けて取りに行く。取れなければ、リンクだけが残る
+// DataForSEO の画像（スクショ）は、まず直接読み込む。だめなら、キーを付けて取りに行く（ブラウザの制限で取れないこともある）。取れなければ、リンクだけが残る
 export async function loadAuthImages(el) {
   const c = getCreds();
   for (const img of el.querySelectorAll('img[data-auth-src]')) {
@@ -82,9 +82,10 @@ export async function loadAuthImages(el) {
   }
 }
 
-export function downloadCsv(name, cols, rows) {
+export function downloadCsv(name, cols, rows, more = []) {
   const q = (v) => '"' + String(v ?? '').replace(/"/g, '""') + '"';
-  const text = [cols.map((c) => q(c.label)).join(','), ...rows.map((r) => cols.map((c) => q(r[c.key])).join(','))].join('\r\n');
+  const block = (cs, rs) => [cs.map((c) => q(c.label)).join(','), ...rs.map((r) => cs.map((c) => q(r[c.key])).join(','))];
+  const text = [...block(cols, rows), ...more.flatMap((m) => ['', q(m.title), ...block(m.cols, m.rows)])].join('\r\n'); // 2つ目以降の表も、空行をはさんで続ける
   const a = document.createElement('a');
   a.href = URL.createObjectURL(new Blob(['﻿' + text], { type: 'text/csv;charset=utf-8' }));
   a.download = name; a.click();

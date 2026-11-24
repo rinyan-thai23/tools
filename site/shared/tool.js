@@ -7,7 +7,7 @@ const id = document.body.dataset.tool;
 const cfg = await fetch(`/${id}/tool.json`).then((r) => r.json());
 const key = id.toLowerCase();
 const $ = (x) => document.getElementById(x);
-let cols = [], rows = [], lookupMap = null; // lookupMap：番号→名前（result.lookup があるツールだけ）
+let cols = [], rows = [], more = [], lookupMap = null; // lookupMap：番号→名前（result.lookup があるツールだけ）
 
 function show(task, meta) {
   cols = cfg.result.columns.map((c) => ({ key: c.key, label: t(c.label), link: c.link, type: c.type }));
@@ -23,12 +23,15 @@ function show(task, meta) {
     if (cfg.result.title && rows.length) $('result').insertAdjacentHTML('afterbegin', `<h2 class="sub-title">${t(cfg.result.title)}</h2>`);
   }
   // 2つ目以降の表（result.extra）
+  more = [];
   for (const x of extractExtra(cfg, task)) {
     if (!x.rows.length) continue;
     const d = document.createElement('div');
     $('result').appendChild(d);
     x.columns.forEach((c) => { if (c.labels) x.rows.forEach((r) => { if (c.labels[r[c.key]]) r[c.key] = t(c.labels[r[c.key]]); }); });
-    renderTable(d, x.columns.map((c) => ({ key: c.key, label: t(c.label), link: c.link, type: c.type })), x.rows);
+    const xc = x.columns.map((c) => ({ key: c.key, label: t(c.label), link: c.link, type: c.type }));
+    more.push({ title: x.title ? t(x.title) : '', cols: xc, rows: x.rows });
+    renderTable(d, xc, x.rows);
     if (x.title) d.insertAdjacentHTML('afterbegin', `<h2 class="sub-title">${t(x.title)}</h2>`);
   }
   loadAuthImages($('result'));
@@ -89,5 +92,5 @@ await init();
 if (cfg.markets) await fillMarkets($('country'), $('language')); // 'country' / 'language' のときは、ない方は null
 $('run').onclick = run;
 $('sample').onclick = sample;
-$('csv').onclick = () => downloadCsv(cfg.csv || `${id}.csv`, cols, rows);
+$('csv').onclick = () => downloadCsv(cfg.csv || `${id}.csv`, cols, rows, more);
 await sample();
