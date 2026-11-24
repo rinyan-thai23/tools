@@ -17,7 +17,7 @@
   "ui.run": "Search",
   "ui.sample": "View sample",
   "ui.sample_notice": "This is a sample (fetched: {date})",
-  "ui.loading": "Loading… (can take 1–2 minutes)",
+  "ui.loading": "Fetching",
   "ui.cost": "Cost of this request",
   "ui.fetched": "Fetched at",
   "ui.csv": "Download CSV",
@@ -29,7 +29,7 @@
   "err.40102": "No results found",
   "err.busy": "The service is busy. Please wait a moment and try again",
   "err.other": "Something went wrong",
-  "c01.name": "See the top 10 search results",
+  "c01.name": "See the top search results",
   "c01.desc": "Before you write, see which sites already rank",
   "c01.keyword": "Keyword",
   "c01.col.rank": "Rank",
@@ -37,5 +37,11 @@
   "c01.col.url": "URL",
   "c01.col.domain": "Domain",
   "key.about": "What is DataForSEO?",
-  "c01.price": "Approx. cost per search: $0.004 (about 250 searches per $1). The sample view is free."
+  "c01.price": "Approx. cost: $0.004 for 10 results, $0.0055 for 20 (rises a little as the count grows). The sample view is free.",
+  "ui.elapsed": "Elapsed",
+  "ui.sec": "s",
+  "ui.retrying": "The service is busy. Retrying ({n}/3)",
+  "ui.took": "Time taken",
+  "c01.count": "Number of results (from the top)",
+  "c01.eta": "This tool can take 1–2 minutes"
 }

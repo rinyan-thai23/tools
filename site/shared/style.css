@@ -28,3 +28,8 @@ ul.tools{padding-left:1.2em}
 .seo .asof{font-size:.85rem;opacity:.7}
 .seo td.me,.seo tr.me td{background:#eff6ff;font-weight:600}
 .seo details{padding:6px 12px;margin:8px 0}
+
+.progress{border:1px solid var(--line);border-radius:8px;padding:10px 14px;margin:10px 0;font-size:.9rem}
+.progress .bar{height:6px;border-radius:3px;background:var(--line);overflow:hidden;margin-bottom:8px}
+.progress .bar i{display:block;height:100%;width:35%;background:var(--accent);border-radius:3px;animation:slide 1.2s ease-in-out infinite}
+@keyframes slide{0%{margin-left:-35%}100%{margin-left:100%}}

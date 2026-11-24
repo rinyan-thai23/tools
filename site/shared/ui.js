@@ -71,3 +71,17 @@ export function downloadCsv(name, cols, rows) {
 }
 
 export const fmtDate = (d) => d.toLocaleString(lang === 'ja' ? 'ja-JP' : 'en-US');
+
+// 取得中の表示：動くバー＋経過時間＋目安。終わったら stop() で止めて、かかった秒数を返す
+export function startProgress(el, etaText) {
+  const t0 = Date.now();
+  el.className = 'progress';
+  el.setAttribute('role', 'status');
+  el.innerHTML = `<div class="bar"><i></i></div><div><span class="state">${t('ui.loading')}</span> ／ ${t('ui.elapsed')}: <b class="sec">0</b>${t('ui.sec')} ／ ${etaText}</div>`;
+  const sec = el.querySelector('.sec');
+  const timer = setInterval(() => (sec.textContent = Math.floor((Date.now() - t0) / 1000)), 500);
+  return {
+    retry: (n) => (el.querySelector('.state').textContent = t('ui.retrying', { n })),
+    stop: () => { clearInterval(timer); el.className = ''; el.innerHTML = ''; return Math.round((Date.now() - t0) / 100) / 10; },
+  };
+}

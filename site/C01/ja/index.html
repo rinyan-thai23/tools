@@ -3,19 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>検索の上位10件を見る｜Google検索結果を国・言語別に確認【無料サンプルあり】</title>
-<meta name="description" content="キーワードで検索したGoogleの上位10件（順位・タイトル・URL・ドメイン）を、国と言語を選んで確認。月額なしの従量課金で1回約$0.004。Ahrefs・Semrush・GRCとの比較表つき。">
+<title>検索の上位を見る｜Google検索結果を件数・国・言語を指定して確認【無料サンプルあり】</title>
+<meta name="description" content="キーワードで検索したGoogleの上位（順位・タイトル・URL・ドメイン）を、件数・国・言語を指定して確認。月額なしの従量課金で、10件で約$0.004。Ahrefs・Semrush・GRCとの比較表つき。">
 <link rel="canonical" href="{{SITE_URL}}/C01/ja/">
 <link rel="alternate" hreflang="ja" href="{{SITE_URL}}/C01/ja/">
 <link rel="alternate" hreflang="en" href="{{SITE_URL}}/C01/en/">
-<meta property="og:title" content="検索の上位10件を見る｜Google検索結果を国・言語別に確認【無料サンプルあり】">
-<meta property="og:description" content="キーワードで検索したGoogleの上位10件（順位・タイトル・URL・ドメイン）を、国と言語を選んで確認。月額なしの従量課金で1回約$0.004。Ahrefs・Semrush・GRCとの比較表つき。">
+<meta property="og:title" content="検索の上位を見る｜Google検索結果を件数・国・言語を指定して確認【無料サンプルあり】">
+<meta property="og:description" content="キーワードで検索したGoogleの上位（順位・タイトル・URL・ドメイン）を、件数・国・言語を指定して確認。月額なしの従量課金で、10件で約$0.004。Ahrefs・Semrush・GRCとの比較表つき。">
 <link rel="stylesheet" href="/shared/style.css">
 </head>
 <body>
 <a class="lang" href="/C01/en/">EN</a>
 <p><a href="/">← top</a></p>
-<h1>検索の上位10件を見る</h1>
+<h1>検索の上位を見る</h1>
 <p>書く前に、上位にどんなサイトがいるか見る</p>
 <p class="note" data-i18n="c01.price"></p>
 <div id="keybox"></div>
@@ -24,6 +24,7 @@
   <label><span data-i18n="ui.country"></span><select id="country"></select></label>
   <label><span data-i18n="ui.language"></span><select id="language"></select></label>
 </div>
+<label><span data-i18n="c01.count"></span><select id="count"><option>10</option><option>20</option><option>30</option><option>50</option><option>100</option></select></label>
 <button id="run" data-i18n="ui.run"></button>
 <button id="sample" class="sub" data-i18n="ui.sample"></button>
 <p id="msg"></p>
@@ -32,13 +33,13 @@
 <button id="csv" class="sub" data-i18n="ui.csv" hidden></button>
 
 <section class="seo">
-<h2>検索の上位10件を見る方法と、主なツールの比較</h2>
-<p>ブログを書く前に、同じキーワードで<strong>すでに上位にいるサイト</strong>を見ておくと、「どんな記事が求められているか」が分かります。上位10件の確認には、いくつか方法があります。</p>
+<h2>検索の上位を見る方法と、主なツールの比較</h2>
+<p>ブログを書く前に、同じキーワードで<strong>すでに上位にいるサイト</strong>を見ておくと、「どんな記事が求められているか」が分かります。上位の確認には、いくつか方法があります。</p>
 <div class="scroll"><table>
 <thead><tr><th>方法・ツール</th><th>提供</th><th>料金の考え方</th><th>特徴</th></tr></thead>
 <tbody>
-<tr class="me"><td>このツール（DataForSEO）</td><td>—</td><td>1回ごとの従量課金。1回 約$0.004（$1で約250回）</td><td>国と言語を選べる。結果をCSVで保存できる。月額なし</td></tr>
-<tr><td>Ahrefs 無料SERPチェッカー</td><td>海外</td><td>無料（公式に「登録不要」と記載）</td><td>上位10件を国別に見られる。くわしい指標は有料版</td></tr>
+<tr class="me"><td>このツール（DataForSEO）</td><td>—</td><td>1回ごとの従量課金。10件で約$0.004（$1で約250回）。件数が増えると少しずつ加算</td><td>件数・国・言語を指定できる。結果をCSVで保存できる。月額なし</td></tr>
+<tr><td>Ahrefs 無料SERPチェッカー</td><td>海外</td><td>無料（公式に「登録不要」と記載）</td><td>上位10件を国別に見られる（件数は固定）。くわしい指標は有料版</td></tr>
 <tr><td>Ahrefs・Semrush の有料版</td><td>海外</td><td>月額制。たとえばSemrush Proは約$139.95／月（第三者の掲載情報）</td><td>順位・難易度・被リンクまで一式そろう。本格運用向き</td></tr>
 <tr><td>GRC</td><td>日本</td><td>基本無料、有料版あり</td><td>PCに入れて、自分のサイトの順位を自動で記録する</td></tr>
 <tr><td>Nobilista（ノビリスタ）</td><td>日本</td><td>公式サイトで確認</td><td>検索順位の計測が中心</td></tr>
@@ -49,6 +50,7 @@
 <h2>このツールのメリット</h2>
 <ul>
 <li><strong>使った分だけ払う。</strong>月額の固定費がありません。「たまに調べる」人でも、ムダが出にくい形です。</li>
+<li><strong>必要な件数だけ取得できる。</strong>10件・20件・30件・50件・100件から選べます。</li>
 <li><strong>国と言語を選べる。</strong>日本向けの記事なら日本・日本語、海外向けなら米国・英語など、読者がいる場所の結果を見られます。</li>
 <li><strong>CSVで保存できる。</strong>順位・タイトル・URL・ドメインを、表のまま持ち帰れます。</li>
 <li><strong>先に無料でイメージが分かる。</strong>サンプル表示は無料で、アカウントなしでも見られます。</li>
@@ -61,12 +63,12 @@
 <li>キーワードの難易度や被リンクまで、まとめて分析したい → AhrefsやSemrushのような<strong>総合SEOツール</strong>が向いています。</li>
 <li>上位10件をたまに見るだけで、準備に手間をかけたくない → Ahrefsの無料SERPチェッカーも手軽です。</li>
 </ul>
-<p>このツールは、「上位10件の順位・タイトル・URL・ドメインを、必要なときだけ、国と言語を選んで見る」ことに絞っています。</p>
+<p>このツールは、「上位の順位・タイトル・URL・ドメインを、必要な件数だけ、国と言語を選んで見る」ことに絞っています。</p>
 
 <h2>よくある質問</h2>
-<details><summary>1回いくらかかりますか？</summary><p>1回の検索で約$0.004です（$1で約250回）。実際に使った料金は、結果の下に表示されます。</p></details>
+<details><summary>1回いくらかかりますか？</summary><p>10件で約$0.004です（$1で約250回）。20件では約$0.0055でした。件数を増やすと、料金が少しずつ増えます。実際に使った料金は、結果の下に表示されます。</p></details>
 <details><summary>無料で試せますか？</summary><p>サンプル表示は無料です。実際の検索にはDataForSEOのアカウントが必要で、新規登録時に少額の無料クレジットがもらえると公式に案内されています（条件は公式サイトで確認してください）。</p></details>
-<details><summary>なぜ結果が出るまで時間がかかるのですか？</summary><p>Googleの検索結果をその場で取得して、リンクを本来のURLに直しているため、1〜2分かかることがあります。</p></details>
+<details><summary>なぜ結果が出るまで時間がかかるのですか？</summary><p>Googleの検索結果をその場で取得して、リンクを本来のURLに直しているため、1〜2分かかることがあります。件数が多いほど長くなります。取得中は、経過時間が画面に出ます。</p></details>
 <details><summary>自分のブラウザで検索した結果と違うのはなぜですか？</summary><p>検索結果は、場所・端末・検索履歴・時間帯で少しずつ変わります。このツールは、指定した国と言語での結果を取得します。取るたびに順位が少し動くこともあります。</p></details>
 <details><summary>フリーメールで登録できますか？</summary><p>DataForSEOは、フリーメールでは登録できません。くわしくは<a href="/dfs-ja.html">DataForSEOとは？</a>をご覧ください。</p></details>
 </section>

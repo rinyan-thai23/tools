@@ -1,6 +1,6 @@
 // C01: serp/google/organic/live/advanced
 import { callApi, ApiError } from '/shared/api.js';
-import { init, t, fillMarkets, renderTable, downloadCsv, fmtDate } from '/shared/ui.js';
+import { init, t, fillMarkets, renderTable, downloadCsv, fmtDate, startProgress } from '/shared/ui.js';
 
 const $ = (id) => document.getElementById(id);
 let cols = [], rows = [];
@@ -24,15 +24,18 @@ function show(task, metaHtml) {
 }
 
 async function run() {
-  $('msg').className = ''; $('msg').textContent = t('ui.loading');
+  $('result').innerHTML = ''; $('meta').textContent = ''; $('csv').hidden = true;
+  $('msg').textContent = '';
   $('run').disabled = true;
+  const pg = startProgress($('msg'), t('c01.eta'));
   try {
     const { task, cost, time } = await callApi('serp/google/organic/live/advanced', {
-      keyword: $('kw').value.trim(), location_code: +$('country').value, language_code: $('language').value, depth: 10,
-    });
-    $('msg').textContent = '';
-    show(task, `${t('ui.cost')}: $${cost} ／ ${t('ui.fetched')}: ${fmtDate(time)}`);
+      keyword: $('kw').value.trim(), location_code: +$('country').value, language_code: $('language').value, depth: +$('count').value,
+    }, { onRetry: pg.retry });
+    const took = pg.stop();
+    show(task, `${t('ui.cost')}: $${cost} ／ ${t('ui.took')}: ${took}${t('ui.sec')} ／ ${t('ui.fetched')}: ${fmtDate(time)}`);
   } catch (e) {
+    pg.stop();
     $('msg').className = 'err';
     $('msg').textContent = t('err.' + (e instanceof ApiError ? e.key : 'other'));
   } finally { $('run').disabled = false; }
