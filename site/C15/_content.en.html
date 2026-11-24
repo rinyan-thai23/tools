@@ -5,8 +5,8 @@
 <thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>
 <tbody>
 <tr class="me"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.006 (measured)</td><td>One video's views, likes, comments, date and description in a row. Save as CSV</td></tr>
-<tr><td>The YouTube watch page (by hand)</td><td>Free</td><td>Always available. You see the numbers, but copy them yourself. Some videos hide like counts</td></tr>
-<tr><td>vidIQ</td><td>Free plan plus paid Boost and MAX (its pricing page lists Boost $19/month and MAX $49/month)</td><td>Video analysis screens with trends, tags and more. A channel-running tool</td></tr>
+<tr><td>The YouTube watch page (by hand)</td><td>Free</td><td>Always available. You see the numbers, but copy them yourself</td></tr>
+<tr><td>vidIQ</td><td>Free plan plus paid Boost and MAX (its pricing page lists Boost $19/month and MAX $49/month)</td><td>Has video analysis screens (see the official site for features). A channel-running tool</td></tr>
 <tr><td>YouTube Data API</td><td>Free quota (10,000 units a day); a video lookup costs 1 unit</td><td>The official API. Pull numbers at scale if you write code, with setup effort</td></tr>
 </tbody></table></div>
 <p class="asof">Checked in November 2026. Prices change — confirm on each vendor's official site before you buy.</p>
@@ -16,7 +16,7 @@
 <li><strong>Just paste the URL.</strong> A video URL or a video ID both work.</li>
 <li><strong>The description comes along.</strong> Keep the title and description next to the numbers.</li>
 <li><strong>About $0.006.</strong> About 160 lookups per $1, so you can log many videos.</li>
-<li><strong>About 7 seconds.</strong> That is what we measured.</li>
+<li><strong>A few seconds.</strong> We measured about 6–7 seconds.</li>
 <li><strong>Save as CSV.</strong> Fetch again later and compare the numbers yourself.</li>
 </ul>
 
@@ -26,12 +26,13 @@
 <li>You want <strong>numbers only the owner sees</strong>, such as revenue or audience age → they are not shown.</li>
 <li>You want <strong>channel-wide</strong> numbers → this is one video per call.</li>
 <li>You want <strong>many videos at once</strong> → one per call.</li>
+<li>You can <strong>write code</strong> → the official YouTube Data API costs 1 unit per video lookup; use it for large volumes.</li>
 </ul>
 <p>This tool does one thing: tabulate the public numbers of one video.</p>
 
 <h2>FAQ</h2>
 <details><summary>Which URL forms work?</summary><p>watch?v= links, short youtu.be links, Shorts URLs and an 11-character video ID.</p></details>
-<details><summary>Why is there no country or language selector?</summary><p>The call works from the video ID alone.</p></details>
+<details><summary>Why is there no country or language selector?</summary><p>The lookup is by video ID. We fix it to Japan and Japanese.</p></details>
 <details><summary>Can a number come back blank?</summary><p>Anything the API does not return stays blank.</p></details>
 <details><summary>Does the comment count include replies?</summary><p>We show the API's figure as is; the breakdown is not known.</p></details>
 <details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href="/dfs-en.html">What is DataForSEO?</a></p></details>

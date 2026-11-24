@@ -5,8 +5,8 @@
 <thead><tr><th>方法・ツール</th><th>料金の考え方</th><th>特徴</th></tr></thead>
 <tbody>
 <tr class="me"><td>このツール（DataForSEO）</td><td>1回ごとの従量課金。約$0.006（実測）</td><td>動画1本の再生数・高評価・コメント数・投稿日・説明文を1行に。CSVで保存できる</td></tr>
-<tr><td>YouTubeの動画ページ（手動）</td><td>無料</td><td>いつでも見られる。数字は見えるが、控えは自分で書き写す。高評価数は、非表示の動画もある</td></tr>
-<tr><td>vidIQ</td><td>無料プランと、月額制のBoost・MAXがある（公式の料金ページに、Boost 月$19、MAX 月$49の表示）</td><td>動画の分析画面で、数字の推移やタグなどを見る。チャンネル運営の道具</td></tr>
+<tr><td>YouTubeの動画ページ（手動）</td><td>無料</td><td>いつでも見られる。数字は見えるが、控えは自分で書き写す</td></tr>
+<tr><td>vidIQ</td><td>無料プランと、月額制のBoost・MAXがある（公式の料金ページに、Boost 月$19、MAX 月$49の表示）</td><td>動画の分析画面がある（機能は公式で確認）。チャンネル運営の道具</td></tr>
 <tr><td>YouTube Data API</td><td>無料の割り当て枠あり（1日10,000ポイント）。動画の情報は1回1ポイント</td><td>公式のAPI。プログラムを書けば、数字を大量に取れる。準備に手間がかかる</td></tr>
 </tbody></table></div>
 <p class="asof">2026年11月時点の調べです。料金は変わるので、申し込む前に各社の公式サイトで確認してください。</p>
@@ -16,7 +16,7 @@
 <li><strong>URLを貼るだけ。</strong>動画のURLでも、動画IDでも入れられます。</li>
 <li><strong>説明文まで一緒に取れる。</strong>タイトルと説明文を、数字と並べて控えられます。</li>
 <li><strong>約$0.006。</strong>$1で約160回。気になる動画を何本も控えられます。</li>
-<li><strong>約7秒で返る。</strong>実測は約7秒でした。</li>
+<li><strong>数秒で返る。</strong>実測は約6〜7秒でした。</li>
 <li><strong>CSVで残せる。</strong>日付を変えて取り直せば、数字の変化を自分で比べられます。</li>
 </ul>
 
@@ -26,12 +26,13 @@
 <li><strong>収益や視聴者の年齢</strong>など、投稿者だけが見られる数字 → このツールには出ません。</li>
 <li><strong>チャンネル全体</strong>の数字 → 動画1本ごとの結果です。</li>
 <li>複数の動画をまとめて取りたい → 1回に1本です。</li>
+<li><strong>プログラムが書ける</strong> → 公式のYouTube Data APIなら、動画の情報は1回1ポイントで取れます。大量に取るなら、そちらが向きます。</li>
 </ul>
 <p>このツールは、「動画1本の、公開されている数字」を表にすることに絞っています。</p>
 
 <h2>よくある質問</h2>
 <details><summary>動画のURLは、どの形でも使えますか？</summary><p>watch?v=の形、youtu.beの短い形、ショートのURL、動画ID（11文字）に対応しています。</p></details>
-<details><summary>国と言語を選ぶ欄がないのはなぜですか？</summary><p>動画のIDだけで動くためです。</p></details>
+<details><summary>国と言語を選ぶ欄がないのはなぜですか？</summary><p>動画のIDで引くためです。日本・日本語で固定して取っています。</p></details>
 <details><summary>数字が空になることはありますか？</summary><p>APIが返さなかった項目は、空のまま出します。</p></details>
 <details><summary>「コメント数」は、返信も含みますか？</summary><p>APIが返した数字をそのまま出しています。内訳は分かりません。</p></details>
 <details><summary>フリーメールで登録できますか？</summary><p>DataForSEOは、フリーメールでは登録できません。くわしくは<a href="/dfs-ja.html">DataForSEOとは？</a>をご覧ください。</p></details>
