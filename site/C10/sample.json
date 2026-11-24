@@ -1,0 +1,46 @@
+{
+ "keyword": "ラーメン",
+ "fetched_at": "2026-11",
+ "tasks": [
+  {
+   "cost": 0.002,
+   "time": "1.7442 sec.",
+   "result": [
+    {
+     "items": [
+      {
+       "type": "ads_advertiser",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "title": "ラーメン・つけめん刻々",
+       "advertiser_id": "AR01097705825956265985",
+       "location": "JP",
+       "verified": true,
+       "approx_ads_count": 33
+      },
+      {
+       "type": "ads_advertiser",
+       "rank_group": 2,
+       "rank_absolute": 2,
+       "title": "有限会社豚とろラーメン",
+       "advertiser_id": "AR01332092774098403329",
+       "location": "JP",
+       "verified": true,
+       "approx_ads_count": 6
+      },
+      {
+       "type": "ads_advertiser",
+       "rank_group": 3,
+       "rank_absolute": 3,
+       "title": "赤龍ラーメン",
+       "advertiser_id": "AR05837064798138793985",
+       "location": "JP",
+       "verified": false,
+       "approx_ads_count": 2
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

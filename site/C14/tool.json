@@ -1,0 +1,63 @@
+{
+  "id": "C14",
+  "endpoint": "serp/youtube/organic/live/advanced",
+  "who": "youtuber",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keyword",
+      "label": "c14.keyword"
+    }
+  ],
+  "count": {
+    "param": "block_depth",
+    "options": [
+      20,
+      50,
+      100
+    ],
+    "label": "c14.count"
+  },
+  "result": {
+    "items": "result.0.items",
+    "where": {
+      "type": "youtube_video"
+    },
+    "columns": [
+      {
+        "key": "rank",
+        "label": "c14.col.rank",
+        "from": "rank_group"
+      },
+      {
+        "key": "title",
+        "label": "c14.col.title",
+        "link": false
+      },
+      {
+        "key": "channel",
+        "label": "c14.col.channel",
+        "from": "channel_name"
+      },
+      {
+        "key": "views",
+        "label": "c14.col.views",
+        "from": "views_count"
+      },
+      {
+        "key": "posted",
+        "label": "c14.col.posted",
+        "from": "timestamp",
+        "transform": "date"
+      },
+      {
+        "key": "duration",
+        "label": "c14.col.duration",
+        "from": "duration_time"
+      }
+    ]
+  },
+  "csv": "C14.csv"
+}

@@ -48,8 +48,8 @@ function renderKeyBox(box, referral) {
 export async function fillMarkets(countrySel, langSel) {
   const m = await getJson('/shared/markets.json');
   const opt = (a, d) => a.map((x) => `<option value="${x.code}" ${x.code === d ? 'selected' : ''}>${x[lang] || x.en}</option>`).join('');
-  countrySel.innerHTML = opt(m.countries, (m.defaults[lang] || m.defaults.en).country);
-  langSel.innerHTML = opt(m.languages, (m.defaults[lang] || m.defaults.en).language);
+  if (countrySel) countrySel.innerHTML = opt(m.countries, (m.defaults[lang] || m.defaults.en).country);
+  if (langSel) langSel.innerHTML = opt(m.languages, (m.defaults[lang] || m.defaults.en).language);
 }
 
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));

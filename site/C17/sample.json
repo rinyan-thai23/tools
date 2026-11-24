@@ -1,0 +1,196 @@
+{
+ "keyword": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+ "fetched_at": "2026-11",
+ "tasks": [
+  {
+   "cost": 0.006,
+   "time": "5.2009 sec.",
+   "result": [
+    {
+     "items": [
+      {
+       "type": "youtube_subtitles",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "text": "[♪♪♪]",
+       "start_time": 1.36,
+       "end_time": 3.04,
+       "duration_time": 1.68
+      },
+      {
+       "type": "youtube_subtitles",
+       "rank_group": 2,
+       "rank_absolute": 2,
+       "text": "♪ We're no strangers to love ♪",
+       "start_time": 18.64,
+       "end_time": 21.88,
+       "duration_time": 3.24
+      },
+      {
+       "type": "youtube_subtitles",
+       "rank_group": 3,
+       "rank_absolute": 3,
+       "text": "♪ You know the rules\nand so do I ♪",
+       "start_time": 22.64,
+       "end_time": 26.96,
+       "duration_time": 4.32
+      },
+      {
+       "type": "youtube_subtitles",
+       "rank_group": 4,
+       "rank_absolute": 4,
+       "text": "♪ A full commitment's\nwhat I'm thinking of ♪",
+       "start_time": 27.04,
+       "end_time": 31.04,
+       "duration_time": 4
+      },
+      {
+       "type": "youtube_subtitles",
+       "rank_group": 5,
+       "rank_absolute": 5,
+       "text": "♪ You wouldn't get this\nfrom any other guy ♪",
+       "start_time": 31.12,
+       "end_time": 35.08,
+       "duration_time": 3.96
+      },
+      {
+       "type": "youtube_subtitles",
+       "rank_group": 6,
+       "rank_absolute": 6,
+       "text": "♪ I just wanna tell you\nhow I'm feeling ♪",
+       "start_time": 35.16,
+       "end_time": 39.52,
+       "duration_time": 4.36
+      },
+      {
+       "type": "youtube_subtitles",
+       "rank_group": 7,
+       "rank_absolute": 7,
+       "text": "♪ Gotta make you understand ♪",
+       "start_time": 40.52,
+       "end_time": 42.92,
+       "duration_time": 2.4
+      },
+      {
+       "type": "youtube_subtitles",
+       "rank_group": 8,
+       "rank_absolute": 8,
+       "text": "♪ Never gonna give you up ♪",
+       "start_time": 43,
+       "end_time": 45.12,
+       "duration_time": 2.12
+      },
+      {
+       "type": "youtube_subtitles",
+       "rank_group": 9,
+       "rank_absolute": 9,
+       "text": "♪ Never gonna let you down ♪",
+       "start_time": 45.2,
+       "end_time": 47.08,
+       "duration_time": 1.88
+      },
+      {
+       "type": "youtube_subtitles",
+       "rank_group": 10,
+       "rank_absolute": 10,
+       "text": "♪ Never gonna run around\nand desert you ♪",
+       "start_time": 47.32,
+       "end_time": 51.12,
+       "duration_time": 3.8
+      },
+      {
+       "type": "youtube_subtitles",
+       "rank_group": 11,
+       "rank_absolute": 11,
+       "text": "♪ Never gonna make you cry ♪",
+       "start_time": 51.48,
+       "end_time": 53.48,
+       "duration_time": 2
+      },
+      {
+       "type": "youtube_subtitles",
+       "rank_group": 12,
+       "rank_absolute": 12,
+       "text": "♪ Never gonna say goodbye ♪",
+       "start_time": 53.6,
+       "end_time": 55.52,
+       "duration_time": 1.92
+      },
+      {
+       "type": "youtube_subtitles",
+       "rank_group": 13,
+       "rank_absolute": 13,
+       "text": "♪ Never gonna tell a lie\nand hurt you ♪",
+       "start_time": 55.72,
+       "end_time": 59.36,
+       "duration_time": 3.64
+      },
+      {
+       "type": "youtube_subtitles",
+       "rank_group": 14,
+       "rank_absolute": 14,
+       "text": "♪ We've known each other\nfor so long ♪",
+       "start_time": 60.8,
+       "end_time": 64.8,
+       "duration_time": 4
+      },
+      {
+       "type": "youtube_subtitles",
+       "rank_group": 15,
+       "rank_absolute": 15,
+       "text": "♪ Your heart's been aching\nbut you're too shy to say it ♪",
+       "start_time": 64.88,
+       "end_time": 69.04,
+       "duration_time": 4.16
+      },
+      {
+       "type": "youtube_subtitles",
+       "rank_group": 16,
+       "rank_absolute": 16,
+       "text": "♪ Inside we both know\nwhat's been going ♪",
+       "start_time": 69.12,
+       "end_time": 72.96,
+       "duration_time": 3.84
+      },
+      {
+       "type": "youtube_subtitles",
+       "rank_group": 17,
+       "rank_absolute": 17,
+       "text": "♪ We know the game\nand we're gonna play it ♪",
+       "start_time": 73.36,
+       "end_time": 77.2,
+       "duration_time": 3.84
+      },
+      {
+       "type": "youtube_subtitles",
+       "rank_group": 18,
+       "rank_absolute": 18,
+       "text": "♪ And if you ask me\nhow I'm feeling ♪",
+       "start_time": 77.4,
+       "end_time": 82.04,
+       "duration_time": 4.64
+      },
+      {
+       "type": "youtube_subtitles",
+       "rank_group": 19,
+       "rank_absolute": 19,
+       "text": "♪ Don't tell me\nyou're too blind to see ♪",
+       "start_time": 82.4,
+       "end_time": 85.24,
+       "duration_time": 2.84
+      },
+      {
+       "type": "youtube_subtitles",
+       "rank_group": 20,
+       "rank_absolute": 20,
+       "text": "♪ Never gonna give you up ♪",
+       "start_time": 85.32,
+       "end_time": 87.28,
+       "duration_time": 1.96
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

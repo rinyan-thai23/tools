@@ -1,0 +1,206 @@
+{
+ "keyword": "nike.com",
+ "fetched_at": "2026-11",
+ "tasks": [
+  {
+   "cost": 0.002,
+   "time": "1.4452 sec.",
+   "result": [
+    {
+     "items": [
+      {
+       "type": "ads_search",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "advertiser_id": "AR14612997888104464385",
+       "creative_id": "CR17613066113824849921",
+       "title": "NIKE GLOBAL TRADING B.V. SINGAPORE BRANCH",
+       "url": "https://adstransparency.google.com/advertiser/AR14612997888104464385/creative/CR17613066113824849921?region=JP",
+       "verified": true,
+       "format": "text",
+       "preview_image": {
+        "url": "https://tpc.googlesyndication.com/archive/simgad/2682295235976222046",
+        "height": 256,
+        "width": 348
+       },
+       "preview_url": null,
+       "first_shown": "2022-11-15 09:05:34 +00:00",
+       "last_shown": "2026-11-24 04:54:49 +00:00"
+      },
+      {
+       "type": "ads_search",
+       "rank_group": 2,
+       "rank_absolute": 2,
+       "advertiser_id": "AR01437837420136497153",
+       "creative_id": "CR06301834745521111041",
+       "title": "株式会社ナイキジャパン",
+       "url": "https://adstransparency.google.com/advertiser/AR01437837420136497153/creative/CR06301834745521111041?region=JP",
+       "verified": true,
+       "format": "text",
+       "preview_image": {
+        "url": "https://tpc.googlesyndication.com/archive/simgad/1396046045366977989",
+        "height": 301,
+        "width": 348
+       },
+       "preview_url": null,
+       "first_shown": "2022-11-27 08:00:00 +00:00",
+       "last_shown": "2026-11-24 04:51:15 +00:00"
+      },
+      {
+       "type": "ads_search",
+       "rank_group": 3,
+       "rank_absolute": 3,
+       "advertiser_id": "AR01437837420136497153",
+       "creative_id": "CR00967001827880992769",
+       "title": "株式会社ナイキジャパン",
+       "url": "https://adstransparency.google.com/advertiser/AR01437837420136497153/creative/CR00967001827880992769?region=JP",
+       "verified": true,
+       "format": "text",
+       "preview_image": {
+        "url": "https://tpc.googlesyndication.com/archive/simgad/4754669559605783843",
+        "height": 112,
+        "width": 360
+       },
+       "preview_url": null,
+       "first_shown": "2026-10-01 03:45:09 +00:00",
+       "last_shown": "2026-11-24 04:50:31 +00:00"
+      },
+      {
+       "type": "ads_search",
+       "rank_group": 4,
+       "rank_absolute": 4,
+       "advertiser_id": "AR16832577870747402241",
+       "creative_id": "CR12250047207016759297",
+       "title": "NIKE GLOBAL TRADING B.V. SINGAPORE BRANCH",
+       "url": "https://adstransparency.google.com/advertiser/AR16832577870747402241/creative/CR12250047207016759297?region=JP",
+       "verified": true,
+       "format": "text",
+       "preview_image": {
+        "url": "https://tpc.googlesyndication.com/archive/simgad/5328932207211635007",
+        "height": 517,
+        "width": 348
+       },
+       "preview_url": null,
+       "first_shown": "2022-10-12 04:33:29 +00:00",
+       "last_shown": "2026-11-24 04:50:06 +00:00"
+      },
+      {
+       "type": "ads_search",
+       "rank_group": 5,
+       "rank_absolute": 5,
+       "advertiser_id": "AR14612997888104464385",
+       "creative_id": "CR08705403447723163649",
+       "title": "NIKE GLOBAL TRADING B.V. SINGAPORE BRANCH",
+       "url": "https://adstransparency.google.com/advertiser/AR14612997888104464385/creative/CR08705403447723163649?region=JP",
+       "verified": true,
+       "format": "text",
+       "preview_image": {
+        "url": "https://tpc.googlesyndication.com/archive/simgad/1274710524597718502",
+        "height": 480,
+        "width": 364
+       },
+       "preview_url": null,
+       "first_shown": "2022-11-15 07:49:56 +00:00",
+       "last_shown": "2026-11-24 04:19:41 +00:00"
+      },
+      {
+       "type": "ads_search",
+       "rank_group": 6,
+       "rank_absolute": 6,
+       "advertiser_id": "AR03005330488370921473",
+       "creative_id": "CR12808325747848511489",
+       "title": "NIKE GLOBAL TRADING B.V. SINGAPORE BRANCH",
+       "url": "https://adstransparency.google.com/advertiser/AR03005330488370921473/creative/CR12808325747848511489?region=JP",
+       "verified": true,
+       "format": "text",
+       "preview_image": {
+        "url": "https://tpc.googlesyndication.com/archive/simgad/5634130437455221141",
+        "height": 164,
+        "width": 348
+       },
+       "preview_url": null,
+       "first_shown": "2023-11-10 04:57:32 +00:00",
+       "last_shown": "2026-11-24 04:11:51 +00:00"
+      },
+      {
+       "type": "ads_search",
+       "rank_group": 7,
+       "rank_absolute": 7,
+       "advertiser_id": "AR01437837420136497153",
+       "creative_id": "CR06970273854555947009",
+       "title": "株式会社ナイキジャパン",
+       "url": "https://adstransparency.google.com/advertiser/AR01437837420136497153/creative/CR06970273854555947009?region=JP",
+       "verified": true,
+       "format": "text",
+       "preview_image": {
+        "url": "https://tpc.googlesyndication.com/archive/simgad/15834856486315442665",
+        "height": 204,
+        "width": 348
+       },
+       "preview_url": null,
+       "first_shown": "2025-01-08 01:31:20 +00:00",
+       "last_shown": "2026-11-24 04:08:38 +00:00"
+      },
+      {
+       "type": "ads_search",
+       "rank_group": 9,
+       "rank_absolute": 9,
+       "advertiser_id": "AR18378488041124659201",
+       "creative_id": "CR05322749843196608513",
+       "title": "Nike Retail BV",
+       "url": "https://adstransparency.google.com/advertiser/AR18378488041124659201/creative/CR05322749843196608513?region=JP",
+       "verified": true,
+       "format": "video",
+       "preview_image": {
+        "url": null,
+        "height": null,
+        "width": null
+       },
+       "preview_url": "https://displayads-formats.googleusercontent.com/ads/preview/content.js?client=ads-integrity-transparency&obfuscatedCustomerId=2184446600&creativeId=676242067586&uiFeatures=12,54&adGroupId=160003220811&allowedVariations=62&overlay=%3DH4sIAAAAAAAAAPP6ysgllpiSklmSmZ-XmBOcmliUnOGY4pJYkih0i1HpOuMtpsuMXAFc4n6Z2akKwSX5RakK3pl56erFCs5F-cXFBssO2XgwRbS5zGJU5WhoaHiwbcOyB38YBeZzSsznVGBUYFcQU2BT4FVgUuBR4FIQVzBcyjhrZqWDUCZXOhdXWGZxZokCyGQh7aDEzOJUhcr80iKF9MTcVIXEEggnLzWxKLUYogpiv54Ul09qYlGeQm5-UaoWb3l5uV5eZnaqXnJ-rn6RINQR1w5-ZhTYwCmxgVNJpLggv6gkMy89Pj0_P6U4vhhkCADj1xvq-AAAAA&sig=ACiVB_y1JiIvzmAXK4Az3R0EnBl50Cyopw&htmlParentId=fletch-render-16496024548920336462&responseCallback=fletchCallback16496024548920336462",
+       "first_shown": "2023-10-05 16:38:30 +00:00",
+       "last_shown": "2026-11-24 03:20:50 +00:00"
+      },
+      {
+       "type": "ads_search",
+       "rank_group": 13,
+       "rank_absolute": 13,
+       "advertiser_id": "AR03005330488370921473",
+       "creative_id": "CR03652366967915937793",
+       "title": "NIKE GLOBAL TRADING B.V. SINGAPORE BRANCH",
+       "url": "https://adstransparency.google.com/advertiser/AR03005330488370921473/creative/CR03652366967915937793?region=JP",
+       "verified": true,
+       "format": "image",
+       "preview_image": {
+        "url": "https://tpc.googlesyndication.com/archive/simgad/9370985544729092570",
+        "height": 130,
+        "width": 300
+       },
+       "preview_url": null,
+       "first_shown": "2023-11-11 13:50:14 +00:00",
+       "last_shown": "2026-11-24 02:11:04 +00:00"
+      },
+      {
+       "type": "ads_search",
+       "rank_group": 20,
+       "rank_absolute": 20,
+       "advertiser_id": "AR03005330488370921473",
+       "creative_id": "CR12521063766562963457",
+       "title": "NIKE GLOBAL TRADING B.V. SINGAPORE BRANCH",
+       "url": "https://adstransparency.google.com/advertiser/AR03005330488370921473/creative/CR12521063766562963457?region=JP",
+       "verified": true,
+       "format": "image",
+       "preview_image": {
+        "url": "https://tpc.googlesyndication.com/archive/simgad/15753714444997125718",
+        "height": 422,
+        "width": 734
+       },
+       "preview_url": null,
+       "first_shown": "2023-11-11 02:48:17 +00:00",
+       "last_shown": "2026-11-24 01:00:42 +00:00"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

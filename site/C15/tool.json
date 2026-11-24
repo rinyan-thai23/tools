@@ -1,0 +1,58 @@
+{
+  "id": "C15",
+  "endpoint": "serp/youtube/video_info/live/advanced",
+  "who": "youtuber",
+  "markets": false,
+  "slow_search": false,
+  "min_sample_rows": 1,
+  "inputs": [
+    {
+      "id": "video",
+      "param": "video_id",
+      "label": "c15.video",
+      "transform": "video_id"
+    }
+  ],
+  "params": {
+    "location_code": 2392,
+    "language_code": "ja"
+  },
+  "result": {
+    "items": "result.0.items",
+    "where": {
+      "type": "youtube_video_info"
+    },
+    "columns": [
+      {
+        "key": "title",
+        "label": "c15.col.title"
+      },
+      {
+        "key": "views",
+        "label": "c15.col.views",
+        "from": "views_count"
+      },
+      {
+        "key": "likes",
+        "label": "c15.col.likes",
+        "from": "likes_count"
+      },
+      {
+        "key": "comments",
+        "label": "c15.col.comments",
+        "from": "comments_count"
+      },
+      {
+        "key": "posted",
+        "label": "c15.col.posted",
+        "from": "timestamp",
+        "transform": "date"
+      },
+      {
+        "key": "description",
+        "label": "c15.col.description"
+      }
+    ]
+  },
+  "csv": "C15.csv"
+}

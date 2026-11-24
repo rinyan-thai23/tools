@@ -1,0 +1,57 @@
+{
+  "id": "C16",
+  "endpoint": "serp/youtube/video_comments/live/advanced",
+  "who": "seller",
+  "markets": false,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "video",
+      "param": "video_id",
+      "label": "c16.video",
+      "transform": "video_id"
+    }
+  ],
+  "params": {
+    "location_code": 2392,
+    "language_code": "ja"
+  },
+  "count": {
+    "param": "depth",
+    "options": [
+      20,
+      50,
+      100
+    ],
+    "label": "c16.count"
+  },
+  "result": {
+    "items": "result.0.items",
+    "where": {
+      "type": "youtube_comment"
+    },
+    "columns": [
+      {
+        "key": "text",
+        "label": "c16.col.text"
+      },
+      {
+        "key": "likes",
+        "label": "c16.col.likes",
+        "from": "likes_count"
+      },
+      {
+        "key": "replies",
+        "label": "c16.col.replies",
+        "from": "reply_count"
+      },
+      {
+        "key": "posted",
+        "label": "c16.col.posted",
+        "from": "timestamp",
+        "transform": "date"
+      }
+    ]
+  },
+  "csv": "C16.csv"
+}

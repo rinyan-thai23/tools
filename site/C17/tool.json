@@ -1,0 +1,41 @@
+{
+  "id": "C17",
+  "endpoint": "serp/youtube/video_subtitles/live/advanced",
+  "who": "kindle_note",
+  "markets": "language",
+  "slow_search": false,
+  "language_params": [
+    "language_code",
+    "subtitles_language"
+  ],
+  "inputs": [
+    {
+      "id": "video",
+      "param": "video_id",
+      "label": "c17.video",
+      "transform": "video_id"
+    }
+  ],
+  "params": {
+    "location_code": 2392
+  },
+  "result": {
+    "items": "result.0.items",
+    "where": {
+      "type": "youtube_subtitles"
+    },
+    "columns": [
+      {
+        "key": "time",
+        "label": "c17.col.time",
+        "from": "start_time",
+        "transform": "mmss"
+      },
+      {
+        "key": "text",
+        "label": "c17.col.text"
+      }
+    ]
+  },
+  "csv": "C17.csv"
+}

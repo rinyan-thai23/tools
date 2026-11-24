@@ -1,0 +1,51 @@
+{
+  "id": "C11",
+  "endpoint": "serp/google/ads_search/live/advanced",
+  "who": "freelancer_seo",
+  "markets": "country",
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "target",
+      "param": "target",
+      "label": "c11.target"
+    }
+  ],
+  "params": {
+    "depth": 40
+  },
+  "result": {
+    "items": "result.0.items",
+    "where": {
+      "type": "ads_search"
+    },
+    "columns": [
+      {
+        "key": "format",
+        "label": "c11.col.format"
+      },
+      {
+        "key": "preview",
+        "label": "c11.col.preview",
+        "from": "preview_image.url",
+        "type": "image"
+      },
+      {
+        "key": "advertiser",
+        "label": "c11.col.advertiser",
+        "from": "title"
+      },
+      {
+        "key": "first_shown",
+        "label": "c11.col.first_shown",
+        "transform": "date"
+      },
+      {
+        "key": "last_shown",
+        "label": "c11.col.last_shown",
+        "transform": "date"
+      }
+    ]
+  },
+  "csv": "C11.csv"
+}

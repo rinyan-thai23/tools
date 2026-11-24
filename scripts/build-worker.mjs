@@ -59,9 +59,9 @@ for (const tool of tools) {
     const L = locales[l];
     const T = (key) => esc(L[key] ?? '');
     const inputs = tool.inputs.map((i) => `<label><span data-i18n="${i.label}">${T(i.label)}</span><input id="in-${i.id}" type="text"></label>`).join('\n');
-    const markets = tool.markets
-      ? `<div class="row">\n  <label><span data-i18n="ui.country">${T('ui.country')}</span><select id="country"></select></label>\n  <label><span data-i18n="ui.language">${T('ui.language')}</span><select id="language"></select></label>\n</div>`
-      : '';
+    const cSel = `<label><span data-i18n="ui.country">${T('ui.country')}</span><select id="country"></select></label>`;
+    const lSel = `<label><span data-i18n="ui.language">${T('ui.language')}</span><select id="language"></select></label>`;
+    const markets = tool.markets === 'country' ? cSel : tool.markets === 'language' ? lSel : tool.markets ? `<div class="row">\n  ${cSel}\n  ${lSel}\n</div>` : '';
     const count = tool.count
       ? `<label><span data-i18n="${tool.count.label}">${T(tool.count.label)}</span><select id="count">${tool.count.options.map((o) => `<option>${o}</option>`).join('')}</select></label>`
       : '';

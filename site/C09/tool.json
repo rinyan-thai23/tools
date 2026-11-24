@@ -1,0 +1,47 @@
+{
+  "id": "C09",
+  "endpoint": "serp/google/dataset_search/live/advanced",
+  "who": "kindle_note",
+  "markets": false,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keyword",
+      "label": "c09.keyword"
+    }
+  ],
+  "params": {
+    "depth": 20
+  },
+  "result": {
+    "items": "result.0.items",
+    "where": {
+      "type": "dataset"
+    },
+    "columns": [
+      {
+        "key": "title",
+        "label": "c09.col.title"
+      },
+      {
+        "key": "provider",
+        "label": "c09.col.provider",
+        "from": "dataset_providers.0.title"
+      },
+      {
+        "key": "updated",
+        "label": "c09.col.updated",
+        "from": "updated_date",
+        "transform": "date"
+      },
+      {
+        "key": "url",
+        "label": "c09.col.url",
+        "from": "links.0.url",
+        "link": true
+      }
+    ]
+  },
+  "csv": "C09.csv"
+}

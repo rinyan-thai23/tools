@@ -1,6 +1,6 @@
 // 全ツール共通の動き。ツールごとの違いは site/Cxx/tool.json に書く。
 import { callApi, ApiError } from '/shared/api.js';
-import { extractRows, extractAnswer } from '/shared/rows.js';
+import { extractRows, extractAnswer, parseVideoId } from '/shared/rows.js';
 import { init, t, fillMarkets, renderTable, renderAnswer, downloadCsv, fmtDate, startProgress } from '/shared/ui.js';
 
 const id = document.body.dataset.tool;
@@ -21,8 +21,14 @@ function show(task, meta) {
 
 function params() {
   const p = { ...(cfg.params || {}) };
-  for (const i of cfg.inputs) p[i.param] = $('in-' + i.id).value.trim();
-  if (cfg.markets) { p.location_code = +$('country').value; p.language_code = $('language').value; }
+  for (const i of cfg.inputs) {
+    const v = $('in-' + i.id).value.trim();
+    if (i.transform === 'video_id') { const vid = parseVideoId(v); if (!vid) throw new ApiError('bad_video'); p[i.param] = vid; } else p[i.param] = v;
+  }
+  // markets: true=国と言語／"country"=国だけ／"language"=言語だけ（language_params に送り先の項目名）
+  if (cfg.markets === true || cfg.markets === 'country') p.location_code = +$('country').value;
+  if (cfg.markets === true) p.language_code = $('language').value;
+  if (cfg.markets === 'language') for (const k of cfg.language_params || ['language_code']) p[k] = $('language').value;
   if (cfg.count) p[cfg.count.param] = +$('count').value;
   return p;
 }
@@ -52,7 +58,7 @@ async function sample() {
 }
 
 await init();
-if (cfg.markets) await fillMarkets($('country'), $('language'));
+if (cfg.markets) await fillMarkets($('country'), $('language')); // 'country' / 'language' のときは、ない方は null
 $('run').onclick = run;
 $('sample').onclick = sample;
 $('csv').onclick = () => downloadCsv(cfg.csv || `${id}.csv`, cols, rows);

@@ -1,0 +1,48 @@
+{
+  "id": "C10",
+  "endpoint": "serp/google/ads_advertisers/live/advanced",
+  "who": "local_shop",
+  "markets": "country",
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keyword",
+      "label": "c10.keyword"
+    }
+  ],
+  "result": {
+    "items": "result.0.items",
+    "where": {
+      "type": [
+        "ads_advertiser",
+        "ads_multi_account_advertiser"
+      ]
+    },
+    "columns": [
+      {
+        "key": "title",
+        "label": "c10.col.title"
+      },
+      {
+        "key": "advertiser_id",
+        "label": "c10.col.advertiser_id",
+        "from": [
+          "advertiser_id",
+          "advertisers"
+        ],
+        "transform": "ids"
+      },
+      {
+        "key": "location",
+        "label": "c10.col.location"
+      },
+      {
+        "key": "ads_count",
+        "label": "c10.col.ads_count",
+        "from": "approx_ads_count"
+      }
+    ]
+  },
+  "csv": "C10.csv"
+}

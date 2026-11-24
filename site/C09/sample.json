@@ -1,0 +1,566 @@
+{
+ "keyword": "population japan",
+ "fetched_at": "2026-11",
+ "tasks": [
+  {
+   "cost": 0.002,
+   "time": "1.7603 sec.",
+   "result": [
+    {
+     "items": [
+      {
+       "type": "dataset",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "position": "left",
+       "xpath": null,
+       "dataset_id": "L2cvMTF4a19sOWo2bQ==",
+       "title": "Japan Population (1950-2026)",
+       "image_url": null,
+       "scholarly_citations_count": null,
+       "scholarly_articles_url": null,
+       "unique_identifier": null,
+       "related_article": null,
+       "links": [
+        {
+         "type": "link_element",
+         "title": "MACROTRENDS",
+         "description": null,
+         "url": "https://www.macrotrends.net/global-metrics/countries/jpn/japan/population",
+         "domain": "www.macrotrends.net"
+        }
+       ],
+       "dataset_providers": [
+        {
+         "type": "dataset_providers_element",
+         "title": "MACROTRENDS",
+         "url": null,
+         "domain": null
+        }
+       ],
+       "formats": [
+        {
+         "type": "formats_element",
+         "format": "html",
+         "size": null
+        }
+       ],
+       "authors": null,
+       "licenses": [
+        {
+         "type": "licenses_element",
+         "title": "Attribution 4.0 (CC BY 4.0)",
+         "url": "https://creativecommons.org/licenses/by/4.0/",
+         "domain": "creativecommons.org"
+        }
+       ],
+       "updated_date": "2026-01-01 00:00:00 +00:00",
+       "area_covered": [
+        "Japan"
+       ],
+       "period_covered": {
+        "start_date": "1950-01-01 00:00:00 +00:00",
+        "end_date": "2026-01-01 00:00:00 +00:00",
+        "displayed_date": "Jan 1, 1950 - Jan 1, 2026"
+       },
+       "dataset_description": {
+        "text": "Historical dataset showing total population for Japan by year from 1950 to 2026.\n",
+        "links": null
+       }
+      },
+      {
+       "type": "dataset",
+       "rank_group": 2,
+       "rank_absolute": 2,
+       "position": "left",
+       "xpath": null,
+       "dataset_id": "L2cvMTFwd2Y0dmJ4ZA==",
+       "title": "Japan population 2026",
+       "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRBXuR7KCRit40-2BLJTMwtv2HlB-sCXspJThlFVrw7Py-oQeHI",
+       "scholarly_citations_count": null,
+       "scholarly_articles_url": null,
+       "unique_identifier": null,
+       "related_article": null,
+       "links": [
+        {
+         "type": "link_element",
+         "title": "International",
+         "description": null,
+         "url": "https://www.statista.com/statistics/263746/total-population-in-japan/",
+         "domain": "www.statista.com"
+        }
+       ],
+       "dataset_providers": [
+        {
+         "type": "dataset_providers_element",
+         "title": "Statista",
+         "url": "https://statista.com/",
+         "domain": "statista.com"
+        }
+       ],
+       "formats": null,
+       "authors": [
+        {
+         "type": "authors_element",
+         "name": "Statista Research Department",
+         "url": null,
+         "domain": null
+        }
+       ],
+       "licenses": null,
+       "updated_date": "2026-04-16 00:00:00 +00:00",
+       "area_covered": [
+        "Japan"
+       ],
+       "period_covered": null,
+       "dataset_description": {
+        "text": "In 2026, the population of Japan was approximately 122.7 million, compared with 116.8 million in 1980. Total population in Japan From steadily low fertility rates to a growing elderly population, it is no secret that Japan’s population is shrinking. Population growth rates jump around a little, but are currently following a declining trend. The post-war baby boom generation is now in the 65-and-over age group, and the percentage of the population in that category is expected to keep growing, as is indicated by a high median age and high life expectancy. Japan already has the highest percentage of its population over 65 in the world, and the aging population puts some pressure on the Japanese government to provide welfare services for more people as rising numbers leave the workforce. However, the amount of jobs opened up for the younger generations by the older generations leaving the workforce means that unemployment is kept to a minimum. Despite a jump in unemployment after the global recession hit in 2008, rates were almost back to pre-recession rates by 2013. Another factor affecting Japan is the number of emigrants to other countries. The United States absorbs a number of emigrants worldwide, so despite a stagnating birth rate, the U.S. has seen a steady rise in population.\n",
+        "links": null
+       }
+      },
+      {
+       "type": "dataset",
+       "rank_group": 3,
+       "rank_absolute": 3,
+       "position": "left",
+       "xpath": null,
+       "dataset_id": "L2cvMTFxbDFqcGZzcA==",
+       "title": "Japan Population",
+       "image_url": null,
+       "scholarly_citations_count": 3,
+       "scholarly_articles_url": "https://scholar.google.com/scholar?q=%22tradingeconomics%20com%20japan%20population%22",
+       "unique_identifier": null,
+       "related_article": null,
+       "links": [
+        {
+         "type": "link_element",
+         "title": "TRADING ECONOMICS",
+         "description": null,
+         "url": "https://tradingeconomics.com/japan/population",
+         "domain": "tradingeconomics.com"
+        },
+        {
+         "type": "link_element",
+         "title": "TRADING ECONOMICS",
+         "description": null,
+         "url": "https://pl.tradingeconomics.com/japan/population",
+         "domain": "pl.tradingeconomics.com"
+        },
+        {
+         "type": "link_element",
+         "title": "TRADING ECONOMICS",
+         "description": null,
+         "url": "https://de.tradingeconomics.com/japan/population",
+         "domain": "de.tradingeconomics.com"
+        },
+        {
+         "type": "link_element",
+         "title": "TRADING ECONOMICS",
+         "description": null,
+         "url": "https://ko.tradingeconomics.com/japan/population",
+         "domain": "ko.tradingeconomics.com"
+        },
+        {
+         "type": "link_element",
+         "title": "TRADING ECONOMICS",
+         "description": null,
+         "url": "https://fr.tradingeconomics.com/japan/population",
+         "domain": "fr.tradingeconomics.com"
+        },
+        {
+         "type": "link_element",
+         "title": "TRADING ECONOMICS",
+         "description": null,
+         "url": "https://ar.tradingeconomics.com/japan/population",
+         "domain": "ar.tradingeconomics.com"
+        },
+        {
+         "type": "link_element",
+         "title": "TRADING ECONOMICS",
+         "description": null,
+         "url": "https://pt.tradingeconomics.com/japan/population",
+         "domain": "pt.tradingeconomics.com"
+        },
+        {
+         "type": "link_element",
+         "title": "TRADING ECONOMICS",
+         "description": null,
+         "url": "https://tr.tradingeconomics.com/japan/population",
+         "domain": "tr.tradingeconomics.com"
+        },
+        {
+         "type": "link_element",
+         "title": "TRADING ECONOMICS",
+         "description": null,
+         "url": "https://jp.tradingeconomics.com/japan/population",
+         "domain": "jp.tradingeconomics.com"
+        },
+        {
+         "type": "link_element",
+         "title": "TRADING ECONOMICS",
+         "description": null,
+         "url": "https://es.tradingeconomics.com/japan/population",
+         "domain": "es.tradingeconomics.com"
+        },
+        {
+         "type": "link_element",
+         "title": "TRADING ECONOMICS",
+         "description": null,
+         "url": "https://it.tradingeconomics.com/japan/population",
+         "domain": "it.tradingeconomics.com"
+        },
+        {
+         "type": "link_element",
+         "title": "TRADING ECONOMICS",
+         "description": null,
+         "url": "https://zh.tradingeconomics.com/japan/population",
+         "domain": "zh.tradingeconomics.com"
+        },
+        {
+         "type": "link_element",
+         "title": "TRADING ECONOMICS",
+         "description": null,
+         "url": "https://ru.tradingeconomics.com/japan/population",
+         "domain": "ru.tradingeconomics.com"
+        },
+        {
+         "type": "link_element",
+         "title": "TRADING ECONOMICS",
+         "description": null,
+         "url": "https://id.tradingeconomics.com/japan/population",
+         "domain": "id.tradingeconomics.com"
+        }
+       ],
+       "dataset_providers": [
+        {
+         "type": "dataset_providers_element",
+         "title": "TRADING ECONOMICS",
+         "url": null,
+         "domain": null
+        }
+       ],
+       "formats": [
+        {
+         "type": "formats_element",
+         "format": "json",
+         "size": null
+        },
+        {
+         "type": "formats_element",
+         "format": "csv",
+         "size": null
+        },
+        {
+         "type": "formats_element",
+         "format": "excel",
+         "size": null
+        },
+        {
+         "type": "formats_element",
+         "format": "xml",
+         "size": null
+        }
+       ],
+       "authors": null,
+       "licenses": [
+        {
+         "type": "licenses_element",
+         "title": "Attribution 4.0 (CC BY 4.0)",
+         "url": "https://creativecommons.org/licenses/by/4.0/",
+         "domain": "creativecommons.org"
+        }
+       ],
+       "updated_date": null,
+       "area_covered": [
+        "Japan"
+       ],
+       "period_covered": {
+        "start_date": "1950-12-31 00:00:00 +00:00",
+        "end_date": "2025-12-31 00:00:00 +00:00",
+        "displayed_date": "Dec 31, 1950 - Dec 31, 2025"
+       },
+       "dataset_description": {
+        "text": "The total population in Japan was estimated at 123.2 million people in 2025, according to the latest census figures and projections from Trading Economics. This dataset provides - Japan Population - actual values, historical data, forecast, chart, statistics, economic calendar and news.\n",
+        "links": null
+       }
+      },
+      {
+       "type": "dataset",
+       "rank_group": 4,
+       "rank_absolute": 4,
+       "position": "left",
+       "xpath": null,
+       "dataset_id": "L2cvMTFqbnlnejZqMQ==",
+       "title": "Japan Population",
+       "image_url": null,
+       "scholarly_citations_count": 2,
+       "scholarly_articles_url": "https://scholar.google.com/scholar?q=%22ceicdata%20com%20en%20indicator%20japan%20population%22",
+       "unique_identifier": null,
+       "related_article": null,
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Japan | Economic Indicators, Historic Data & Forecasts | CEIC",
+         "description": null,
+         "url": "https://www.ceicdata.com/en/indicator/japan/population",
+         "domain": "www.ceicdata.com"
+        }
+       ],
+       "dataset_providers": [
+        {
+         "type": "dataset_providers_element",
+         "title": "CEICdata.com",
+         "url": null,
+         "domain": null
+        }
+       ],
+       "formats": null,
+       "authors": null,
+       "licenses": [
+        {
+         "type": "licenses_element",
+         "title": "Attribution 4.0 (CC BY 4.0)",
+         "url": "https://creativecommons.org/licenses/by/4.0/",
+         "domain": "creativecommons.org"
+        }
+       ],
+       "updated_date": "2025-12-15 00:00:00 +00:00",
+       "area_covered": [
+        "Japan"
+       ],
+       "period_covered": {
+        "start_date": "2014-12-01 00:00:00 +00:00",
+        "end_date": "2025-12-01 00:00:00 +00:00",
+        "displayed_date": "Dec 1, 2014 - Dec 1, 2025"
+       },
+       "dataset_description": {
+        "text": "Key information about Japan populationThe Japan population reached 123.2 million people in Dec 2025, compared with the previously reported figure of 123.7 million people in Dec 2024The data reached an all-time high of 128.1  million people in Dec 2010 and a record low of 43.4 million people in Dec 1899CEIC extends history for annual Population. Statistical Bureau provides year-end Population. Population prior to 1955 is an estimate for October 1st.Further information about Japan population dataIn the latest reports, Japan Unemployment Rate remained the same at 2.6 % in Oct 2025Monthly earnings of the Japan population was 1,983.0 USD in Oct 2025 Japan Labour Force Participation Rate  remained the same rate at 64.2 % in Oct 2025\n",
+        "links": null
+       }
+      },
+      {
+       "type": "dataset",
+       "rank_group": 5,
+       "rank_absolute": 5,
+       "position": "left",
+       "xpath": null,
+       "dataset_id": "L2cvMTF6N2gwZGZwcw==",
+       "title": "Japan Population Demographics 2026",
+       "image_url": null,
+       "scholarly_citations_count": null,
+       "scholarly_articles_url": null,
+       "unique_identifier": null,
+       "related_article": null,
+       "links": [
+        {
+         "type": "link_element",
+         "title": "www.populationpyramids.org",
+         "description": null,
+         "url": "https://www.populationpyramids.org/japan",
+         "domain": "www.populationpyramids.org"
+        }
+       ],
+       "dataset_providers": [
+        {
+         "type": "dataset_providers_element",
+         "title": "PopulationPyramids.org",
+         "url": null,
+         "domain": null
+        }
+       ],
+       "formats": [
+        {
+         "type": "formats_element",
+         "format": "html",
+         "size": null
+        }
+       ],
+       "authors": null,
+       "licenses": [
+        {
+         "type": "licenses_element",
+         "title": "Attribution 4.0 (CC BY 4.0)",
+         "url": "https://creativecommons.org/licenses/by/4.0/",
+         "domain": "creativecommons.org"
+        }
+       ],
+       "updated_date": "2026-10-02 00:00:00 +00:00",
+       "area_covered": [
+        "Japan"
+       ],
+       "period_covered": {
+        "start_date": null,
+        "end_date": null,
+        "displayed_date": "1950 - 2026"
+       },
+       "dataset_description": {
+        "text": "Demographic dataset for Japan including population structure, age distribution, sex ratios, and demographic trends. Based on UN World Population Prospects 2024 data with population pyramid visualization and statistics.\n",
+        "links": null
+       }
+      },
+      {
+       "type": "dataset",
+       "rank_group": 6,
+       "rank_absolute": 6,
+       "position": "left",
+       "xpath": null,
+       "dataset_id": "L2cvMTF4bG1qNGgzeQ==",
+       "title": "Japan Population Growth Rate (1961-2025)",
+       "image_url": null,
+       "scholarly_citations_count": 17,
+       "scholarly_articles_url": "https://scholar.google.com/scholar?q=%22japan%20population%20growth%20rate%22",
+       "unique_identifier": null,
+       "related_article": null,
+       "links": [
+        {
+         "type": "link_element",
+         "title": "MACROTRENDS",
+         "description": null,
+         "url": "https://www.macrotrends.net/global-metrics/countries/jpn/japan/population-growth-rate",
+         "domain": "www.macrotrends.net"
+        }
+       ],
+       "dataset_providers": [
+        {
+         "type": "dataset_providers_element",
+         "title": "MACROTRENDS",
+         "url": null,
+         "domain": null
+        }
+       ],
+       "formats": [
+        {
+         "type": "formats_element",
+         "format": "html",
+         "size": null
+        }
+       ],
+       "authors": null,
+       "licenses": [
+        {
+         "type": "licenses_element",
+         "title": "Attribution 4.0 (CC BY 4.0)",
+         "url": "https://creativecommons.org/licenses/by/4.0/",
+         "domain": "creativecommons.org"
+        }
+       ],
+       "updated_date": "2025-01-01 00:00:00 +00:00",
+       "area_covered": [
+        "Japan"
+       ],
+       "period_covered": {
+        "start_date": "1961-01-01 00:00:00 +00:00",
+        "end_date": "2025-01-01 00:00:00 +00:00",
+        "displayed_date": "Jan 1, 1961 - Jan 1, 2025"
+       },
+       "dataset_description": {
+        "text": "Historical dataset showing Japan population growth rate by year from 1961 to 2025.\n",
+        "links": null
+       }
+      },
+      {
+       "type": "dataset",
+       "rank_group": 7,
+       "rank_absolute": 7,
+       "position": "left",
+       "xpath": null,
+       "dataset_id": "L2cvMTFtZnN2cGxieg==",
+       "title": "Projection of total population Japan 2025-2120",
+       "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRBXuR7KCRit40-2BLJTMwtv2HlB-sCXspJThlFVrw7Py-oQeHI",
+       "scholarly_citations_count": null,
+       "scholarly_articles_url": null,
+       "unique_identifier": null,
+       "related_article": null,
+       "links": [
+        {
+         "type": "link_element",
+         "title": "www.statista.com",
+         "description": null,
+         "url": "https://www.statista.com/topics/4675/demographics-in-japan/",
+         "domain": "www.statista.com"
+        }
+       ],
+       "dataset_providers": [
+        {
+         "type": "dataset_providers_element",
+         "title": "Statista",
+         "url": "https://statista.com/",
+         "domain": "statista.com"
+        }
+       ],
+       "formats": null,
+       "authors": [
+        {
+         "type": "authors_element",
+         "name": "Statista Research Department",
+         "url": null,
+         "domain": null
+        }
+       ],
+       "licenses": null,
+       "updated_date": "2026-08-07 00:00:00 +00:00",
+       "area_covered": [
+        "Japan"
+       ],
+       "period_covered": null,
+       "dataset_description": {
+        "text": "As of 2025, the total population in Japan was estimated to be approximately 123.3 million people. The projection for 2100 indicated an almost 50 percent decrease in population to around 62.78 million people.\n",
+        "links": null
+       }
+      },
+      {
+       "type": "dataset",
+       "rank_group": 8,
+       "rank_absolute": 8,
+       "position": "left",
+       "xpath": null,
+       "dataset_id": "L2cvMTFuZmJqMWoxYw==",
+       "title": "Population of Japan 1800-2020",
+       "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRBXuR7KCRit40-2BLJTMwtv2HlB-sCXspJThlFVrw7Py-oQeHI",
+       "scholarly_citations_count": 1,
+       "scholarly_articles_url": "https://scholar.google.com/scholar?q=%22statista%20com%20statistics%201066956%20population%20japan%20historical%22",
+       "unique_identifier": null,
+       "related_article": null,
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Historical Data",
+         "description": null,
+         "url": "https://www.statista.com/statistics/1066956/population-japan-historical/",
+         "domain": "www.statista.com"
+        }
+       ],
+       "dataset_providers": [
+        {
+         "type": "dataset_providers_element",
+         "title": "Statista",
+         "url": "https://statista.com/",
+         "domain": "statista.com"
+        }
+       ],
+       "formats": null,
+       "authors": [
+        {
+         "type": "authors_element",
+         "name": "Statista Research Department",
+         "url": null,
+         "domain": null
+        }
+       ],
+       "licenses": null,
+       "updated_date": "2020-10-08 00:00:00 +00:00",
+       "area_covered": [
+        "Japan"
+       ],
+       "period_covered": null,
+       "dataset_description": {
+        "text": "In 1800, the population of Japan was just over 30 million, a figure which would grow by just two million in the first half of the 19th century. However, with the fall of the Tokugawa shogunate and the restoration of the emperor in the Meiji Restoration of 1868, Japan would begin transforming from an isolated feudal island, to a modernized empire built on Western models. The Meiji period would see a rapid rise in the population of Japan, as industrialization and advancements in healthcare lead to a significant reduction in child mortality rates, while the creation overseas colonies would lead to a strong economic boom. However, this growth would slow beginning in 1937, as Japan entered a prolonged war with the Republic of China, which later grew into a major theater of the Second World War. The war was eventually brought to Japan's home front, with the escalation of Allied air raids on Japanese urban centers from 1944 onwards (Tokyo was the most-bombed city of the Second World War). By the war's end in 1945 and the subsequent occupation of the island by the Allied military, Japan had suffered over two and a half million military fatalities, and over one million civilian deaths. The population figures of Japan were quick to recover, as the post-war “economic miracle” would see an unprecedented expansion of the Japanese economy, and would lead to the country becoming one of the first fully industrialized nations in East Asia. As living standards rose, the population of Japan would increase from 77 million in 1945, to over 127 million by the end of the century. However, growth would begin to slow in the late 1980s, as birth rates and migration rates fell, and Japan eventually grew to have one of the oldest populations in the world. The population would peak in 2008 at just over 128 million, but has consistently fallen each year since then, as the fertility rate of the country remains below replacement level (despite government initiatives to counter this) and the country's immigrant population remains relatively stable. The population of Japan is expected to continue its decline in the coming years, and in 2020, it is estimated that approximately 126 million people inhabit the island country.\n",
+        "links": null
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

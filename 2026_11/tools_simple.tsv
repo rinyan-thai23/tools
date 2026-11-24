@@ -4,16 +4,16 @@ C02	1（Web）	SERP（Google）	serp/google/ai_mode/live/advanced	GoogleのAIモ
 C03	1（Web）	SERP（Google）	serp/google/maps/live/advanced	Googleマップの上位店を見る	キーワード（例：渋谷 整体）	順位・店名・評価・口コミ数・住所・電話・サイト	$0.002（100件まで）	500	地元の店主	自分の店や競合が地図の何番目か見る	Local Falcon：Local Rank Tracking	
 C04	1（Web）	SERP（Google）	serp/google/local_finder/live/advanced	地図の「もっと見る」一覧を見る	キーワード	順位・店名・評価・口コミ数・説明（地域、営業時間）・電話・サイト	$0.002	500	地元の店主	地図の3枠より下も含めて、自分の店や競合の位置を見る	Semrush：Map Rank Tracker	resolve_goto_urls の対象。2026-11実測：ホテル・旅館のキーワードは結果ゼロ（それでも課金）。「渋谷 整体」のようなサービス業は取れる。住所の独立した項目はなく説明文に混ざる。約2分
 C05	1（Web）	SERP（Google）	serp/google/news/live/advanced	Googleニュースの記事を見る	キーワード（社名など）	媒体名・日付・タイトル・URL	$0.002	500	中小企業の経営者・広報	自社や業界がニュースでどう出ているか見る	Brand24：Mentions	resolve_goto_urls の対象
-C06	1（Web）	SERP（Google）	serp/google/events/live/advanced	Googleのイベント情報を見る	キーワード	イベント名・日時・場所・URL	要確認		インバウンド・海外向け発信者	地域のイベントを一覧で見る		APIは英語のみ。英語版だけで公開
+C06	1（Web）	SERP（Google）	serp/google/events/live/advanced	Googleのイベント情報を見る	キーワード	イベント名・日時・場所・URL	要確認		インバウンド・海外向け発信者	地域のイベントを一覧で見る		APIは英語のみ。英語版だけで公開／ 保留：APIが50304「一時的に使えません」(2026-11-24)
 C07	1（Web）	SERP（Google）	serp/google/images/live/advanced	画像検索の上位を見る	キーワード	画像・タイトル・掲載ページURL	$0.002（100件まで）	500	Kindle作家・note書き	表紙やサムネの傾向を見る	Ahrefs：Rank Tracker の Image pack	
 C08	1（Web）	SERP（Google）	serp/google/autocomplete/live/advanced	検索窓のサジェストを見る	キーワード	サジェスト候補の一覧	$0.002	500	初心者ブロガー	読者がそのキーワードと一緒に何を調べているか見る	ラッコキーワード：サジェスト	
 C09	1（Web）	SERP（Google）	serp/google/dataset_search/live/advanced	公開データセットを探す	テーマ	名称・提供元・更新日・URL	$0.002（20件）	500	Kindle作家・note書き	記事や本に使える統計データを探す		
-C10	1（Web）	SERP（Google）	serp/google/ads_advertisers/live/advanced	Google広告の広告主を探す	会社名かドメイン	広告主名・広告主ID・国・広告数	$0.002	500	地元の店主	競合が広告を出しているか見る	Semrush：Advertising Research	
-C11	1（Web）	SERP（Google）	serp/google/ads_search/live/advanced	出稿中の広告を見る	ドメイン	広告の形式・画像または文面・最初の表示日・最後の表示日	$0.002（40件）	500	Web制作・SEO受託のフリーランス	競合の広告の出し方を見る	Ahrefs：Site Explorer の Paid	ドメインだけで引けるかは Phase 0 で確認
-C14	1（Web）	YouTube	serp/youtube/organic/live/advanced	YouTube検索の上位動画を見る	キーワード	順位・タイトル・チャンネル・再生数・投稿日・長さ	$0.002（20件）	500	YouTuber志望	そのジャンルにどんな動画が並んでいるか見る	vidIQ：Keywords Research	
+C10	1（Web）	SERP（Google）	serp/google/ads_advertisers/live/advanced	Google広告の広告主を探す	会社名	広告主名・広告主ID・国・広告数	$0.002	500	地元の店主	競合が広告を出しているか見る	Semrush：Advertising Research	会社名で引く（ドメインだと広告主IDや広告数が返らないため。2026-11-24 Phase 0・ユーザー承認）
+C11	1（Web）	SERP（Google）	serp/google/ads_search/live/advanced	出稿中の広告を見る	ドメイン	形式・プレビュー画像・広告主名・最初の表示日・最後の表示日	$0.002（40件）	500	Web制作・SEO受託のフリーランス	競合の広告の出し方を見る	Ahrefs：Site Explorer の Paid	ドメインだけで引ける。広告主名を足した（ドメイン以外の広告主も混ざるため）。ユーザー承認
+C14	1（Web）	YouTube	serp/youtube/organic/live/advanced	YouTube検索の上位動画を見る	キーワード	順位・タイトル・チャンネル・再生数・投稿日・長さ	$0.002（20件）	500	YouTuber志望	そのジャンルにどんな動画が並んでいるか見る	vidIQ：Keywords Research	動画だけ表示（再生リストは除く）。日付はtimestampを日付で
 C15	1（Web）	YouTube	serp/youtube/video_info/live/advanced	動画1本の数字を見る	動画URL	タイトル・再生数・高評価数・コメント数・投稿日・説明文	$0.006	166	YouTuber志望	伸びている動画の数字を確かめる	vidIQ：動画の分析	
 C16	1（Web）	YouTube	serp/youtube/video_comments/live/advanced	動画のコメントを見る	動画URL	コメント本文・いいね数・返信数・投稿日	$0.002（20件ごと）。100件で$0.01	100	物販（Amazon・メルカリ）	商品レビュー動画のコメントで本音を読む	vidIQ：Comment Analysis	
-C17	1（Web）	YouTube	serp/youtube/video_subtitles/live/advanced	動画の字幕を全文で見る	動画URL	時間・字幕テキスト	$0.006	166	Kindle作家・note書き	動画の内容を文字で読む		
+C17	1（Web）	YouTube	serp/youtube/video_subtitles/live/advanced	動画の字幕を全文で見る	動画URL（＋字幕の言語を選ぶ）	時間・字幕テキスト	$0.006	166	Kindle作家・note書き	動画の内容を文字で読む		
 C18	1（Web）	AI	ai_optimization/chat_gpt/llm_responses/live	ChatGPTの答えを見る	質問文	回答文・引用元	$0.0006＋モデル料金		地元の店主	お客さんがChatGPTに聞いたら何と答えるか見る	Ahrefs：Brand Radar の Prompt Tracking	モデルは安いものに固定。Web検索はオン
 C19	1（Web）	AI	ai_optimization/claude/llm_responses/live	Claudeの答えを見る	質問文	回答文	$0.0006＋モデル料金		B2Bの営業担当	Claudeに聞いたら何と答えるか見る	Ahrefs：Brand Radar の Prompt Tracking	モデルは安いものに固定
 C20	1（Web）	AI	ai_optimization/gemini/llm_responses/live	Geminiの答えを見る	質問文	回答文・引用元	$0.0006＋モデル料金		Web制作・SEO受託のフリーランス	Geminiに聞いたら何と答えるか見る	SE Ranking：SE Visible	モデルは安いものに固定。Web検索はオン
