@@ -1,12 +1,20 @@
 // 全ツール共通の動き。ツールごとの違いは site/Cxx/tool.json に書く。
 import { callApi, getApi, ApiError } from '/shared/api.js';
-import { extractRows, extractAnswer, extractExtra, parseVideoId } from '/shared/rows.js';
+import { extractRows, extractAnswer, extractExtra, parseVideoId, parseDomain } from '/shared/rows.js';
 import { init, t, fillMarkets, renderTable, renderAnswer, loadAuthImages, downloadCsv, fmtDate, startProgress } from '/shared/ui.js';
 
 const id = document.body.dataset.tool;
 const cfg = await fetch(`/${id}/tool.json`).then((r) => r.json());
 const key = id.toLowerCase();
 const $ = (x) => document.getElementById(x);
+let techNames = []; // 技術名の一覧（無料）。C75 のように transform: technology の入力があるツールだけ使う
+async function loadTech() {
+  if (techNames.length) return;
+  const tk = await getApi('domain_analytics/technologies/technologies');
+  techNames = tk ? tk.result[0].groups.flatMap((g) => g.categories.flatMap((c) => c.technologies)) : [];
+  const dl = document.querySelector('datalist');
+  if (dl) dl.innerHTML = techNames.map((n) => `<option value="${n.replace(/"/g, '&quot;')}">`).join('');
+}
 let cols = [], rows = [], more = [], lookupMap = null; // lookupMap：番号→名前（result.lookup があるツールだけ）
 
 function show(task, meta) {
@@ -43,13 +51,23 @@ function params() {
   const p = { ...(cfg.params || {}) };
   // 実行日から決める日付（date_from：11か月前の月初＝いまの月を入れて12か月分）
   if (cfg.params_dynamic?.date_from === 'months_ago_11') { const d = new Date(); d.setDate(1); d.setMonth(d.getMonth() - 11); p.date_from = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-01`; }
+  const nd = new Date(); nd.setDate(nd.getDate() + (((6 - nd.getDay() + 7) % 7) || 7)); // 次の土曜（今日が土曜なら、来週の土曜）
+  const ymd = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+  if (cfg.params_dynamic?.check_in === 'next_saturday') { p.check_in = ymd(nd); nd.setDate(nd.getDate() + 1); p.check_out = ymd(nd); } // 次の土曜・1泊
   for (const i of cfg.inputs) {
-    const v = $('in-' + i.id).value.trim();
+    let v = $('in-' + i.id).value.trim();
+    if (i.transform === 'domain') v = parseDomain(v);
+    if (i.transform === 'technology' && techNames.length) { // 技術名は大文字小文字を区別するので、一覧から正しい書き方に直す（一覧にない名前は、料金がかかる前にエラー）
+      const hit = techNames.find((n) => n.toLowerCase() === v.toLowerCase());
+      if (!hit) throw new ApiError('bad_technology');
+      v = hit;
+    }
     if (i.wrap === 'lines') { // 改行（と、読点・カンマ）で区切って、複数のキーワードにする
       const list = v.split(/[\n,、]+/).map((x) => x.trim()).filter(Boolean);
       if (!list.length) throw new ApiError('bad_input');
       p[i.param] = i.max ? list.slice(0, i.max) : list;
     } else if (i.wrap === 'array') p[i.param] = [v];
+    else if (i.wrap === 'filter_eq') p[i.param] = [i.field, '=', v]; // 例：filters: ["domain","=","example.com"]
     else if (i.param.includes('.')) { const [a, b] = i.param.split('.'); (p[a] ||= {})[b] = v; } // 例：pages.1 → {pages:{"1": 値}}
     else if (i.transform === 'video_id') { const vid = parseVideoId(v); if (!vid) throw new ApiError('bad_video'); p[i.param] = vid; } else p[i.param] = v;
   }
@@ -67,6 +85,7 @@ async function run() {
   $('run').disabled = true;
   const pg = startProgress($('msg'), t(`${key}.eta`));
   try {
+    if (cfg.inputs.some((i) => i.transform === 'technology')) await loadTech();
     const { task, cost, time } = await callApi(cfg.endpoint, params(), { onRetry: pg.retry });
     if (cfg.result.lookup) { const lk = await getApi(cfg.result.lookup.endpoint); lookupMap = lk ? Object.fromEntries((lk.result || []).map((x) => [x[cfg.result.lookup.key], x[cfg.result.lookup.value]])) : null; }
     const took = pg.stop();
@@ -90,6 +109,7 @@ async function sample() {
 
 await init();
 if (cfg.markets) await fillMarkets($('country'), $('language')); // 'country' / 'language' のときは、ない方は null
+if (cfg.inputs.some((i) => i.transform === 'technology')) loadTech();
 $('run').onclick = run;
 $('sample').onclick = sample;
 $('csv').onclick = () => downloadCsv(cfg.csv || `${id}.csv`, cols, rows, more);

@@ -1,0 +1,55 @@
+{
+  "id": "C76",
+  "endpoint": "domain_analytics/whois/overview/live",
+  "who": "freelancer_seo",
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "filters",
+      "wrap": "filter_eq",
+      "field": "domain",
+      "transform": "domain",
+      "label": "c76.keyword"
+    }
+  ],
+  "params": {
+    "limit": 1
+  },
+  "min_sample_rows": 1,
+  "result": {
+    "items": "result.0.items",
+    "where": {},
+    "columns": [
+      {
+        "key": "domain",
+        "label": "c76.col.domain",
+        "from": "domain"
+      },
+      {
+        "key": "created",
+        "label": "c76.col.created",
+        "from": "created_datetime",
+        "transform": "date"
+      },
+      {
+        "key": "changed",
+        "label": "c76.col.changed",
+        "from": "changed_datetime",
+        "transform": "date"
+      },
+      {
+        "key": "expiration",
+        "label": "c76.col.expiration",
+        "from": "expiration_datetime",
+        "transform": "date"
+      },
+      {
+        "key": "registrar",
+        "label": "c76.col.registrar",
+        "from": "registrar"
+      }
+    ]
+  },
+  "csv": "C76.csv"
+}

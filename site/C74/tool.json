@@ -1,0 +1,40 @@
+{
+  "id": "C74",
+  "endpoint": "domain_analytics/technologies/domain_technologies/live",
+  "who": "freelancer_seo",
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "target",
+      "transform": "domain",
+      "label": "c74.keyword"
+    }
+  ],
+  "result": {
+    "items": "result.0.technologies",
+    "nested": true,
+    "where": {},
+    "columns": [
+      {
+        "key": "group",
+        "label": "c74.col.group",
+        "from": "group",
+        "transform": "humanize"
+      },
+      {
+        "key": "type",
+        "label": "c74.col.type",
+        "from": "type",
+        "transform": "humanize"
+      },
+      {
+        "key": "names",
+        "label": "c74.col.names",
+        "from": "names",
+        "transform": "slash"
+      }
+    ]
+  },
+  "csv": "C74.csv"
+}

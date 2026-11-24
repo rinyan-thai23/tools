@@ -15,10 +15,16 @@ export const transforms = {
   texts: (v) => (Array.isArray(v) ? v.map((x) => x.text).filter(Boolean).join(' ') : ''), // [{text}] → 本文をつなぐ
   hlevel: (v) => (v == null ? '' : 'H' + v), // 3 → "H3"
   ym: (v) => String(v ?? '').slice(0, 7), // "2026-11-01" → "2026-11"
+  blank0: (v) => (v === 0 ? '' : v), // 0（料金なし）→ 空欄
+  hours: (v) => (Array.isArray(v) ? v.map((h) => { const f = (x) => String(x?.hour ?? 0).padStart(2, '0') + ':' + String(x?.minute ?? 0).padStart(2, '0'); return f(h.open) + '–' + f(h.close); }).join(', ') : ''), // 営業時間の配列 → "09:00–18:00"
+  humanize: (v) => { const x = String(v ?? '').replace(/_/g, ' '); return x.charAt(0).toUpperCase() + x.slice(1); }, // web_development → "Web development"
   ids: (v) => (Array.isArray(v) ? v.map((a) => a.advertiser_id).join(', ') : String(v ?? '')), // 広告主IDの配列 → "AR..., AR..."
 };
 
 // 動画URL（watch?v= / youtu.be / shorts / embed）か動画IDから、11文字の動画IDを取り出す。取れなければ null
+// URLやwww付きで入れられたドメインを、「example.com」の形にそろえる
+export const parseDomain = (s) => String(s ?? '').trim().replace(/^[a-z]+:\/\//i, '').replace(/[/?#].*$/, '').replace(/^www\./i, '').toLowerCase();
+
 export function parseVideoId(s) {
   const v = String(s ?? '').trim();
   if (/^[\w-]{11}$/.test(v)) return v;
@@ -44,6 +50,7 @@ export const extractAnswer = (cfg, task) => {
 // 1つの表の行を取り出す。spec = { items, where, flatten, unique, columns }
 //   flatten: 配列の入れ子を平らにする（例 ["sections","annotations"]）／ unique: 同じ値の行を1つにする項目
 export function rowsOf(spec, task) {
+  if (spec.nested) { const o = get(task, spec.items) || {}; return Object.entries(o).flatMap(([g, gv]) => Object.entries(gv || {}).map(([c, n]) => ({ group: g, type: c, names: n }))).map((it) => Object.fromEntries(spec.columns.map((c) => [c.key, c.transform ? transforms[c.transform](pick(it, c.from || c.key)) : pick(it, c.from || c.key)]))); } // 2段の辞書（分類→種類→名前の一覧）を行にする
   let list = (spec.object ? [] : [].concat(spec.items).flatMap((p) => get(task, p) || [])).filter((it) => Object.entries(spec.where || {}).every(([k, v]) => (Array.isArray(v) ? v.includes(it[k]) : it[k] === v)));
   for (const k of spec.flatten || []) list = list.flatMap((it) => (it[k] || []).map((c) => ({ ...c, __parent: it }))); // 子に親（__parent）を持たせる
   if (spec.where_after) list = list.filter((it) => Object.entries(spec.where_after).every(([k, v]) => it[k] === v));

@@ -1,0 +1,109 @@
+{
+  "id": "C68",
+  "endpoint": "business_data/business_listings/search/live",
+  "who": "b2b_sales",
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "description",
+      "label": "c68.keyword"
+    },
+    {
+      "id": "region",
+      "param": "location_coordinate",
+      "label": "c68.region",
+      "select": [
+        {
+          "value": "35.6812,139.7671,5",
+          "label": "c68.r.tokyo"
+        },
+        {
+          "value": "43.0687,141.3508,5",
+          "label": "c68.r.sapporo"
+        },
+        {
+          "value": "38.2601,140.8824,5",
+          "label": "c68.r.sendai"
+        },
+        {
+          "value": "35.4658,139.6224,5",
+          "label": "c68.r.yokohama"
+        },
+        {
+          "value": "35.1709,136.8815,5",
+          "label": "c68.r.nagoya"
+        },
+        {
+          "value": "35.0116,135.7681,5",
+          "label": "c68.r.kyoto"
+        },
+        {
+          "value": "34.6937,135.5023,5",
+          "label": "c68.r.osaka"
+        },
+        {
+          "value": "34.6913,135.1830,5",
+          "label": "c68.r.kobe"
+        },
+        {
+          "value": "34.3853,132.4553,5",
+          "label": "c68.r.hiroshima"
+        },
+        {
+          "value": "33.5897,130.4207,5",
+          "label": "c68.r.fukuoka"
+        },
+        {
+          "value": "26.2124,127.6809,5",
+          "label": "c68.r.naha"
+        },
+        {
+          "value": "36.5613,136.6562,5",
+          "label": "c68.r.kanazawa"
+        }
+      ]
+    }
+  ],
+  "params": {
+    "limit": 100
+  },
+  "result": {
+    "items": "result.0.items",
+    "where": {},
+    "columns": [
+      {
+        "key": "title",
+        "label": "c68.col.title",
+        "from": "title"
+      },
+      {
+        "key": "category",
+        "label": "c68.col.category",
+        "from": "category"
+      },
+      {
+        "key": "address",
+        "label": "c68.col.address",
+        "from": "address"
+      },
+      {
+        "key": "phone",
+        "label": "c68.col.phone",
+        "from": "phone"
+      },
+      {
+        "key": "url",
+        "label": "c68.col.url",
+        "from": "url",
+        "link": true
+      },
+      {
+        "key": "rating",
+        "label": "c68.col.rating",
+        "from": "rating.value"
+      }
+    ]
+  },
+  "csv": "C68.csv"
+}

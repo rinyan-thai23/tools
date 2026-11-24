@@ -1,0 +1,55 @@
+{
+  "id": "C71",
+  "endpoint": "business_data/google/hotel_searches/live",
+  "who": "lodging",
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keyword",
+      "label": "c71.keyword"
+    }
+  ],
+  "params": {
+    "location_code": 2392,
+    "language_code": "ja",
+    "adults": 2,
+    "currency": "JPY"
+  },
+  "params_dynamic": {
+    "check_in": "next_saturday"
+  },
+  "result": {
+    "items": "result.0.items",
+    "where": {},
+    "columns": [
+      {
+        "key": "title",
+        "label": "c71.col.title",
+        "from": "title"
+      },
+      {
+        "key": "price",
+        "label": "c71.col.price",
+        "from": "prices.price",
+        "transform": "blank0"
+      },
+      {
+        "key": "rating",
+        "label": "c71.col.rating",
+        "from": "reviews.value"
+      },
+      {
+        "key": "votes",
+        "label": "c71.col.votes",
+        "from": "reviews.votes_count"
+      },
+      {
+        "key": "stars",
+        "label": "c71.col.stars",
+        "from": "stars"
+      }
+    ]
+  },
+  "csv": "C71.csv"
+}

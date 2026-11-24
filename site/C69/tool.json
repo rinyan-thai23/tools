@@ -1,0 +1,100 @@
+{
+  "id": "C69",
+  "endpoint": "business_data/google/my_business_info/live",
+  "who": "local_shop",
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keyword",
+      "label": "c69.keyword"
+    }
+  ],
+  "params": {
+    "location_code": 2392,
+    "language_code": "ja"
+  },
+  "min_sample_rows": 1,
+  "result": {
+    "items": "result.0.items",
+    "where": {},
+    "columns": [
+      {
+        "key": "title",
+        "label": "c69.col.title",
+        "from": "title"
+      },
+      {
+        "key": "category",
+        "label": "c69.col.category",
+        "from": "category"
+      },
+      {
+        "key": "rating",
+        "label": "c69.col.rating",
+        "from": "rating.value"
+      },
+      {
+        "key": "votes",
+        "label": "c69.col.votes",
+        "from": "rating.votes_count"
+      },
+      {
+        "key": "address",
+        "label": "c69.col.address",
+        "from": "address"
+      },
+      {
+        "key": "phone",
+        "label": "c69.col.phone",
+        "from": "phone"
+      },
+      {
+        "key": "photos",
+        "label": "c69.col.photos",
+        "from": "total_photos"
+      }
+    ],
+    "title": "c69.summary",
+    "extra": [
+      {
+        "object": {
+          "path": "result.0.items.0.work_time.work_hours.timetable",
+          "keys": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday",
+            "saturday",
+            "sunday"
+          ]
+        },
+        "columns": [
+          {
+            "key": "k",
+            "label": "c69.col.day",
+            "from": "key",
+            "labels": {
+              "monday": "c69.v.monday",
+              "tuesday": "c69.v.tuesday",
+              "wednesday": "c69.v.wednesday",
+              "thursday": "c69.v.thursday",
+              "friday": "c69.v.friday",
+              "saturday": "c69.v.saturday",
+              "sunday": "c69.v.sunday"
+            }
+          },
+          {
+            "key": "v",
+            "label": "c69.col.hours",
+            "from": "value",
+            "transform": "hours"
+          }
+        ],
+        "title": "c69.hours_title"
+      }
+    ]
+  },
+  "csv": "C69.csv"
+}
