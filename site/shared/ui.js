@@ -13,6 +13,15 @@ export async function init() {
   renderKeyBox(document.getElementById('keybox'), cfg.referral_url);
 }
 
+// 説明ページ用：data-referral の付いたリンクに紹介リンクを入れる
+export async function referralLinks() {
+  const cfg = await getJson('/shared/site-config.json');
+  document.querySelectorAll('a[data-referral]').forEach((a) => {
+    a.href = cfg.referral_url || 'https://dataforseo.com/';
+    if (cfg.referral_url) { a.rel = 'noopener sponsored'; a.after(document.createTextNode(lang === 'ja' ? ' （紹介リンクです）' : ' (referral link)')); }
+  });
+}
+
 function renderKeyBox(box, referral) {
   const draw = () => {
     const c = getCreds();
@@ -24,7 +33,7 @@ function renderKeyBox(box, referral) {
         <p class="note">${t('key.note')}</p>
         <button id="k-save">${t('key.save')}</button>
         <button id="k-clear" class="sub">${t('key.clear')}</button>
-        <p class="note"><a href="${referral || 'https://dataforseo.com/'}" target="_blank" rel="noopener${referral ? ' sponsored' : ''}">${t('key.create')}</a>${referral ? ' （' + t('key.referral') + '）' : ''}</p>
+        <p class="note"><a href="${referral || 'https://dataforseo.com/'}" target="_blank" rel="noopener${referral ? ' sponsored' : ''}">${t('key.create')}</a>${referral ? ' （' + t('key.referral') + '）' : ''} ／ <a href="/dfs-${lang}.html">${t('key.about')}</a></p>
       </details>`;
     box.querySelector('#k-save').onclick = () => {
       setCreds(box.querySelector('#k-login').value.trim(), box.querySelector('#k-pass').value.trim());

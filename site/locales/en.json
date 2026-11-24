@@ -35,5 +35,7 @@
   "c01.col.rank": "Rank",
   "c01.col.title": "Title",
   "c01.col.url": "URL",
-  "c01.col.domain": "Domain"
+  "c01.col.domain": "Domain",
+  "key.about": "What is DataForSEO?",
+  "c01.price": "Approx. cost per search: $0.004 (about 250 searches per $1). The sample view is free."
 }
