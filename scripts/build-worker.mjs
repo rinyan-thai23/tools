@@ -90,7 +90,7 @@ for (const { code: l } of indexLangs) {
   const list = Object.entries(groups).map(([who, ts]) =>
     `<h3>${esc(L[`who.${who}`] ?? who)}</h3>\n<ul class="tools">\n${ts.map((t) => `  <li><strong>${t.id}</strong> <a href="/${t.id}/${l}/">${esc(L[`${t.id.toLowerCase()}.name`])}</a><br><span class="note">${esc(L[`${t.id.toLowerCase()}.desc`])}</span></li>`).join('\n')}\n</ul>`).join('\n');
   const switcher = indexLangs.filter((a) => a.code !== l).map((a) => `<a href="${topPath(a.code)}">${esc(a.label)}</a>`).join(' ');
-  const aboutLang = l === 'ja' ? 'ja' : 'en';
+  const aboutLang = l === 'ja' ? 'ja' : l === 'zh-TW' ? 'zh-TW' : 'en';
   addPage(topPath(l) + 'index.html', render(indexTpl, {
     LANG: l, TITLE: esc(L['site.index_title']), META: esc(L['site.index_meta']), ALT: indexAlt, CANON: `{{SITE_URL}}${topPath(l)}`,
     SWITCH: switcher, H1: esc(L['site.title']), LEAD: esc(L['site.lead']), TOOLS_TITLE: esc(L['site.tools']),
