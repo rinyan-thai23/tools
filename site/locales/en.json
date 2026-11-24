@@ -43,5 +43,6 @@
   "ui.retrying": "The service is busy. Retrying ({n}/3)",
   "ui.took": "Time taken",
   "c01.count": "Number of results (from the top)",
-  "c01.eta": "This tool can take 1–2 minutes"
+  "c01.eta": "Typical for this tool: about 1–1.5 minutes",
+  "ui.slow_search": "ⓘ Google now routes each search-result link through Google first (for click tracking). Resolving the real URLs takes extra time, so fetching is slower."
 }
