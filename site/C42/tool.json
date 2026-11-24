@@ -1,0 +1,46 @@
+{
+  "id": "C42",
+  "endpoint": "dataforseo_labs/google/categories_for_domain/live",
+  "who": "b2b_sales",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "target",
+      "label": "c42.keyword"
+    }
+  ],
+  "params": {
+    "limit": 100
+  },
+  "result": {
+    "items": "result.0.items",
+    "where": {},
+    "columns": [
+      {
+        "key": "category",
+        "label": "c42.col.category",
+        "from": "categories.0"
+      },
+      {
+        "key": "keywords",
+        "label": "c42.col.keywords",
+        "from": "metrics.organic.count"
+      },
+      {
+        "key": "etv",
+        "label": "c42.col.etv",
+        "from": "metrics.organic.etv",
+        "transform": "round0"
+      }
+    ],
+    "lookup": {
+      "endpoint": "dataforseo_labs/categories",
+      "key": "category_code",
+      "value": "category_name",
+      "column": "category"
+    }
+  },
+  "csv": "C42.csv"
+}

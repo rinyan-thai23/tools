@@ -1,0 +1,27 @@
+{
+  "id": "C43",
+  "endpoint": "dataforseo_labs/google/top_searches/live",
+  "who": "kindle_note",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [],
+  "params": {
+    "limit": 100
+  },
+  "result": {
+    "items": "result.0.items",
+    "where": {},
+    "columns": [
+      {
+        "key": "keyword",
+        "label": "c43.col.keyword"
+      },
+      {
+        "key": "volume",
+        "label": "c43.col.volume",
+        "from": "keyword_info.search_volume"
+      }
+    ]
+  },
+  "csv": "C43.csv"
+}

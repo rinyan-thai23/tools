@@ -1,0 +1,3596 @@
+{
+ "fetched_at": "2026-11",
+ "tasks": [
+  {
+   "cost": 0.024,
+   "time": "0.9155 sec.",
+   "result": [
+    {
+     "se_type": "google",
+     "location_code": 2392,
+     "language_code": "ja",
+     "total_count": 335308337,
+     "items_count": 100,
+     "offset": 0,
+     "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoxMDAsIlJlcXVlc3REYXRhIjp7ImxvYWRfc2VycF9pbmZvIjpmYWxzZSwic2VhcmNoX2FmdGVyX3Rva2VuIjpudWxsLCJpZ25vcmVfc3lub255bXMiOmZhbHNlLCJsYW5ndWFnZSI6ImphIiwic2VhcmNoX2VuZ2luZSI6Imdvb2dsZSIsImxvY2F0aW9uIjoyMzkyLCJ1c2VfbmV3X2NhdGVnb3JpZXMiOnRydWUsIm9yZGVyX2J5Ijp7Im9yZGVyX2ZpZWxkIjoia2V5d29yZF9pbmZvLnNlYXJjaF92b2x1bWUiLCJvcmRlcl90eXBlIjoiRGVzYyIsIm5leHQiOm51bGx9LCJsaW1pdCI6MTAwLCJvZmZzZXQiOjAsImFpZCI6MTI4OTY5LCJ1c2VfY2FjaGUiOnRydWUsInRhc2tfaWQiOiIxMTI0MDgwOS0xMjg5LTA0MDQtMDAwMC02NmUyNjUwMzE5ZWYiLCJmbGFncyI6bnVsbH0sIlJhd1F1ZXJ5IjpudWxsLCJJZCI6IjcxNWNlOWQ1LWI3YTAtNDUwZS04YjRmLWM4YmU3YTA2NjVlYiIsIlNlYXJjaEFmdGVyRGF0YSI6Wzc0ODAwMDAsImFiNWZjODhmLTEzNDctNzZlNS04Y2Q3LTljZWYwOTUyYzNhNyJdLCJFeGVjdXRvciI6MzQ2NTQyMDE5NjI0ODE4NjkwNn0=",
+     "items": [
+      {
+       "se_type": "google",
+       "keyword": "天気",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-23 03:23:06 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": 0.95,
+        "search_volume": 68000000,
+        "low_top_of_page_bid": 0.14,
+        "high_top_of_page_bid": 0.75,
+        "categories": [
+         10108,
+         10108,
+         13426
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 68000000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 101000000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 83100000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 83100000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 101000000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 68000000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 83100000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 68000000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 30400000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -33,
+         "quarterly": -18,
+         "yearly": 22
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 182448,
+        "dofollow": 175149.1,
+        "referring_pages": 175728.7,
+        "referring_domains": 485.3,
+        "referring_main_domains": 445.9,
+        "rank": 387.1,
+        "main_domain_rank": 616.3,
+        "last_updated_time": "2026-07-16 03:33:40 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-05-03 02:00:21 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "転機",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-22 00:49:22 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": 0.95,
+        "search_volume": 68000000,
+        "low_top_of_page_bid": 0.14,
+        "high_top_of_page_bid": 0.75,
+        "categories": [
+         10015,
+         10125,
+         10672,
+         11952
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 68000000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 101000000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 83100000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 83100000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 101000000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 68000000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 83100000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 68000000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 30400000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -33,
+         "quarterly": -18,
+         "yearly": 22
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": 3,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 1844.8,
+        "dofollow": 1192.8,
+        "referring_pages": 1194.7,
+        "referring_domains": 12.5,
+        "referring_main_domains": 11.4,
+        "rank": 76.8,
+        "main_domain_rank": 431.7,
+        "last_updated_time": "2026-11-20 18:34:29 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 02:45:56 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "yo0utube",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-18 04:21:09 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": 1.05,
+        "search_volume": 45500000,
+        "low_top_of_page_bid": 0.02,
+        "high_top_of_page_bid": 2,
+        "categories": [
+         10007,
+         10007,
+         11492,
+         11492,
+         13418,
+         13418,
+         13873
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 45500000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "pt",
+        "is_another_language": true,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 0,
+        "dofollow": 0,
+        "referring_pages": 0,
+        "referring_domains": 0,
+        "referring_main_domains": 0,
+        "rank": 100,
+        "main_domain_rank": 744.5,
+        "last_updated_time": "2024-05-15 20:04:00 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 00:40:02 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "yutuber",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-15 02:00:27 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": 1.05,
+        "search_volume": 45500000,
+        "low_top_of_page_bid": 0.02,
+        "high_top_of_page_bid": 2,
+        "categories": [
+         10007,
+         11492,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 45500000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "you tube",
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": 0,
+        "detected_language": "nb",
+        "is_another_language": true,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 845953.9,
+        "dofollow": 652666.5,
+        "referring_pages": 736293,
+        "referring_domains": 21976.3,
+        "referring_main_domains": 19687.8,
+        "rank": 176.3,
+        "main_domain_rank": 890.4,
+        "last_updated_time": "2025-10-07 21:41:21 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-04-30 00:51:27 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "レストラン",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-13 12:29:22 +00:00",
+        "competition": 0.1,
+        "competition_level": "LOW",
+        "cpc": 0.14,
+        "search_volume": 45500000,
+        "low_top_of_page_bid": 0.29,
+        "high_top_of_page_bid": 1.18,
+        "categories": [
+         10020,
+         10169,
+         10890
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 45500000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -18,
+         "quarterly": -18,
+         "yearly": -18
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 0.6,
+        "dofollow": 0.1,
+        "referring_pages": 0.6,
+        "referring_domains": 0.2,
+        "referring_main_domains": 0.2,
+        "rank": 3.2,
+        "main_domain_rank": 484.8,
+        "last_updated_time": "2026-07-16 03:22:03 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "commercial"
+        ],
+        "last_updated_time": "2026-04-30 03:14:42 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "youtub3",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-14 15:59:39 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": 1.05,
+        "search_volume": 45500000,
+        "low_top_of_page_bid": 0.02,
+        "high_top_of_page_bid": 2,
+        "categories": [
+         10007,
+         10013,
+         10103,
+         10556,
+         11492,
+         13418,
+         13873
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 45500000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "you tube",
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": 0,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 1215.1,
+        "dofollow": 1135.2,
+        "referring_pages": 1144.3,
+        "referring_domains": 24.9,
+        "referring_main_domains": 23.7,
+        "rank": 96.8,
+        "main_domain_rank": 941,
+        "last_updated_time": "2024-01-12 19:14:57 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-05-05 03:00:14 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "outu",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-13 18:59:36 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": 1.05,
+        "search_volume": 45500000,
+        "low_top_of_page_bid": 0.02,
+        "high_top_of_page_bid": 2,
+        "categories": [
+         10007,
+         11503,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 45500000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "you tube",
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": 0,
+        "detected_language": "ast",
+        "is_another_language": true,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 0,
+        "dofollow": 0,
+        "referring_pages": 0,
+        "referring_domains": 0,
+        "referring_main_domains": 0,
+        "rank": 1.1,
+        "main_domain_rank": 680.1,
+        "last_updated_time": "2024-07-17 23:50:21 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 19:22:39 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "you tube",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-18 08:45:21 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": 1.05,
+        "search_volume": 45500000,
+        "low_top_of_page_bid": 0.02,
+        "high_top_of_page_bid": 2,
+        "categories": [
+         10007,
+         10007,
+         11492,
+         11492,
+         13418,
+         13418,
+         13873
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 45500000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": true,
+        "words_count": 2
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 772.7,
+        "dofollow": 359.1,
+        "referring_pages": 557.1,
+        "referring_domains": 99.3,
+        "referring_main_domains": 94.9,
+        "rank": 175.2,
+        "main_domain_rank": 892.6,
+        "last_updated_time": "2026-07-16 03:18:52 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 00:51:02 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "yout",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-21 15:57:34 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": 1.05,
+        "search_volume": 45500000,
+        "low_top_of_page_bid": 0.02,
+        "high_top_of_page_bid": 2,
+        "categories": [
+         10008
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 45500000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "you tube",
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": true,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 846360.6,
+        "dofollow": 653600.3,
+        "referring_pages": 736495.2,
+        "referring_domains": 22354.1,
+        "referring_main_domains": 20020.8,
+        "rank": 369.6,
+        "main_domain_rank": 758,
+        "last_updated_time": "2025-12-07 07:50:16 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-04-30 01:03:45 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "you8tube",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-13 02:33:40 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": 1.05,
+        "search_volume": 45500000,
+        "low_top_of_page_bid": 0.02,
+        "high_top_of_page_bid": 2,
+        "categories": [
+         10007,
+         11492,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 45500000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "you tube",
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": true,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 1121.3,
+        "dofollow": 1036,
+        "referring_pages": 1044.1,
+        "referring_domains": 22.8,
+        "referring_main_domains": 21.6,
+        "rank": 45.7,
+        "main_domain_rank": 614,
+        "last_updated_time": "2024-02-08 23:19:54 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 02:19:57 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "youtube",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-23 04:16:50 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": 1.05,
+        "search_volume": 45500000,
+        "low_top_of_page_bid": 0.02,
+        "high_top_of_page_bid": 2,
+        "categories": [
+         10007,
+         10007,
+         11492,
+         11492,
+         13418,
+         13418,
+         13873
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 45500000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "es",
+        "is_another_language": true,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 436,
+        "dofollow": 117,
+        "referring_pages": 303.9,
+        "referring_domains": 52.5,
+        "referring_main_domains": 50.3,
+        "rank": 167.4,
+        "main_domain_rank": 916.7,
+        "last_updated_time": "2026-07-16 03:20:13 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": [
+         "informational"
+        ],
+        "last_updated_time": "2026-04-30 00:44:03 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "ytb",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-22 09:52:10 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": 1.05,
+        "search_volume": 45500000,
+        "low_top_of_page_bid": 0.02,
+        "high_top_of_page_bid": 2,
+        "categories": [
+         10007,
+         11492,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 45500000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": 43,
+        "detected_language": "en",
+        "is_another_language": true,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 13947.9,
+        "dofollow": 13355.1,
+        "referring_pages": 13607.9,
+        "referring_domains": 95,
+        "referring_main_domains": 89.7,
+        "rank": 209.7,
+        "main_domain_rank": 625.3,
+        "last_updated_time": "2026-10-08 06:12:58 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": [
+         "informational"
+        ],
+        "last_updated_time": "2026-04-30 00:58:46 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "youto",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-21 11:50:47 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": 1.05,
+        "search_volume": 45500000,
+        "low_top_of_page_bid": 0.02,
+        "high_top_of_page_bid": 2,
+        "categories": [
+         10008
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 45500000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": true,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 3.6,
+        "dofollow": 2.4,
+        "referring_pages": 3.3,
+        "referring_domains": 1.2,
+        "referring_main_domains": 1.2,
+        "rank": 24.4,
+        "main_domain_rank": 434.4,
+        "last_updated_time": "2024-08-09 03:45:47 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-04-30 02:32:07 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "ヤフー",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-22 04:05:59 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": 2.5,
+        "search_volume": 37200000,
+        "low_top_of_page_bid": 0.7,
+        "high_top_of_page_bid": 2.79,
+        "categories": [
+         10007,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 45500000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 37200000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": -18,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "ヤフー の",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 60,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 322915.2,
+        "dofollow": 315038.2,
+        "referring_pages": 316434.8,
+        "referring_domains": 1694,
+        "referring_main_domains": 1405.1,
+        "rank": 255.1,
+        "main_domain_rank": 831.1,
+        "last_updated_time": "2026-11-20 18:34:01 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-05-07 09:15:35 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "ラーメン",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-20 22:04:05 +00:00",
+        "competition": 0.03,
+        "competition_level": "LOW",
+        "cpc": 0.08,
+        "search_volume": 30400000,
+        "low_top_of_page_bid": 0.12,
+        "high_top_of_page_bid": 1.43,
+        "categories": [
+         10015,
+         10128,
+         10889
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 37200000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 30400000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": -18,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 1.5,
+        "dofollow": 1.5,
+        "referring_pages": 1.5,
+        "referring_domains": 0.2,
+        "referring_main_domains": 0.1,
+        "rank": 4.8,
+        "main_domain_rank": 558.3,
+        "last_updated_time": "2026-10-08 06:12:33 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 03:29:49 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "チャットgpt",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-16 19:34:33 +00:00",
+        "competition": 0.14,
+        "competition_level": "LOW",
+        "cpc": 0.1,
+        "search_volume": 30400000,
+        "low_top_of_page_bid": 0.01,
+        "high_top_of_page_bid": 0.05,
+        "categories": [
+         10007,
+         11499,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 24900000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 22
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 45,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 887.5,
+        "dofollow": 709.3,
+        "referring_pages": 815.3,
+        "referring_domains": 155,
+        "referring_main_domains": 149.3,
+        "rank": 198.9,
+        "main_domain_rank": 536.4,
+        "last_updated_time": "2026-10-08 06:12:08 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-05-04 22:31:17 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "チャットgdp",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-23 05:41:47 +00:00",
+        "competition": 0.14,
+        "competition_level": "LOW",
+        "cpc": 0.1,
+        "search_volume": 30400000,
+        "low_top_of_page_bid": 0.01,
+        "high_top_of_page_bid": 0.05,
+        "categories": [
+         10007,
+         11499,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 24900000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 22
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "チャット gdp",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 75,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 1115.9,
+        "dofollow": 749.8,
+        "referring_pages": 984.7,
+        "referring_domains": 264.6,
+        "referring_main_domains": 255.5,
+        "rank": 209.5,
+        "main_domain_rank": 603.3,
+        "last_updated_time": "2026-03-29 05:10:50 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-04-30 01:55:29 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "チャトgpt",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-21 11:54:29 +00:00",
+        "competition": 0.14,
+        "competition_level": "LOW",
+        "cpc": 0.1,
+        "search_volume": 30400000,
+        "low_top_of_page_bid": 0.01,
+        "high_top_of_page_bid": 0.05,
+        "categories": [
+         10007,
+         11499,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 24900000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 22
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 45,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 3307.6,
+        "dofollow": 2614.7,
+        "referring_pages": 3159.7,
+        "referring_domains": 251.9,
+        "referring_main_domains": 233.1,
+        "rank": 240.2,
+        "main_domain_rank": 397.7,
+        "last_updated_time": "2024-11-25 18:02:31 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 00:51:50 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "チャットｇｐｔ",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-17 19:02:57 +00:00",
+        "competition": 0.14,
+        "competition_level": "LOW",
+        "cpc": 0.1,
+        "search_volume": 30400000,
+        "low_top_of_page_bid": 0.01,
+        "high_top_of_page_bid": 0.05,
+        "categories": [
+         10007,
+         11499,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 24900000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 22
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "チャットgpt",
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": 0,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 0.2,
+        "dofollow": 0.2,
+        "referring_pages": 0.2,
+        "referring_domains": 0.1,
+        "referring_main_domains": 0.1,
+        "rank": 2.4,
+        "main_domain_rank": 615.8,
+        "last_updated_time": "2026-10-08 06:12:13 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-05-03 21:39:09 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "チャット gpt",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-22 07:53:57 +00:00",
+        "competition": 0.14,
+        "competition_level": "LOW",
+        "cpc": 0.1,
+        "search_volume": 30400000,
+        "low_top_of_page_bid": 0.01,
+        "high_top_of_page_bid": 0.05,
+        "categories": [
+         10007,
+         11499,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 24900000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 22
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "チャット g p t",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 2
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 0.2,
+        "dofollow": 0.2,
+        "referring_pages": 0.2,
+        "referring_domains": 0.1,
+        "referring_main_domains": 0.1,
+        "rank": 2.4,
+        "main_domain_rank": 633,
+        "last_updated_time": "2026-10-08 06:12:09 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-05-05 17:18:29 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "ホテル",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-16 01:17:45 +00:00",
+        "competition": 0.13,
+        "competition_level": "LOW",
+        "cpc": 0.34,
+        "search_volume": 30400000,
+        "low_top_of_page_bid": 0.4,
+        "high_top_of_page_bid": 1.61,
+        "categories": [
+         10017,
+         10142
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 24900000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 6659,
+        "dofollow": 5563,
+        "referring_pages": 5794.4,
+        "referring_domains": 124.2,
+        "referring_main_domains": 112.7,
+        "rank": 377.2,
+        "main_domain_rank": 467.4,
+        "last_updated_time": "2026-07-16 03:33:54 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": [
+         "commercial"
+        ],
+        "last_updated_time": "2026-04-30 03:30:14 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "ahoo",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-12 09:10:17 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": 1.84,
+        "search_volume": 24900000,
+        "low_top_of_page_bid": 0.42,
+        "high_top_of_page_bid": 2.1,
+        "categories": [
+         10108,
+         13691
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 24900000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": -18
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "yahh0",
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": 25,
+        "detected_language": "es",
+        "is_another_language": true,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 1027127.7,
+        "dofollow": 997103.2,
+        "referring_pages": 1009696.9,
+        "referring_domains": 2042,
+        "referring_main_domains": 1765.5,
+        "rank": 88.4,
+        "main_domain_rank": 846.2,
+        "last_updated_time": "2025-10-07 21:38:33 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 04:41:50 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "yahoo",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-14 08:30:02 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": 1.84,
+        "search_volume": 24900000,
+        "low_top_of_page_bid": 0.42,
+        "high_top_of_page_bid": 2.1,
+        "categories": [
+         10007,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 24900000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": -18
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "zh-TW",
+        "is_another_language": true,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 492433.4,
+        "dofollow": 483684.5,
+        "referring_pages": 484651.8,
+        "referring_domains": 1837.2,
+        "referring_main_domains": 1542.2,
+        "rank": 271.5,
+        "main_domain_rank": 873.7,
+        "last_updated_time": "2026-07-16 03:21:43 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 00:55:33 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "yahoobb",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-12 19:15:38 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": 1.84,
+        "search_volume": 24900000,
+        "low_top_of_page_bid": 0.42,
+        "high_top_of_page_bid": 2.1,
+        "categories": [
+         10007,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 24900000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": -18
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "hu",
+        "is_another_language": true,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 51.8,
+        "dofollow": 36.3,
+        "referring_pages": 42.5,
+        "referring_domains": 21.4,
+        "referring_main_domains": 19.6,
+        "rank": 88.6,
+        "main_domain_rank": 591.1,
+        "last_updated_time": "2026-07-16 03:34:23 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 03:16:37 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "yah",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-21 12:39:29 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": 1.84,
+        "search_volume": 24900000,
+        "low_top_of_page_bid": 0.42,
+        "high_top_of_page_bid": 2.1,
+        "categories": [
+         10108,
+         13691
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 24900000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": -18
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "yahh0",
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": 25,
+        "detected_language": "ms",
+        "is_another_language": true,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 1027131.6,
+        "dofollow": 997105.6,
+        "referring_pages": 1009700.2,
+        "referring_domains": 2044.5,
+        "referring_main_domains": 1767.9,
+        "rank": 108.8,
+        "main_domain_rank": 484.1,
+        "last_updated_time": "2025-10-07 20:44:01 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 01:11:24 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "missav",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-12 22:55:36 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": 1.24,
+        "search_volume": 24900000,
+        "low_top_of_page_bid": 0.73,
+        "high_top_of_page_bid": 0.95,
+        "categories": [
+         10004,
+         13804
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 20400000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 20400000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 20400000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 20400000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 20400000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 30400000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": -18
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": 0,
+        "detected_language": "pt",
+        "is_another_language": true,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 0.1,
+        "dofollow": 0.1,
+        "referring_pages": 0.1,
+        "referring_domains": 0.1,
+        "referring_main_domains": 0.1,
+        "rank": 11.6,
+        "main_domain_rank": 522.4,
+        "last_updated_time": "2026-10-08 06:12:34 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 16:42:42 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "yahooid",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-13 08:17:04 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": 1.84,
+        "search_volume": 24900000,
+        "low_top_of_page_bid": 0.42,
+        "high_top_of_page_bid": 2.1,
+        "categories": [
+         10007,
+         13094,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 24900000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": -18
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": true,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 492335,
+        "dofollow": 483628.5,
+        "referring_pages": 484580.1,
+        "referring_domains": 1838.4,
+        "referring_main_domains": 1544.1,
+        "rank": 210.9,
+        "main_domain_rank": 513.4,
+        "last_updated_time": "2026-07-16 03:32:04 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 02:25:56 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "コンビニ",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-13 08:28:44 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": 0.09,
+        "search_volume": 24900000,
+        "low_top_of_page_bid": 0.1,
+        "high_top_of_page_bid": 0.55,
+        "categories": [
+         10010,
+         10084,
+         13575
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 30400000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 24900000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 24900000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": -18,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 130371.4,
+        "dofollow": 117870.6,
+        "referring_pages": 118650.9,
+        "referring_domains": 739.7,
+        "referring_main_domains": 656.5,
+        "rank": 262.8,
+        "main_domain_rank": 554.7,
+        "last_updated_time": "2026-07-16 03:33:21 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-05-05 19:07:11 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "ユーチューブ",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-23 07:21:12 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": 0.08,
+        "search_volume": 20400000,
+        "low_top_of_page_bid": 0.01,
+        "high_top_of_page_bid": 0.03,
+        "categories": [
+         10007,
+         10007,
+         11492,
+         11492,
+         13418,
+         13418,
+         13873
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 20400000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 20400000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 20400000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 20400000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 20400000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 20400000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 20400000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 20400000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 20400000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 20400000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 20400000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 20400000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 3,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 44.3,
+        "dofollow": 43.9,
+        "referring_pages": 43.9,
+        "referring_domains": 0.1,
+        "referring_main_domains": 0.1,
+        "rank": 48.9,
+        "main_domain_rank": 671.5,
+        "last_updated_time": "2026-10-08 06:11:58 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 02:53:04 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "amazons",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-16 08:29:16 +00:00",
+        "competition": 0.27,
+        "competition_level": "LOW",
+        "cpc": 0.03,
+        "search_volume": 20400000,
+        "low_top_of_page_bid": 0.21,
+        "high_top_of_page_bid": 0.21,
+        "categories": [
+         13575,
+         13860
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 20400000
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 16600000
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 16600000
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 20400000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 16600000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 20400000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 20400000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 20400000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 16600000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 20400000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 20400000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 20400000
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 23,
+         "quarterly": 23,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "amazon",
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": 33,
+        "detected_language": "en",
+        "is_another_language": true,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 84828.6,
+        "dofollow": 71223.7,
+        "referring_pages": 75232.6,
+        "referring_domains": 1949.4,
+        "referring_main_domains": 1825.8,
+        "rank": 160,
+        "main_domain_rank": 749.4,
+        "last_updated_time": "2026-10-08 06:12:14 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-04-29 01:40:11 +00:00"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "inputs": {}
+}

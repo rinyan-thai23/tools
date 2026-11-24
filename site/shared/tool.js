@@ -1,5 +1,5 @@
 // 全ツール共通の動き。ツールごとの違いは site/Cxx/tool.json に書く。
-import { callApi, ApiError } from '/shared/api.js';
+import { callApi, getApi, ApiError } from '/shared/api.js';
 import { extractRows, extractAnswer, extractExtra, parseVideoId } from '/shared/rows.js';
 import { init, t, fillMarkets, renderTable, renderAnswer, downloadCsv, fmtDate, startProgress } from '/shared/ui.js';
 
@@ -7,11 +7,13 @@ const id = document.body.dataset.tool;
 const cfg = await fetch(`/${id}/tool.json`).then((r) => r.json());
 const key = id.toLowerCase();
 const $ = (x) => document.getElementById(x);
-let cols = [], rows = [];
+let cols = [], rows = [], lookupMap = null; // lookupMap：番号→名前（result.lookup があるツールだけ）
 
 function show(task, meta) {
   cols = cfg.result.columns.map((c) => ({ key: c.key, label: t(c.label), link: c.link, type: c.type }));
   rows = extractRows(cfg, task);
+  // 番号を名前に引く（無料の参照データ）。lookup.column の値を「名前（番号）」にする
+  if (cfg.result.lookup && lookupMap) rows.forEach((r) => { const n = lookupMap[r[cfg.result.lookup.column]]; if (n) r[cfg.result.lookup.column] = `${n}（${r[cfg.result.lookup.column]}）`; });
   // 値の読み替え（例：informational → 情報を調べる）。columns[].labels = { 元の値: 文言のキー }
   for (const c of cfg.result.columns) if (c.labels) rows.forEach((r) => { if (c.labels[r[c.key]]) r[c.key] = t(c.labels[r[c.key]]); });
   renderAnswer($('answer'), cfg.result.answer ? t(cfg.result.answer.label) : '', extractAnswer(cfg, task));
@@ -58,6 +60,7 @@ async function run() {
   const pg = startProgress($('msg'), t(`${key}.eta`));
   try {
     const { task, cost, time } = await callApi(cfg.endpoint, params(), { onRetry: pg.retry });
+    if (cfg.result.lookup) { const lk = await getApi(cfg.result.lookup.endpoint); lookupMap = lk ? Object.fromEntries((lk.result || []).map((x) => [x[cfg.result.lookup.key], x[cfg.result.lookup.value]])) : null; }
     const took = pg.stop();
     show(task, `${t('ui.cost')}: $${cost} ／ ${t('ui.took')}: ${took}${t('ui.sec')} ／ ${t('ui.fetched')}: ${fmtDate(time)}`);
   } catch (e) {
@@ -69,7 +72,9 @@ async function run() {
 
 async function sample() {
   const s = await fetch(`/${id}/sample.json`).then((r) => r.json());
-  $('in-' + cfg.inputs[0].id).value = s.keyword;
+  if (s.inputs) for (const [k, v] of Object.entries(s.inputs)) $('in-' + k).value = v; // 入力が複数あるツール
+  else if (cfg.inputs.length) $('in-' + cfg.inputs[0].id).value = s.keyword;
+  lookupMap = s.tasks[0].lookup || null;
   $('msg').className = 'banner';
   $('msg').textContent = t('ui.sample_notice', { date: s.fetched_at });
   show(s.tasks[0], '');

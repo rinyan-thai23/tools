@@ -1,0 +1,42 @@
+{
+  "id": "C44",
+  "endpoint": "dataforseo_labs/google/serp_competitors/live",
+  "who": "freelancer_seo",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keywords",
+      "label": "c44.keyword",
+      "multiline": true,
+      "wrap": "lines"
+    }
+  ],
+  "params": {
+    "limit": 100
+  },
+  "result": {
+    "items": "result.0.items",
+    "where": {},
+    "columns": [
+      {
+        "key": "domain",
+        "label": "c44.col.domain",
+        "transform": "strip_www"
+      },
+      {
+        "key": "avg_position",
+        "label": "c44.col.avg_position",
+        "from": "avg_position"
+      },
+      {
+        "key": "etv",
+        "label": "c44.col.etv",
+        "from": "etv",
+        "transform": "round0"
+      }
+    ]
+  },
+  "csv": "C44.csv"
+}

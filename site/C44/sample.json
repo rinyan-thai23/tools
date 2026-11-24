@@ -1,0 +1,539 @@
+{
+ "fetched_at": "2026-11",
+ "tasks": [
+  {
+   "cost": 0.024,
+   "time": "0.0343 sec.",
+   "result": [
+    {
+     "se_type": "google",
+     "seed_keywords": [
+      "ブログ 始め方",
+      "副業 ブログ",
+      "アフィリエイト 比較"
+     ],
+     "location_code": 2392,
+     "language_code": "ja",
+     "total_count": 129,
+     "items_count": 100,
+     "items": [
+      {
+       "se_type": "google",
+       "domain": "www.xserver.ne.jp",
+       "avg_position": 3,
+       "median_position": 1,
+       "rating": 194,
+       "etv": 788.0878355706097,
+       "keywords_count": 2,
+       "visibility": 1.6,
+       "relevant_serp_items": 2,
+       "keywords_positions": {
+        "副業 ブログ": [
+         5
+        ],
+        "ブログ 始め方": [
+         1
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "biz.moneyforward.com",
+       "avg_position": 4,
+       "median_position": 1,
+       "rating": 192,
+       "etv": 120.91829726207102,
+       "keywords_count": 2,
+       "visibility": 1.4,
+       "relevant_serp_items": 2,
+       "keywords_positions": {
+        "副業 ブログ": [
+         1
+        ],
+        "ブログ 始め方": [
+         7
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "www.youtube.com",
+       "avg_position": 4,
+       "median_position": 4,
+       "rating": 192,
+       "etv": 115.02361414250595,
+       "keywords_count": 2,
+       "visibility": 1.4,
+       "relevant_serp_items": 2,
+       "keywords_positions": {
+        "副業 ブログ": [
+         4
+        ],
+        "ブログ 始め方": [
+         4
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "www.canva.com",
+       "avg_position": 5.5,
+       "median_position": 2,
+       "rating": 189,
+       "etv": 270.96946251071194,
+       "keywords_count": 2,
+       "visibility": 1.1,
+       "relevant_serp_items": 2,
+       "keywords_positions": {
+        "副業 ブログ": [
+         9
+        ],
+        "ブログ 始め方": [
+         2
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "www.conoha.jp",
+       "avg_position": 15.5,
+       "median_position": 6,
+       "rating": 169,
+       "etv": 48.04901793976637,
+       "keywords_count": 2,
+       "visibility": 0.5,
+       "relevant_serp_items": 2,
+       "keywords_positions": {
+        "副業 ブログ": [
+         25
+        ],
+        "ブログ 始め方": [
+         6
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "note.com",
+       "avg_position": 16.5,
+       "median_position": 2,
+       "rating": 167,
+       "etv": 34.08606628729281,
+       "keywords_count": 2,
+       "visibility": 0.9,
+       "relevant_serp_items": 2,
+       "keywords_positions": {
+        "副業 ブログ": [
+         2
+        ],
+        "ブログ 始め方": [
+         31
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "virtualoffice1.jp",
+       "avg_position": 24.5,
+       "median_position": 23,
+       "rating": 151,
+       "etv": 5.656413107385399,
+       "keywords_count": 2,
+       "visibility": 0,
+       "relevant_serp_items": 2,
+       "keywords_positions": {
+        "副業 ブログ": [
+         23
+        ],
+        "ブログ 始め方": [
+         26
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "ameblo.jp",
+       "avg_position": 34,
+       "median_position": 18,
+       "rating": 132,
+       "etv": 8.694280810243958,
+       "keywords_count": 2,
+       "visibility": 0.05,
+       "relevant_serp_items": 2,
+       "keywords_positions": {
+        "副業 ブログ": [
+         50
+        ],
+        "ブログ 始め方": [
+         18
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "makusan.ne.jp",
+       "avg_position": 39,
+       "median_position": 30,
+       "rating": 122,
+       "etv": 4.559946775779582,
+       "keywords_count": 2,
+       "visibility": 0,
+       "relevant_serp_items": 2,
+       "keywords_positions": {
+        "副業 ブログ": [
+         48
+        ],
+        "ブログ 始め方": [
+         30
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "www.tsuzukiblog.org",
+       "avg_position": 40.5,
+       "median_position": 37,
+       "rating": 119,
+       "etv": 2.957545783893007,
+       "keywords_count": 2,
+       "visibility": 0,
+       "relevant_serp_items": 2,
+       "keywords_positions": {
+        "副業 ブログ": [
+         44
+        ],
+        "ブログ 始め方": [
+         37
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "www.lemon8-app.com",
+       "avg_position": 50,
+       "median_position": 32,
+       "rating": 100,
+       "etv": 3.885020823216205,
+       "keywords_count": 2,
+       "visibility": 0,
+       "relevant_serp_items": 2,
+       "keywords_positions": {
+        "副業 ブログ": [
+         68
+        ],
+        "ブログ 始め方": [
+         32
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "www.yayoi-kk.co.jp",
+       "avg_position": 3,
+       "median_position": 3,
+       "rating": 97,
+       "etv": 17.69511691979137,
+       "keywords_count": 1,
+       "visibility": 0.8,
+       "relevant_serp_items": 1,
+       "keywords_positions": {
+        "副業 ブログ": [
+         3
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "onimaga.jp",
+       "avg_position": 3,
+       "median_position": 3,
+       "rating": 97,
+       "etv": 157.97172927587943,
+       "keywords_count": 1,
+       "visibility": 0.8,
+       "relevant_serp_items": 1,
+       "keywords_positions": {
+        "ブログ 始め方": [
+         3
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "shared.gmocloud.com",
+       "avg_position": 5,
+       "median_position": 5,
+       "rating": 95,
+       "etv": 66.42500121754254,
+       "keywords_count": 1,
+       "visibility": 0.6,
+       "relevant_serp_items": 1,
+       "keywords_positions": {
+        "ブログ 始め方": [
+         5
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "www.fc-mado.com",
+       "avg_position": 6,
+       "median_position": 6,
+       "rating": 94,
+       "etv": 5.312572779913804,
+       "keywords_count": 1,
+       "visibility": 0.5,
+       "relevant_serp_items": 1,
+       "keywords_positions": {
+        "副業 ブログ": [
+         6
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "www.amazon.co.jp",
+       "avg_position": 7,
+       "median_position": 7,
+       "rating": 93,
+       "etv": 3.7496299908070174,
+       "keywords_count": 1,
+       "visibility": 0.4,
+       "relevant_serp_items": 1,
+       "keywords_positions": {
+        "副業 ブログ": [
+         7
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "shelikes.jp",
+       "avg_position": 8,
+       "median_position": 8,
+       "rating": 92,
+       "etv": 2.773759930090791,
+       "keywords_count": 1,
+       "visibility": 0.3,
+       "relevant_serp_items": 1,
+       "keywords_positions": {
+        "副業 ブログ": [
+         8
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "www.onamae.com",
+       "avg_position": 8,
+       "median_position": 8,
+       "rating": 92,
+       "etv": 24.762518085568598,
+       "keywords_count": 1,
+       "visibility": 0.3,
+       "relevant_serp_items": 1,
+       "keywords_positions": {
+        "ブログ 始め方": [
+         8
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "www.kagoya.jp",
+       "avg_position": 9,
+       "median_position": 9,
+       "rating": 91,
+       "etv": 19.541391709246813,
+       "keywords_count": 1,
+       "visibility": 0.2,
+       "relevant_serp_items": 1,
+       "keywords_positions": {
+        "ブログ 始め方": [
+         9
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "sidejob.iid.co.jp",
+       "avg_position": 10,
+       "median_position": 10,
+       "rating": 90,
+       "etv": 1.642183285630903,
+       "keywords_count": 1,
+       "visibility": 0.1,
+       "relevant_serp_items": 1,
+       "keywords_positions": {
+        "副業 ブログ": [
+         10
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "at-next.jp",
+       "avg_position": 11,
+       "median_position": 11,
+       "rating": 89,
+       "etv": 1.5812152714165402,
+       "keywords_count": 1,
+       "visibility": 0.05,
+       "relevant_serp_items": 1,
+       "keywords_positions": {
+        "副業 ブログ": [
+         11
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "www.shopify.com",
+       "avg_position": 11,
+       "median_position": 11,
+       "rating": 89,
+       "etv": 14.116171818210564,
+       "keywords_count": 1,
+       "visibility": 0.05,
+       "relevant_serp_items": 1,
+       "keywords_positions": {
+        "ブログ 始め方": [
+         11
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "diamond.jp",
+       "avg_position": 12,
+       "median_position": 12,
+       "rating": 88,
+       "etv": 1.5812152714165402,
+       "keywords_count": 1,
+       "visibility": 0.05,
+       "relevant_serp_items": 1,
+       "keywords_positions": {
+        "副業 ブログ": [
+         12
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "sider-academy.com",
+       "avg_position": 13,
+       "median_position": 13,
+       "rating": 87,
+       "etv": 1.5644667050083692,
+       "keywords_count": 1,
+       "visibility": 0.05,
+       "relevant_serp_items": 1,
+       "keywords_positions": {
+        "副業 ブログ": [
+         13
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "kanemotilevel.com",
+       "avg_position": 15,
+       "median_position": 15,
+       "rating": 85,
+       "etv": 1.3053332606946713,
+       "keywords_count": 1,
+       "visibility": 0.05,
+       "relevant_serp_items": 1,
+       "keywords_positions": {
+        "副業 ブログ": [
+         15
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "bryog.com",
+       "avg_position": 16,
+       "median_position": 16,
+       "rating": 84,
+       "etv": 1.1271440823388532,
+       "keywords_count": 1,
+       "visibility": 0.05,
+       "relevant_serp_items": 1,
+       "keywords_positions": {
+        "副業 ブログ": [
+         16
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "blogger.ameba.jp",
+       "avg_position": 17,
+       "median_position": 17,
+       "rating": 83,
+       "etv": 1.0824475983401685,
+       "keywords_count": 1,
+       "visibility": 0.05,
+       "relevant_serp_items": 1,
+       "keywords_positions": {
+        "副業 ブログ": [
+         17
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "sokkin-match.me",
+       "avg_position": 18,
+       "median_position": 18,
+       "rating": 82,
+       "etv": 0.9553807217858208,
+       "keywords_count": 1,
+       "visibility": 0.05,
+       "relevant_serp_items": 1,
+       "keywords_positions": {
+        "副業 ブログ": [
+         18
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "moneycanvas.bk.mufg.jp",
+       "avg_position": 19,
+       "median_position": 19,
+       "rating": 81,
+       "etv": 0.9172064455483087,
+       "keywords_count": 1,
+       "visibility": 0.05,
+       "relevant_serp_items": 1,
+       "keywords_positions": {
+        "副業 ブログ": [
+         19
+        ]
+       }
+      },
+      {
+       "se_type": "google",
+       "domain": "ja.wix.com",
+       "avg_position": 19,
+       "median_position": 19,
+       "rating": 81,
+       "etv": 8.188286574370787,
+       "keywords_count": 1,
+       "visibility": 0.05,
+       "relevant_serp_items": 1,
+       "keywords_positions": {
+        "ブログ 始め方": [
+         19
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "keyword": "ブログ 始め方\n副業 ブログ\nアフィリエイト 比較"
+}

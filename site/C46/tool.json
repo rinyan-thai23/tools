@@ -1,0 +1,40 @@
+{
+  "id": "C46",
+  "endpoint": "dataforseo_labs/google/competitors_domain/live",
+  "who": "smb_pr",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "target",
+      "label": "c46.keyword"
+    }
+  ],
+  "params": {
+    "limit": 100
+  },
+  "result": {
+    "items": "result.0.items",
+    "where": {},
+    "columns": [
+      {
+        "key": "domain",
+        "label": "c46.col.domain",
+        "transform": "strip_www"
+      },
+      {
+        "key": "shared",
+        "label": "c46.col.shared",
+        "from": "intersections"
+      },
+      {
+        "key": "etv",
+        "label": "c46.col.etv",
+        "from": "full_domain_metrics.organic.etv",
+        "transform": "round0"
+      }
+    ]
+  },
+  "csv": "C46.csv"
+}

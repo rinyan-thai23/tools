@@ -1,0 +1,6138 @@
+{
+ "fetched_at": "2026-11",
+ "tasks": [
+  {
+   "cost": 0.024,
+   "time": "0.6022 sec.",
+   "result": [
+    {
+     "se_type": "google",
+     "target1": "suumo.jp",
+     "target2": "homes.co.jp",
+     "location_code": 2392,
+     "language_code": "ja",
+     "total_count": 247056,
+     "items_count": 100,
+     "items": [
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "ソルティア",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-09-17 03:43:41 +00:00",
+         "competition": 0.009999999776482582,
+         "competition_level": "LOW",
+         "cpc": 0.9100000262260437,
+         "search_volume": 1830000,
+         "low_top_of_page_bid": 0.09000000357627869,
+         "high_top_of_page_bid": 1.2300000190734863,
+         "categories": [
+          10002,
+          10231
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2025,
+           "month": 9,
+           "search_volume": 1830000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": null,
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": null,
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-05 07:26:39 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 4,
+        "rank_absolute": 6,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "ソルティア上町台高津公園 （物件TOP） - 新築分譲マンション",
+        "url": "https://suumo.jp/mansion/__JJ_JJ010FJ100_arz1060z2bsz1010z2ncz167737691.html?fmlg2=C0ant001",
+        "breadcrumb": "https://suumo.jp › ... › 大阪市 › 中央区 › 谷町九丁目駅",
+        "website_name": "SUUMO",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "2026/09/23 — 【谷町線「谷町九丁目」駅徒歩2分・「大阪上本町」駅徒歩8分】中央区の上町台地に誕生。なんば駅＆天王寺駅まで3分・東梅田駅まで10分。",
+        "pre_snippet": "09/23/2026 00:00:00",
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": null,
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/mansion/__JJ_JJ010FJ100_arz1060z2bsz1010z2ncz167737691.html?fmlg2=C0ant001",
+        "etv": 76202.640625,
+        "estimated_paid_traffic_cost": 69344.40625,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 576
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 3,
+        "rank_absolute": 4,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "大阪府のソルティアが含まれる不動産アーカイブ情報",
+        "url": "https://www.homes.co.jp/archive/list/brand/osaka/s-1000496/",
+        "breadcrumb": "https://www.homes.co.jp › ... › ブランド名から探す",
+        "website_name": "ホームズ",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "大阪府のソルティアが含まれる建物一覧 。日本最大級の建物データベース・不動産アーカイブなら【HOME'S】。過去から現在までの不動産情報と提携先の地図情報を集積・ ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "大阪府のソルティアが含まれる建物一覧"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/archive/list/brand/osaka/s-1000496/",
+        "etv": 138304.125,
+        "estimated_paid_traffic_cost": 125856.7578125,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "米田",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-17 00:17:30 +00:00",
+         "competition": 0,
+         "competition_level": "LOW",
+         "cpc": 0.10999999940395355,
+         "search_volume": 1830000,
+         "low_top_of_page_bid": 0.11999999731779099,
+         "high_top_of_page_bid": 0.7400000095367432,
+         "categories": [
+          10004,
+          11188,
+          12428,
+          13460
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 1500000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 1500000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 2240000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 1830000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": null,
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": null,
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-07 23:39:56 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 51,
+        "rank_absolute": 62,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "米田コーポ/東京都新宿区の物件情報【SUUMO】",
+        "url": "https://suumo.jp/library/tf_13/sc_13104/to_1002684121/",
+        "breadcrumb": "https://suumo.jp › ... › 東京都 › 新宿区",
+        "website_name": "SUUMO",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "米田 コーポ/東京都新宿区の新築マンション、中古マンション、賃貸物件のSUUMO掲載情報がまとめて探せます。所在地は東京都新宿区中落合1（西武新宿線/中井駅 歩6分） ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "米田"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/library/tf_13/sc_13104/to_1002684121/",
+        "etv": 609.1743774414062,
+        "estimated_paid_traffic_cost": 67.0091781616211,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 576
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 93,
+        "rank_absolute": 108,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "マンション米田の写真一覧",
+        "url": "https://www.homes.co.jp/archive/b-29860050/gallery/",
+        "breadcrumb": "https://www.homes.co.jp › ... › マンション米田",
+        "website_name": "ホームズ",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "マンション米田（大阪市住吉区苅田6丁目)の写真一覧。外観や間取り,リビング,ダイニングやキッチンなどの室内の写真を確認できます。",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "米田"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/archive/b-29860050/gallery/",
+        "etv": 312.0713806152344,
+        "estimated_paid_traffic_cost": 34.327850341796875,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "1丁目",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-18 03:01:39 +00:00",
+         "competition": 0.019999999552965164,
+         "competition_level": "LOW",
+         "cpc": 0.4099999964237213,
+         "search_volume": 1830000,
+         "low_top_of_page_bid": 1,
+         "high_top_of_page_bid": 11.9399995803833,
+         "categories": [
+          10003,
+          10042,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 1830000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 2240000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 2240000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": -18
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": null,
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": [
+          "navigational"
+         ],
+         "last_updated_time": "2026-04-25 19:37:02 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 7,
+        "rank_absolute": 9,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "国府1丁目ビル/熊本県熊本市中央区の物件情報 ...",
+        "url": "https://suumo.jp/library/tf_43/sc_43101/to_1000239443/",
+        "breadcrumb": "https://suumo.jp › ... › 熊本県 › 熊本市中央区",
+        "website_name": "SUUMO",
+        "is_image": true,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": [
+         "is_image"
+        ],
+        "description": "国府1丁目ビル/熊本県熊本市中央区の新築マンション、中古マンション、賃貸物件のSUUMO掲載情報がまとめて探せます。所在地は熊本県熊本市中央区国府1（熊本市電健軍 ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "1丁目"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/library/tf_43/sc_43101/to_1000239443/",
+        "etv": 9101.8759765625,
+        "estimated_paid_traffic_cost": 3731.769287109375,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 576
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 6,
+        "rank_absolute": 8,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "那覇市松尾1丁目マンション の賃貸情報",
+        "url": "https://www.homes.co.jp/archive/b-45288614/",
+        "breadcrumb": "https://www.homes.co.jp › ... › 松尾 › 松尾１丁目",
+        "website_name": "ホームズ",
+        "is_image": true,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": [
+         "is_image"
+        ],
+        "description": "所在地, 沖縄県那覇市松尾1丁目241(詳細未定) ; 交通. 沖縄都市モノレール / 県庁前駅 徒歩9分; 沖縄都市モノレール / 美栄橋駅 徒歩12分 ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "1丁目"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/archive/b-45288614/",
+        "etv": 12877.814453125,
+        "estimated_paid_traffic_cost": 5279.90380859375,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "大阪駅",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-09-17 22:33:51 +00:00",
+         "competition": 0.019999999552965164,
+         "competition_level": "LOW",
+         "cpc": 0.25999999046325684,
+         "search_volume": 1220000,
+         "low_top_of_page_bid": 0.3700000047683716,
+         "high_top_of_page_bid": 2,
+         "categories": [
+          10017,
+          10146,
+          10783
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 1500000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 1220000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 1000000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 1220000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 1000000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 1220000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 1000000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 1000000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 1220000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 1000000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 1000000
+          },
+          {
+           "year": 2025,
+           "month": 9,
+           "search_volume": 1000000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 23,
+          "quarterly": 50,
+          "yearly": 23
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "大阪 駅",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": null,
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-30 01:49:36 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 6,
+        "rank_absolute": 7,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[14]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "大阪駅エリア・他周辺エリアで分譲賃貸の賃貸マンション・ ...",
+        "url": "https://suumo.jp/chintai/osaka/ek_05680/nj_104/",
+        "breadcrumb": "https://suumo.jp › chintai › osaka",
+        "website_name": "SUUMO",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "【SUUMO(スーモ)賃貸】大阪駅(大阪府)の分譲賃貸で絞り込んだ賃貸マンション・賃貸アパート・貸家など、賃貸住宅の検索結果一覧です。マンションやアパートの賃貸住宅 ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "大阪駅"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/chintai/osaka/ek_05680/nj_104/",
+        "etv": 11731.384765625,
+        "estimated_paid_traffic_cost": 3050.16015625,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 576
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 13,
+        "rank_absolute": 15,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "大阪駅で購入できる中古住宅・中古一戸建て一覧｜1物件掲載中",
+        "url": "https://www.homes.co.jp/kodate/chuko/osaka/osaka_00007-st/list/",
+        "breadcrumb": "https://www.homes.co.jp › ... › 大阪府 › 大阪市 › 北区",
+        "website_name": "ホームズ",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "【独自物件充実】他サイトで出会えなかった物件が見つかるかも！大阪駅（大阪府）の豊富な中古一戸建てから、間取りや価格、詳細条件で絞り込み、簡単に比較・資料請求 ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "大阪駅"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/kodate/chuko/osaka/osaka_00007-st/list/",
+        "etv": 10517.3203125,
+        "estimated_paid_traffic_cost": 2734.50341796875,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "アニマン",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-17 17:52:41 +00:00",
+         "competition": 0,
+         "competition_level": "LOW",
+         "cpc": null,
+         "search_volume": 1220000,
+         "low_top_of_page_bid": null,
+         "high_top_of_page_bid": null,
+         "categories": [
+          10015,
+          10130,
+          13878
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 1220000
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 1220000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 1220000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 1220000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 1220000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 1220000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 1220000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 1000000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 1220000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 1220000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 1220000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 1220000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": null,
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": null,
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-30 02:06:10 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 11,
+        "rank_absolute": 13,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "賃貸住宅サービス NetWorkJR高槻店(株)FACE",
+        "url": "https://suumo.jp/chintai/bc_100508490642/tenpo/",
+        "breadcrumb": "https://suumo.jp › chintai › tenpo",
+        "website_name": "SUUMO",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "高槻市でのお部屋探しは、お客様第一主義の弊社に安心してお任せ下さい ！ · 駅徒歩3分以内 · 駐車場あり · 多店舗展開 · 開店10年以上 · 引越会社紹介 · 売買取扱あり · 法人契約 ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "高槻市でのお部屋探しは、お客様第一主義の弊社に安心してお任せ下さい"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/chintai/bc_100508490642/tenpo/",
+        "etv": 9491.078125,
+        "estimated_paid_traffic_cost": null,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 576
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 13,
+        "rank_absolute": 16,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "アニマン高槻阿武山（1階/102/3DK/69.48m²） - 賃貸",
+        "url": "https://www.homes.co.jp/chintai/b-31029040122270/",
+        "breadcrumb": "https://www.homes.co.jp › ... › 奈佐原 › 摂津富田駅",
+        "website_name": "ホームズ",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "JR東海道・山陽本線 摂津富田駅 バス15分 消防署前下車 徒歩1分、所在地:大阪府高槻市奈佐原2丁目の物件詳細ページ。3DK、バス・トイレ別、ペット相談可、オートロック ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "山"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/chintai/b-31029040122270/",
+        "etv": 9491.078125,
+        "estimated_paid_traffic_cost": null,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "池袋",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-09-17 17:53:26 +00:00",
+         "competition": 0.009999999776482582,
+         "competition_level": "LOW",
+         "cpc": 0.44999998807907104,
+         "search_volume": 1000000,
+         "low_top_of_page_bid": 0.27000001072883606,
+         "high_top_of_page_bid": 1.6299999952316284,
+         "categories": [
+          10003,
+          10042,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 1220000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 1220000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 1000000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 1220000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 1000000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 1220000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 823000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 823000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 823000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 823000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 823000
+          },
+          {
+           "year": 2025,
+           "month": 9,
+           "search_volume": 823000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 22,
+          "yearly": 22
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "池袋 の",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 0,
+         "dofollow": 0,
+         "referring_pages": 0,
+         "referring_domains": 0,
+         "referring_main_domains": 0,
+         "rank": 5.300000190734863,
+         "main_domain_rank": 579.5,
+         "last_updated_time": "2026-10-08 06:16:25 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": [
+          "informational"
+         ],
+         "last_updated_time": "2026-05-04 17:37:15 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 57,
+        "rank_absolute": 66,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "（仮称）上池袋1丁目計画/東京都豊島区の物件情報【SUUMO】",
+        "url": "https://suumo.jp/library/tf_13/sc_13116/to_1002539644/",
+        "breadcrumb": "https://suumo.jp › ... › 東京都 › 豊島区",
+        "website_name": "SUUMO",
+        "is_image": true,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": [
+         "is_image"
+        ],
+        "description": "駅周辺にはスーパー、コンビニ、薬局（薬店）などの商業施設があり、生活利便性が高い街です。 また、幼稚園・保育園、中学校があるので、教育環境も充実しています。 池袋 ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "池袋"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/library/tf_13/sc_13116/to_1002539644/",
+        "etv": 507.5037536621094,
+        "estimated_paid_traffic_cost": 228.37669372558594,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 576
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 71,
+        "rank_absolute": 80,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "【ホームズ】池袋駅（東京都）周辺の街情報・住みやすさ",
+        "url": "https://www.homes.co.jp/machimusubi/tokyo/ikebukuro_00488-st/?referral_content=list_station",
+        "breadcrumb": "https://www.homes.co.jp › tokyo › ikebukuro_00488-st",
+        "website_name": "ホームズ",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "2026/09/10 — まちの印象ランキング · コンビニの数が多い · 複数の鉄道路線や駅が利用可能 · 終電が遅くまである · 夜遅くても外食ができる · 深夜まで営業する ...",
+        "pre_snippet": "09/10/2026 00:00:00",
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": null,
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/machimusubi/tokyo/ikebukuro_00488-st/?referral_content=list_station",
+        "etv": 383.49554443359375,
+        "estimated_paid_traffic_cost": 172.572998046875,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "梅田",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-17 00:16:23 +00:00",
+         "competition": 0.009999999776482582,
+         "competition_level": "LOW",
+         "cpc": 0.8500000238418579,
+         "search_volume": 673000,
+         "low_top_of_page_bid": 0.3199999928474426,
+         "high_top_of_page_bid": 3.4200000762939453,
+         "categories": [
+          10003,
+          10042,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 673000
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 823000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 673000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 673000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 673000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 673000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 823000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 550000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 550000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 550000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 550000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 550000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -18,
+          "quarterly": 0,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "zh-TW",
+         "is_another_language": true
+        },
+        "serp_info": null,
+        "avg_backlinks_info": null,
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": [
+          "navigational"
+         ],
+         "last_updated_time": "2026-05-07 17:11:00 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 68,
+        "rank_absolute": 76,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "レ・ジェイド大阪梅田（取材レポート詳細） - 新築マンション",
+        "url": "https://suumo.jp/ms/shinchiku/osaka/sc_osakashikita/nc_67734027/report/N003101/",
+        "breadcrumb": "https://suumo.jp › ... › 東梅田駅 › レ・ジェイド大阪梅田",
+        "website_name": "SUUMO",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "地下街へスムーズに繋がる軽快さ。都市の華やぎと穏やかさが調和する場所. 色褪せない価値が交差する地。梅田で育む、世代を超えて受け継がれる日常.",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "梅田"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/ms/shinchiku/osaka/sc_osakashikita/nc_67734027/report/N003101/",
+        "etv": 120.9581069946289,
+        "estimated_paid_traffic_cost": 102.81439208984375,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 576
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 12,
+        "rank_absolute": 14,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "大阪梅田駅 - まちむすび",
+        "url": "https://www.homes.co.jp/machimusubi/osaka/osakaumeda_06623-st/",
+        "breadcrumb": "https://www.homes.co.jp › osaka › osakaumeda_06623-st",
+        "website_name": "ホームズ",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "2026/09/10 — 都心部の立地であり、鉄道主要駅のため、交通の便は非常に良く、困ることはありません。繁華街で夜間の治安はあまり良くありません。子育ても学校は近隣に ...",
+        "pre_snippet": "09/10/2026 00:00:00",
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "都心部の立地であり、鉄道主要駅のため、交通の便は非常に良く"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/machimusubi/osaka/osakaumeda_06623-st/",
+        "etv": 1809.6302490234375,
+        "estimated_paid_traffic_cost": 1538.1856689453125,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "スーパー 近く",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-19 01:08:18 +00:00",
+         "competition": 0.019999999552965164,
+         "competition_level": "LOW",
+         "cpc": 0.10000000149011612,
+         "search_volume": 673000,
+         "low_top_of_page_bid": 0.28999999165534973,
+         "high_top_of_page_bid": 13.539999961853027,
+         "categories": [
+          10010,
+          10084
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 823000
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 1000000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 673000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 550000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 673000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 673000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 673000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 550000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 550000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 550000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 550000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 550000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -18,
+          "quarterly": 22,
+          "yearly": 22
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": null,
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": [
+          "transactional",
+          "commercial"
+         ],
+         "last_updated_time": "2026-05-03 21:03:04 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 17,
+        "rank_absolute": 22,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "「駅やスーパー近く」高知市大津甲1号棟 新築一戸建て ...",
+        "url": "https://suumo.jp/ikkodate/kochi/sc_kochi/nc_20998257/map/bukken/?zref=kankyo",
+        "breadcrumb": "https://suumo.jp › kochi › sc_kochi › map › bukken",
+        "website_name": "SUUMO",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "「駅やスーパー近く」高知市大津甲1号棟 新築一戸建ての地図ページ。SUUMO新築一戸建て、分譲一戸建てでは豊富な新築物件の情報からエリアや沿線、その他さまざまな ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "スーパー近く"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/ikkodate/kochi/sc_kochi/nc_20998257/map/bukken/?zref=kankyo",
+        "etv": 732.1866455078125,
+        "estimated_paid_traffic_cost": 73.21866607666016,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 576
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 3,
+        "rank_absolute": 6,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "下関市で購入できるスーパー近くの中古一戸建て・一軒家一覧 ...",
+        "url": "https://www.homes.co.jp/kodate/chuko/theme/12118/yamaguchi/shimonoseki-city/list/",
+        "breadcrumb": "https://www.homes.co.jp › ... › 山口県 › 下関市",
+        "website_name": "ホームズ",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "【こだわり条件数100項目以上】充実した検索機能で、あなたにマッチした物件がきっと見つかる！下関市の豊富な中古一戸建てから、間取りや価格、詳細条件で絞り込み、 ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": null,
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/kodate/chuko/theme/12118/yamaguchi/shimonoseki-city/list/",
+        "etv": 6252.8837890625,
+        "estimated_paid_traffic_cost": 625.2883911132812,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "梅田駅",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-19 15:38:55 +00:00",
+         "competition": 0.029999999329447746,
+         "competition_level": "LOW",
+         "cpc": 0.4099999964237213,
+         "search_volume": 673000,
+         "low_top_of_page_bid": 0.2800000011920929,
+         "high_top_of_page_bid": 1.559999942779541,
+         "categories": [
+          10003,
+          10042,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 673000
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 673000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 550000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 550000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 673000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 673000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 673000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 550000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 550000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 673000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 550000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 673000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 22,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 2.200000047683716,
+         "dofollow": 1.100000023841858,
+         "referring_pages": 1.100000023841858,
+         "referring_domains": 0.10000000149011612,
+         "referring_main_domains": 0.10000000149011612,
+         "rank": 2.5999999046325684,
+         "main_domain_rank": 547.5999755859375,
+         "last_updated_time": "2026-10-08 06:19:06 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-07 18:20:16 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 58,
+        "rank_absolute": 71,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "【SUUMO】事務所利用可で探す大阪梅田駅の賃貸 ...",
+        "url": "https://suumo.jp/chintai/osaka/ek_04641/nj_149/",
+        "breadcrumb": "https://suumo.jp › ... › 大阪市北区 › 大阪梅田駅",
+        "website_name": "SUUMO",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "【SUUMO(スーモ)賃貸】大阪梅田駅(大阪府)の事務所利用可で絞り込んだ賃貸マンション・賃貸アパート・貸家など、賃貸住宅の検索結果一覧です。マンションやアパートの ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "梅田駅"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/chintai/osaka/ek_04641/nj_149/",
+        "etv": 499.6358947753906,
+        "estimated_paid_traffic_cost": 204.8507080078125,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 576
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 6,
+        "rank_absolute": 10,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "大阪梅田駅 - まちむすび",
+        "url": "https://www.homes.co.jp/machimusubi/osaka/osakaumeda_06623-st/",
+        "breadcrumb": "https://www.homes.co.jp › osaka › osakaumeda_06623-st",
+        "website_name": "ホームズ",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "2026/09/10 — 都心部の立地であり、鉄道主要駅のため、交通の便は非常に良く、困ることはありません。繁華街で夜間の治安はあまり良くありません。子育ても学校は近隣に ...",
+        "pre_snippet": "09/10/2026 00:00:00",
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "都心部の立地であり、鉄道主要駅のため、交通の便は非常に良く"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/machimusubi/osaka/osakaumeda_06623-st/",
+        "etv": 7695.1630859375,
+        "estimated_paid_traffic_cost": 3155.016845703125,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "ピア",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-12 03:46:15 +00:00",
+         "competition": 0,
+         "competition_level": "LOW",
+         "cpc": 3.0899999141693115,
+         "search_volume": 550000,
+         "low_top_of_page_bid": 0.8199999928474426,
+         "high_top_of_page_bid": 4.960000038146973,
+         "categories": [
+          10005,
+          13422
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 450000
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 450000
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 550000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 550000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 550000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 450000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 550000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 550000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 550000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 450000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 450000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 450000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": -18,
+          "yearly": -18
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": null,
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": null,
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-02 13:34:46 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 5,
+        "rank_absolute": 10,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "ピアの賃貸物件情報",
+        "url": "https://suumo.jp/library/tf_43/sc_43102/to_1001368307/",
+        "breadcrumb": "https://suumo.jp › ... › 熊本県 › 熊本市東区",
+        "website_name": "SUUMO",
+        "is_image": true,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": [
+         "is_image"
+        ],
+        "description": "ピア /熊本県熊本市東区の新築マンション、中古マンション、賃貸物件のSUUMO掲載情報がまとめて探せます。所在地は熊本県熊本市東区山ノ神1（熊本市/都市バス・山の神 ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "ピア"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/library/tf_43/sc_43102/to_1001368307/",
+        "etv": 198.0059356689453,
+        "estimated_paid_traffic_cost": 611.8383178710938,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 576
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 25,
+        "rank_absolute": 34,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "ピア狛江 の賃貸情報",
+        "url": "https://www.homes.co.jp/archive/b-17653930/",
+        "breadcrumb": "https://www.homes.co.jp › ... › 和泉本町１丁目",
+        "website_name": "ホームズ",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "2026/09/15 — ピア狛江(狛江市和泉本町1丁目)の建物情報。間取り図や写真、家賃・価格・口コミや、建物内に賃貸や中古マンションの空室・売出し情報があるか確認 ...",
+        "pre_snippet": "09/15/2026 00:00:00",
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "ピア"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/archive/b-17653930/",
+        "etv": 32.52999496459961,
+        "estimated_paid_traffic_cost": 100.51769256591797,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "不動産",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-15 21:25:49 +00:00",
+         "competition": 0.28999999165534973,
+         "competition_level": "LOW",
+         "cpc": 1.7300000190734863,
+         "search_volume": 450000,
+         "low_top_of_page_bid": 0.4099999964237213,
+         "high_top_of_page_bid": 4.929999828338623,
+         "categories": [
+          10003,
+          10040
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 450000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 450000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 450000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 450000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 450000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 450000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 368000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 450000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 450000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": -33
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": null,
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-30 03:50:56 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 1,
+        "rank_absolute": 5,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "山梨県の不動産会社をエリアから探す",
+        "url": "https://suumo.jp/chintai/kaisha/yamanashi/area/",
+        "breadcrumb": "https://suumo.jp › 不動産会社 › 山梨県",
+        "website_name": "SUUMO",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "山梨県の不動産会社をエリアから探す. ご希望の市区郡名をクリックしてください。複数の市区郡をチェックして検索することもできます。",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "不動産"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/chintai/kaisha/yamanashi/area/",
+        "etv": 68518.7734375,
+        "estimated_paid_traffic_cost": 118537.4765625,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 576
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 14,
+        "rank_absolute": 19,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "【どこがいい？】和歌山県の不動産売却｜地元の会社に査定依頼",
+        "url": "https://www.homes.co.jp/satei/wakayama/",
+        "breadcrumb": "https://www.homes.co.jp › ... › 不動産査定",
+        "website_name": "ホームズ",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "和歌山県の不動産売却・査定・買取相談におすすめの、和歌山県内及び近隣にある地元の不動産会社を一覧で掲載しています。 会社ごとの特長や写真だけでなく、住所・ ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "不動産"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/satei/wakayama/",
+        "etv": 1238.6331787109375,
+        "estimated_paid_traffic_cost": 2142.83544921875,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "tokyo towers",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-15 01:25:38 +00:00",
+         "competition": 0.2199999988079071,
+         "competition_level": "LOW",
+         "cpc": 0.8100000023841858,
+         "search_volume": 450000,
+         "low_top_of_page_bid": 0.3799999952316284,
+         "high_top_of_page_bid": 1.309999942779541,
+         "categories": [
+          10004,
+          10273,
+          11130
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 550000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 550000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 450000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 368000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 450000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 450000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 550000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "keyword_metrics",
+         "keyword_difficulty": 0,
+         "detected_language": "en",
+         "is_another_language": true
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 84.69999694824219,
+         "dofollow": 32.900001525878906,
+         "referring_pages": 33.20000076293945,
+         "referring_domains": 2.700000047683716,
+         "referring_main_domains": 2.5,
+         "rank": 63.20000076293945,
+         "main_domain_rank": 421,
+         "last_updated_time": "2026-10-08 06:27:16 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-29 22:36:49 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 19,
+        "rank_absolute": 27,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "THE TOKYO TOWERS MIDTOWER/ザ東京タワーズ",
+        "url": "https://suumo.jp/library/tf_13/sc_13102/to_1002360222/",
+        "breadcrumb": "https://suumo.jp › ... › 東京都 › 中央区",
+        "website_name": "SUUMO",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "勝どき駅は、都営大江戸線-徒歩、都営大江戸線と、複数の路線を利用でき、さらに乗り換えなしで新橋駅まで14分で行くことができます。 駅周辺にはスーパー、コンビニ、薬局 ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": null,
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/library/tf_13/sc_13102/to_1002360222/",
+        "etv": 906.4852905273438,
+        "estimated_paid_traffic_cost": 734.2531127929688,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 576
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 6,
+        "rank_absolute": 9,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "【ホームズ】THE TOKYO TOWERS MID TOWER - マンション",
+        "url": "https://www.homes.co.jp/mansion/b-1341620000354/",
+        "breadcrumb": "https://www.homes.co.jp › ... › 勝どき › 勝どき駅",
+        "website_name": "ホームズ",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "2025/07/31 — 現在、THE TOKYO TOWERS MID TOWERは掲載を停止しています. このページの物件情報は広告情報ではありません。2021年4月24日にLIFULL HOME'S上で更新 ...",
+        "pre_snippet": "07/31/2025 00:00:00",
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "現在、THE TOKYO TOWERS MID TOWERは掲載を停止しています"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/mansion/b-1341620000354/",
+        "etv": 1795.1678466796875,
+        "estimated_paid_traffic_cost": 1454.0859375,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "秋葉原",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-17 10:21:06 +00:00",
+         "competition": 0.10000000149011612,
+         "competition_level": "LOW",
+         "cpc": 0.44999998807907104,
+         "search_volume": 450000,
+         "low_top_of_page_bid": 0.23000000417232513,
+         "high_top_of_page_bid": 1.75,
+         "categories": [
+          10017,
+          10142,
+          10769
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 450000
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 550000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 450000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 450000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 550000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 450000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 450000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 368000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 368000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 368000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 368000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -18,
+          "quarterly": 0,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": null,
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-05 12:44:47 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 55,
+        "rank_absolute": 63,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "秋葉原 | スーモジャーナル - 住まい・暮らしのニュース・コラム ...",
+        "url": "https://suumo.jp/journal/tag/%E7%A7%8B%E8%91%89%E5%8E%9F/",
+        "breadcrumb": "https://suumo.jp › journal › tag › 秋葉原",
+        "website_name": "SUUMO",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "「秋葉原」記事一覧 ... 生活にも観光にも便利な秋葉原まで乗り換えなしの狙い目駅. 「秋葉原」まで乗換なし・20分以内、家賃が安い駅は？",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "秋葉原"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/journal/tag/%E7%A7%8B%E8%91%89%E5%8E%9F/",
+        "etv": 241.8859405517578,
+        "estimated_paid_traffic_cost": 108.84867095947266,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 576
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 71,
+        "rank_absolute": 80,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "【ホームズ】秋葉原駅の賃貸「ロフト付きのお部屋」 物件一覧 ...",
+        "url": "https://www.homes.co.jp/chintai/theme/12109/tokyo/akihabara_00592-st/list/",
+        "breadcrumb": "https://www.homes.co.jp › ... › 千代田区 › 秋葉原駅",
+        "website_name": "ホームズ",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "秋葉原 駅付近の賃貸は、単身者向けのワンルームと1Kで約11万〜13万円、ファミリー向けの2DKで約15万～17万円です。 一人暮らしであれば、通勤の便利さを優先して駅近を選ぶ ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "秋葉原"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/chintai/theme/12109/tokyo/akihabara_00592-st/list/",
+        "etv": 182.20034790039062,
+        "estimated_paid_traffic_cost": 81.99015808105469,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "栄駅",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-18 05:40:33 +00:00",
+         "competition": 0.029999999329447746,
+         "competition_level": "LOW",
+         "cpc": 0.20999999344348907,
+         "search_volume": 368000,
+         "low_top_of_page_bid": 0.23000000417232513,
+         "high_top_of_page_bid": 2.3899998664855957,
+         "categories": [
+          10017,
+          10146,
+          10783
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 450000
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 450000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 450000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 450000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 368000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 450000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 368000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 368000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 22,
+          "yearly": 50
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 0.10000000149011612,
+         "dofollow": 0.10000000149011612,
+         "referring_pages": 0.10000000149011612,
+         "referring_domains": 0.10000000149011612,
+         "referring_main_domains": 0.10000000149011612,
+         "rank": 18.600000381469727,
+         "main_domain_rank": 550,
+         "last_updated_time": "2026-10-08 06:28:33 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-06 08:48:28 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 7,
+        "rank_absolute": 11,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "栄駅エリア・他周辺エリアの賃貸(賃貸マンション・アパート)物件 ...",
+        "url": "https://suumo.jp/chintai/aichi/ek_15740/",
+        "breadcrumb": "https://suumo.jp › ... › 賃貸 › 愛知県 › 名古屋市中区",
+        "website_name": "SUUMO",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "栄駅周辺の賃貸物件は、1DK、ワンルーム、1Kなどの間取りが多く、単身者向け物件が充実しているエリア です。30万円を超える物件など、価格帯の選択肢が幅広いエリアですが ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "栄駅周辺の賃貸物件は、1DK、ワンルーム、1Kなどの間取りが多く、単身者向け物件が充実しているエリア"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/chintai/aichi/ek_15740/",
+        "etv": 2160.076171875,
+        "estimated_paid_traffic_cost": 453.615966796875,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 576
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 29,
+        "rank_absolute": 35,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "栄駅(愛知県)の賃貸(賃貸マンション・アパート)",
+        "url": "https://www.homes.co.jp/chintai/aichi/sakae_06681-st/list/",
+        "breadcrumb": "https://www.homes.co.jp › ... › 名古屋市 › 中区",
+        "website_name": "ホームズ",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "栄駅(愛知県)の賃貸・賃貸情報、物件一覧 。7日以内に掲載開始した新着物件が3358件あります。日本最大級の豊富な賃貸物件の一覧から、栄駅の賃貸住宅[賃貸マンション・ ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "栄駅(愛知県)の賃貸・賃貸情報、物件一覧"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/chintai/aichi/sakae_06681-st/list/",
+        "etv": 827.610107421875,
+        "estimated_paid_traffic_cost": 173.79811096191406,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "嵐山",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-19 16:30:15 +00:00",
+         "competition": 0.25,
+         "competition_level": "LOW",
+         "cpc": 0.23000000417232513,
+         "search_volume": 368000,
+         "low_top_of_page_bid": 0.28999999165534973,
+         "high_top_of_page_bid": 1.8600000143051147,
+         "categories": [
+          10017,
+          10145
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 450000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 450000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 301000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 301000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 450000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 450000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 22,
+          "quarterly": 50,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 5.300000190734863,
+         "dofollow": 5.300000190734863,
+         "referring_pages": 5.300000190734863,
+         "referring_domains": 0.10000000149011612,
+         "referring_main_domains": 0.10000000149011612,
+         "rank": 13.399999618530273,
+         "main_domain_rank": 640.9000244140625,
+         "last_updated_time": "2026-10-08 06:30:36 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-07 17:08:08 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 20,
+        "rank_absolute": 30,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "嵐山駅(京都府)の不動産・住宅検索結果",
+        "url": "https://suumo.jp/map/kyoto/ek_01540/",
+        "breadcrumb": "https://suumo.jp › map › kyoto",
+        "website_name": "SUUMO",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "【SUUMO(スーモ)】嵐山駅(京都府)の地図から探す不動産・住宅に関する物件情報。京都府の賃貸情報からマンション・一戸建て・土地などの不動産売買・物件購入情報は ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "嵐山"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/map/kyoto/ek_01540/",
+        "etv": 1543.736083984375,
+        "estimated_paid_traffic_cost": 355.0592956542969,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 576
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 16,
+        "rank_absolute": 24,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "【ホームズ】嵐山駅（京都府）周辺の街情報・住みやすさ",
+        "url": "https://www.homes.co.jp/machimusubi/kyoto/arashiyama_06186-st/",
+        "breadcrumb": "https://www.homes.co.jp › kyoto › arashiyama_06186-st",
+        "website_name": "ホームズ",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "2026/09/10 — まちの印象ランキング · 川が近くにある · お寺・神社が近くにある · 山が近くにある · 身近に四季を感じられる · お年寄りが多い · 気持ちよく散歩が ...",
+        "pre_snippet": "09/10/2026 00:00:00",
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "川が近くにある"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/machimusubi/kyoto/arashiyama_06186-st/",
+        "etv": 1629.3785400390625,
+        "estimated_paid_traffic_cost": 374.7570495605469,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "小田原駅",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-18 05:27:47 +00:00",
+         "competition": 0.009999999776482582,
+         "competition_level": "LOW",
+         "cpc": 0.14000000059604645,
+         "search_volume": 368000,
+         "low_top_of_page_bid": 0.14000000059604645,
+         "high_top_of_page_bid": 0.9800000190734863,
+         "categories": [
+          10017,
+          10146,
+          10783
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 450000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 301000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 301000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 368000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 301000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -18,
+          "quarterly": 0,
+          "yearly": 22
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": null,
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-30 02:42:08 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 12,
+        "rank_absolute": 14,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "東海道新幹線/小田原駅 歩4分【SUUMO賃貸】 ...",
+        "url": "https://suumo.jp/chintai/bc_100518080743/kankyo/",
+        "breadcrumb": "https://suumo.jp › chintai › kankyo",
+        "website_name": "SUUMO",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "東海道新幹線/小田原駅 歩4分の地図ページ。SUUMO賃貸マンション・賃貸アパートでは豊富なマンション・アパートの情報からエリアや沿線、その他さまざまな詳細条件で ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "小田原駅"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/chintai/bc_100518080743/kankyo/",
+        "etv": 2955.87744140625,
+        "estimated_paid_traffic_cost": 413.82281494140625,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 576
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 21,
+        "rank_absolute": 25,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "不動産の売買・住宅の購入・情報の検索[物件探し] - 小田原駅",
+        "url": "https://www.homes.co.jp/kanagawa/odawara_00013-st/list/",
+        "breadcrumb": "https://www.homes.co.jp › ... › 小田原市 › 小田原駅",
+        "website_name": "ホームズ",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "小田原駅の不動産、物件一覧 （神奈川県）【LIFULL HOME'S/ライフルホームズ】。豊富な小田原駅の不動産物件から、間取りや価格で絞込み、簡単に比較・資料請求！",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "小田原駅の不動産、物件一覧"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/kanagawa/odawara_00013-st/list/",
+        "etv": 2682.987548828125,
+        "estimated_paid_traffic_cost": 375.6182556152344,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": {
+         "referring_domains": 1,
+         "referring_main_domains": 1,
+         "referring_pages": 2,
+         "dofollow": 2,
+         "backlinks": 2,
+         "time_update": "2026-11-11 03:54:50 +00:00"
+        },
+        "rank_info": {
+         "page_rank": 24,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "下北沢駅",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-19 13:29:27 +00:00",
+         "competition": 0.019999999552965164,
+         "competition_level": "LOW",
+         "cpc": 0.3199999928474426,
+         "search_volume": 368000,
+         "low_top_of_page_bid": 0.17000000178813934,
+         "high_top_of_page_bid": 0.7099999785423279,
+         "categories": [
+          10017,
+          10146,
+          10783,
+          12084
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 450000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 368000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 368000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 301000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 368000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": 22
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 8,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 90,
+         "dofollow": 72,
+         "referring_pages": 78.5999984741211,
+         "referring_domains": 18.399999618530273,
+         "referring_main_domains": 17,
+         "rank": 89.9000015258789,
+         "main_domain_rank": 493,
+         "last_updated_time": "2026-10-08 06:29:48 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-30 02:14:37 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 37,
+        "rank_absolute": 41,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "下北沢は開発でどう変貌した？ 全長1.7km「下北線路街」が ...",
+        "url": "https://suumo.jp/journal/2021/08/30/182061/",
+        "breadcrumb": "https://suumo.jp › SUUMOジャーナル › 街・地域",
+        "website_name": "SUUMO",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "2021/08/30 — 小田急線の下北沢駅、世田谷代田駅、東北沢駅が地下化されたのは2013年3月。同エリアに9カ所あった「開かずの踏切」がなくなり、車の渋滞が解消された ...",
+        "pre_snippet": "08/30/2021 00:00:00",
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "下北沢駅"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/journal/2021/08/30/182061/",
+        "etv": 829.2869262695312,
+        "estimated_paid_traffic_cost": 265.3717956542969,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": {
+         "referring_domains": 7,
+         "referring_main_domains": 7,
+         "referring_pages": 12,
+         "dofollow": 12,
+         "backlinks": 15,
+         "time_update": "2026-11-11 04:04:10 +00:00"
+        },
+        "rank_info": {
+         "page_rank": 84,
+         "main_domain_rank": 576
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 22,
+        "rank_absolute": 25,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "“憧れの街”はどう変わった？ 小田急線地下化で激変した ...",
+        "url": "https://www.homes.co.jp/cont/press/reform/reform_01547/",
+        "breadcrumb": "https://www.homes.co.jp › ... › 改築・改装する",
+        "website_name": "ホームズ",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "2026/06/14 — 東京都が主体となった連続立体交差事業によって小田急線が地下化され、下北沢を含む東北沢駅～世田谷代田駅間の踏切9カ所が廃止されたことで、街の構造が ...",
+        "pre_snippet": "06/14/2026 00:00:00",
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "下北沢"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/cont/press/reform/reform_01547/",
+        "etv": 3652.02880859375,
+        "estimated_paid_traffic_cost": 1168.649169921875,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "かね",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-17 12:00:49 +00:00",
+         "competition": 0.10999999940395355,
+         "competition_level": "LOW",
+         "cpc": 5.25,
+         "search_volume": 368000,
+         "low_top_of_page_bid": 1.0099999904632568,
+         "high_top_of_page_bid": 8.260000228881836,
+         "categories": [
+          10108
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 201000
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 550000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 823000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 550000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 301000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 246000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 450000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -33,
+          "quarterly": -45,
+          "yearly": -18
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": null,
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": null,
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-03 17:13:22 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 59,
+        "rank_absolute": 65,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "カトルさんたかね(2LDK/3階/55.5m²)の賃貸住宅情報 - 愛知県",
+        "url": "https://suumo.jp/chintai/jnc_000101643803/",
+        "breadcrumb": "https://suumo.jp › ... › 名古屋市緑区 › 鳴海駅",
+        "website_name": "SUUMO",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "部屋の特徴 · バス・トイレ別 · 2階以上 · 駐車場あり · 室内洗濯機置場 · エアコン付き · ペット相談可 · オートロック · 洗面所独立. 入居条件, 即 ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": null,
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/chintai/jnc_000101643803/",
+        "etv": 79.68342590332031,
+        "estimated_paid_traffic_cost": 418.3379821777344,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 576
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 33,
+        "rank_absolute": 39,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "【募集中あり】パストラーレたかね の賃貸情報",
+        "url": "https://www.homes.co.jp/archive/b-3404622/",
+        "breadcrumb": "https://www.homes.co.jp › ... › 亀崎高根町８丁目",
+        "website_name": "ホームズ",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "パストラーレたかねに住みたいと思っています。家賃はいくらですか？ パストラーレたかねで最近募集があった部屋の家賃は3.3万円〜3.4万円です。最新の賃貸募集情報の ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "かね"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/archive/b-3404622/",
+        "etv": 384.9800720214844,
+        "estimated_paid_traffic_cost": 2021.1453857421875,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "ゆ",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-19 00:49:47 +00:00",
+         "competition": 0,
+         "competition_level": "LOW",
+         "cpc": 0.15000000596046448,
+         "search_volume": 301000,
+         "low_top_of_page_bid": 1.2899999618530273,
+         "high_top_of_page_bid": 4.389999866485596,
+         "categories": [
+          10108,
+          10112,
+          10611
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 368000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 301000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 301000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 301000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": 22
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": null,
+         "keyword_difficulty": 0,
+         "detected_language": "zh-TW",
+         "is_another_language": true
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 1,
+         "dofollow": 0.20000000298023224,
+         "referring_pages": 0.20000000298023224,
+         "referring_domains": 0.10000000149011612,
+         "referring_main_domains": 0.10000000149011612,
+         "rank": 5.900000095367432,
+         "main_domain_rank": 637.7000122070312,
+         "last_updated_time": "2026-10-08 06:38:01 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-30 02:53:14 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 75,
+        "rank_absolute": 80,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "ファミールヴィラ(2DK/1-2階/51.48m²)の賃貸住宅情報｜(株)ゆ ...",
+        "url": "https://suumo.jp/chintai/bc_100483020974/",
+        "breadcrumb": "https://suumo.jp › ... › 東別府駅 › ファミールヴィラ",
+        "website_name": "SUUMO",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "部屋の特徴 · バス・トイレ別 · 2階以上 · 駐車場あり · 室内洗濯機置場 · エアコン付き · ペット相談可 · オートロック · 洗面所独立. 入居条件, ルーム ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": null,
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/chintai/bc_100483020974/",
+        "etv": 297.7210693359375,
+        "estimated_paid_traffic_cost": 44.65816116333008,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 576
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 33,
+        "rank_absolute": 38,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "ふぁ・みーゆ21A(甲府市)の賃貸情報",
+        "url": "https://www.homes.co.jp/archive/b-14509693/",
+        "breadcrumb": "https://www.homes.co.jp › ... › 国母 › 国母８丁目",
+        "website_name": "ホームズ",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "2026/03/30 — ふぁ・みーゆ21Aに住みたいと思っています。家賃はいくらですか？ ふぁ・みーゆ21Aで最近募集があった部屋の家賃は4.6万円〜4.7万円です。最新の賃貸募集 ...",
+        "pre_snippet": "03/30/2026 00:00:00",
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "ゆ"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/archive/b-14509693/",
+        "etv": 847.8372192382812,
+        "estimated_paid_traffic_cost": 127.17558288574219,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "賃貸",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-15 14:34:47 +00:00",
+         "competition": 0.5,
+         "competition_level": "MEDIUM",
+         "cpc": 0.28999999165534973,
+         "search_volume": 301000,
+         "low_top_of_page_bid": 0.029999999329447746,
+         "high_top_of_page_bid": 0.3700000047683716,
+         "categories": [
+          10003,
+          10033
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 368000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 246000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 246000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 246000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": -18
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "el",
+         "is_another_language": true
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 7.800000190734863,
+         "dofollow": 7.800000190734863,
+         "referring_pages": 7.800000190734863,
+         "referring_domains": 0.30000001192092896,
+         "referring_main_domains": 0.30000001192092896,
+         "rank": 20.700000762939453,
+         "main_domain_rank": 451.70001220703125,
+         "last_updated_time": "2026-10-08 06:34:51 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "commercial",
+         "foreign_intent": [
+          "transactional",
+          "informational"
+         ],
+         "last_updated_time": "2026-04-30 02:30:29 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 1,
+        "rank_absolute": 2,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "広島県の賃貸住宅[賃貸マンション・アパート]情報探し",
+        "url": "https://suumo.jp/chintai/hiroshima/pnz1118.html",
+        "breadcrumb": "https://suumo.jp › 賃貸",
+        "website_name": "SUUMO",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "広島県の賃貸マンション・賃貸アパートの賃貸住宅物件を415346件掲載中 ！人気エリアなどで貸家情報を条件指定検索することも簡単！理想の家探しをサポートします。",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "広島県の賃貸マンション・賃貸アパートの賃貸住宅物件を415346件掲載中"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/chintai/hiroshima/pnz1118.html",
+        "etv": 21070.12890625,
+        "estimated_paid_traffic_cost": 6110.33740234375,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 576
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 2,
+        "rank_absolute": 3,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "岡山県総社市 総社の賃貸(賃貸マンション・アパート)",
+        "url": "https://www.homes.co.jp/chintai/okayama/soja-city/384912EA4D-town/list/",
+        "breadcrumb": "https://www.homes.co.jp › ... › 賃貸 › 岡山県 › 総社市",
+        "website_name": "ホームズ",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "岡山県 総社市総社の賃貸・賃貸情報、物件一覧 。日本最大級の豊富な賃貸物件の一覧から、総社の賃貸住宅[賃貸マンション・アパート]を希望の条件で簡単に絞り込み！",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "岡山県 総社市総社の賃貸・賃貸情報、物件一覧"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/chintai/okayama/soja-city/384912EA4D-town/list/",
+        "etv": 9872.9169921875,
+        "estimated_paid_traffic_cost": 2863.14599609375,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "マンション",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-09-16 22:20:53 +00:00",
+         "competition": 0.12999999523162842,
+         "competition_level": "LOW",
+         "cpc": 1.690000057220459,
+         "search_volume": 301000,
+         "low_top_of_page_bid": 0.3400000035762787,
+         "high_top_of_page_bid": 2.819999933242798,
+         "categories": [
+          10003,
+          10042,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 301000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 301000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 246000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 301000
+          },
+          {
+           "year": 2025,
+           "month": 9,
+           "search_volume": 301000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 22,
+          "quarterly": 22,
+          "yearly": 22
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": null,
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-05 19:53:14 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 1,
+        "rank_absolute": 2,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "「中古マンション 長崎市 1」で探す中古マンションの購入情報(2 ...",
+        "url": "https://suumo.jp/b/kodate/kw/%E4%B8%AD%E5%8F%A4%E3%83%9E%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%80%E9%95%B7%E5%B4%8E%E5%B8%82%E3%80%80%EF%BC%91/2/",
+        "breadcrumb": "https://suumo.jp › kodate › 中古マンション　長崎市　１",
+        "website_name": "SUUMO",
+        "is_image": true,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": [
+         "is_image"
+        ],
+        "description": "【SUUMO(スーモ)】「中古マンション 長崎市 1」に関する中古マンションを買うなら、リクルートの物件情報検索サイトSUUMOにお任せください。中古マンションの販売最新 ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "マンション"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/b/kodate/kw/%E4%B8%AD%E5%8F%A4%E3%83%9E%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%80%E9%95%B7%E5%B4%8E%E5%B8%82%E3%80%80%EF%BC%91/2/",
+        "etv": 69271.6171875,
+        "estimated_paid_traffic_cost": 117069.0234375,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 576
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 3,
+        "rank_absolute": 4,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "宮崎県の新築マンション・分譲マンションを探す",
+        "url": "https://www.homes.co.jp/mansion/shinchiku/miyazaki/",
+        "breadcrumb": "https://www.homes.co.jp › ... › 九州・沖縄",
+        "website_name": "ホームズ",
+        "is_image": true,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": [
+         "is_image"
+        ],
+        "description": "宮崎県の新築マンションの価格相場は、間取り、平米数、立地、ブランドといった条件によって2500万円〜2900万円程度、中央値は大体2700万円です。宮崎県内で新築マンション ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "マンション"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/mansion/shinchiku/miyazaki/",
+        "etv": 15030.384765625,
+        "estimated_paid_traffic_cost": 25401.349609375,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "1階",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-18 15:44:55 +00:00",
+         "competition": 0.019999999552965164,
+         "competition_level": "LOW",
+         "cpc": 0.30000001192092896,
+         "search_volume": 301000,
+         "low_top_of_page_bid": null,
+         "high_top_of_page_bid": null,
+         "categories": [
+          10004,
+          10273,
+          13734
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 450000
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 450000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 301000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 301000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 110000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 201000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 22,
+          "yearly": 233
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": null,
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 0.30000001192092896,
+         "dofollow": 0.30000001192092896,
+         "referring_pages": 0.30000001192092896,
+         "referring_domains": 0.20000000298023224,
+         "referring_main_domains": 0.20000000298023224,
+         "rank": 5.800000190734863,
+         "main_domain_rank": 492,
+         "last_updated_time": "2026-10-08 06:39:32 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-28 23:46:08 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 1,
+        "rank_absolute": 2,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "賃貸マンションやアパートの1階はやめておくべき？ ...",
+        "url": "https://suumo.jp/article/oyakudachi/oyaku/chintai/fr_room/ikkai_yameteokubeki/",
+        "breadcrumb": "https://suumo.jp › ... › 部屋の探し方・選び方",
+        "website_name": "SUUMO",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "2025/09/25 — 1階は周りの建物や植栽に日光を遮られ、日当たりが悪くなる場合があります。 1階は防犯上窓を開けたままにしにくいので換気がしづらく、地面から近いため ...",
+        "pre_snippet": "09/25/2025 00:00:00",
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "1階は周りの建物や植栽に日光を遮られ、日当たりが悪くなる場合があります"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/article/oyakudachi/oyaku/chintai/fr_room/ikkai_yameteokubeki/",
+        "etv": 51547.11328125,
+        "estimated_paid_traffic_cost": 15464.1337890625,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": 2,
+         "is_new": false,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 576
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 11,
+        "rank_absolute": 14,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "【ホームズ】港区の賃貸「マンション1階の部屋」 物件一覧",
+        "url": "https://www.homes.co.jp/chintai/theme/14109/tokyo/minato-city/list/",
+        "breadcrumb": "https://www.homes.co.jp › ... › 東京都 › 23区 › 港区",
+        "website_name": "ホームズ",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "1階 の賃貸なら、エレベーターに乗らないので、朝の通勤・通学は素早く移動。重い荷物を持っての買い物帰りや、ゴミ出しも楽チン！下に住んでいる人がいないので、下階への ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "1階"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/chintai/theme/14109/tokyo/minato-city/list/",
+        "etv": 926.0780639648438,
+        "estimated_paid_traffic_cost": 277.82342529296875,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "日本橋駅",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-19 10:09:33 +00:00",
+         "competition": 0.019999999552965164,
+         "competition_level": "LOW",
+         "cpc": 0.20999999344348907,
+         "search_volume": 301000,
+         "low_top_of_page_bid": 0.11999999731779099,
+         "high_top_of_page_bid": 0.4300000071525574,
+         "categories": [
+          10003,
+          10042,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 301000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 301000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 246000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 246000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -18,
+          "quarterly": 0,
+          "yearly": 22
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "日本橋 駅 まで",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 0.30000001192092896,
+         "dofollow": 0.30000001192092896,
+         "referring_pages": 0.30000001192092896,
+         "referring_domains": 0.10000000149011612,
+         "referring_main_domains": 0.10000000149011612,
+         "rank": 5.900000095367432,
+         "main_domain_rank": 586.4000244140625,
+         "last_updated_time": "2026-10-08 06:34:41 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-30 01:30:52 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 3,
+        "rank_absolute": 6,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "【SUUMO】敷金・礼金なしで探す日本橋駅の賃貸 ...",
+        "url": "https://suumo.jp/chintai/tokyo/ek_29710/nj_114/",
+        "breadcrumb": "https://suumo.jp › ... › 東京都 › 中央区 › 日本橋駅",
+        "website_name": "SUUMO",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "この駅は3路線通っているので、だいたいのところは30分以内でいける便利銀座、恵比寿、表参道なども乗り換えなしでいける。",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": null,
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/chintai/tokyo/ek_29710/nj_114/",
+        "etv": 16126.6201171875,
+        "estimated_paid_traffic_cost": 3386.59033203125,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 576
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 6,
+        "rank_absolute": 10,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "【ホームズ】日本橋駅のマンション 物件一覧",
+        "url": "https://www.homes.co.jp/mansion/tokyo/nihombashi_06309-st/list/",
+        "breadcrumb": "https://www.homes.co.jp › ... › 東京都 › 23区 › 中央区",
+        "website_name": "ホームズ",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "日本橋駅のマンション、物件一覧 （東京都）【LIFULL HOME'S/ライフルホームズ】豊富な日本橋駅のマンションから、間取りや価格で絞り込み、簡単に比較・資料請求！",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "日本橋駅のマンション、物件一覧"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/mansion/tokyo/nihombashi_06309-st/list/",
+        "etv": 3441.670166015625,
+        "estimated_paid_traffic_cost": 722.750732421875,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": {
+         "referring_domains": 1,
+         "referring_main_domains": 1,
+         "referring_pages": 3,
+         "dofollow": 3,
+         "backlinks": 3,
+         "time_update": "2026-11-11 04:23:57 +00:00"
+        },
+        "rank_info": {
+         "page_rank": 59,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "恵比寿",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-09-17 18:41:49 +00:00",
+         "competition": 0.019999999552965164,
+         "competition_level": "LOW",
+         "cpc": 0.4699999988079071,
+         "search_volume": 301000,
+         "low_top_of_page_bid": 0.18000000715255737,
+         "high_top_of_page_bid": 1.0800000429153442,
+         "categories": [
+          10003,
+          10042,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 246000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 246000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 246000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 246000
+          },
+          {
+           "year": 2025,
+           "month": 9,
+           "search_volume": 246000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": 22
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 4,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 106.0999984741211,
+         "dofollow": 79.5,
+         "referring_pages": 83.30000305175781,
+         "referring_domains": 26.5,
+         "referring_main_domains": 25.899999618530273,
+         "rank": 68.9000015258789,
+         "main_domain_rank": 551.9000244140625,
+         "last_updated_time": "2026-10-08 06:34:25 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-07 11:10:08 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 41,
+        "rank_absolute": 49,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "恵比寿駅エリア・他周辺エリアで一人暮らしの賃貸マンション・ ...",
+        "url": "https://suumo.jp/chintai/tokyo/ek_05050/nj_215/",
+        "breadcrumb": "https://suumo.jp › ... › 東京都 › 渋谷区 › 恵比寿駅",
+        "website_name": "SUUMO",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "【SUUMO(スーモ)賃貸】恵比寿駅(東京都)の一人暮らしで絞り込んだ賃貸マンション・賃貸アパート・貸家など、賃貸住宅の検索結果一覧です。マンションやアパートの賃貸 ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "恵比寿"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/chintai/tokyo/ek_05050/nj_215/",
+        "etv": 263.9155578613281,
+        "estimated_paid_traffic_cost": 124.04031372070312,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 576
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 35,
+        "rank_absolute": 41,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "おしゃれな街「恵比寿」を散歩してみよう！住民がおすすめ ...",
+        "url": "https://www.homes.co.jp/cont/town/town_01146/",
+        "breadcrumb": "https://www.homes.co.jp › 住まいのお役立ち情報 › 街",
+        "website_name": "ホームズ",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "2026/06/26 — おしゃれなレストランや隠れ家風なバーなどが点在し、大人の雰囲気漂う恵比寿。恵比寿駅の名前は、もともとヱビスビールを製造・発売していた、日本 ...",
+        "pre_snippet": "06/26/2026 00:00:00",
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "おしゃれなレストランや隠れ家風なバーなどが点在し、大人の雰囲気漂う恵比"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/cont/town/town_01146/",
+        "etv": 333.7225341796875,
+        "estimated_paid_traffic_cost": 156.84959411621094,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": 51,
+         "is_new": false,
+         "is_up": true,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "m's",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-15 16:33:09 +00:00",
+         "competition": 0,
+         "competition_level": "LOW",
+         "cpc": 0.6899999976158142,
+         "search_volume": 246000,
+         "low_top_of_page_bid": 1.600000023841858,
+         "high_top_of_page_bid": 14.789999961853027,
+         "categories": [
+          10021
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 246000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 246000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 246000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 246000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": 22
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 24,
+         "detected_language": "fr",
+         "is_another_language": true
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 595,
+         "dofollow": 589.4000244140625,
+         "referring_pages": 594.2999877929688,
+         "referring_domains": 12,
+         "referring_main_domains": 11.100000381469727,
+         "rank": 122.0999984741211,
+         "main_domain_rank": 271.6000061035156,
+         "last_updated_time": "2026-09-11 23:58:31 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-03 02:05:55 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 28,
+        "rank_absolute": 34,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "M'sの賃貸物件情報 - 鹿児島市",
+        "url": "https://suumo.jp/library/tf_46/sc_46201/to_1002284738/",
+        "breadcrumb": "https://suumo.jp › ... › 鹿児島県 › 鹿児島市",
+        "website_name": "SUUMO",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "M's /鹿児島県鹿児島市の新築マンション、中古マンション、賃貸物件のSUUMO掲載情報がまとめて探せます。所在地は鹿児島県鹿児島市吉野町（南国交通/駄馬落 歩2分）。",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "M's"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/library/tf_46/sc_46201/to_1002284738/",
+        "etv": 518.4034423828125,
+        "estimated_paid_traffic_cost": 357.6983642578125,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 579
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 36,
+        "rank_absolute": 42,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "M's の賃貸情報 - 昭島市",
+        "url": "https://www.homes.co.jp/archive/b-23061470/",
+        "breadcrumb": "https://www.homes.co.jp › ... › 昭和町 › 昭和町５丁目",
+        "website_name": "ホームズ",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "2019/08/29 — M's(昭島市昭和町5丁目)の建物情報。間取り図や写真、家賃・価格・口コミや、建物内に賃貸や中古マンションの空室・売出し情報があるか確認できます ...",
+        "pre_snippet": "08/29/2019 00:00:00",
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "M's"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/archive/b-23061470/",
+        "etv": 279.7066345214844,
+        "estimated_paid_traffic_cost": 192.99758911132812,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "3 fs",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-19 03:18:27 +00:00",
+         "competition": 0.019999999552965164,
+         "competition_level": "LOW",
+         "cpc": 0.30000001192092896,
+         "search_volume": 246000,
+         "low_top_of_page_bid": null,
+         "high_top_of_page_bid": null,
+         "categories": [
+          10019,
+          10168,
+          10885,
+          13602
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 368000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 246000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 246000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 90500
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 165000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -18,
+          "quarterly": 0,
+          "yearly": 233
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "fr",
+         "is_another_language": true
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 1.2000000476837158,
+         "dofollow": 1.100000023841858,
+         "referring_pages": 1.2000000476837158,
+         "referring_domains": 0.8999999761581421,
+         "referring_main_domains": 0.8999999761581421,
+         "rank": 27.5,
+         "main_domain_rank": 434.8999938964844,
+         "last_updated_time": "2026-10-08 06:48:41 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-24 22:56:44 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 12,
+        "rank_absolute": 16,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "FSビル(1K/6階/37.4m²)の賃貸住宅情報｜AFLO上本町店(株) ...",
+        "url": "https://suumo.jp/chintai/bc_100515491068/",
+        "breadcrumb": "https://suumo.jp › ... › 谷町九丁目駅 › FSビル",
+        "website_name": "SUUMO",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "広々12帖の洋室！ 利便性・周辺環境も充実しております♪. 当物件では初期費用のカード一括決済や分割支払が可能！お電話番号を入力してお問合せ頂ければ、成約時1万 ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": null,
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/chintai/bc_100515491068/",
+        "etv": 1952.1895751953125,
+        "estimated_paid_traffic_cost": 585.6568603515625,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 576
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 8,
+        "rank_absolute": 10,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "FSビル(品川区)の賃貸情報 - 東五反田",
+        "url": "https://www.homes.co.jp/archive/b-27265101/",
+        "breadcrumb": "https://www.homes.co.jp › ... › 東五反田１丁目",
+        "website_name": "ホームズ",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "五反田で現在も一番のグレードを誇るマンションです。 周囲は雑多なエリアが多いですが、本物件の周辺環境は治安も良く優れています。 五反田エリアの様々なお店が多く ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": null,
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/archive/b-27265101/",
+        "etv": 2517.767333984375,
+        "estimated_paid_traffic_cost": 755.3301391601562,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "d's",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-19 09:49:17 +00:00",
+         "competition": 0.019999999552965164,
+         "competition_level": "LOW",
+         "cpc": 1.649999976158142,
+         "search_volume": 246000,
+         "low_top_of_page_bid": 0.7300000190734863,
+         "high_top_of_page_bid": 1.9500000476837158,
+         "categories": [
+          10008
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 246000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 246000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 246000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 246000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 22,
+          "quarterly": 22,
+          "yearly": 22
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "d s",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 30,
+         "detected_language": "fr",
+         "is_another_language": true
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 3155.699951171875,
+         "dofollow": 2022.300048828125,
+         "referring_pages": 2036.199951171875,
+         "referring_domains": 24.5,
+         "referring_main_domains": 23.200000762939453,
+         "rank": 179.89999389648438,
+         "main_domain_rank": 434.79998779296875,
+         "last_updated_time": "2026-09-11 23:58:15 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-04 10:31:34 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 37,
+        "rank_absolute": 45,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "D's阿保の賃貸物件情報",
+        "url": "https://suumo.jp/library/tf_28/sc_28201/to_1002856416/",
+        "breadcrumb": "https://suumo.jp › ... › 兵庫県 › 姫路市",
+        "website_name": "SUUMO",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "住所, 兵庫県 姫路市 阿保. 最寄駅, JR山陽本線/東姫路駅 歩10分 JR山陽本線/姫路駅 歩21分 JR播但線/京口駅 歩27分. 種別, アパート. 構造, 軽量鉄骨.",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "住所",
+         "兵庫県 姫路市 阿保"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/library/tf_28/sc_28201/to_1002856416/",
+        "etv": 1.5497732162475586,
+        "estimated_paid_traffic_cost": 2.5571255683898926,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 579
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 20,
+        "rank_absolute": 27,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "D'sスクエア の賃貸情報 - 大阪市住之江区",
+        "url": "https://www.homes.co.jp/archive/b-43628474/",
+        "breadcrumb": "https://www.homes.co.jp › ... › 南加賀屋３丁目",
+        "website_name": "ホームズ",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "2025/12/02 — D'sスクエアの写真一覧 · 所在地, 大阪府大阪市住之江区南加賀屋3丁目7-1 · 交通. Osaka Metro四つ橋線 / 住之江公園駅 徒歩5分; 南海線 / 住ノ江駅 徒歩15 ...",
+        "pre_snippet": "12/02/2025 00:00:00",
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "所在地",
+         "大阪府大阪市住之江区南加賀屋3丁目7-1"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/archive/b-43628474/",
+        "etv": 4.16886043548584,
+        "estimated_paid_traffic_cost": 6.87861967086792,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "大宮",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-18 07:43:21 +00:00",
+         "competition": 0.009999999776482582,
+         "competition_level": "LOW",
+         "cpc": 0.4399999976158142,
+         "search_volume": 246000,
+         "low_top_of_page_bid": 0.30000001192092896,
+         "high_top_of_page_bid": 4.760000228881836,
+         "categories": [
+          10002,
+          10231,
+          13434
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 201000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 201000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 201000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 165000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 165000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -18,
+          "quarterly": 0,
+          "yearly": 22
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": null,
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-03 06:21:00 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 17,
+        "rank_absolute": 23,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "グランファースト大宮/埼玉県さいたま市大宮区の物件情報 ...",
+        "url": "https://suumo.jp/library/tf_11/sc_11103/to_1002370667/",
+        "breadcrumb": "https://suumo.jp › ... › 埼玉県 › さいたま市大宮区",
+        "website_name": "SUUMO",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "大宮駅は、JR東北本線、JR高崎線と、複数の路線を利用でき、上野駅まで直通26分と好アクセスです。 駅周辺にはスーパー、コンビニ、薬局（薬店）などの商業施設があり ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "好"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/library/tf_11/sc_11103/to_1002370667/",
+        "etv": 513.7221069335938,
+        "estimated_paid_traffic_cost": 226.0377197265625,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 576
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 65,
+        "rank_absolute": 74,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "【ホームズ】さいたま市大宮区の賃貸「一人暮らし（単身）に ...",
+        "url": "https://www.homes.co.jp/chintai/theme/15104/saitama/saitama_omiya-city/list/",
+        "breadcrumb": "https://www.homes.co.jp › ... › さいたま市 › 大宮区",
+        "website_name": "ホームズ",
+        "is_image": true,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": [
+         "is_image"
+        ],
+        "description": "さいたま市大宮区の賃貸「一人暮らし（単身）にぴったりな間取り」特集、物件一覧。【LIFULL HOME'S/ライフルホームズ】なら日本最大級の豊富な賃貸物件からさいたま市 ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "大宮"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/chintai/theme/15104/saitama/saitama_omiya-city/list/",
+        "etv": 85.05723571777344,
+        "estimated_paid_traffic_cost": 37.4251823425293,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "三島駅",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-17 14:59:53 +00:00",
+         "competition": 0.019999999552965164,
+         "competition_level": "LOW",
+         "cpc": 0.11999999731779099,
+         "search_volume": 246000,
+         "low_top_of_page_bid": 0.20000000298023224,
+         "high_top_of_page_bid": 1.3300000429153442,
+         "categories": [
+          10017,
+          10146,
+          10783
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 246000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 246000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 246000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 246000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 22,
+          "yearly": 22
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": null,
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-05 08:10:43 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 44,
+        "rank_absolute": 55,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "4K/4DK/4LDKで探す三島駅の新築一戸建て・建売購入情報",
+        "url": "https://suumo.jp/ikkodate/shizuoka/ek_36720/nj_220/",
+        "breadcrumb": "https://suumo.jp › ... › 東海 › 静岡県 › 三島市 › 三島駅",
+        "website_name": "SUUMO",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "【SUUMO(スーモ)新築一戸建て】三島駅（静岡県）周辺の4K/4DK/4LDKの新築分譲・建売住宅物件情報一覧です。新築一戸建て・建て売り住宅販売の最新情報が満載！",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "三島駅"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/ikkodate/shizuoka/ek_36720/nj_220/",
+        "etv": 229.47512817382812,
+        "estimated_paid_traffic_cost": 27.537015914916992,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 576
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 6,
+        "rank_absolute": 10,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "【ホームズ】三島駅（静岡県）周辺の街情報・住みやすさ",
+        "url": "https://www.homes.co.jp/machimusubi/shizuoka/mishima_00015-st/?nx_id=v5sp_yachin_machimusubi001",
+        "breadcrumb": "https://www.homes.co.jp › shizuoka › mishima_00015-st",
+        "website_name": "ホームズ",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "2026/09/10 — まちの印象ランキング · 車を利用しやすい · 水道水がおいしい · 川が近くにある · ファミリーが多い · コンビニの数が多い · 治安が良い · 深夜まで営業 ...",
+        "pre_snippet": "09/10/2026 00:00:00",
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "車を利用しやすい"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/machimusubi/shizuoka/mishima_00015-st/?nx_id=v5sp_yachin_machimusubi001",
+        "etv": 2745.6484375,
+        "estimated_paid_traffic_cost": 329.4778137207031,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 631
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "レオパレス",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-17 03:05:41 +00:00",
+         "competition": 0.05999999865889549,
+         "competition_level": "LOW",
+         "cpc": 0.1599999964237213,
+         "search_volume": 246000,
+         "low_top_of_page_bid": 0.009999999776482582,
+         "high_top_of_page_bid": 0.23999999463558197,
+         "categories": [
+          10017,
+          10145,
+          13496
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 201000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 201000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 201000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 201000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 246000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 201000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 201000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 201000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 22,
+          "quarterly": 22,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 0,
+         "dofollow": 0,
+         "referring_pages": 0,
+         "referring_domains": 0,
+         "referring_main_domains": 0,
+         "rank": 3.200000047683716,
+         "main_domain_rank": 511.70001220703125,
+         "last_updated_time": "2026-10-08 06:45:18 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-11 08:04:13 +00:00"
+        }
+       },
+       "first_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 7,
+        "rank_absolute": 12,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+        "domain": "suumo.jp",
+        "title": "レオパレス/東京都板橋区の物件情報 ...",
+        "url": "https://suumo.jp/library/tf_13/sc_13119/to_1000486959/",
+        "breadcrumb": "https://suumo.jp › ... › 東京都 › 板橋区",
+        "website_name": "SUUMO",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "レオパレス /東京都板橋区の新築マンション、中古マンション、賃貸物件のSUUMO掲載情報がまとめて探せます。所在地は東京都板橋区高島平5（都営三田線/西高島平駅 歩7 ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "レオパレス"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "suumo.jp",
+        "relative_url": "/library/tf_13/sc_13119/to_1000486959/",
+        "etv": 1894.6983642578125,
+        "estimated_paid_traffic_cost": 303.1517333984375,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 576
+        }
+       },
+       "second_domain_serp_element": {
+        "se_type": "google",
+        "type": "organic",
+        "rank_group": 10,
+        "rank_absolute": 16,
+        "position": "left",
+        "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "domain": "www.homes.co.jp",
+        "title": "レオパレスいいだ の賃貸情報 - 飯田市",
+        "url": "https://www.homes.co.jp/archive/b-28870880/",
+        "breadcrumb": "https://www.homes.co.jp › ... › 飯田市 › 二本松",
+        "website_name": "ホームズ",
+        "is_image": false,
+        "is_video": false,
+        "is_featured_snippet": false,
+        "is_malicious": false,
+        "checks": null,
+        "description": "レオパレス いいだに住みたいと思っています。家賃はいくらですか？ レオパレスいいだで最近募集があった部屋の家賃は5.7万円〜6.6万円です。最新の賃貸募集情報の確認は ...",
+        "pre_snippet": null,
+        "extended_snippet": null,
+        "amp_version": false,
+        "rating": null,
+        "highlighted": [
+         "レオパレス"
+        ],
+        "links": null,
+        "about_this_result": null,
+        "main_domain": "homes.co.jp",
+        "relative_url": "/archive/b-28870880/",
+        "etv": 1516.69775390625,
+        "estimated_paid_traffic_cost": 242.67164611816406,
+        "clickstream_etv": null,
+        "rank_changes": {
+         "previous_rank_absolute": null,
+         "is_new": true,
+         "is_up": false,
+         "is_down": false
+        },
+        "backlinks_info": null,
+        "rank_info": {
+         "page_rank": 0,
+         "main_domain_rank": 631
+        }
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "inputs": {
+  "target1": "suumo.jp",
+  "target2": "homes.co.jp"
+ }
+}

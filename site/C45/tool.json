@@ -1,0 +1,53 @@
+{
+  "id": "C45",
+  "endpoint": "dataforseo_labs/google/ranked_keywords/live",
+  "who": "asp_affiliate",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "target",
+      "label": "c45.keyword"
+    }
+  ],
+  "params": {
+    "limit": 100,
+    "filters": [
+      "ranked_serp_element.serp_item.rank_group",
+      "<=",
+      10
+    ],
+    "order_by": [
+      "keyword_data.keyword_info.search_volume,desc"
+    ]
+  },
+  "result": {
+    "items": "result.0.items",
+    "where": {},
+    "columns": [
+      {
+        "key": "keyword",
+        "label": "c45.col.keyword",
+        "from": "keyword_data.keyword"
+      },
+      {
+        "key": "rank",
+        "label": "c45.col.rank",
+        "from": "ranked_serp_element.serp_item.rank_group"
+      },
+      {
+        "key": "volume",
+        "label": "c45.col.volume",
+        "from": "keyword_data.keyword_info.search_volume"
+      },
+      {
+        "key": "url",
+        "label": "c45.col.url",
+        "from": "ranked_serp_element.serp_item.url",
+        "link": true
+      }
+    ]
+  },
+  "csv": "C45.csv"
+}

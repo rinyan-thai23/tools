@@ -60,3 +60,15 @@ export async function callApi(path, body, { onRetry } = {}) {
   }
   throw new ApiError(lastErr);
 }
+
+// 無料の参照データ（GET）を取る。失敗したら null（呼び出し側は、なくても表示できるようにする）
+export async function getApi(path) {
+  const c = getCreds();
+  if (!c || !c.login || !c.password) return null;
+  try {
+    const res = await fetch(BASE + path, { headers: { Authorization: 'Basic ' + btoa(c.login + ':' + c.password) } });
+    const json = await res.json();
+    const task = json.tasks && json.tasks[0];
+    return task && task.status_code === 20000 ? task : null;
+  } catch { return null; }
+}

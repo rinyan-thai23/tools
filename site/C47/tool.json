@@ -1,0 +1,49 @@
+{
+  "id": "C47",
+  "endpoint": "dataforseo_labs/google/domain_intersection/live",
+  "who": "freelancer_seo",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "target1",
+      "param": "target1",
+      "label": "c47.target1"
+    },
+    {
+      "id": "target2",
+      "param": "target2",
+      "label": "c47.target2"
+    }
+  ],
+  "params": {
+    "limit": 100
+  },
+  "result": {
+    "items": "result.0.items",
+    "where": {},
+    "columns": [
+      {
+        "key": "keyword",
+        "label": "c47.col.keyword",
+        "from": "keyword_data.keyword"
+      },
+      {
+        "key": "rank1",
+        "label": "c47.col.rank1",
+        "from": "first_domain_serp_element.rank_group"
+      },
+      {
+        "key": "rank2",
+        "label": "c47.col.rank2",
+        "from": "second_domain_serp_element.rank_group"
+      },
+      {
+        "key": "volume",
+        "label": "c47.col.volume",
+        "from": "keyword_data.keyword_info.search_volume"
+      }
+    ]
+  },
+  "csv": "C47.csv"
+}

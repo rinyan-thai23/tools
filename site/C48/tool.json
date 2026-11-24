@@ -1,0 +1,44 @@
+{
+  "id": "C48",
+  "endpoint": "dataforseo_labs/google/relevant_pages/live",
+  "who": "asp_affiliate",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "target",
+      "label": "c48.keyword"
+    }
+  ],
+  "params": {
+    "limit": 100,
+    "order_by": [
+      "metrics.organic.etv,desc"
+    ]
+  },
+  "result": {
+    "items": "result.0.items",
+    "where": {},
+    "columns": [
+      {
+        "key": "url",
+        "label": "c48.col.url",
+        "from": "page_address",
+        "link": true
+      },
+      {
+        "key": "etv",
+        "label": "c48.col.etv",
+        "from": "metrics.organic.etv",
+        "transform": "round0"
+      },
+      {
+        "key": "keywords",
+        "label": "c48.col.keywords",
+        "from": "metrics.organic.count"
+      }
+    ]
+  },
+  "csv": "C48.csv"
+}
