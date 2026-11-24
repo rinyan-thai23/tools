@@ -4,16 +4,16 @@
 <div class="scroll"><table>
 <thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>
 <tbody>
-<tr class="me"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.004 per call (measured), roughly 250 per $1</td><td>About 20 nearby inns with name, price and rating in a table. Save as CSV</td></tr>
-<tr><td>Google Travel (Hotels)</td><td>Free</td><td>A screen where you set dates and guests and see hotel prices</td></tr>
-<tr><td>Rakuten Travel / Jalan (by hand)</td><td>Free to browse</td><td>You set dates and check inn by inn; lining them up is manual</td></tr>
-<tr><td>Booking.com (by hand)</td><td>Free to browse</td><td>You set dates and check inn by inn; lining them up is manual</td></tr>
+<tr class="me"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.004 per call (measured), roughly 250 per $1</td><td>About 20 hotels in the area with name, price and rating in a table. Save as CSV</td></tr>
+<tr><td>Google Travel (Hotels)</td><td>See the official site</td><td>A screen where you set dates and guests and see hotel prices</td></tr>
+<tr><td>Rakuten Travel / Jalan (by hand)</td><td>See the official sites</td><td>You set dates and check inn by inn; lining them up is manual</td></tr>
+<tr><td>Booking.com (by hand)</td><td>See the official site</td><td>You set dates and check inn by inn; lining them up is manual</td></tr>
 </tbody></table></div>
 <p class="asof">Checked in November 2026. Prices change — confirm on each vendor's official site before you buy.</p>
 
 <h2>Why use this tool</h2>
 <ul>
-<li><strong>Nearby inns lined up in one call.</strong> "京都" returned 20 rows in about 9 to 14 seconds (measured).</li>
+<li><strong>Nearby inns lined up in one call.</strong> "京都" returned 20 rows in about 5 seconds (measured).</li>
 <li><strong>Price and rating side by side.</strong> The rating and the number of reviews appear too.</li>
 <li><strong>About $0.004 per call.</strong> Roughly 250 per $1, so you can refresh every Saturday.</li>
 <li><strong>The date is fixed to "next Saturday, one night, two adults".</strong> You do not have to pick dates.</li>
@@ -23,7 +23,7 @@
 <h2>When it is not the right fit</h2>
 <ul>
 <li>You want <strong>weekday or holiday prices</strong> → the date is fixed to one night from next Saturday.</li>
-<li><strong>Blank prices</strong> → an inn with no price returned is left blank. Of 20 rows, 2 were blank for "京都" and 12 for "東京 ホテル" (measured).</li>
+<li><strong>Blank prices</strong> → when the API returns a price of 0, the cell is left blank. It probably means no price was available, not a free room (reason unconfirmed). The number of blanks varies by area and date (measured: 2 of 20 for "京都", 12 of 20 for "東京 ホテル", and 2 of 18 for the same search on another date).</li>
 <li>You want <strong>prices by room type</strong> → the table has one price per inn.</li>
 <li>You want <strong>your own inn's rank</strong> → the table shows no rank.</li>
 </ul>
@@ -31,7 +31,7 @@
 
 <h2>FAQ</h2>
 <details><summary>What is the price for?</summary><p>One night for two adults, checking in next Saturday and out on Sunday. The unit is yen.</p></details>
-<details><summary>Why is a price blank?</summary><p>No price came back for that inn. It could be sold out or have no price for the date, but we cannot tell the reason.</p></details>
+<details><summary>Why is a price blank?</summary><p>The API returned 0 for that hotel, and this tool shows 0 as blank. It probably means no price was available (for example sold out), but we have not confirmed the reason.</p></details>
 <details><summary>How do I write the area?</summary><p>A place name like "京都" or "浅草". Adding a word, as in "東京 ホテル", also works.</p></details>
 <details><summary>Can I change the date?</summary><p>Not in this tool. It is fixed to next Saturday.</p></details>
 <details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href="/dfs-en.html">What is DataForSEO?</a></p></details>

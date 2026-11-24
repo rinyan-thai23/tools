@@ -11,9 +11,9 @@ let techNames = []; // 技術名の一覧（無料）。C75 のように transfo
 async function loadTech() {
   if (techNames.length) return;
   const tk = await getApi('domain_analytics/technologies/technologies');
-  techNames = tk ? tk.result[0].groups.flatMap((g) => g.categories.flatMap((c) => c.technologies)) : [];
+  try { techNames = tk ? tk.result[0].groups.flatMap((g) => g.categories.flatMap((c) => c.technologies)) : []; } catch { techNames = []; }
   const dl = document.querySelector('datalist');
-  if (dl) dl.innerHTML = techNames.map((n) => `<option value="${n.replace(/"/g, '&quot;')}">`).join('');
+  if (dl) dl.innerHTML = [...new Set(techNames.map((n) => n.trim()))].map((n) => `<option value="${n.replace(/"/g, '&quot;')}">`).join('');
 }
 let cols = [], rows = [], more = [], lookupMap = null; // lookupMap：番号→名前（result.lookup があるツールだけ）
 
@@ -56,9 +56,10 @@ function params() {
   if (cfg.params_dynamic?.check_in === 'next_saturday') { p.check_in = ymd(nd); nd.setDate(nd.getDate() + 1); p.check_out = ymd(nd); } // 次の土曜・1泊
   for (const i of cfg.inputs) {
     let v = $('in-' + i.id).value.trim();
-    if (i.transform === 'domain') v = parseDomain(v);
-    if (i.transform === 'technology' && techNames.length) { // 技術名は大文字小文字を区別するので、一覧から正しい書き方に直す（一覧にない名前は、料金がかかる前にエラー）
-      const hit = techNames.find((n) => n.toLowerCase() === v.toLowerCase());
+    if (i.transform === 'domain') { v = parseDomain(v); if (!v) throw new ApiError('bad_input'); }
+    if (i.transform === 'technology') { // 技術名は大文字小文字を区別するので、一覧から正しい書き方に直す（一覧にない名前は、料金がかかる前にエラー）
+      if (!techNames.length) throw new ApiError('tech_list'); // 一覧が取れていないときは、料金がかかる呼び出しをしない
+      const hit = techNames.find((n) => n.trim().toLowerCase() === v.toLowerCase());
       if (!hit) throw new ApiError('bad_technology');
       v = hit;
     }
@@ -109,7 +110,7 @@ async function sample() {
 
 await init();
 if (cfg.markets) await fillMarkets($('country'), $('language')); // 'country' / 'language' のときは、ない方は null
-if (cfg.inputs.some((i) => i.transform === 'technology')) loadTech();
+if (cfg.inputs.some((i) => i.transform === 'technology')) loadTech().catch(() => {});
 $('run').onclick = run;
 $('sample').onclick = sample;
 $('csv').onclick = () => downloadCsv(cfg.csv || `${id}.csv`, cols, rows, more);
