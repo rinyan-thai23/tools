@@ -5,3 +5,4 @@
 2026-11-24 06:10	B2 完了(7本公開・C06保留)	-	-	-	-	-	get_session に usage が無く数値を取れず。独立レビュー subagent 104,145 tokens（78秒）
 2026-11-24 06:40	B3 Phase0	-	-	-	-	-	get_session に usage が無く記録できず
 2026-11-24 07:00	B3 完了(6本公開)	-	-	-	-	-	get_session に usage が無く記録できず。独立レビュー subagent 108,663 tokens（53秒）
+2026-11-24 07:30	B4 Phase0	-	-	-	-	-	実API費用 約$0.49。使用量の数値は取れず
