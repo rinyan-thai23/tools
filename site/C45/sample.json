@@ -3,14 +3,14 @@
  "tasks": [
   {
    "cost": 0.024,
-   "time": "0.5590 sec.",
+   "time": "0.4873 sec.",
    "result": [
     {
      "se_type": "google",
      "target": "suumo.jp",
      "location_code": 2392,
      "language_code": "ja",
-     "total_count": 212558,
+     "total_count": 211700,
      "items_count": 100,
      "metrics": {
       "organic": {
@@ -38,9 +38,9 @@
        "clickstream_age_distribution": null
       },
       "paid": {
-       "pos_1": 520,
-       "pos_2_3": 297,
-       "pos_4_10": 41,
+       "pos_1": 0,
+       "pos_2_3": 0,
+       "pos_4_10": 0,
        "pos_11_20": 0,
        "pos_21_30": 0,
        "pos_31_40": 0,
@@ -50,12 +50,12 @@
        "pos_71_80": 0,
        "pos_81_90": 0,
        "pos_91_100": 0,
-       "etv": 136763.1160660982,
-       "count": 858,
-       "estimated_paid_traffic_cost": 32162.184902742505,
-       "is_new": 841,
-       "is_up": 3,
-       "is_down": 12,
+       "etv": 0,
+       "count": 0,
+       "estimated_paid_traffic_cost": 0,
+       "is_new": 0,
+       "is_up": 0,
+       "is_down": 0,
        "is_lost": 0,
        "clickstream_etv": null,
        "clickstream_gender_distribution": null,
@@ -989,232 +989,6 @@
         "is_lost": false,
         "last_updated_time": "2026-10-08 06:15:38 +00:00",
         "previous_updated_time": "2026-07-16 03:38:53 +00:00"
-       }
-      },
-      {
-       "se_type": "google",
-       "keyword_data": {
-        "se_type": "google",
-        "keyword": "スーモ",
-        "location_code": 2392,
-        "language_code": "ja",
-        "keyword_info": {
-         "se_type": "google",
-         "last_updated_time": "2026-09-16 22:24:21 +00:00",
-         "competition": 0.3100000023841858,
-         "competition_level": "LOW",
-         "cpc": 0.10999999940395355,
-         "search_volume": 1000000,
-         "low_top_of_page_bid": 0.3799999952316284,
-         "high_top_of_page_bid": 0.6399999856948853,
-         "categories": [
-          10008
-         ],
-         "monthly_searches": [
-          {
-           "year": 2026,
-           "month": 8,
-           "search_volume": 1000000
-          },
-          {
-           "year": 2026,
-           "month": 7,
-           "search_volume": 823000
-          },
-          {
-           "year": 2026,
-           "month": 6,
-           "search_volume": 1000000
-          },
-          {
-           "year": 2026,
-           "month": 5,
-           "search_volume": 1000000
-          },
-          {
-           "year": 2026,
-           "month": 4,
-           "search_volume": 1000000
-          },
-          {
-           "year": 2026,
-           "month": 3,
-           "search_volume": 1000000
-          },
-          {
-           "year": 2026,
-           "month": 2,
-           "search_volume": 1220000
-          },
-          {
-           "year": 2026,
-           "month": 1,
-           "search_volume": 1220000
-          },
-          {
-           "year": 2025,
-           "month": 12,
-           "search_volume": 1000000
-          },
-          {
-           "year": 2025,
-           "month": 11,
-           "search_volume": 1000000
-          },
-          {
-           "year": 2025,
-           "month": 10,
-           "search_volume": 1000000
-          },
-          {
-           "year": 2025,
-           "month": 9,
-           "search_volume": 1000000
-          }
-         ],
-         "search_volume_trend": {
-          "monthly": 22,
-          "quarterly": 0,
-          "yearly": 0
-         }
-        },
-        "keyword_info_normalized_with_bing": null,
-        "keyword_info_normalized_with_clickstream": null,
-        "clickstream_keyword_info": null,
-        "keyword_properties": {
-         "se_type": "google",
-         "core_keyword": null,
-         "synonym_clustering_algorithm": null,
-         "keyword_difficulty": 0,
-         "detected_language": "ja",
-         "is_another_language": false
-        },
-        "serp_info": {
-         "se_type": "google",
-         "check_url": "https://www.google.com/search?q=%E3%82%B9%E3%83%BC%E3%83%A2&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
-         "serp_item_types": [
-          "organic",
-          "ai_overview",
-          "paid",
-          "related_searches",
-          "images"
-         ],
-         "se_results_count": 139,
-         "last_updated_time": "2026-10-08 06:17:11 +00:00",
-         "previous_updated_time": "2026-07-16 03:23:14 +00:00"
-        },
-        "avg_backlinks_info": {
-         "se_type": "google",
-         "backlinks": 28.299999237060547,
-         "dofollow": 22.799999237060547,
-         "referring_pages": 24.899999618530273,
-         "referring_domains": 14.199999809265137,
-         "referring_main_domains": 13.699999809265137,
-         "rank": 27.899999618530273,
-         "main_domain_rank": 607.5,
-         "last_updated_time": "2026-10-08 06:17:11 +00:00"
-        },
-        "search_intent_info": {
-         "se_type": "google",
-         "main_intent": "informational",
-         "foreign_intent": null,
-         "last_updated_time": "2026-05-04 02:36:48 +00:00"
-        }
-       },
-       "ranked_serp_element": {
-        "se_type": "google",
-        "serp_item": {
-         "se_type": "google",
-         "type": "paid",
-         "rank_group": 1,
-         "rank_absolute": 11,
-         "position": "left",
-         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[5]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
-         "title": "SUUMO【公式サイト】",
-         "domain": "suumo.jp",
-         "description": "SUUMO【公式サイト】",
-         "breadcrumb": "https://www.suumo.jp",
-         "url": "https://suumo.jp/",
-         "checks": null,
-         "highlighted": null,
-         "extra": {
-          "ad_aclk": "DChsSEwiIn9fv4qmXAxWbIoMDHfOBG1QYACICCAIQABoCc2Y"
-         },
-         "description_rows": null,
-         "links": [
-          {
-           "type": "ad_link_element",
-           "title": "賃貸を探す",
-           "description": null,
-           "url": "https://suumo.jp/chintai/",
-           "ad_aclk": "DChsSEwiIn9fv4qmXAxWbIoMDHfOBG1QYACICCAIQARoCc2Y"
-          },
-          {
-           "type": "ad_link_element",
-           "title": "中古戸建てを探す",
-           "description": null,
-           "url": "https://suumo.jp/chukoikkodate/",
-           "ad_aclk": "DChsSEwiIn9fv4qmXAxWbIoMDHfOBG1QYACICCAIQAhoCc2Y"
-          },
-          {
-           "type": "ad_link_element",
-           "title": "中古マンションを探す",
-           "description": null,
-           "url": "https://suumo.jp/ms/chuko/",
-           "ad_aclk": "DChsSEwiIn9fv4qmXAxWbIoMDHfOBG1QYACICCAIQAxoCc2Y"
-          },
-          {
-           "type": "ad_link_element",
-           "title": "土地を探す",
-           "description": null,
-           "url": "https://suumo.jp/tochi/",
-           "ad_aclk": "DChsSEwiIn9fv4qmXAxWbIoMDHfOBG1QYACICCAIQBBoCc2Y"
-          },
-          {
-           "type": "ad_link_element",
-           "title": "新築戸建てを探す",
-           "description": null,
-           "url": "https://suumo.jp/ikkodate/",
-           "ad_aclk": "DChsSEwiIn9fv4qmXAxWbIoMDHfOBG1QYACICCAIQBRoCc2Y"
-          }
-         ],
-         "main_domain": "suumo.jp",
-         "relative_url": "/",
-         "etv": 110226.5859375,
-         "estimated_paid_traffic_cost": 12124.923828125,
-         "clickstream_etv": null,
-         "rank_changes": {
-          "previous_rank_absolute": null,
-          "is_new": true,
-          "is_up": false,
-          "is_down": false
-         },
-         "backlinks_info": {
-          "referring_domains": 2707,
-          "referring_main_domains": 2594,
-          "referring_pages": 105593,
-          "dofollow": 100452,
-          "backlinks": 130073,
-          "time_update": "2026-11-11 02:22:29 +00:00"
-         },
-         "rank_info": {
-          "page_rank": 678,
-          "main_domain_rank": 576
-         }
-        },
-        "check_url": "https://www.google.com/search?q=%E3%82%B9%E3%83%BC%E3%83%A2&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
-        "serp_item_types": [
-         "organic",
-         "ai_overview",
-         "paid",
-         "related_searches",
-         "images"
-        ],
-        "se_results_count": 139,
-        "keyword_difficulty": 0,
-        "is_lost": false,
-        "last_updated_time": "2026-10-08 06:17:11 +00:00",
-        "previous_updated_time": "2026-07-16 03:23:14 +00:00"
        }
       },
       {
@@ -5691,6 +5465,189 @@
         "is_lost": false,
         "last_updated_time": "2026-10-08 06:41:21 +00:00",
         "previous_updated_time": "2026-07-16 03:45:27 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "郡山駅",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-18 17:53:56 +00:00",
+         "competition": 0.019999999552965164,
+         "competition_level": "LOW",
+         "cpc": 0.10999999940395355,
+         "search_volume": 246000,
+         "low_top_of_page_bid": 0.20000000298023224,
+         "high_top_of_page_bid": 1.2400000095367432,
+         "categories": [
+          10017,
+          10146,
+          10783
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 301000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 246000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 201000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 201000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 201000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 201000
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 246000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -18,
+          "quarterly": 0,
+          "yearly": 22
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E9%83%A1%E5%B1%B1%E9%A7%85&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "local_pack",
+          "people_also_ask",
+          "organic",
+          "related_searches",
+          "images"
+         ],
+         "se_results_count": 113000,
+         "last_updated_time": "2026-10-08 06:40:16 +00:00",
+         "previous_updated_time": "2026-07-16 03:43:10 +00:00"
+        },
+        "avg_backlinks_info": null,
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-30 01:44:57 +00:00"
+        }
+       },
+       "ranked_serp_element": {
+        "se_type": "google",
+        "serp_item": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 5,
+         "rank_absolute": 9,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+         "domain": "suumo.jp",
+         "title": "郡山駅エリア・他周辺エリアで高級マンションの賃貸マンション ...",
+         "url": "https://suumo.jp/chintai/fukushima/ek_50410/nj_132/",
+         "breadcrumb": "https://suumo.jp › ... › 賃貸 › 福島県 › 郡山市 › 郡山駅",
+         "website_name": "SUUMO",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "【SUUMO(スーモ)賃貸】郡山駅(福島県)の高級マンションで絞り込んだ賃貸マンション・賃貸アパート・貸家など、賃貸住宅の検索結果一覧です。マンションやアパートの ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "郡山駅"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/fukushima/ek_50410/nj_132/",
+         "etv": 4305.73486328125,
+         "estimated_paid_traffic_cost": 473.630859375,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 576
+         }
+        },
+        "check_url": "https://www.google.com/search?q=%E9%83%A1%E5%B1%B1%E9%A7%85&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+        "serp_item_types": [
+         "local_pack",
+         "people_also_ask",
+         "organic",
+         "related_searches",
+         "images"
+        ],
+        "se_results_count": 113000,
+        "keyword_difficulty": 0,
+        "is_lost": false,
+        "last_updated_time": "2026-10-08 06:40:16 +00:00",
+        "previous_updated_time": "2026-07-16 03:43:10 +00:00"
        }
       }
      ]

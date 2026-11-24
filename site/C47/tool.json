@@ -17,7 +17,10 @@
     }
   ],
   "params": {
-    "limit": 100
+    "limit": 100,
+    "order_by": [
+      "keyword_data.keyword_info.search_volume,desc"
+    ]
   },
   "result": {
     "items": "result.0.items",

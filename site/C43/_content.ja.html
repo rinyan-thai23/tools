@@ -6,7 +6,7 @@
 <tbody>
 <tr class="me"><td>このツール（DataForSEO）</td><td>1回ごとの従量課金。1回 約$0.024（100件、実測）</td><td>入力なしで、検索数の多い順に100語。国と言語を選べる。CSVで保存できる</td></tr>
 <tr><td>Googleトレンド（手動）</td><td>無料</td><td>今の人気や、急に伸びた言葉を見る画面がある（公式で確認）</td></tr>
-<tr><td>Googleの検索窓（手動）</td><td>無料</td><td>入力中に出る候補。検索数は出ない</td></tr>
+<tr><td>Googleキーワードプランナー（手動）</td><td>無料（Google広告のアカウントが必要）</td><td>キーワードから候補と検索数の目安を出す（公式で確認）</td></tr>
 <tr><td>Keywords Everywhere</td><td>クレジット制（料金は公式で確認）</td><td>検索画面に、言葉の検索数などを重ねて出す（機能は公式で確認）</td></tr>
 </tbody></table></div>
 <p class="asof">2026年11月時点の調べです。料金は変わるので、申し込む前に各社の公式サイトで確認してください。</p>
@@ -23,7 +23,7 @@
 <h2>向いていない場面</h2>
 <ul>
 <li><strong>いま話題の言葉</strong>を知りたい → これは「旬」の一覧ではありません。常に検索数が多い言葉が並びます（「天気」「youtube」など）。</li>
-<li><strong>書く価値のある言葉</strong>を知りたい → 検索数が多い言葉は、競争も激しく、記事のテーマに向かないものが多いです。</li>
+<li><strong>書く価値のある言葉</strong>を知りたい → 「天気」「youtube」のように、記事のテーマには広すぎる言葉が多く並びます。</li>
 <li><strong>綴り違いが邪魔</strong> → 「yo0utube」「youtub3」「ytb」など、入力ミスの言葉も上位に並びます（実測）。選別はしません。</li>
 <li><strong>100語より多く</strong> → 100語までです（総数は3.4億語でした）。</li>
 </ul>
@@ -31,7 +31,7 @@
 
 <h2>よくある質問</h2>
 <details><summary>毎回、同じ言葉が出ますか？</summary><p>検索数の多い順の上位なので、大きくは変わりません。サンプルでも、「天気」が先頭でした。</p></details>
-<details><summary>なぜ「yo0utube」のような言葉が入るのですか？</summary><p>Googleの広告データに、入力ミスの検索も数えられているためです。APIの値を、そのまま出しています。</p></details>
+<details><summary>なぜ「yo0utube」のような言葉が入るのですか？</summary><p>APIが返した値を、そのまま出しているためです。理由は、このツールでは分かりません。選別はしていません。</p></details>
 <details><summary>国と言語は、何に効きますか？</summary><p>数字を調べる市場です。日本・日本語を選ぶと、日本での検索数の上位になります。</p></details>
 <details><summary>入力欄がないのはなぜですか？</summary><p>このAPIは、言葉の指定を受け付けず、国と言語だけで動くためです。</p></details>
 <details><summary>フリーメールで登録できますか？</summary><p>DataForSEOは、フリーメールでは登録できません。くわしくは<a href="/dfs-ja.html">DataForSEOとは？</a>をご覧ください。</p></details>

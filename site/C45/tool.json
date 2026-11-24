@@ -14,9 +14,17 @@
   "params": {
     "limit": 100,
     "filters": [
-      "ranked_serp_element.serp_item.rank_group",
-      "<=",
-      10
+      [
+        "ranked_serp_element.serp_item.type",
+        "=",
+        "organic"
+      ],
+      "and",
+      [
+        "ranked_serp_element.serp_item.rank_group",
+        "<=",
+        10
+      ]
     ],
     "order_by": [
       "keyword_data.keyword_info.search_volume,desc"
