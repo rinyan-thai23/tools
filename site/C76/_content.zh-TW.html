@@ -13,17 +13,17 @@
 
 <h2>這個工具的優點</h2>
 <ul>
-<li><strong>註冊日與到期日，一列看完。</strong>實測 ichiran.com：註冊日 2002年5月31日、更新日 2026年5月15日、到期日 2027年5月31日。</li>
-<li><strong>也看得到註冊商。</strong>實測 ichiran.com 的註冊商是お名前.com（GMO Internet）。</li>
+<li><strong>註冊日與到期日，一列看完。</strong>實測（台灣常見的 .com 網域）kkday.com：註冊日 2007年1月4日、更新日 2026年1月5日、到期日 2027年1月4日。</li>
+<li><strong>也看得到註冊商。</strong>實測 kkday.com 的註冊商是 GoDaddy.com, LLC。</li>
 <li><strong>貼上網址也沒問題。</strong>會自動轉成網域再查詢。</li>
-<li><strong>約 3～4 秒。</strong>這是實測所需時間。</li>
+<li><strong>數秒內就有結果。</strong>實測 kkday.com 約 0.2 秒，日本的 .com 網域約 0.5 秒。</li>
 <li><strong>可存成 CSV。</strong>網域的年齡可以留下紀錄。</li>
 </ul>
 
 <h2>不適合的情境</h2>
 <ul>
 <li><strong>單次費用偏高</strong> → 每次約 $0.1212。如果只是逐一查詢，用 ICANN Lookup 等免費頁面就夠了。</li>
-<li>想查<strong>日本 .jp 網域的到期日</strong> → 實測的兩個網域（rakuten.co.jp、xserver.ne.jp），到期日都是空白。其他 .jp 網域尚未確認。</li>
+<li>想查<strong>日本 .jp 網域的到期日</strong> → 日本網站的實測：兩個網域（rakuten.co.jp、xserver.ne.jp）到期日都是空白。其他 .jp 網域尚未確認。</li>
 <li>想查<strong>.tw 網域</strong> → 實測 pchome.com.tw 等 .tw 網域沒有結果，但仍會計費；kkday.com 則查得到。.tw 網域請改用 TWNIC 的查詢頁面。</li>
 <li>想知道<strong>擁有者的姓名或聯絡方式</strong> → 這張表不會顯示。</li>
 <li>關於<strong>「更新日」的意思</strong> → 這是 DataForSEO 回傳的「註冊資料變更日」，未必是辦理網域續約的日期。</li>
@@ -31,7 +31,7 @@
 <p>本工具專注於一件事：查看單一網域的註冊日、更新日、到期日與註冊商。</p>
 
 <h2>常見問題</h2>
-<details><summary>為什麼有些列的到期日是空白？</summary><p>因為沒有回傳到期日。實測的 .co.jp 與 .ne.jp 網域，到期日都是空白，原因尚未確認。</p></details>
+<details><summary>為什麼有些列的到期日是空白？</summary><p>因為沒有回傳到期日。日本網站的實測中，.co.jp 與 .ne.jp 網域的到期日都是空白，原因尚未確認。</p></details>
 <details><summary>為什麼費用比較高？</summary><p>這是 DataForSEO 的計費規則，實測每次約 $0.1212。使用前請先評估要查幾次。</p></details>
 <details><summary>子網域或加了 www 也能查嗎？</summary><p>「https://」、「www.」與路徑會先被移除再查詢。子網域（例如 blog.example.com）會原樣送出，所以請輸入註冊的網域（example.com）。</p></details>
 <details><summary>怎麼知道網域的年齡？</summary><p>請從註冊日算到今天為止的年數。本工具不會自動計算年數。</p></details>
