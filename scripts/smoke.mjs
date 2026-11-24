@@ -36,7 +36,10 @@ for (const id of ids) for (const l of langs) {
     if (res.status() !== 200) E.push('HTTP ' + res.status());
     await p.waitForSelector('#result table', { timeout: 8000 }).catch(() => E.push('サンプルの表が出ない'));
     const n = await p.$$eval('#result tbody tr', (r) => r.length).catch(() => 0);
-    if (n < 3) E.push(`サンプルの行が少ない（${n}）`);
+    const cfg = JSON.parse(readFileSync(`site/${id}/tool.json`, 'utf8'));
+    if (n < (cfg.min_sample_rows ?? 3)) E.push(`サンプルの行が少ない（${n}）`);
+    if (cfg.result.answer && !(await p.$('#answer .answer p'))) E.push('回答文が表示されない');
+    if (cfg.result.columns.some((c) => c.type === 'image') && !(await p.$('#result img.thumb'))) E.push('画像が表示されない');
     for (const sel of ['h1', 'title', '#run', '#sample']) {
       const t = (await p.textContent(sel).catch(() => '')) || '';
       if (!t.trim()) E.push(`${sel} が空`);
@@ -53,7 +56,7 @@ for (const id of ids) for (const l of langs) {
     else {
       const buf = readFileSync(await dl.path());
       if (!(buf[0] === 0xef && buf[1] === 0xbb && buf[2] === 0xbf)) E.push('CSVにBOMがない');
-      if (buf.toString('utf8').split('\r\n').length < 4) E.push('CSVの行が少ない');
+      if (buf.toString('utf8').split('\r\n').length < (cfg.min_sample_rows ?? 3) + 1) E.push('CSVの行が少ない');
     }
     // スマホ幅ではみ出さない
     const over = await p.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);

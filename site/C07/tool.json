@@ -1,0 +1,48 @@
+{
+  "id": "C07",
+  "endpoint": "serp/google/images/live/advanced",
+  "who": "kindle_note",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keyword",
+      "label": "c07.keyword"
+    }
+  ],
+  "count": {
+    "param": "depth",
+    "options": [
+      10,
+      20,
+      50,
+      100
+    ],
+    "label": "c07.count"
+  },
+  "result": {
+    "items": "result.0.items",
+    "where": {
+      "type": "images_search"
+    },
+    "columns": [
+      {
+        "key": "image",
+        "label": "c07.col.image",
+        "from": "encoded_url",
+        "type": "image"
+      },
+      {
+        "key": "title",
+        "label": "c07.col.title"
+      },
+      {
+        "key": "url",
+        "label": "c07.col.url",
+        "link": true
+      }
+    ]
+  },
+  "csv": "C07.csv"
+}

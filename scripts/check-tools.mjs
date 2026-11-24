@@ -2,7 +2,7 @@
 //   node scripts/check-tools.mjs            全ツール
 //   node scripts/check-tools.mjs C02 C03    指定したツールだけ（類似チェックは全ツールと比べる）
 import { readdirSync, readFileSync, existsSync } from 'node:fs';
-import { extractRows } from '../site/shared/rows.js';
+import { extractRows, extractAnswer } from '../site/shared/rows.js';
 
 const read = (p) => readFileSync(p, 'utf8');
 const json = (p) => JSON.parse(read(p));
@@ -75,6 +75,7 @@ for (const id of ids) {
     const rows = extractRows(cfg, s.tasks?.[0] || {});
     if (rows.length < (cfg.min_sample_rows ?? 3)) E.push(`サンプルの行が少ない（${rows.length}行）。実データを取り直すか、tool.json の result を見直す`);
     for (const c of cfg.result.columns) if (!rows.some((r) => r[c.key] !== undefined && r[c.key] !== null && r[c.key] !== '')) E.push(`サンプルで列「${c.key}」が全部空。取り出し方（from）が違う可能性`);
+    if (cfg.result?.answer && !(extractAnswer(cfg, s.tasks?.[0] || {}).length > 100)) E.push('サンプルに回答文がない/短い（result.answer.markdown の場所を確認）');
     if (typeof s.tasks?.[0]?.cost !== 'number') W.push('sample.json に cost がない（実データのまま残すのが望ましい）');
   } catch (e) { E.push('sample.json が読めない/ない'); }
 

@@ -2,7 +2,7 @@ ID	段	カテゴリ	エンドポイント	ツール名	入力	表示する項目
 C01	1（Web）	SERP（Google）	serp/google/organic/live/advanced	検索の上位10件を見る	キーワード	順位・タイトル・URL・ドメイン	$0.004	250	初心者ブロガー	書く前に、上位にどんなサイトがいるか見る	Ahrefs：Keywords Explorer の SERP overview	resolve_goto_urls と resolve_poisoned_results を付ける（shared/api.js が自動で付与）。1〜2分かかる
 C02	1（Web）	SERP（Google）	serp/google/ai_mode/live/advanced	GoogleのAIモードの答えを見る	キーワード	回答文・引用元のタイトルとURL	$0.004	250	ASPアフィリエイター	自分の記事がAIモードに引用されているか見る	Ahrefs：Brand Radar の AI Visibility	
 C03	1（Web）	SERP（Google）	serp/google/maps/live/advanced	Googleマップの上位店を見る	キーワード（例：渋谷 整体）	順位・店名・評価・口コミ数・住所・電話・サイト	$0.002（100件まで）	500	地元の店主	自分の店や競合が地図の何番目か見る	Local Falcon：Local Rank Tracking	
-C04	1（Web）	SERP（Google）	serp/google/local_finder/live/advanced	地図の「もっと見る」一覧を見る	キーワード	順位・店名・評価・口コミ数・住所	$0.002	500	宿・観光業のオーナー	地図の3枠より下も含めて自分の位置を見る	Semrush：Map Rank Tracker	resolve_goto_urls の対象
+C04	1（Web）	SERP（Google）	serp/google/local_finder/live/advanced	地図の「もっと見る」一覧を見る	キーワード	順位・店名・評価・口コミ数・説明（地域、営業時間）・電話・サイト	$0.002	500	地元の店主	地図の3枠より下も含めて、自分の店や競合の位置を見る	Semrush：Map Rank Tracker	resolve_goto_urls の対象。2026-11実測：ホテル・旅館のキーワードは結果ゼロ（それでも課金）。「渋谷 整体」のようなサービス業は取れる。住所の独立した項目はなく説明文に混ざる。約2分
 C05	1（Web）	SERP（Google）	serp/google/news/live/advanced	Googleニュースの記事を見る	キーワード（社名など）	媒体名・日付・タイトル・URL	$0.002	500	中小企業の経営者・広報	自社や業界がニュースでどう出ているか見る	Brand24：Mentions	resolve_goto_urls の対象
 C06	1（Web）	SERP（Google）	serp/google/events/live/advanced	Googleのイベント情報を見る	キーワード	イベント名・日時・場所・URL	要確認		インバウンド・海外向け発信者	地域のイベントを一覧で見る		APIは英語のみ。英語版だけで公開
 C07	1（Web）	SERP（Google）	serp/google/images/live/advanced	画像検索の上位を見る	キーワード	画像・タイトル・掲載ページURL	$0.002（100件まで）	500	Kindle作家・note書き	表紙やサムネの傾向を見る	Ahrefs：Rank Tracker の Image pack	

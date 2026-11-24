@@ -1,0 +1,37 @@
+{
+  "id": "C02",
+  "endpoint": "serp/google/ai_mode/live/advanced",
+  "who": "asp_affiliate",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keyword",
+      "label": "c02.keyword"
+    }
+  ],
+  "min_sample_rows": 2,
+  "result": {
+    "answer": {
+      "markdown": "result.0.items.0.markdown",
+      "label": "c02.answer"
+    },
+    "items": "result.0.items.0.references",
+    "where": {},
+    "columns": [
+      {
+        "key": "title",
+        "label": "c02.col.title",
+        "from": "title"
+      },
+      {
+        "key": "url",
+        "label": "c02.col.url",
+        "link": true
+      }
+    ],
+    "title": "c02.refs"
+  },
+  "csv": "C02.csv"
+}

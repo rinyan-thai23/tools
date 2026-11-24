@@ -1,0 +1,65 @@
+{
+  "id": "C04",
+  "endpoint": "serp/google/local_finder/live/advanced",
+  "who": "local_shop",
+  "markets": true,
+  "slow_search": true,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keyword",
+      "label": "c04.keyword"
+    }
+  ],
+  "count": {
+    "param": "depth",
+    "options": [
+      10,
+      20,
+      50,
+      100
+    ],
+    "label": "c04.count"
+  },
+  "result": {
+    "items": "result.0.items",
+    "where": {
+      "type": "local_pack"
+    },
+    "columns": [
+      {
+        "key": "rank",
+        "label": "c04.col.rank",
+        "from": "rank_group"
+      },
+      {
+        "key": "title",
+        "label": "c04.col.title"
+      },
+      {
+        "key": "rating",
+        "label": "c04.col.rating",
+        "from": "rating.value"
+      },
+      {
+        "key": "votes",
+        "label": "c04.col.votes",
+        "from": "rating.votes_count"
+      },
+      {
+        "key": "description",
+        "label": "c04.col.description"
+      },
+      {
+        "key": "phone",
+        "label": "c04.col.phone"
+      },
+      {
+        "key": "url",
+        "label": "c04.col.url",
+        "link": true
+      }
+    ]
+  },
+  "csv": "C04.csv"
+}

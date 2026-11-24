@@ -1,0 +1,316 @@
+{
+ "keyword": "渋谷 整体",
+ "fetched_at": "2026-11",
+ "tasks": [
+  {
+   "cost": 0.002,
+   "time": "1.6814 sec.",
+   "result": [
+    {
+     "items": [
+      {
+       "type": "maps_search",
+       "rank_group": 1,
+       "title": "肩甲骨はがし専門店 a’un 渋谷宮益坂店",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.9,
+        "votes_count": 166,
+        "rating_max": null
+       },
+       "address": "〒150-0002 東京都渋谷区渋谷２丁目１０−１４ 渋谷トーセイビル 8階 旧： 青山アルファビル",
+       "phone": "+813-6433-5518",
+       "url": "https://sv3.sattou.net/aun/reserve/kenkoukotu00",
+       "domain": "sv3.sattou.net"
+      },
+      {
+       "type": "maps_search",
+       "rank_group": 2,
+       "title": "匠・渋谷駅前整体院",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.5,
+        "votes_count": 26,
+        "rating_max": null
+       },
+       "address": "〒150-0002 東京都渋谷区渋谷１丁目２４−７ 渋谷フラットビル 7階a号室",
+       "phone": "+813-6419-7446",
+       "url": "https://shibuya.seikotsu-takumi.com/",
+       "domain": "shibuya.seikotsu-takumi.com"
+      },
+      {
+       "type": "maps_search",
+       "rank_group": 3,
+       "title": "渋谷キュア整体ルーム",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.9,
+        "votes_count": 119,
+        "rating_max": null
+       },
+       "address": "〒150-0002 東京都渋谷区渋谷３丁目６−４ プライア渋谷 9F／907",
+       "phone": "+81120-940-795",
+       "url": "https://www.cure-seitai.com/",
+       "domain": "www.cure-seitai.com"
+      },
+      {
+       "type": "maps_search",
+       "rank_group": 4,
+       "title": "渋谷宮下パーク整体院",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.9,
+        "votes_count": 145,
+        "rating_max": null
+       },
+       "address": "〒150-0002 東京都渋谷区渋谷１丁目２４−７ 404",
+       "phone": "+813-6433-5782",
+       "url": "https://beauty.hotpepper.jp/kr/slnH000546187/",
+       "domain": "beauty.hotpepper.jp"
+      },
+      {
+       "type": "maps_search",
+       "rank_group": 5,
+       "title": "Re:Body pro 整体 渋谷",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.9,
+        "votes_count": 33,
+        "rating_max": null
+       },
+       "address": "〒150-0002 東京都渋谷区渋谷３丁目１０−１４ 長崎堂ビル 7階 B 部分",
+       "phone": "+8180-6594-7730",
+       "url": "https://medical-kokokara.com/shibuya/",
+       "domain": "medical-kokokara.com"
+      },
+      {
+       "type": "maps_search",
+       "rank_group": 6,
+       "title": "眼の整体院アイケアLaBo渋谷宮益坂下店",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.9,
+        "votes_count": 40,
+        "rating_max": null
+       },
+       "address": "〒150-0002 東京都渋谷区渋谷１丁目２４−７ 渋谷宮下パークビル 5階503",
+       "phone": "+813-6805-1325",
+       "url": "https://eyecarelabo.com/shibuyamiyamasuzakashita/",
+       "domain": "eyecarelabo.com"
+      },
+      {
+       "type": "maps_search",
+       "rank_group": 7,
+       "title": "骨盤王国 渋谷整体院",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.8,
+        "votes_count": 106,
+        "rating_max": null
+       },
+       "address": "〒150-0002 東京都渋谷区渋谷２丁目１９−２０ 宮益坂村瀬ビル7階",
+       "phone": "+813-6803-8919",
+       "url": "https://shibuya-kotsuban.jp/",
+       "domain": "shibuya-kotsuban.jp"
+      },
+      {
+       "type": "maps_search",
+       "rank_group": 8,
+       "title": "わむず整体院 渋谷宮益坂院",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": 265,
+        "rating_max": null
+       },
+       "address": "〒150-0002 東京都渋谷区渋谷１丁目８−６ 宮益坂Stビル 502",
+       "phone": "+813-6712-6107",
+       "url": "https://wams.jp/shibuya/?utm_source=google&utm_medium=gbp&utm_campaign=shibuya",
+       "domain": "wams.jp"
+      },
+      {
+       "type": "maps_search",
+       "rank_group": 9,
+       "title": "世界のこころ整体院 渋谷院",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.7,
+        "votes_count": 155,
+        "rating_max": null
+       },
+       "address": "〒150-0002 東京都渋谷区渋谷１丁目２４−４ 渋谷こうゆうビル 2F 203",
+       "phone": "+813-6805-1253",
+       "url": "https://seitai.co.jp/store/tokyo-shibuya/?utm_source=google&utm_medium=gbp&utm_campaign=gbp_tokyo-shibuya&argument=QyssdmQI&dmai=S0027",
+       "domain": "seitai.co.jp"
+      },
+      {
+       "type": "maps_search",
+       "rank_group": 10,
+       "title": "整体サロンRelease Please！渋谷店",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.8,
+        "votes_count": 33,
+        "rating_max": null
+       },
+       "address": "〒150-0002 東京都渋谷区渋谷２丁目１−１２ VORT AOYAMA２ ５Ｆ",
+       "phone": "+813-6427-3020",
+       "url": "https://release-please.jp/",
+       "domain": "release-please.jp"
+      },
+      {
+       "type": "maps_search",
+       "rank_group": 11,
+       "title": "NAORU整体 渋谷院",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.9,
+        "votes_count": 307,
+        "rating_max": null
+       },
+       "address": "〒150-0002 東京都渋谷区渋谷２丁目２−４ 青山アルコーブ 6F（606号室",
+       "phone": "+8170-8519-6347",
+       "url": "https://www.naorusalon.com/shops/shibuya/?utm_medium=shibuya&utm_source=meo",
+       "domain": "www.naorusalon.com"
+      },
+      {
+       "type": "maps_search",
+       "rank_group": 12,
+       "title": "MEDICAL BODY By dazzy 渋谷院",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.9,
+        "votes_count": 433,
+        "rating_max": null
+       },
+       "address": "〒150-0043 東京都渋谷区道玄坂２丁目２５−５ 島田ビル ６F",
+       "phone": "+813-6455-3235",
+       "url": "https://beauty.hotpepper.jp/kr/slnH000523715",
+       "domain": "beauty.hotpepper.jp"
+      },
+      {
+       "type": "maps_search",
+       "rank_group": 13,
+       "title": "カイロプラクティックZENITH渋谷",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.8,
+        "votes_count": 49,
+        "rating_max": null
+       },
+       "address": "〒150-0002 東京都渋谷区渋谷１丁目１２−１１ 浜本１ビル 201 ZENITH 渋谷整体・渋谷カイロプラクティック院",
+       "phone": "+813-6805-1524",
+       "url": "http://zchiropractic.tokyo/",
+       "domain": "zchiropractic.tokyo"
+      },
+      {
+       "type": "maps_search",
+       "rank_group": 14,
+       "title": "みらい整体院 渋谷院",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.7,
+        "votes_count": 88,
+        "rating_max": null
+       },
+       "address": "〒150-0002 東京都渋谷区渋谷１丁目２４−７ 渋谷フラットビル ８階",
+       "phone": "+813-6427-3838",
+       "url": "https://shibuya.seitai-mirai.com/",
+       "domain": "shibuya.seitai-mirai.com"
+      },
+      {
+       "type": "maps_search",
+       "rank_group": 15,
+       "title": "小顔・骨盤矯正専門 NEUTRAL 渋谷本店",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.9,
+        "votes_count": 144,
+        "rating_max": null
+       },
+       "address": "〒150-0043 東京都渋谷区道玄坂２丁目１５−１ ノア道玄坂 1216号室",
+       "phone": "+8170-5459-4669",
+       "url": "https://salon-neutral.com/shibuya/",
+       "domain": "salon-neutral.com"
+      },
+      {
+       "type": "maps_search",
+       "rank_group": 16,
+       "title": "背骨labo渋谷整体院",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.3,
+        "votes_count": 66,
+        "rating_max": null
+       },
+       "address": "〒150-0043 東京都渋谷区道玄坂１丁目１９−１２ 並木ビル 3F",
+       "phone": "+813-6455-1495",
+       "url": "https://beauty.hotpepper.jp/kr/slnH000251877/",
+       "domain": "beauty.hotpepper.jp"
+      },
+      {
+       "type": "maps_search",
+       "rank_group": 17,
+       "title": "肩甲骨はがし専門店 a'un 渋谷PARCO前店",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.8,
+        "votes_count": 152,
+        "rating_max": null
+       },
+       "address": "〒150-0042 東京都渋谷区宇田川町３−１０ いちごフィエスタ渋谷 901号室",
+       "phone": "+813-6455-2062",
+       "url": "https://x.gd/tXRKI",
+       "domain": "x.gd"
+      },
+      {
+       "type": "maps_search",
+       "rank_group": 18,
+       "title": "メディカルジャパン渋谷 鍼灸院・整体院・整骨院・マッサージ院",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.8,
+        "votes_count": 197,
+        "rating_max": null
+       },
+       "address": "〒150-0002 東京都渋谷区渋谷３丁目１０−１４ 長崎堂ビル 7階 A 部分",
+       "phone": "+8170-9128-5799",
+       "url": "https://medical-shibuya.com/",
+       "domain": "medical-shibuya.com"
+      },
+      {
+       "type": "maps_search",
+       "rank_group": 19,
+       "title": "R∞tsメディカル整体院 渋谷店",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": 109,
+        "rating_max": null
+       },
+       "address": "〒150-0044 東京都渋谷区円山町５−６ 道玄坂伊藤ビル 5F",
+       "phone": "+8170-8537-4601",
+       "url": "https://shibuya.roots-medical-seitai.com/",
+       "domain": "shibuya.roots-medical-seitai.com"
+      },
+      {
+       "type": "maps_search",
+       "rank_group": 20,
+       "title": "健康堂整骨院 宮益坂院",
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.8,
+        "votes_count": 208,
+        "rating_max": null
+       },
+       "address": "〒150-0002 東京都渋谷区渋谷１丁目１４−１４ ５F",
+       "phone": "+813-3499-9955",
+       "url": "https://beauty.hotpepper.jp/kr/slnH000564854/coupon/",
+       "domain": "beauty.hotpepper.jp"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

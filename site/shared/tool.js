@@ -1,7 +1,7 @@
 // 全ツール共通の動き。ツールごとの違いは site/Cxx/tool.json に書く。
 import { callApi, ApiError } from '/shared/api.js';
-import { extractRows } from '/shared/rows.js';
-import { init, t, fillMarkets, renderTable, downloadCsv, fmtDate, startProgress } from '/shared/ui.js';
+import { extractRows, extractAnswer } from '/shared/rows.js';
+import { init, t, fillMarkets, renderTable, renderAnswer, downloadCsv, fmtDate, startProgress } from '/shared/ui.js';
 
 const id = document.body.dataset.tool;
 const cfg = await fetch(`/${id}/tool.json`).then((r) => r.json());
@@ -10,9 +10,11 @@ const $ = (x) => document.getElementById(x);
 let cols = [], rows = [];
 
 function show(task, meta) {
-  cols = cfg.result.columns.map((c) => ({ key: c.key, label: t(c.label), link: c.link }));
+  cols = cfg.result.columns.map((c) => ({ key: c.key, label: t(c.label), link: c.link, type: c.type }));
   rows = extractRows(cfg, task);
+  renderAnswer($('answer'), cfg.result.answer ? t(cfg.result.answer.label) : '', extractAnswer(cfg, task));
   renderTable($('result'), cols, rows);
+  if (cfg.result.title && rows.length) $('result').insertAdjacentHTML('afterbegin', `<h2 class="sub-title">${t(cfg.result.title)}</h2>`);
   $('meta').textContent = meta;
   $('csv').hidden = !rows.length;
 }
@@ -26,7 +28,7 @@ function params() {
 }
 
 async function run() {
-  $('result').innerHTML = ''; $('meta').textContent = ''; $('csv').hidden = true;
+  $('answer').innerHTML = ''; $('result').innerHTML = ''; $('meta').textContent = ''; $('csv').hidden = true;
   $('msg').textContent = '';
   $('run').disabled = true;
   const pg = startProgress($('msg'), t(`${key}.eta`));

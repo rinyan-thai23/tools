@@ -42,3 +42,11 @@ ul.tools{padding-left:1.2em}
 .site-footer .aff{border:1px solid var(--line);border-radius:8px;padding:10px 14px;margin:10px 0;background:#fff}
 .site-footer .aff p{margin:4px 0}
 .site-header .ref-note{font-size:.75rem;opacity:.7;margin-left:-8px}
+
+.thumb{width:96px;height:auto;max-height:120px;object-fit:cover;border-radius:4px;display:block}
+.sub-title{font-size:1.05rem;margin:1em 0 .4em}
+.answer{border:1px solid var(--line);border-radius:8px;padding:6px 16px;background:#fff;margin-bottom:12px}
+.answer h4{margin:1em 0 .3em}
+.answer li.d1{margin-left:1.2em;list-style:circle}
+.answer mark{background:#fef08a}
+.answer .cite{font-size:.75rem;vertical-align:super;text-decoration:none}

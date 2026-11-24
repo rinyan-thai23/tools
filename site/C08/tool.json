@@ -1,0 +1,27 @@
+{
+  "id": "C08",
+  "endpoint": "serp/google/autocomplete/live/advanced",
+  "who": "beginner_blogger",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keyword",
+      "label": "c08.keyword"
+    }
+  ],
+  "result": {
+    "items": "result.0.items",
+    "where": {
+      "type": "autocomplete"
+    },
+    "columns": [
+      {
+        "key": "suggestion",
+        "label": "c08.col.suggestion"
+      }
+    ]
+  },
+  "csv": "C08.csv"
+}

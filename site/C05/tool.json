@@ -1,0 +1,54 @@
+{
+  "id": "C05",
+  "endpoint": "serp/google/news/live/advanced",
+  "who": "smb_pr",
+  "markets": true,
+  "slow_search": true,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keyword",
+      "label": "c05.keyword"
+    }
+  ],
+  "count": {
+    "param": "depth",
+    "options": [
+      10,
+      20,
+      50,
+      100
+    ],
+    "label": "c05.count"
+  },
+  "result": {
+    "items": "result.0.items",
+    "where": {
+      "type": "news_search"
+    },
+    "columns": [
+      {
+        "key": "source",
+        "label": "c05.col.source",
+        "from": "domain",
+        "transform": "strip_www"
+      },
+      {
+        "key": "date",
+        "label": "c05.col.date",
+        "from": "timestamp",
+        "transform": "date"
+      },
+      {
+        "key": "title",
+        "label": "c05.col.title"
+      },
+      {
+        "key": "url",
+        "label": "c05.col.url",
+        "link": true
+      }
+    ]
+  },
+  "csv": "C05.csv"
+}

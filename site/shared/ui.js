@@ -1,5 +1,6 @@
 // 画面の共通部品（文言・キー欄・国言語・表・CSV）
 import { getCreds, setCreds, clearCreds } from './api.js';
+import { markdownToHtml } from './markdown.js';
 
 export const lang = document.documentElement.lang || 'ja';
 let L = {};
@@ -57,7 +58,7 @@ const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<
 export function renderTable(el, cols, rows) {
   if (!rows.length) { el.innerHTML = `<p>${t('ui.empty')}</p>`; return; }
   el.innerHTML = `<div class="scroll"><table><thead><tr>${cols.map((c) => `<th>${c.label}</th>`).join('')}</tr></thead><tbody>${rows
-    .map((r) => `<tr>${cols.map((c) => `<td>${c.link && r[c.key] ? `<a href="${esc(r[c.key])}" target="_blank" rel="noopener">${esc(r[c.key])}</a>` : esc(r[c.key])}</td>`).join('')}</tr>`)
+    .map((r) => `<tr>${cols.map((c) => `<td>${c.type === 'image' && r[c.key] ? `<img src="${esc(r[c.key])}" alt="" loading="lazy" referrerpolicy="no-referrer" class="thumb">` : c.link && r[c.key] ? `<a href="${esc(r[c.key])}" target="_blank" rel="noopener">${esc(r[c.key])}</a>` : esc(r[c.key])}</td>`).join('')}</tr>`)
     .join('')}</tbody></table></div>`;
 }
 
@@ -84,4 +85,9 @@ export function startProgress(el, etaText) {
     retry: (n) => (el.querySelector('.state').textContent = t('ui.retrying', { n })),
     stop: () => { clearInterval(timer); el.className = ''; el.innerHTML = ''; return Math.round((Date.now() - t0) / 100) / 10; },
   };
+}
+
+// 文章で返るツール用：回答文（Markdown）を安全に整形して表示
+export function renderAnswer(el, label, markdown) {
+  el.innerHTML = markdown ? `<h2 class="sub-title">${esc(label)}</h2><div class="answer">${markdownToHtml(markdown)}</div>` : '';
 }

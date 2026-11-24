@@ -1,0 +1,196 @@
+{
+ "keyword": "ヤマト運輸",
+ "fetched_at": "2026-11",
+ "tasks": [
+  {
+   "cost": 0.004,
+   "time": "48.6391 sec.",
+   "result": [
+    {
+     "items": [
+      {
+       "type": "news_search",
+       "rank_group": 1,
+       "domain": "news.yahoo.co.jp",
+       "title": "「ヤマト運輸の送り状捨てないで！」当たる限定商品が可愛すぎる⇨キティとのコラボぬいぐるみなどに「全部ほしい」の声",
+       "url": "https://news.yahoo.co.jp/articles/1fdb832c27afe3fe28bb39d0bbdd542b9b94aebe",
+       "time_published": "2日前",
+       "timestamp": "2026-11-22 04:50:16 +00:00"
+      },
+      {
+       "type": "news_search",
+       "rank_group": 2,
+       "domain": "news.yahoo.co.jp",
+       "title": "「ヤマト運輸の送り状捨てないで！」当たる限定商品が可愛すぎる⇨キティとのコラボぬいぐるみなどに「全部ほしい」の声",
+       "url": "https://news.yahoo.co.jp/articles/1fdb832c27afe3fe28bb39d0bbdd542b9b94aebe/images/000",
+       "time_published": "2日前",
+       "timestamp": "2026-11-22 04:50:16 +00:00"
+      },
+      {
+       "type": "news_search",
+       "rank_group": 3,
+       "domain": "www.nikkei.com",
+       "title": "ヤマト運輸、個人情報約531万件が流出 不正アクセス受け",
+       "url": "https://www.nikkei.com/article/DGXZQOUC1657F0W6A011C2000000/",
+       "time_published": "1か月前",
+       "timestamp": "2026-10-24 04:50:16 +00:00"
+      },
+      {
+       "type": "news_search",
+       "rank_group": 4,
+       "domain": "diamond.jp",
+       "title": "「ようやくたどり着いた」ヤマト運輸が10年越し開設、新型物流拠点の「立地」が絶妙なワケ",
+       "url": "https://diamond.jp/articles/-/401673",
+       "time_published": "3週間前",
+       "timestamp": "2026-11-03 04:50:16 +00:00"
+      },
+      {
+       "type": "news_search",
+       "rank_group": 5,
+       "domain": "internet.watch.impress.co.jp",
+       "title": "ヤマト運輸、「クロネコ代金後払いサービス」不正アクセスで約530万件の個人情報漏えい",
+       "url": "https://internet.watch.impress.co.jp/docs/news/2148860.html",
+       "time_published": "1か月前",
+       "timestamp": "2026-10-24 04:50:16 +00:00"
+      },
+      {
+       "type": "news_search",
+       "rank_group": 6,
+       "domain": "www.itmedia.co.jp",
+       "title": "ヤマト運輸、氏名や住所など計530万件超が漏えい 「クロネコ代金後払い」不正アクセスで",
+       "url": "https://www.itmedia.co.jp/news/article/2610/16/2000002339/",
+       "time_published": "1か月前",
+       "timestamp": "2026-10-24 04:50:16 +00:00"
+      },
+      {
+       "type": "news_search",
+       "rank_group": 7,
+       "domain": "www.nikkei.com",
+       "title": "ヤマト運輸に不正アクセス、氏名や住所漏洩か 通販後払いで",
+       "url": "https://www.nikkei.com/article/DGXZQOUC027150S6A001C2000000/",
+       "time_published": "1か月前",
+       "timestamp": "2026-10-24 04:50:16 +00:00"
+      },
+      {
+       "type": "news_search",
+       "rank_group": 8,
+       "domain": "www.yamato-hd.co.jp",
+       "title": "宅急便50周年感謝企画、「送る人も！受け取る人も！どっちもありがとう祭」を11月18日（水）から開始",
+       "url": "https://www.yamato-hd.co.jp/news/2026/newsrelease_20261118_1.html",
+       "time_published": "5日前",
+       "timestamp": "2026-11-19 04:50:16 +00:00"
+      },
+      {
+       "type": "news_search",
+       "rank_group": 9,
+       "domain": "www.lnews.jp",
+       "title": "T＆M／ヤマト運輸と連携、訪日外国人旅行者向け手荷物配送サービスを開始",
+       "url": "https://www.lnews.jp/2026/11/s1119501.html",
+       "time_published": "5日前",
+       "timestamp": "2026-11-19 04:50:16 +00:00"
+      },
+      {
+       "type": "news_search",
+       "rank_group": 10,
+       "domain": "facta.co.jp",
+       "title": "「空飛ぶクロネコ」撤退！／佐川急便と同じ轍踏む「ヤマトHD」",
+       "url": "https://facta.co.jp/article/202611048.html",
+       "time_published": "1か月前",
+       "timestamp": "2026-10-24 04:50:16 +00:00"
+      },
+      {
+       "type": "news_search",
+       "rank_group": 11,
+       "domain": "flyteam.jp",
+       "title": "ヤマト運輸 Airbus A321 JA83YA 羽田空港 航空フォト | by サンドバンクさん 撮影2026年11月23日",
+       "url": "https://flyteam.jp/photo/4546997",
+       "time_published": "18 時間前",
+       "timestamp": "2026-11-23 10:50:17 +00:00"
+      },
+      {
+       "type": "news_search",
+       "rank_group": 12,
+       "domain": "diamond.jp",
+       "title": "ヤマト運輸が「羽田クロノゲート」に次ぐ大型物流拠点を稼働へ、翌日配送の締め切り「何時間」延長できる？",
+       "url": "https://diamond.jp/articles/-/402976",
+       "time_published": "1週間前",
+       "timestamp": "2026-11-17 04:50:17 +00:00"
+      },
+      {
+       "type": "news_search",
+       "rank_group": 13,
+       "domain": "reilac-shiga.co.jp",
+       "title": "ヤマト運輸株式会社 様 ゴールドパートナー契約締結のお知らせ",
+       "url": "https://reilac-shiga.co.jp/news/detail/cmwirjr2v0000js02rnxtriib",
+       "time_published": "1週間前",
+       "timestamp": "2026-11-17 04:50:17 +00:00"
+      },
+      {
+       "type": "news_search",
+       "rank_group": 14,
+       "domain": "www.consadole-sapporo.jp",
+       "title": "「ヤマト運輸株式会社」様 2026/27シーズン 明治安田J2リーグ オフィシャルパートナー新規決定のお知らせ",
+       "url": "https://www.consadole-sapporo.jp/news/2026/10/13241/",
+       "time_published": "1か月前",
+       "timestamp": "2026-10-24 04:50:17 +00:00"
+      },
+      {
+       "type": "news_search",
+       "rank_group": 15,
+       "domain": "www.lnews.jp",
+       "title": "ヤマト運輸／ハローキティとのコラボ商品、トートバッグなど4アイテムを追加",
+       "url": "https://www.lnews.jp/2026/11/s1119502.html",
+       "time_published": "5日前",
+       "timestamp": "2026-11-19 04:50:17 +00:00"
+      },
+      {
+       "type": "news_search",
+       "rank_group": 16,
+       "domain": "news.yahoo.co.jp",
+       "title": "荷物だけじゃなくミカンも収穫！ヤマト運輸の社員が農家を支援 高齢化対策に【佐賀県】",
+       "url": "https://news.yahoo.co.jp/articles/1b23c27d0d074019ebf29d6ebcc76eaa26f63c22",
+       "time_published": "1週間前",
+       "timestamp": "2026-11-17 04:50:17 +00:00"
+      },
+      {
+       "type": "news_search",
+       "rank_group": 17,
+       "domain": "flyteam.jp",
+       "title": "ヤマト運輸 Airbus A321 JA82YA 関西国際空港 航空フォト | by kinokoyoさん 撮影2026年11月22日",
+       "url": "https://flyteam.jp/photo/4546692",
+       "time_published": "24 時間前",
+       "timestamp": "2026-11-23 04:50:17 +00:00"
+      },
+      {
+       "type": "news_search",
+       "rank_group": 18,
+       "domain": "www.yamato-hd.co.jp",
+       "title": "24時間365日、緊急配送やスポット配送などの多様なニーズに迅速に対応する「クロネコ軽貨物チャーター」を提供開始",
+       "url": "https://www.yamato-hd.co.jp/news/2026/newsrelease_20261028_1.html",
+       "time_published": "4週間前",
+       "timestamp": "2026-10-27 04:50:17 +00:00"
+      },
+      {
+       "type": "news_search",
+       "rank_group": 19,
+       "domain": "www.nikkei.com",
+       "title": "ヤマト運輸、不正アクセス被害の通販後払いサービス再開",
+       "url": "https://www.nikkei.com/article/DGXZQOUC095I50Z01C26A0000000/",
+       "time_published": "1か月前",
+       "timestamp": "2026-10-24 04:50:17 +00:00"
+      },
+      {
+       "type": "news_search",
+       "rank_group": 20,
+       "domain": "news.yahoo.co.jp",
+       "title": "ヤマト運輸、ネットで軽貨物をチャーター 24時間365日対応（日本ネット経済新聞）",
+       "url": "https://news.yahoo.co.jp/articles/e259787a632d85e6b0b1b1ffba84f523699baa63",
+       "time_published": "2週間前",
+       "timestamp": "2026-11-10 04:50:17 +00:00"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

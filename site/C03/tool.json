@@ -1,0 +1,65 @@
+{
+  "id": "C03",
+  "endpoint": "serp/google/maps/live/advanced",
+  "who": "local_shop",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keyword",
+      "label": "c03.keyword"
+    }
+  ],
+  "count": {
+    "param": "depth",
+    "options": [
+      10,
+      20,
+      50,
+      100
+    ],
+    "label": "c03.count"
+  },
+  "result": {
+    "items": "result.0.items",
+    "where": {
+      "type": "maps_search"
+    },
+    "columns": [
+      {
+        "key": "rank",
+        "label": "c03.col.rank",
+        "from": "rank_group"
+      },
+      {
+        "key": "title",
+        "label": "c03.col.title"
+      },
+      {
+        "key": "rating",
+        "label": "c03.col.rating",
+        "from": "rating.value"
+      },
+      {
+        "key": "votes",
+        "label": "c03.col.votes",
+        "from": "rating.votes_count"
+      },
+      {
+        "key": "address",
+        "label": "c03.col.address"
+      },
+      {
+        "key": "phone",
+        "label": "c03.col.phone"
+      },
+      {
+        "key": "url",
+        "label": "c03.col.url",
+        "link": true
+      }
+    ]
+  },
+  "csv": "C03.csv"
+}
