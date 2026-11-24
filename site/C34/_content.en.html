@@ -7,7 +7,7 @@
 <tr class="me"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.024 per call for 100 rows (measured)</td><td>From a domain: 100 related keywords with volume and difficulty. Save as CSV</td></tr>
 <tr><td>Google Search Console</td><td>Free</td><td>Shows the searches your own site actually appeared for. You cannot view other sites</td></tr>
 <tr><td>Ahrefs Site Explorer</td><td>Subscription (see the official site for plans)</td><td>Finds the keywords a site ranks for, including other people's sites</td></tr>
-<tr><td>Rakko Keyword</td><td>Free tier (see the official site for details)</td><td>Gathers suggestions and related words for a word you enter. Not a tool that starts from a domain</td></tr>
+<tr><td>Rakko Keyword</td><td>Free tier (see the official site for details)</td><td>Gathers suggestions and related words for a word you enter (see the official site for features)</td></tr>
 </tbody></table></div>
 <p class="asof">Checked in November 2026. Prices change — confirm on each vendor's official site before you buy.</p>
 
@@ -24,13 +24,13 @@
 <ul>
 <li>You want the <strong>rankings the site really holds</strong> → these are keywords the API returns as related to the site. Whether they are rankings, this tool cannot tell.</li>
 <li>You want <strong>more than 100 rows</strong> → it stops at 100. suumo.jp had about 12 million in total.</li>
-<li>You want <strong>a table with every difficulty filled in</strong> → DataForSEO says keyword difficulty needs SERP data, so it is only available for keywords in its SERP database. In our tests, blanks leaned toward rarely searched words (for C34 the median volume was 20 on blank rows and 390 on rows with a value).</li>
+<li>You want <strong>a table with every difficulty filled in</strong> → DataForSEO says keyword difficulty needs SERP data, so it is only available for keywords in its SERP database.In our test 88 of 100 rows were blank. The median volume was 20 on blank rows and 390 on rows with a value, so blanks leaned toward rarely searched words.</li>
 <li>Many rows are words unique to the site, such as company and property names (suumo.jp example).</li>
 </ul>
 <p>This tool does one thing: show 100 keywords related to a domain, with volume and difficulty.</p>
 
 <h2>FAQ</h2>
-<details><summary>Why are many difficulty values blank?</summary><p>DataForSEO says keyword difficulty needs SERP data, so it is only available for keywords in its SERP database. In our tests, blanks leaned toward rarely searched words (for C34 the median volume was 20 on blank rows and 390 on rows with a value).</p></details>
+<details><summary>Why are many difficulty values blank?</summary><p>DataForSEO says keyword difficulty needs SERP data, so it is only available for keywords in its SERP database.In our test 88 of 100 rows were blank. The median volume was 20 on blank rows and 390 on rows with a value, so blanks leaned toward rarely searched words.</p></details>
 <details><summary>Is this a list of keywords the site ranks for?</summary><p>No. These are candidates the API returns as related to the site, not the site's rankings.</p></details>
 <details><summary>Why only 100?</summary><p>The tool fixes the count at 100 per call. 100 rows cost $0.024.</p></details>
 <details><summary>What do country and language change?</summary><p>The market for the numbers. Japan and Japanese give Japanese volumes.</p></details>
