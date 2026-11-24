@@ -15,7 +15,7 @@
 <ul>
 <li><strong>Compare at the article (URL) level.</strong> See the overlap between articles, not whole sites.</li>
 <li><strong>Positions side by side.</strong> For two Tokyo rental pages (suumo.jp and homes.co.jp), "東京賃貸" was 1st and 2nd (measured).</li>
-<li><strong>128 shared keywords.</strong> These two pages shared 128 (measured).</li>
+<li><strong>128 shared rows.</strong> These two pages gave 128 rows in total (the same keyword can take several rows; the first 100 held 43 distinct keywords; measured).</li>
 <li><strong>About $0.024 per call.</strong> About 40 per $1.</li>
 <li><strong>Save as CSV.</strong></li>
 </ul>
@@ -24,7 +24,7 @@
 <ul>
 <li>You want <strong>keywords only one page has</strong> (your gaps) → only keywords both appear for are returned.</li>
 <li>When <strong>nothing is shared</strong> → the table is empty but the call still costs $0.012 (confirmed with a suumo.jp article and another homes.co.jp article).</li>
-<li><strong>Near-duplicate keywords</strong> repeat → rows like "東京の賃貸" can differ only by spacing or spelling and appear several times (measured).</li>
+<li><strong>The same keyword repeats</strong> → keywords such as "東京の賃貸" and "東京 マンション賃貸" appear in several rows with different position pairs (measured; 43 distinct in 100 rows). This tool cannot tell why.</li>
 <li>You want <strong>more than 100</strong> → it stops at 100.</li>
 </ul>
 <p>This tool does one thing: show 100 keywords two URLs both appear for, with positions and volume.</p>
@@ -32,7 +32,7 @@
 <h2>FAQ</h2>
 <details><summary>Do I enter domains?</summary><p>No, article (page) URLs. Enter two URLs starting with "https://".</p></details>
 <details><summary>Why can the result be empty?</summary><p>The two pages do not both appear for any same keyword. The call is still charged.</p></details>
-<details><summary>Why does the same keyword repeat?</summary><p>The API treats differences in spacing or spelling as different keywords. We show them as they come.</p></details>
+<details><summary>Why does the same keyword repeat?</summary><p>The API returns it that way. In our sample the same keyword appeared in several rows with different position pairs. This tool cannot tell why; we show them as they come.</p></details>
 <details><summary>In what order are the rows?</summary><p>By search volume, descending. The tool sorts them that way.</p></details>
 <details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href="/dfs-en.html">What is DataForSEO?</a></p></details>
 </section>
