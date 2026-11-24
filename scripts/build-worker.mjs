@@ -5,7 +5,7 @@ import { join, extname } from 'node:path';
 const types = {
   '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8',
   '.json': 'application/json; charset=utf-8', '.css': 'text/css; charset=utf-8',
-  '.svg': 'image/svg+xml', '.png': 'image/png', '.txt': 'text/plain; charset=utf-8',
+  '.svg': 'image/svg+xml', '.xml': 'application/xml; charset=utf-8', '.png': 'image/png', '.txt': 'text/plain; charset=utf-8',
 };
 const files = {};
 const walk = (d, base = '') => {
@@ -17,6 +17,17 @@ const walk = (d, base = '') => {
   }
 };
 walk('site');
+
+// SITE_URL の置換（site/shared/site-config.json の site_url）
+const siteUrl = JSON.parse(readFileSync('site/shared/site-config.json', 'utf8')).site_url.replace(/\/$/, '');
+for (const [u, f] of Object.entries(files)) {
+  if (/\.(html|xml|txt)$/.test(u)) f.body = Buffer.from(Buffer.from(f.body, 'base64').toString('utf8').replaceAll('{{SITE_URL}}', siteUrl)).toString('base64');
+}
+// sitemap.xml と robots.txt を自動生成
+const pages = Object.keys(files).filter((u) => u.endsWith('.html')).map((u) => u.replace(/index\.html$/, ''));
+const b64 = (x) => Buffer.from(x).toString('base64');
+files['/sitemap.xml'] = { type: types['.xml'], body: b64(`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${pages.map((u) => `<url><loc>${siteUrl}${u}</loc></url>`).join('\n')}\n</urlset>\n`) };
+files['/robots.txt'] = { type: types['.txt'], body: b64(`User-agent: *\nAllow: /\nSitemap: ${siteUrl}/sitemap.xml\n`) };
 
 const code = `const FILES = ${JSON.stringify(files)};
 const dec = (b) => Uint8Array.from(atob(b), (c) => c.charCodeAt(0));

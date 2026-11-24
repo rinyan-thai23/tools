@@ -99,3 +99,5 @@ DataForSEOのAPIを1つずつ使った、小さなWebツールの集まり。
 - 公開は `npm run deploy`（site/ を1つのWorkerに埋め込んで公開。`wrangler.jsonc` の main は `dist/worker.js`）。このクラウド環境ではWranglerの `assets` 機能が使えない（プロキシが認証を上書きして401になる）ため、この方式にした
 - ブラウザからDataForSEOを直接呼べる（CORS許可済み）。キー入力は全ツール共通の `localStorage`（`dfs_creds`）
 - サンプルは `site/Cxx/sample.json`（jaとenで共用）。ページからは `../sample.json` で読む
+- SEO：各ツールのページに、比較表・メリット・向かない場面・FAQを**HTMLに直接**書く（JS表示だと検索エンジンに読まれにくいため。locales の例外）。title・description・canonical・hreflang も付ける。`{{SITE_URL}}` はビルドで `site/shared/site-config.json` の `site_url` に置換される。sitemap.xml と robots.txt もビルドで自動生成
+- 比較に書く他社の料金・機能は、必ず調べてから書く。「無料より安い」などの言い方はしない（AhrefsにはSERPが無料で見られるチェッカーがある）。日付（○年○月時点）を添える
