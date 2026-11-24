@@ -126,3 +126,10 @@ DataForSEOのAPIを1つずつ使った、小さなWebツールの集まり。
 - 件数（depth）を増やしても料金は単純な倍にならない。Organic実測：10件 $0.004、20件 $0.0055。所要時間は20件で約78秒（API側の値）。料金の説明には実測値を書く
 - 取得中は、動くバー＋経過秒数＋目安時間を出す（`shared/ui.js` の `startProgress`）。再試行中は「やり直しています（2/3回目）」に変わる
 - 検索系ツール（Googleの結果を取るもの）は遅い。Googleの検索結果リンクが「いったんGoogleを経由する」仕様（クリック計測のため）に変わり、本物のURLを確かめる処理（`resolve_goto_urls` など）に時間がかかる。実測：10件で約90秒（付けなければ約4秒だが、URLが全部 google.com の中継リンクになり使えない）。**この理由を、検索系ツールの画面（`ui.slow_search`）とFAQに必ず書く**。速さより正確さを選んだ（2026-11 に決定）
+
+## サイトの共通パーツ
+- ヘッダー・フッター（アカウントを作るリンク、DataForSEOとは、カスタム依頼、「公式ではありません」の注記）は `scripts/partials/` にあり、ビルドで全ページに差し込まれる（ページには `<!--SITE_HEADER-->` と `<!--SITE_FOOTER-->` を置く。言語は `<html lang>` で判定）
+- 紹介リンクは `site/shared/site-config.json` の `referral_url` だけで管理。入れると、ヘッダー・フッター・キー欄・説明ページに「紹介リンクです」付きで出る（`rel="sponsored"` も付く）
+- `site-config.json` の他の項目：`site_url`（canonical・sitemap用）、`google_site_verification`（Search Console確認用。トップの `<head>` に自動で入る）、`contact_url`（カスタム依頼の窓口。まだ未使用）
+- `noindex` を書いたページは sitemap に載らない（カスタム依頼ページは仮のため noindex）
+- 目的：①アフィリエイト ②カスタムツール・データ定期便の依頼。データだけ欲しい人向けには、GAS か公式MCPで出す案（未定）

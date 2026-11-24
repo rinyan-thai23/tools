@@ -18,13 +18,31 @@ const walk = (d, base = '') => {
 };
 walk('site');
 
+// ヘッダー・フッター・確認タグの差し込み（言語は <html lang> で判定）と、紹介リンクの反映
+const cfg = JSON.parse(readFileSync('site/shared/site-config.json', 'utf8'));
+const refUrl = cfg.referral_url || 'https://dataforseo.com/';
+const noteText = { ja: ' （紹介リンクです）', en: ' (referral link)' };
+const part = (n, l) => readFileSync(`scripts/partials/${n}.${l}.html`, 'utf8');
+for (const [u, f] of Object.entries(files)) {
+  if (!u.endsWith('.html')) continue;
+  let h = Buffer.from(f.body, 'base64').toString('utf8');
+  if (!h.includes('<!--SITE_')) continue;
+  const l = (h.match(/<html lang="([\w-]+)"/) || [])[1] === 'en' ? 'en' : 'ja';
+  h = h.replace('<!--SITE_HEADER-->', part('header', l)).replace('<!--SITE_FOOTER-->', part('footer', l));
+  h = h.replace('<!--SITE_VERIFY-->', cfg.google_site_verification ? `<meta name="google-site-verification" content="${cfg.google_site_verification}">` : '');
+  h = h.replaceAll('{{REFERRAL_URL}}', refUrl)
+       .replaceAll('{{REFERRAL_REL}}', cfg.referral_url ? 'noopener sponsored' : 'noopener')
+       .replaceAll('{{REFERRAL_NOTE}}', cfg.referral_url ? noteText[l] : '');
+  f.body = Buffer.from(h).toString('base64');
+}
+
 // SITE_URL の置換（site/shared/site-config.json の site_url）
 const siteUrl = JSON.parse(readFileSync('site/shared/site-config.json', 'utf8')).site_url.replace(/\/$/, '');
 for (const [u, f] of Object.entries(files)) {
   if (/\.(html|xml|txt)$/.test(u)) f.body = Buffer.from(Buffer.from(f.body, 'base64').toString('utf8').replaceAll('{{SITE_URL}}', siteUrl)).toString('base64');
 }
 // sitemap.xml と robots.txt を自動生成
-const pages = Object.keys(files).filter((u) => u.endsWith('.html')).map((u) => u.replace(/index\.html$/, ''));
+const pages = Object.keys(files).filter((u) => u.endsWith('.html') && !Buffer.from(files[u].body, 'base64').toString('utf8').includes('noindex')).map((u) => u.replace(/index\.html$/, ''));
 const b64 = (x) => Buffer.from(x).toString('base64');
 files['/sitemap.xml'] = { type: types['.xml'], body: b64(`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${pages.map((u) => `<url><loc>${siteUrl}${u}</loc></url>`).join('\n')}\n</urlset>\n`) };
 files['/robots.txt'] = { type: types['.txt'], body: b64(`User-agent: *\nAllow: /\nSitemap: ${siteUrl}/sitemap.xml\n`) };
