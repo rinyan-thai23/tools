@@ -1,0 +1,77 @@
+{
+ "fetched_at": "2026-11",
+ "tasks": [
+  {
+   "cost": 0.01212,
+   "time": "0.0616 sec.",
+   "result": [
+    {
+     "se_type": "google",
+     "target": "suumo.jp",
+     "location_code": 2392,
+     "language_code": "ja",
+     "total_count": 1,
+     "items_count": 1,
+     "items": [
+      {
+       "se_type": "google",
+       "location_code": 2392,
+       "language_code": "ja",
+       "metrics": {
+        "organic": {
+         "pos_1": 78287,
+         "pos_2_3": 57758,
+         "pos_4_10": 75655,
+         "pos_11_20": 46564,
+         "pos_21_30": 24760,
+         "pos_31_40": 18169,
+         "pos_41_50": 14805,
+         "pos_51_60": 10837,
+         "pos_61_70": 6990,
+         "pos_71_80": 4333,
+         "pos_81_90": 2551,
+         "pos_91_100": 1505,
+         "etv": 19917380.467824414,
+         "count": 342214,
+         "estimated_paid_traffic_cost": 17056053.396965645,
+         "is_new": 156706,
+         "is_up": 55434,
+         "is_down": 60614,
+         "is_lost": 139394,
+         "clickstream_etv": null,
+         "clickstream_gender_distribution": null,
+         "clickstream_age_distribution": null
+        },
+        "paid": {
+         "pos_1": 520,
+         "pos_2_3": 297,
+         "pos_4_10": 41,
+         "pos_11_20": 0,
+         "pos_21_30": 0,
+         "pos_31_40": 0,
+         "pos_41_50": 0,
+         "pos_51_60": 0,
+         "pos_61_70": 0,
+         "pos_71_80": 0,
+         "pos_81_90": 0,
+         "pos_91_100": 0,
+         "etv": 136763.1160660982,
+         "count": 858,
+         "estimated_paid_traffic_cost": 32162.184902742505,
+         "is_new": 841,
+         "is_up": 3,
+         "is_down": 12,
+         "is_lost": 1703,
+         "clickstream_etv": null,
+         "clickstream_gender_distribution": null,
+         "clickstream_age_distribution": null
+        }
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "keyword": "suumo.jp"
+}

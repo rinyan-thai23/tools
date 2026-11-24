@@ -1,0 +1,46 @@
+{
+  "id": "C50",
+  "endpoint": "dataforseo_labs/google/historical_serps/live",
+  "who": "asp_affiliate",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keyword",
+      "label": "c50.keyword"
+    }
+  ],
+  "result": {
+    "items": "result.0.items",
+    "where": {},
+    "flatten": [
+      "items"
+    ],
+    "where_after": {
+      "type": "organic"
+    },
+    "max_after": {
+      "rank_group": 10
+    },
+    "columns": [
+      {
+        "key": "date",
+        "label": "c50.col.date",
+        "from": "__parent.datetime",
+        "transform": "date"
+      },
+      {
+        "key": "rank",
+        "label": "c50.col.rank",
+        "from": "rank_group"
+      },
+      {
+        "key": "domain",
+        "label": "c50.col.domain",
+        "transform": "strip_www"
+      }
+    ]
+  },
+  "csv": "C50.csv"
+}

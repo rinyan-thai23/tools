@@ -1,0 +1,3851 @@
+{
+ "fetched_at": "2026-11",
+ "tasks": [
+  {
+   "cost": 0.00072,
+   "time": "0.3324 sec.",
+   "result": [
+    {
+     "se_type": "google",
+     "keyword": "ブログ 始め方",
+     "location_code": 2392,
+     "language_code": "ja",
+     "total_count": 6,
+     "items_count": 6,
+     "items": [
+      {
+       "se_type": "google",
+       "keyword": "ブログ 始め方",
+       "type": "organic",
+       "se_domain": "google.com",
+       "location_code": 2392,
+       "language_code": "ja",
+       "check_url": "https://www.google.com/search?q=%E3%83%96%E3%83%AD%E3%82%B0%20%E5%A7%8B%E3%82%81%E6%96%B9&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+       "datetime": "2025-11-24 14:11:57 +00:00",
+       "spell": null,
+       "item_types": [
+        "ai_overview",
+        "organic",
+        "people_also_ask",
+        "video",
+        "related_searches",
+        "images"
+       ],
+       "se_results_count": 114000000,
+       "items_count": 111,
+       "items": [
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 1,
+         "rank_absolute": 2,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+         "domain": "www.xserver.ne.jp",
+         "title": "【初心者向け】ブログの始め方完全ガイド！立ち上げから収入を ...",
+         "url": "https://www.xserver.ne.jp/blog/start-guide-for-blog-beginners/",
+         "breadcrumb": "https://www.xserver.ne.jp › blog › start-guide-for-blog-...",
+         "website_name": "エックスサーバー",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2025/07/02 — ブログの始め方10ステップ · 1.ブログで扱うテーマやジャンルを決める · 2.ブログのタイトルとドメイン名を決める · 3.ブログを開設する · 4.テーマ（ ...",
+         "pre_snippet": "07/02/2025 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "1.ブログで扱うテーマやジャンルを決める"
+         ],
+         "links": [
+          {
+           "type": "link_element",
+           "title": "【必読！】ブログはテーマ選びが...",
+           "description": null,
+           "url": "https://www.xserver.ne.jp/blog/how-to-choose-a-blog-theme/"
+          },
+          {
+           "type": "link_element",
+           "title": "【もう悩まない】初心者が押さえ...",
+           "description": null,
+           "url": "https://www.xserver.ne.jp/blog/how-to-write-blog-for-beginner/"
+          }
+         ],
+         "about_this_result": null,
+         "main_domain": "xserver.ne.jp",
+         "relative_url": "/blog/start-guide-for-blog-beginners/",
+         "etv": 369.72536128211436,
+         "estimated_paid_traffic_cost": 465.8539552154641,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 2,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 58,
+          "referring_main_domains": 57,
+          "referring_pages": 537,
+          "dofollow": 533,
+          "backlinks": 554,
+          "time_update": "2025-09-25 20:13:34 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 332,
+          "main_domain_rank": 653
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 2,
+         "rank_absolute": 4,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]",
+         "domain": "ameblo.jp",
+         "title": "【初心者向け】ブログの始め方！趣味や副業にスマホを使った ...",
+         "url": "https://ameblo.jp/blog-navi/article/blog-start/",
+         "breadcrumb": "https://ameblo.jp › Top › ブログを書く",
+         "website_name": "アメーバブログ",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2024/06/05 — ブログの始め方｜簡単6ステップ · STEP1ブログのタイトル・ドメインを決める · STEP2ブログを開設する · STEP3ブログの初期設定をする · STEP4記事を作成 ...",
+         "pre_snippet": "06/05/2024 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "STEP1ブログのタイトル・ドメインを決める"
+         ],
+         "links": [
+          {
+           "type": "link_element",
+           "title": "ブログを始めるメリット｜初心者...",
+           "description": null,
+           "url": "https://ameblo.jp/blog-navi/article/blog-start/#%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E5%A7%8B%E3%82%81%E3%82%8B%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88%EF%BD%9C%E5%88%9D%E5%BF%83%E8%80%85%E3%81%A7%E3%82%82%E5%8F%8E%E5%85%A5%E3%82%92%E5%BE%97%E3%82%89%E3%82%8C%E3%82%8B%EF%BC%9F"
+          },
+          {
+           "type": "link_element",
+           "title": "ブログの始め方｜簡単6ステップ",
+           "description": null,
+           "url": "https://ameblo.jp/blog-navi/article/blog-start/#%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AE%E5%A7%8B%E3%82%81%E6%96%B9%EF%BD%9C%E7%B0%A1%E5%8D%986%E3%82%B9%E3%83%86%E3%83%83%E3%83%97"
+          }
+         ],
+         "about_this_result": null,
+         "main_domain": "ameblo.jp",
+         "relative_url": "/blog-navi/article/blog-start/",
+         "etv": 180.78591485994735,
+         "estimated_paid_traffic_cost": 227.79025272353365,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 4,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 728
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 3,
+         "rank_absolute": 5,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[7]/div[1]/div[1]",
+         "domain": "hitodeblog.com",
+         "title": "【ブログの始め方】初心者でも出来る方法をプロが丁寧に徹底 ...",
+         "url": "https://hitodeblog.com/",
+         "breadcrumb": "https://hitodeblog.com",
+         "website_name": "hitodeblog",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "ブログ の始め方と収益化の方法を、プロが「何処よりもわかりやすく」「丁寧に」「初心者でも全く問題ないように」解説します。画像と動画で具体的にブログ開設の手順を ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ",
+          "始め方"
+         ],
+         "links": [
+          {
+           "type": "link_element",
+           "title": "WordPressブログの始め方を超...",
+           "description": null,
+           "url": "https://hitodeblog.com/wordpress-start"
+          },
+          {
+           "type": "link_element",
+           "title": "ブログノウハウのカテゴリーページ",
+           "description": null,
+           "url": "https://hitodeblog.com/category/%E3%83%96%E3%83%AD%E3%82%B0%E3%83%8E%E3%82%A6%E3%83%8F%E3%82%A6"
+          },
+          {
+           "type": "link_element",
+           "title": "プロフィール",
+           "description": null,
+           "url": "https://hitodeblog.com/about-hitode"
+          }
+         ],
+         "about_this_result": null,
+         "main_domain": "hitodeblog.com",
+         "relative_url": "/",
+         "etv": 101.22353024029721,
+         "estimated_paid_traffic_cost": 127.54164810277449,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 9,
+          "is_new": true,
+          "is_up": true,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 1717,
+          "referring_main_domains": 1709,
+          "referring_pages": 8641,
+          "dofollow": 8543,
+          "backlinks": 9032,
+          "time_update": "2025-09-26 00:47:38 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 460,
+          "main_domain_rank": 339
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 4,
+         "rank_absolute": 6,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[9]/div[1]/div[1]",
+         "domain": "www.shopify.com",
+         "title": "ブログの始め方8つの手順：初心者でもできる無料ブログ開設",
+         "url": "https://www.shopify.com/jp/blog/how-to-start-a-blog",
+         "breadcrumb": "https://www.shopify.com › blog › how-to-start-a-blog",
+         "website_name": "Shopify",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "ブログの始め方8つの手順 · 1. ブログの目的を明確にする · 2. ブログのジャンルを決める · 3. ブログのタイトルとドメイン名を決める · 4. ブログを開設する · 5. テーマ（ ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "1. ブログの目的を明確にする"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "shopify.com",
+         "relative_url": "/jp/blog/how-to-start-a-blog",
+         "etv": 76.12512994409065,
+         "estimated_paid_traffic_cost": 95.9176637295542,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 6,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 3,
+          "referring_main_domains": 3,
+          "referring_pages": 3,
+          "dofollow": 3,
+          "backlinks": 4,
+          "time_update": "2025-11-24 03:52:51 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 17,
+          "main_domain_rank": 815
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 5,
+         "rank_absolute": 7,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[11]/div[1]/div[1]",
+         "domain": "xs832297.xsrv.jp",
+         "title": "初心者がブログを始めるならどこがいい？おすすめ無料&有料 ...",
+         "url": "https://xs832297.xsrv.jp/blog-beginner-recommended-free/",
+         "breadcrumb": "https://xs832297.xsrv.jp › 始め方",
+         "website_name": "ブログ研究所",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "4 日前 — ブログサービスはたくさんあるので、始めるならどこがいいのか悩みますよね？そこで初心者におすすめな無料ブログサービスをご紹介します。",
+         "pre_snippet": "4 日前",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ"
+         ],
+         "links": [
+          {
+           "type": "link_element",
+           "title": "初心者におすすめなブログサービ...",
+           "description": null,
+           "url": "https://xs832297.xsrv.jp/blog-beginner-recommended-free/#a1"
+          },
+          {
+           "type": "link_element",
+           "title": "ブログの始め方を知りたい",
+           "description": null,
+           "url": "https://xs832297.xsrv.jp/blog-beginner-recommended-free/#a3"
+          }
+         ],
+         "about_this_result": null,
+         "main_domain": "xsrv.jp",
+         "relative_url": "/blog-beginner-recommended-free/",
+         "etv": 55.733871561378855,
+         "estimated_paid_traffic_cost": 70.22467816733736,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 5,
+          "is_new": true,
+          "is_up": false,
+          "is_down": true
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 673
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 6,
+         "rank_absolute": 9,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[15]/div[1]/div[1]",
+         "domain": "www.canva.com",
+         "title": "【初心者向け】ブログの始め方完全ガイド！副業で収益化も ...",
+         "url": "https://www.canva.com/ja_jp/learn/how-to-start-a-blog/",
+         "breadcrumb": "https://www.canva.com › ... › マーケティング",
+         "website_name": "Canva",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "副業にも最適！ブログの始め方8ステップ · 目的とジャンルを決める（稼ぎやすいテーマ選び） · ブログのプラットフォームを選ぶ · ドメイン・サーバーを契約する（WordPressの ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ",
+          "始め方"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "canva.com",
+         "relative_url": "/ja_jp/learn/how-to-start-a-blog/",
+         "etv": 40.78543419164152,
+         "estimated_paid_traffic_cost": 51.38964708146832,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 8,
+          "is_new": true,
+          "is_up": false,
+          "is_down": true
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 698
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 7,
+         "rank_absolute": 10,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[17]/div[1]/div[1]",
+         "domain": "www.onamae.com",
+         "title": "【徹底解説】初心者におすすめ！ゼロから学ぶブログの始め方",
+         "url": "https://www.onamae.com/column/blog/72/",
+         "breadcrumb": "https://www.onamae.com › TOP › ブログ",
+         "website_name": "お名前.com",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2025/03/10 — 初心者がブログを始めるのは難しい？ · 導入は用意されたマニュアルに沿って設定を進めるだけ · 簡単なツールを使いこなせれば記事更新は可能 · ブログで一 ...",
+         "pre_snippet": "03/10/2025 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "onamae.com",
+         "relative_url": "/column/blog/72/",
+         "etv": 29.612975296512595,
+         "estimated_paid_traffic_cost": 37.31234887360587,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 2,
+          "referring_main_domains": 2,
+          "referring_pages": 4,
+          "dofollow": 4,
+          "backlinks": 4,
+          "time_update": "2025-09-25 23:44:35 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 66,
+          "main_domain_rank": 496
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 8,
+         "rank_absolute": 11,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[19]/div[1]/div[1]",
+         "domain": "makusan.ne.jp",
+         "title": "ブログの始め方を徹底解説！初心者でも簡単に開設できる",
+         "url": "https://makusan.ne.jp/blog-start/",
+         "breadcrumb": "https://makusan.ne.jp › blog-start",
+         "website_name": "マクサン",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2024/08/07 — ブログの始め方 · ブログのジャンル・タイトルを決める · レンタルサーバーを契約する · 初期設定をおこなう · ASPに登録する · 記事を書く · 記事の追加 ...",
+         "pre_snippet": "08/07/2024 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログのジャンル・タイトルを決める"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "makusan.ne.jp",
+         "relative_url": "/blog-start/",
+         "etv": 22.76613946122052,
+         "estimated_paid_traffic_cost": 28.685335721137854,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 18,
+          "is_new": true,
+          "is_up": true,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 11,
+          "referring_pages": 12,
+          "dofollow": 12,
+          "backlinks": 12,
+          "time_update": "2025-09-25 17:07:05 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 138,
+          "main_domain_rank": 303
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 9,
+         "rank_absolute": 12,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[21]/div[1]/div[1]",
+         "domain": "www.sungrove.co.jp",
+         "title": "【無料あり】ブログの始め方を徹底解説！スマホや初心者でも ...",
+         "url": "https://www.sungrove.co.jp/blog-start/",
+         "breadcrumb": "https://www.sungrove.co.jp › ... › Webサイト制作",
+         "website_name": "サングローブ株式会社",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2025/07/28 — 「ブログの始め方がわからない」と悩む方に向け、無料のブログ作成サービスやWordPressを使った開設方法を解説します。「スマホだけでも始められる？",
+         "pre_snippet": "07/28/2025 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ",
+          "始め方"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "sungrove.co.jp",
+         "relative_url": "/blog-start/",
+         "etv": 17.695267558660895,
+         "estimated_paid_traffic_cost": 22.29603712391273,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 22,
+          "is_new": true,
+          "is_up": true,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 314
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 10,
+         "rank_absolute": 14,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+         "domain": "support.google.com",
+         "title": "ブログを作成する - Blogger ヘルプ",
+         "url": "https://support.google.com/blogger/answer/1623800?hl=ja",
+         "breadcrumb": "https://support.google.com › blogger › answer",
+         "website_name": "Google Help",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "Blogger にログインします 。 ページ左側の下向き矢印 下矢印 をクリックします。 [新しいブログ] をクリックします。 ブログの名前を入力します。",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "Blogger にログインします"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "google.com",
+         "relative_url": "/blogger/answer/1623800?hl=ja",
+         "etv": 14.697947839833905,
+         "estimated_paid_traffic_cost": 18.51941427819072,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 26,
+          "referring_main_domains": 25,
+          "referring_pages": 1127,
+          "dofollow": 1126,
+          "backlinks": 1130,
+          "time_update": "2025-09-26 01:11:04 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 285,
+          "main_domain_rank": 1000
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 11,
+         "rank_absolute": 15,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+         "domain": "www.value-domain.com",
+         "title": "【2025年最新】WordPressブログの始め方を初心者に超わかり ...",
+         "url": "https://www.value-domain.com/media/how-to-start-wp/",
+         "breadcrumb": "https://www.value-domain.com › ホーム › WordPress",
+         "website_name": "Value Domain",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2025/09/11 — 【初心者向け】WordPressブログの始め方7ステップ · 独自ドメインの取得 · レンタルサーバーの契約 · ドメインのDNS設定 · ドメイン設定の新規作成.",
+         "pre_snippet": "09/11/2025 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ",
+          "始め方"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "value-domain.com",
+         "relative_url": "/media/how-to-start-wp/",
+         "etv": 14.836911382238677,
+         "estimated_paid_traffic_cost": 18.694508341620732,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 17,
+          "is_new": true,
+          "is_up": true,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 3,
+          "referring_main_domains": 3,
+          "referring_pages": 3,
+          "dofollow": 1,
+          "backlinks": 3,
+          "time_update": "2025-09-25 18:43:25 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 99,
+          "main_domain_rank": 407
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 12,
+         "rank_absolute": 16,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+         "domain": "www.iid.co.jp",
+         "title": "【図解あり】ブログ副業の始め方！初心者必見のやり方を詳しく ...",
+         "url": "https://www.iid.co.jp/contents-sidejob/how-to-start-a-blog/",
+         "breadcrumb": "https://www.iid.co.jp › おすすめの副業 › Web系の副業",
+         "website_name": "株式会社イード",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2025/10/25 — ブログ副業の始め方【9ステップ】 · ①ブログのテーマやジャンルを決める · ②ブログのタイトルを決める · ③レンタルサーバーを申し込む · ④独自ドメインを ...",
+         "pre_snippet": "10/25/2025 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ",
+          "始め方"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "iid.co.jp",
+         "relative_url": "/contents-sidejob/how-to-start-a-blog/",
+         "etv": 14.836911382238677,
+         "estimated_paid_traffic_cost": 18.694508341620732,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 16,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 13,
+          "referring_main_domains": 13,
+          "referring_pages": 11003,
+          "dofollow": 11003,
+          "backlinks": 11034,
+          "time_update": "2025-09-25 17:18:56 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 422,
+          "main_domain_rank": 637
+         }
+        }
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword": "ブログ 始め方",
+       "type": "organic",
+       "se_domain": "google.com",
+       "location_code": 2392,
+       "language_code": "ja",
+       "check_url": "https://www.google.com/search?q=%E3%83%96%E3%83%AD%E3%82%B0%20%E5%A7%8B%E3%82%81%E6%96%B9&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+       "datetime": "2026-01-24 06:34:29 +00:00",
+       "spell": null,
+       "item_types": [
+        "ai_overview",
+        "organic",
+        "people_also_ask",
+        "video",
+        "related_searches",
+        "images"
+       ],
+       "se_results_count": 127000000,
+       "items_count": 112,
+       "items": [
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 1,
+         "rank_absolute": 2,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+         "domain": "www.xserver.ne.jp",
+         "title": "【初心者向け】ブログの始め方完全ガイド！立ち上げから収入を ...",
+         "url": "https://www.xserver.ne.jp/blog/start-guide-for-blog-beginners/",
+         "breadcrumb": "https://www.xserver.ne.jp › blog › start-guide-for-blog-...",
+         "website_name": "エックスサーバー",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2026/01/15 — ブログの始め方10ステップ · 1.ブログで扱うテーマやジャンルを決める · 2.ブログのタイトルとドメイン名を決める · 3.ブログを開設する · 4.テーマ（ ...",
+         "pre_snippet": "01/15/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "1.ブログで扱うテーマやジャンルを決める"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "xserver.ne.jp",
+         "relative_url": "/blog/start-guide-for-blog-beginners/",
+         "etv": 369.72536128211436,
+         "estimated_paid_traffic_cost": 465.8539552154641,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 2,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 54,
+          "referring_main_domains": 54,
+          "referring_pages": 535,
+          "dofollow": 530,
+          "backlinks": 551,
+          "time_update": "2026-01-16 03:17:57 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 229,
+          "main_domain_rank": 650
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 2,
+         "rank_absolute": 4,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]",
+         "domain": "hitodeblog.com",
+         "title": "【ブログの始め方】初心者でも出来る方法をプロが丁寧に徹底 ...",
+         "url": "https://hitodeblog.com/",
+         "breadcrumb": "https://hitodeblog.com",
+         "website_name": "hitodeblog",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "ブログ の始め方と収益化の方法を、プロが「何処よりもわかりやすく」「丁寧に」「初心者でも全く問題ないように」解説します。画像と動画で具体的にブログ開設の手順を ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ",
+          "始め方"
+         ],
+         "links": [
+          {
+           "type": "link_element",
+           "title": "STEP3】ブログの運営方法・やり...",
+           "description": null,
+           "url": "https://hitodeblog.com/#blog-uneie-01"
+          },
+          {
+           "type": "link_element",
+           "title": "STEP4】ブログの稼ぎ方！収益...",
+           "description": null,
+           "url": "https://hitodeblog.com/#blog-shuueki-01"
+          }
+         ],
+         "about_this_result": null,
+         "main_domain": "hitodeblog.com",
+         "relative_url": "/",
+         "etv": 180.78591485994735,
+         "estimated_paid_traffic_cost": 227.79025272353365,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 5,
+          "is_new": true,
+          "is_up": true,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 1601,
+          "referring_main_domains": 1591,
+          "referring_pages": 8786,
+          "dofollow": 8693,
+          "backlinks": 9163,
+          "time_update": "2026-01-16 03:56:57 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 461,
+          "main_domain_rank": 339
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 3,
+         "rank_absolute": 5,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[7]/div[1]/div[1]",
+         "domain": "www.onamae.com",
+         "title": "【徹底解説】初心者におすすめ！ゼロから学ぶブログの始め方",
+         "url": "https://www.onamae.com/column/blog/72/",
+         "breadcrumb": "https://www.onamae.com › TOP › ブログ",
+         "website_name": "お名前.com",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2025/03/10 — 初心者がブログを始めるのは難しい？ · 導入は用意されたマニュアルに沿って設定を進めるだけ · 簡単なツールを使いこなせれば記事更新は可能 · ブログで一 ...",
+         "pre_snippet": "03/10/2025 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "onamae.com",
+         "relative_url": "/column/blog/72/",
+         "etv": 101.22353024029721,
+         "estimated_paid_traffic_cost": 127.54164810277449,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 10,
+          "is_new": true,
+          "is_up": true,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 2,
+          "referring_main_domains": 2,
+          "referring_pages": 4,
+          "dofollow": 4,
+          "backlinks": 4,
+          "time_update": "2026-01-16 03:47:56 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 66,
+          "main_domain_rank": 498
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 4,
+         "rank_absolute": 6,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[9]/div[1]/div[1]",
+         "domain": "www.canva.com",
+         "title": "【初心者向け】ブログの始め方完全ガイド！副業で収益化も ...",
+         "url": "https://www.canva.com/ja_jp/learn/how-to-start-a-blog/",
+         "breadcrumb": "https://www.canva.com › ... › マーケティング",
+         "website_name": "Canva",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "副業にも最適！ブログの始め方8ステップ · 目的とジャンルを決める（稼ぎやすいテーマ選び） · ブログのプラットフォームを選ぶ · ドメイン・サーバーを契約する（WordPressの ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ",
+          "始め方"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "canva.com",
+         "relative_url": "/ja_jp/learn/how-to-start-a-blog/",
+         "etv": 76.12512994409065,
+         "estimated_paid_traffic_cost": 95.9176637295542,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 9,
+          "is_new": true,
+          "is_up": true,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 700
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 5,
+         "rank_absolute": 7,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[11]/div[1]/div[1]",
+         "domain": "www.conoha.jp",
+         "title": "【初心者でも簡単】ブログの始め方​​ – 開設から収益化まで ...",
+         "url": "https://www.conoha.jp/lets-wp/how-to-start-blog/",
+         "breadcrumb": "https://www.conoha.jp › ホーム › WordPressの始め方",
+         "website_name": "ConoHa",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2025/12/19 — 成功するブログを作る7つのコツ · 読者の悩みを解決するブログを目指す · ブログの目的とジャンルを明確にする · 記事構成にこだわる · 画像や余白を工夫 ...",
+         "pre_snippet": "12/19/2025 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "読者の悩みを"
+         ],
+         "links": [
+          {
+           "type": "link_element",
+           "title": "ブログの基礎知識",
+           "description": null,
+           "url": "https://www.conoha.jp/lets-wp/how-to-start-blog/#section01"
+          },
+          {
+           "type": "link_element",
+           "title": "WordPressでのブログ開設方法",
+           "description": null,
+           "url": "https://www.conoha.jp/lets-wp/how-to-start-blog/#section03"
+          },
+          {
+           "type": "link_element",
+           "title": "ブログ運営のコツ",
+           "description": null,
+           "url": "https://www.conoha.jp/lets-wp/how-to-start-blog/#section10"
+          }
+         ],
+         "about_this_result": null,
+         "main_domain": "conoha.jp",
+         "relative_url": "/lets-wp/how-to-start-blog/",
+         "etv": 55.733871561378855,
+         "estimated_paid_traffic_cost": 70.22467816733736,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 23,
+          "is_new": true,
+          "is_up": true,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 16,
+          "referring_main_domains": 16,
+          "referring_pages": 844,
+          "dofollow": 843,
+          "backlinks": 850,
+          "time_update": "2026-01-16 02:51:32 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 162,
+          "main_domain_rank": 460
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 6,
+         "rank_absolute": 9,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[15]/div[1]/div[1]",
+         "domain": "www.xserver.ne.jp",
+         "title": "【どこがいい？】ブログ作成サービスのおすすめ11選！無料で ...",
+         "url": "https://www.xserver.ne.jp/blog/blog-service-recommended/",
+         "breadcrumb": "https://www.xserver.ne.jp › blog-service-recommended",
+         "website_name": "エックスサーバー",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2025/02/27 — この記事では、初心者におすすめのブログ作成サービスを紹介しています！「稼ぎたい」「ブランディングを強化したい」「無料でサクッと始めたい」 ...",
+         "pre_snippet": "02/27/2025 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ",
+          "始め"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "xserver.ne.jp",
+         "relative_url": "/blog/blog-service-recommended/",
+         "etv": 40.78543419164152,
+         "estimated_paid_traffic_cost": 51.38964708146832,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 33,
+          "referring_main_domains": 33,
+          "referring_pages": 52,
+          "dofollow": 45,
+          "backlinks": 56,
+          "time_update": "2026-01-16 03:27:43 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 215,
+          "main_domain_rank": 650
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 7,
+         "rank_absolute": 10,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[17]/div[1]/div[1]",
+         "domain": "ja.wix.com",
+         "title": "ブログの始め方完全ガイド【最新版】",
+         "url": "https://ja.wix.com/blog/2021/08/how-to-start-a-blog/",
+         "breadcrumb": "https://ja.wix.com › blog › 2021/08 › how-to-start-a-blog",
+         "website_name": "wix.com",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2026/01/01 — ブログサイトの作り方（6 ステップ） · 01. ブログ作成ツールを選ぶ · 02. ブログサイトのデザインを作成 · 03. ブログサイトの SEO 設定 · 04. ページを ...",
+         "pre_snippet": "01/01/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "wix.com",
+         "relative_url": "/blog/2021/08/how-to-start-a-blog/",
+         "etv": 29.612975296512595,
+         "estimated_paid_traffic_cost": 37.31234887360587,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 22,
+          "is_new": true,
+          "is_up": true,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 4,
+          "referring_main_domains": 3,
+          "referring_pages": 16,
+          "dofollow": 16,
+          "backlinks": 18,
+          "time_update": "2026-01-16 04:10:24 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 55,
+          "main_domain_rank": 708
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 8,
+         "rank_absolute": 11,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[19]/div[1]/div[1]",
+         "domain": "www.value-domain.com",
+         "title": "稼がない趣味ブログの始め方【初心者におすすめの無料 ...",
+         "url": "https://www.value-domain.com/media/start-noearning-blog/",
+         "breadcrumb": "https://www.value-domain.com › ホーム › WordPress",
+         "website_name": "Value Domain",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2022/09/16 — 初心者におすすめの無料ブログサービス5選 · Amebaブログ（アメブロ） · はてなブログ · note · livedoor（ライブドア）ブログ · Blogger（ブロガー）. Blogger ...",
+         "pre_snippet": "09/16/2022 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "value-domain.com",
+         "relative_url": "/media/start-noearning-blog/",
+         "etv": 22.76613946122052,
+         "estimated_paid_traffic_cost": 28.685335721137854,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 427
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 9,
+         "rank_absolute": 12,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[21]/div[1]/div[1]",
+         "domain": "onimaga.jp",
+         "title": "いまさらブログの始め方：2025年でも遅くない初心者向け個人 ...",
+         "url": "https://onimaga.jp/imasara-blog-start-guide.html",
+         "breadcrumb": "https://onimaga.jp › ... › ブログの運営ノウハウ",
+         "website_name": "オニマガ",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2025/05/15 — いまさらブログの始め方：2025年でも遅くない初心者向け個人ブログの作り方 · STEP1：テーマと目的を決める · STEP2：プラットフォームを選ぶ · STEP3：10分で ...",
+         "pre_snippet": "05/15/2025 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ",
+          "始め方"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "onimaga.jp",
+         "relative_url": "/imasara-blog-start-guide.html",
+         "etv": 17.695267558660895,
+         "estimated_paid_traffic_cost": 22.29603712391273,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 17,
+          "is_new": true,
+          "is_up": true,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 400
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 10,
+         "rank_absolute": 14,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+         "domain": "biz.moneyforward.com",
+         "title": "ブログは今からでも儲かる？ジャンル選びや始め方、確定申告 ...",
+         "url": "https://biz.moneyforward.com/tax_return/basic/81422/",
+         "breadcrumb": "https://biz.moneyforward.com › tax_return › basic",
+         "website_name": "マネーフォワード クラウド",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2026/01/05 — 無料ブログで運営するメリット. 無料ブログは、コストがゼロで、専門知識がなくてもすぐに記事の立ち上げができます。まずは記事作成や運営に慣れるために ...",
+         "pre_snippet": "01/05/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "moneyforward.com",
+         "relative_url": "/tax_return/basic/81422/",
+         "etv": 14.697947839833905,
+         "estimated_paid_traffic_cost": 18.51941427819072,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 508
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 11,
+         "rank_absolute": 15,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+         "domain": "shared.gmocloud.com",
+         "title": "【ブログの始め方ガイド】初心者でも失敗しない ... - iCLUSTA+",
+         "url": "https://shared.gmocloud.com/lp/iinkai/making/",
+         "breadcrumb": "https://shared.gmocloud.com › iinkai › making",
+         "website_name": "gmocloud.com",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "「これからブログを始めたい！」「でも何から始めたらよいかわからない…」。そんなあなたに、初心者でも一からブログを始められるおすすめの方法や具体的な作り方など ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ",
+          "始め",
+          "方法"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "gmocloud.com",
+         "relative_url": "/lp/iinkai/making/",
+         "etv": 14.836911382238677,
+         "estimated_paid_traffic_cost": 18.694508341620732,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 30,
+          "is_new": true,
+          "is_up": true,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 382
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 12,
+         "rank_absolute": 16,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+         "domain": "ameblo.jp",
+         "title": "【初心者向け】ブログの始め方！趣味や副業にスマホを使った ...",
+         "url": "https://ameblo.jp/blog-navi/article/blog-start/",
+         "breadcrumb": "https://ameblo.jp › Top › ブログを書く",
+         "website_name": "アメーバブログ",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2024/06/05 — ブログの始め方｜簡単6ステップ · STEP1ブログのタイトル・ドメインを決める · STEP2ブログを開設する · STEP3ブログの初期設定をする · STEP4記事を作成 ...",
+         "pre_snippet": "06/05/2024 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "STEP1ブログのタイトル・ドメインを決める"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "ameblo.jp",
+         "relative_url": "/blog-navi/article/blog-start/",
+         "etv": 14.836911382238677,
+         "estimated_paid_traffic_cost": 18.694508341620732,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 4,
+          "is_new": true,
+          "is_up": false,
+          "is_down": true
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 724
+         }
+        }
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword": "ブログ 始め方",
+       "type": "organic",
+       "se_domain": "google.com",
+       "location_code": 2392,
+       "language_code": "ja",
+       "check_url": "https://www.google.com/search?q=%E3%83%96%E3%83%AD%E3%82%B0%20%E5%A7%8B%E3%82%81%E6%96%B9&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+       "datetime": "2026-03-29 14:36:04 +00:00",
+       "spell": null,
+       "item_types": [
+        "ai_overview",
+        "organic",
+        "people_also_ask",
+        "video",
+        "related_searches",
+        "images"
+       ],
+       "se_results_count": 160000000,
+       "items_count": 112,
+       "items": [
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 1,
+         "rank_absolute": 2,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+         "domain": "www.xserver.ne.jp",
+         "title": "【初心者向け】ブログの始め方完全ガイド！立ち上げから収入を ...",
+         "url": "https://www.xserver.ne.jp/blog/start-guide-for-blog-beginners/",
+         "breadcrumb": "https://www.xserver.ne.jp › blog › start-guide-for-blog-...",
+         "website_name": "エックスサーバー",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2026/01/15 — ブログの始め方10ステップ · 1.ブログで扱うテーマやジャンルを決める · 2.ブログのタイトルとドメイン名を決める · 3.ブログを開設する · 4.テーマ（ ...",
+         "pre_snippet": "01/15/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "1.ブログで扱うテーマやジャンルを決める"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "xserver.ne.jp",
+         "relative_url": "/blog/start-guide-for-blog-beginners/",
+         "etv": 369.72536128211436,
+         "estimated_paid_traffic_cost": 465.8539552154641,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 2,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 47,
+          "referring_main_domains": 47,
+          "referring_pages": 523,
+          "dofollow": 519,
+          "backlinks": 540,
+          "time_update": "2026-03-21 06:25:37 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 226,
+          "main_domain_rank": 652
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 2,
+         "rank_absolute": 4,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+         "domain": "onimaga.jp",
+         "title": "いまさらブログの始め方：2026年でも遅くない初心者向け個人 ...",
+         "url": "https://onimaga.jp/imasara-blog-start-guide.html",
+         "breadcrumb": "https://onimaga.jp › ... › ブログの運営ノウハウ",
+         "website_name": "オニマガ",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2025/05/15 — いまさらブログの始め方：2026年でも遅くない初心者向け個人ブログの作り方 · STEP1：テーマと目的を決める · STEP2：プラットフォームを選ぶ · STEP3：10分で ...",
+         "pre_snippet": "05/15/2025 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ",
+          "始め方"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "onimaga.jp",
+         "relative_url": "/imasara-blog-start-guide.html",
+         "etv": 180.78591485994735,
+         "estimated_paid_traffic_cost": 227.79025272353365,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 12,
+          "is_new": true,
+          "is_up": true,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 399
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 3,
+         "rank_absolute": 5,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+         "domain": "hitodeblog.com",
+         "title": "【ブログの始め方】初心者でも出来る方法をプロが丁寧に徹底 ...",
+         "url": "https://hitodeblog.com/",
+         "breadcrumb": "https://hitodeblog.com",
+         "website_name": "hitodeblog",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "ブログ の始め方と収益化の方法を、プロが「何処よりもわかりやすく」「丁寧に」「初心者でも全く問題ないように」解説します。画像と動画で具体的にブログ開設の手順を ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ",
+          "始め方"
+         ],
+         "links": [
+          {
+           "type": "link_element",
+           "title": "STEP3】ブログの運営方法・やり...",
+           "description": null,
+           "url": "https://hitodeblog.com/#blog-uneie-01"
+          },
+          {
+           "type": "link_element",
+           "title": "STEP4】ブログの稼ぎ方！収益...",
+           "description": null,
+           "url": "https://hitodeblog.com/#blog-shuueki-01"
+          }
+         ],
+         "about_this_result": null,
+         "main_domain": "hitodeblog.com",
+         "relative_url": "/",
+         "etv": 101.22353024029721,
+         "estimated_paid_traffic_cost": 127.54164810277449,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 4,
+          "is_new": true,
+          "is_up": false,
+          "is_down": true
+         },
+         "backlinks_info": {
+          "referring_domains": 1558,
+          "referring_main_domains": 1548,
+          "referring_pages": 8703,
+          "dofollow": 8619,
+          "backlinks": 9045,
+          "time_update": "2026-03-21 07:15:14 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 459,
+          "main_domain_rank": 338
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 4,
+         "rank_absolute": 6,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+         "domain": "www.conoha.jp",
+         "title": "【初心者でも簡単】ブログの始め方​​ – 開設から収益化まで ...",
+         "url": "https://www.conoha.jp/lets-wp/how-to-start-blog/",
+         "breadcrumb": "https://www.conoha.jp › ホーム › WordPressの始め方",
+         "website_name": "ConoHa",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2025/12/19 — 成功するブログを作る7つのコツ · 読者の悩みを解決するブログを目指す · ブログの目的とジャンルを明確にする · 記事構成にこだわる · 画像や余白を工夫 ...",
+         "pre_snippet": "12/19/2025 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "読者の悩みを"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "conoha.jp",
+         "relative_url": "/lets-wp/how-to-start-blog/",
+         "etv": 76.12512994409065,
+         "estimated_paid_traffic_cost": 95.9176637295542,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 7,
+          "is_new": true,
+          "is_up": true,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 15,
+          "referring_main_domains": 15,
+          "referring_pages": 853,
+          "dofollow": 852,
+          "backlinks": 860,
+          "time_update": "2026-03-06 19:06:39 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 168,
+          "main_domain_rank": 469
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 5,
+         "rank_absolute": 7,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+         "domain": "www.canva.com",
+         "title": "【初心者向け】ブログの始め方完全ガイド！副業で収益化も ...",
+         "url": "https://www.canva.com/ja_jp/learn/how-to-start-a-blog/",
+         "breadcrumb": "https://www.canva.com › ... › マーケティング",
+         "website_name": "Canva",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "副業にも最適！ブログの始め方8ステップ · 1. 目的とジャンルを決める（稼ぎやすいテーマ選び） · 2. ブログのプラットフォームを選ぶ · 3. ドメイン・サーバーを契約する（ ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ",
+          "始め方"
+         ],
+         "links": [
+          {
+           "type": "link_element",
+           "title": "ブログが収益を生む3つの仕組み",
+           "description": null,
+           "url": "https://www.canva.com/ja_jp/learn/how-to-start-a-blog/#how1"
+          },
+          {
+           "type": "link_element",
+           "title": "ブログとSNSを連携してアクセス...",
+           "description": null,
+           "url": "https://www.canva.com/ja_jp/learn/how-to-start-a-blog/#tip3"
+          }
+         ],
+         "about_this_result": null,
+         "main_domain": "canva.com",
+         "relative_url": "/ja_jp/learn/how-to-start-a-blog/",
+         "etv": 55.733871561378855,
+         "estimated_paid_traffic_cost": 70.22467816733736,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 6,
+          "is_new": true,
+          "is_up": false,
+          "is_down": true
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 699
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 6,
+         "rank_absolute": 9,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+         "domain": "www.onamae.com",
+         "title": "【徹底解説】初心者におすすめ！ゼロから学ぶブログの始め方",
+         "url": "https://www.onamae.com/column/blog/72/",
+         "breadcrumb": "https://www.onamae.com › TOP › ブログ",
+         "website_name": "お名前.com",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2025/03/10 — 初心者がブログを始めるのは難しい？ · 導入は用意されたマニュアルに沿って設定を進めるだけ · 簡単なツールを使いこなせれば記事更新は可能 · ブログで一 ...",
+         "pre_snippet": "03/10/2025 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "onamae.com",
+         "relative_url": "/column/blog/72/",
+         "etv": 40.78543419164152,
+         "estimated_paid_traffic_cost": 51.38964708146832,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 5,
+          "is_new": true,
+          "is_up": false,
+          "is_down": true
+         },
+         "backlinks_info": {
+          "referring_domains": 2,
+          "referring_main_domains": 2,
+          "referring_pages": 4,
+          "dofollow": 4,
+          "backlinks": 4,
+          "time_update": "2026-03-21 07:03:25 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 60,
+          "main_domain_rank": 498
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 7,
+         "rank_absolute": 10,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+         "domain": "lolipop.jp",
+         "title": "ブログの開設方法や手順｜スマホでの作り方や具体的な注意 ...",
+         "url": "https://lolipop.jp/media/blog-setup/",
+         "breadcrumb": "https://lolipop.jp › ... › ブログ運営",
+         "website_name": "ロリポップ！レンタルサーバー",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2021/12/22 — スマホでもブログは開設できる. PCがなくても、スマホだけでブログを開設できます。開設方法は先に紹介したように無料ブログや、独自ドメインによるブログ ...",
+         "pre_snippet": "12/22/2021 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "lolipop.jp",
+         "relative_url": "/media/blog-setup/",
+         "etv": 29.612975296512595,
+         "estimated_paid_traffic_cost": 37.31234887360587,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 560
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 8,
+         "rank_absolute": 11,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]",
+         "domain": "www.xserver.ne.jp",
+         "title": "【どこがいい？】ブログ作成サービスのおすすめ11選！無料で ...",
+         "url": "https://www.xserver.ne.jp/blog/blog-service-recommended/",
+         "breadcrumb": "https://www.xserver.ne.jp › blog-service-recommended",
+         "website_name": "エックスサーバー",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2025/02/27 — この記事では、初心者におすすめのブログ作成サービスを紹介しています！「稼ぎたい」「ブランディングを強化したい」「無料でサクッと始めたい」 ...",
+         "pre_snippet": "02/27/2025 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ",
+          "始め"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "xserver.ne.jp",
+         "relative_url": "/blog/blog-service-recommended/",
+         "etv": 22.76613946122052,
+         "estimated_paid_traffic_cost": 28.685335721137854,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 32,
+          "referring_main_domains": 32,
+          "referring_pages": 49,
+          "dofollow": 43,
+          "backlinks": 52,
+          "time_update": "2026-03-21 06:37:49 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 220,
+          "main_domain_rank": 652
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 9,
+         "rank_absolute": 12,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[22]/div[1]/div[1]",
+         "domain": "shared.gmocloud.com",
+         "title": "【ブログの始め方ガイド】初心者でも失敗しない ... - iCLUSTA+",
+         "url": "https://shared.gmocloud.com/lp/iinkai/making/",
+         "breadcrumb": "https://shared.gmocloud.com › iinkai › making",
+         "website_name": "gmocloud.com",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "読まれるブログを作るためのブログ運営5つのコツ · ブログのテーマやコンセプトを決める · 読者像を具体的にイメージする · 読者の悩みや疑問を解決する · 文章の書き方を ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログのテーマやコンセプトを決める"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "gmocloud.com",
+         "relative_url": "/lp/iinkai/making/",
+         "etv": 17.695267558660895,
+         "estimated_paid_traffic_cost": 22.29603712391273,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 15,
+          "is_new": true,
+          "is_up": true,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 363
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 10,
+         "rank_absolute": 14,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+         "domain": "biz.moneyforward.com",
+         "title": "ブログは今からでも儲かる？ジャンル選びや始め方、確定申告 ...",
+         "url": "https://biz.moneyforward.com/tax_return/basic/81422/",
+         "breadcrumb": "https://biz.moneyforward.com › tax_return › basic",
+         "website_name": "マネーフォワード クラウド",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2026/01/27 — ブログで儲かる主な仕組みは、広告収入です。人が集まる場所を作り、そこに広告を掲載することで対価を得ます。商品を紹介して購入につなげる ...",
+         "pre_snippet": "01/27/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "moneyforward.com",
+         "relative_url": "/tax_return/basic/81422/",
+         "etv": 14.697947839833905,
+         "estimated_paid_traffic_cost": 18.51941427819072,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 14,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 2,
+          "referring_main_domains": 2,
+          "referring_pages": 3,
+          "dofollow": 3,
+          "backlinks": 3,
+          "time_update": "2026-03-21 06:28:12 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 20,
+          "main_domain_rank": 508
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 11,
+         "rank_absolute": 15,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+         "domain": "shared.gmocloud.com",
+         "title": "【ブログの始め方ガイド】初心者でも失敗しない ... - iCLUSTA+",
+         "url": "https://shared.gmocloud.com/lp/iinkai/making/",
+         "breadcrumb": "https://shared.gmocloud.com › iinkai › making",
+         "website_name": "gmocloud.com",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "読まれるブログを作るためのブログ運営5つのコツ · ブログのテーマやコンセプトを決める · 読者像を具体的にイメージする · 読者の悩みや疑問を解決する · 文章の書き方を ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログのテーマやコンセプトを決める"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "gmocloud.com",
+         "relative_url": "/lp/iinkai/making/",
+         "etv": 14.836911382238677,
+         "estimated_paid_traffic_cost": 18.694508341620732,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 363
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 12,
+         "rank_absolute": 16,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+         "domain": "www.xserver.ne.jp",
+         "title": "【どこがいい？】ブログ作成サービスのおすすめ11選！無料で ...",
+         "url": "https://www.xserver.ne.jp/blog/blog-service-recommended/",
+         "breadcrumb": "https://www.xserver.ne.jp › blog-service-recommended",
+         "website_name": "エックスサーバー",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2025/02/27 — この記事では、初心者におすすめのブログ作成サービスを紹介しています！「稼ぎたい」「ブランディングを強化したい」「無料でサクッと始めたい」 ...",
+         "pre_snippet": "02/27/2025 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ",
+          "始め"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "xserver.ne.jp",
+         "relative_url": "/blog/blog-service-recommended/",
+         "etv": 14.836911382238677,
+         "estimated_paid_traffic_cost": 18.694508341620732,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 32,
+          "referring_main_domains": 32,
+          "referring_pages": 49,
+          "dofollow": 43,
+          "backlinks": 52,
+          "time_update": "2026-03-21 06:37:49 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 220,
+          "main_domain_rank": 652
+         }
+        }
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword": "ブログ 始め方",
+       "type": "organic",
+       "se_domain": "google.com",
+       "location_code": 2392,
+       "language_code": "ja",
+       "check_url": "https://www.google.com/search?q=%E3%83%96%E3%83%AD%E3%82%B0%20%E5%A7%8B%E3%82%81%E6%96%B9&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+       "datetime": "2026-06-08 18:58:46 +00:00",
+       "spell": null,
+       "item_types": [
+        "ai_overview",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+       ],
+       "se_results_count": 105,
+       "items_count": 111,
+       "items": [
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 1,
+         "rank_absolute": 2,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+         "domain": "www.xserver.ne.jp",
+         "title": "【初心者向け】ブログの始め方完全ガイド！立ち上げから収入を ...",
+         "url": "https://www.xserver.ne.jp/blog/start-guide-for-blog-beginners/",
+         "breadcrumb": "https://www.xserver.ne.jp › blog › start-guide-for-blog-...",
+         "website_name": "エックスサーバー",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2026/01/15 — ブログの始め方10ステップ · 1.ブログで扱うテーマやジャンルを決める · 2.ブログのタイトルとドメイン名を決める · 3.ブログを開設する · 4.テーマ（ ...",
+         "pre_snippet": "01/15/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "1.ブログで扱うテーマやジャンルを決める"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "xserver.ne.jp",
+         "relative_url": "/blog/start-guide-for-blog-beginners/",
+         "etv": 936.8706256613812,
+         "estimated_paid_traffic_cost": 1180.4569883333402,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 2,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 46,
+          "referring_main_domains": 46,
+          "referring_pages": 59,
+          "dofollow": 56,
+          "backlinks": 67,
+          "time_update": "2026-06-02 09:40:43 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 225,
+          "main_domain_rank": 655
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 2,
+         "rank_absolute": 4,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]",
+         "domain": "shared.gmocloud.com",
+         "title": "【ブログの始め方ガイド】初心者でも失敗しない ... - iCLUSTA+",
+         "url": "https://shared.gmocloud.com/lp/iinkai/making/",
+         "breadcrumb": "https://shared.gmocloud.com › iinkai › making",
+         "website_name": "gmocloud.com",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "読まれるブログを作るためのブログ運営5つのコツ · ブログのテーマやコンセプトを決める · 読者像を具体的にイメージする · 読者の悩みや疑問を解決する · 文章の書き方を ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログのテーマやコンセプトを決める"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "gmocloud.com",
+         "relative_url": "/lp/iinkai/making/",
+         "etv": 311.10403602997593,
+         "estimated_paid_traffic_cost": 391.99108539776967,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 12,
+          "is_new": true,
+          "is_up": true,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 388
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 3,
+         "rank_absolute": 5,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[7]/div[1]/div[1]",
+         "domain": "www.conoha.jp",
+         "title": "【初心者でも簡単】ブログの始め方​​ – 開設から収益化まで ...",
+         "url": "https://www.conoha.jp/lets-wp/how-to-start-blog/",
+         "breadcrumb": "https://www.conoha.jp › ホーム › WordPressの始め方",
+         "website_name": "ConoHa",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2025/12/19 — 成功するブログを作る7つのコツ · 読者の悩みを解決するブログを目指す · ブログの目的とジャンルを明確にする · 記事構成にこだわる · 画像や余白を工夫 ...",
+         "pre_snippet": "12/19/2025 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "読者の悩みを"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "conoha.jp",
+         "relative_url": "/lets-wp/how-to-start-blog/",
+         "etv": 176.01593294222886,
+         "estimated_paid_traffic_cost": 221.78007550720835,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 6,
+          "is_new": true,
+          "is_up": true,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 15,
+          "referring_main_domains": 15,
+          "referring_pages": 856,
+          "dofollow": 855,
+          "backlinks": 861,
+          "time_update": "2026-06-02 09:11:11 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 169,
+          "main_domain_rank": 469
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 4,
+         "rank_absolute": 6,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[8]/div[1]/div[1]/div[1]",
+         "domain": "www.youtube.com",
+         "title": "無料ブログの始め方!初心者におすすめのサービスと選び方を ...",
+         "url": "https://www.youtube.com/watch?v=trxFsiC2NEk",
+         "breadcrumb": "視聴回数: 6490 回以上  ·  2 年前",
+         "website_name": "YouTube · Tsuyoshi Kashiwazaki SEO Channel",
+         "is_image": false,
+         "is_video": true,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": [
+          "is_video"
+         ],
+         "description": null,
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": null,
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "youtube.com",
+         "relative_url": "/watch?v=trxFsiC2NEk",
+         "etv": 113.40067390557518,
+         "estimated_paid_traffic_cost": 142.88484912102473,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 1000
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 5,
+         "rank_absolute": 7,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[10]/div[1]/div[1]",
+         "domain": "www.canva.com",
+         "title": "【初心者向け】ブログの始め方完全ガイド！副業で収益化も ...",
+         "url": "https://www.canva.com/ja_jp/learn/how-to-start-a-blog/",
+         "breadcrumb": "https://www.canva.com › ... › マーケティング",
+         "website_name": "Canva",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "副業にも最適！ブログの始め方8ステップ · 1. 目的とジャンルを決める（稼ぎやすいテーマ選び） · 2. ブログのプラットフォームを選ぶ · 3. ドメイン・サーバーを契約する（ ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ",
+          "始め方"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "canva.com",
+         "relative_url": "/ja_jp/learn/how-to-start-a-blog/",
+         "etv": 74.60148850723705,
+         "estimated_paid_traffic_cost": 93.99787551911868,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 7,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 699
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 6,
+         "rank_absolute": 8,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[12]/div[1]/div[1]",
+         "domain": "www.onamae.com",
+         "title": "【徹底解説】初心者におすすめ！ゼロから学ぶブログの始め方",
+         "url": "https://www.onamae.com/column/blog/72/",
+         "breadcrumb": "https://www.onamae.com › TOP › ブログ",
+         "website_name": "お名前.com",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2025/03/10 — 初心者がブログを始めるのは難しい？ · 導入は用意されたマニュアルに沿って設定を進めるだけ · 簡単なツールを使いこなせれば記事更新は可能 · ブログで一 ...",
+         "pre_snippet": "03/10/2025 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "onamae.com",
+         "relative_url": "/column/blog/72/",
+         "etv": 53.098370524199495,
+         "estimated_paid_traffic_cost": 66.90394686049136,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 9,
+          "is_new": true,
+          "is_up": true,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 2,
+          "referring_main_domains": 2,
+          "referring_pages": 4,
+          "dofollow": 4,
+          "backlinks": 4,
+          "time_update": "2026-06-02 10:14:49 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 60,
+          "main_domain_rank": 556
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 7,
+         "rank_absolute": 9,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[14]/div[1]/div[1]",
+         "domain": "www.kagoya.jp",
+         "title": "WordPressでブログを開始する手順を解説｜初心者でも簡単に ...",
+         "url": "https://www.kagoya.jp/howto/rentalserver/wppractice/wordpressblog/",
+         "breadcrumb": "https://www.kagoya.jp › wppractice › wordpressblog",
+         "website_name": "KAGOYA",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2024/12/17 — ブログを始める方法は無料のブログサービスだったり、SNSで短いブログ風にして投稿したりと色々な方法で行うことができます。 そんな多様な選択肢の中でも ...",
+         "pre_snippet": "12/17/2024 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "kagoya.jp",
+         "relative_url": "/howto/rentalserver/wppractice/wordpressblog/",
+         "etv": 39.336175212676075,
+         "estimated_paid_traffic_cost": 49.56358076797186,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 18,
+          "is_new": true,
+          "is_up": true,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 392
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 8,
+         "rank_absolute": 10,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[16]/div[1]/div[1]",
+         "domain": "ja.wix.com",
+         "title": "ブログの始め方完全ガイド【最新版】",
+         "url": "https://ja.wix.com/blog/2021/08/how-to-start-a-blog/",
+         "breadcrumb": "https://ja.wix.com › blog › 2021/08 › how-to-start-a-blog",
+         "website_name": "wix.com",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2026/01/01 — ブログサイトの作り方（6 ステップ） · 01. ブログ作成ツールを選ぶ · 02. ブログサイトのデザインを作成 · 03. ブログサイトの SEO 設定 · 04. ページを ...",
+         "pre_snippet": "01/01/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "wix.com",
+         "relative_url": "/blog/2021/08/how-to-start-a-blog/",
+         "etv": 28.89659642046386,
+         "estimated_paid_traffic_cost": 36.40971148978446,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 4,
+          "referring_main_domains": 3,
+          "referring_pages": 14,
+          "dofollow": 14,
+          "backlinks": 16,
+          "time_update": "2026-06-02 10:40:52 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 46,
+          "main_domain_rank": 700
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 9,
+         "rank_absolute": 11,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[18]/div[1]/div[1]",
+         "domain": "www.shopify.com",
+         "title": "ブログの始め方8つの手順：初心者でもできる無料ブログ開設",
+         "url": "https://www.shopify.com/jp/blog/how-to-start-a-blog",
+         "breadcrumb": "https://www.shopify.com › blog › how-to-start-a-blog",
+         "website_name": "Shopify",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2025/05/14 — ブログの始め方8つの手順 · 1. ブログの目的を明確にする · 2. ブログのジャンルを決める · 3. ブログのタイトルとドメイン名を決める · 4. ブログを開設 ...",
+         "pre_snippet": "05/14/2025 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "1. ブログの目的を明確にする"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "shopify.com",
+         "relative_url": "/jp/blog/how-to-start-a-blog",
+         "etv": 23.508599529468484,
+         "estimated_paid_traffic_cost": 29.62083540713029,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 20,
+          "is_new": true,
+          "is_up": true,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 3,
+          "referring_main_domains": 3,
+          "referring_pages": 3,
+          "dofollow": 3,
+          "backlinks": 4,
+          "time_update": "2026-06-02 09:10:58 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 12,
+          "main_domain_rank": 813
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 10,
+         "rank_absolute": 13,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+         "domain": "support.google.com",
+         "title": "ブログを作成する - Blogger ヘルプ",
+         "url": "https://support.google.com/blogger/answer/1623800?hl=ja",
+         "breadcrumb": "https://support.google.com › blogger › answer",
+         "website_name": "Google Help",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "Blogger にログインします 。 ページ左側の下向き矢印 下矢印 をクリックします。 [新しいブログ] をクリックします。 ブログの名前を入力します。",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "Blogger にログインします"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "google.com",
+         "relative_url": "/blogger/answer/1623800?hl=ja",
+         "etv": 17.4309929060545,
+         "estimated_paid_traffic_cost": 21.96305106162867,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 19,
+          "is_new": true,
+          "is_up": true,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 23,
+          "referring_main_domains": 22,
+          "referring_pages": 1114,
+          "dofollow": 1113,
+          "backlinks": 1118,
+          "time_update": "2026-06-02 10:29:05 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 285,
+          "main_domain_rank": 943
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 11,
+         "rank_absolute": 14,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+         "domain": "www.value-domain.com",
+         "title": "無料ブログはどこがいい？初心者におすすめのサービス11選を ...",
+         "url": "https://www.value-domain.com/media/free-blog/",
+         "breadcrumb": "https://www.value-domain.com › ホーム › 収益化",
+         "website_name": "Value Domain",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2025/01/21 — コアサーバーは、月額たったの220円〜で高速・安定した環境を提供。初めての方でも手軽に始められ、ドメインとサーバーを同時に申し込むことでWordPressが ...",
+         "pre_snippet": "01/21/2025 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "始め"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "value-domain.com",
+         "relative_url": "/media/free-blog/",
+         "etv": 16.982286688457283,
+         "estimated_paid_traffic_cost": 21.397681227456175,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 27,
+          "is_new": true,
+          "is_up": true,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 411
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 12,
+         "rank_absolute": 15,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+         "domain": "www.xserver.ne.jp",
+         "title": "初心者のためのブログ始め方講座 – 国内シェアNo1サービス ...",
+         "url": "https://www.xserver.ne.jp/blog/",
+         "breadcrumb": "https://www.xserver.ne.jp › blog",
+         "website_name": "エックスサーバー",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "ブログ初心者向けにブログの始め方・書き方・収益化などブログ運営に役立つ情報を発 信しています。国内シェアNo1レンタルサーバーのエックスサーバーの「中の人」 ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ初心者向けにブログの始め方・書き方・収益化などブログ運営に役立つ情報を発"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "xserver.ne.jp",
+         "relative_url": "/blog/",
+         "etv": 16.982286688457283,
+         "estimated_paid_traffic_cost": 21.397681227456175,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 126,
+          "referring_main_domains": 125,
+          "referring_pages": 335,
+          "dofollow": 324,
+          "backlinks": 362,
+          "time_update": "2026-06-02 10:42:24 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 284,
+          "main_domain_rank": 655
+         }
+        }
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword": "ブログ 始め方",
+       "type": "organic",
+       "se_domain": "google.com",
+       "location_code": 2392,
+       "language_code": "ja",
+       "check_url": "https://www.google.com/search?q=%E3%83%96%E3%83%AD%E3%82%B0%20%E5%A7%8B%E3%82%81%E6%96%B9&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+       "datetime": "2026-09-13 00:19:13 +00:00",
+       "spell": null,
+       "item_types": [
+        "ai_overview",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+       ],
+       "se_results_count": 105,
+       "items_count": 111,
+       "items": [
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 1,
+         "rank_absolute": 2,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+         "domain": "www.xserver.ne.jp",
+         "title": "【初心者向け】ブログの始め方完全ガイド！立ち上げから収入を ...",
+         "url": "https://www.xserver.ne.jp/blog/start-guide-for-blog-beginners/",
+         "breadcrumb": "https://www.xserver.ne.jp › blog › start-guide-for-blog-...",
+         "website_name": "エックスサーバー",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "ブログの始め方10ステップ · 1.ブログで扱うテーマやジャンルを決める · 2.ブログのタイトルとドメイン名を決める · 3.ブログを開設する · 4.テーマ（テンプレート）を選ぶ.",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "1.ブログで扱うテーマやジャンルを決める"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "xserver.ne.jp",
+         "relative_url": "/blog/start-guide-for-blog-beginners/",
+         "etv": 936.8706256613812,
+         "estimated_paid_traffic_cost": 1180.4569883333402,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 2,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 42,
+          "referring_main_domains": 42,
+          "referring_pages": 53,
+          "dofollow": 50,
+          "backlinks": 60,
+          "time_update": "2026-09-12 11:33:21 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 225,
+          "main_domain_rank": 659
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 2,
+         "rank_absolute": 4,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]",
+         "domain": "www.canva.com",
+         "title": "【初心者向け】ブログの始め方完全ガイド！副業で収益化も ...",
+         "url": "https://www.canva.com/ja_jp/learn/how-to-start-a-blog/",
+         "breadcrumb": "https://www.canva.com › ... › マーケティング",
+         "website_name": "Canva",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "副業にも最適！ブログの始め方8ステップ · 1. 目的とジャンルを決める（稼ぎやすいテーマ選び） · 2. ブログのプラットフォームを選ぶ · 3. ドメイン・サーバーを契約する ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ",
+          "始め方"
+         ],
+         "links": [
+          {
+           "type": "link_element",
+           "title": "ブログが収益を生む3つの仕組み",
+           "description": null,
+           "url": "https://www.canva.com/ja_jp/learn/how-to-start-a-blog/#how1"
+          },
+          {
+           "type": "link_element",
+           "title": "ブログとSNSを連携してアクセス...",
+           "description": null,
+           "url": "https://www.canva.com/ja_jp/learn/how-to-start-a-blog/#tip3"
+          }
+         ],
+         "about_this_result": null,
+         "main_domain": "canva.com",
+         "relative_url": "/ja_jp/learn/how-to-start-a-blog/",
+         "etv": 311.10403602997593,
+         "estimated_paid_traffic_cost": 391.99108539776967,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 7,
+          "is_new": true,
+          "is_up": true,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 694
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 3,
+         "rank_absolute": 5,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[7]/div[1]/div[1]",
+         "domain": "onimaga.jp",
+         "title": "いまさらブログの始め方：2026年でも遅くない初心者向け個人 ...",
+         "url": "https://onimaga.jp/imasara-blog-start-guide.html",
+         "breadcrumb": "https://onimaga.jp › ... › ブログ運営ノウハウ",
+         "website_name": "オニマガ",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2025/05/15 — いまさらブログの始め方：2026年でも遅くない初心者向け個人ブログの作り方 · STEP1：テーマと目的を決める · STEP2：プラットフォームはWordPress一択.",
+         "pre_snippet": "05/15/2025 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ",
+          "始め方"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "onimaga.jp",
+         "relative_url": "/imasara-blog-start-guide.html",
+         "etv": 176.01593294222886,
+         "estimated_paid_traffic_cost": 221.78007550720835,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 1,
+          "referring_main_domains": 1,
+          "referring_pages": 1,
+          "dofollow": 1,
+          "backlinks": 1,
+          "time_update": "2026-09-12 11:55:09 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 43,
+          "main_domain_rank": 346
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 4,
+         "rank_absolute": 6,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[9]/div[1]/div[1]",
+         "domain": "www.shopify.com",
+         "title": "ブログの始め方8つの手順：初心者でもできる無料ブログ開設",
+         "url": "https://www.shopify.com/jp/blog/how-to-start-a-blog",
+         "breadcrumb": "https://www.shopify.com › blog › how-to-start-a-blog",
+         "website_name": "Shopify",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2025/05/14 — ブログの始め方8つの手順 · 1. ブログの目的を明確にする · 2. ブログのジャンルを決める · 3. ブログのタイトルとドメイン名を決める · 4. ブログを開設 ...",
+         "pre_snippet": "05/14/2025 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "1. ブログの目的を明確にする"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "shopify.com",
+         "relative_url": "/jp/blog/how-to-start-a-blog",
+         "etv": 113.40067390557518,
+         "estimated_paid_traffic_cost": 142.88484912102473,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 11,
+          "is_new": true,
+          "is_up": true,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 4,
+          "referring_main_domains": 4,
+          "referring_pages": 4,
+          "dofollow": 3,
+          "backlinks": 6,
+          "time_update": "2026-09-12 11:01:24 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 12,
+          "main_domain_rank": 809
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 5,
+         "rank_absolute": 7,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[11]/div[1]/div[1]",
+         "domain": "ameblo.jp",
+         "title": "【初心者向け】ブログの始め方！趣味や副業にスマホを使った ...",
+         "url": "https://ameblo.jp/blog-navi/article/blog-start/",
+         "breadcrumb": "https://ameblo.jp › Top › ブログを書く",
+         "website_name": "アメーバブログ",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2024/06/05 — ブログの始め方｜簡単6ステップ · STEP1ブログのタイトル・ドメインを決める · STEP2ブログを開設する · STEP3ブログの初期設定をする · STEP4記事を作成 ...",
+         "pre_snippet": "06/05/2024 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "STEP1ブログのタイトル・ドメインを決める"
+         ],
+         "links": [
+          {
+           "type": "link_element",
+           "title": "ブログを始めるメリット｜初心者...",
+           "description": null,
+           "url": "https://ameblo.jp/blog-navi/article/blog-start/#%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E5%A7%8B%E3%82%81%E3%82%8B%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88%EF%BD%9C%E5%88%9D%E5%BF%83%E8%80%85%E3%81%A7%E3%82%82%E5%8F%8E%E5%85%A5%E3%82%92%E5%BE%97%E3%82%89%E3%82%8C%E3%82%8B%EF%BC%9F"
+          },
+          {
+           "type": "link_element",
+           "title": "ブログの始め方｜簡単6ステップ",
+           "description": null,
+           "url": "https://ameblo.jp/blog-navi/article/blog-start/#%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AE%E5%A7%8B%E3%82%81%E6%96%B9%EF%BD%9C%E7%B0%A1%E5%8D%986%E3%82%B9%E3%83%86%E3%83%83%E3%83%97"
+          }
+         ],
+         "about_this_result": null,
+         "main_domain": "ameblo.jp",
+         "relative_url": "/blog-navi/article/blog-start/",
+         "etv": 74.60148850723705,
+         "estimated_paid_traffic_cost": 93.99787551911868,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 17,
+          "is_new": true,
+          "is_up": true,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 716
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 6,
+         "rank_absolute": 8,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[13]/div[1]/div[1]",
+         "domain": "shared.gmocloud.com",
+         "title": "【ブログの始め方ガイド】初心者でも失敗しない ... - iCLUSTA+",
+         "url": "https://shared.gmocloud.com/lp/iinkai/making/",
+         "breadcrumb": "https://shared.gmocloud.com › iinkai › making",
+         "website_name": "gmocloud.com",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "読まれるブログを作るためのブログ運営5つのコツ · ブログのテーマやコンセプトを決める · 読者像を具体的にイメージする · 読者の悩みや疑問を解決する · 文章の書き方を ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログのテーマやコンセプトを決める"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "gmocloud.com",
+         "relative_url": "/lp/iinkai/making/",
+         "etv": 53.098370524199495,
+         "estimated_paid_traffic_cost": 66.90394686049136,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 4,
+          "is_new": true,
+          "is_up": false,
+          "is_down": true
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 412
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 7,
+         "rank_absolute": 9,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[15]/div[1]/div[1]",
+         "domain": "www.kagoya.jp",
+         "title": "WordPressでブログを開始する手順を解説｜初心者でも簡単に ...",
+         "url": "https://www.kagoya.jp/howto/rentalserver/wppractice/wordpressblog/",
+         "breadcrumb": "https://www.kagoya.jp › wppractice › wordpressblog",
+         "website_name": "KAGOYA",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2024/12/17 — ブログを始める方法は無料のブログサービスだったり、SNSで短いブログ風にして投稿したりと色々な方法で行うことができます。 そんな多様な選択肢の中でも ...",
+         "pre_snippet": "12/17/2024 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "kagoya.jp",
+         "relative_url": "/howto/rentalserver/wppractice/wordpressblog/",
+         "etv": 39.336175212676075,
+         "estimated_paid_traffic_cost": 49.56358076797186,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 9,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 2,
+          "referring_main_domains": 2,
+          "referring_pages": 2,
+          "dofollow": 2,
+          "backlinks": 2,
+          "time_update": "2026-09-12 11:51:40 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 48,
+          "main_domain_rank": 400
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 8,
+         "rank_absolute": 10,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[17]/div[1]/div[1]",
+         "domain": "sidejob.iid.co.jp",
+         "title": "【図解あり】ブログ副業の始め方！初心者必見のやり方を ...",
+         "url": "https://sidejob.iid.co.jp/how-to-start-a-blog/",
+         "breadcrumb": "https://sidejob.iid.co.jp › ... › Web系の副業",
+         "website_name": "株式会社イード",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2026/03/08 — ブログ副業の始め方【9ステップ】 · ①ブログのテーマやジャンルを決める · ②ブログのタイトルを決める · ③レンタルサーバーを申し込む · ④独自 ...",
+         "pre_snippet": "03/08/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ",
+          "始め方"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "iid.co.jp",
+         "relative_url": "/how-to-start-a-blog/",
+         "etv": 28.89659642046386,
+         "estimated_paid_traffic_cost": 36.40971148978446,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 2,
+          "referring_main_domains": 1,
+          "referring_pages": 2,
+          "dofollow": 2,
+          "backlinks": 2,
+          "time_update": "2026-09-12 12:12:40 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 422,
+          "main_domain_rank": 643
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 9,
+         "rank_absolute": 11,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[19]/div[1]/div[1]",
+         "domain": "biz.moneyforward.com",
+         "title": "ブログを作成するには？WordPressの無料の始め方から記事 ...",
+         "url": "https://biz.moneyforward.com/work-efficiency/basic/27647/",
+         "breadcrumb": "https://biz.moneyforward.com › work-efficiency › basic",
+         "website_name": "マネーフォワード クラウド",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2026/06/09 — ブログを作成する手順は？ · 1. ブログのテーマ・ジャンルを決める · 2. レンタルサーバーを契約する · 3. 独自ドメインを取得する · 4. WordPressを ...",
+         "pre_snippet": "06/09/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "1. ブログのテーマ・ジャンルを決める"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "moneyforward.com",
+         "relative_url": "/work-efficiency/basic/27647/",
+         "etv": 23.508599529468484,
+         "estimated_paid_traffic_cost": 29.62083540713029,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 506
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 10,
+         "rank_absolute": 13,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+         "domain": "www.conoha.jp",
+         "title": "【初心者でも簡単】ブログの始め方​​ – 開設から収益化まで ...",
+         "url": "https://www.conoha.jp/lets-wp/how-to-start-blog/",
+         "breadcrumb": "https://www.conoha.jp › ホーム › WordPressの始め方",
+         "website_name": "ConoHa",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2025/12/19 — 成功するブログを作る7つのコツ · 読者の悩みを解決するブログを目指す · ブログの目的とジャンルを明確にする · 記事構成にこだわる · 画像や余白を工夫 ...",
+         "pre_snippet": "12/19/2025 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "conoha.jp",
+         "relative_url": "/lets-wp/how-to-start-blog/",
+         "etv": 17.4309929060545,
+         "estimated_paid_traffic_cost": 21.96305106162867,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 5,
+          "is_new": true,
+          "is_up": false,
+          "is_down": true
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 11,
+          "referring_pages": 852,
+          "dofollow": 852,
+          "backlinks": 856,
+          "time_update": "2026-09-12 11:01:45 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 176,
+          "main_domain_rank": 464
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 11,
+         "rank_absolute": 14,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+         "domain": "support.google.com",
+         "title": "ブログを作成する - Blogger ヘルプ",
+         "url": "https://support.google.com/blogger/answer/1623800?hl=ja",
+         "breadcrumb": "https://support.google.com › blogger › answer",
+         "website_name": "Google Help",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "Blogger にログインします 。 ページ左側の下向き矢印 下矢印 をクリックします。 [新しいブログ] をクリックします。 ブログの名前を入力します。",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "Blogger にログインします"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "google.com",
+         "relative_url": "/blogger/answer/1623800?hl=ja",
+         "etv": 16.982286688457283,
+         "estimated_paid_traffic_cost": 21.397681227456175,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 13,
+          "is_new": true,
+          "is_up": false,
+          "is_down": true
+         },
+         "backlinks_info": {
+          "referring_domains": 16,
+          "referring_main_domains": 15,
+          "referring_pages": 1103,
+          "dofollow": 1103,
+          "backlinks": 1106,
+          "time_update": "2026-09-12 12:24:04 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 285,
+          "main_domain_rank": 940
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 12,
+         "rank_absolute": 15,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+         "domain": "www.onamae.com",
+         "title": "【徹底解説】初心者におすすめ！ゼロから学ぶブログの始め方",
+         "url": "https://www.onamae.com/column/blog/72/",
+         "breadcrumb": "https://www.onamae.com › TOP › ブログ",
+         "website_name": "お名前.com",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2025/03/10 — 初心者がブログを始めるのは難しい？ · 導入は用意されたマニュアルに沿って設定を進めるだけ · 簡単なツールを使いこなせれば記事更新は可能 · ブログで ...",
+         "pre_snippet": "03/10/2025 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "onamae.com",
+         "relative_url": "/column/blog/72/",
+         "etv": 16.982286688457283,
+         "estimated_paid_traffic_cost": 21.397681227456175,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 8,
+          "is_new": true,
+          "is_up": false,
+          "is_down": true
+         },
+         "backlinks_info": {
+          "referring_domains": 2,
+          "referring_main_domains": 2,
+          "referring_pages": 4,
+          "dofollow": 4,
+          "backlinks": 4,
+          "time_update": "2026-09-12 12:09:36 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 55,
+          "main_domain_rank": 545
+         }
+        }
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword": "ブログ 始め方",
+       "type": "organic",
+       "se_domain": "google.com",
+       "location_code": 2392,
+       "language_code": "ja",
+       "check_url": "https://www.google.com/search?q=%E3%83%96%E3%83%AD%E3%82%B0%20%E5%A7%8B%E3%82%81%E6%96%B9&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+       "datetime": "2026-11-22 09:59:11 +00:00",
+       "spell": null,
+       "item_types": [
+        "ai_overview",
+        "organic",
+        "people_also_ask"
+       ],
+       "se_results_count": 98,
+       "items_count": 102,
+       "items": [
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 1,
+         "rank_absolute": 2,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[5]/div[1]/div[14]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]",
+         "domain": "www.xserver.ne.jp",
+         "title": "【初心者向け】ブログの始め方完全ガイド！立ち上げから収入を ...",
+         "url": "https://www.xserver.ne.jp/blog/start-guide-for-blog-beginners/",
+         "breadcrumb": "https://www.xserver.ne.jp › blog › start-guide-for-blog-...",
+         "website_name": "エックスサーバー",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": [
+          "from_web"
+         ],
+         "description": "2026/09/11 — ブログの始め方10ステップ · 1.ブログで扱うテーマやジャンルを決める · 2.ブログのタイトルとドメイン名を決める · 3.ブログを開設する · 4.テーマ（ ...",
+         "pre_snippet": "09/11/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "1.ブログで扱うテーマやジャンルを決める"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "xserver.ne.jp",
+         "relative_url": "/blog/start-guide-for-blog-beginners/",
+         "etv": 936.8706256613812,
+         "estimated_paid_traffic_cost": 1180.4569883333402,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 2,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 43,
+          "referring_main_domains": 43,
+          "referring_pages": 69,
+          "dofollow": 65,
+          "backlinks": 79,
+          "time_update": "2026-11-21 03:26:01 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 230,
+          "main_domain_rank": 639
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 2,
+         "rank_absolute": 4,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[5]/div[1]/div[14]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[6]/div[1]/div[1]",
+         "domain": "www.canva.com",
+         "title": "【初心者向け】ブログの始め方完全ガイド！副業で収益化も ...",
+         "url": "https://www.canva.com/ja_jp/learn/how-to-start-a-blog/",
+         "breadcrumb": "https://www.canva.com › ... › マーケティング",
+         "website_name": "Canva",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": [
+          "from_web"
+         ],
+         "description": "副業にも最適！ブログの始め方8ステップ · 1. 目的とジャンルを決める（稼ぎやすいテーマ選び） · 2. ブログのプラットフォームを選ぶ · 3. ドメイン・サーバーを契約する ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ",
+          "始め方"
+         ],
+         "links": [
+          {
+           "type": "link_element",
+           "title": "ブログが収益を生む3つの仕組み",
+           "description": null,
+           "url": "https://www.canva.com/ja_jp/learn/how-to-start-a-blog/#how1"
+          },
+          {
+           "type": "link_element",
+           "title": "ブログとSNSを連携してアクセス...",
+           "description": null,
+           "url": "https://www.canva.com/ja_jp/learn/how-to-start-a-blog/#tip3"
+          }
+         ],
+         "about_this_result": null,
+         "main_domain": "canva.com",
+         "relative_url": "/ja_jp/learn/how-to-start-a-blog/",
+         "etv": 311.10403602997593,
+         "estimated_paid_traffic_cost": 391.99108539776967,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 4,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 691
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 3,
+         "rank_absolute": 5,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[5]/div[1]/div[14]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[8]/div[1]/div[1]",
+         "domain": "onimaga.jp",
+         "title": "いまさらブログの始め方：2026年でも遅くない初心者向け個人 ...",
+         "url": "https://onimaga.jp/imasara-blog-start-guide.html",
+         "breadcrumb": "https://onimaga.jp › ... › ブログ運営ノウハウ",
+         "website_name": "オニマガ",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": [
+          "from_web"
+         ],
+         "description": "2025/05/15 — いまさらブログの始め方：2026年でも遅くない初心者向け個人ブログの作り方 · STEP1：テーマと目的を決める · STEP2：プラットフォームはWordPress一択.",
+         "pre_snippet": "05/15/2025 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ",
+          "始め方"
+         ],
+         "links": [
+          {
+           "type": "link_element",
+           "title": "いまさらだけど、いまさらでもない...",
+           "description": null,
+           "url": "https://onimaga.jp/imasara-blog-start-guide.html#toc-heading-0"
+          },
+          {
+           "type": "link_element",
+           "title": "検索数のデータを見てみましょう",
+           "description": null,
+           "url": "https://onimaga.jp/imasara-blog-start-guide.html#toc-heading-1"
+          },
+          {
+           "type": "link_element",
+           "title": "大事なポイント！",
+           "description": null,
+           "url": "https://onimaga.jp/imasara-blog-start-guide.html#toc-heading-10"
+          }
+         ],
+         "about_this_result": null,
+         "main_domain": "onimaga.jp",
+         "relative_url": "/imasara-blog-start-guide.html",
+         "etv": 176.01593294222886,
+         "estimated_paid_traffic_cost": 221.78007550720835,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 5,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 1,
+          "referring_main_domains": 1,
+          "referring_pages": 2,
+          "dofollow": 2,
+          "backlinks": 2,
+          "time_update": "2026-11-21 04:02:26 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 78,
+          "main_domain_rank": 338
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 4,
+         "rank_absolute": 6,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[5]/div[1]/div[14]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[10]/div[1]/div[1]",
+         "domain": "www.youtube.com",
+         "title": "[Beginners] A thorough guide to starting a blog",
+         "url": "https://www.youtube.com/watch?v=YfbStJrHV2s",
+         "breadcrumb": "視聴回数: 5.5万 回以上  ·  2 年前",
+         "website_name": "YouTube · 金子晃之",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": [
+          "from_web"
+         ],
+         "description": "... 始めたいという方は選んでおけば間違い無いです。 また、初めてWordpressブログを作る初心者でも1時間もあれば簡単に作れる「簡単インストール機能 ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "始め",
+          "ブログ"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "youtube.com",
+         "relative_url": "/watch?v=YfbStJrHV2s",
+         "etv": 113.40067390557518,
+         "estimated_paid_traffic_cost": 142.88484912102473,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 1,
+          "referring_main_domains": 1,
+          "referring_pages": 1,
+          "dofollow": 1,
+          "backlinks": 1,
+          "time_update": "2026-11-21 05:14:28 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 64,
+          "main_domain_rank": 1000
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 5,
+         "rank_absolute": 7,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[5]/div[1]/div[14]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[12]/div[1]/div[1]",
+         "domain": "shared.gmocloud.com",
+         "title": "【ブログの始め方ガイド】初心者でも失敗しない ... - iCLUSTA+",
+         "url": "https://shared.gmocloud.com/lp/iinkai/making/",
+         "breadcrumb": "https://shared.gmocloud.com › iinkai › making",
+         "website_name": "gmocloud.com",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": [
+          "from_web"
+         ],
+         "description": "読まれるブログを作るためのブログ運営5つのコツ · ブログのテーマやコンセプトを決める · 読者像を具体的にイメージする · 読者の悩みや疑問を解決する · 文章の書き方を ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログのテーマやコンセプトを決める"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "gmocloud.com",
+         "relative_url": "/lp/iinkai/making/",
+         "etv": 74.60148850723705,
+         "estimated_paid_traffic_cost": 93.99787551911868,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 8,
+          "is_new": true,
+          "is_up": true,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 412
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 6,
+         "rank_absolute": 8,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[5]/div[1]/div[14]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[14]/div[1]/div[1]",
+         "domain": "www.conoha.jp",
+         "title": "【初心者でも簡単】ブログの始め方​​ – 開設から収益化まで ...",
+         "url": "https://www.conoha.jp/lets-wp/how-to-start-blog/",
+         "breadcrumb": "https://www.conoha.jp › ホーム › WordPressの始め方",
+         "website_name": "ConoHa",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": [
+          "from_web"
+         ],
+         "description": "2025/12/19 — 成功するブログを作る7つのコツ · 読者の悩みを解決するブログを目指す · ブログの目的とジャンルを明確にする · 記事構成にこだわる · 画像や余白を工夫 ...",
+         "pre_snippet": "12/19/2025 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "conoha.jp",
+         "relative_url": "/lets-wp/how-to-start-blog/",
+         "etv": 53.098370524199495,
+         "estimated_paid_traffic_cost": 66.90394686049136,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 13,
+          "is_new": true,
+          "is_up": true,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 9,
+          "referring_main_domains": 9,
+          "referring_pages": 848,
+          "dofollow": 848,
+          "backlinks": 851,
+          "time_update": "2026-11-21 02:33:25 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 175,
+          "main_domain_rank": 460
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 7,
+         "rank_absolute": 9,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[5]/div[1]/div[14]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[16]/div[1]/div[1]",
+         "domain": "biz.moneyforward.com",
+         "title": "ブログを作成するには？WordPressの無料の始め方から記事 ...",
+         "url": "https://biz.moneyforward.com/work-efficiency/basic/27647/",
+         "breadcrumb": "https://biz.moneyforward.com › work-efficiency › basic",
+         "website_name": "マネーフォワード クラウド",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": [
+          "from_web"
+         ],
+         "description": "2026/06/09 — ブログを作成する手順は？ · 1. ブログのテーマ・ジャンルを決める · 2. レンタルサーバーを契約する · 3. 独自ドメインを取得する · 4. WordPressを ...",
+         "pre_snippet": "06/09/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "1. ブログのテーマ・ジャンルを決める"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "moneyforward.com",
+         "relative_url": "/work-efficiency/basic/27647/",
+         "etv": 39.336175212676075,
+         "estimated_paid_traffic_cost": 49.56358076797186,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 11,
+          "is_new": true,
+          "is_up": true,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 506
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 8,
+         "rank_absolute": 10,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[5]/div[1]/div[14]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[18]/div[1]/div[1]",
+         "domain": "www.onamae.com",
+         "title": "初心者必見！ブログの始め方・基礎知識をわかりやすく解説",
+         "url": "https://www.onamae.com/business/article/291943/",
+         "breadcrumb": "https://www.onamae.com › ... › ドメイン取得サービス",
+         "website_name": "お名前.com",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": [
+          "from_web"
+         ],
+         "description": "2026/11/09 — 【初心者でもできる】ブログの始め方は大きく4ステップ · 1. ブログ運営の目的とジャンルを決める · 2. ブログサービス（プラットフォーム）を選ぶ · 3.",
+         "pre_snippet": "11/09/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "1. ブログ運営の目的とジャンルを決める"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "onamae.com",
+         "relative_url": "/business/article/291943/",
+         "etv": 28.89659642046386,
+         "estimated_paid_traffic_cost": 36.40971148978446,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 506
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 9,
+         "rank_absolute": 11,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[5]/div[1]/div[14]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[20]/div[1]/div[1]",
+         "domain": "www.kagoya.jp",
+         "title": "WordPressでブログを開始する手順を解説｜初心者でも簡単に ...",
+         "url": "https://www.kagoya.jp/howto/rentalserver/wppractice/wordpressblog/",
+         "breadcrumb": "https://www.kagoya.jp › wppractice › wordpressblog",
+         "website_name": "KAGOYA",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": [
+          "from_web"
+         ],
+         "description": "2024/12/17 — ブログを始める方法は無料のブログサービスだったり、SNSで短いブログ風にして投稿したりと色々な方法で行うことができます。 そんな多様な選択肢の中でも ...",
+         "pre_snippet": "12/17/2024 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ",
+          "方法"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "kagoya.jp",
+         "relative_url": "/howto/rentalserver/wppractice/wordpressblog/",
+         "etv": 23.508599529468484,
+         "estimated_paid_traffic_cost": 29.62083540713029,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 9,
+          "is_new": true,
+          "is_up": false,
+          "is_down": true
+         },
+         "backlinks_info": {
+          "referring_domains": 2,
+          "referring_main_domains": 2,
+          "referring_pages": 2,
+          "dofollow": 2,
+          "backlinks": 2,
+          "time_update": "2026-11-21 03:56:42 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 48,
+          "main_domain_rank": 401
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 10,
+         "rank_absolute": 12,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[5]/div[1]/div[14]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[21]/div[1]/div[1]",
+         "domain": "www.xserver.ne.jp",
+         "title": "【どこがいい？】ブログ作成サービスのおすすめ11選！無料で ...",
+         "url": "https://www.xserver.ne.jp/blog/blog-service-recommended/",
+         "breadcrumb": "https://www.xserver.ne.jp › blog-service-recommended",
+         "website_name": "エックスサーバー",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": [
+          "from_web"
+         ],
+         "description": "2026/10/08 — 【無料あり】おすすめのブログサービス11選 · WordPress：本格的にブログを運用したい人向け · はてなブログ：初動からアクセスを期待したい人向け · Ameba ...",
+         "pre_snippet": "10/08/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "xserver.ne.jp",
+         "relative_url": "/blog/blog-service-recommended/",
+         "etv": 17.4309929060545,
+         "estimated_paid_traffic_cost": 21.96305106162867,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 24,
+          "referring_main_domains": 24,
+          "referring_pages": 34,
+          "dofollow": 25,
+          "backlinks": 37,
+          "time_update": "2026-11-21 03:45:46 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 203,
+          "main_domain_rank": 639
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 11,
+         "rank_absolute": 13,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+         "domain": "www.shopify.com",
+         "title": "ブログの始め方8つの手順：初心者でもできる無料ブログ開設",
+         "url": "https://www.shopify.com/jp/blog/how-to-start-a-blog",
+         "breadcrumb": "https://www.shopify.com › blog › how-to-start-a-blog",
+         "website_name": "Shopify",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": [
+          "from_web"
+         ],
+         "description": "2025/05/14 — ブログの始め方8つの手順 · 1. ブログの目的を明確にする · 2. ブログのジャンルを決める · 3. ブログのタイトルとドメイン名を決める · 4. ブログを開設 ...",
+         "pre_snippet": "05/14/2025 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "1. ブログの目的を明確にする"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "shopify.com",
+         "relative_url": "/jp/blog/how-to-start-a-blog",
+         "etv": 16.982286688457283,
+         "estimated_paid_traffic_cost": 21.397681227456175,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 6,
+          "is_new": true,
+          "is_up": false,
+          "is_down": true
+         },
+         "backlinks_info": {
+          "referring_domains": 5,
+          "referring_main_domains": 5,
+          "referring_pages": 10,
+          "dofollow": 2,
+          "backlinks": 11,
+          "time_update": "2026-11-21 02:32:38 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 15,
+          "main_domain_rank": 810
+         }
+        },
+        {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 12,
+         "rank_absolute": 14,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+         "domain": "www.kagoya.jp",
+         "title": "WordPressでブログを開始する手順を解説｜初心者でも簡単に ...",
+         "url": "https://www.kagoya.jp/howto/rentalserver/wppractice/wordpressblog/",
+         "breadcrumb": "https://www.kagoya.jp › wppractice › wordpressblog",
+         "website_name": "KAGOYA",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": [
+          "from_web"
+         ],
+         "description": "2024/12/17 — ブログを始める方法は無料のブログサービスだったり、SNSで短いブログ風にして投稿したりと色々な方法で行うことができます。 そんな多様な選択肢の中でも ...",
+         "pre_snippet": "12/17/2024 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "ブログ"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "kagoya.jp",
+         "relative_url": "/howto/rentalserver/wppractice/wordpressblog/",
+         "etv": 16.982286688457283,
+         "estimated_paid_traffic_cost": 21.397681227456175,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 2,
+          "referring_main_domains": 2,
+          "referring_pages": 2,
+          "dofollow": 2,
+          "backlinks": 2,
+          "time_update": "2026-11-21 03:56:42 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 48,
+          "main_domain_rank": 401
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "keyword": "ブログ 始め方"
+}

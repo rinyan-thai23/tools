@@ -1,0 +1,52 @@
+{
+  "id": "C52",
+  "endpoint": "dataforseo_labs/google/page_intersection/live",
+  "who": "beginner_blogger",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "page1",
+      "param": "pages.1",
+      "label": "c52.page1"
+    },
+    {
+      "id": "page2",
+      "param": "pages.2",
+      "label": "c52.page2"
+    }
+  ],
+  "params": {
+    "limit": 100,
+    "order_by": [
+      "keyword_data.keyword_info.search_volume,desc"
+    ]
+  },
+  "result": {
+    "items": "result.0.items",
+    "where": {},
+    "columns": [
+      {
+        "key": "keyword",
+        "label": "c52.col.keyword",
+        "from": "keyword_data.keyword"
+      },
+      {
+        "key": "rank1",
+        "label": "c52.col.rank1",
+        "from": "intersection_result.1.rank_group"
+      },
+      {
+        "key": "rank2",
+        "label": "c52.col.rank2",
+        "from": "intersection_result.2.rank_group"
+      },
+      {
+        "key": "volume",
+        "label": "c52.col.volume",
+        "from": "keyword_data.keyword_info.search_volume"
+      }
+    ]
+  },
+  "csv": "C52.csv"
+}

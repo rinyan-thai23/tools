@@ -1,0 +1,44 @@
+{
+  "id": "C51",
+  "endpoint": "dataforseo_labs/google/historical_rank_overview/live",
+  "who": "smb_pr",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "target",
+      "label": "c51.keyword"
+    }
+  ],
+  "params_dynamic": {
+    "date_from": "months_ago_11"
+  },
+  "result": {
+    "items": "result.0.items",
+    "where": {},
+    "columns": [
+      {
+        "key": "ym",
+        "label": "c51.col.ym",
+        "join": [
+          "year",
+          "month"
+        ],
+        "sep": "-"
+      },
+      {
+        "key": "etv",
+        "label": "c51.col.etv",
+        "from": "metrics.organic.etv",
+        "transform": "round0"
+      },
+      {
+        "key": "keywords",
+        "label": "c51.col.keywords",
+        "from": "metrics.organic.count"
+      }
+    ]
+  },
+  "csv": "C51.csv"
+}

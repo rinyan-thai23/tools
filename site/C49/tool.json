@@ -1,0 +1,82 @@
+{
+  "id": "C49",
+  "endpoint": "dataforseo_labs/google/domain_rank_overview/live",
+  "who": "b2b_sales",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "target",
+      "label": "c49.keyword"
+    }
+  ],
+  "min_sample_rows": 1,
+  "result": {
+    "items": "result.0.items",
+    "where": {},
+    "columns": [
+      {
+        "key": "etv",
+        "label": "c49.col.etv",
+        "from": "metrics.organic.etv",
+        "transform": "round0"
+      },
+      {
+        "key": "keywords",
+        "label": "c49.col.keywords",
+        "from": "metrics.organic.count"
+      }
+    ],
+    "title": "c49.summary",
+    "extra": [
+      {
+        "object": {
+          "path": "result.0.items.0.metrics.organic",
+          "keys": [
+            "pos_1",
+            "pos_2_3",
+            "pos_4_10",
+            "pos_11_20",
+            "pos_21_30",
+            "pos_31_40",
+            "pos_41_50",
+            "pos_51_60",
+            "pos_61_70",
+            "pos_71_80",
+            "pos_81_90",
+            "pos_91_100"
+          ]
+        },
+        "columns": [
+          {
+            "key": "band",
+            "label": "c49.col.band",
+            "from": "key",
+            "labels": {
+              "pos_1": "c49.v.pos_1",
+              "pos_2_3": "c49.v.pos_2_3",
+              "pos_4_10": "c49.v.pos_4_10",
+              "pos_11_20": "c49.v.pos_11_20",
+              "pos_21_30": "c49.v.pos_21_30",
+              "pos_31_40": "c49.v.pos_31_40",
+              "pos_41_50": "c49.v.pos_41_50",
+              "pos_51_60": "c49.v.pos_51_60",
+              "pos_61_70": "c49.v.pos_61_70",
+              "pos_71_80": "c49.v.pos_71_80",
+              "pos_81_90": "c49.v.pos_81_90",
+              "pos_91_100": "c49.v.pos_91_100"
+            }
+          },
+          {
+            "key": "count",
+            "label": "c49.col.count",
+            "from": "value"
+          }
+        ],
+        "title": "c49.bands_title"
+      }
+    ]
+  },
+  "csv": "C49.csv"
+}

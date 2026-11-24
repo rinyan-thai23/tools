@@ -27,6 +27,7 @@ function show(task, meta) {
     if (!x.rows.length) continue;
     const d = document.createElement('div');
     $('result').appendChild(d);
+    x.columns.forEach((c) => { if (c.labels) x.rows.forEach((r) => { if (c.labels[r[c.key]]) r[c.key] = t(c.labels[r[c.key]]); }); });
     renderTable(d, x.columns.map((c) => ({ key: c.key, label: t(c.label), link: c.link, type: c.type })), x.rows);
     if (x.title) d.insertAdjacentHTML('afterbegin', `<h2 class="sub-title">${t(x.title)}</h2>`);
   }
@@ -36,6 +37,8 @@ function show(task, meta) {
 
 function params() {
   const p = { ...(cfg.params || {}) };
+  // 実行日から決める日付（date_from：11か月前の月初＝いまの月を入れて12か月分）
+  if (cfg.params_dynamic?.date_from === 'months_ago_11') { const d = new Date(); d.setDate(1); d.setMonth(d.getMonth() - 11); p.date_from = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-01`; }
   for (const i of cfg.inputs) {
     const v = $('in-' + i.id).value.trim();
     if (i.wrap === 'lines') { // 改行（と、読点・カンマ）で区切って、複数のキーワードにする
@@ -43,6 +46,7 @@ function params() {
       if (!list.length) throw new ApiError('bad_input');
       p[i.param] = i.max ? list.slice(0, i.max) : list;
     } else if (i.wrap === 'array') p[i.param] = [v];
+    else if (i.param.includes('.')) { const [a, b] = i.param.split('.'); (p[a] ||= {})[b] = v; } // 例：pages.1 → {pages:{"1": 値}}
     else if (i.transform === 'video_id') { const vid = parseVideoId(v); if (!vid) throw new ApiError('bad_video'); p[i.param] = vid; } else p[i.param] = v;
   }
   // markets: true=国と言語／"country"=国だけ／"language"=言語だけ（language_params に送り先の項目名）

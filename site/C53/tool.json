@@ -1,0 +1,35 @@
+{
+  "id": "C53",
+  "endpoint": "dataforseo_labs/google/bulk_traffic_estimation/live",
+  "who": "b2b_sales",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "targets",
+      "label": "c53.keyword",
+      "multiline": true,
+      "wrap": "lines"
+    }
+  ],
+  "result": {
+    "items": "result.0.items",
+    "where": {},
+    "columns": [
+      {
+        "key": "domain",
+        "label": "c53.col.domain",
+        "from": "target",
+        "transform": "strip_www"
+      },
+      {
+        "key": "etv",
+        "label": "c53.col.etv",
+        "from": "metrics.organic.etv",
+        "transform": "round0"
+      }
+    ]
+  },
+  "csv": "C53.csv"
+}

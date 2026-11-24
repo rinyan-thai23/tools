@@ -1,0 +1,69 @@
+{
+ "fetched_at": "2026-11",
+ "tasks": [
+  {
+   "cost": 0.01236,
+   "time": "0.0826 sec.",
+   "result": [
+    {
+     "se_type": "google",
+     "location_code": 2392,
+     "language_code": "ja",
+     "total_count": 3,
+     "items_count": 3,
+     "items": [
+      {
+       "se_type": "google",
+       "target": "suumo.jp",
+       "metrics": {
+        "organic": {
+         "etv": 19917380.467824414,
+         "count": 342214
+        },
+        "paid": {
+         "etv": 136763.1160660982,
+         "count": 858
+        },
+        "local_pack": null,
+        "featured_snippet": null
+       }
+      },
+      {
+       "se_type": "google",
+       "target": "athome.co.jp",
+       "metrics": {
+        "organic": {
+         "etv": 3124203.320675061,
+         "count": 263412
+        },
+        "paid": {
+         "etv": 10290.024854779243,
+         "count": 567
+        },
+        "local_pack": null,
+        "featured_snippet": null
+       }
+      },
+      {
+       "se_type": "google",
+       "target": "homes.co.jp",
+       "metrics": {
+        "organic": {
+         "etv": 12500754.564612584,
+         "count": 361082
+        },
+        "paid": {
+         "etv": 3554.6336596012115,
+         "count": 144
+        },
+        "local_pack": null,
+        "featured_snippet": null
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "keyword": "suumo.jp\nhomes.co.jp\nathome.co.jp"
+}

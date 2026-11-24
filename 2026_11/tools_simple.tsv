@@ -44,8 +44,8 @@ C46	1（Web）	Labs	dataforseo_labs/google/competitors_domain/live	キーワー�
 C47	1（Web）	Labs	dataforseo_labs/google/domain_intersection/live	2つのサイトの共通キーワードを見る	ドメイン2つ	キーワード・各サイトの順位・検索数	$0.024（100件）	41	Web制作・SEO受託のフリーランス	競合と自社でかぶるキーワードを見る	Ahrefs：Site Explorer の Content gap	この機能は入力が2つ必要
 C48	1（Web）	Labs	dataforseo_labs/google/relevant_pages/live	サイトの流入が多いページを見る	ドメイン	URL・推定流入・キーワード数	$0.024（100件）	41	ASPアフィリエイター	競合の稼ぎ頭の記事を見る	Ahrefs：Site Explorer の Top pages	
 C49	1（Web）	Labs	dataforseo_labs/google/domain_rank_overview/live	サイトの推定流入を見る	ドメイン	推定流入・キーワード数・順位帯ごとの数	$0.012	83	B2Bの営業担当	相手のサイトの規模を見る	Ahrefs：Site Explorer の Overview	
-C50	1（Web）	Labs	dataforseo_labs/google/historical_serps/live	上位の顔ぶれの変化を見る	キーワード	年月・順位・ドメイン	$0.0014（12か月）	714	ASPアフィリエイター	上位のサイトが入れ替わっているか見る	Ahrefs：Keywords Explorer の SERP overview（過去）	
-C51	1（Web）	Labs	dataforseo_labs/google/historical_rank_overview/live	サイトの推定流入の推移を見る	ドメイン	年月・推定流入・キーワード数	$0.134（12か月）	7	中小企業の経営者・広報	自社サイトが伸びているか見る	Ahrefs：Site Explorer の Overview（推移）	料金が高め
+C50	1（Web）	Labs	dataforseo_labs/google/historical_serps/live	上位の顔ぶれの変化を見る	キーワード	年月・順位・ドメイン	$0.0007（実測。TSV旧：$0.0014）	714	ASPアフィリエイター	上位のサイトが入れ替わっているか見る	Ahrefs：Keywords Explorer の SERP overview（過去）	
+C51	1（Web）	Labs	dataforseo_labs/google/historical_rank_overview/live	サイトの推定流入の推移を見る	ドメイン	年月・推定流入・キーワード数	$0.134（12か月）	7	中小企業の経営者・広報	自社サイトが伸びているか見る	Ahrefs：Site Explorer の Overview（推移）	料金が高め／12か月分はdate_fromを自動指定して$0.134
 C52	1（Web）	Labs	dataforseo_labs/google/page_intersection/live	2つの記事の共通キーワードを見る	記事のURL2つ	キーワード・各記事の順位・検索数	$0.024（100件）	41	初心者ブロガー	上位記事どうしで共通のキーワードを見る	Ahrefs：Site Explorer の Content gap	この機能は入力が2つ必要
 C53	1（Web）	Labs	dataforseo_labs/google/bulk_traffic_estimation/live	複数サイトの推定流入を見る	ドメイン（改行で複数可）	ドメイン・推定流入	$0.024（100件）	41	B2Bの営業担当	営業先リストの規模をまとめて見る	Semrush：Domain Overview の一括分析	
 C54	1（Web）	Labs（Amazon）	dataforseo_labs/amazon/bulk_search_volume/live	Amazon内の検索数を見る	キーワード（改行で複数可）	キーワード・Amazon内の検索数	$0.024（100語）	41	物販（Amazon・メルカリ）	Amazonで探されている言葉か見る	Helium 10：Magnet	日本のAmazonに対応しているかは Phase 0 で確認

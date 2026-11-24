@@ -1,0 +1,6394 @@
+{
+ "fetched_at": "2026-11",
+ "tasks": [
+  {
+   "cost": 0.024,
+   "time": "0.5442 sec.",
+   "result": [
+    {
+     "se_type": "google",
+     "pages": {
+      "1": "https://suumo.jp/chintai/tokyo/",
+      "2": "https://www.homes.co.jp/chintai/tokyo/"
+     },
+     "exclude_pages": null,
+     "location_code": 2392,
+     "language_code": "ja",
+     "total_count": 128,
+     "items_count": 100,
+     "items": [
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "東京賃貸",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-09-17 06:30:03 +00:00",
+         "competition": 0.5600000023841858,
+         "competition_level": "MEDIUM",
+         "cpc": 0.28999999165534973,
+         "search_volume": 60500,
+         "low_top_of_page_bid": 0.029999999329447746,
+         "high_top_of_page_bid": 0.3799999952316284,
+         "categories": [
+          10003,
+          10003,
+          10032,
+          10042,
+          10042,
+          13687,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 49500
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 49500
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 49500
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 60500
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 60500
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 60500
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 60500
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 74000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 49500
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 60500
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 60500
+          },
+          {
+           "year": 2025,
+           "month": 9,
+           "search_volume": 60500
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": -18
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "賃貸 東京",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 13,
+         "detected_language": "zh-TW",
+         "is_another_language": true
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 3127.800048828125,
+         "dofollow": 3122.199951171875,
+         "referring_pages": 3127.300048828125,
+         "referring_domains": 5.599999904632568,
+         "referring_main_domains": 5.300000190734863,
+         "rank": 105.4000015258789,
+         "main_domain_rank": 539.7999877929688,
+         "last_updated_time": "2026-09-12 01:04:57 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-06 06:52:15 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 1,
+         "rank_absolute": 1,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "breadcrumb": "https://suumo.jp › SUUMO[不動産/住宅] › 賃貸",
+         "website_name": "SUUMO",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2026/07/10 — 東京都の賃貸は、シングルタイプ（ワンルーム～1LDK）の物件が多いのが特徴。特に都心エリアでこの傾向が強く、シングルタイプの物件が70％以上を占める区 ...",
+         "pre_snippet": "07/10/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "東京",
+          "賃貸"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 38479.875,
+         "estimated_paid_traffic_cost": 11159.1640625,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 1,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 2,
+         "rank_absolute": 2,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+         "domain": "www.homes.co.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)を探す",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "breadcrumb": "https://www.homes.co.jp › ... › 賃貸",
+         "website_name": "ホームズ",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】 ！日本最大級の豊富な賃貸情報から、東京都の賃貸住宅を簡単に検索して ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 9535.611328125,
+         "estimated_paid_traffic_cost": 2765.3271484375,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 2,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "東京の賃貸",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-17 09:27:35 +00:00",
+         "competition": 0.550000011920929,
+         "competition_level": "MEDIUM",
+         "cpc": 0.3199999928474426,
+         "search_volume": 60500,
+         "low_top_of_page_bid": 0.029999999329447746,
+         "high_top_of_page_bid": 0.4099999964237213,
+         "categories": [
+          10003,
+          10032,
+          10042,
+          13687
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 49500
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 49500
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 49500
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 49500
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 60500
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 60500
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 60500
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 60500
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 74000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 49500
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 60500
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 60500
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": -18
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 13,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 3127.800048828125,
+         "dofollow": 3122.199951171875,
+         "referring_pages": 3127.300048828125,
+         "referring_domains": 5.599999904632568,
+         "referring_main_domains": 5.300000190734863,
+         "rank": 105.4000015258789,
+         "main_domain_rank": 528.5,
+         "last_updated_time": "2026-09-12 01:05:26 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "commercial",
+         "foreign_intent": [
+          "transactional"
+         ],
+         "last_updated_time": "2026-04-30 01:55:11 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "ai_overview_reference",
+         "rank_group": 1,
+         "rank_absolute": 6,
+         "source": "SUUMO",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報 - SUUMO",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "text": "前回の条件で探す (件) * 沿線・駅から探す * 市区郡から探す ... 通勤通学時間から探す * 検索 ... 特集...",
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 38.493228912353516,
+         "estimated_paid_traffic_cost": 12.317832946777344,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "ai_overview_reference",
+         "rank_group": 5,
+         "rank_absolute": 6,
+         "source": "ホームズ",
+         "domain": "www.homes.co.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)を探す - ホームズ",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "text": "一戸建て・土地 * 新築一戸建て・分譲一戸建て・建築条件付き土地 ... ゲスト さん マイページ * 最近見た物件 0...",
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 38.493228912353516,
+         "estimated_paid_traffic_cost": 12.317832946777344,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "東京の賃貸",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-17 09:27:35 +00:00",
+         "competition": 0.550000011920929,
+         "competition_level": "MEDIUM",
+         "cpc": 0.3199999928474426,
+         "search_volume": 60500,
+         "low_top_of_page_bid": 0.029999999329447746,
+         "high_top_of_page_bid": 0.4099999964237213,
+         "categories": [
+          10003,
+          10032,
+          10042,
+          13687
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 49500
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 49500
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 49500
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 49500
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 60500
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 60500
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 60500
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 60500
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 74000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 49500
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 60500
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 60500
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": -18
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 13,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 3127.800048828125,
+         "dofollow": 3122.199951171875,
+         "referring_pages": 3127.300048828125,
+         "referring_domains": 5.599999904632568,
+         "referring_main_domains": 5.300000190734863,
+         "rank": 105.4000015258789,
+         "main_domain_rank": 528.5,
+         "last_updated_time": "2026-09-12 01:05:26 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "commercial",
+         "foreign_intent": [
+          "transactional"
+         ],
+         "last_updated_time": "2026-04-30 01:55:11 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "ai_overview_reference",
+         "rank_group": 1,
+         "rank_absolute": 6,
+         "source": "SUUMO",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報 - SUUMO",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "text": "前回の条件で探す (件) * 沿線・駅から探す * 市区郡から探す ... 通勤通学時間から探す * 検索 ... 特集...",
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 38.493228912353516,
+         "estimated_paid_traffic_cost": 12.317832946777344,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 2,
+         "rank_absolute": 2,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+         "domain": "www.homes.co.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)を探す",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "breadcrumb": "https://www.homes.co.jp › ... › 賃貸",
+         "website_name": "ホームズ",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】 ！日本最大級の豊富な賃貸情報から、東京都の賃貸住宅を簡単に検索して ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 38.84284973144531,
+         "estimated_paid_traffic_cost": 12.42971134185791,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "東京の賃貸",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-17 09:27:35 +00:00",
+         "competition": 0.550000011920929,
+         "competition_level": "MEDIUM",
+         "cpc": 0.3199999928474426,
+         "search_volume": 60500,
+         "low_top_of_page_bid": 0.029999999329447746,
+         "high_top_of_page_bid": 0.4099999964237213,
+         "categories": [
+          10003,
+          10032,
+          10042,
+          13687
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 49500
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 49500
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 49500
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 49500
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 60500
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 60500
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 60500
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 60500
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 74000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 49500
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 60500
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 60500
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": -18
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 13,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 3127.800048828125,
+         "dofollow": 3122.199951171875,
+         "referring_pages": 3127.300048828125,
+         "referring_domains": 5.599999904632568,
+         "referring_main_domains": 5.300000190734863,
+         "rank": 105.4000015258789,
+         "main_domain_rank": 528.5,
+         "last_updated_time": "2026-09-12 01:05:26 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "commercial",
+         "foreign_intent": [
+          "transactional"
+         ],
+         "last_updated_time": "2026-04-30 01:55:11 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 1,
+         "rank_absolute": 1,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "breadcrumb": "https://suumo.jp › SUUMO[不動産/住宅] › 賃貸",
+         "website_name": "SUUMO",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2026/07/10 — 東京都の賃貸は、シングルタイプ（ワンルーム～1LDK）の物件が多いのが特徴。特に都心エリアでこの傾向が強く、シングルタイプの物件が70％以上を占める区 ...",
+         "pre_snippet": "07/10/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "東京",
+          "賃貸"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 101.02596282958984,
+         "estimated_paid_traffic_cost": 32.32830810546875,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "ai_overview_reference",
+         "rank_group": 5,
+         "rank_absolute": 6,
+         "source": "ホームズ",
+         "domain": "www.homes.co.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)を探す - ホームズ",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "text": "一戸建て・土地 * 新築一戸建て・分譲一戸建て・建築条件付き土地 ... ゲスト さん マイページ * 最近見た物件 0...",
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 38.493228912353516,
+         "estimated_paid_traffic_cost": 12.317832946777344,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "東京の賃貸",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-17 09:27:35 +00:00",
+         "competition": 0.550000011920929,
+         "competition_level": "MEDIUM",
+         "cpc": 0.3199999928474426,
+         "search_volume": 60500,
+         "low_top_of_page_bid": 0.029999999329447746,
+         "high_top_of_page_bid": 0.4099999964237213,
+         "categories": [
+          10003,
+          10032,
+          10042,
+          13687
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 49500
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 49500
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 49500
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 49500
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 60500
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 60500
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 60500
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 60500
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 74000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 49500
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 60500
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 60500
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": -18
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 13,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 3127.800048828125,
+         "dofollow": 3122.199951171875,
+         "referring_pages": 3127.300048828125,
+         "referring_domains": 5.599999904632568,
+         "referring_main_domains": 5.300000190734863,
+         "rank": 105.4000015258789,
+         "main_domain_rank": 528.5,
+         "last_updated_time": "2026-09-12 01:05:26 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "commercial",
+         "foreign_intent": [
+          "transactional"
+         ],
+         "last_updated_time": "2026-04-30 01:55:11 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 1,
+         "rank_absolute": 1,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "breadcrumb": "https://suumo.jp › SUUMO[不動産/住宅] › 賃貸",
+         "website_name": "SUUMO",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2026/07/10 — 東京都の賃貸は、シングルタイプ（ワンルーム～1LDK）の物件が多いのが特徴。特に都心エリアでこの傾向が強く、シングルタイプの物件が70％以上を占める区 ...",
+         "pre_snippet": "07/10/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "東京",
+          "賃貸"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 101.02596282958984,
+         "estimated_paid_traffic_cost": 32.32830810546875,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 2,
+         "rank_absolute": 2,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+         "domain": "www.homes.co.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)を探す",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "breadcrumb": "https://www.homes.co.jp › ... › 賃貸",
+         "website_name": "ホームズ",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】 ！日本最大級の豊富な賃貸情報から、東京都の賃貸住宅を簡単に検索して ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 38.84284973144531,
+         "estimated_paid_traffic_cost": 12.42971134185791,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "東京賃貸 マンション",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-12 02:28:52 +00:00",
+         "competition": 0.550000011920929,
+         "competition_level": "MEDIUM",
+         "cpc": 0.3199999928474426,
+         "search_volume": 9900,
+         "low_top_of_page_bid": 0.029999999329447746,
+         "high_top_of_page_bid": 0.4300000071525574,
+         "categories": [
+          10003,
+          10042,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 12100
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 8100
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -18,
+          "quarterly": 0,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "東京 マンション 賃貸",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 15,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 3128.60009765625,
+         "dofollow": 3122.89990234375,
+         "referring_pages": 3128.10009765625,
+         "referring_domains": 6.099999904632568,
+         "referring_main_domains": 5.800000190734863,
+         "rank": 112.0999984741211,
+         "main_domain_rank": 524.5999755859375,
+         "last_updated_time": "2026-09-12 14:23:14 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-03 12:18:24 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "ai_overview_reference",
+         "rank_group": 1,
+         "rank_absolute": 4,
+         "source": "SUUMO",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報 - SUUMO",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "text": "前回の条件で探す (件) * 沿線・駅から探す * 市区郡から探す ... 通勤通学時間から探す * 検索 ... 特集...",
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 0.18670929968357086,
+         "estimated_paid_traffic_cost": 0.06161407008767128,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "ai_overview_reference",
+         "rank_group": 2,
+         "rank_absolute": 4,
+         "source": "ホームズ",
+         "domain": "www.homes.co.jp",
+         "title": "【ホームズ】東京都の賃貸[賃貸マンション・アパート]物件を探す",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "text": "【ホームズ】東京都の賃貸[賃貸マンション・アパート]物件を探す ... 住宅・お部屋探し情報 ... 一戸建て・土地 *",
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 0.18670929968357086,
+         "estimated_paid_traffic_cost": 0.06161407008767128,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "東京賃貸 マンション",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-12 02:28:52 +00:00",
+         "competition": 0.550000011920929,
+         "competition_level": "MEDIUM",
+         "cpc": 0.3199999928474426,
+         "search_volume": 9900,
+         "low_top_of_page_bid": 0.029999999329447746,
+         "high_top_of_page_bid": 0.4300000071525574,
+         "categories": [
+          10003,
+          10042,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 12100
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 8100
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -18,
+          "quarterly": 0,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "東京 マンション 賃貸",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 15,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 3128.60009765625,
+         "dofollow": 3122.89990234375,
+         "referring_pages": 3128.10009765625,
+         "referring_domains": 6.099999904632568,
+         "referring_main_domains": 5.800000190734863,
+         "rank": 112.0999984741211,
+         "main_domain_rank": 524.5999755859375,
+         "last_updated_time": "2026-09-12 14:23:14 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-03 12:18:24 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "ai_overview_reference",
+         "rank_group": 1,
+         "rank_absolute": 4,
+         "source": "SUUMO",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報 - SUUMO",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "text": "前回の条件で探す (件) * 沿線・駅から探す * 市区郡から探す ... 通勤通学時間から探す * 検索 ... 特集...",
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 0.18670929968357086,
+         "estimated_paid_traffic_cost": 0.06161407008767128,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 4,
+         "rank_absolute": 5,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[6]/div[1]/div[1]",
+         "domain": "www.homes.co.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)を探す",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "breadcrumb": "https://www.homes.co.jp › ... › 賃貸",
+         "website_name": "ホームズ",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】 ！日本最大級の豊富な賃貸情報から、東京都の賃貸住宅を簡単に検索して ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 0.24963073432445526,
+         "estimated_paid_traffic_cost": 0.07988183200359344,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 4,
+          "is_new": false,
+          "is_up": false,
+          "is_down": true
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "東京賃貸 マンション",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-12 02:28:52 +00:00",
+         "competition": 0.550000011920929,
+         "competition_level": "MEDIUM",
+         "cpc": 0.3199999928474426,
+         "search_volume": 9900,
+         "low_top_of_page_bid": 0.029999999329447746,
+         "high_top_of_page_bid": 0.4300000071525574,
+         "categories": [
+          10003,
+          10042,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 12100
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 8100
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -18,
+          "quarterly": 0,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "東京 マンション 賃貸",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 15,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 3128.60009765625,
+         "dofollow": 3122.89990234375,
+         "referring_pages": 3128.10009765625,
+         "referring_domains": 6.099999904632568,
+         "referring_main_domains": 5.800000190734863,
+         "rank": 112.0999984741211,
+         "main_domain_rank": 524.5999755859375,
+         "last_updated_time": "2026-09-12 14:23:14 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-03 12:18:24 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 1,
+         "rank_absolute": 1,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "breadcrumb": "https://suumo.jp › SUUMO[不動産/住宅] › 賃貸",
+         "website_name": "SUUMO",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2026/07/10 — 東京都の賃貸は、シングルタイプ（ワンルーム～1LDK）の物件が多いのが特徴。特に都心エリアでこの傾向が強く、シングルタイプの物件が70％以上を占める区 ...",
+         "pre_snippet": "07/10/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "東京",
+          "賃貸"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 2.841905117034912,
+         "estimated_paid_traffic_cost": 0.9094096422195435,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 1,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "ai_overview_reference",
+         "rank_group": 2,
+         "rank_absolute": 4,
+         "source": "ホームズ",
+         "domain": "www.homes.co.jp",
+         "title": "【ホームズ】東京都の賃貸[賃貸マンション・アパート]物件を探す",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "text": "【ホームズ】東京都の賃貸[賃貸マンション・アパート]物件を探す ... 住宅・お部屋探し情報 ... 一戸建て・土地 *",
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 0.18670929968357086,
+         "estimated_paid_traffic_cost": 0.06161407008767128,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "東京賃貸 マンション",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-12 02:28:52 +00:00",
+         "competition": 0.550000011920929,
+         "competition_level": "MEDIUM",
+         "cpc": 0.3199999928474426,
+         "search_volume": 9900,
+         "low_top_of_page_bid": 0.029999999329447746,
+         "high_top_of_page_bid": 0.4300000071525574,
+         "categories": [
+          10003,
+          10042,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 12100
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 8100
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -18,
+          "quarterly": 0,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "東京 マンション 賃貸",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 15,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 3128.60009765625,
+         "dofollow": 3122.89990234375,
+         "referring_pages": 3128.10009765625,
+         "referring_domains": 6.099999904632568,
+         "referring_main_domains": 5.800000190734863,
+         "rank": 112.0999984741211,
+         "main_domain_rank": 524.5999755859375,
+         "last_updated_time": "2026-09-12 14:23:14 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-03 12:18:24 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 1,
+         "rank_absolute": 1,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "breadcrumb": "https://suumo.jp › SUUMO[不動産/住宅] › 賃貸",
+         "website_name": "SUUMO",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2026/07/10 — 東京都の賃貸は、シングルタイプ（ワンルーム～1LDK）の物件が多いのが特徴。特に都心エリアでこの傾向が強く、シングルタイプの物件が70％以上を占める区 ...",
+         "pre_snippet": "07/10/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "東京",
+          "賃貸"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 2.841905117034912,
+         "estimated_paid_traffic_cost": 0.9094096422195435,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 1,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 4,
+         "rank_absolute": 5,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[6]/div[1]/div[1]",
+         "domain": "www.homes.co.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)を探す",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "breadcrumb": "https://www.homes.co.jp › ... › 賃貸",
+         "website_name": "ホームズ",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】 ！日本最大級の豊富な賃貸情報から、東京都の賃貸住宅を簡単に検索して ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 0.24963073432445526,
+         "estimated_paid_traffic_cost": 0.07988183200359344,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 4,
+          "is_new": false,
+          "is_up": false,
+          "is_down": true
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "東京 マンション賃貸",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-19 18:20:47 +00:00",
+         "competition": 0.5,
+         "competition_level": "MEDIUM",
+         "cpc": 0.3400000035762787,
+         "search_volume": 9900,
+         "low_top_of_page_bid": 0.029999999329447746,
+         "high_top_of_page_bid": 0.46000000834465027,
+         "categories": [
+          10003,
+          10042,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 12100
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 8100
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 22,
+          "quarterly": 22,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "マンション 賃貸東京",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 29,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 10134,
+         "dofollow": 10123.099609375,
+         "referring_pages": 10132.400390625,
+         "referring_domains": 12.199999809265137,
+         "referring_main_domains": 11.5,
+         "rank": 168.89999389648438,
+         "main_domain_rank": 531.0999755859375,
+         "last_updated_time": "2026-09-12 14:09:42 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "transactional",
+         "foreign_intent": [
+          "commercial"
+         ],
+         "last_updated_time": "2026-04-30 03:24:42 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "ai_overview_reference",
+         "rank_group": 1,
+         "rank_absolute": 15,
+         "source": "SUUMO",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報 - SUUMO",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "text": "前回の条件で探す (件) * 沿線・駅から探す * 市区郡から探す ... 通勤通学時間から探す * 検索 ... 特集...",
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 1.7510275840759277,
+         "estimated_paid_traffic_cost": 0.5953493714332581,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "ai_overview_reference",
+         "rank_group": 2,
+         "rank_absolute": 15,
+         "source": "ホームズ",
+         "domain": "www.homes.co.jp",
+         "title": "【ホームズ】東京都の賃貸[賃貸マンション・アパート]物件を探す",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "text": "【ホームズ】東京都の賃貸[賃貸マンション・アパート]物件を探す ... 住宅・お部屋探し情報 ... 一戸建て・土地 *",
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 1.7510275840759277,
+         "estimated_paid_traffic_cost": 0.5953493714332581,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "東京 マンション賃貸",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-19 18:20:47 +00:00",
+         "competition": 0.5,
+         "competition_level": "MEDIUM",
+         "cpc": 0.3400000035762787,
+         "search_volume": 9900,
+         "low_top_of_page_bid": 0.029999999329447746,
+         "high_top_of_page_bid": 0.46000000834465027,
+         "categories": [
+          10003,
+          10042,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 12100
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 8100
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 22,
+          "quarterly": 22,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "マンション 賃貸東京",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 29,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 10134,
+         "dofollow": 10123.099609375,
+         "referring_pages": 10132.400390625,
+         "referring_domains": 12.199999809265137,
+         "referring_main_domains": 11.5,
+         "rank": 168.89999389648438,
+         "main_domain_rank": 531.0999755859375,
+         "last_updated_time": "2026-09-12 14:09:42 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "transactional",
+         "foreign_intent": [
+          "commercial"
+         ],
+         "last_updated_time": "2026-04-30 03:24:42 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "ai_overview_reference",
+         "rank_group": 1,
+         "rank_absolute": 15,
+         "source": "SUUMO",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報 - SUUMO",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "text": "前回の条件で探す (件) * 沿線・駅から探す * 市区郡から探す ... 通勤通学時間から探す * 検索 ... 特集...",
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 1.7510275840759277,
+         "estimated_paid_traffic_cost": 0.5953493714332581,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 4,
+         "rank_absolute": 8,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[5]/div[1]/div[1]",
+         "domain": "www.homes.co.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)を探す",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "breadcrumb": "https://www.homes.co.jp › ... › 賃貸",
+         "website_name": "ホームズ",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】 ！日本最大級の豊富な賃貸情報から、東京都の賃貸住宅を簡単に検索して ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 0.18956466019153595,
+         "estimated_paid_traffic_cost": 0.06445198506116867,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "東京 マンション賃貸",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-19 18:20:47 +00:00",
+         "competition": 0.5,
+         "competition_level": "MEDIUM",
+         "cpc": 0.3400000035762787,
+         "search_volume": 9900,
+         "low_top_of_page_bid": 0.029999999329447746,
+         "high_top_of_page_bid": 0.46000000834465027,
+         "categories": [
+          10003,
+          10042,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 12100
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 8100
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 22,
+          "quarterly": 22,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "マンション 賃貸東京",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 29,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 10134,
+         "dofollow": 10123.099609375,
+         "referring_pages": 10132.400390625,
+         "referring_domains": 12.199999809265137,
+         "referring_main_domains": 11.5,
+         "rank": 168.89999389648438,
+         "main_domain_rank": 531.0999755859375,
+         "last_updated_time": "2026-09-12 14:09:42 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "transactional",
+         "foreign_intent": [
+          "commercial"
+         ],
+         "last_updated_time": "2026-04-30 03:24:42 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "ai_overview_reference",
+         "rank_group": 1,
+         "rank_absolute": 15,
+         "source": "SUUMO",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報 - SUUMO",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "text": "前回の条件で探す (件) * 沿線・駅から探す * 市区郡から探す ... 通勤通学時間から探す * 検索 ... 特集...",
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 1.7510275840759277,
+         "estimated_paid_traffic_cost": 0.5953493714332581,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "paid",
+         "rank_group": 3,
+         "rank_absolute": 3,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[1]/div[2]/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]",
+         "title": "【ホームズ】東京都の賃貸マンションを探す",
+         "domain": "www.homes.co.jp",
+         "description": "東京都の賃貸マンションを探すなら、1日3回以上も物件情報を更新の【lifull HOME'S/ライフルホームズ】！日本最大級の豊富な賃貸情報から、東京都の賃貸マンションを簡単に検索して比較！ 敷礼ゼロ物件も多数掲載。通勤通学時間で検索。",
+         "breadcrumb": "https://www.homes.co.jp",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "checks": null,
+         "highlighted": null,
+         "extra": {
+          "ad_aclk": "DChsSEwjv3Mr5m-mWAxUYTEgAHcDzDMQYACICCAEQABoCY2U"
+         },
+         "description_rows": null,
+         "links": [
+          {
+           "type": "ad_link_element",
+           "title": "敷金礼金0の物件",
+           "description": null,
+           "url": "https://www.homes.co.jp/chintai/theme/11101/",
+           "ad_aclk": "DChsSEwjv3Mr5m-mWAxUYTEgAHcDzDMQYACICCAEQBBoCY2U"
+          },
+          {
+           "type": "ad_link_element",
+           "title": "通勤時間から賃貸を探す",
+           "description": null,
+           "url": "https://www.homes.co.jp/chintai/tokyo/commute/",
+           "ad_aclk": "DChsSEwjv3Mr5m-mWAxUYTEgAHcDzDMQYACICCAEQBhoCY2U"
+          },
+          {
+           "type": "ad_link_element",
+           "title": "ペット相談可の賃貸物件",
+           "description": null,
+           "url": "https://www.homes.co.jp/chintai/theme/12102/",
+           "ad_aclk": "DChsSEwjv3Mr5m-mWAxUYTEgAHcDzDMQYACICCAEQChoCY2U"
+          },
+          {
+           "type": "ad_link_element",
+           "title": "新築&築浅の賃貸物件",
+           "description": null,
+           "url": "https://www.homes.co.jp/chintai/theme/12105/",
+           "ad_aclk": "DChsSEwjv3Mr5m-mWAxUYTEgAHcDzDMQYACICCAEQDRoCY2U"
+          }
+         ],
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": null,
+         "estimated_paid_traffic_cost": null,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "東京 マンション賃貸",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-19 18:20:47 +00:00",
+         "competition": 0.5,
+         "competition_level": "MEDIUM",
+         "cpc": 0.3400000035762787,
+         "search_volume": 9900,
+         "low_top_of_page_bid": 0.029999999329447746,
+         "high_top_of_page_bid": 0.46000000834465027,
+         "categories": [
+          10003,
+          10042,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 12100
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 8100
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 22,
+          "quarterly": 22,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "マンション 賃貸東京",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 29,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 10134,
+         "dofollow": 10123.099609375,
+         "referring_pages": 10132.400390625,
+         "referring_domains": 12.199999809265137,
+         "referring_main_domains": 11.5,
+         "rank": 168.89999389648438,
+         "main_domain_rank": 531.0999755859375,
+         "last_updated_time": "2026-09-12 14:09:42 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "transactional",
+         "foreign_intent": [
+          "commercial"
+         ],
+         "last_updated_time": "2026-04-30 03:24:42 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 1,
+         "rank_absolute": 5,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "breadcrumb": "https://suumo.jp › SUUMO[不動産/住宅] › 賃貸",
+         "website_name": "SUUMO",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2026/07/10 — 東京都の賃貸は、シングルタイプ（ワンルーム～1LDK）の物件が多いのが特徴。特に都心エリアでこの傾向が強く、シングルタイプの物件が70％以上を占める区 ...",
+         "pre_snippet": "07/10/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "東京",
+          "賃貸"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 1.2684980630874634,
+         "estimated_paid_traffic_cost": 0.43128934502601624,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "ai_overview_reference",
+         "rank_group": 2,
+         "rank_absolute": 15,
+         "source": "ホームズ",
+         "domain": "www.homes.co.jp",
+         "title": "【ホームズ】東京都の賃貸[賃貸マンション・アパート]物件を探す",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "text": "【ホームズ】東京都の賃貸[賃貸マンション・アパート]物件を探す ... 住宅・お部屋探し情報 ... 一戸建て・土地 *",
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 1.7510275840759277,
+         "estimated_paid_traffic_cost": 0.5953493714332581,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "東京 マンション賃貸",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-19 18:20:47 +00:00",
+         "competition": 0.5,
+         "competition_level": "MEDIUM",
+         "cpc": 0.3400000035762787,
+         "search_volume": 9900,
+         "low_top_of_page_bid": 0.029999999329447746,
+         "high_top_of_page_bid": 0.46000000834465027,
+         "categories": [
+          10003,
+          10042,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 12100
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 8100
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 22,
+          "quarterly": 22,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "マンション 賃貸東京",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 29,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 10134,
+         "dofollow": 10123.099609375,
+         "referring_pages": 10132.400390625,
+         "referring_domains": 12.199999809265137,
+         "referring_main_domains": 11.5,
+         "rank": 168.89999389648438,
+         "main_domain_rank": 531.0999755859375,
+         "last_updated_time": "2026-09-12 14:09:42 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "transactional",
+         "foreign_intent": [
+          "commercial"
+         ],
+         "last_updated_time": "2026-04-30 03:24:42 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 1,
+         "rank_absolute": 5,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "breadcrumb": "https://suumo.jp › SUUMO[不動産/住宅] › 賃貸",
+         "website_name": "SUUMO",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2026/07/10 — 東京都の賃貸は、シングルタイプ（ワンルーム～1LDK）の物件が多いのが特徴。特に都心エリアでこの傾向が強く、シングルタイプの物件が70％以上を占める区 ...",
+         "pre_snippet": "07/10/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "東京",
+          "賃貸"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 1.2684980630874634,
+         "estimated_paid_traffic_cost": 0.43128934502601624,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 4,
+         "rank_absolute": 8,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[5]/div[1]/div[1]",
+         "domain": "www.homes.co.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)を探す",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "breadcrumb": "https://www.homes.co.jp › ... › 賃貸",
+         "website_name": "ホームズ",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】 ！日本最大級の豊富な賃貸情報から、東京都の賃貸住宅を簡単に検索して ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 0.18956466019153595,
+         "estimated_paid_traffic_cost": 0.06445198506116867,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "東京 マンション賃貸",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-19 18:20:47 +00:00",
+         "competition": 0.5,
+         "competition_level": "MEDIUM",
+         "cpc": 0.3400000035762787,
+         "search_volume": 9900,
+         "low_top_of_page_bid": 0.029999999329447746,
+         "high_top_of_page_bid": 0.46000000834465027,
+         "categories": [
+          10003,
+          10042,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 12100
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 8100
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 22,
+          "quarterly": 22,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "マンション 賃貸東京",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 29,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 10134,
+         "dofollow": 10123.099609375,
+         "referring_pages": 10132.400390625,
+         "referring_domains": 12.199999809265137,
+         "referring_main_domains": 11.5,
+         "rank": 168.89999389648438,
+         "main_domain_rank": 531.0999755859375,
+         "last_updated_time": "2026-09-12 14:09:42 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "transactional",
+         "foreign_intent": [
+          "commercial"
+         ],
+         "last_updated_time": "2026-04-30 03:24:42 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 1,
+         "rank_absolute": 5,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "breadcrumb": "https://suumo.jp › SUUMO[不動産/住宅] › 賃貸",
+         "website_name": "SUUMO",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2026/07/10 — 東京都の賃貸は、シングルタイプ（ワンルーム～1LDK）の物件が多いのが特徴。特に都心エリアでこの傾向が強く、シングルタイプの物件が70％以上を占める区 ...",
+         "pre_snippet": "07/10/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "東京",
+          "賃貸"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 1.2684980630874634,
+         "estimated_paid_traffic_cost": 0.43128934502601624,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "paid",
+         "rank_group": 3,
+         "rank_absolute": 3,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[1]/div[2]/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]",
+         "title": "【ホームズ】東京都の賃貸マンションを探す",
+         "domain": "www.homes.co.jp",
+         "description": "東京都の賃貸マンションを探すなら、1日3回以上も物件情報を更新の【lifull HOME'S/ライフルホームズ】！日本最大級の豊富な賃貸情報から、東京都の賃貸マンションを簡単に検索して比較！ 敷礼ゼロ物件も多数掲載。通勤通学時間で検索。",
+         "breadcrumb": "https://www.homes.co.jp",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "checks": null,
+         "highlighted": null,
+         "extra": {
+          "ad_aclk": "DChsSEwjv3Mr5m-mWAxUYTEgAHcDzDMQYACICCAEQABoCY2U"
+         },
+         "description_rows": null,
+         "links": [
+          {
+           "type": "ad_link_element",
+           "title": "敷金礼金0の物件",
+           "description": null,
+           "url": "https://www.homes.co.jp/chintai/theme/11101/",
+           "ad_aclk": "DChsSEwjv3Mr5m-mWAxUYTEgAHcDzDMQYACICCAEQBBoCY2U"
+          },
+          {
+           "type": "ad_link_element",
+           "title": "通勤時間から賃貸を探す",
+           "description": null,
+           "url": "https://www.homes.co.jp/chintai/tokyo/commute/",
+           "ad_aclk": "DChsSEwjv3Mr5m-mWAxUYTEgAHcDzDMQYACICCAEQBhoCY2U"
+          },
+          {
+           "type": "ad_link_element",
+           "title": "ペット相談可の賃貸物件",
+           "description": null,
+           "url": "https://www.homes.co.jp/chintai/theme/12102/",
+           "ad_aclk": "DChsSEwjv3Mr5m-mWAxUYTEgAHcDzDMQYACICCAEQChoCY2U"
+          },
+          {
+           "type": "ad_link_element",
+           "title": "新築&築浅の賃貸物件",
+           "description": null,
+           "url": "https://www.homes.co.jp/chintai/theme/12105/",
+           "ad_aclk": "DChsSEwjv3Mr5m-mWAxUYTEgAHcDzDMQYACICCAEQDRoCY2U"
+          }
+         ],
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": null,
+         "estimated_paid_traffic_cost": null,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "マンション 賃貸 東京",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-19 15:17:41 +00:00",
+         "competition": 0.5,
+         "competition_level": "MEDIUM",
+         "cpc": 0.3400000035762787,
+         "search_volume": 9900,
+         "low_top_of_page_bid": 0.029999999329447746,
+         "high_top_of_page_bid": 0.46000000834465027,
+         "categories": [
+          10003,
+          10042,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 12100
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 8100
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 22,
+          "quarterly": 22,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "東京 マンション 賃貸",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 15,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 3128.60009765625,
+         "dofollow": 3122.89990234375,
+         "referring_pages": 3128.10009765625,
+         "referring_domains": 6.099999904632568,
+         "referring_main_domains": 5.800000190734863,
+         "rank": 112.0999984741211,
+         "main_domain_rank": 524.5999755859375,
+         "last_updated_time": "2026-09-12 15:24:29 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-07 09:11:37 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "ai_overview_reference",
+         "rank_group": 1,
+         "rank_absolute": 6,
+         "source": "SUUMO",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報 - SUUMO",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "text": "前回の条件で探す (件) * 沿線・駅から探す * 市区郡から探す ... 通勤通学時間から探す * 検索 ... 特集...",
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 0.26968273520469666,
+         "estimated_paid_traffic_cost": 0.09169212728738785,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "ai_overview_reference",
+         "rank_group": 2,
+         "rank_absolute": 6,
+         "source": "ホームズ",
+         "domain": "www.homes.co.jp",
+         "title": "【ホームズ】東京都の賃貸[賃貸マンション・アパート]物件を探す",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "text": "【ホームズ】東京都の賃貸[賃貸マンション・アパート]物件を探す ... 住宅・お部屋探し情報 ... 一戸建て・土地 *",
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 0.26968273520469666,
+         "estimated_paid_traffic_cost": 0.09169212728738785,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "マンション 賃貸 東京",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-19 15:17:41 +00:00",
+         "competition": 0.5,
+         "competition_level": "MEDIUM",
+         "cpc": 0.3400000035762787,
+         "search_volume": 9900,
+         "low_top_of_page_bid": 0.029999999329447746,
+         "high_top_of_page_bid": 0.46000000834465027,
+         "categories": [
+          10003,
+          10042,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 12100
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 8100
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 22,
+          "quarterly": 22,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "東京 マンション 賃貸",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 15,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 3128.60009765625,
+         "dofollow": 3122.89990234375,
+         "referring_pages": 3128.10009765625,
+         "referring_domains": 6.099999904632568,
+         "referring_main_domains": 5.800000190734863,
+         "rank": 112.0999984741211,
+         "main_domain_rank": 524.5999755859375,
+         "last_updated_time": "2026-09-12 15:24:29 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-07 09:11:37 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "ai_overview_reference",
+         "rank_group": 1,
+         "rank_absolute": 6,
+         "source": "SUUMO",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報 - SUUMO",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "text": "前回の条件で探す (件) * 沿線・駅から探す * 市区郡から探す ... 通勤通学時間から探す * 検索 ... 特集...",
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 0.26968273520469666,
+         "estimated_paid_traffic_cost": 0.09169212728738785,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 4,
+         "rank_absolute": 4,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[5]/div[1]/div[1]",
+         "domain": "www.homes.co.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)を探す",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "breadcrumb": "https://www.homes.co.jp › ... › 賃貸",
+         "website_name": "ホームズ",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】 ！日本最大級の豊富な賃貸情報から、東京都の賃貸住宅を簡単に検索して ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 0.2284243106842041,
+         "estimated_paid_traffic_cost": 0.07766426354646683,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 2,
+          "is_new": false,
+          "is_up": false,
+          "is_down": true
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "マンション 賃貸 東京",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-19 15:17:41 +00:00",
+         "competition": 0.5,
+         "competition_level": "MEDIUM",
+         "cpc": 0.3400000035762787,
+         "search_volume": 9900,
+         "low_top_of_page_bid": 0.029999999329447746,
+         "high_top_of_page_bid": 0.46000000834465027,
+         "categories": [
+          10003,
+          10042,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 12100
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 8100
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 22,
+          "quarterly": 22,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "東京 マンション 賃貸",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 15,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 3128.60009765625,
+         "dofollow": 3122.89990234375,
+         "referring_pages": 3128.10009765625,
+         "referring_domains": 6.099999904632568,
+         "referring_main_domains": 5.800000190734863,
+         "rank": 112.0999984741211,
+         "main_domain_rank": 524.5999755859375,
+         "last_updated_time": "2026-09-12 15:24:29 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-07 09:11:37 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 1,
+         "rank_absolute": 1,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "breadcrumb": "https://suumo.jp › SUUMO[不動産/住宅] › 賃貸",
+         "website_name": "SUUMO",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2026/07/10 — 東京都の賃貸は、シングルタイプ（ワンルーム～1LDK）の物件が多いのが特徴。特に都心エリアでこの傾向が強く、シングルタイプの物件が70％以上を占める区 ...",
+         "pre_snippet": "07/10/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "東京",
+          "賃貸"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 1.8411059379577637,
+         "estimated_paid_traffic_cost": 0.625976026058197,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 1,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "ai_overview_reference",
+         "rank_group": 2,
+         "rank_absolute": 6,
+         "source": "ホームズ",
+         "domain": "www.homes.co.jp",
+         "title": "【ホームズ】東京都の賃貸[賃貸マンション・アパート]物件を探す",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "text": "【ホームズ】東京都の賃貸[賃貸マンション・アパート]物件を探す ... 住宅・お部屋探し情報 ... 一戸建て・土地 *",
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 0.26968273520469666,
+         "estimated_paid_traffic_cost": 0.09169212728738785,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "マンション 賃貸 東京",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-19 15:17:41 +00:00",
+         "competition": 0.5,
+         "competition_level": "MEDIUM",
+         "cpc": 0.3400000035762787,
+         "search_volume": 9900,
+         "low_top_of_page_bid": 0.029999999329447746,
+         "high_top_of_page_bid": 0.46000000834465027,
+         "categories": [
+          10003,
+          10042,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 12100
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 8100
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 22,
+          "quarterly": 22,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "東京 マンション 賃貸",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 15,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 3128.60009765625,
+         "dofollow": 3122.89990234375,
+         "referring_pages": 3128.10009765625,
+         "referring_domains": 6.099999904632568,
+         "referring_main_domains": 5.800000190734863,
+         "rank": 112.0999984741211,
+         "main_domain_rank": 524.5999755859375,
+         "last_updated_time": "2026-09-12 15:24:29 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-07 09:11:37 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 1,
+         "rank_absolute": 1,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "breadcrumb": "https://suumo.jp › SUUMO[不動産/住宅] › 賃貸",
+         "website_name": "SUUMO",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2026/07/10 — 東京都の賃貸は、シングルタイプ（ワンルーム～1LDK）の物件が多いのが特徴。特に都心エリアでこの傾向が強く、シングルタイプの物件が70％以上を占める区 ...",
+         "pre_snippet": "07/10/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "東京",
+          "賃貸"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 1.8411059379577637,
+         "estimated_paid_traffic_cost": 0.625976026058197,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 1,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 4,
+         "rank_absolute": 4,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[5]/div[1]/div[1]",
+         "domain": "www.homes.co.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)を探す",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "breadcrumb": "https://www.homes.co.jp › ... › 賃貸",
+         "website_name": "ホームズ",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】 ！日本最大級の豊富な賃貸情報から、東京都の賃貸住宅を簡単に検索して ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 0.2284243106842041,
+         "estimated_paid_traffic_cost": 0.07766426354646683,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 2,
+          "is_new": false,
+          "is_up": false,
+          "is_down": true
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "東京マンション賃貸",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-16 11:06:41 +00:00",
+         "competition": 0.5,
+         "competition_level": "MEDIUM",
+         "cpc": 0.3400000035762787,
+         "search_volume": 9900,
+         "low_top_of_page_bid": 0.029999999329447746,
+         "high_top_of_page_bid": 0.46000000834465027,
+         "categories": [
+          10003,
+          10042,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 12100
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 8100
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 22,
+          "quarterly": 22,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "東京 マンション 賃貸",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 15,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 3128.60009765625,
+         "dofollow": 3122.89990234375,
+         "referring_pages": 3128.10009765625,
+         "referring_domains": 6.099999904632568,
+         "referring_main_domains": 5.800000190734863,
+         "rank": 112.0999984741211,
+         "main_domain_rank": 534.5999755859375,
+         "last_updated_time": "2026-09-12 14:23:03 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-04 22:21:28 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "ai_overview_reference",
+         "rank_group": 1,
+         "rank_absolute": 7,
+         "source": "SUUMO",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報 - SUUMO",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "text": "前回の条件で探す (件) * 沿線・駅から探す * 市区郡から探す ... 通勤通学時間から探す * 検索 ... 特集...",
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 51.79869842529297,
+         "estimated_paid_traffic_cost": 17.61155891418457,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "ai_overview_reference",
+         "rank_group": 2,
+         "rank_absolute": 7,
+         "source": "ホームズ",
+         "domain": "www.homes.co.jp",
+         "title": "【ホームズ】東京都の賃貸[賃貸マンション・アパート]物件を探す",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "text": "【ホームズ】東京都の賃貸[賃貸マンション・アパート]物件を探す ... 住宅・お部屋探し情報 ... 一戸建て・土地 *",
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 51.79869842529297,
+         "estimated_paid_traffic_cost": 17.61155891418457,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "東京マンション賃貸",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-16 11:06:41 +00:00",
+         "competition": 0.5,
+         "competition_level": "MEDIUM",
+         "cpc": 0.3400000035762787,
+         "search_volume": 9900,
+         "low_top_of_page_bid": 0.029999999329447746,
+         "high_top_of_page_bid": 0.46000000834465027,
+         "categories": [
+          10003,
+          10042,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 12100
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 8100
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 22,
+          "quarterly": 22,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "東京 マンション 賃貸",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 15,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 3128.60009765625,
+         "dofollow": 3122.89990234375,
+         "referring_pages": 3128.10009765625,
+         "referring_domains": 6.099999904632568,
+         "referring_main_domains": 5.800000190734863,
+         "rank": 112.0999984741211,
+         "main_domain_rank": 534.5999755859375,
+         "last_updated_time": "2026-09-12 14:23:03 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-04 22:21:28 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "ai_overview_reference",
+         "rank_group": 1,
+         "rank_absolute": 7,
+         "source": "SUUMO",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報 - SUUMO",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "text": "前回の条件で探す (件) * 沿線・駅から探す * 市区郡から探す ... 通勤通学時間から探す * 検索 ... 特集...",
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 51.79869842529297,
+         "estimated_paid_traffic_cost": 17.61155891418457,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 4,
+         "rank_absolute": 4,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[5]/div[1]/div[1]",
+         "domain": "www.homes.co.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)を探す",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "breadcrumb": "https://www.homes.co.jp › ... › 賃貸",
+         "website_name": "ホームズ",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】 ！日本最大級の豊富な賃貸情報から、東京都の賃貸住宅を簡単に検索して ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 87.27714538574219,
+         "estimated_paid_traffic_cost": 29.67422866821289,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 2,
+          "is_new": false,
+          "is_up": false,
+          "is_down": true
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "東京マンション賃貸",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-16 11:06:41 +00:00",
+         "competition": 0.5,
+         "competition_level": "MEDIUM",
+         "cpc": 0.3400000035762787,
+         "search_volume": 9900,
+         "low_top_of_page_bid": 0.029999999329447746,
+         "high_top_of_page_bid": 0.46000000834465027,
+         "categories": [
+          10003,
+          10042,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 12100
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 8100
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 22,
+          "quarterly": 22,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "東京 マンション 賃貸",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 15,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 3128.60009765625,
+         "dofollow": 3122.89990234375,
+         "referring_pages": 3128.10009765625,
+         "referring_domains": 6.099999904632568,
+         "referring_main_domains": 5.800000190734863,
+         "rank": 112.0999984741211,
+         "main_domain_rank": 534.5999755859375,
+         "last_updated_time": "2026-09-12 14:23:03 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-04 22:21:28 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 1,
+         "rank_absolute": 1,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "breadcrumb": "https://suumo.jp › SUUMO[不動産/住宅] › 賃貸",
+         "website_name": "SUUMO",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2026/07/10 — 東京都の賃貸は、シングルタイプ（ワンルーム～1LDK）の物件が多いのが特徴。特に都心エリアでこの傾向が強く、シングルタイプの物件が70％以上を占める区 ...",
+         "pre_snippet": "07/10/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "東京",
+          "賃貸"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 993.60107421875,
+         "estimated_paid_traffic_cost": 337.8243713378906,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 1,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "ai_overview_reference",
+         "rank_group": 2,
+         "rank_absolute": 7,
+         "source": "ホームズ",
+         "domain": "www.homes.co.jp",
+         "title": "【ホームズ】東京都の賃貸[賃貸マンション・アパート]物件を探す",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "text": "【ホームズ】東京都の賃貸[賃貸マンション・アパート]物件を探す ... 住宅・お部屋探し情報 ... 一戸建て・土地 *",
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 51.79869842529297,
+         "estimated_paid_traffic_cost": 17.61155891418457,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "東京マンション賃貸",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-16 11:06:41 +00:00",
+         "competition": 0.5,
+         "competition_level": "MEDIUM",
+         "cpc": 0.3400000035762787,
+         "search_volume": 9900,
+         "low_top_of_page_bid": 0.029999999329447746,
+         "high_top_of_page_bid": 0.46000000834465027,
+         "categories": [
+          10003,
+          10042,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 12100
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 8100
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 22,
+          "quarterly": 22,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "東京 マンション 賃貸",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 15,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 3128.60009765625,
+         "dofollow": 3122.89990234375,
+         "referring_pages": 3128.10009765625,
+         "referring_domains": 6.099999904632568,
+         "referring_main_domains": 5.800000190734863,
+         "rank": 112.0999984741211,
+         "main_domain_rank": 534.5999755859375,
+         "last_updated_time": "2026-09-12 14:23:03 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-04 22:21:28 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 1,
+         "rank_absolute": 1,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "breadcrumb": "https://suumo.jp › SUUMO[不動産/住宅] › 賃貸",
+         "website_name": "SUUMO",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2026/07/10 — 東京都の賃貸は、シングルタイプ（ワンルーム～1LDK）の物件が多いのが特徴。特に都心エリアでこの傾向が強く、シングルタイプの物件が70％以上を占める区 ...",
+         "pre_snippet": "07/10/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "東京",
+          "賃貸"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 993.60107421875,
+         "estimated_paid_traffic_cost": 337.8243713378906,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 1,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 4,
+         "rank_absolute": 4,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[5]/div[1]/div[1]",
+         "domain": "www.homes.co.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)を探す",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "breadcrumb": "https://www.homes.co.jp › ... › 賃貸",
+         "website_name": "ホームズ",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】 ！日本最大級の豊富な賃貸情報から、東京都の賃貸住宅を簡単に検索して ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 87.27714538574219,
+         "estimated_paid_traffic_cost": 29.67422866821289,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 2,
+          "is_new": false,
+          "is_up": false,
+          "is_down": true
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "都内 賃貸",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-09-17 16:37:50 +00:00",
+         "competition": 0.5799999833106995,
+         "competition_level": "MEDIUM",
+         "cpc": 0.36000001430511475,
+         "search_volume": 5400,
+         "low_top_of_page_bid": 0.03999999910593033,
+         "high_top_of_page_bid": 0.4699999988079071,
+         "categories": [
+          10003,
+          10042,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 6600
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 6600
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 5400
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 5400
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 5400
+          },
+          {
+           "year": 2025,
+           "month": 9,
+           "search_volume": 6600
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 15,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 3128.60009765625,
+         "dofollow": 3122.89990234375,
+         "referring_pages": 3128.10009765625,
+         "referring_domains": 6.099999904632568,
+         "referring_main_domains": 5.800000190734863,
+         "rank": 112.0999984741211,
+         "main_domain_rank": 524.5999755859375,
+         "last_updated_time": "2026-09-13 03:25:15 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "commercial",
+         "foreign_intent": [
+          "transactional"
+         ],
+         "last_updated_time": "2026-04-30 02:05:56 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 1,
+         "rank_absolute": 1,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "breadcrumb": "https://suumo.jp › SUUMO[不動産/住宅] › 賃貸",
+         "website_name": "SUUMO",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2026/07/10 — 東京都の賃貸は、シングルタイプ（ワンルーム～1LDK）の物件が多いのが特徴。特に都心エリアでこの傾向が強く、シングルタイプの物件が70％以上を占める区 ...",
+         "pre_snippet": "07/10/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "賃貸"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 1151.72900390625,
+         "estimated_paid_traffic_cost": 414.6224365234375,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 1,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 3,
+         "rank_absolute": 3,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[3]/div[1]/div[1]",
+         "domain": "www.homes.co.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)を探す",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "breadcrumb": "https://www.homes.co.jp › ... › 賃貸",
+         "website_name": "ホームズ",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】 ！日本最大級の豊富な賃貸情報から、東京都の賃貸住宅を簡単に検索して ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 287.9811096191406,
+         "estimated_paid_traffic_cost": 103.6731948852539,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 2,
+          "is_new": false,
+          "is_up": false,
+          "is_down": true
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "賃貸 都内",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-15 10:51:00 +00:00",
+         "competition": 0.5899999737739563,
+         "competition_level": "MEDIUM",
+         "cpc": 0.41999998688697815,
+         "search_volume": 5400,
+         "low_top_of_page_bid": 0.05000000074505806,
+         "high_top_of_page_bid": 0.5600000023841858,
+         "categories": [
+          10003,
+          10003,
+          10032,
+          10042,
+          10042,
+          13687,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 6600
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 6600
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 5400
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 5400
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 5400
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": -18
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "都内 賃貸",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 15,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 3128.60009765625,
+         "dofollow": 3122.89990234375,
+         "referring_pages": 3128.10009765625,
+         "referring_domains": 6.099999904632568,
+         "referring_main_domains": 5.800000190734863,
+         "rank": 112.0999984741211,
+         "main_domain_rank": 524.5999755859375,
+         "last_updated_time": "2026-09-13 03:18:04 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-07 08:32:28 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "ai_overview_reference",
+         "rank_group": 1,
+         "rank_absolute": 6,
+         "source": "SUUMO",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報 - SUUMO",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "text": "前回の条件で探す (件) * 沿線・駅から探す * 市区郡から探す ... 通勤通学時間から探す * 検索 ... 特集...",
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 37.501739501953125,
+         "estimated_paid_traffic_cost": 15.750730514526367,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "ai_overview_reference",
+         "rank_group": 2,
+         "rank_absolute": 6,
+         "source": "ホームズ",
+         "domain": "www.homes.co.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)を探す - ホームズ",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "text": "一戸建て・土地 * 新築一戸建て・分譲一戸建て・建築条件付き土地 ... ゲスト さん マイページ * 最近見た物件 0...",
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 37.501739501953125,
+         "estimated_paid_traffic_cost": 15.750730514526367,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "賃貸 都内",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-15 10:51:00 +00:00",
+         "competition": 0.5899999737739563,
+         "competition_level": "MEDIUM",
+         "cpc": 0.41999998688697815,
+         "search_volume": 5400,
+         "low_top_of_page_bid": 0.05000000074505806,
+         "high_top_of_page_bid": 0.5600000023841858,
+         "categories": [
+          10003,
+          10003,
+          10032,
+          10042,
+          10042,
+          13687,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 6600
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 6600
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 5400
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 5400
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 5400
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": -18
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "都内 賃貸",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 15,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 3128.60009765625,
+         "dofollow": 3122.89990234375,
+         "referring_pages": 3128.10009765625,
+         "referring_domains": 6.099999904632568,
+         "referring_main_domains": 5.800000190734863,
+         "rank": 112.0999984741211,
+         "main_domain_rank": 524.5999755859375,
+         "last_updated_time": "2026-09-13 03:18:04 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-07 08:32:28 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "ai_overview_reference",
+         "rank_group": 1,
+         "rank_absolute": 6,
+         "source": "SUUMO",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報 - SUUMO",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "text": "前回の条件で探す (件) * 沿線・駅から探す * 市区郡から探す ... 通勤通学時間から探す * 検索 ... 特集...",
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 37.501739501953125,
+         "estimated_paid_traffic_cost": 15.750730514526367,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 4,
+         "rank_absolute": 5,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[7]/div[1]/div[1]",
+         "domain": "www.homes.co.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)を探す",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "breadcrumb": "https://www.homes.co.jp › ... › 賃貸",
+         "website_name": "ホームズ",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】 ！日本最大級の豊富な賃貸情報から、東京都の賃貸住宅を簡単に検索して ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 42.125186920166016,
+         "estimated_paid_traffic_cost": 17.692577362060547,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 2,
+          "is_new": false,
+          "is_up": false,
+          "is_down": true
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "賃貸 都内",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-15 10:51:00 +00:00",
+         "competition": 0.5899999737739563,
+         "competition_level": "MEDIUM",
+         "cpc": 0.41999998688697815,
+         "search_volume": 5400,
+         "low_top_of_page_bid": 0.05000000074505806,
+         "high_top_of_page_bid": 0.5600000023841858,
+         "categories": [
+          10003,
+          10003,
+          10032,
+          10042,
+          10042,
+          13687,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 6600
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 6600
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 5400
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 5400
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 5400
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": -18
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "都内 賃貸",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 15,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 3128.60009765625,
+         "dofollow": 3122.89990234375,
+         "referring_pages": 3128.10009765625,
+         "referring_domains": 6.099999904632568,
+         "referring_main_domains": 5.800000190734863,
+         "rank": 112.0999984741211,
+         "main_domain_rank": 524.5999755859375,
+         "last_updated_time": "2026-09-13 03:18:04 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-07 08:32:28 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 1,
+         "rank_absolute": 1,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "breadcrumb": "https://suumo.jp › SUUMO[不動産/住宅] › 賃貸",
+         "website_name": "SUUMO",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2026/07/10 — 東京都の賃貸は、シングルタイプ（ワンルーム～1LDK）の物件が多いのが特徴。特に都心エリアでこの傾向が強く、シングルタイプの物件が70％以上を占める区 ...",
+         "pre_snippet": "07/10/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "賃貸"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 479.57147216796875,
+         "estimated_paid_traffic_cost": 201.42001342773438,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 1,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "ai_overview_reference",
+         "rank_group": 2,
+         "rank_absolute": 6,
+         "source": "ホームズ",
+         "domain": "www.homes.co.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)を探す - ホームズ",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "text": "一戸建て・土地 * 新築一戸建て・分譲一戸建て・建築条件付き土地 ... ゲスト さん マイページ * 最近見た物件 0...",
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 37.501739501953125,
+         "estimated_paid_traffic_cost": 15.750730514526367,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "賃貸 都内",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-15 10:51:00 +00:00",
+         "competition": 0.5899999737739563,
+         "competition_level": "MEDIUM",
+         "cpc": 0.41999998688697815,
+         "search_volume": 5400,
+         "low_top_of_page_bid": 0.05000000074505806,
+         "high_top_of_page_bid": 0.5600000023841858,
+         "categories": [
+          10003,
+          10003,
+          10032,
+          10042,
+          10042,
+          13687,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 6600
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 6600
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 5400
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 5400
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 5400
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": -18
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "都内 賃貸",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 15,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 3128.60009765625,
+         "dofollow": 3122.89990234375,
+         "referring_pages": 3128.10009765625,
+         "referring_domains": 6.099999904632568,
+         "referring_main_domains": 5.800000190734863,
+         "rank": 112.0999984741211,
+         "main_domain_rank": 524.5999755859375,
+         "last_updated_time": "2026-09-13 03:18:04 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-07 08:32:28 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 1,
+         "rank_absolute": 1,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "breadcrumb": "https://suumo.jp › SUUMO[不動産/住宅] › 賃貸",
+         "website_name": "SUUMO",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2026/07/10 — 東京都の賃貸は、シングルタイプ（ワンルーム～1LDK）の物件が多いのが特徴。特に都心エリアでこの傾向が強く、シングルタイプの物件が70％以上を占める区 ...",
+         "pre_snippet": "07/10/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "賃貸"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 479.57147216796875,
+         "estimated_paid_traffic_cost": 201.42001342773438,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 1,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 4,
+         "rank_absolute": 5,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[7]/div[1]/div[1]",
+         "domain": "www.homes.co.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)を探す",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "breadcrumb": "https://www.homes.co.jp › ... › 賃貸",
+         "website_name": "ホームズ",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】 ！日本最大級の豊富な賃貸情報から、東京都の賃貸住宅を簡単に検索して ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 42.125186920166016,
+         "estimated_paid_traffic_cost": 17.692577362060547,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 2,
+          "is_new": false,
+          "is_up": false,
+          "is_down": true
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "東京アパート",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-18 02:02:14 +00:00",
+         "competition": 0.3499999940395355,
+         "competition_level": "MEDIUM",
+         "cpc": 0.33000001311302185,
+         "search_volume": 4400,
+         "low_top_of_page_bid": 0.029999999329447746,
+         "high_top_of_page_bid": 0.3799999952316284,
+         "categories": [
+          10003,
+          10003,
+          10032,
+          10042,
+          10042,
+          13687,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 3600
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 3600
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 2900
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 3600
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 2900
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 3600
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 6600
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 4400
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 4400
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 4400
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 24,
+          "yearly": -18
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "東京 アパート",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 15,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 3128.60009765625,
+         "dofollow": 3122.89990234375,
+         "referring_pages": 3128.10009765625,
+         "referring_domains": 6.099999904632568,
+         "referring_main_domains": 5.800000190734863,
+         "rank": 112.0999984741211,
+         "main_domain_rank": 524.5999755859375,
+         "last_updated_time": "2026-09-13 12:31:10 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-03 15:29:39 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 1,
+         "rank_absolute": 1,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "breadcrumb": "https://suumo.jp › SUUMO[不動産/住宅] › 賃貸",
+         "website_name": "SUUMO",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "2026/07/10 — 東京都の賃貸は、シングルタイプ（ワンルーム～1LDK）の物件が多いのが特徴。特に都心エリアでこの傾向が強く、シングルタイプの物件が70％以上を占める区 ...",
+         "pre_snippet": "07/10/2026 00:00:00",
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "東京"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 762.969482421875,
+         "estimated_paid_traffic_cost": 251.77992248535156,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 1,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 4,
+         "rank_absolute": 4,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[5]/div[1]/div[1]",
+         "domain": "www.homes.co.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)を探す",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "breadcrumb": "https://www.homes.co.jp › ... › 賃貸",
+         "website_name": "ホームズ",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】 ！日本最大級の豊富な賃貸情報から、東京都の賃貸住宅を簡単に検索して ...",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "東京都の賃貸を探すなら、1日3回以上も物件情報を更新の【LIFULL HOME'S/ライフルホームズ】"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 24.60165786743164,
+         "estimated_paid_traffic_cost": 8.118547439575195,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 3,
+          "is_new": false,
+          "is_up": false,
+          "is_down": true
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "東京物件",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-09-17 01:39:59 +00:00",
+         "competition": 0.5600000023841858,
+         "competition_level": "MEDIUM",
+         "cpc": 0.7400000095367432,
+         "search_volume": 3600,
+         "low_top_of_page_bid": 0.05000000074505806,
+         "high_top_of_page_bid": 0.8799999952316284,
+         "categories": [
+          10003,
+          10042,
+          13688
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 3600
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 3600
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 3600
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 3600
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 3600
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 4400
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 5400
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 4400
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 3600
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 3600
+          },
+          {
+           "year": 2025,
+           "month": 9,
+           "search_volume": 3600
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "東京 物件",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 13,
+         "detected_language": "zh-TW",
+         "is_another_language": true
+        },
+        "serp_info": null,
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 3127.89990234375,
+         "dofollow": 3122.39990234375,
+         "referring_pages": 3127.39990234375,
+         "referring_domains": 5.599999904632568,
+         "referring_main_domains": 5.300000190734863,
+         "rank": 105.4000015258789,
+         "main_domain_rank": 523.7000122070312,
+         "last_updated_time": "2026-09-13 21:46:40 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-05 04:21:19 +00:00"
+        }
+       },
+       "intersection_result": {
+        "1": {
+         "se_type": "google",
+         "type": "ai_overview_reference",
+         "rank_group": 1,
+         "rank_absolute": 6,
+         "source": "SUUMO",
+         "domain": "suumo.jp",
+         "title": "東京都の賃貸(賃貸マンション・アパート)物件情報 - SUUMO",
+         "url": "https://suumo.jp/chintai/tokyo/",
+         "text": "前回の条件で探す (件) * 沿線・駅から探す * 市区郡から探す ... 通勤通学時間から探す * 検索 ... 特集...",
+         "main_domain": "suumo.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 80.00371551513672,
+         "estimated_paid_traffic_cost": 59.2027473449707,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 27,
+          "referring_main_domains": 27,
+          "referring_pages": 77,
+          "dofollow": 66,
+          "backlinks": 82,
+          "time_update": "2026-11-11 02:22:44 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 159,
+          "main_domain_rank": 579
+         }
+        },
+        "2": {
+         "se_type": "google",
+         "type": "ai_overview_reference",
+         "rank_group": 3,
+         "rank_absolute": 6,
+         "source": "ホームズ",
+         "domain": "www.homes.co.jp",
+         "title": "【ホームズ】東京都の賃貸[賃貸マンション・アパート]物件を探す",
+         "url": "https://www.homes.co.jp/chintai/tokyo/",
+         "text": "【ホームズ】東京都の賃貸[賃貸マンション・アパート]物件を探す ... 住宅・お部屋探し情報 ... 一戸建て・土地 *",
+         "main_domain": "homes.co.jp",
+         "relative_url": "/chintai/tokyo/",
+         "etv": 80.00371551513672,
+         "estimated_paid_traffic_cost": 59.2027473449707,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": false,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": {
+          "referring_domains": 11,
+          "referring_main_domains": 9,
+          "referring_pages": 44,
+          "dofollow": 43,
+          "backlinks": 44,
+          "time_update": "2026-11-11 02:49:53 +00:00"
+         },
+         "rank_info": {
+          "page_rank": 341,
+          "main_domain_rank": 631
+         }
+        }
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "inputs": {
+  "page1": "https://suumo.jp/chintai/tokyo/",
+  "page2": "https://www.homes.co.jp/chintai/tokyo/"
+ }
+}
