@@ -1,0 +1,68 @@
+{
+  "id": "C22",
+  "endpoint": "ai_optimization/chat_gpt/llm_scraper/live/advanced",
+  "who": "seller",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keyword",
+      "label": "c22.keyword"
+    }
+  ],
+  "result": {
+    "answer": {
+      "markdown": "result.0.markdown",
+      "label": "c22.answer"
+    },
+    "items": "result.0.sources",
+    "columns": [
+      {
+        "key": "title",
+        "label": "c22.col.title"
+      },
+      {
+        "key": "domain",
+        "label": "c22.col.domain"
+      },
+      {
+        "key": "url",
+        "label": "c22.col.url",
+        "link": true
+      }
+    ],
+    "title": "c22.refs",
+    "extra": [
+      {
+        "items": "result.0.items",
+        "where": {
+          "type": "chat_gpt_products"
+        },
+        "flatten": [
+          "items"
+        ],
+        "columns": [
+          {
+            "key": "p_image",
+            "label": "c22.col.p_image",
+            "from": "images.0",
+            "type": "image"
+          },
+          {
+            "key": "p_title",
+            "label": "c22.col.p_title",
+            "from": "title"
+          },
+          {
+            "key": "p_tag",
+            "label": "c22.col.p_tag",
+            "from": "tag"
+          }
+        ],
+        "title": "c22.products"
+      }
+    ]
+  },
+  "csv": "C22.csv"
+}

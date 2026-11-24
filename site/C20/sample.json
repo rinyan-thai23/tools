@@ -1,0 +1,86 @@
+{
+ "keyword": "東京の渋谷でおすすめのラーメン店を3つ教えて",
+ "fetched_at": "2026-11",
+ "tasks": [
+  {
+   "cost": 0.030054,
+   "time": "6.3575 sec.",
+   "result": [
+    {
+     "model_name": "gemini-3.5-flash-lite",
+     "input_tokens": 21,
+     "output_tokens": 579,
+     "reasoning_tokens": 0,
+     "web_search": true,
+     "money_spent": 0.0294538,
+     "datetime": "2026-11-24 06:18:24 +00:00",
+     "items": [
+      {
+       "type": "message",
+       "sections": [
+        {
+         "type": "text",
+         "text": "渋谷で長年愛されている名店から、確かな実力派まで、おすすめのラーメン店を3つ厳選してご紹介します。\n\n### 1. らーめん はやし\n* **特徴:** 渋谷のラーメンシーンを語る上で外せない、超有名行列店です。メニューは「ラーメン」と「味付玉子らーめん」のみという潔さ。\n* **味:** 動物系（豚骨・鶏ガラ）と魚介の旨味が絶妙なバランスで合わさった、濃厚かつマイルドで上品なスープが特徴。モチモチとした中太麺との相性も抜群で、連日多くのファンやラーメン好きが足を運ぶ名店です。\n* **アクセス:** 各線渋谷駅から徒歩約4〜5分（道玄坂上付近）\n\n### 2. 中華麺店 喜楽（きらく）\n* **特徴:** 1952年（昭和27年）創業の、渋谷屈指の歴史を持つ老舗大衆中華・ラーメン店です。レトロで味わい深い雰囲気が漂います。\n* **味:** 看板メニューの「中華麺」や「ワンタン麺」が人気。鶏ガラベースの醤油スープに、台湾ルーツの**「焦がしネギ（揚げネギ）」**がたっぷり入っており、香ばしさとコクが唯一無二の味わいを作り出しています。平打ちの太めのもっちりした麺や、ボリューム満点の肉厚ワンタンも絶品です。\n* **アクセス:** 各線渋谷駅から徒歩約5〜6分（道玄坂下から路地に入った場所）\n\n### 3. 新潟三宝亭東京ラボ 渋谷宮益坂店\n* **特徴:** 新潟県で絶大な人気を誇る老舗「三宝亭」の東京進出店で、特に麻婆麺が爆発的な人気を集めているお店です。\n* **味:** 看板の「全とろ麻婆麺」は、熱々の濃厚な麻婆豆腐が旨味たっぷりのスープと一体になっており、一口食べるとやみつきになるシビ辛な味わい。辛さの中にしっかりとした旨味があり、自家製のモチモチとした中太麺によく絡みます。辛いもの好きにはたまらない一杯です。\n* **アクセス:** 各線渋谷駅から徒歩約5分（宮益坂上近く）\n\n---\n\nそれぞれ系統が異なる名店ですので、その日の気分に合わせて選んでみてください！",
+         "annotations": [
+          {
+           "title": "shibuyabunka.com",
+           "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFerel0sCjkFv3GGMYnvpPbm5wFvZlQFGpoJpRnGYrdTALcVqRyvAvwqxXvE4sTQvPKc4d20czT9lntuCVL5EH3RDgNtZRd-kn4NIBr-TItAmKUmuNj4WEPOZlHPA==",
+           "direct_url": "https://biz.shibuyabunka.com/watch/94/",
+           "start_index": 0,
+           "end_index": 142,
+           "text": "渋谷で長年愛されている名店から、確かな実力派まで、おすすめのラーメン店を3つ厳選してご紹介します"
+          },
+          {
+           "title": "takumen.com",
+           "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlOBdgXudFYaAgHIX0c_4rK7RlW5V-tfeMTTRg3Jabl8iJHamTLzTg2Pd7vpPRTJV3gHnVR4Ze5PPnrG08bbRgl-kfX_KnG80TPwin8NP4QKItdXpwzAn5TMbUUdc3Wz4M1zNeyP2vc7qE5vYt3g==",
+           "direct_url": "https://www.takumen.com/magazines/shibuya-must-eat-ramen",
+           "start_index": 0,
+           "end_index": 142,
+           "text": "渋谷で長年愛されている名店から、確かな実力派まで、おすすめのラーメン店を3つ厳選してご紹介します"
+          },
+          {
+           "title": "shibuyabunka.com",
+           "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFerel0sCjkFv3GGMYnvpPbm5wFvZlQFGpoJpRnGYrdTALcVqRyvAvwqxXvE4sTQvPKc4d20czT9lntuCVL5EH3RDgNtZRd-kn4NIBr-TItAmKUmuNj4WEPOZlHPA==",
+           "direct_url": "https://biz.shibuyabunka.com/watch/94/",
+           "start_index": 179,
+           "end_index": 275,
+           "text": "**特徴:** 渋谷のラーメンシーンを語る上で外せない、超有名行列店です"
+          },
+          {
+           "title": "takumen.com",
+           "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlOBdgXudFYaAgHIX0c_4rK7RlW5V-tfeMTTRg3Jabl8iJHamTLzTg2Pd7vpPRTJV3gHnVR4Ze5PPnrG08bbRgl-kfX_KnG80TPwin8NP4QKItdXpwzAn5TMbUUdc3Wz4M1zNeyP2vc7qE5vYt3g==",
+           "direct_url": "https://www.takumen.com/magazines/shibuya-must-eat-ramen",
+           "start_index": 179,
+           "end_index": 275,
+           "text": "**特徴:** 渋谷のラーメンシーンを語る上で外せない、超有名行列店です"
+          },
+          {
+           "title": "shibuyabunka.com",
+           "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFerel0sCjkFv3GGMYnvpPbm5wFvZlQFGpoJpRnGYrdTALcVqRyvAvwqxXvE4sTQvPKc4d20czT9lntuCVL5EH3RDgNtZRd-kn4NIBr-TItAmKUmuNj4WEPOZlHPA==",
+           "direct_url": "https://biz.shibuyabunka.com/watch/94/",
+           "start_index": 668,
+           "end_index": 748,
+           "text": "**アクセス:** 各線渋谷駅から徒歩約4〜5分（道玄坂上付近）"
+          },
+          {
+           "title": "truesportpur.ca",
+           "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNMOlqJmciIEjESz-HfwNbIMbFfG2CKnzOQ-yEtptxzxl2cJWXWvhdh-EI0RWvOgbNQMnNJyVTBtY90ZVGNn4S8eS3m0OXIDg0ZV_EA89PcTgHq_h5WiXh3ELDn_YXTepiFIHn0GGc",
+           "direct_url": "https://truesportpur.ca/food/raamenshibuya-93802/",
+           "start_index": 794,
+           "end_index": 914,
+           "text": "**特徴:** 1952年（昭和27年）創業の、渋谷屈指の歴史を持つ老舗大衆中華・ラーメン店です"
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "fan_out_queries": [
+      "渋谷 ラーメン 人気店",
+      "渋谷 おすすめ ラーメン 2026"
+     ]
+    }
+   ]
+  }
+ ]
+}

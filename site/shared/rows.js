@@ -19,14 +19,34 @@ export function parseVideoId(s) {
 const pick = (it, from) => { for (const f of [].concat(from)) { const v = get(it, f); if (v != null && v !== '') return v; } return undefined; };
 
 // 文章で返ってくるツール（AIモードなど）：回答文をそのまま取り出す
-export const extractAnswer = (cfg, task) => (cfg.result.answer ? get(task, cfg.result.answer.markdown) || '' : '');
+//   answer.markdown = 回答文の場所 ／ answer.sections = true なら、LLMの message の sections の text をつなぐ
+export const extractAnswer = (cfg, task) => {
+  const a = cfg.result.answer;
+  if (!a) return '';
+  if (a.sections) {
+    return (get(task, a.items || 'result.0.items') || []).filter((it) => it.type === 'message')
+      .flatMap((it) => (it.sections || []).map((s) => s.text)).filter(Boolean).join('\n\n');
+  }
+  return get(task, a.markdown) || '';
+};
+
+// 1つの表の行を取り出す。spec = { items, where, flatten, unique, columns }
+//   flatten: 配列の入れ子を平らにする（例 ["sections","annotations"]）／ unique: 同じ値の行を1つにする項目
+export function rowsOf(spec, task) {
+  let list = (get(task, spec.items) || []).filter((it) => Object.entries(spec.where || {}).every(([k, v]) => (Array.isArray(v) ? v.includes(it[k]) : it[k] === v)));
+  for (const k of spec.flatten || []) list = list.flatMap((it) => it[k] || []);
+  let rows = list.map((it) => Object.fromEntries(spec.columns.map((c) => {
+    if (c.join) return [c.key, c.join.map((k) => { const v = get(it, k); return typeof v === 'number' && v < 10 ? String(v).padStart(2, '0') : v; }).join(c.sep ?? '-')];
+    const v = pick(it, c.from || c.key);
+    return [c.key, c.transform ? transforms[c.transform](v) : v];
+  })));
+  if (spec.unique) { const seen = new Set(); rows = rows.filter((r) => { const k = r[spec.unique]; if (!k || seen.has(k)) return false; seen.add(k); return true; }); }
+  return rows;
+}
 
 export function extractRows(cfg, task) {
   const r = cfg.result;
-  return (get(task, r.items) || [])
-    .filter((it) => Object.entries(r.where || {}).every(([k, v]) => (Array.isArray(v) ? v.includes(it[k]) : it[k] === v)))
-    .map((it) => Object.fromEntries(r.columns.map((c) => {
-      const v = pick(it, c.from || c.key);
-      return [c.key, c.transform ? transforms[c.transform](v) : v];
-    })));
+  if (r.answer_only) return [{ answer: extractAnswer(cfg, task) }]; // 回答文だけのツール：CSVは回答文1行
+  return rowsOf(r, task);
 }
+export const extractExtra = (cfg, task) => (cfg.result.extra || []).map((x) => ({ ...x, rows: rowsOf(x, task) }));

@@ -1,0 +1,37 @@
+{
+  "id": "C21",
+  "endpoint": "ai_optimization/perplexity/llm_responses/live",
+  "who": "asp_affiliate",
+  "markets": false,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "prompt",
+      "param": "user_prompt",
+      "label": "c21.prompt"
+    }
+  ],
+  "params": {
+    "model_name": "sonar"
+  },
+  "result": {
+    "answer": {
+      "sections": true,
+      "label": "c21.answer"
+    },
+    "items": "result.0.search_results",
+    "columns": [
+      {
+        "key": "title",
+        "label": "c21.col.title"
+      },
+      {
+        "key": "url",
+        "label": "c21.col.url",
+        "link": true
+      }
+    ],
+    "title": "c21.refs"
+  },
+  "csv": "C21.csv"
+}

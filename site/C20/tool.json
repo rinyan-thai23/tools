@@ -1,0 +1,47 @@
+{
+  "id": "C20",
+  "endpoint": "ai_optimization/gemini/llm_responses/live",
+  "who": "freelancer_seo",
+  "markets": false,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "prompt",
+      "param": "user_prompt",
+      "label": "c20.prompt"
+    }
+  ],
+  "params": {
+    "model_name": "gemini-3.5-flash-lite",
+    "web_search": true
+  },
+  "result": {
+    "answer": {
+      "sections": true,
+      "label": "c20.answer"
+    },
+    "items": "result.0.items",
+    "where": {
+      "type": "message"
+    },
+    "flatten": [
+      "sections",
+      "annotations"
+    ],
+    "unique": "url",
+    "columns": [
+      {
+        "key": "title",
+        "label": "c20.col.title"
+      },
+      {
+        "key": "url",
+        "label": "c20.col.url",
+        "from": "direct_url",
+        "link": true
+      }
+    ],
+    "title": "c20.refs"
+  },
+  "csv": "C20.csv"
+}

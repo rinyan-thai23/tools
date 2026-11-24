@@ -1,0 +1,38 @@
+<section class="seo">
+<h2>Ways to see how ChatGPT answers — and how the main tools compare</h2>
+<p>When a customer asks ChatGPT "what are good ramen shops in Shibuya?", <strong>does your shop appear, and which pages does the answer cite</strong>? Enter a question and this tool returns ChatGPT's answer with web search, plus the list of pages the answer cites.</p>
+<div class="scroll"><table>
+<thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>
+<tbody>
+<tr class="me"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.03 each (measured $0.027; varies with answer length)</td><td>Enter a question; get the answer text and the cited pages (title and URL). Save as CSV. The model is fixed to gpt-4o-mini</td></tr>
+<tr><td>The ChatGPT app (by hand)</td><td>Free plan available (see the official site for limits)</td><td>You ask and read. It is the real screen, so the most accurate, but you keep your own record</td></tr>
+<tr><td>Ahrefs Brand Radar (Prompt Tracking)</td><td>Subscription (its pricing page lists prompt tracking from $50/month)</td><td>Tracks chosen questions every day and logs whether your brand appears. For ongoing tracking</td></tr>
+<tr><td>SE Ranking SE Visible</td><td>Subscription (see the official site for prices)</td><td>Tracks exposure across several AI tools (ChatGPT, Gemini, Perplexity and others). For ongoing tracking</td></tr>
+</tbody></table></div>
+<p class="asof">Checked in November 2026. Prices change — confirm on each vendor's official site before you buy.</p>
+
+<h2>Why use this tool</h2>
+<ul>
+<li><strong>The answer and its sources, side by side.</strong> See which pages were cited, with URLs.</li>
+<li><strong>Ask the question as a customer would.</strong> Type it in their words.</li>
+<li><strong>About $0.03 and 4 seconds.</strong> About 35 per $1, so you can try questions casually.</li>
+<li><strong>Answers with web search.</strong> The answer uses search results, not only stored knowledge.</li>
+<li><strong>Save as CSV.</strong> Keep the cited pages by date.</li>
+</ul>
+
+<h2>When it is not the right fit</h2>
+<ul>
+<li>You want <strong>exactly what the ChatGPT screen shows</strong> → this tool asks gpt-4o-mini through the API. The model and the answer can differ from the app. For the screen itself, use the "see ChatGPT search" tool.</li>
+<li>You want a <strong>verdict on whether your shop appeared</strong> → the tool just lays out the answer.</li>
+<li>You want <strong>daily tracking</strong> → one call is one answer at one moment, and the same question can come back a little different each time.</li>
+<li>You want the answer <strong>for a customer in a specific place</strong> → you cannot set a location.</li>
+</ul>
+<p>This tool does one thing: show how web-search ChatGPT answers a question and what it cites.</p>
+
+<h2>FAQ</h2>
+<details><summary>Why does one call cost about $0.03?</summary><p>Web search adds input to the request. In our tests a cheap model without web search cost about $0.002, while gpt-4o-mini with web search cost about $0.027.</p></details>
+<details><summary>Can the sources table be empty?</summary><p>Yes, if the answer includes no citations.</p></details>
+<details><summary>Why is there no country or language selector?</summary><p>This API call has no country or language setting. Write the question in Japanese to get a Japanese answer.</p></details>
+<details><summary>Will the same question give the same answer?</summary><p>Answers can change from call to call. To see the difference, fetch again on another day.</p></details>
+<details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href="/dfs-en.html">What is DataForSEO?</a></p></details>
+</section>

@@ -1,0 +1,33 @@
+{
+  "id": "C19",
+  "endpoint": "ai_optimization/claude/llm_responses/live",
+  "who": "b2b_sales",
+  "markets": false,
+  "slow_search": false,
+  "min_sample_rows": 1,
+  "inputs": [
+    {
+      "id": "prompt",
+      "param": "user_prompt",
+      "label": "c19.prompt"
+    }
+  ],
+  "params": {
+    "model_name": "claude-haiku-4-5"
+  },
+  "result": {
+    "answer": {
+      "sections": true,
+      "label": "c19.answer"
+    },
+    "answer_only": true,
+    "items": "result.0.items",
+    "columns": [
+      {
+        "key": "answer",
+        "label": "c19.col.answer"
+      }
+    ]
+  },
+  "csv": "C19.csv"
+}

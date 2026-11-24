@@ -1,0 +1,85 @@
+{
+ "keyword": "ワイヤレスイヤホン",
+ "fetched_at": "2026-11",
+ "tasks": [
+  {
+   "cost": 0.0102,
+   "time": "1.2465 sec.",
+   "result": [
+    {
+     "location_code": 2392,
+     "language_code": "ja",
+     "items_count": 2,
+     "items": [
+      {
+       "keyword": "ワイヤレスイヤホン",
+       "ai_search_volume": 4186,
+       "ai_monthly_searches": [
+        {
+         "year": 2026,
+         "month": 10,
+         "ai_search_volume": 4186
+        },
+        {
+         "year": 2026,
+         "month": 9,
+         "ai_search_volume": 5080
+        },
+        {
+         "year": 2026,
+         "month": 8,
+         "ai_search_volume": 4066
+        },
+        {
+         "year": 2026,
+         "month": 7,
+         "ai_search_volume": 4635
+        },
+        {
+         "year": 2026,
+         "month": 6,
+         "ai_search_volume": 5216
+        },
+        {
+         "year": 2026,
+         "month": 5,
+         "ai_search_volume": 6654
+        },
+        {
+         "year": 2026,
+         "month": 4,
+         "ai_search_volume": 6289
+        },
+        {
+         "year": 2026,
+         "month": 3,
+         "ai_search_volume": 6529
+        },
+        {
+         "year": 2026,
+         "month": 2,
+         "ai_search_volume": 6591
+        },
+        {
+         "year": 2026,
+         "month": 1,
+         "ai_search_volume": 7446
+        },
+        {
+         "year": 2025,
+         "month": 12,
+         "ai_search_volume": 7533
+        },
+        {
+         "year": 2025,
+         "month": 11,
+         "ai_search_volume": 6653
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

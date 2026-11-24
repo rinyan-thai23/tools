@@ -8,7 +8,8 @@ const inline = (s) => esc(s)
   .replace(/\*([^*]+)\*/g, '<em>$1</em>');
 
 export function markdownToHtml(src) {
-  const lines = String(src).split('\n');
+  // 画像は表示しない（外部の画像を読み込まないため）。「\.」のようなエスケープは外す
+  const lines = String(src).replace(/!\[[^\]]*\]\([^)]*\)/g, '').replace(/\\([.!()*_#+-])/g, '$1').split('\n');
   let out = '', i = 0;
   const isList = (l) => /^\s*([-*]|\d+\.)\s+/.test(l);
   while (i < lines.length) {

@@ -1,0 +1,38 @@
+<section class="seo">
+<h2>Geminiの答えを調べる方法と、主なツールの比較</h2>
+<p>クライアントの業種を、Geminiに質問したとき、<strong>どのサイトが引用されるのか</strong>。提案書に「AI検索ではこうなっています」と書きたい。質問文を入れると、Geminiの答えと、引用されたページ（Web検索あり）を表にします。</p>
+<div class="scroll"><table>
+<thead><tr><th>方法・ツール</th><th>料金の考え方</th><th>特徴</th></tr></thead>
+<tbody>
+<tr class="me"><td>このツール（DataForSEO）</td><td>1回ごとの従量課金。1回 約$0.015〜0.06（実測3回。平均は約$0.035）</td><td>質問文を入れて、答えの文章と引用ページ（タイトル・URL）を表示。CSVで保存できる。モデルは gemini-3.5-flash-lite に固定</td></tr>
+<tr><td>Geminiの画面（手動）</td><td>無料プランあり（上限は公式で確認）</td><td>自分で聞いて読む。実際の画面。記録は自分で残す</td></tr>
+<tr><td>SE Ranking SE Visible</td><td>月額制（料金は公式で確認）</td><td>Geminiを含む複数のAIでの露出を追う。継続の追跡向き</td></tr>
+<tr><td>Ahrefs Brand Radar</td><td>月額制（公式の料金ページを確認）</td><td>AIでの露出の調査と追跡。提案資料向きの機能が多い</td></tr>
+</tbody></table></div>
+<p class="asof">2026年11月時点の調べです。料金は変わるので、申し込む前に各社の公式サイトで確認してください。</p>
+
+<h2>このツールのメリット</h2>
+<ul>
+<li><strong>答えと引用元が並ぶ。</strong>引用されたページのタイトルとURLを、そのまま控えられます。</li>
+<li><strong>引用元のURLは本来のURL。</strong>Googleの中継リンクではなく、元のページのURLが出ます。</li>
+<li><strong>約7秒で返る。</strong>実測は約4〜8秒でした。</li>
+<li><strong>質問文は自由。</strong>クライアントの業種に合わせた質問で試せます。</li>
+<li><strong>CSVで残せる。</strong>提案書の下書きに貼れます。</li>
+</ul>
+
+<h2>向いていない場面</h2>
+<ul>
+<li><strong>料金を固定したい</strong> → Web検索ありの料金は、答えの長さや検索の回数で変わります。実測では3回で$0.016、$0.030、$0.058でした。</li>
+<li><strong>実際のGeminiの画面と同じ答え</strong> → APIから gemini-3.5-flash-lite に聞いた答えです。画面とは違うことがあります。</li>
+<li><strong>混み合う時間帯</strong> → DataForSEOの先の混雑で、エラー（50301）になることがありました。自動で最大3回やり直し、だめなら「混み合っています」と出ます（このときは料金はかかりません）。</li>
+<li><strong>継続の追跡</strong> → 1回の結果は、その時の1回の答えです。</li>
+</ul>
+<p>このツールは、「ある質問に、Web検索ありのGeminiがどう答え、何を引用するか」を見ることに絞っています。</p>
+
+<h2>よくある質問</h2>
+<details><summary>料金に幅があるのはなぜですか？</summary><p>Web検索ありの答えは、検索の量や答えの長さで料金が変わるためです。実測は、約$0.016〜$0.058でした。</p></details>
+<details><summary>引用元のタイトルが、サイト名（ドメイン）なのはなぜですか？</summary><p>Geminiが返す引用の名前が、サイト名であることが多いためです。そのまま出しています。</p></details>
+<details><summary>エラーになったとき、お金はかかりますか？</summary><p>混雑のエラー（50301）のときは、料金0でした。</p></details>
+<details><summary>国と言語を選ぶ欄がないのはなぜですか？</summary><p>この呼び出しには、国や言語の指定がないためです。</p></details>
+<details><summary>フリーメールで登録できますか？</summary><p>DataForSEOは、フリーメールでは登録できません。くわしくは<a href="/dfs-ja.html">DataForSEOとは？</a>をご覧ください。</p></details>
+</section>

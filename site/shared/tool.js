@@ -1,6 +1,6 @@
 // 全ツール共通の動き。ツールごとの違いは site/Cxx/tool.json に書く。
 import { callApi, ApiError } from '/shared/api.js';
-import { extractRows, extractAnswer, parseVideoId } from '/shared/rows.js';
+import { extractRows, extractAnswer, extractExtra, parseVideoId } from '/shared/rows.js';
 import { init, t, fillMarkets, renderTable, renderAnswer, downloadCsv, fmtDate, startProgress } from '/shared/ui.js';
 
 const id = document.body.dataset.tool;
@@ -13,8 +13,19 @@ function show(task, meta) {
   cols = cfg.result.columns.map((c) => ({ key: c.key, label: t(c.label), link: c.link, type: c.type }));
   rows = extractRows(cfg, task);
   renderAnswer($('answer'), cfg.result.answer ? t(cfg.result.answer.label) : '', extractAnswer(cfg, task));
-  renderTable($('result'), cols, rows);
-  if (cfg.result.title && rows.length) $('result').insertAdjacentHTML('afterbegin', `<h2 class="sub-title">${t(cfg.result.title)}</h2>`);
+  if (cfg.result.answer_only) $('result').innerHTML = '';
+  else {
+    renderTable($('result'), cols, rows);
+    if (cfg.result.title && rows.length) $('result').insertAdjacentHTML('afterbegin', `<h2 class="sub-title">${t(cfg.result.title)}</h2>`);
+  }
+  // 2つ目以降の表（result.extra）
+  for (const x of extractExtra(cfg, task)) {
+    if (!x.rows.length) continue;
+    const d = document.createElement('div');
+    $('result').appendChild(d);
+    renderTable(d, x.columns.map((c) => ({ key: c.key, label: t(c.label), link: c.link, type: c.type })), x.rows);
+    if (x.title) d.insertAdjacentHTML('afterbegin', `<h2 class="sub-title">${t(x.title)}</h2>`);
+  }
   $('meta').textContent = meta;
   $('csv').hidden = !rows.length;
 }
@@ -23,7 +34,8 @@ function params() {
   const p = { ...(cfg.params || {}) };
   for (const i of cfg.inputs) {
     const v = $('in-' + i.id).value.trim();
-    if (i.transform === 'video_id') { const vid = parseVideoId(v); if (!vid) throw new ApiError('bad_video'); p[i.param] = vid; } else p[i.param] = v;
+    if (i.wrap === 'array') p[i.param] = [v];
+    else if (i.transform === 'video_id') { const vid = parseVideoId(v); if (!vid) throw new ApiError('bad_video'); p[i.param] = vid; } else p[i.param] = v;
   }
   // markets: true=国と言語／"country"=国だけ／"language"=言語だけ（language_params に送り先の項目名）
   if (cfg.markets === true || cfg.markets === 'country') p.location_code = +$('country').value;

@@ -1,0 +1,46 @@
+{
+  "id": "C18",
+  "endpoint": "ai_optimization/chat_gpt/llm_responses/live",
+  "who": "local_shop",
+  "markets": false,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "prompt",
+      "param": "user_prompt",
+      "label": "c18.prompt"
+    }
+  ],
+  "params": {
+    "model_name": "gpt-4o-mini",
+    "web_search": true
+  },
+  "result": {
+    "answer": {
+      "sections": true,
+      "label": "c18.answer"
+    },
+    "items": "result.0.items",
+    "where": {
+      "type": "message"
+    },
+    "flatten": [
+      "sections",
+      "annotations"
+    ],
+    "unique": "url",
+    "columns": [
+      {
+        "key": "title",
+        "label": "c18.col.title"
+      },
+      {
+        "key": "url",
+        "label": "c18.col.url",
+        "link": true
+      }
+    ],
+    "title": "c18.refs"
+  },
+  "csv": "C18.csv"
+}

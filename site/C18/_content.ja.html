@@ -1,0 +1,38 @@
+<section class="seo">
+<h2>ChatGPTの答えを調べる方法と、主なツールの比較</h2>
+<p>お客さんが「渋谷でおすすめのラーメン店は？」とChatGPTに聞いたとき、<strong>自分の店は出てくるのか、どこが引用されているのか</strong>。質問文を入れると、ChatGPT（Web検索あり）の答えと、答えが引用したページの一覧を表にします。</p>
+<div class="scroll"><table>
+<thead><tr><th>方法・ツール</th><th>料金の考え方</th><th>特徴</th></tr></thead>
+<tbody>
+<tr class="me"><td>このツール（DataForSEO）</td><td>1回ごとの従量課金。1回 約$0.03（実測：$0.027、回答の長さで変わる）</td><td>質問文を入れて、答え（文章）と引用ページ（タイトル・URL）を表示。CSVで保存できる。モデルは gpt-4o-mini に固定</td></tr>
+<tr><td>ChatGPTの画面（手動）</td><td>無料プランあり（上限は公式で確認）</td><td>自分で聞いて読む。実際の画面なのでいちばん確かだが、記録は自分で残す</td></tr>
+<tr><td>Ahrefs Brand Radar（Prompt Tracking）</td><td>月額制（公式の料金ページに、プロンプト追跡は月$50〜の表示）</td><td>決めた質問を毎日追って、自社が出るかを記録する。継続の追跡向き</td></tr>
+<tr><td>SE Ranking SE Visible</td><td>月額制（料金は公式で確認）</td><td>複数のAI（ChatGPT・Gemini・Perplexityなど）での露出を追う。継続の追跡向き</td></tr>
+</tbody></table></div>
+<p class="asof">2026年11月時点の調べです。料金は変わるので、申し込む前に各社の公式サイトで確認してください。</p>
+
+<h2>このツールのメリット</h2>
+<ul>
+<li><strong>答えと、引用元が並ぶ。</strong>どのページが引用されたかが、URLつきで分かります。</li>
+<li><strong>聞きたい質問を、そのまま入れられる。</strong>お客さんが聞きそうな言い方で試せます。</li>
+<li><strong>1回 約$0.03、約4秒。</strong>$1で約35回。質問を変えながら、気軽に試せます。</li>
+<li><strong>Web検索ありで答える。</strong>古い知識だけで答えるのではなく、検索した結果を使った答えです。</li>
+<li><strong>CSVで残せる。</strong>引用ページの一覧を、日付ごとに控えられます。</li>
+</ul>
+
+<h2>向いていない場面</h2>
+<ul>
+<li><strong>実際のChatGPTの画面と同じ答え</strong>が欲しい → このツールは、APIから gpt-4o-mini に聞いた答えです。画面とは、モデルも答えも違うことがあります。画面そのものを見るなら「ChatGPT検索の画面を見る」が向いています。</li>
+<li><strong>自分の店が出たかどうかの判定</strong> → このツールは、答えをそのまま並べるだけです。</li>
+<li><strong>毎日の追跡</strong> → 1回の結果は、その時の1回の答えです。同じ質問でも、答えは毎回少し変わることがあります。</li>
+<li><strong>お客さんがいる場所</strong>（近くの店）での答え → 場所は指定できません。</li>
+</ul>
+<p>このツールは、「ある質問に、Web検索ありのChatGPTがどう答え、何を引用するか」を見ることに絞っています。</p>
+
+<h2>よくある質問</h2>
+<details><summary>なぜ1回約$0.03もかかるのですか？</summary><p>Web検索ありだと、検索の分の入力が増えるためです。実測では、Web検索なしの安いモデルは約$0.002、gpt-4o-miniのWeb検索ありは約$0.027でした。</p></details>
+<details><summary>引用元の表が空になることはありますか？</summary><p>答えが引用を付けない場合は、表は空になります。</p></details>
+<details><summary>国と言語を選ぶ欄がないのはなぜですか？</summary><p>このAPIの呼び出しには、国や言語の指定がないためです。質問文を日本語で書けば、日本語で答えます。</p></details>
+<details><summary>同じ質問をもう一度すると、同じ答えですか？</summary><p>答えは毎回変わることがあります。違いを見たいときは、日を変えて取り直してください。</p></details>
+<details><summary>フリーメールで登録できますか？</summary><p>DataForSEOは、フリーメールでは登録できません。くわしくは<a href="/dfs-ja.html">DataForSEOとは？</a>をご覧ください。</p></details>
+</section>

@@ -14,10 +14,10 @@ C14	1（Web）	YouTube	serp/youtube/organic/live/advanced	YouTube検索の上位
 C15	1（Web）	YouTube	serp/youtube/video_info/live/advanced	動画1本の数字を見る	動画URL	タイトル・再生数・高評価数・コメント数・投稿日・説明文	$0.006	166	YouTuber志望	伸びている動画の数字を確かめる	vidIQ：動画の分析	
 C16	1（Web）	YouTube	serp/youtube/video_comments/live/advanced	動画のコメントを見る	動画URL	コメント本文・いいね数・返信数・投稿日	$0.002（20件ごと）。100件で$0.01	100	物販（Amazon・メルカリ）	商品レビュー動画のコメントで本音を読む	vidIQ：Comment Analysis	
 C17	1（Web）	YouTube	serp/youtube/video_subtitles/live/advanced	動画の字幕を全文で見る	動画URL（＋字幕の言語を選ぶ）	時間・字幕テキスト	$0.006	166	Kindle作家・note書き	動画の内容を文字で読む		
-C18	1（Web）	AI	ai_optimization/chat_gpt/llm_responses/live	ChatGPTの答えを見る	質問文	回答文・引用元	$0.0006＋モデル料金		地元の店主	お客さんがChatGPTに聞いたら何と答えるか見る	Ahrefs：Brand Radar の Prompt Tracking	モデルは安いものに固定。Web検索はオン
-C19	1（Web）	AI	ai_optimization/claude/llm_responses/live	Claudeの答えを見る	質問文	回答文	$0.0006＋モデル料金		B2Bの営業担当	Claudeに聞いたら何と答えるか見る	Ahrefs：Brand Radar の Prompt Tracking	モデルは安いものに固定
-C20	1（Web）	AI	ai_optimization/gemini/llm_responses/live	Geminiの答えを見る	質問文	回答文・引用元	$0.0006＋モデル料金		Web制作・SEO受託のフリーランス	Geminiに聞いたら何と答えるか見る	SE Ranking：SE Visible	モデルは安いものに固定。Web検索はオン
-C21	1（Web）	AI	ai_optimization/perplexity/llm_responses/live	Perplexityの答えを見る	質問文	回答文・引用元	$0.0006＋モデル料金		ASPアフィリエイター	Perplexityがどのサイトを引用するか見る	Ahrefs：Brand Radar の AI Visibility	モデルは安いものに固定
+C18	1（Web）	AI	ai_optimization/chat_gpt/llm_responses/live	ChatGPTの答えを見る	質問文	回答文・引用元	約$0.03（実測$0.027。gpt-4o-mini・Web検索あり。TSV旧：$0.0006＋モデル料金）		地元の店主	お客さんがChatGPTに聞いたら何と答えるか見る	Ahrefs：Brand Radar の Prompt Tracking	モデルは安いものに固定。Web検索はオン
+C19	1（Web）	AI	ai_optimization/claude/llm_responses/live	Claudeの答えを見る	質問文	回答文	約$0.002（実測$0.0022。claude-haiku-4-5・Web検索なし）		B2Bの営業担当	Claudeに聞いたら何と答えるか見る	Ahrefs：Brand Radar の Prompt Tracking	モデルは安いものに固定
+C20	1（Web）	AI	ai_optimization/gemini/llm_responses/live	Geminiの答えを見る	質問文	回答文・引用元	約$0.015〜0.06（実測。gemini-3.5-flash-lite・Web検索あり）		Web制作・SEO受託のフリーランス	Geminiに聞いたら何と答えるか見る	SE Ranking：SE Visible	モデルは安いものに固定。Web検索はオン
+C21	1（Web）	AI	ai_optimization/perplexity/llm_responses/live	Perplexityの答えを見る	質問文	回答文・引用元	約$0.006（実測$0.0059。sonar）		ASPアフィリエイター	Perplexityがどのサイトを引用するか見る	Ahrefs：Brand Radar の AI Visibility	モデルは安いものに固定
 C22	1（Web）	AI	ai_optimization/chat_gpt/llm_scraper/live/advanced	ChatGPT検索の画面を見る	キーワード	回答・引用元・商品	$0.004	250	物販（Amazon・メルカリ）	ChatGPT検索でどの商品が出るか見る	Semrush：AI Visibility	
 C23	1（Web）	AI	ai_optimization/ai_keyword_data/keywords_search_volume/live	AIでの質問回数を見る	キーワード	AI上の月間検索数・推移	$0.0101	99	Kindle作家・note書き	AIでよく聞かれているテーマか確かめる	Semrush：Prompt Research	
 C24	1（Web）	キーワードデータ	keywords_data/google_ads/search_volume/live	検索ボリュームを見る	キーワード（改行で複数可）	検索数・CPC・競合度・12か月推移	$0.09（1〜1000語まで同額）	11	初心者ブロガー	そのキーワードが月に何回検索されているか見る	Ahrefs：Keywords Explorer の Volume	同額なので複数行入力を受け付ける

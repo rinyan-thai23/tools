@@ -50,3 +50,5 @@ ul.tools{padding-left:1.2em}
 .answer li.d1{margin-left:1.2em;list-style:circle}
 .answer mark{background:#fef08a}
 .answer .cite{font-size:.75rem;vertical-align:super;text-decoration:none}
+
+.answer, .answer a { overflow-wrap: anywhere; }

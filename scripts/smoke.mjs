@@ -34,8 +34,9 @@ for (const id of ids) for (const l of langs) {
   try {
     const res = await p.goto(url);
     if (res.status() !== 200) E.push('HTTP ' + res.status());
-    await p.waitForSelector('#result table', { timeout: 8000 }).catch(() => E.push('サンプルの表が出ない'));
-    const n = await p.$$eval('#result tbody tr', (r) => r.length).catch(() => 0);
+    const aOnly = (() => { try { return JSON.parse(readFileSync(`site/${id}/tool.json`, 'utf8')).result.answer_only; } catch { return false; } })();
+    await p.waitForSelector(aOnly ? '#answer .answer' : '#result table', { timeout: 8000 }).catch(() => E.push('サンプルの表が出ない'));
+    const n = aOnly ? 1 : await p.$$eval('#result tbody tr', (r) => r.length).catch(() => 0);
     const cfg = JSON.parse(readFileSync(`site/${id}/tool.json`, 'utf8'));
     if (n < (cfg.min_sample_rows ?? 3)) E.push(`サンプルの行が少ない（${n}）`);
     if (cfg.result.answer && !(await p.$('#answer .answer p'))) E.push('回答文が表示されない');

@@ -1,0 +1,36 @@
+{
+  "id": "C23",
+  "endpoint": "ai_optimization/ai_keyword_data/keywords_search_volume/live",
+  "who": "kindle_note",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keywords",
+      "label": "c23.keyword",
+      "wrap": "array"
+    }
+  ],
+  "result": {
+    "items": "result.0.items.0.ai_monthly_searches",
+    "where": {},
+    "columns": [
+      {
+        "key": "ym",
+        "label": "c23.col.ym",
+        "join": [
+          "year",
+          "month"
+        ],
+        "sep": "-"
+      },
+      {
+        "key": "volume",
+        "label": "c23.col.volume",
+        "from": "ai_search_volume"
+      }
+    ]
+  },
+  "csv": "C23.csv"
+}

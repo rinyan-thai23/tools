@@ -49,7 +49,7 @@ export async function callApi(path, body, { onRetry } = {}) {
       if (code === 40210) throw new ApiError('40210');
       if (code === 40207) throw new ApiError('40207');
       if (code === 40102) throw new ApiError('40102');
-      if (code === 40101 || code === 40103) { lastErr = 'busy'; if (i < 2 && onRetry) onRetry(i + 2); await sleep(1500 * (i + 1)); continue; }
+      if (code === 40101 || code === 40103 || code === 50301) { lastErr = 'busy'; if (i < 2 && onRetry) onRetry(i + 2); await sleep(1500 * (i + 1)); continue; }
       throw new ApiError('other');
     } catch (e) {
       if (e instanceof ApiError) throw e;

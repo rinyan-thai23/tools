@@ -1,0 +1,38 @@
+<section class="seo">
+<h2>Claudeの答えを調べる方法と、主なツールの比較</h2>
+<p>見込み客が「中小企業向けの勤怠管理サービスのおすすめは？」とClaudeに聞いたとき、<strong>自社の名前は挙がるのか</strong>。営業の前に確かめたい。質問文を入れると、Claudeの答えを文章で表示します。</p>
+<div class="scroll"><table>
+<thead><tr><th>方法・ツール</th><th>料金の考え方</th><th>特徴</th></tr></thead>
+<tbody>
+<tr class="me"><td>このツール（DataForSEO）</td><td>1回ごとの従量課金。1回 約$0.002（実測、Web検索なし）</td><td>質問文を入れて、答えの文章を表示。CSVで保存できる。モデルは claude-haiku-4-5 に固定</td></tr>
+<tr><td>Claudeの画面（手動）</td><td>無料プランあり（上限は公式で確認）</td><td>自分で聞いて読む。実際の画面で、いちばん確か。記録は自分で残す</td></tr>
+<tr><td>Ahrefs Brand Radar（Prompt Tracking）</td><td>月額制（プロンプト追跡は月$50〜の表示。対応するAIは公式で確認）</td><td>決めた質問を毎日追う。継続の追跡向き</td></tr>
+<tr><td>SE Ranking SE Visible</td><td>月額制（料金は公式で確認）</td><td>複数のAIでの露出を追う。対応するAIは公式で確認</td></tr>
+</tbody></table></div>
+<p class="asof">2026年11月時点の調べです。料金は変わるので、申し込む前に各社の公式サイトで確認してください。</p>
+
+<h2>このツールのメリット</h2>
+<ul>
+<li><strong>答えを文章で読める。</strong>自社や競合の名前が挙がるかを、目で確かめられます。</li>
+<li><strong>1回 約$0.002、約4秒。</strong>$1で約450回。質問をいくつも変えて試せます。</li>
+<li><strong>質問文は自由。</strong>見込み客が聞きそうな言い方で試せます。</li>
+<li><strong>CSVで残せる。</strong>答えの文章を、日付つきで控えられます。</li>
+<li><strong>見出しや箇条書きもそのまま読める。</strong></li>
+</ul>
+
+<h2>向いていない場面</h2>
+<ul>
+<li><strong>最新の情報や引用元</strong> → このツールはWeb検索を使いません。Claudeが持っている知識だけで答え、引用元は出ません（Web検索ありは約$0.025かかりました）。</li>
+<li><strong>実際のClaudeの画面と同じ答え</strong> → APIから claude-haiku-4-5 に聞いた答えです。画面とは、モデルも答えも違うことがあります。</li>
+<li><strong>自社が挙がったかの判定</strong> → 答えをそのまま並べるだけです。</li>
+<li><strong>継続の追跡</strong> → 1回の結果は、その時の1回の答えです。</li>
+</ul>
+<p>このツールは、「ある質問に、ClaudeがWeb検索なしでどう答えるか」を見ることに絞っています。</p>
+
+<h2>よくある質問</h2>
+<details><summary>なぜ引用元が出ないのですか？</summary><p>Web検索を使わないためです。引用元が欲しいときは、PerplexityやGeminiのツールが向いています。</p></details>
+<details><summary>料金は答えの長さで変わりますか？</summary><p>変わります。実測は約$0.002でした。長い答えが返る質問では、少し上がることがあります。</p></details>
+<details><summary>国と言語を選ぶ欄がないのはなぜですか？</summary><p>この呼び出しには、国や言語の指定がないためです。</p></details>
+<details><summary>同じ質問で、答えは同じですか？</summary><p>答えは毎回変わることがあります。</p></details>
+<details><summary>フリーメールで登録できますか？</summary><p>DataForSEOは、フリーメールでは登録できません。くわしくは<a href="/dfs-ja.html">DataForSEOとは？</a>をご覧ください。</p></details>
+</section>
