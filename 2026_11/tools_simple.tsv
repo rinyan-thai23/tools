@@ -1,0 +1,96 @@
+ID	段	カテゴリ	エンドポイント	ツール名	入力	表示する項目	1回の$料金	$1で試せる回数	誰の	使う場面	大手で言うと	メモ
+C01	1（Web）	SERP（Google）	serp/google/organic/live/advanced	検索の上位10件を見る	キーワード	順位・タイトル・URL・ドメイン	$0.004	250	初心者ブロガー	書く前に、上位にどんなサイトがいるか見る	Ahrefs：Keywords Explorer の SERP overview	resolve_goto_urls と resolve_poisoned_results を付ける（shared/api.js が自動で付与）。1〜2分かかる
+C02	1（Web）	SERP（Google）	serp/google/ai_mode/live/advanced	GoogleのAIモードの答えを見る	キーワード	回答文・引用元のタイトルとURL	$0.004	250	ASPアフィリエイター	自分の記事がAIモードに引用されているか見る	Ahrefs：Brand Radar の AI Visibility	
+C03	1（Web）	SERP（Google）	serp/google/maps/live/advanced	Googleマップの上位店を見る	キーワード（例：渋谷 整体）	順位・店名・評価・口コミ数・住所・電話・サイト	$0.002（100件まで）	500	地元の店主	自分の店や競合が地図の何番目か見る	Local Falcon：Local Rank Tracking	
+C04	1（Web）	SERP（Google）	serp/google/local_finder/live/advanced	地図の「もっと見る」一覧を見る	キーワード	順位・店名・評価・口コミ数・住所	$0.002	500	宿・観光業のオーナー	地図の3枠より下も含めて自分の位置を見る	Semrush：Map Rank Tracker	resolve_goto_urls の対象
+C05	1（Web）	SERP（Google）	serp/google/news/live/advanced	Googleニュースの記事を見る	キーワード（社名など）	媒体名・日付・タイトル・URL	$0.002	500	中小企業の経営者・広報	自社や業界がニュースでどう出ているか見る	Brand24：Mentions	resolve_goto_urls の対象
+C06	1（Web）	SERP（Google）	serp/google/events/live/advanced	Googleのイベント情報を見る	キーワード	イベント名・日時・場所・URL	要確認		インバウンド・海外向け発信者	地域のイベントを一覧で見る		APIは英語のみ。英語版だけで公開
+C07	1（Web）	SERP（Google）	serp/google/images/live/advanced	画像検索の上位を見る	キーワード	画像・タイトル・掲載ページURL	$0.002（100件まで）	500	Kindle作家・note書き	表紙やサムネの傾向を見る	Ahrefs：Rank Tracker の Image pack	
+C08	1（Web）	SERP（Google）	serp/google/autocomplete/live/advanced	検索窓のサジェストを見る	キーワード	サジェスト候補の一覧	$0.002	500	初心者ブロガー	読者がそのキーワードと一緒に何を調べているか見る	ラッコキーワード：サジェスト	
+C09	1（Web）	SERP（Google）	serp/google/dataset_search/live/advanced	公開データセットを探す	テーマ	名称・提供元・更新日・URL	$0.002（20件）	500	Kindle作家・note書き	記事や本に使える統計データを探す		
+C10	1（Web）	SERP（Google）	serp/google/ads_advertisers/live/advanced	Google広告の広告主を探す	会社名かドメイン	広告主名・広告主ID・国・広告数	$0.002	500	地元の店主	競合が広告を出しているか見る	Semrush：Advertising Research	
+C11	1（Web）	SERP（Google）	serp/google/ads_search/live/advanced	出稿中の広告を見る	ドメイン	広告の形式・画像または文面・最初の表示日・最後の表示日	$0.002（40件）	500	Web制作・SEO受託のフリーランス	競合の広告の出し方を見る	Ahrefs：Site Explorer の Paid	ドメインだけで引けるかは Phase 0 で確認
+C14	1（Web）	YouTube	serp/youtube/organic/live/advanced	YouTube検索の上位動画を見る	キーワード	順位・タイトル・チャンネル・再生数・投稿日・長さ	$0.002（20件）	500	YouTuber志望	そのジャンルにどんな動画が並んでいるか見る	vidIQ：Keywords Research	
+C15	1（Web）	YouTube	serp/youtube/video_info/live/advanced	動画1本の数字を見る	動画URL	タイトル・再生数・高評価数・コメント数・投稿日・説明文	$0.006	166	YouTuber志望	伸びている動画の数字を確かめる	vidIQ：動画の分析	
+C16	1（Web）	YouTube	serp/youtube/video_comments/live/advanced	動画のコメントを見る	動画URL	コメント本文・いいね数・返信数・投稿日	$0.002（20件ごと）。100件で$0.01	100	物販（Amazon・メルカリ）	商品レビュー動画のコメントで本音を読む	vidIQ：Comment Analysis	
+C17	1（Web）	YouTube	serp/youtube/video_subtitles/live/advanced	動画の字幕を全文で見る	動画URL	時間・字幕テキスト	$0.006	166	Kindle作家・note書き	動画の内容を文字で読む		
+C18	1（Web）	AI	ai_optimization/chat_gpt/llm_responses/live	ChatGPTの答えを見る	質問文	回答文・引用元	$0.0006＋モデル料金		地元の店主	お客さんがChatGPTに聞いたら何と答えるか見る	Ahrefs：Brand Radar の Prompt Tracking	モデルは安いものに固定。Web検索はオン
+C19	1（Web）	AI	ai_optimization/claude/llm_responses/live	Claudeの答えを見る	質問文	回答文	$0.0006＋モデル料金		B2Bの営業担当	Claudeに聞いたら何と答えるか見る	Ahrefs：Brand Radar の Prompt Tracking	モデルは安いものに固定
+C20	1（Web）	AI	ai_optimization/gemini/llm_responses/live	Geminiの答えを見る	質問文	回答文・引用元	$0.0006＋モデル料金		Web制作・SEO受託のフリーランス	Geminiに聞いたら何と答えるか見る	SE Ranking：SE Visible	モデルは安いものに固定。Web検索はオン
+C21	1（Web）	AI	ai_optimization/perplexity/llm_responses/live	Perplexityの答えを見る	質問文	回答文・引用元	$0.0006＋モデル料金		ASPアフィリエイター	Perplexityがどのサイトを引用するか見る	Ahrefs：Brand Radar の AI Visibility	モデルは安いものに固定
+C22	1（Web）	AI	ai_optimization/chat_gpt/llm_scraper/live/advanced	ChatGPT検索の画面を見る	キーワード	回答・引用元・商品	$0.004	250	物販（Amazon・メルカリ）	ChatGPT検索でどの商品が出るか見る	Semrush：AI Visibility	
+C23	1（Web）	AI	ai_optimization/ai_keyword_data/keywords_search_volume/live	AIでの質問回数を見る	キーワード	AI上の月間検索数・推移	$0.0101	99	Kindle作家・note書き	AIでよく聞かれているテーマか確かめる	Semrush：Prompt Research	
+C24	1（Web）	キーワードデータ	keywords_data/google_ads/search_volume/live	検索ボリュームを見る	キーワード（改行で複数可）	検索数・CPC・競合度・12か月推移	$0.09（1〜1000語まで同額）	11	初心者ブロガー	そのキーワードが月に何回検索されているか見る	Ahrefs：Keywords Explorer の Volume	同額なので複数行入力を受け付ける
+C25	1（Web）	キーワードデータ	keywords_data/google_ads/keywords_for_site/live	サイトに合うキーワードを出す	ドメイン	キーワード・検索数・CPC・競合度	$0.09	11	Web制作・SEO受託のフリーランス	顧客サイトに合うキーワード候補を出す	Google広告：キーワードプランナー	
+C26	1（Web）	キーワードデータ	keywords_data/google_ads/keywords_for_keywords/live	広告用の関連キーワードを出す	キーワード	キーワード・検索数・CPC・競合度	$0.09	11	地元の店主	広告に使えそうなキーワードを出す	Google広告：キーワードプランナー	
+C29	1（Web）	キーワードデータ	keywords_data/google_trends/explore/live	Googleトレンドの推移を見る	キーワード（最大5個）	人気度の推移・関連トピック・関連キーワード	$0.011	90	Kindle作家・note書き	旬の時期を見る	Keywords Everywhere：Google Trends 連携	
+C30	1（Web）	キーワードデータ	keywords_data/dataforseo_trends/explore/live	人気度の推移を見る	キーワード	人気度の推移	$0.0012	833	YouTuber志望	ジャンルの人気が上がっているか見る		
+C31	1（Web）	キーワードデータ	keywords_data/dataforseo_trends/subregion_interests/live	都道府県別の人気を見る	キーワード	地域・人気度	$0.0024	416	地元の店主	どの地域でよく検索されているか見る	Googleトレンドの地域表示	
+C32	1（Web）	キーワードデータ	keywords_data/dataforseo_trends/demography/live	検索している人の年齢・性別を見る	キーワード	年齢層・性別の割合	$0.0024	416	初心者ブロガー	読者の年齢層と性別を知る	SimilarWeb：Audience	日本のデータが取れるかは Phase 0 で確認
+C33	1（Web）	キーワードデータ	keywords_data/clickstream_data/global_search_volume/live	国別の検索数を見る	キーワード	国・検索数・割合	$0.18	5	インバウンド・海外向け発信者	そのキーワードがどの国で探されているか見る	Ahrefs：Keywords Explorer の Global volume	料金が高め
+C34	1（Web）	Labs	dataforseo_labs/google/keywords_for_site/live	サイトに関連するキーワードを見る	ドメイン	キーワード・検索数・難易度	$0.024（100件）	41	初心者ブロガー	自分のブログに合うキーワードを見る	Ahrefs：Site Explorer の Top pages / keywords	取得は100件まで
+C35	1（Web）	Labs	dataforseo_labs/google/related_keywords/live	関連キーワードを見る	キーワード	キーワード・検索数・難易度	$0.024（100件）	41	初心者ブロガー	次に書く記事の候補を見る	Ahrefs：Keywords Explorer の Related terms	取得は100件まで
+C36	1（Web）	Labs	dataforseo_labs/google/keyword_suggestions/live	そのキーワードを含む言葉を見る	キーワード	キーワード・検索数・難易度	$0.024（100件）	41	Kindle作家・note書き	ロングテールを探す	Ahrefs：Keywords Explorer の Matching terms	取得は100件まで
+C37	1（Web）	Labs	dataforseo_labs/google/keyword_ideas/live	同じジャンルのキーワードを見る	キーワード	キーワード・検索数・難易度	$0.024（100件）	41	ASPアフィリエイター	言い換えのキーワードを探す	Ahrefs：Keywords Explorer の Keyword ideas	取得は100件まで
+C38	1（Web）	Labs	dataforseo_labs/google/bulk_keyword_difficulty/live	キーワードの難易度を見る	キーワード（改行で複数可）	キーワード・難易度（0〜100）	$0.024（100語）	41	Web制作・SEO受託のフリーランス	複数のキーワードの難しさをまとめて見る	Ahrefs：Keywords Explorer の Keyword Difficulty	数字はそのまま出す
+C39	1（Web）	Labs	dataforseo_labs/google/search_intent/live	検索意図を見る	キーワード（改行で複数可）	キーワード・検索意図	$0.024（100語）	41	ASPアフィリエイター	買う人の検索か、調べる人の検索かを見る	Ahrefs：Keywords Explorer の Intents	意図の名前は日本語に置き換えるだけ
+C40	1（Web）	Labs	dataforseo_labs/google/keyword_overview/live	キーワードの基本データを見る	キーワード	検索数・CPC・難易度・検索意図	$0.012	83	初心者ブロガー	1つのキーワードの数字をまとめて見る	Semrush：Keyword Overview	
+C41	1（Web）	Labs	dataforseo_labs/google/historical_keyword_data/live	過去の月別検索数を見る	キーワード	年月・検索数	$0.012	83	物販（Amazon・メルカリ）	毎年いつ売れ時が来るか見る	Keywords Everywhere：12か月推移	
+C42	1（Web）	Labs	dataforseo_labs/google/categories_for_domain/live	サイトのジャンルを見る	ドメイン	カテゴリ・キーワード数・推定流入	$0.024（100件）	41	B2Bの営業担当	相手のサイトがどのジャンルで強いか見る	SimilarWeb：Website Category	
+C43	1（Web）	Labs	dataforseo_labs/google/top_searches/live	よく検索されている言葉を見る	なし（ボタンだけ）	キーワード・検索数	$0.024（100件）	41	Kindle作家・note書き	いま多く検索されている言葉を眺める	Keywords Everywhere：検索数の傾向	国は画面の言語で決まる
+C44	1（Web）	Labs	dataforseo_labs/google/serp_competitors/live	キーワード群で強いサイトを見る	キーワード（改行で複数可）	ドメイン・平均順位・推定流入	$0.024（100件）	41	Web制作・SEO受託のフリーランス	そのジャンルの強いサイトを見る	Ahrefs：Site Explorer の Competitors	
+C45	1（Web）	Labs	dataforseo_labs/google/ranked_keywords/live	サイトが上位にいるキーワードを見る	ドメイン	キーワード・順位・検索数・URL	$0.024（100件）	41	ASPアフィリエイター	自分や競合のブログがどのキーワードで出ているか見る	Ahrefs：Site Explorer の Organic keywords	
+C46	1（Web）	Labs	dataforseo_labs/google/competitors_domain/live	キーワードがかぶるサイトを見る	ドメイン	ドメイン・共通キーワード数・推定流入	$0.024（100件）	41	中小企業の経営者・広報	ネット上のライバルを見つける	Semrush：Organic Research の Competitors	
+C47	1（Web）	Labs	dataforseo_labs/google/domain_intersection/live	2つのサイトの共通キーワードを見る	ドメイン2つ	キーワード・各サイトの順位・検索数	$0.024（100件）	41	Web制作・SEO受託のフリーランス	競合と自社でかぶるキーワードを見る	Ahrefs：Site Explorer の Content gap	この機能は入力が2つ必要
+C48	1（Web）	Labs	dataforseo_labs/google/relevant_pages/live	サイトの流入が多いページを見る	ドメイン	URL・推定流入・キーワード数	$0.024（100件）	41	ASPアフィリエイター	競合の稼ぎ頭の記事を見る	Ahrefs：Site Explorer の Top pages	
+C49	1（Web）	Labs	dataforseo_labs/google/domain_rank_overview/live	サイトの推定流入を見る	ドメイン	推定流入・キーワード数・順位帯ごとの数	$0.012	83	B2Bの営業担当	相手のサイトの規模を見る	Ahrefs：Site Explorer の Overview	
+C50	1（Web）	Labs	dataforseo_labs/google/historical_serps/live	上位の顔ぶれの変化を見る	キーワード	年月・順位・ドメイン	$0.0014（12か月）	714	ASPアフィリエイター	上位のサイトが入れ替わっているか見る	Ahrefs：Keywords Explorer の SERP overview（過去）	
+C51	1（Web）	Labs	dataforseo_labs/google/historical_rank_overview/live	サイトの推定流入の推移を見る	ドメイン	年月・推定流入・キーワード数	$0.134（12か月）	7	中小企業の経営者・広報	自社サイトが伸びているか見る	Ahrefs：Site Explorer の Overview（推移）	料金が高め
+C52	1（Web）	Labs	dataforseo_labs/google/page_intersection/live	2つの記事の共通キーワードを見る	記事のURL2つ	キーワード・各記事の順位・検索数	$0.024（100件）	41	初心者ブロガー	上位記事どうしで共通のキーワードを見る	Ahrefs：Site Explorer の Content gap	この機能は入力が2つ必要
+C53	1（Web）	Labs	dataforseo_labs/google/bulk_traffic_estimation/live	複数サイトの推定流入を見る	ドメイン（改行で複数可）	ドメイン・推定流入	$0.024（100件）	41	B2Bの営業担当	営業先リストの規模をまとめて見る	Semrush：Domain Overview の一括分析	
+C54	1（Web）	Labs（Amazon）	dataforseo_labs/amazon/bulk_search_volume/live	Amazon内の検索数を見る	キーワード（改行で複数可）	キーワード・Amazon内の検索数	$0.024（100語）	41	物販（Amazon・メルカリ）	Amazonで探されている言葉か見る	Helium 10：Magnet	日本のAmazonに対応しているかは Phase 0 で確認
+C55	1（Web）	Labs（Amazon）	dataforseo_labs/amazon/related_keywords/live	Amazonの関連キーワードを見る	キーワード	キーワード・検索数	$0.024（100件）	41	物販（Amazon・メルカリ）	商品タイトルに入れる言葉を探す	Helium 10：Magnet	日本のAmazonに対応しているかは Phase 0 で確認
+C56	1（Web）	Labs（Amazon）	dataforseo_labs/amazon/ranked_keywords/live	商品が上位に出るキーワードを見る	ASIN	キーワード・順位・検索数	$0.024（100件）	41	物販（Amazon・メルカリ）	売れている商品がどの言葉で出ているか見る	Helium 10：Cerebro	同上
+C57	1（Web）	Labs（Amazon）	dataforseo_labs/amazon/product_competitors/live	競合商品を見る	ASIN	ASIN・商品名・共通キーワード数	$0.024（100件）	41	物販（Amazon・メルカリ）	似た商品を見つける	Helium 10：Xray	同上
+C58	1（Web）	Labs（アプリ）	dataforseo_labs/google/keywords_for_app/live	アプリが上位に出るキーワードを見る	アプリID	キーワード・順位・検索数	$0.024（100件）	41	個人のアプリ開発者	アプリがどの言葉で見つかっているか見る		
+C59	1（Web）	Labs（アプリ）	dataforseo_labs/google/app_competitors/live	競合アプリを見る	アプリID	アプリ名・共通キーワード数	$0.024（100件）	41	個人のアプリ開発者	似たアプリを見つける		
+C60	1（Web）	ページ診断	on_page/instant_pages	ページの基本情報を見る	URL	タイトル・説明文・見出し数・文字数・読み込み時間・エラー	$0.00015	6666	Web制作・SEO受託のフリーランス	1ページの基本をさっと確かめる	Ahrefs：Site Audit	
+C61	1（Web）	ページ診断	on_page/content_parsing/live	ページの見出しと本文を取り出す	URL	見出し（H1〜H4）・本文	$0.00015	6666	初心者ブロガー	上位記事の見出し構成を見る	ラッコキーワード：見出し抽出	
+C62	1（Web）	ページ診断	on_page/lighthouse/live/json	表示速度の点数を見る	URL	速度・SEO・使いやすさ・おすすめ設定の点数	$0.005	200	地元の店主	自分のサイトが遅くないか見る	PageSpeed Insights	
+C63	1（Web）	ページ診断	on_page/page_screenshot	ページのスクショを撮る	URL	ページ全体の画像	$0.0048	208	宿・観光業のオーナー	競合のページを画像で残す		
+C64	1（Web）	コンテンツ分析	content_analysis/search/live	ネット上の言及を見る	キーワード（社名など）	ページタイトル・URL・日付・感情	$0.028（100件）	35	中小企業の経営者・広報	自社名に触れているページを見る	Brand24：Mentions	日本語の網羅度は Phase 0 で確認
+C65	1（Web）	コンテンツ分析	content_analysis/summary/live	言及の集計を見る	キーワード	言及数・感情の内訳・ページの種類の内訳	$0.028	35	B2Bの営業担当	ネットでどれくらい話題か見る	Brand24：Analytics	同上
+C66	1（Web）	コンテンツ分析	content_analysis/sentiment_analysis/live	言及の感情の割合を見る	キーワード	ポジティブ・ネガティブ・中立の割合	$0.028	35	中小企業の経営者・広報	評判がよいか悪いかの割合を見る	Brand24：Sentiment Analysis	同上
+C67	1（Web）	コンテンツ分析	content_analysis/phrase_trends/live	言及数の推移を見る	キーワード	日付・言及数	$0.028	35	Kindle作家・note書き	話題が上がっているか下がっているか見る	Brand24：Mentions の推移グラフ	同上
+C68	1（Web）	ビジネスデータ	business_data/business_listings/search/live	地域の事業者を見る	業種＋地域	名称・カテゴリ・住所・電話・サイト・評価	$0.048（100件）	20	B2Bの営業担当	営業先の候補を一覧にする		入力は2つ（業種と地域）
+C69	1（Web）	ビジネスデータ	business_data/google/my_business_info/live	Googleビジネスの情報を見る	店名と地域（1行で）	名称・カテゴリ・評価・口コミ数・住所・電話・営業時間・写真数	$0.0054	185	地元の店主	自分の店のプロフィールを確かめる	Semrush：Local の GBP Optimization	
+C70	1（Web）	ビジネスデータ	business_data/google/questions_and_answers/live	店舗ページの質問と回答を見る	店名と地域（1行で）	質問・回答・日付	$0.0054（20件）	185	地元の店主	お客さんが何を質問しているか見る		Google側でQ&A機能が縮小している可能性。Phase 0 で確認
+C71	1（Web）	ビジネスデータ	business_data/google/hotel_searches/live	地域のホテル料金を見る	地域	ホテル名・料金・評価	$0.004	250	宿・観光業のオーナー	近くの宿の料金を見る		日付は「次の土曜・1泊」に固定
+C72	1（Web）	ビジネスデータ	business_data/social_media/reddit/live	Redditで共有されたか見る	URL	コミュニティ名・投稿タイトル・投稿数	$0.00004	25000	インバウンド・海外向け発信者	記事が海外で話題になったか見る	Brand24：Mentions	
+C73	1（Web）	ビジネスデータ	business_data/social_media/pinterest/live	Pinterestのピン数を見る	URL	ピン数	$0.00004	25000	初心者ブロガー	記事がPinterestで保存されたか見る	Keywords Everywhere：Pinterest engagement	
+C74	1（Web）	ドメイン分析	domain_analytics/technologies/domain_technologies/live	サイトの使用技術を見る	ドメイン	技術名・種類（CMS・解析・決済など）	$0.012	83	Web制作・SEO受託のフリーランス	相手のサイトが何で作られているか見る	Wappalyzer：Technology lookup	
+C75	1（Web）	ドメイン分析	domain_analytics/technologies/domains_by_technology/live	その技術を使うサイトを見る	技術名（例：Shopify）	ドメイン・国	$0.024（10件）	41	B2Bの営業担当	営業先の候補を集める	BuiltWith：Lead List	取得は10件に絞って料金を抑える
+C76	1（Web）	ドメイン分析	domain_analytics/whois/overview/live	ドメインの登録日と期限を見る	ドメイン	登録日・更新日・期限	$0.1212	8	Web制作・SEO受託のフリーランス	ドメインの年齢を確かめる		料金が高め
+C77	2（Task型・後回し）	Task（SERP）	serp/google/search_by_image	画像が載っているページを探す	画像URL	ページタイトル・URL	$0.0006	1666	物販（Amazon・メルカリ）	商品画像の出どころを探す		
+C78	2（Task型・後回し）	Task（SERP）	serp/google/jobs	地域の求人を見る	職種＋地域	会社名・職種・場所・条件	$0.0006	1666	宿・観光業のオーナー	近所の求人の条件を見る		入力は2つ
+C79	2（Task型・後回し）	Task（ビジネス）	business_data/google/reviews	Googleの口コミを見る	店名と地域（1行で）	口コミ本文・星・日付	$0.0075（100件）	133	地元の店主	口コミを一覧で読む	SE Ranking：Reviews Management	
+C80	2（Task型・後回し）	Task（ビジネス）	business_data/google/extended_reviews	他サイト分も含めた口コミを見る	店名と地域（1行で）	口コミ本文・星・日付・掲載サイト	$0.00225（20件）	444	宿・観光業のオーナー	予約サイトの口コミもまとめて読む	SE Ranking：Reviews Management	
+C81	2（Task型・後回し）	Task（ビジネス）	business_data/tripadvisor/reviews	Tripadvisorの口コミを見る	TripadvisorのURL	口コミ本文・星・日付・投稿者の国	$0.00075（10件）	1333	インバウンド・海外向け発信者	外国人客の声を読む		
+C82	2（Task型・後回し）	Task（ビジネス）	business_data/trustpilot/reviews	Trustpilotの口コミを見る	ドメイン	口コミ本文・星・日付	$0.00075（20件）	1333	物販（Amazon・メルカリ）	海外の取引先の評判を見る		
+C83	2（Task型・後回し）	Task（Amazon）	merchant/amazon/products	Amazonの検索結果を見る	キーワード	商品名・価格・評価・レビュー数・ASIN	$0.0015	666	物販（Amazon・メルカリ）	売れ筋の価格帯を見る	Helium 10：Black Box	
+C84	2（Task型・後回し）	Task（Amazon）	merchant/amazon/asin	Amazonの商品ページを見る	ASIN	商品名・価格・評価・説明・仕様	$0.0015	666	ASPアフィリエイター	紹介する商品の情報を確かめる	Helium 10：Xray	
+C85	2（Task型・後回し）	Task（ショッピング）	merchant/google/products	Googleショッピングの商品を見る	キーワード	商品名・価格・販売店	$0.001	1000	中小企業の経営者・広報	自社商品の価格帯を見る		
+C86	2（Task型・後回し）	Task（アプリ）	app_data/google/app_info	アプリの基本情報を見る	アプリID	アプリ名・評価・ダウンロード数・説明	$0.0006	1666	個人のアプリ開発者	アプリの数字を確かめる		
+C87	2（Task型・後回し）	Task（アプリ）	app_data/google/app_reviews	アプリのレビューを見る	アプリID	レビュー本文・星・日付	$0.00075（150件）	1333	個人のアプリ開発者	アプリへの不満を読む		
+C88	2（Task型・後回し）	Task（SERP）	serp/baidu/organic	Baiduの検索結果を見る	キーワード（中国語）	順位・タイトル・URL	$0.0006	1666	インバウンド・海外向け発信者	中国でどう検索されているか見る		
+C12	除外		serp/bing/organic/live/advanced									需要が小さい（Ryoの判断）
+C13	除外		serp/yahoo/organic/live/advanced									需要が小さい（Ryoの判断）
+C27	除外		keywords_data/google_ads/ad_traffic_by_keywords/live									入札額の入力が必要で、気軽に試せない
+C28	除外		keywords_data/bing/search_volume/live									Bingは需要が小さい（C12と同じ理由）
+C89	除外		serp/screenshot									先に別の呼び出しが必要
+C90	除外		serp/ai_summary									先に別の呼び出しが必要
+C91-C95	除外		ai_optimization/llm_mentions/*（5本）									月$100以上のチャージが条件
+C96-C105	除外		backlinks/*（10本）									月$100以上のチャージが条件・需要が小さい
+C106	除外		business_data/google/hotel_info/live/advanced									先にホテルIDを取る必要がある
+C107	除外		merchant/google/sellers									先に商品IDを取る必要がある
+C108	除外		on_page/task_post → summary / pages									サイト全体クロールで1回では終わらない
