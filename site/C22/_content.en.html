@@ -4,7 +4,7 @@
 <div class="scroll"><table>
 <thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>
 <tbody>
-<tr class="me"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.004 each (measured). Takes about 30 seconds</td><td>From a keyword: the answer text, a table of sources and a table of products (name, tag, image). Save as CSV</td></tr>
+<tr class="me"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.004 each (measured). Takes about 24–31 seconds (2 tests)</td><td>From a keyword: the answer text, a table of sources and a table of products (name, tag, image). Save as CSV</td></tr>
 <tr><td>The ChatGPT app (by hand)</td><td>Free plan available (see the official site for limits)</td><td>You ask and look. The real screen, so the most accurate. You keep your own record</td></tr>
 <tr><td>Semrush AI Visibility Toolkit</td><td>Subscription (requires a Semrush plan; see the official site for prices)</td><td>Researches exposure across several AI tools. For ongoing tracking</td></tr>
 <tr><td>Ahrefs Brand Radar</td><td>Subscription (see the official pricing page)</td><td>Researches and tracks AI exposure. For ongoing tracking</td></tr>
@@ -22,7 +22,7 @@
 
 <h2>When it is not the right fit</h2>
 <ul>
-<li>You want <strong>a quick result</strong> → it takes about 30 seconds (31 in our test) because ChatGPT searches before it answers.</li>
+<li>You want <strong>a quick result</strong> → it takes about 30 seconds (24–31 in our tests) because it searches before it answers.</li>
 <li>You want <strong>product prices or URLs</strong> → the product table shows name, tag and image. Price and URL were mostly empty in our sample.</li>
 <li>You want a <strong>verdict on whether your product appeared</strong> → the tool only lays out what came back.</li>
 <li>You want <strong>ongoing tracking</strong> → one call is one answer at one moment.</li>
@@ -30,7 +30,8 @@
 <p>This tool does one thing: show how ChatGPT search answers a keyword, what it cites and which products it shows.</p>
 
 <h2>FAQ</h2>
-<details><summary>Why does it take 30 seconds?</summary><p>Like the ChatGPT app, it searches first and then writes the answer. We measured about 31 seconds.</p></details>
+<details><summary>Why does it take 30 seconds?</summary><p>It searches first and then writes the answer. We measured about 24–31 seconds.</p></details>
+<details><summary>Which model is it?</summary><p>The API reported the model as gpt-6. The result is not guaranteed to match the ChatGPT app.</p></details>
 <details><summary>How is it different from "see ChatGPT's answer"?</summary><p>That tool asks a ChatGPT model directly through the API. This one fetches a result shaped like the ChatGPT search screen, with sources and products.</p></details>
 <details><summary>May I use the product images?</summary><p>The images come from ChatGPT. Other people's images are copyrighted; use them as reference only.</p></details>
 <details><summary>What does the country and language choice change?</summary><p>It runs the ChatGPT search for that country and language.</p></details>

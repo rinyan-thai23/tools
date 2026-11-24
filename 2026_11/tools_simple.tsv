@@ -16,7 +16,7 @@ C16	1（Web）	YouTube	serp/youtube/video_comments/live/advanced	動画のコメ
 C17	1（Web）	YouTube	serp/youtube/video_subtitles/live/advanced	動画の字幕を全文で見る	動画URL（＋字幕の言語を選ぶ）	時間・字幕テキスト	$0.006	166	Kindle作家・note書き	動画の内容を文字で読む		
 C18	1（Web）	AI	ai_optimization/chat_gpt/llm_responses/live	ChatGPTの答えを見る	質問文	回答文・引用元	約$0.03（実測$0.027。gpt-4o-mini・Web検索あり。TSV旧：$0.0006＋モデル料金）		地元の店主	お客さんがChatGPTに聞いたら何と答えるか見る	Ahrefs：Brand Radar の Prompt Tracking	モデルは安いものに固定。Web検索はオン
 C19	1（Web）	AI	ai_optimization/claude/llm_responses/live	Claudeの答えを見る	質問文	回答文	約$0.002（実測$0.0022。claude-haiku-4-5・Web検索なし）		B2Bの営業担当	Claudeに聞いたら何と答えるか見る	Ahrefs：Brand Radar の Prompt Tracking	モデルは安いものに固定
-C20	1（Web）	AI	ai_optimization/gemini/llm_responses/live	Geminiの答えを見る	質問文	回答文・引用元	約$0.015〜0.06（実測。gemini-3.5-flash-lite・Web検索あり）		Web制作・SEO受託のフリーランス	Geminiに聞いたら何と答えるか見る	SE Ranking：SE Visible	モデルは安いものに固定。Web検索はオン
+C20	1（Web）	AI	ai_optimization/gemini/llm_responses/live	Geminiの答えを見る	質問文	回答文・引用元	約$0.016〜0.06（実測。gemini-3.5-flash-lite・Web検索あり）		Web制作・SEO受託のフリーランス	Geminiに聞いたら何と答えるか見る	SE Ranking：SE Visible	モデルは安いものに固定。Web検索はオン
 C21	1（Web）	AI	ai_optimization/perplexity/llm_responses/live	Perplexityの答えを見る	質問文	回答文・引用元	約$0.006（実測$0.0059。sonar）		ASPアフィリエイター	Perplexityがどのサイトを引用するか見る	Ahrefs：Brand Radar の AI Visibility	モデルは安いものに固定
 C22	1（Web）	AI	ai_optimization/chat_gpt/llm_scraper/live/advanced	ChatGPT検索の画面を見る	キーワード	回答・引用元・商品	$0.004	250	物販（Amazon・メルカリ）	ChatGPT検索でどの商品が出るか見る	Semrush：AI Visibility	
 C23	1（Web）	AI	ai_optimization/ai_keyword_data/keywords_search_volume/live	AIでの質問回数を見る	キーワード	AI上の月間検索数・推移	$0.0101	99	Kindle作家・note書き	AIでよく聞かれているテーマか確かめる	Semrush：Prompt Research	

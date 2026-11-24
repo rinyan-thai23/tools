@@ -4,7 +4,7 @@
 <div class="scroll"><table>
 <thead><tr><th>方法・ツール</th><th>料金の考え方</th><th>特徴</th></tr></thead>
 <tbody>
-<tr class="me"><td>このツール（DataForSEO）</td><td>1回ごとの従量課金。1回 約$0.004（実測）。約30秒かかる</td><td>キーワードから、答えの文章・引用元の表・商品（名前・タグ・画像）の表を表示。CSVで保存できる</td></tr>
+<tr class="me"><td>このツール（DataForSEO）</td><td>1回ごとの従量課金。1回 約$0.004（実測）。約24〜31秒かかる（実測2回）</td><td>キーワードから、答えの文章・引用元の表・商品（名前・タグ・画像）の表を表示。CSVで保存できる</td></tr>
 <tr><td>ChatGPTの画面（手動）</td><td>無料プランあり（上限は公式で確認）</td><td>自分で聞いて見る。実際の画面で、いちばん確か。記録は自分で残す</td></tr>
 <tr><td>Semrush AI Visibility Toolkit</td><td>月額制（Semrushの契約が必要。料金は公式で確認）</td><td>複数のAIでの露出を調べる。継続の追跡向き</td></tr>
 <tr><td>Ahrefs Brand Radar</td><td>月額制（公式の料金ページを確認）</td><td>AIでの露出を調べ、追う。継続の追跡向き</td></tr>
@@ -22,7 +22,7 @@
 
 <h2>向いていない場面</h2>
 <ul>
-<li><strong>すぐに結果が欲しい</strong> → 約30秒かかります（実測31秒）。ChatGPT側で検索してから答えるためです。</li>
+<li><strong>すぐに結果が欲しい</strong> → 約30秒かかります（実測24〜31秒）。検索してから答えを作る処理のためです。</li>
 <li><strong>商品の価格やURL</strong> → 商品の表に出るのは、名前・タグ・画像です。価格とURLは、サンプルではほぼ空でした。</li>
 <li><strong>自分の商品が出たかの判定</strong> → このツールは、取れた結果を並べるだけです。</li>
 <li><strong>継続の追跡</strong> → 1回の結果は、その時の1回の答えです。</li>
@@ -30,7 +30,8 @@
 <p>このツールは、「あるキーワードで、ChatGPT検索がどう答え、何を引用し、どの商品を出すか」を見ることに絞っています。</p>
 
 <h2>よくある質問</h2>
-<details><summary>なぜ30秒もかかるのですか？</summary><p>ChatGPTの画面と同じように、検索してから答えを作るためです。実測は約31秒でした。</p></details>
+<details><summary>なぜ30秒もかかるのですか？</summary><p>検索してから答えを作る処理のためです。実測は約24〜31秒でした。</p></details>
+<details><summary>どのモデルの結果ですか？</summary><p>APIの返り値では、モデルは gpt-6 と表示されました。ChatGPTの画面と同じ結果になるとは限りません。</p></details>
 <details><summary>「ChatGPTの答えを見る」とは、どう違いますか？</summary><p>あちらは、APIで直接ChatGPTのモデルに聞くツールです。こちらは、ChatGPT検索の画面で出る形の結果（引用元や商品を含む）を取ります。</p></details>
 <details><summary>商品の画像は、そのまま使えますか？</summary><p>画像は、ChatGPTが返したものです。他社の画像には権利があるので、参考として見るだけにしてください。</p></details>
 <details><summary>国と言語を選ぶと、何が変わりますか？</summary><p>ChatGPT検索を、その国・言語で行った結果になります。</p></details>
