@@ -1,0 +1,38 @@
+<section class="seo">
+<h2>如何查 Gemini 的回答？主要工具比較</h2>
+<p>你要為客戶的產業寫提案，想知道：向 Gemini 提問時，<strong>它會引用哪些網站？</strong>提案書裡想寫上「在 AI 搜尋中是這樣的情況」。輸入問題後，這個工具會把 Gemini 的回答，以及引用的頁面（含網路搜尋）整理成表格。</p>
+<div class="scroll"><table>
+<thead><tr><th>方法・工具</th><th>收費方式</th><th>特色</th></tr></thead>
+<tbody>
+<tr class="me"><td>本工具（DataForSEO）</td><td>依次計費。每次約 $0.016～0.06（實測 3 次，平均約 $0.035）</td><td>輸入問題，顯示回答內文與引用頁面（標題、網址）。可存成 CSV。模型固定為 gemini-3.5-flash-lite</td></tr>
+<tr><td>Gemini 畫面（手動）</td><td>有免費方案（使用上限請至官網確認）</td><td>自己提問、自己閱讀。是實際的畫面。紀錄要自己留存</td></tr>
+<tr><td>SE Ranking SE Visible</td><td>月費制（價格請至官網確認）</td><td>追蹤包含 Gemini 在內的多個 AI 的曝光。適合長期追蹤</td></tr>
+<tr><td>Ahrefs Brand Radar</td><td>月費制（請至官方價格頁確認）</td><td>調查並追蹤在 AI 中的曝光</td></tr>
+</tbody></table></div>
+<p class="asof">以上為 2026年11月時點的調查。價格會變動，申請前請至各家官網確認。</p>
+
+<h2>這個工具的優點</h2>
+<ul>
+<li><strong>回答與引用來源並列。</strong>引用頁面的標題與網址，可以直接留存。</li>
+<li><strong>引用網址是原始網址。</strong>顯示的是原頁面的網址，而不是 Google 的轉址連結。</li>
+<li><strong>幾秒就有結果。</strong>實測約 4～8 秒。</li>
+<li><strong>問題內容不受限。</strong>可依客戶的產業設計問題來試。</li>
+<li><strong>可存成 CSV。</strong>直接貼進提案草稿即可。</li>
+</ul>
+
+<h2>不適合的情境</h2>
+<ul>
+<li><strong>需要固定的費用</strong> → 含網路搜尋時，費用會隨回答長度與搜尋次數而變。實測 3 次分別為 $0.016、$0.030、$0.058。</li>
+<li><strong>想要跟實際 Gemini 畫面相同的回答</strong> → 這是透過 API 詢問 gemini-3.5-flash-lite 的結果，可能與畫面不同。</li>
+<li><strong>尖峰時段</strong> → DataForSEO 後端壅塞時，偶爾會出現錯誤（50301）。工具會自動重試最多 3 次，仍失敗就顯示「目前使用人數較多」（這種情況不會收費）。</li>
+<li><strong>想長期追蹤</strong> → 每次結果只是當下的一次回答。</li>
+</ul>
+<p>本工具只專注一件事：看含網路搜尋的 Gemini 如何回答某個問題、引用了哪些頁面。</p>
+
+<h2>常見問題</h2>
+<details><summary>為什麼費用會有落差？</summary><p>含網路搜尋的回答，費用會隨搜尋量與回答長度而變。實測約 $0.016～$0.058。</p></details>
+<details><summary>為什麼引用來源的標題是網站名稱（網域）？</summary><p>因為 Gemini 回傳的引用名稱多半是網站名稱，工具就照原樣顯示。</p></details>
+<details><summary>出現錯誤時會收費嗎？</summary><p>遇到壅塞錯誤（50301）時，實測費用為 0。</p></details>
+<details><summary>為什麼沒有選擇國家與語言的欄位？</summary><p>因為這個呼叫沒有國家或語言的參數。</p></details>
+<details><summary>可以用免費信箱註冊嗎？</summary><p>不行。DataForSEO 不接受免費信箱。詳情請見<a href="/dfs-en.html">What is DataForSEO?</a>（英文）。</p></details>
+</section>

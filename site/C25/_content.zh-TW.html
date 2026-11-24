@@ -1,0 +1,41 @@
+<section class="seo">
+<h2>如何找出適合網站的關鍵字，以及常見工具比較</h2>
+<p>接手客戶的網站之後，第一件事通常是<strong>先列出與這個網站相關的關鍵字候選</strong>。輸入網域，就能看到 Google 關聯到該網站的關鍵字，並附上月搜尋量、CPC 與競爭程度。</p>
+<div class="scroll"><table>
+<thead><tr><th>方式・工具</th><th>收費方式</th><th>特色</th></tr></thead>
+<tbody>
+<tr class="me"><td>本工具（DataForSEO）</td><td>每次呼叫計費。每次 $0.09（實測）</td><td>輸入網域，列出關鍵字候選與月搜尋量、CPC、競爭程度。單次最多回傳接近 1000 列（實測 rakuten.co.jp 回傳 998 列，日本網站）。可存成 CSV</td></tr>
+<tr><td>Google 關鍵字規劃工具（手動）</td><td>免費（需要 Google Ads 帳號）</td><td>可由網站網址產生關鍵字候選（官方有說明）。據說數字有時只會以範圍顯示</td></tr>
+<tr><td>Ahrefs Site Explorer／Keywords Explorer</td><td>月費制（方案請至官網確認）</td><td>擅長查出網站實際取得排名的關鍵字</td></tr>
+<tr><td>Ubersuggest</td><td>有月費與買斷的說法（各資料不一，請至官網確認）</td><td>網站分析與關鍵字建議</td></tr>
+</tbody></table></div>
+<p class="asof">以上為 2026年11月時點的整理。價格與方案會調整，申請前請至各家官網確認。</p>
+
+<h2>此工具的優點</h2>
+<ul>
+<li><strong>只要網域就能查。</strong>以「example.com」的格式輸入即可。</li>
+<li><strong>單次可到 998 列。</strong>實測 rakuten.co.jp 回傳 998 列，$0.09 就能取得約 1000 列以內的資料。</li>
+<li><strong>附月搜尋量、CPC、競爭程度。</strong>可用來替候選詞排優先順序。</li>
+<li><strong>幾秒內回應。</strong>實測約 5～8 秒。</li>
+<li><strong>可存成 CSV。</strong>再用試算表篩選即可。</li>
+</ul>
+
+<h2>不適合的情境</h2>
+<ul>
+<li><strong>想知道網站實際的排名</strong>：這裡列的是 Google 關聯到網站的廣告用關鍵字候選，並不是網站的排名。</li>
+<li><strong>列數太多</strong>：結果會全部列出，畫面會很長，建議存成 CSV 後用試算表篩選。</li>
+<li><strong>競爭程度的意思</strong>：表中的是 Google Ads 的競爭程度（0～100），不是 SEO 的難度。</li>
+<li><strong>CPC 有空白列</strong>：rakuten.co.jp 的 998 列中有 140 列是空的（實測，範例僅顯示前 30 列），會照實顯示為空白。</li>
+<li>公司名稱、商品名稱等品牌字也會混在其中。</li>
+<li><strong>有些網域回傳 0 列</strong>：suumo.jp 回傳 0 列，但仍然收費 $0.09（實測）。</li>
+</ul>
+<p>本工具專注在一件事：把「與這個網域相關的關鍵字候選」連同搜尋量列成一張表。</p>
+
+<h2>常見問題</h2>
+<details><summary>這些關鍵字是網站已經有排名的字嗎？</summary><p>不是。這是 Google Ads 的關鍵字候選，不代表網站的排名。</p></details>
+<details><summary>為什麼會回傳將近 1000 列？</summary><p>因為 API 回傳的資料會原封不動全部顯示，筆數無法自行選擇。</p></details>
+<details><summary>為什麼日文和英文會混在一起？</summary><p>與網站相關的字詞會照原樣列出，所以也會看到像「rakuten jp」這類英文列。</p></details>
+<details><summary>CPC 空白代表什麼？</summary><p>代表 API 沒有回傳數值，這裡照實顯示為空白。</p></details>
+<details><summary>結果是 0 列也要收費嗎？</summary><p>要。suumo.jp 回傳 0 列，仍然收費 $0.09（實測）。</p></details>
+<details><summary>可以用免費信箱註冊嗎？</summary><p>不行。DataForSEO 不接受免費信箱。詳情請見<a href="/dfs-en.html">What is DataForSEO?</a>（英文）。</p></details>
+</section>
