@@ -300,7 +300,7 @@
   "c25.name": "Get keyword ideas for a site",
   "c25.desc": "Find keyword ideas that fit a client's site",
   "c25.price": "Cost: $0.09 per call (about 11 per $1). About 1000 rows come back. The sample is free.",
-  "c25.eta": "Typical time: about 8 seconds",
+  "c25.eta": "Typical time: about 5–8 seconds",
   "c25.title": "Keyword ideas for a site | A domain's ideas with volume and CPC (free sample)",
   "c25.meta": "Enter a domain and see keyword ideas related to the site with monthly volume, CPC and competition. For researching a client's site. No subscription, $0.09 per call, CSV export.",
   "c25.keyword": "Domain (e.g. example.com)",

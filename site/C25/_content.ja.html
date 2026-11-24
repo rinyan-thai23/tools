@@ -4,8 +4,8 @@
 <div class="scroll"><table>
 <thead><tr><th>方法・ツール</th><th>料金の考え方</th><th>特徴</th></tr></thead>
 <tbody>
-<tr class="me"><td>このツール（DataForSEO）</td><td>1回ごとの従量課金。1回 $0.09（実測）</td><td>ドメインを入れて、キーワード候補を検索数・CPC・競合度つきで一覧。1回で約1000行。CSVで保存できる</td></tr>
-<tr><td>Googleキーワードプランナー（手動）</td><td>無料（Google広告のアカウントが必要）</td><td>「ウェブサイトから始める」機能がある。数字は範囲で出ることがあると言われる</td></tr>
+<tr class="me"><td>このツール（DataForSEO）</td><td>1回ごとの従量課金。1回 $0.09（実測）</td><td>ドメインを入れて、キーワード候補を検索数・CPC・競合度つきで一覧。1回で最大1000行近く返る（rakuten.co.jpで998行）。CSVで保存できる</td></tr>
+<tr><td>Googleキーワードプランナー（手動）</td><td>無料（Google広告のアカウントが必要）</td><td>サイトのURLから候補を出す機能がある（公式で確認）。数字は範囲で出ることがあると言われる</td></tr>
 <tr><td>Ahrefs Site Explorer／Keywords Explorer</td><td>月額制（プランは公式で確認）</td><td>サイトが実際に順位を取っているキーワードを調べるのが得意</td></tr>
 <tr><td>Ubersuggest</td><td>月額制や買い切りの案内がある（料金は資料により異なる。公式で確認）</td><td>サイトの分析とキーワード候補</td></tr>
 </tbody></table></div>
@@ -13,10 +13,10 @@
 
 <h2>このツールのメリット</h2>
 <ul>
-<li><strong>ドメインだけで引ける。</strong>サイトのURLの下層ではなく、ドメインを入れます。</li>
-<li><strong>1回で約1000行。</strong>rakuten.co.jpで998行返りました（実測）。$0.09で全部取れます。</li>
+<li><strong>ドメインだけで引ける。</strong>「example.com」の形で入れます。</li>
+<li><strong>1回で998行。</strong>rakuten.co.jpで998行返りました（実測、1回）。$0.09で全部取れます。</li>
 <li><strong>検索数・CPC・競合度つき。</strong>候補の優先順位づけに使えます。</li>
-<li><strong>約8秒で返る。</strong></li>
+<li><strong>数秒で返る。</strong>実測は約5〜8秒でした。</li>
 <li><strong>CSVで残せる。</strong>表計算で絞り込めます。</li>
 </ul>
 
@@ -24,7 +24,8 @@
 <ul>
 <li><strong>サイトが実際に取っている順位</strong>が知りたい → これは、Googleが関連づけた広告用のキーワード候補で、サイトの順位ではありません。</li>
 <li><strong>行が多すぎる</strong> → 全行を表示します。画面では長くなるので、CSVにして表計算で絞るのが向いています。</li>
-<li><strong>CPCが空の行</strong>がある → サンプルでは、998行のうち140行で空でした。そのまま空で出します。</li>
+<li><strong>競合度の意味</strong> → 表の競合度は、Google広告の競合度（0〜100）です。SEOの難易度ではありません。</li>
+<li><strong>CPCが空の行</strong>がある → rakuten.co.jpの998行のうち140行で空でした（実測。サンプルは先頭30行のみ）。そのまま空で出します。</li>
 <li>社名や商品名の言葉（ブランド名の検索）も、そのまま混ざります。</li>
 <li><strong>結果が0行のドメイン</strong>がある → suumo.jpでは0行でした。それでも、$0.09かかりました（実測）。</li>
 </ul>
