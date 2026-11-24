@@ -81,6 +81,16 @@ for (const id of ids) {
     if (typeof s.tasks?.[0]?.cost !== 'number') W.push('sample.json に cost がない（実データのまま残すのが望ましい）');
   } catch (e) { E.push('sample.json が読めない/ない'); }
 
+  for (const l of langs) { // 言語別サンプル（sample.<言語>.json）があれば、同じ基準で検査
+    if (!existsSync(`site/${id}/sample.${l}.json`)) continue;
+    try {
+      const s = json(`site/${id}/sample.${l}.json`);
+      const rows = extractRows(cfg, s.tasks?.[0] || {});
+      if (rows.length < (cfg.min_sample_rows ?? 3)) E.push(`[${l}] 言語別サンプルの行が少ない（${rows.length}行）`);
+      for (const c of cfg.result.columns) if (!rows.some((r) => r[c.key] !== undefined && r[c.key] !== null && r[c.key] !== '')) E.push(`[${l}] 言語別サンプルで列「${c.key}」が全部空`);
+    } catch (e) { E.push(`[${l}] 言語別サンプルが読めない`); }
+  }
+
   // 4) 出典メモ（比較表の根拠）
   if (!existsSync(`site/${id}/_sources.md`)) E.push('_sources.md がない（比較表に書いた他社の料金・機能の出典URLと確認日を残す）');
   else {

@@ -7,3 +7,4 @@
 | Wappalyzer：無料アカウントで月50回の技術調べ | https://wappalyzer.com/pricing | 有料の料金は書かず「公式で確認」（資料により違う） |
 | BuiltWith：1サイトずつの調べは無料、一覧の書き出しは有料 | https://builtwith.com/plans ／ https://kb.builtwith.com/general-questions/plans-and-pricing-explained | 公式 |
 | ページのソース | 一般的な知識（出典なし） | 数字の主張なし |
+| DataForSEO：ettoday.net で結果が空だった（台湾サイトでは結果がない場合がある） | 実測（2026-11-24）／site/C74/sample.zh-TW.json | |

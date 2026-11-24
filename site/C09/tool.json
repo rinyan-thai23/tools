@@ -43,5 +43,8 @@
       }
     ]
   },
-  "csv": "C09.csv"
+  "csv": "C09.csv",
+  "sample_langs": [
+    "zh-TW"
+  ]
 }

@@ -7,3 +7,4 @@
 | Ahrefs Free（旧Webmaster Tools）：自分で認証したサイトが対象、キーワードは最大1000件 | https://ahrefs.com/webmaster-tools/ ／ https://ahrefs.com/awt | 公式。有料版の機能は「公式で確認」 |
 | Ahrefs Site Explorer（Organic keywords）／Semrush Organic Research | https://ahrefs.com/site-explorer ／ https://www.semrush.com/features/organic-research/ ／ https://ahrefs.com/pricing | 料金は書かない |
 | Googleサーチコンソール：自分のサイト | https://search.google.com/search-console/about ／ https://support.google.com/webmasters/ | 一般的な知識 |
+| DataForSEO：momoshop.com.tw・pchome.com.tw で結果が取得できた | 実測（2026-11-24） | |

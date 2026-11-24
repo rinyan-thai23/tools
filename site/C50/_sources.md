@@ -7,3 +7,4 @@
 | Ahrefs Keywords Explorer（SERP overview） | https://ahrefs.com/keywords-explorer ／ https://ahrefs.com/pricing | 機能の詳細は「公式で確認」 |
 | 自分で記録／いまの検索結果を見る | 一般的な知識（出典なし） | 数字の主張なし |
 | DataForSEO：10位以内に絞るのは本ツールの決まり | ユーザー承認（2026-11-24） | |
+| DataForSEO（台湾・繁体字）：「部落格 架設教學」「部落格」「台北 美食」は検索量データなしで結果が空（課金される場合あり）。「咖啡」「旅遊」等は検索量あり | 実測（2026-11-24） | |

@@ -51,5 +51,8 @@
       }
     ]
   },
-  "csv": "C76.csv"
+  "csv": "C76.csv",
+  "sample_langs": [
+    "zh-TW"
+  ]
 }

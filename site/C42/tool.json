@@ -42,5 +42,8 @@
       "column": "category"
     }
   },
-  "csv": "C42.csv"
+  "csv": "C42.csv",
+  "sample_langs": [
+    "zh-TW"
+  ]
 }

@@ -64,5 +64,8 @@
       }
     ]
   },
-  "csv": "C22.csv"
+  "csv": "C22.csv",
+  "sample_langs": [
+    "zh-TW"
+  ]
 }

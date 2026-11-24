@@ -7,3 +7,4 @@
 | Ahrefs Free（旧Webmaster Tools）：自分で認証したサイトが対象 | https://ahrefs.com/webmaster-tools/ ／ https://ahrefs.com/awt | 公式 |
 | Ahrefs Site Explorer（Top pages）／Semrush Organic Research | https://ahrefs.com/site-explorer ／ https://www.semrush.com/features/organic-research/ ／ https://ahrefs.com/pricing | 料金は書かない |
 | DataForSEO：ETVの定義 | https://dataforseo.com/help-center/how-is-etv-calculated ／ https://docs.dataforseo.com/v3/dataforseo_labs-ranked_keywords-live/ | 公式 |
+| DataForSEO：momoshop.com.tw・pchome.com.tw で結果が取得できた | 実測（2026-11-24） | |

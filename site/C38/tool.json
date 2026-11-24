@@ -28,5 +28,8 @@
       }
     ]
   },
-  "csv": "C38.csv"
+  "csv": "C38.csv",
+  "sample_langs": [
+    "zh-TW"
+  ]
 }

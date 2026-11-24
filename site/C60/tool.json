@@ -174,5 +174,8 @@
       }
     ]
   },
-  "csv": "C60.csv"
+  "csv": "C60.csv",
+  "sample_langs": [
+    "zh-TW"
+  ]
 }

@@ -42,5 +42,8 @@
     ],
     "title": "c18.refs"
   },
-  "csv": "C18.csv"
+  "csv": "C18.csv",
+  "sample_langs": [
+    "zh-TW"
+  ]
 }

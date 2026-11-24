@@ -7,3 +7,4 @@
 | Screaming Frog：無料500URL、有料£199/年 | https://www.screamingfrog.co.uk/seo-spider/pricing/ ／ https://www.screamingfrog.co.uk/seo-spider/ | 公式 |
 | Google Search Console（URL検査） | https://search.google.com/search-console/about | 機能は「公式で確認」 |
 | ブラウザのソース表示 | 一般的な知識（出典なし） | 数字の主張なし |
+| Screaming Frog 的料金：台湾向け調査（zh_tw_competitors.md）で確認できた値ではないため本文から削除し「請至官網確認」に | （台湾向け調査に記載なし） | 以前の「無料500URL・£199/年」は削除 |

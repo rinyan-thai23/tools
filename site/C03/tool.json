@@ -61,5 +61,8 @@
       }
     ]
   },
-  "csv": "C03.csv"
+  "csv": "C03.csv",
+  "sample_langs": [
+    "zh-TW"
+  ]
 }

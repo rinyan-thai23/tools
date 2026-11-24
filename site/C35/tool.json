@@ -36,5 +36,8 @@
       }
     ]
   },
-  "csv": "C35.csv"
+  "csv": "C35.csv",
+  "sample_langs": [
+    "zh-TW"
+  ]
 }

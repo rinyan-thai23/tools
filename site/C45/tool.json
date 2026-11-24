@@ -57,5 +57,8 @@
       }
     ]
   },
-  "csv": "C45.csv"
+  "csv": "C45.csv",
+  "sample_langs": [
+    "zh-TW"
+  ]
 }

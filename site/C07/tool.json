@@ -44,5 +44,8 @@
       }
     ]
   },
-  "csv": "C07.csv"
+  "csv": "C07.csv",
+  "sample_langs": [
+    "zh-TW"
+  ]
 }

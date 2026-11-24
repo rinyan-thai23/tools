@@ -7,3 +7,5 @@
 | Googleアラート | https://ahrefs.com/blog/how-to-set-up-google-alerts/ ／ https://www.capterra.com/p/202337/Google-Alerts/pricing/ | 第三者の解説 |
 | 有料の監視サービス | 一般的な知識（出典なし） | 料金は書かず「公式で確認」 |
 | 手動で分ける | 一般的な知識（出典なし） | 数字の主張なし |
+| OpView（意藍資訊）：台湾の輿情サービス、試用申請あり、価格は取得できず | https://www.opview.com.tw/ | 台湾向け調査。機能は断定しない |
+| KEYPO 大數據關鍵引擎：台湾の輿情サービス、価格は取得できず | https://www.keypo.tw/ | 台湾向け調査。機能は断定しない |

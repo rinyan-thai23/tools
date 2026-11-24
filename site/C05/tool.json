@@ -50,5 +50,8 @@
       }
     ]
   },
-  "csv": "C05.csv"
+  "csv": "C05.csv",
+  "sample_langs": [
+    "zh-TW"
+  ]
 }

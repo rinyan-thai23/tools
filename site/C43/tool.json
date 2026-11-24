@@ -23,5 +23,8 @@
       }
     ]
   },
-  "csv": "C43.csv"
+  "csv": "C43.csv",
+  "sample_langs": [
+    "zh-TW"
+  ]
 }

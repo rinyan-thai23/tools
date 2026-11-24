@@ -7,3 +7,4 @@
 | Screaming Frog：無料500URL、有料£199/年 | https://www.screamingfrog.co.uk/seo-spider/pricing/ ／ https://www.screamingfrog.co.uk/seo-spider/ | 見出し抽出の方法は「公式で確認」 |
 | AIチャットに貼る／ブラウザで読む | 一般的な知識（出典なし） | 数字の主張なし |
 | 著作権の注意 | 一般的な知識 | 「心配なときは専門家に」と記載 |
+| Screaming Frog の料金：台湾向け調査で確認できた値ではないため本文から削除し「請至官網確認」に | （台湾向け調査に記載なし） | |

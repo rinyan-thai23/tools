@@ -48,5 +48,8 @@
       }
     ]
   },
-  "csv": "C47.csv"
+  "csv": "C47.csv",
+  "sample_langs": [
+    "zh-TW"
+  ]
 }

@@ -43,5 +43,8 @@
     ],
     "title": "c20.refs"
   },
-  "csv": "C20.csv"
+  "csv": "C20.csv",
+  "sample_langs": [
+    "zh-TW"
+  ]
 }

@@ -74,8 +74,9 @@ function params() {
   }
   // markets: true=国と言語／"country"=国だけ／"language"=言語だけ（language_params に送り先の項目名）
   if (cfg.markets === true || cfg.markets === 'country') p.location_code = +$('country').value;
-  if (cfg.markets === true) p.language_code = $('language').value;
-  if (cfg.markets === 'language') for (const k of cfg.language_params || ['language_code']) p[k] = $('language').value;
+  const lc = (l) => (/^keywords_data\/google_ads\//.test(cfg.endpoint) && l === 'zh-TW' ? 'zh_TW' : l); // Google広告のAPIは zh_TW（アンダースコア）
+  if (cfg.markets === true) p.language_code = lc($('language').value);
+  if (cfg.markets === 'language') for (const k of cfg.language_params || ['language_code']) p[k] = lc($('language').value);
   if (cfg.count) p[cfg.count.param] = +$('count').value;
   return p;
 }
@@ -99,7 +100,9 @@ async function run() {
 }
 
 async function sample() {
-  const s = await fetch(`/${id}/sample.json`).then((r) => r.json());
+  const sl = (cfg.sample_langs || []).includes(document.documentElement.lang) ? `sample.${document.documentElement.lang}.json` : 'sample.json'; // 言語ごとの専用サンプル（tool.json の sample_langs に書いた言語だけ）
+  const r = await fetch(`/${id}/${sl}`);
+  const s = await r.json();
   if (s.inputs) for (const [k, v] of Object.entries(s.inputs)) $('in-' + k).value = v; // 入力が複数あるツール
   else if (cfg.inputs.length) $('in-' + cfg.inputs[0].id).value = s.keyword;
   lookupMap = s.tasks[0].lookup || null;
@@ -109,7 +112,7 @@ async function sample() {
 }
 
 await init();
-if (cfg.markets) await fillMarkets($('country'), $('language')); // 'country' / 'language' のときは、ない方は null
+if (cfg.markets) await fillMarkets($('country'), $('language'), cfg.country_codes); // 'country' / 'language' のときは、ない方は null
 if (cfg.inputs.some((i) => i.transform === 'technology')) loadTech().catch(() => {});
 $('run').onclick = run;
 $('sample').onclick = sample;

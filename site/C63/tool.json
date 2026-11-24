@@ -24,5 +24,8 @@
       }
     ]
   },
-  "csv": "C63.csv"
+  "csv": "C63.csv",
+  "sample_langs": [
+    "zh-TW"
+  ]
 }

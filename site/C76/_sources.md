@@ -7,3 +7,5 @@
 | ICANN Lookup：無料の公開サービス | https://lookup.icann.org/ ／ https://www.icann.org/en/blogs/details/updated-lookup-tool-for-domain-name-registration-data-now-available-29-7-2019-en | 公式 |
 | JPRS WHOIS（.jp） | https://whois.jprs.jp/ ／ https://www.iana.org/whois?q=.jp | 無料・機能は「公式で確認」 |
 | 登録事業者の管理画面 | 一般的な知識（出典なし） | 数字の主張なし |
+| DataForSEO：pchome.com.tw など .tw は結果なし・課金あり、kkday.com は取得できた | 実測（2026-11-24） | |
+| TWNIC：.tw の WHOIS サーバは whois.twnic.net.tw、RDAP は https://ccrdap.twnic.tw/tw/ | https://www.iana.org/domains/root/db/tw.html | 無料か照会上限は「公式で確認」 |

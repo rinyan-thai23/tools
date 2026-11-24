@@ -3,7 +3,9 @@
 
 | 書いたこと | 出典 | 備考 |
 |---|---|---|
-| Googleキーワードプランナー：Google広告のアカウントが必要、利用に料金なし、広告費が少ないと数字が範囲になる（公式の基準は非公開） | https://mangools.com/blog/google-keyword-planner/ ／ https://searchengineland.com/google-officially-throttling-keyword-planner-data-low-spending-adwords-accounts-255795 ／ https://www.seroundtable.com/google-keyword-planner-data-ranges-campaign-only-22506.html | 二次資料。本文は「と言われる」「公式で確認」とした |
-| ラッコキーワード：無料枠あり、検索ボリュームの詳細は有料（年払い月660円〜と紹介する資料あり） | https://www.itreview.jp/products/rakko-keywords/price ／ https://saas.imitsu.jp/cate-seo-tool/service/5125/price ／ https://webtan.impress.co.jp/n/2025/04/30/49098 | 資料により数字が食い違うため、本文は「資料では〜。公式で確認」 |
-| Ubersuggest：月額制・買い切りの案内あり | https://www.capterra.com/p/229169/Ubersuggest/pricing ／ https://sonary.com/reviews/ubersuggest/ | 個人プランが$12・$29と資料で食い違うため、金額は書かない |
 | DataForSEO：2語・4語とも$0.09、約1秒、12か月の推移 | 実測（2026-11-24） | 1000語までは仕様（TSV）で、実測は4語まで |
+| Ubersuggest：Individual $29/月・$192/年・買い切り$217.50（USD、地域で調整） | https://www.ubersuggest.com/pricing | 台灣向け調査（確認日 2026-11-24） |
+| Ahrefs Starter $29/月（月払い、通貨未記載） | https://ahrefs.com/pricing | 台灣向け調査（確認日 2026-11-24） |
+| Semrush：Free $0、SEOプラン $139/月（月払い）・$117.33/月（年払い換算）。台湾データ発展途上は Techbang 寄稿（著者は同業所属） | https://www.semrush.com/prices/ ／ https://www.techbang.com/posts/115365-how-to-stay-on-top-of-seo-keyword-traffic-seo-experts | 台灣向け調査（確認日 2026-11-24） |
+| Google Keyword Planner：Google広告アカウントと請求情報の入力が必要。費用は未確認 | https://support.google.com/google-ads/answer/7337243?hl=zh-Hant | 台灣向け調査（確認日 2026-11-24） |
+| 台湾での使用：国＝台灣・言語＝繁體中文で利用可。「聯盟行銷 入門」のみ検索量10、他3語は空 | site/C24/sample.zh-TW.json | 範例の実測 |

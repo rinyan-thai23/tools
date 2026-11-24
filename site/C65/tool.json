@@ -120,5 +120,8 @@
       }
     ]
   },
-  "csv": "C65.csv"
+  "csv": "C65.csv",
+  "sample_langs": [
+    "zh-TW"
+  ]
 }

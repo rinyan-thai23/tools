@@ -33,5 +33,8 @@
     ],
     "title": "c21.refs"
   },
-  "csv": "C21.csv"
+  "csv": "C21.csv",
+  "sample_langs": [
+    "zh-TW"
+  ]
 }

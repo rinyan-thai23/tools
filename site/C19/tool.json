@@ -29,5 +29,8 @@
       }
     ]
   },
-  "csv": "C19.csv"
+  "csv": "C19.csv",
+  "sample_langs": [
+    "zh-TW"
+  ]
 }

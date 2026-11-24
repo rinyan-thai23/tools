@@ -3,7 +3,9 @@
 
 | 書いたこと | 出典 | 備考 |
 |---|---|---|
-| Googleキーワードプランナー：Google広告のアカウントが必要、数字が範囲になることがある | https://mangools.com/blog/google-keyword-planner/ ／ https://searchengineland.com/google-officially-throttling-keyword-planner-data-low-spending-adwords-accounts-255795 | 二次資料。「と言われる」と記載 |
-| Ahrefs：サイトが順位を取るキーワードの調査 | https://ahrefs.com/site-explorer ／ https://ahrefs.com/pricing | 料金は書かず「公式で確認」 |
-| Ubersuggest：月額制・買い切り | https://www.capterra.com/p/229169/Ubersuggest/pricing ／ https://sonary.com/reviews/ubersuggest/ | 金額は書かない |
 | DataForSEO：rakuten.co.jpで998行、$0.09、約5〜8秒、CPC空140行。suumo.jpは0行でも$0.09 | 実測（2026-11-24） | |
+| Ubersuggest：Individual $29/月・$192/年・買い切り$217.50（USD、地域で調整） | https://www.ubersuggest.com/pricing | 台灣向け調査（確認日 2026-11-24） |
+| Ahrefs Starter $29/月（月払い、通貨未記載）。サイトが順位を取るキーワードの調査 | https://ahrefs.com/site-explorer ／ https://ahrefs.com/pricing | 台灣向け調査（確認日 2026-11-24） |
+| Semrush：Free $0、SEOプラン $139/月（月払い）・$117.33/月（年払い換算）。台湾データ発展途上は Techbang 寄稿（著者は同業所属） | https://www.semrush.com/prices/ ／ https://www.techbang.com/posts/115365-how-to-stay-on-top-of-seo-keyword-traffic-seo-experts | 台灣向け調査（確認日 2026-11-24） |
+| Google Keyword Planner：Google広告アカウントと請求情報の入力が必要。費用は未確認 | https://support.google.com/google-ads/answer/7337243?hl=zh-Hant | 台灣向け調査（確認日 2026-11-24） |
+| 台湾での使用：国＝台灣・言語＝繁體中文で利用可。momoshop.com.tw で469行 | site/C25/sample.zh-TW.json | 範例の実測 |
