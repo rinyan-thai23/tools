@@ -6,5 +6,10 @@
   {
     "code": "en",
     "label": "English"
+  },
+  {
+    "code": "zh-TW",
+    "label": "繁體中文",
+    "partial": true
   }
 ]

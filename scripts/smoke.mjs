@@ -10,7 +10,9 @@ let chromium;
 try { ({ chromium } = await import('playwright')); }
 catch { ({ chromium } = await import(pathToFileURL(execSync('npm root -g').toString().trim() + '/playwright/index.mjs').href)); }
 
-const langs = JSON.parse(readFileSync('scripts/langs.json', 'utf8')).map((l) => l.code);
+const langMeta = JSON.parse(readFileSync('scripts/langs.json', 'utf8'));
+const langs = langMeta.map((l) => l.code);
+const partial = new Set(langMeta.filter((l) => l.partial).map((l) => l.code));
 const only = process.argv.slice(2);
 const ids = (only.length ? only : readdirSync('site').filter((n) => /^[A-Z]\d+$/.test(n) && existsSync(`site/${n}/tool.json`))).sort();
 
@@ -24,6 +26,7 @@ const srv = http.createServer(async (q, s) => {
 const browser = await chromium.launch();
 let bad = 0;
 for (const id of ids) for (const l of langs) {
+  if (partial.has(l) && !existsSync(`site/${id}/_content.${l}.html`)) continue; // この言語では作らないツール
   const url = `http://localhost:8787/${id}/${l}/`;
   const E = [];
   const ctx = await browser.newContext({ viewport: { width: 390, height: 800 }, acceptDownloads: true });

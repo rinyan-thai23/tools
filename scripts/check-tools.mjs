@@ -6,7 +6,9 @@ import { extractRows, extractAnswer } from '../site/shared/rows.js';
 
 const read = (p) => readFileSync(p, 'utf8');
 const json = (p) => JSON.parse(read(p));
-const langs = json('scripts/langs.json').map((l) => l.code);
+const langMeta = json('scripts/langs.json');
+const langs = langMeta.map((l) => l.code);
+const partial = new Set(langMeta.filter((l) => l.partial).map((l) => l.code)); // 一部のツールだけ作る言語
 const whoMap = json('scripts/who-map.json');
 const locales = Object.fromEntries(langs.map((l) => [l, json(`site/locales/${l}.json`)]));
 
@@ -19,7 +21,7 @@ const only = process.argv.slice(2);
 const ids = only.length ? only : allIds;
 
 // ---- 基準値（C01 を基準に決めた。下げない）
-const MIN_TEXT = { default: 1100 }; // 本文の文字数（タグを除く）。英語は単語数で見る
+const MIN_TEXT = { default: 1100, 'zh-TW': 850 }; // 本文の文字数（タグを除く）。英語は単語数で見る
 const MIN_EN_WORDS = 380;
 const MAX_SIMILARITY = 0.5;       // 他ツールの本文との類似度の上限
 const BAD_WORDS = /TODO|TBD|lorem|ipsum|XXX|ここに|〇〇|◯◯|FIXME|サンプルテキスト/i;
@@ -91,6 +93,7 @@ for (const id of ids) {
   for (const l of langs) {
     const L = locales[l];
     const content = contentOf(id, l);
+    if (content === null && partial.has(l)) continue; // この言語では作らないツール
     if (content === null) { E.push(`[${l}] _content.${l}.html がない（全ツール、全対応言語でそろえる）`); continue; }
     const need = [`${k}.name`, `${k}.desc`, `${k}.price`, `${k}.eta`, `${k}.title`, `${k}.meta`, `who.${cfg.who}`,
       ...(cfg.inputs || []).map((i) => i.label), ...(cfg.result?.columns || []).map((c) => c.label), ...(cfg.count ? [cfg.count.label] : []), ...[...(cfg.result?.columns || []), ...(cfg.result?.extra || []).flatMap((x) => x.columns)].flatMap((c) => [c.label, ...Object.values(c.labels || {})])];
@@ -104,16 +107,16 @@ for (const id of ids) {
     // 本文
     const t = text(content);
     if (!/<section class="seo">/.test(content)) E.push(`[${l}] 本文が <section class="seo"> で囲まれていない`);
-    if (l === 'en' ? t.split(' ').length < MIN_EN_WORDS : t.length < MIN_TEXT.default) E.push(`[${l}] 本文が短い（${l === 'en' ? t.split(' ').length + ' words' : t.length + '文字'}）`);
+    if (l === 'en' ? t.split(' ').length < MIN_EN_WORDS : t.length < (MIN_TEXT[l] ?? MIN_TEXT.default)) E.push(`[${l}] 本文が短い（${l === 'en' ? t.split(' ').length + ' words' : t.length + '文字'}）`);
     if (!/<table/.test(content) || (content.match(/<tr/g) || []).length < 4) E.push(`[${l}] 比較表がない、または行が少ない（見出し＋3行以上）`);
     if ((content.match(/<h2/g) || []).length < 4) E.push(`[${l}] 見出し(h2)が4つ未満（比較・メリット・向かない場面・FAQ）`);
     if ((content.match(/<details/g) || []).length < 4) E.push(`[${l}] FAQ(details)が4つ未満`);
     if (!/class="me"/.test(content)) E.push(`[${l}] 比較表に「このツール」の行（class="me"）がない`);
     if (!/class="asof"/.test(content)) E.push(`[${l}] 「○年○月時点」の注記（class="asof"）がない`);
     if (!/2026/.test(t)) E.push(`[${l}] 本文に調べた年月がない`);
-    if (!/(向いていない|向かない|not the right fit|When it is not)/i.test(content)) E.push(`[${l}] 「向いていない場面」がない`);
+    if (!/(向いていない|向かない|不適合|not the right fit|When it is not)/i.test(content)) E.push(`[${l}] 「向いていない場面」がない`);
     if (BAD_WORDS.test(content) || BAD_WORDS.test(JSON.stringify(L).includes(`"${k}.`) ? need.map((x) => L[x] || '').join(' ') : '')) E.push(`[${l}] 仮の文言（TODO/〇〇 など）が残っている`);
-    if (/最安|業界No|必ず|絶対|圧倒的|革命/.test(content)) E.push(`[${l}] 言い切り・誇大表現がある（最安・必ず・絶対 など）`);
+    if (/最安|業界No|必ず|絶対|圧倒的|革命|最便宜|最低價|絕對|一定會|必定/.test(content)) E.push(`[${l}] 言い切り・誇大表現がある（最安・必ず・絶対 など）`);
     // 類似度（使い回しの検出）
     for (const other of allIds) {
       if (other === id || !contentOf(other, l)) continue;

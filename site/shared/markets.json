@@ -1,16 +1,80 @@
 {
   "countries": [
-    { "code": 2392, "ja": "日本", "en": "Japan" },
-    { "code": 2840, "ja": "米国", "en": "United States" },
-    { "code": 2826, "ja": "英国", "en": "United Kingdom" },
-    { "code": 2124, "ja": "カナダ", "en": "Canada" },
-    { "code": 2036, "ja": "オーストラリア", "en": "Australia" },
-    { "code": 2410, "ja": "韓国", "en": "South Korea" },
-    { "code": 2158, "ja": "台湾", "en": "Taiwan" }
+    {
+      "code": 2392,
+      "ja": "日本",
+      "en": "Japan",
+      "zh-TW": "日本"
+    },
+    {
+      "code": 2840,
+      "ja": "米国",
+      "en": "United States",
+      "zh-TW": "美國"
+    },
+    {
+      "code": 2826,
+      "ja": "英国",
+      "en": "United Kingdom",
+      "zh-TW": "英國"
+    },
+    {
+      "code": 2124,
+      "ja": "カナダ",
+      "en": "Canada",
+      "zh-TW": "加拿大"
+    },
+    {
+      "code": 2036,
+      "ja": "オーストラリア",
+      "en": "Australia",
+      "zh-TW": "澳洲"
+    },
+    {
+      "code": 2410,
+      "ja": "韓国",
+      "en": "South Korea",
+      "zh-TW": "南韓"
+    },
+    {
+      "code": 2158,
+      "ja": "台湾",
+      "en": "Taiwan",
+      "zh-TW": "台灣"
+    }
   ],
   "languages": [
-    { "code": "ja", "ja": "日本語", "en": "Japanese" },
-    { "code": "en", "ja": "英語", "en": "English" }
+    {
+      "code": "ja",
+      "ja": "日本語",
+      "en": "Japanese",
+      "zh-TW": "日文"
+    },
+    {
+      "code": "en",
+      "ja": "英語",
+      "en": "English",
+      "zh-TW": "英文"
+    },
+    {
+      "code": "zh-TW",
+      "ja": "繁体字中国語",
+      "en": "Chinese (Traditional)",
+      "zh-TW": "繁體中文"
+    }
   ],
-  "defaults": { "ja": { "country": 2392, "language": "ja" }, "en": { "country": 2840, "language": "en" } }
+  "defaults": {
+    "ja": {
+      "country": 2392,
+      "language": "ja"
+    },
+    "en": {
+      "country": 2840,
+      "language": "en"
+    },
+    "zh-TW": {
+      "country": 2158,
+      "language": "zh-TW"
+    }
+  }
 }
