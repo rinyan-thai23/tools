@@ -1,0 +1,173 @@
+{
+ "keyword": "ラーメン",
+ "fetched_at": "2026-11",
+ "tasks": [
+  {
+   "cost": 0.18,
+   "time": "0.1879 sec.",
+   "result": [
+    {
+     "items_count": 2,
+     "items": [
+      {
+       "keyword": "ラーメン",
+       "search_volume": 302740,
+       "country_distribution": [
+        {
+         "country_iso_code": "JP",
+         "search_volume": 291183,
+         "percentage": 96.18254
+        },
+        {
+         "country_iso_code": "US",
+         "search_volume": 2509,
+         "percentage": 0.82884
+        },
+        {
+         "country_iso_code": "NG",
+         "search_volume": 1280,
+         "percentage": 0.4228
+        },
+        {
+         "country_iso_code": "TW",
+         "search_volume": 659,
+         "percentage": 0.21795
+        },
+        {
+         "country_iso_code": "VN",
+         "search_volume": 591,
+         "percentage": 0.19535
+        },
+        {
+         "country_iso_code": "DE",
+         "search_volume": 527,
+         "percentage": 0.17438
+        },
+        {
+         "country_iso_code": "GB",
+         "search_volume": 496,
+         "percentage": 0.16414
+        },
+        {
+         "country_iso_code": "IN",
+         "search_volume": 466,
+         "percentage": 0.15415
+        },
+        {
+         "country_iso_code": "ID",
+         "search_volume": 393,
+         "percentage": 0.13006
+        },
+        {
+         "country_iso_code": "RU",
+         "search_volume": 355,
+         "percentage": 0.11729
+        },
+        {
+         "country_iso_code": "MX",
+         "search_volume": 341,
+         "percentage": 0.11289
+        },
+        {
+         "country_iso_code": "FR",
+         "search_volume": 297,
+         "percentage": 0.0983
+        },
+        {
+         "country_iso_code": "TH",
+         "search_volume": 273,
+         "percentage": 0.09018
+        },
+        {
+         "country_iso_code": "AR",
+         "search_volume": 242,
+         "percentage": 0.08007
+        },
+        {
+         "country_iso_code": "BR",
+         "search_volume": 199,
+         "percentage": 0.06601
+        },
+        {
+         "country_iso_code": "ES",
+         "search_volume": 178,
+         "percentage": 0.05888
+        },
+        {
+         "country_iso_code": "AU",
+         "search_volume": 173,
+         "percentage": 0.0572
+        },
+        {
+         "country_iso_code": "KR",
+         "search_volume": 168,
+         "percentage": 0.05574
+        },
+        {
+         "country_iso_code": "NL",
+         "search_volume": 149,
+         "percentage": 0.04922
+        },
+        {
+         "country_iso_code": "IT",
+         "search_volume": 144,
+         "percentage": 0.04768
+        },
+        {
+         "country_iso_code": "BD",
+         "search_volume": 133,
+         "percentage": 0.04404
+        },
+        {
+         "country_iso_code": "IR",
+         "search_volume": 133,
+         "percentage": 0.04404
+        },
+        {
+         "country_iso_code": "HK",
+         "search_volume": 131,
+         "percentage": 0.04346
+        },
+        {
+         "country_iso_code": "CO",
+         "search_volume": 117,
+         "percentage": 0.0387
+        },
+        {
+         "country_iso_code": "CA",
+         "search_volume": 110,
+         "percentage": 0.03644
+        },
+        {
+         "country_iso_code": "MY",
+         "search_volume": 94,
+         "percentage": 0.0313
+        },
+        {
+         "country_iso_code": "HR",
+         "search_volume": 87,
+         "percentage": 0.02882
+        },
+        {
+         "country_iso_code": "TR",
+         "search_volume": 82,
+         "percentage": 0.02711
+        },
+        {
+         "country_iso_code": "PL",
+         "search_volume": 79,
+         "percentage": 0.02637
+        },
+        {
+         "country_iso_code": "PE",
+         "search_volume": 75,
+         "percentage": 0.02505
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

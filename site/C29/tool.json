@@ -1,0 +1,38 @@
+{
+  "id": "C29",
+  "endpoint": "keywords_data/google_trends/explore/live",
+  "who": "kindle_note",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keywords",
+      "label": "c29.keyword",
+      "multiline": true,
+      "wrap": "lines",
+      "max": 5
+    }
+  ],
+  "result": {
+    "items": "result.0.items.0.data",
+    "where": {},
+    "columns": [
+      {
+        "key": "period",
+        "label": "c29.col.period",
+        "join": [
+          "date_from",
+          "date_to"
+        ],
+        "sep": " 〜 "
+      },
+      {
+        "key": "values",
+        "label": "c29.col.values",
+        "transform": "slash"
+      }
+    ]
+  },
+  "csv": "C29.csv"
+}

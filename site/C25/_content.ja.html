@@ -1,0 +1,40 @@
+<section class="seo">
+<h2>サイトに合うキーワードを出す方法と、主なツールの比較</h2>
+<p>クライアントのサイトの運用を任されたとき、<strong>そのサイトに関係するキーワードの候補</strong>を、まず洗い出したい。ドメインを入れると、Googleが関連づけたキーワードを、月間検索数・CPC・競合度つきで表にします。</p>
+<div class="scroll"><table>
+<thead><tr><th>方法・ツール</th><th>料金の考え方</th><th>特徴</th></tr></thead>
+<tbody>
+<tr class="me"><td>このツール（DataForSEO）</td><td>1回ごとの従量課金。1回 $0.09（実測）</td><td>ドメインを入れて、キーワード候補を検索数・CPC・競合度つきで一覧。1回で約1000行。CSVで保存できる</td></tr>
+<tr><td>Googleキーワードプランナー（手動）</td><td>無料（Google広告のアカウントが必要）</td><td>「ウェブサイトから始める」機能がある。数字は範囲で出ることがあると言われる</td></tr>
+<tr><td>Ahrefs Site Explorer／Keywords Explorer</td><td>月額制（プランは公式で確認）</td><td>サイトが実際に順位を取っているキーワードを調べるのが得意</td></tr>
+<tr><td>Ubersuggest</td><td>月額制や買い切りの案内がある（料金は資料により異なる。公式で確認）</td><td>サイトの分析とキーワード候補</td></tr>
+</tbody></table></div>
+<p class="asof">2026年11月時点の調べです。料金は変わるので、申し込む前に各社の公式サイトで確認してください。</p>
+
+<h2>このツールのメリット</h2>
+<ul>
+<li><strong>ドメインだけで引ける。</strong>サイトのURLの下層ではなく、ドメインを入れます。</li>
+<li><strong>1回で約1000行。</strong>rakuten.co.jpで998行返りました（実測）。$0.09で全部取れます。</li>
+<li><strong>検索数・CPC・競合度つき。</strong>候補の優先順位づけに使えます。</li>
+<li><strong>約8秒で返る。</strong></li>
+<li><strong>CSVで残せる。</strong>表計算で絞り込めます。</li>
+</ul>
+
+<h2>向いていない場面</h2>
+<ul>
+<li><strong>サイトが実際に取っている順位</strong>が知りたい → これは、Googleが関連づけた広告用のキーワード候補で、サイトの順位ではありません。</li>
+<li><strong>行が多すぎる</strong> → 全行を表示します。画面では長くなるので、CSVにして表計算で絞るのが向いています。</li>
+<li><strong>CPCが空の行</strong>がある → サンプルでは、998行のうち140行で空でした。そのまま空で出します。</li>
+<li>社名や商品名の言葉（ブランド名の検索）も、そのまま混ざります。</li>
+<li><strong>結果が0行のドメイン</strong>がある → suumo.jpでは0行でした。それでも、$0.09かかりました（実測）。</li>
+</ul>
+<p>このツールは、「このドメインに関係するキーワード候補を、検索数つきで一覧にする」ことに絞っています。</p>
+
+<h2>よくある質問</h2>
+<details><summary>キーワードは、サイトが順位を取っているものですか？</summary><p>いいえ。Google広告のキーワード候補です。サイトの順位ではありません。</p></details>
+<details><summary>なぜ1000行近くも返るのですか？</summary><p>APIが返した行を、そのまま全部出しているためです。件数は選べません。</p></details>
+<details><summary>日本語と英語が混ざるのはなぜですか？</summary><p>サイトに関係する言葉が、そのまま出るためです。「rakuten jp」のような英語の行もあります。</p></details>
+<details><summary>CPCが空の行は、どういう意味ですか？</summary><p>APIが値を返さなかった行です。そのまま空で出しています。</p></details>
+<details><summary>結果が0行でも、料金はかかりますか？</summary><p>かかります。suumo.jpでは0行でしたが、$0.09でした（実測）。</p></details>
+<details><summary>フリーメールで登録できますか？</summary><p>DataForSEOは、フリーメールでは登録できません。くわしくは<a href="/dfs-ja.html">DataForSEOとは？</a>をご覧ください。</p></details>
+</section>

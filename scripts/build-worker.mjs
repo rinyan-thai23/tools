@@ -58,7 +58,7 @@ for (const tool of tools) {
   for (const { code: l } of avail) {
     const L = locales[l];
     const T = (key) => esc(L[key] ?? '');
-    const inputs = tool.inputs.map((i) => `<label><span data-i18n="${i.label}">${T(i.label)}</span><input id="in-${i.id}" type="text"></label>`).join('\n');
+    const inputs = tool.inputs.map((i) => `<label><span data-i18n="${i.label}">${T(i.label)}</span>${i.multiline ? `<textarea id="in-${i.id}" rows="4"></textarea>` : `<input id="in-${i.id}" type="text">`}</label>`).join('\n');
     const cSel = `<label><span data-i18n="ui.country">${T('ui.country')}</span><select id="country"></select></label>`;
     const lSel = `<label><span data-i18n="ui.language">${T('ui.language')}</span><select id="language"></select></label>`;
     const markets = tool.markets === 'country' ? cSel : tool.markets === 'language' ? lSel : tool.markets ? `<div class="row">\n  ${cSel}\n  ${lSel}\n</div>` : '';

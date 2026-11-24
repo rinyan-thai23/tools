@@ -1,0 +1,39 @@
+{
+  "id": "C25",
+  "endpoint": "keywords_data/google_ads/keywords_for_site/live",
+  "who": "freelancer_seo",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "target",
+      "label": "c25.keyword"
+    }
+  ],
+  "result": {
+    "items": "result",
+    "where": {},
+    "columns": [
+      {
+        "key": "keyword",
+        "label": "c25.col.keyword"
+      },
+      {
+        "key": "volume",
+        "label": "c25.col.volume",
+        "from": "search_volume"
+      },
+      {
+        "key": "cpc",
+        "label": "c25.col.cpc"
+      },
+      {
+        "key": "competition",
+        "label": "c25.col.competition",
+        "from": "competition_index"
+      }
+    ]
+  },
+  "csv": "C25.csv"
+}

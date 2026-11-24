@@ -1,0 +1,2701 @@
+{
+ "keyword": "ラーメン 渋谷",
+ "fetched_at": "2026-11",
+ "tasks": [
+  {
+   "cost": 0.09,
+   "time": "3.0626 sec.",
+   "result": [
+    {
+     "keyword": "ラーメン 渋谷",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 4,
+     "search_volume": 60500,
+     "low_top_of_page_bid": 0.07,
+     "high_top_of_page_bid": 6.03,
+     "cpc": 0.09,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 60500
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 60500
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 74000
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 60500
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 60500
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 60500
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 60500
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 60500
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 60500
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 60500
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 74000
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 74000
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": null
+     }
+    },
+    {
+     "keyword": "あふり ラーメン 恵比寿",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 0,
+     "search_volume": 70,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": 0.05,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 70
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 50
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "afuri",
+        "concept_group": {
+         "name": "他のブランド",
+         "type": "OTHER_BRANDS"
+        }
+       },
+       {
+        "name": "恵比寿",
+        "concept_group": {
+         "name": "ポイ：614",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "し おかん 恵比寿",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 0,
+     "search_volume": 50,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 110
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 90
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "Non-Brands",
+        "concept_group": {
+         "name": "ノンブランド",
+         "type": "NON_BRAND"
+        }
+       },
+       {
+        "name": "恵比寿",
+        "concept_group": {
+         "name": "ポイ：614",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "すずらん 恵比寿",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 0,
+     "search_volume": 50,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 50
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "Non-Brands",
+        "concept_group": {
+         "name": "ノンブランド",
+         "type": "NON_BRAND"
+        }
+       },
+       {
+        "name": "恵比寿",
+        "concept_group": {
+         "name": "ポイ：614",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "ガパオ 渋谷",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 0,
+     "search_volume": 20,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 20
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "Non-Brands",
+        "concept_group": {
+         "name": "ノンブランド",
+         "type": "NON_BRAND"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "ラーメン 屋 渋谷",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 5,
+     "search_volume": 1300,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": 0.06,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1300
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "Non-Brands",
+        "concept_group": {
+         "name": "ノンブランド",
+         "type": "NON_BRAND"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "ラーメン 王 渋谷",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 0,
+     "search_volume": 590,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 480
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 590
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "Non-Brands",
+        "concept_group": {
+         "name": "ノンブランド",
+         "type": "NON_BRAND"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "ラーメン 香 月 恵比寿",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 1,
+     "search_volume": 320,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 320
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 320
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "Non-Brands",
+        "concept_group": {
+         "name": "ノンブランド",
+         "type": "NON_BRAND"
+        }
+       },
+       {
+        "name": "恵比寿",
+        "concept_group": {
+         "name": "ポイ：614",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "代々木 我 武者 羅",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 0,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "Non-Brands",
+        "concept_group": {
+         "name": "ノンブランド",
+         "type": "NON_BRAND"
+        }
+       },
+       {
+        "name": "代々木",
+        "concept_group": {
+         "name": "ポイ：614",
+         "type": null
+        }
+       },
+       {
+        "name": "醤油",
+        "concept_group": {
+         "name": "その他",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "代々木 生姜 ラーメン",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 0,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "Non-Brands",
+        "concept_group": {
+         "name": "ノンブランド",
+         "type": "NON_BRAND"
+        }
+       },
+       {
+        "name": "代々木",
+        "concept_group": {
+         "name": "ポイ：614",
+         "type": null
+        }
+       },
+       {
+        "name": "醤油",
+        "concept_group": {
+         "name": "その他",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "俺 塩 渋谷",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 1,
+     "search_volume": 170,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 210
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "俺 流 塩 らーめん",
+        "concept_group": {
+         "name": "他のブランド",
+         "type": "OTHER_BRANDS"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "俺 流 塩 らーめん 円山 町 店",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 1,
+     "search_volume": 1900,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1600
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "俺 流 塩 らーめん",
+        "concept_group": {
+         "name": "他のブランド",
+         "type": "OTHER_BRANDS"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "俺 流 塩 らーめん 神宮前 店",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 1,
+     "search_volume": 6600,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 6600
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 8100
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "俺 流 塩 らーめん",
+        "concept_group": {
+         "name": "他のブランド",
+         "type": "OTHER_BRANDS"
+        }
+       },
+       {
+        "name": "神宮前",
+        "concept_group": {
+         "name": "ポイ：614",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "俺 流 塩 ラーメン 渋谷",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 1,
+     "search_volume": 1300,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": 1.34,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1600
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "俺 流 塩 らーめん",
+        "concept_group": {
+         "name": "他のブランド",
+         "type": "OTHER_BRANDS"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "俺 流 渋谷",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 1,
+     "search_volume": 70,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": 0.24,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 90
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "俺 流 塩 らーめん",
+        "concept_group": {
+         "name": "他のブランド",
+         "type": "OTHER_BRANDS"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "喜楽 渋谷",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 0,
+     "search_volume": 6600,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 5400
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "Non-Brands",
+        "concept_group": {
+         "name": "ノンブランド",
+         "type": "NON_BRAND"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "恵比寿 afuri ラーメン",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 1,
+     "search_volume": 50,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 110
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 50
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "afuri",
+        "concept_group": {
+         "name": "他のブランド",
+         "type": "OTHER_BRANDS"
+        }
+       },
+       {
+        "name": "恵比寿",
+        "concept_group": {
+         "name": "ポイ：614",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "恵比寿 し おかん",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 0,
+     "search_volume": 50,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 70
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 70
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "Non-Brands",
+        "concept_group": {
+         "name": "ノンブランド",
+         "type": "NON_BRAND"
+        }
+       },
+       {
+        "name": "恵比寿",
+        "concept_group": {
+         "name": "ポイ：614",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "恵比寿 すずらん",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 0,
+     "search_volume": 140,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 110
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 140
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "Non-Brands",
+        "concept_group": {
+         "name": "ノンブランド",
+         "type": "NON_BRAND"
+        }
+       },
+       {
+        "name": "恵比寿",
+        "concept_group": {
+         "name": "ポイ：614",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "恵比寿 とんこつ ラーメン",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 4,
+     "search_volume": 260,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": 0.05,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 320
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 260
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "Non-Brands",
+        "concept_group": {
+         "name": "ノンブランド",
+         "type": "NON_BRAND"
+        }
+       },
+       {
+        "name": "恵比寿",
+        "concept_group": {
+         "name": "ポイ：614",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "恵比寿 ラーメン 2022",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "Non-Brands",
+        "concept_group": {
+         "name": "ノンブランド",
+         "type": "NON_BRAND"
+        }
+       },
+       {
+        "name": "恵比寿",
+        "concept_group": {
+         "name": "ポイ：614",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "恵比寿 ラーメン テイクアウト",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 3,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "Non-Brands",
+        "concept_group": {
+         "name": "ノンブランド",
+         "type": "NON_BRAND"
+        }
+       },
+       {
+        "name": "恵比寿",
+        "concept_group": {
+         "name": "ポイ：614",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "恵比寿 ラーメン 新店",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 1,
+     "search_volume": 20,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "Non-Brands",
+        "concept_group": {
+         "name": "ノンブランド",
+         "type": "NON_BRAND"
+        }
+       },
+       {
+        "name": "恵比寿",
+        "concept_group": {
+         "name": "ポイ：614",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "恵比寿 朝 ラーメン",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 0,
+     "search_volume": 210,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 210
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "Non-Brands",
+        "concept_group": {
+         "name": "ノンブランド",
+         "type": "NON_BRAND"
+        }
+       },
+       {
+        "name": "恵比寿",
+        "concept_group": {
+         "name": "ポイ：614",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "恵比寿 綾川",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 0,
+     "search_volume": 2400,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 4400
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 3600
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "Non-Brands",
+        "concept_group": {
+         "name": "ノンブランド",
+         "type": "NON_BRAND"
+        }
+       },
+       {
+        "name": "恵比寿",
+        "concept_group": {
+         "name": "ポイ：614",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "我 武者 羅 幡ヶ谷",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 0,
+     "search_volume": 720,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 720
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "Non-Brands",
+        "concept_group": {
+         "name": "ノンブランド",
+         "type": "NON_BRAND"
+        }
+       },
+       {
+        "name": "幡ヶ谷",
+        "concept_group": {
+         "name": "ポイ：614",
+         "type": null
+        }
+       },
+       {
+        "name": "醤油",
+        "concept_group": {
+         "name": "その他",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "東京 渋谷 ラーメン",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 3,
+     "search_volume": 170,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": 0.04,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 210
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "Non-Brands",
+        "concept_group": {
+         "name": "ノンブランド",
+         "type": "NON_BRAND"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "横浜 家系 ラーメン 代々木 商店",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 1,
+     "search_volume": 3600,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 5400
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "商店",
+        "concept_group": {
+         "name": "他のブランド",
+         "type": "OTHER_BRANDS"
+        }
+       },
+       {
+        "name": "代々木",
+        "concept_group": {
+         "name": "ポイ：614",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "渋谷 paypay ラーメン",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 0,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "paypay",
+        "concept_group": {
+         "name": "他のブランド",
+         "type": "OTHER_BRANDS"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "渋谷 おすすめ ラーメン",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 5,
+     "search_volume": 2400,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": 0.06,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 3600
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "Non-Brands",
+        "concept_group": {
+         "name": "ノンブランド",
+         "type": "NON_BRAND"
+        }
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

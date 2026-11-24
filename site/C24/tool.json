@@ -1,0 +1,47 @@
+{
+  "id": "C24",
+  "endpoint": "keywords_data/google_ads/search_volume/live",
+  "who": "beginner_blogger",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keywords",
+      "label": "c24.keyword",
+      "multiline": true,
+      "wrap": "lines"
+    }
+  ],
+  "result": {
+    "items": "result",
+    "where": {},
+    "columns": [
+      {
+        "key": "keyword",
+        "label": "c24.col.keyword"
+      },
+      {
+        "key": "volume",
+        "label": "c24.col.volume",
+        "from": "search_volume"
+      },
+      {
+        "key": "cpc",
+        "label": "c24.col.cpc"
+      },
+      {
+        "key": "competition",
+        "label": "c24.col.competition",
+        "from": "competition_index"
+      },
+      {
+        "key": "monthly",
+        "label": "c24.col.monthly",
+        "from": "monthly_searches",
+        "transform": "monthly"
+      }
+    ]
+  },
+  "csv": "C24.csv"
+}

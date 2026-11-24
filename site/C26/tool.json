@@ -1,0 +1,40 @@
+{
+  "id": "C26",
+  "endpoint": "keywords_data/google_ads/keywords_for_keywords/live",
+  "who": "local_shop",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keywords",
+      "label": "c26.keyword",
+      "wrap": "array"
+    }
+  ],
+  "result": {
+    "items": "result",
+    "where": {},
+    "columns": [
+      {
+        "key": "keyword",
+        "label": "c26.col.keyword"
+      },
+      {
+        "key": "volume",
+        "label": "c26.col.volume",
+        "from": "search_volume"
+      },
+      {
+        "key": "cpc",
+        "label": "c26.col.cpc"
+      },
+      {
+        "key": "competition",
+        "label": "c26.col.competition",
+        "from": "competition_index"
+      }
+    ]
+  },
+  "csv": "C26.csv"
+}

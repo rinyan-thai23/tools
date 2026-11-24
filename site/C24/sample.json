@@ -1,0 +1,312 @@
+{
+ "keyword": "ブログ 始め方\n副業 ブログ\nアフィリエイト 始め方\nブログ 収益化",
+ "fetched_at": "2026-11",
+ "tasks": [
+  {
+   "cost": 0.09,
+   "time": "0.0371 sec.",
+   "result": [
+    {
+     "keyword": "ブログ 始め方",
+     "spell": null,
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 45,
+     "search_volume": 5400,
+     "low_top_of_page_bid": 0.11,
+     "high_top_of_page_bid": 1.34,
+     "cpc": 1.26,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 6600
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 6600
+      }
+     ]
+    },
+    {
+     "keyword": "副業 ブログ",
+     "spell": null,
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 21,
+     "search_volume": 880,
+     "low_top_of_page_bid": 0.21,
+     "high_top_of_page_bid": 1.61,
+     "cpc": 1.54,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1000
+      }
+     ]
+    },
+    {
+     "keyword": "アフィリエイト 始め方",
+     "spell": null,
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 63,
+     "search_volume": 5400,
+     "low_top_of_page_bid": 0.19,
+     "high_top_of_page_bid": 1.59,
+     "cpc": 1.93,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 4400
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 4400
+      }
+     ]
+    },
+    {
+     "keyword": "ブログ 収益化",
+     "spell": null,
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 28,
+     "search_volume": 5400,
+     "low_top_of_page_bid": 0.06,
+     "high_top_of_page_bid": 0.83,
+     "cpc": 0.78,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 6600
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 6600
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

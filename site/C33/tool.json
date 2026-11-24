@@ -1,0 +1,38 @@
+{
+  "id": "C33",
+  "endpoint": "keywords_data/clickstream_data/global_search_volume/live",
+  "who": "inbound",
+  "markets": false,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keywords",
+      "label": "c33.keyword",
+      "wrap": "array"
+    }
+  ],
+  "result": {
+    "items": "result.0.items.0.country_distribution",
+    "where": {},
+    "columns": [
+      {
+        "key": "country",
+        "label": "c33.col.country",
+        "from": "country_iso_code"
+      },
+      {
+        "key": "volume",
+        "label": "c33.col.volume",
+        "from": "search_volume"
+      },
+      {
+        "key": "share",
+        "label": "c33.col.share",
+        "from": "percentage",
+        "transform": "round2"
+      }
+    ]
+  },
+  "csv": "C33.csv"
+}

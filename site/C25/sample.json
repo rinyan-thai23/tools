@@ -1,0 +1,2651 @@
+{
+ "keyword": "rakuten.co.jp",
+ "fetched_at": "2026-11",
+ "tasks": [
+  {
+   "cost": 0.09,
+   "time": "6.2740 sec.",
+   "result": [
+    {
+     "keyword": "rakuten jp",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 45,
+     "search_volume": 1900,
+     "low_top_of_page_bid": 0.07,
+     "high_top_of_page_bid": 0.4,
+     "cpc": 0.14,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1600
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": null
+     }
+    },
+    {
+     "keyword": "楽天 ログイン",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 7,
+     "search_volume": 135000,
+     "low_top_of_page_bid": 0.07,
+     "high_top_of_page_bid": 0.37,
+     "cpc": 0.14,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 201000
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 135000
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 110000
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 110000
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 110000
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 110000
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 110000
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 135000
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 90500
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 110000
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 110000
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 110000
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": null
+     }
+    },
+    {
+     "keyword": "楽天 販売",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 36,
+     "search_volume": 110,
+     "low_top_of_page_bid": 1.81,
+     "high_top_of_page_bid": 130.81,
+     "cpc": 11.42,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 140
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 110
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "楽天 市場",
+        "concept_group": {
+         "name": "他のブランド",
+         "type": "OTHER_BRANDS"
+        }
+       },
+       {
+        "name": "shop",
+        "concept_group": {
+         "name": "その他",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "楽天 ec",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 11,
+     "search_volume": 210,
+     "low_top_of_page_bid": 0.1,
+     "high_top_of_page_bid": 1.25,
+     "cpc": 0.59,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 260
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "楽天 市場",
+        "concept_group": {
+         "name": "他のブランド",
+         "type": "OTHER_BRANDS"
+        }
+       },
+       {
+        "name": "shop",
+        "concept_group": {
+         "name": "その他",
+         "type": null
+        }
+       },
+       {
+        "name": "rakuten shopping",
+        "concept_group": {
+         "name": "その他",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "楽天 出店",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 52,
+     "search_volume": 590,
+     "low_top_of_page_bid": 3.46,
+     "high_top_of_page_bid": 19.01,
+     "cpc": 17.94,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 720
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 720
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "楽天 市場",
+        "concept_group": {
+         "name": "他のブランド",
+         "type": "OTHER_BRANDS"
+        }
+       },
+       {
+        "name": "shop",
+        "concept_group": {
+         "name": "その他",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "楽天 ホームページ",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 13,
+     "search_volume": 2900,
+     "low_top_of_page_bid": 0.08,
+     "high_top_of_page_bid": 0.82,
+     "cpc": 0.57,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1600
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "shop",
+        "concept_group": {
+         "name": "その他",
+         "type": null
+        }
+       },
+       {
+        "name": "hp",
+        "concept_group": {
+         "name": "その他",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "楽天 新規",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 11,
+     "search_volume": 880,
+     "low_top_of_page_bid": 1.1,
+     "high_top_of_page_bid": 5.54,
+     "cpc": 3.35,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 880
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "楽天 市場",
+        "concept_group": {
+         "name": "他のブランド",
+         "type": "OTHER_BRANDS"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "通販 ランキング",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 6,
+     "search_volume": 210,
+     "low_top_of_page_bid": 0.18,
+     "high_top_of_page_bid": 2.23,
+     "cpc": 1.7,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 260
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "android",
+        "concept_group": {
+         "name": "その他",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "楽天 アプリ ダウンロード",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 17,
+     "search_volume": 1600,
+     "low_top_of_page_bid": 0.42,
+     "high_top_of_page_bid": 2.06,
+     "cpc": 1.51,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1600
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "楽天 アプリ",
+        "concept_group": {
+         "name": "他のブランド",
+         "type": "OTHER_BRANDS"
+        }
+       },
+       {
+        "name": "android",
+        "concept_group": {
+         "name": "その他",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "rakuten 官网",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 45,
+     "search_volume": 90,
+     "low_top_of_page_bid": 0.26,
+     "high_top_of_page_bid": 1.53,
+     "cpc": 1.12,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 90
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": null
+     }
+    },
+    {
+     "keyword": "ネット 楽天",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 33,
+     "search_volume": 2400,
+     "low_top_of_page_bid": 1.76,
+     "high_top_of_page_bid": 12.64,
+     "cpc": 3.4,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 2900
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": null
+     }
+    },
+    {
+     "keyword": "買い物 ネット",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 76,
+     "search_volume": 140,
+     "low_top_of_page_bid": 0.35,
+     "high_top_of_page_bid": 2.53,
+     "cpc": 1.02,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 140
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 210
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": null
+     }
+    },
+    {
+     "keyword": "楽天 買い方",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 6,
+     "search_volume": 210,
+     "low_top_of_page_bid": 0.33,
+     "high_top_of_page_bid": 1.45,
+     "cpc": 1.31,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 210
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "楽天 市場",
+        "concept_group": {
+         "name": "他のブランド",
+         "type": "OTHER_BRANDS"
+        }
+       },
+       {
+        "name": "shop",
+        "concept_group": {
+         "name": "その他",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "rakuten 市場",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 29,
+     "search_volume": 1900,
+     "low_top_of_page_bid": 0.14,
+     "high_top_of_page_bid": 0.53,
+     "cpc": 0.21,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 2900
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "楽天 市場",
+        "concept_group": {
+         "name": "他のブランド",
+         "type": "OTHER_BRANDS"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "rakuten jp app",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 36,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": 0.74,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": null
+     }
+    },
+    {
+     "keyword": "通販 楽天",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 47,
+     "search_volume": 260,
+     "low_top_of_page_bid": 0.05,
+     "high_top_of_page_bid": 0.47,
+     "cpc": 0.22,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 320
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 260
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "楽天 市場",
+        "concept_group": {
+         "name": "他のブランド",
+         "type": "OTHER_BRANDS"
+        }
+       },
+       {
+        "name": "rakuten fashion",
+        "concept_group": {
+         "name": "他のブランド",
+         "type": "OTHER_BRANDS"
+        }
+       },
+       {
+        "name": "shop",
+        "concept_group": {
+         "name": "その他",
+         "type": null
+        }
+       },
+       {
+        "name": "rakuten shopping",
+        "concept_group": {
+         "name": "その他",
+         "type": null
+        }
+       },
+       {
+        "name": "android",
+        "concept_group": {
+         "name": "その他",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "通販 おすすめ",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 82,
+     "search_volume": 260,
+     "low_top_of_page_bid": 0.51,
+     "high_top_of_page_bid": 2.74,
+     "cpc": 0.96,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 320
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 320
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 390
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "shop",
+        "concept_group": {
+         "name": "その他",
+         "type": null
+        }
+       },
+       {
+        "name": "android",
+        "concept_group": {
+         "name": "その他",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "楽天 イベント",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 0,
+     "search_volume": 2900,
+     "low_top_of_page_bid": 1.01,
+     "high_top_of_page_bid": 1.87,
+     "cpc": 1.37,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 3600
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 3600
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 3600
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "楽天 市場",
+        "concept_group": {
+         "name": "他のブランド",
+         "type": "OTHER_BRANDS"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "アプリ 楽天 市場",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 17,
+     "search_volume": 22200,
+     "low_top_of_page_bid": 0.21,
+     "high_top_of_page_bid": 2.41,
+     "cpc": 1.37,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 22200
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 27100
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 27100
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 22200
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 22200
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "楽天 市場",
+        "concept_group": {
+         "name": "他のブランド",
+         "type": "OTHER_BRANDS"
+        }
+       },
+       {
+        "name": "楽天 アプリ",
+        "concept_group": {
+         "name": "他のブランド",
+         "type": "OTHER_BRANDS"
+        }
+       },
+       {
+        "name": "楽天 ポイント",
+        "concept_group": {
+         "name": "その他",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "楽天 検索 ポイント",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 1,
+     "search_volume": 880,
+     "low_top_of_page_bid": 0.4,
+     "high_top_of_page_bid": 0.91,
+     "cpc": 0.95,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1000
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "楽天 ポイント",
+        "concept_group": {
+         "name": "その他",
+         "type": null
+        }
+       },
+       {
+        "name": "楽天 検索",
+        "concept_group": {
+         "name": "その他",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "乐天 rakuten",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 23,
+     "search_volume": 10,
+     "low_top_of_page_bid": 0.16,
+     "high_top_of_page_bid": 0.68,
+     "cpc": 0.69,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": null
+     }
+    },
+    {
+     "keyword": "楽天 ホームページ 無料",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 2,
+     "search_volume": 20,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 70
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "hp",
+        "concept_group": {
+         "name": "その他",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "楽天 問い合わせ",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 2,
+     "search_volume": 8100,
+     "low_top_of_page_bid": 0.84,
+     "high_top_of_page_bid": 2.85,
+     "cpc": 2.82,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 8100
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "楽天 市場",
+        "concept_group": {
+         "name": "他のブランド",
+         "type": "OTHER_BRANDS"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "楽天 買い物 アプリ",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 19,
+     "search_volume": 110,
+     "low_top_of_page_bid": 0.31,
+     "high_top_of_page_bid": 1.9,
+     "cpc": 1.69,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 110
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 110
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "楽天 市場",
+        "concept_group": {
+         "name": "他のブランド",
+         "type": "OTHER_BRANDS"
+        }
+       },
+       {
+        "name": "楽天 アプリ",
+        "concept_group": {
+         "name": "他のブランド",
+         "type": "OTHER_BRANDS"
+        }
+       },
+       {
+        "name": "楽天 ポイント",
+        "concept_group": {
+         "name": "その他",
+         "type": null
+        }
+       },
+       {
+        "name": "rakuten shopping",
+        "concept_group": {
+         "name": "その他",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "楽天 加入",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 32,
+     "search_volume": 30,
+     "low_top_of_page_bid": 0.64,
+     "high_top_of_page_bid": 2.4,
+     "cpc": 2.23,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 70
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 50
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": null
+     }
+    },
+    {
+     "keyword": "楽天 市場",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 9,
+     "search_volume": 5000000,
+     "low_top_of_page_bid": 0.04,
+     "high_top_of_page_bid": 0.85,
+     "cpc": 0.45,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 5000000
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 6120000
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 5000000
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 5000000
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 6120000
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 5000000
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 5000000
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 6120000
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 4090000
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 5000000
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 6120000
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 5000000
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "楽天 市場",
+        "concept_group": {
+         "name": "他のブランド",
+         "type": "OTHER_BRANDS"
+        }
+       },
+       {
+        "name": "楽天 ポイント",
+        "concept_group": {
+         "name": "その他",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "楽天 アプリ",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 18,
+     "search_volume": 22200,
+     "low_top_of_page_bid": 0.51,
+     "high_top_of_page_bid": 2.48,
+     "cpc": 1.67,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 22200
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 22200
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 22200
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 22200
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 27100
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 27100
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 22200
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 27100
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 22200
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 27100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 27100
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 27100
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "楽天 市場",
+        "concept_group": {
+         "name": "他のブランド",
+         "type": "OTHER_BRANDS"
+        }
+       },
+       {
+        "name": "楽天 アプリ",
+        "concept_group": {
+         "name": "他のブランド",
+         "type": "OTHER_BRANDS"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "楽天 スーパー セール",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 5,
+     "search_volume": 201000,
+     "low_top_of_page_bid": 0.06,
+     "high_top_of_page_bid": 0.38,
+     "cpc": 0.21,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 60500
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 450000
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 135000
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 74000
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 450000
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 135000
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 49500
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 368000
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 90500
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 49500
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 368000
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 135000
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "楽天 市場",
+        "concept_group": {
+         "name": "他のブランド",
+         "type": "OTHER_BRANDS"
+        }
+       },
+       {
+        "name": "セール",
+        "concept_group": {
+         "name": "その他",
+         "type": null
+        }
+       },
+       {
+        "name": "sale",
+        "concept_group": {
+         "name": "その他",
+         "type": null
+        }
+       }
+      ]
+     }
+    },
+    {
+     "keyword": "ショッピング 通販",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 96,
+     "search_volume": 110,
+     "low_top_of_page_bid": 0.37,
+     "high_top_of_page_bid": 2.92,
+     "cpc": 1.28,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 140
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 140
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 110
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": null
+     }
+    },
+    {
+     "keyword": "rakuten shopping jp",
+     "location_code": 2392,
+     "language_code": "ja",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 53,
+     "search_volume": 140,
+     "low_top_of_page_bid": 0.12,
+     "high_top_of_page_bid": 0.7,
+     "cpc": 0.73,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 10,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 9,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 140
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 140
+      }
+     ],
+     "keyword_annotations": {
+      "concepts": [
+       {
+        "name": "shop",
+        "concept_group": {
+         "name": "その他",
+         "type": null
+        }
+       },
+       {
+        "name": "rakuten shopping",
+        "concept_group": {
+         "name": "その他",
+         "type": null
+        }
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

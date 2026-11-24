@@ -1,0 +1,249 @@
+{
+ "keyword": "副業",
+ "fetched_at": "2026-11",
+ "tasks": [
+  {
+   "cost": 0.0024,
+   "time": "0.1585 sec.",
+   "result": [
+    {
+     "keywords": [
+      "副業"
+     ],
+     "type": "trends",
+     "location_code": 2392,
+     "language_code": null,
+     "datetime": "2026-11-24 06:46:56 +00:00",
+     "items_count": 1,
+     "items": [
+      {
+       "position": 1,
+       "type": "subregion_interests",
+       "keywords": [
+        "副業"
+       ],
+       "interests": [
+        {
+         "keyword": "副業",
+         "values": [
+          {
+           "geo_id": null,
+           "geo_name": "Aichi",
+           "value": 27
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Akita",
+           "value": 14
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Aomori",
+           "value": 45
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Chiba",
+           "value": 38
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Ehime",
+           "value": 15
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Fukuoka",
+           "value": 43
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Fukushima",
+           "value": 16
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Gifu",
+           "value": 20
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Gunma",
+           "value": 26
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Hiroshima",
+           "value": 30
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Hokkaido",
+           "value": 33
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Hyogo",
+           "value": 37
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Ibaraki",
+           "value": 61
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Ishikawa",
+           "value": 19
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Iwate",
+           "value": 39
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Kagawa",
+           "value": 12
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Kagoshima",
+           "value": 47
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Kanagawa",
+           "value": 38
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Kumamoto",
+           "value": 39
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Kyoto",
+           "value": 33
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Mie",
+           "value": 7
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Miyagi",
+           "value": 8
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Miyazaki",
+           "value": 29
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Nagano",
+           "value": 36
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Nagasaki",
+           "value": 17
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Nara",
+           "value": 40
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Niigata",
+           "value": 28
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Oita",
+           "value": 59
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Okayama",
+           "value": 37
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Okinawa",
+           "value": 29
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Osaka",
+           "value": 33
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Saitama",
+           "value": 78
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Shiga",
+           "value": 100
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Shimane",
+           "value": 35
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Shizuoka",
+           "value": 37
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Tochigi",
+           "value": 27
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Tokushima",
+           "value": 39
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Tokyo",
+           "value": 26
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Tottori",
+           "value": 28
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Toyama",
+           "value": 42
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Yamaguchi",
+           "value": 61
+          },
+          {
+           "geo_id": null,
+           "geo_name": "Yamanashi",
+           "value": 41
+          }
+         ]
+        }
+       ],
+       "interests_comparison": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

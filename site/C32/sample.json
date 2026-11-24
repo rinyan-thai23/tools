@@ -1,0 +1,72 @@
+{
+ "keyword": "副業",
+ "fetched_at": "2026-11",
+ "tasks": [
+  {
+   "cost": 0.0024,
+   "time": "0.2471 sec.",
+   "result": [
+    {
+     "keywords": [
+      "副業"
+     ],
+     "type": "trends",
+     "location_code": 2392,
+     "language_code": null,
+     "datetime": "2026-11-24 06:46:55 +00:00",
+     "items_count": 1,
+     "items": [
+      {
+       "position": 1,
+       "type": "demography",
+       "keywords": [
+        "副業"
+       ],
+       "demography": {
+        "age": [
+         {
+          "keyword": "副業",
+          "values": [
+           {
+            "type": "18-24",
+            "value": 49
+           },
+           {
+            "type": "25-34",
+            "value": 100
+           },
+           {
+            "type": "35-44",
+            "value": 87
+           },
+           {
+            "type": "45-54",
+            "value": 45
+           }
+          ]
+         }
+        ],
+        "gender": [
+         {
+          "keyword": "副業",
+          "values": [
+           {
+            "type": "female",
+            "value": 93
+           },
+           {
+            "type": "male",
+            "value": 100
+           }
+          ]
+         }
+        ]
+       },
+       "demography_comparison": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

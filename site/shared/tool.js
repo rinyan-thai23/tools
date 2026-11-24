@@ -34,7 +34,11 @@ function params() {
   const p = { ...(cfg.params || {}) };
   for (const i of cfg.inputs) {
     const v = $('in-' + i.id).value.trim();
-    if (i.wrap === 'array') p[i.param] = [v];
+    if (i.wrap === 'lines') { // 改行（と、読点・カンマ）で区切って、複数のキーワードにする
+      const list = v.split(/[\n,、]+/).map((x) => x.trim()).filter(Boolean);
+      if (!list.length) throw new ApiError('bad_input');
+      p[i.param] = i.max ? list.slice(0, i.max) : list;
+    } else if (i.wrap === 'array') p[i.param] = [v];
     else if (i.transform === 'video_id') { const vid = parseVideoId(v); if (!vid) throw new ApiError('bad_video'); p[i.param] = vid; } else p[i.param] = v;
   }
   // markets: true=国と言語／"country"=国だけ／"language"=言語だけ（language_params に送り先の項目名）

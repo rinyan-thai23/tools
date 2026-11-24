@@ -1,0 +1,36 @@
+{
+  "id": "C30",
+  "endpoint": "keywords_data/dataforseo_trends/explore/live",
+  "who": "youtuber",
+  "markets": "country",
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keywords",
+      "label": "c30.keyword",
+      "wrap": "array"
+    }
+  ],
+  "result": {
+    "items": "result.0.items.0.data",
+    "where": {},
+    "columns": [
+      {
+        "key": "period",
+        "label": "c30.col.period",
+        "join": [
+          "date_from",
+          "date_to"
+        ],
+        "sep": " 〜 "
+      },
+      {
+        "key": "value",
+        "label": "c30.col.value",
+        "from": "values.0"
+      }
+    ]
+  },
+  "csv": "C30.csv"
+}

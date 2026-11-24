@@ -1,0 +1,51 @@
+{
+  "id": "C32",
+  "endpoint": "keywords_data/dataforseo_trends/demography/live",
+  "who": "beginner_blogger",
+  "markets": "country",
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keywords",
+      "label": "c32.keyword",
+      "wrap": "array"
+    }
+  ],
+  "result": {
+    "items": "result.0.items.0.demography.age.0.values",
+    "where": {},
+    "columns": [
+      {
+        "key": "age",
+        "label": "c32.col.age",
+        "from": "type"
+      },
+      {
+        "key": "value",
+        "label": "c32.col.value"
+      }
+    ],
+    "title": "c32.age_title",
+    "extra": [
+      {
+        "items": "result.0.items.0.demography.gender.0.values",
+        "where": {},
+        "columns": [
+          {
+            "key": "gender",
+            "label": "c32.col.gender",
+            "from": "type"
+          },
+          {
+            "key": "g_value",
+            "label": "c32.col.g_value",
+            "from": "value"
+          }
+        ],
+        "title": "c32.gender_title"
+      }
+    ]
+  },
+  "csv": "C32.csv"
+}

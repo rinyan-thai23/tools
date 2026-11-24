@@ -4,6 +4,9 @@ export const transforms = {
   strip_www: (v) => String(v ?? '').replace(/^www\./, ''),
   date: (v) => String(v ?? '').slice(0, 10), // "2026-11-22 04:50:16 +00:00" → "2026-11-22"
   mmss: (v) => { if (v == null || v === '') return ''; const s = Math.floor(+v); const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60), x = s % 60; return (h ? h + ':' + String(m).padStart(2, '0') : m) + ':' + String(x).padStart(2, '0'); }, // 秒 → "3:25"
+  monthly: (v) => (Array.isArray(v) ? v.map((m) => m.search_volume ?? '').join(' / ') : ''), // 月別の配列 → "2900 / 3600 / …"（新しい月から）
+  slash: (v) => (Array.isArray(v) ? v.join(' / ') : String(v ?? '')), // [45, 36] → "45 / 36"
+  round2: (v) => (typeof v === 'number' ? Math.round(v * 100) / 100 : v),
   ids: (v) => (Array.isArray(v) ? v.map((a) => a.advertiser_id).join(', ') : String(v ?? '')), // 広告主IDの配列 → "AR..., AR..."
 };
 

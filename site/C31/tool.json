@@ -1,0 +1,31 @@
+{
+  "id": "C31",
+  "endpoint": "keywords_data/dataforseo_trends/subregion_interests/live",
+  "who": "local_shop",
+  "markets": "country",
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keywords",
+      "label": "c31.keyword",
+      "wrap": "array"
+    }
+  ],
+  "result": {
+    "items": "result.0.items.0.interests.0.values",
+    "where": {},
+    "columns": [
+      {
+        "key": "region",
+        "label": "c31.col.region",
+        "from": "geo_name"
+      },
+      {
+        "key": "value",
+        "label": "c31.col.value"
+      }
+    ]
+  },
+  "csv": "C31.csv"
+}
