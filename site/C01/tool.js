@@ -50,4 +50,5 @@ await init();
 await fillMarkets($('country'), $('language'));
 $('run').onclick = run;
 $('sample').onclick = sample;
+await sample();
 $('csv').onclick = () => downloadCsv('C01.csv', cols, rows);

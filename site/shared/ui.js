@@ -18,7 +18,7 @@ function renderKeyBox(box, referral) {
     const c = getCreds();
     box.innerHTML = `
       <details ${c ? '' : 'open'}>
-        <summary>${t('key.title')}${c ? ' ✓ ' + t('key.set') : ''}</summary>
+        <summary>${t('key.title')} <span class="badge ${c ? 'on' : 'off'}">${c ? '● ' + t('key.set') : '○ ' + t('key.unset')}</span></summary>
         <label>${t('key.login')}<input id="k-login" type="email" autocomplete="username" value="${c ? c.login : ''}"></label>
         <label>${t('key.password')}<input id="k-pass" type="password" autocomplete="current-password" value="${c ? c.password : ''}"></label>
         <p class="note">${t('key.note')}</p>
