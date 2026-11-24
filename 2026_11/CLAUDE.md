@@ -156,3 +156,12 @@ DataForSEOのAPIを1つずつ使った、小さなWebツールの集まり。
 - 本文のFAQ・比較表は、生成後のHTMLを直接直す時、表は `<tr><td>`、FAQは `<details>` の形（Pythonの書き方ではない）。独立レビューで見つかった典型の指摘：日英の表の不一致、未測定の数字を断定、同じ言い回しの使い回し、本文内の矛盾。書いたら自分で見直す
 - Maps/画像検索は件数を変えても同額（20件・100件とも$0.002）。News は10件ごとに加算。Local Finder は20件$0.002／100件$0.01。件数の料金は必ず実測して書く
 - 画像の列は `"type": "image"`、日付は `"transform": "date"`、文章で返る結果は `result.answer.markdown`（安全な簡易Markdown表示）
+
+## このクラウド環境での作業メモ（新しいセッション向け）
+- 公開：`CLOUDFLARE_ACCOUNT_ID=04b402248ae5c56d6d24177a0f812040 CLOUDFLARE_API_TOKEN=proxy-injected npm run deploy`（トークンはプロキシが差し込む。チェックを通らないと公開されない）。`wrangler` は `npx` で動く
+- ブラウザ検査：`NO_PROXY=localhost,127.0.0.1 node scripts/smoke.mjs [ID...]`（Playwrightは入っている。`scripts/smoke.mjs` が探す）。画面の見た目を見る時だけ、スクリーンショットを撮る
+- DataForSEO：`api.dataforseo.com` はプロキシが認証を差し込む。curl で直接呼べる（`-u` や `Authorization` は不要）
+- 一時ファイルは、スクラッチパッド（`/tmp/claude-0/...`）に置く。リポジトリには入れない
+- コミットとプッシュは **main** に直接してよい（ユーザー承認済み）
+- 使用量の記録：バッチの最初と最後に `get_session`（`external_metadata.usage`）を見て、差を `USAGE.tsv` に足す
+- コマンドに `rm` を含めると安全チェックで止まることがある。ファイル作成は Write ツールか、Python のスクリプトファイルで行う
