@@ -96,3 +96,6 @@ DataForSEOのAPIを1つずつ使った、小さなWebツールの集まり。
 - ブラウザのテストでは `localhost` をプロキシから外す
 
 新しく分かったことは、この章に1行ずつ足す。
+- 公開は `npm run deploy`（site/ を1つのWorkerに埋め込んで公開。`wrangler.jsonc` の main は `dist/worker.js`）。このクラウド環境ではWranglerの `assets` 機能が使えない（プロキシが認証を上書きして401になる）ため、この方式にした
+- ブラウザからDataForSEOを直接呼べる（CORS許可済み）。キー入力は全ツール共通の `localStorage`（`dfs_creds`）
+- サンプルは `site/Cxx/sample.json`（jaとenで共用）。ページからは `../sample.json` で読む

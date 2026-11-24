@@ -1,0 +1,16 @@
+{
+  "countries": [
+    { "code": 2392, "ja": "日本", "en": "Japan" },
+    { "code": 2840, "ja": "米国", "en": "United States" },
+    { "code": 2826, "ja": "英国", "en": "United Kingdom" },
+    { "code": 2124, "ja": "カナダ", "en": "Canada" },
+    { "code": 2036, "ja": "オーストラリア", "en": "Australia" },
+    { "code": 2410, "ja": "韓国", "en": "South Korea" },
+    { "code": 2158, "ja": "台湾", "en": "Taiwan" }
+  ],
+  "languages": [
+    { "code": "ja", "ja": "日本語", "en": "Japanese" },
+    { "code": "en", "ja": "英語", "en": "English" }
+  ],
+  "defaults": { "ja": { "country": 2392, "language": "ja" }, "en": { "country": 2840, "language": "en" } }
+}

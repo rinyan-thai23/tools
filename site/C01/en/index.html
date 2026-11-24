@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>C01</title>
+<link rel="stylesheet" href="/shared/style.css">
+</head>
+<body>
+<a class="lang" href="/C01/ja/">日本語</a>
+<p><a href="/">← top</a></p>
+<h1 data-i18n="c01.name"></h1>
+<p data-i18n="c01.desc"></p>
+<div id="keybox"></div>
+<label><span data-i18n="c01.keyword"></span><input id="kw" type="text"></label>
+<div class="row">
+  <label><span data-i18n="ui.country"></span><select id="country"></select></label>
+  <label><span data-i18n="ui.language"></span><select id="language"></select></label>
+</div>
+<button id="run" data-i18n="ui.run"></button>
+<button id="sample" class="sub" data-i18n="ui.sample"></button>
+<p id="msg"></p>
+<div id="result"></div>
+<p id="meta" class="note"></p>
+<button id="csv" class="sub" data-i18n="ui.csv" hidden></button>
+<script type="module" src="/C01/tool.js"></script>
+</body>
+</html>
