@@ -1,29 +1,17 @@
 // 全ツール共通の動き。ツールごとの違いは site/Cxx/tool.json に書く。
 import { callApi, ApiError } from '/shared/api.js';
+import { extractRows } from '/shared/rows.js';
 import { init, t, fillMarkets, renderTable, downloadCsv, fmtDate, startProgress } from '/shared/ui.js';
 
 const id = document.body.dataset.tool;
 const cfg = await fetch(`/${id}/tool.json`).then((r) => r.json());
 const key = id.toLowerCase();
 const $ = (x) => document.getElementById(x);
-const get = (o, path) => path.split('.').reduce((a, k) => (a == null ? a : a[k]), o);
-const transforms = { strip_www: (v) => String(v ?? '').replace(/^www\./, '') };
-
 let cols = [], rows = [];
-
-function toRows(task) {
-  const r = cfg.result;
-  return (get(task, r.items) || [])
-    .filter((it) => Object.entries(r.where || {}).every(([k, v]) => it[k] === v))
-    .map((it) => Object.fromEntries(r.columns.map((c) => {
-      const v = get(it, c.from || c.key);
-      return [c.key, c.transform ? transforms[c.transform](v) : v];
-    })));
-}
 
 function show(task, meta) {
   cols = cfg.result.columns.map((c) => ({ key: c.key, label: t(c.label), link: c.link }));
-  rows = toRows(task);
+  rows = extractRows(cfg, task);
   renderTable($('result'), cols, rows);
   $('meta').textContent = meta;
   $('csv').hidden = !rows.length;

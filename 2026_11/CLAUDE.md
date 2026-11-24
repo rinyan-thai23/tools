@@ -148,3 +148,8 @@ DataForSEOのAPIを1つずつ使った、小さなWebツールの集まり。
 - トップページ（`/`=ja、`/en/` など）は、`who` ごとにツールが並ぶ。`who` の名前は locales の `who.<キー>`
 - 共通の動きは `site/shared/tool.js`。個別の JS は書かない。`tool.json` で足りない時だけ、`tool.js` に足す（全ツールで使える形で）
 - 確認：`node scripts/build-worker.mjs` → ブラウザでサンプル表示 → 実APIを1回だけ
+
+## 作業の前に必ず読む
+- `2026_11/PLAN.md`（72本を作る計画・品質の決まり・バッチの手順）と `2026_11/PROGRESS.tsv`（現在地）
+- コマンド：`npm run check`（本文・文言・サンプルの機械チェック）、`npm run smoke`（ブラウザで全ツール×全言語）、`npm run deploy`（チェックを通ると公開）
+- **基準は下げない。** 満たせないツールは作らずに報告して止まる

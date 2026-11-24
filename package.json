@@ -2,7 +2,9 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "check": "node scripts/check-tools.mjs",
     "build": "node scripts/build-worker.mjs",
-    "deploy": "node scripts/build-worker.mjs && npx wrangler deploy"
+    "smoke": "node scripts/build-worker.mjs && node scripts/smoke.mjs",
+    "deploy": "node scripts/check-tools.mjs && node scripts/build-worker.mjs && npx wrangler deploy"
   }
 }
