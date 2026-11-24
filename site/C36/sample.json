@@ -1,0 +1,3577 @@
+{
+ "keyword": "ブログ 始め方",
+ "fetched_at": "2026-11",
+ "tasks": [
+  {
+   "cost": 0.024,
+   "time": "0.5269 sec.",
+   "result": [
+    {
+     "se_type": "google",
+     "seed_keyword": "ブログ 始め方",
+     "seed_keyword_data": null,
+     "location_code": 2392,
+     "language_code": "ja",
+     "total_count": 740,
+     "items_count": 100,
+     "offset": 0,
+     "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoxMDAsIlJlcXVlc3REYXRhIjp7ImtleXdvcmQiOiLjg5bjg63jgrAg5aeL44KB5pa5IiwiaW5jbHVkZV9zZWVkX2tleXdvcmQiOmZhbHNlLCJmdWxsX21hdGNoIjpmYWxzZSwibG9hZF9zZXJwX2luZm8iOmZhbHNlLCJzZWFyY2hfYWZ0ZXJfdG9rZW4iOm51bGwsImlnbm9yZV9zeW5vbnltcyI6ZmFsc2UsImxhbmd1YWdlIjoiamEiLCJzZWFyY2hfZW5naW5lIjoiZ29vZ2xlIiwibG9jYXRpb24iOjIzOTIsInVzZV9uZXdfY2F0ZWdvcmllcyI6dHJ1ZSwib3JkZXJfYnkiOnsib3JkZXJfZmllbGQiOiJrZXl3b3JkX2luZm8uc2VhcmNoX3ZvbHVtZSIsIm9yZGVyX3R5cGUiOiJEZXNjIiwibmV4dCI6bnVsbH0sImxpbWl0IjoxMDAsIm9mZnNldCI6MCwiYWlkIjoxMjg5NjksInVzZV9jYWNoZSI6dHJ1ZSwidGFza19pZCI6IjExMjQwNzQ4LTEyODktMDM5OS0wMDAwLTVhYzQyMzRiZThkNCIsImZsYWdzIjpudWxsfSwiUmF3UXVlcnkiOm51bGwsIklkIjoiNGUxODNmOTgtNmQ5Yy00ZTczLThmZWEtMmY3M2Y2ZmFlNTIwIiwiU2VhcmNoQWZ0ZXJEYXRhIjpbNTAsIjQ2ZTkwYjY0LTJiMDEtMTU3ZC0zYWM5LTcyODdkYTM5ZGIwMSJdLCJFeGVjdXRvciI6LTkxODQ0MDU5NDA0NDQ1MTc2MzN9",
+     "items": [
+      {
+       "se_type": "google",
+       "keyword": "ブログ 始め 方",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-14 02:39:44 +00:00",
+        "competition": 0.45,
+        "competition_level": "MEDIUM",
+        "cpc": 1.26,
+        "search_volume": 5400,
+        "low_top_of_page_bid": 0.11,
+        "high_top_of_page_bid": 1.34,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 2900
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 4400
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 4400
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 5400
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 5400
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 6600
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 6600
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 6600
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 5400
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 6600
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": -34,
+         "yearly": -56
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "ブログ 始め方",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 7,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 1810.9,
+        "dofollow": 1107.1,
+        "referring_pages": 1110.3,
+        "referring_domains": 14.8,
+        "referring_main_domains": 15.1,
+        "rank": 109.7,
+        "main_domain_rank": 591.6,
+        "last_updated_time": "2024-09-08 07:00:38 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-05-02 17:34:32 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "ブログ の 始め 方",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-12 17:50:43 +00:00",
+        "competition": 0.45,
+        "competition_level": "MEDIUM",
+        "cpc": 1.26,
+        "search_volume": 5400,
+        "low_top_of_page_bid": 0.11,
+        "high_top_of_page_bid": 1.34,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 2900
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 4400
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 4400
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 5400
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 5400
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 6600
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 6600
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 6600
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 5400
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 6600
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": -34,
+         "yearly": -56
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "ブログ 始め方",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 7,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2916.8,
+        "dofollow": 1997.4,
+        "referring_pages": 2014.9,
+        "referring_domains": 193.9,
+        "referring_main_domains": 193.2,
+        "rank": 163.5,
+        "main_domain_rank": 558.9,
+        "last_updated_time": "2024-09-26 14:13:35 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-05-03 16:55:10 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "始め方 ブログ",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-15 20:49:27 +00:00",
+        "competition": 0.45,
+        "competition_level": "MEDIUM",
+        "cpc": 1.26,
+        "search_volume": 5400,
+        "low_top_of_page_bid": 0.11,
+        "high_top_of_page_bid": 1.34,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 2900
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 4400
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 4400
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 5400
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 5400
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 6600
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 6600
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 6600
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 5400
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 6600
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": -34,
+         "yearly": -56
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "ブログ 始め方",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 7,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 2
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2089.5,
+        "dofollow": 1993.3,
+        "referring_pages": 2005.3,
+        "referring_domains": 188.7,
+        "referring_main_domains": 187.7,
+        "rank": 164.3,
+        "main_domain_rank": 640.5,
+        "last_updated_time": "2025-06-14 01:25:05 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-05-02 20:48:49 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "ブログ の始め方",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-18 13:16:43 +00:00",
+        "competition": 0.45,
+        "competition_level": "MEDIUM",
+        "cpc": 1.26,
+        "search_volume": 5400,
+        "low_top_of_page_bid": 0.11,
+        "high_top_of_page_bid": 1.34,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 2900
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 4400
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 4400
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 5400
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 5400
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 6600
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 6600
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 6600
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 5400
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 6600
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": -34,
+         "yearly": -56
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 11,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 2
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2848.3,
+        "dofollow": 2024,
+        "referring_pages": 2041,
+        "referring_domains": 208.9,
+        "referring_main_domains": 208.2,
+        "rank": 188.4,
+        "main_domain_rank": 606.6,
+        "last_updated_time": "2024-11-07 10:41:42 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 03:09:50 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "ブログ　始め方",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-16 15:38:21 +00:00",
+        "competition": 0.45,
+        "competition_level": "MEDIUM",
+        "cpc": 1.26,
+        "search_volume": 5400,
+        "low_top_of_page_bid": 0.11,
+        "high_top_of_page_bid": 1.34,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 2900
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 4400
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 4400
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 5400
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 5400
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 6600
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 6600
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 6600
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 5400
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 6600
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": -34,
+         "yearly": -56
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "ブログ 始め方",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 7,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 1776.4,
+        "dofollow": 1124.6,
+        "referring_pages": 1127.5,
+        "referring_domains": 14.8,
+        "referring_main_domains": 15,
+        "rank": 107.2,
+        "main_domain_rank": 603.9,
+        "last_updated_time": "2024-11-07 10:41:42 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-05-03 21:38:55 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "ブログ始め方",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-12 01:29:38 +00:00",
+        "competition": 0.45,
+        "competition_level": "MEDIUM",
+        "cpc": 1.26,
+        "search_volume": 5400,
+        "low_top_of_page_bid": 0.11,
+        "high_top_of_page_bid": 1.34,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 2900
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 4400
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 4400
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 5400
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 5400
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 6600
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 6600
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 6600
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 5400
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 6600
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": -34,
+         "yearly": -56
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "ブログ 始め方",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 7,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 998.1,
+        "dofollow": 954,
+        "referring_pages": 963,
+        "referring_domains": 159.5,
+        "referring_main_domains": 158.4,
+        "rank": 114.9,
+        "main_domain_rank": 531.8,
+        "last_updated_time": "2026-05-20 20:10:30 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-05-06 06:00:00 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "ブログの始め方",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-17 07:45:45 +00:00",
+        "competition": 0.45,
+        "competition_level": "MEDIUM",
+        "cpc": 1.26,
+        "search_volume": 5400,
+        "low_top_of_page_bid": 0.11,
+        "high_top_of_page_bid": 1.34,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 2900
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 4400
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 4400
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 5400
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 5400
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 6600
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 6600
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 6600
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 5400
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 6600
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": -34,
+         "yearly": -56
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 11,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 129.7,
+        "dofollow": 123.3,
+        "referring_pages": 126.4,
+        "referring_domains": 17.8,
+        "referring_main_domains": 17.7,
+        "rank": 88.9,
+        "main_domain_rank": 589.6,
+        "last_updated_time": "2026-11-22 09:58:46 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 03:13:43 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "ブログ 始め方",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-21 04:29:58 +00:00",
+        "competition": 0.45,
+        "competition_level": "MEDIUM",
+        "cpc": 1.26,
+        "search_volume": 5400,
+        "low_top_of_page_bid": 0.11,
+        "high_top_of_page_bid": 1.34,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 2900
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 4400
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 4400
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 5400
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 5400
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 6600
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 6600
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 6600
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 5400
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 6600
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": -34,
+         "yearly": -56
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 7,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 2
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 97.2,
+        "dofollow": 94.3,
+        "referring_pages": 95.6,
+        "referring_domains": 8,
+        "referring_main_domains": 8,
+        "rank": 79.8,
+        "main_domain_rank": 559.2,
+        "last_updated_time": "2026-11-22 10:00:34 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-05-04 13:57:01 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "ブログ 始め方 無料",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-19 07:43:55 +00:00",
+        "competition": 0.32,
+        "competition_level": "LOW",
+        "cpc": 1.2,
+        "search_volume": 590,
+        "low_top_of_page_bid": 0.14,
+        "high_top_of_page_bid": 1.15,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 880
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 720
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 720
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": -19,
+         "yearly": -56
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 1781638.4,
+        "dofollow": 1132946.5,
+        "referring_pages": 1134103,
+        "referring_domains": 24619.5,
+        "referring_main_domains": 24623.5,
+        "rank": 254.5,
+        "main_domain_rank": 616.6,
+        "last_updated_time": "2025-10-23 18:49:06 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 01:34:05 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "ブログ 始め方-無料",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-12 11:44:05 +00:00",
+        "competition": 0.32,
+        "competition_level": "LOW",
+        "cpc": 1.2,
+        "search_volume": 590,
+        "low_top_of_page_bid": 0.14,
+        "high_top_of_page_bid": 1.15,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 880
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 720
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 720
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": -19,
+         "yearly": -56
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "ブログ 始め方 無料",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 2
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 855295.3,
+        "dofollow": 565120.6,
+        "referring_pages": 566606.9,
+        "referring_domains": 18707,
+        "referring_main_domains": 18733.5,
+        "rank": 245.4,
+        "main_domain_rank": 644.2,
+        "last_updated_time": "2026-01-22 21:39:18 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 02:40:54 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "無料ブログ始め方",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-15 10:18:39 +00:00",
+        "competition": 0.32,
+        "competition_level": "LOW",
+        "cpc": 1.2,
+        "search_volume": 590,
+        "low_top_of_page_bid": 0.14,
+        "high_top_of_page_bid": 1.15,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 880
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 720
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 720
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": -19,
+         "yearly": -56
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 107240.4,
+        "dofollow": 98097.1,
+        "referring_pages": 99536.4,
+        "referring_domains": 432.8,
+        "referring_main_domains": 417,
+        "rank": 166.4,
+        "main_domain_rank": 570.6,
+        "last_updated_time": "2026-01-26 11:07:06 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 02:59:22 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "ブログ始め方無料",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-12 22:12:06 +00:00",
+        "competition": 0.32,
+        "competition_level": "LOW",
+        "cpc": 1.2,
+        "search_volume": 590,
+        "low_top_of_page_bid": 0.14,
+        "high_top_of_page_bid": 1.15,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 880
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 720
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 720
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": -19,
+         "yearly": -56
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "ブログ 始め方 無料",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 82657.6,
+        "dofollow": 65546.8,
+        "referring_pages": 72445.7,
+        "referring_domains": 318.9,
+        "referring_main_domains": 293.8,
+        "rank": 83.4,
+        "main_domain_rank": 481.1,
+        "last_updated_time": "2024-09-09 17:31:25 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 01:34:05 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "ブログ　始め方　無料",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-20 18:11:34 +00:00",
+        "competition": 0.32,
+        "competition_level": "LOW",
+        "cpc": 1.2,
+        "search_volume": 590,
+        "low_top_of_page_bid": 0.14,
+        "high_top_of_page_bid": 1.15,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 880
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 720
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 720
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": -19,
+         "yearly": -56
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "ブログ 始め方 無料",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 125409.2,
+        "dofollow": 103612.6,
+        "referring_pages": 106605.1,
+        "referring_domains": 400.5,
+        "referring_main_domains": 375.8,
+        "rank": 136.5,
+        "main_domain_rank": 620.4,
+        "last_updated_time": "2025-04-13 23:29:03 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 01:50:11 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "ブログ 無料 始め方",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-19 07:29:20 +00:00",
+        "competition": 0.32,
+        "competition_level": "LOW",
+        "cpc": 1.2,
+        "search_volume": 590,
+        "low_top_of_page_bid": 0.14,
+        "high_top_of_page_bid": 1.15,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 880
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 720
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 720
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": -19,
+         "yearly": -56
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "ブログ 始め方 無料",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 1639.4,
+        "dofollow": 836.9,
+        "referring_pages": 842,
+        "referring_domains": 25.8,
+        "referring_main_domains": 23.2,
+        "rank": 113.6,
+        "main_domain_rank": 539.9,
+        "last_updated_time": "2024-12-14 23:52:57 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-05-11 07:51:44 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "無料ブログ 始め方",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-18 09:27:38 +00:00",
+        "competition": 0.32,
+        "competition_level": "LOW",
+        "cpc": 1.2,
+        "search_volume": 590,
+        "low_top_of_page_bid": 0.14,
+        "high_top_of_page_bid": 1.15,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 880
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 720
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 720
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": -19,
+         "yearly": -56
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "無料ブログ始め方",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 2
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 87209.4,
+        "dofollow": 83164.4,
+        "referring_pages": 84532.3,
+        "referring_domains": 435.5,
+        "referring_main_domains": 420.5,
+        "rank": 154.8,
+        "main_domain_rank": 587.7,
+        "last_updated_time": "2026-04-01 21:29:56 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 02:37:41 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "ブログの始め方 無料",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-22 02:56:10 +00:00",
+        "competition": 0.32,
+        "competition_level": "LOW",
+        "cpc": 1.2,
+        "search_volume": 590,
+        "low_top_of_page_bid": 0.14,
+        "high_top_of_page_bid": 1.15,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 880
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 720
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 720
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": -19,
+         "yearly": -56
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": 0,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 2
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 90183,
+        "dofollow": 70331.9,
+        "referring_pages": 78067.9,
+        "referring_domains": 351.4,
+        "referring_main_domains": 324,
+        "rank": 126.1,
+        "main_domain_rank": 578.3,
+        "last_updated_time": "2024-10-13 09:06:03 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 01:34:49 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "無料ブログの始め方",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-13 23:33:57 +00:00",
+        "competition": 0.32,
+        "competition_level": "LOW",
+        "cpc": 1.2,
+        "search_volume": 590,
+        "low_top_of_page_bid": 0.14,
+        "high_top_of_page_bid": 1.15,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 880
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 720
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 720
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": -19,
+         "yearly": -56
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "ブログ始め方 無料",
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": 0,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 90198.6,
+        "dofollow": 70341.4,
+        "referring_pages": 78077.6,
+        "referring_domains": 357.7,
+        "referring_main_domains": 330.4,
+        "rank": 152.2,
+        "main_domain_rank": 578.3,
+        "last_updated_time": "2024-10-13 07:18:29 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-05-07 12:23:09 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "ブログ 始め 方 無料",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-21 02:14:57 +00:00",
+        "competition": 0.32,
+        "competition_level": "LOW",
+        "cpc": 1.2,
+        "search_volume": 590,
+        "low_top_of_page_bid": 0.14,
+        "high_top_of_page_bid": 1.15,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 880
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 720
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 720
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": -19,
+         "yearly": -56
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "ブログ 始め方 無料",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 72353.7,
+        "dofollow": 68558.4,
+        "referring_pages": 71411.2,
+        "referring_domains": 410.9,
+        "referring_main_domains": 399.8,
+        "rank": 109.5,
+        "main_domain_rank": 589.7,
+        "last_updated_time": "2026-05-24 00:16:08 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-05-05 21:18:59 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "無料 ブログ 始め方",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-14 21:15:41 +00:00",
+        "competition": 0.32,
+        "competition_level": "LOW",
+        "cpc": 1.2,
+        "search_volume": 590,
+        "low_top_of_page_bid": 0.14,
+        "high_top_of_page_bid": 1.15,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 880
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 720
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 720
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": -19,
+         "yearly": -56
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "ブログ 始め方 無料",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 130197.4,
+        "dofollow": 115003.9,
+        "referring_pages": 115745.4,
+        "referring_domains": 463.4,
+        "referring_main_domains": 438.2,
+        "rank": 183.1,
+        "main_domain_rank": 653.4,
+        "last_updated_time": "2025-08-29 04:25:28 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-05-08 04:33:18 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "ブログ始め方 無料",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-12 21:36:55 +00:00",
+        "competition": 0.32,
+        "competition_level": "LOW",
+        "cpc": 1.2,
+        "search_volume": 590,
+        "low_top_of_page_bid": 0.14,
+        "high_top_of_page_bid": 1.15,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 880
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 720
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 720
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": -19,
+         "yearly": -56
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "ブログ 始め方 無料",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 2
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 6.8,
+        "dofollow": 5.3,
+        "referring_pages": 6.3,
+        "referring_domains": 4.4,
+        "referring_main_domains": 4.4,
+        "rank": 37.7,
+        "main_domain_rank": 606.5,
+        "last_updated_time": "2026-08-10 10:11:56 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 01:34:49 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "ブログ 始め方無料",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-18 20:14:05 +00:00",
+        "competition": 0.32,
+        "competition_level": "LOW",
+        "cpc": 1.2,
+        "search_volume": 590,
+        "low_top_of_page_bid": 0.14,
+        "high_top_of_page_bid": 1.15,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 880
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 720
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 720
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": -19,
+         "yearly": -56
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "ブログ 始め方 無料",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 2
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 82657.6,
+        "dofollow": 65546.8,
+        "referring_pages": 72445.7,
+        "referring_domains": 318.9,
+        "referring_main_domains": 293.8,
+        "rank": 83.4,
+        "main_domain_rank": 481.1,
+        "last_updated_time": "2024-09-09 17:32:05 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-05-07 18:46:54 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "アフィリエイト ブログ始め方",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-23 05:37:20 +00:00",
+        "competition": 0.58,
+        "competition_level": "MEDIUM",
+        "cpc": 2.48,
+        "search_volume": 210,
+        "low_top_of_page_bid": 0.24,
+        "high_top_of_page_bid": 2.06,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 260
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -21,
+         "quarterly": -35,
+         "yearly": -72
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "アフィリエイト ブログ 始め方",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 4,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 2
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 106.7,
+        "dofollow": 96.5,
+        "referring_pages": 98.4,
+        "referring_domains": 17.9,
+        "referring_main_domains": 17.6,
+        "rank": 112.4,
+        "main_domain_rank": 502,
+        "last_updated_time": "2025-11-03 23:59:56 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": [
+         "informational"
+        ],
+        "last_updated_time": "2026-05-11 08:45:23 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "word press ブログ 始め方",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-16 22:26:13 +00:00",
+        "competition": 0.39,
+        "competition_level": "MEDIUM",
+        "cpc": 2.21,
+        "search_volume": 210,
+        "low_top_of_page_bid": 0.33,
+        "high_top_of_page_bid": 2.69,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 210
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -18,
+         "quarterly": 0,
+         "yearly": -56
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 20,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 253.4,
+        "dofollow": 232.3,
+        "referring_pages": 237,
+        "referring_domains": 56.8,
+        "referring_main_domains": 56.7,
+        "rank": 141.1,
+        "main_domain_rank": 445,
+        "last_updated_time": "2025-06-22 13:30:48 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 16:18:21 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "アフィリエイト ブログ 始め方",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-20 02:40:48 +00:00",
+        "competition": 0.58,
+        "competition_level": "MEDIUM",
+        "cpc": 2.48,
+        "search_volume": 210,
+        "low_top_of_page_bid": 0.24,
+        "high_top_of_page_bid": 2.06,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 260
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -21,
+         "quarterly": -35,
+         "yearly": -72
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 4,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 107,
+        "dofollow": 96.7,
+        "referring_pages": 98.6,
+        "referring_domains": 18.1,
+        "referring_main_domains": 17.8,
+        "rank": 116.3,
+        "main_domain_rank": 533.9,
+        "last_updated_time": "2025-11-03 23:59:50 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": [
+         "informational"
+        ],
+        "last_updated_time": "2026-05-05 18:38:30 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "wordpress　ブログ　始め方",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-20 18:34:42 +00:00",
+        "competition": 0.39,
+        "competition_level": "MEDIUM",
+        "cpc": 2.21,
+        "search_volume": 210,
+        "low_top_of_page_bid": 0.33,
+        "high_top_of_page_bid": 2.69,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 210
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -18,
+         "quarterly": 0,
+         "yearly": -56
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "wordpressブログ始め方",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 12,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 158.2,
+        "dofollow": 135.6,
+        "referring_pages": 141.1,
+        "referring_domains": 65.3,
+        "referring_main_domains": 65.3,
+        "rank": 149.2,
+        "main_domain_rank": 500.3,
+        "last_updated_time": "2025-06-22 18:20:01 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 00:43:18 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "アフィリエイト　ブログ　始め方",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-17 16:45:58 +00:00",
+        "competition": 0.58,
+        "competition_level": "MEDIUM",
+        "cpc": 2.48,
+        "search_volume": 210,
+        "low_top_of_page_bid": 0.24,
+        "high_top_of_page_bid": 2.06,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 260
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -21,
+         "quarterly": -35,
+         "yearly": -72
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "アフィリエイト ブログ 始め方",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 4,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 107,
+        "dofollow": 96.7,
+        "referring_pages": 98.6,
+        "referring_domains": 18.1,
+        "referring_main_domains": 17.8,
+        "rank": 116.3,
+        "main_domain_rank": 533.9,
+        "last_updated_time": "2025-11-03 23:59:51 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": [
+         "informational"
+        ],
+        "last_updated_time": "2026-05-08 06:15:33 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "ブログ 始め 方 アフィリエイト",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-13 18:24:48 +00:00",
+        "competition": 0.58,
+        "competition_level": "MEDIUM",
+        "cpc": 2.48,
+        "search_volume": 210,
+        "low_top_of_page_bid": 0.24,
+        "high_top_of_page_bid": 2.06,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 260
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -21,
+         "quarterly": -35,
+         "yearly": -72
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "アフィリエイト ブログ 始め方",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 4,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 98.6,
+        "dofollow": 94.3,
+        "referring_pages": 95.7,
+        "referring_domains": 16.1,
+        "referring_main_domains": 16,
+        "rank": 110.6,
+        "main_domain_rank": 512.4,
+        "last_updated_time": "2026-04-12 18:55:31 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 02:40:54 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "wordpress ブログ 始め方",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-22 16:51:31 +00:00",
+        "competition": 0.39,
+        "competition_level": "MEDIUM",
+        "cpc": 2.21,
+        "search_volume": 210,
+        "low_top_of_page_bid": 0.33,
+        "high_top_of_page_bid": 2.69,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 210
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -18,
+         "quarterly": 0,
+         "yearly": -56
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "wordpressブログ始め方",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 12,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 190.5,
+        "dofollow": 178.8,
+        "referring_pages": 180.9,
+        "referring_domains": 37.4,
+        "referring_main_domains": 37.3,
+        "rank": 103,
+        "main_domain_rank": 495.8,
+        "last_updated_time": "2026-07-15 11:24:48 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 01:49:36 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "ブログ 始め方 アフィリエイト",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-22 00:45:32 +00:00",
+        "competition": 0.58,
+        "competition_level": "MEDIUM",
+        "cpc": 2.48,
+        "search_volume": 210,
+        "low_top_of_page_bid": 0.24,
+        "high_top_of_page_bid": 2.06,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 260
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -21,
+         "quarterly": -35,
+         "yearly": -72
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "アフィリエイト ブログ 始め方",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 4,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 108.2,
+        "dofollow": 97.8,
+        "referring_pages": 99.8,
+        "referring_domains": 19.2,
+        "referring_main_domains": 18.9,
+        "rank": 130.8,
+        "main_domain_rank": 510.9,
+        "last_updated_time": "2025-11-03 21:41:18 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 02:18:12 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "wordpressブログ始め方",
+       "location_code": 2392,
+       "language_code": "ja",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-11-15 23:28:34 +00:00",
+        "competition": 0.39,
+        "competition_level": "MEDIUM",
+        "cpc": 2.21,
+        "search_volume": 210,
+        "low_top_of_page_bid": 0.33,
+        "high_top_of_page_bid": 2.69,
+        "categories": [
+         10007,
+         11494,
+         13418
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 10,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 9,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 8,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 210
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -18,
+         "quarterly": 0,
+         "yearly": -56
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 8,
+        "detected_language": "ja",
+        "is_another_language": false,
+        "words_count": 1
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 190.1,
+        "dofollow": 178.5,
+        "referring_pages": 180.6,
+        "referring_domains": 37.2,
+        "referring_main_domains": 37.1,
+        "rank": 93.9,
+        "main_domain_rank": 446.5,
+        "last_updated_time": "2026-07-15 11:24:15 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 12:30:21 +00:00"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

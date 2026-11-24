@@ -1,0 +1,38 @@
+{
+  "id": "C34",
+  "endpoint": "dataforseo_labs/google/keywords_for_site/live",
+  "who": "beginner_blogger",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "target",
+      "label": "c34.keyword"
+    }
+  ],
+  "params": {
+    "limit": 100
+  },
+  "result": {
+    "items": "result.0.items",
+    "where": {},
+    "columns": [
+      {
+        "key": "keyword",
+        "label": "c34.col.keyword"
+      },
+      {
+        "key": "volume",
+        "label": "c34.col.volume",
+        "from": "keyword_info.search_volume"
+      },
+      {
+        "key": "kd",
+        "label": "c34.col.kd",
+        "from": "keyword_properties.keyword_difficulty"
+      }
+    ]
+  },
+  "csv": "C34.csv"
+}

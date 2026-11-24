@@ -1,0 +1,32 @@
+{
+  "id": "C38",
+  "endpoint": "dataforseo_labs/google/bulk_keyword_difficulty/live",
+  "who": "freelancer_seo",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keywords",
+      "label": "c38.keyword",
+      "multiline": true,
+      "wrap": "lines"
+    }
+  ],
+  "result": {
+    "items": "result.0.items",
+    "where": {},
+    "columns": [
+      {
+        "key": "keyword",
+        "label": "c38.col.keyword"
+      },
+      {
+        "key": "kd",
+        "label": "c38.col.kd",
+        "from": "keyword_difficulty"
+      }
+    ]
+  },
+  "csv": "C38.csv"
+}

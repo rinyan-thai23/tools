@@ -93,7 +93,7 @@ for (const id of ids) {
     const content = contentOf(id, l);
     if (content === null) { E.push(`[${l}] _content.${l}.html がない（全ツール、全対応言語でそろえる）`); continue; }
     const need = [`${k}.name`, `${k}.desc`, `${k}.price`, `${k}.eta`, `${k}.title`, `${k}.meta`, `who.${cfg.who}`,
-      ...(cfg.inputs || []).map((i) => i.label), ...(cfg.result?.columns || []).map((c) => c.label), ...(cfg.count ? [cfg.count.label] : [])];
+      ...(cfg.inputs || []).map((i) => i.label), ...(cfg.result?.columns || []).map((c) => c.label), ...(cfg.count ? [cfg.count.label] : []), ...(cfg.result?.columns || []).flatMap((c) => Object.values(c.labels || {}))];
     for (const key of need) if (!L[key]) E.push(`[${l}] locales に「${key}」がない`);
     if (L[`${k}.meta`] && L[`${k}.meta`].length > 200) W.push(`[${l}] meta が長い（${L[`${k}.meta`].length}文字）。検索結果で切れる`);
     if (L[`${k}.title`] && L[`${k}.title`].length > 70) W.push(`[${l}] title が長い（${L[`${k}.title`].length}文字）`);

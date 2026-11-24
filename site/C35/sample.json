@@ -1,0 +1,4329 @@
+{
+ "keyword": "ブログ 始め方",
+ "fetched_at": "2026-11",
+ "tasks": [
+  {
+   "cost": 0.024,
+   "time": "0.2544 sec.",
+   "result": [
+    {
+     "se_type": "google",
+     "seed_keyword": "ブログ 始め方",
+     "seed_keyword_data": null,
+     "location_code": 2392,
+     "language_code": "ja",
+     "total_count": 154,
+     "items_count": 100,
+     "items": [
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "節約ブログ",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-22 20:36:38 +00:00",
+         "competition": 0,
+         "competition_level": "LOW",
+         "cpc": 0.96,
+         "search_volume": 135000,
+         "low_top_of_page_bid": 0.55,
+         "high_top_of_page_bid": 0.72,
+         "categories": [
+          10012,
+          10092,
+          10524
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 110000
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 135000
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 135000
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 135000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 135000
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 135000
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 135000
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 135000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 135000
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 165000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 135000
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 135000
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -19,
+          "quarterly": -19,
+          "yearly": -19
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 13,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E7%AF%80%E7%B4%84%E3%83%96%E3%83%AD%E3%82%B0&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "ai_overview",
+          "organic",
+          "related_searches"
+         ],
+         "se_results_count": 125,
+         "last_updated_time": "2026-10-08 07:18:59 +00:00",
+         "previous_updated_time": "2026-07-16 04:20:13 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 743,
+         "dofollow": 621.9,
+         "referring_pages": 657.5,
+         "referring_domains": 67.6,
+         "referring_main_domains": 65.8,
+         "rank": 85.4,
+         "main_domain_rank": 706.4,
+         "last_updated_time": "2026-10-08 07:19:00 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-30 01:42:06 +00:00"
+        }
+       },
+       "depth": 4,
+       "related_keywords": [
+        "節約ブログ どん底",
+        "節約ブログ のほほん",
+        "40代主婦 節約ブログ",
+        "専業主婦 節約ブログ",
+        "40代節約ブログ",
+        "働く ママ 節約ブログ",
+        "節約ブログ 50代",
+        "節約ブログ 一人暮らし"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "はてなブログ",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-13 08:21:35 +00:00",
+         "competition": 0,
+         "competition_level": "LOW",
+         "cpc": 3.84,
+         "search_volume": 90500,
+         "low_top_of_page_bid": 1.17,
+         "high_top_of_page_bid": 4.94,
+         "categories": [
+          10007,
+          11494,
+          13418
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 90500
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 90500
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 90500
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 90500
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 90500
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 90500
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 90500
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 90500
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 90500
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 90500
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 90500
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 90500
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": -18
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 100,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "ai_overview",
+          "organic"
+         ],
+         "se_results_count": 100,
+         "last_updated_time": "2026-11-20 19:44:42 +00:00",
+         "previous_updated_time": "2026-07-16 05:13:31 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 147152.1,
+         "dofollow": 117520.7,
+         "referring_pages": 117632.3,
+         "referring_domains": 4936,
+         "referring_main_domains": 4908.8,
+         "rank": 538.3,
+         "main_domain_rank": 750.7,
+         "last_updated_time": "2026-11-20 19:44:42 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-05 22:47:02 +00:00"
+        }
+       },
+       "depth": 3,
+       "related_keywords": [
+        "はてなブログ収益化",
+        "はてなブログ検索",
+        "はてなブログ 注意",
+        "はてなブログ ログイン",
+        "はてなブログ 人気ブロガー",
+        "はてなブログアプリ",
+        "はてなブログ 読むだけ",
+        "はてなブログ 登録"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "アメーバブログ 一般人",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-13 05:16:55 +00:00",
+         "competition": 0,
+         "competition_level": "LOW",
+         "cpc": null,
+         "search_volume": 14800,
+         "low_top_of_page_bid": null,
+         "high_top_of_page_bid": null,
+         "categories": [
+          10007,
+          11494,
+          13418
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 12100
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 12100
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 12100
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 12100
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 14800
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 14800
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 14800
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 14800
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 14800
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 14800
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": -18,
+          "yearly": -45
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 100,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E3%82%A2%E3%83%A1%E3%83%BC%E3%83%90%E3%83%96%E3%83%AD%E3%82%B0%20%E4%B8%80%E8%88%AC%E4%BA%BA&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "organic",
+          "ai_overview",
+          "related_searches",
+          "images"
+         ],
+         "se_results_count": 135,
+         "last_updated_time": "2026-11-06 19:28:42 +00:00",
+         "previous_updated_time": "2026-07-16 20:20:25 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 1752745.1,
+         "dofollow": 1217612.8,
+         "referring_pages": 1225417.5,
+         "referring_domains": 554.9,
+         "referring_main_domains": 534.7,
+         "rank": 363.4,
+         "main_domain_rank": 699.1,
+         "last_updated_time": "2026-11-06 19:28:46 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-07 20:25:37 +00:00"
+        }
+       },
+       "depth": 4,
+       "related_keywords": [
+        "アメーバ ブログ 一般人 30代",
+        "アメーバブログ 一般人 主婦",
+        "アメーバ ブログ 見る だけ",
+        "アメーバ ブログ 一般人 40 代",
+        "一般人 ブログ検索",
+        "アメーバ ブログ 一般人 50代",
+        "アメーバブログ検索",
+        "アメーバブログを見る には"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "はてなブログ ログイン",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-13 04:46:04 +00:00",
+         "competition": 0,
+         "competition_level": "LOW",
+         "cpc": 6,
+         "search_volume": 9900,
+         "low_top_of_page_bid": null,
+         "high_top_of_page_bid": null,
+         "categories": [
+          10007,
+          11496,
+          13418
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 8100
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 9900
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 9900
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 8100
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 8100
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 69,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0%20%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches",
+          "images"
+         ],
+         "se_results_count": 121,
+         "last_updated_time": "2026-11-21 15:31:19 +00:00",
+         "previous_updated_time": "2026-09-12 16:11:04 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 153227.7,
+         "dofollow": 118746.9,
+         "referring_pages": 123931.6,
+         "referring_domains": 5001.6,
+         "referring_main_domains": 4976.7,
+         "rank": 311.2,
+         "main_domain_rank": 647.4,
+         "last_updated_time": "2026-11-21 15:31:31 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-11 08:22:09 +00:00"
+        }
+       },
+       "depth": 4,
+       "related_keywords": [
+        "はてなブログ ログイン スマホ",
+        "はてなブログ ログイン方法",
+        "はてなブログ 管理 画面",
+        "はてなブログ 読むだけ",
+        "はてなブログ 検索",
+        "はてなブログ 読む アプリ",
+        "はてなブログ pc版",
+        "はてなブログ 登録"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "ブログ 始め方",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-21 04:29:58 +00:00",
+         "competition": 0.45,
+         "competition_level": "MEDIUM",
+         "cpc": 1.26,
+         "search_volume": 5400,
+         "low_top_of_page_bid": 0.11,
+         "high_top_of_page_bid": 1.34,
+         "categories": [
+          10007,
+          11494,
+          13418
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 2900
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 3600
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 4400
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 3600
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 4400
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 5400
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 6600
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 6600
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 6600
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 5400
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 6600
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -19,
+          "quarterly": -34,
+          "yearly": -56
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 7,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E3%83%96%E3%83%AD%E3%82%B0%20%E5%A7%8B%E3%82%81%E6%96%B9&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "ai_overview",
+          "organic",
+          "people_also_ask"
+         ],
+         "se_results_count": 98,
+         "last_updated_time": "2026-11-22 09:59:13 +00:00",
+         "previous_updated_time": "2026-09-13 00:19:13 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 97.2,
+         "dofollow": 94.3,
+         "referring_pages": 95.6,
+         "referring_domains": 8,
+         "referring_main_domains": 8,
+         "rank": 79.8,
+         "main_domain_rank": 559.2,
+         "last_updated_time": "2026-11-22 10:00:34 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": [
+          "navigational"
+         ],
+         "last_updated_time": "2026-05-04 13:57:01 +00:00"
+        }
+       },
+       "depth": 0,
+       "related_keywords": [
+        "ブログ始め方 無料",
+        "ブログ 始め方 稼が ない",
+        "ブログ 始め方 日記",
+        "ブログ 始め方 無料 収益化",
+        "ブログ始め方 スマホ",
+        "ブログ 始め方 サイト",
+        "ブログ 始め方 note",
+        "ブログ始め方収益化"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "アメーバブログ 見るだけ",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-21 13:20:52 +00:00",
+         "competition": 0,
+         "competition_level": "LOW",
+         "cpc": null,
+         "search_volume": 3600,
+         "low_top_of_page_bid": null,
+         "high_top_of_page_bid": null,
+         "categories": [
+          10007,
+          11494,
+          13418
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 4400
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 3600
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 3600
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 3600
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 3600
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 3600
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 4400
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 4400
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 4400
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 4400
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 3600
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 3600
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 22,
+          "quarterly": 22,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 76,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E3%82%A2%E3%83%A1%E3%83%BC%E3%83%90%E3%83%96%E3%83%AD%E3%82%B0%20%E8%A6%8B%E3%82%8B%E3%81%A0%E3%81%91&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+         ],
+         "se_results_count": 126,
+         "last_updated_time": "2026-11-13 14:29:10 +00:00",
+         "previous_updated_time": "2026-07-19 14:28:04 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 1626919.2,
+         "dofollow": 1131213.5,
+         "referring_pages": 1137363.7,
+         "referring_domains": 538.4,
+         "referring_main_domains": 518.9,
+         "rank": 336.7,
+         "main_domain_rank": 666,
+         "last_updated_time": "2026-11-13 14:29:15 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-30 02:50:51 +00:00"
+        }
+       },
+       "depth": 4,
+       "related_keywords": [
+        "アメーバブログを見る には",
+        "アメブロ 始める 注意",
+        "アメーバ ブログ 無料",
+        "アメブロ 書き方 スマホ",
+        "アメーバブログ ログイン",
+        "アメーバ ブログ アプリ 無料",
+        "アメーバ ブログ 投稿 方法",
+        "アメーバブログ 始め方"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "はてなブログ検索",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-23 02:15:45 +00:00",
+         "competition": 0,
+         "competition_level": "LOW",
+         "cpc": null,
+         "search_volume": 1600,
+         "low_top_of_page_bid": null,
+         "high_top_of_page_bid": null,
+         "categories": [
+          10007,
+          10007,
+          11494,
+          11498,
+          13418,
+          13418
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 1000
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 1300
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 1600
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 1600
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 1300
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 1600
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 1600
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 1600
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 1600
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 1600
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 1600
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 1600
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -23,
+          "quarterly": -38,
+          "yearly": -47
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "はてなブログ 検索",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 53,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0%E6%A4%9C%E7%B4%A2&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "ai_overview",
+          "organic",
+          "people_also_ask"
+         ],
+         "se_results_count": 75,
+         "last_updated_time": "2026-11-17 23:12:26 +00:00",
+         "previous_updated_time": "2026-09-17 00:40:48 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 102507.3,
+         "dofollow": 73149.3,
+         "referring_pages": 73223.1,
+         "referring_domains": 4846.4,
+         "referring_main_domains": 4825.3,
+         "rank": 243.9,
+         "main_domain_rank": 689.6,
+         "last_updated_time": "2026-11-17 23:13:56 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": [
+          "informational"
+         ],
+         "last_updated_time": "2026-05-07 23:44:17 +00:00"
+        }
+       },
+       "depth": 4,
+       "related_keywords": [
+        "はてなブログ 検索 方法",
+        "はてなブログ検索 できない",
+        "はてなブログ 検索フォーム",
+        "はてなブログ 検索 方法 スマホ",
+        "はてなブログ 検索エンジン",
+        "はてなブログ 検索窓",
+        "はてなブログ 検索 避け",
+        "はてなブログを 見る"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "60代主婦ブログ",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-21 18:13:28 +00:00",
+         "competition": 0,
+         "competition_level": "LOW",
+         "cpc": null,
+         "search_volume": 1600,
+         "low_top_of_page_bid": null,
+         "high_top_of_page_bid": null,
+         "categories": [
+          10007,
+          11494,
+          13418
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 1300
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 1600
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 1600
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 1600
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 1600
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 1600
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 1600
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 1900
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 1600
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 1900
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 1900
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 1600
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -19,
+          "quarterly": -19,
+          "yearly": -32
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 4,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=60%E4%BB%A3%E4%B8%BB%E5%A9%A6%E3%83%96%E3%83%AD%E3%82%B0&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "ai_overview",
+          "organic"
+         ],
+         "se_results_count": 97,
+         "last_updated_time": "2026-11-18 01:38:47 +00:00",
+         "previous_updated_time": "2026-07-27 16:40:26 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 20.7,
+         "dofollow": 16.6,
+         "referring_pages": 20.7,
+         "referring_domains": 15.5,
+         "referring_main_domains": 14.3,
+         "rank": 66.7,
+         "main_domain_rank": 574.1,
+         "last_updated_time": "2026-11-18 01:38:53 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-28 23:49:13 +00:00"
+        }
+       },
+       "depth": 4,
+       "related_keywords": [
+        "60代主婦のブログ 日記 雑談",
+        "60代主婦の 生き方",
+        "60代 生き方 ブログ",
+        "60代主婦 引き こもり",
+        "60代主婦ブログ村 ランキング",
+        "70代ブログ",
+        "60代ブログ",
+        "60代ブログ 人気"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "はてなブログ収益化",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-15 14:22:23 +00:00",
+         "competition": 0.09,
+         "competition_level": "LOW",
+         "cpc": 1.71,
+         "search_volume": 1300,
+         "low_top_of_page_bid": 0.39,
+         "high_top_of_page_bid": 1.64,
+         "categories": [
+          10007,
+          11494,
+          13418
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 880
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 1000
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 1300
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 1000
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 1300
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 1300
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 1300
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 1600
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 1600
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 1900
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 1600
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 1600
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -12,
+          "quarterly": -32,
+          "yearly": -45
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "はてなブログ 収益化",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 4,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0%E5%8F%8E%E7%9B%8A%E5%8C%96&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches",
+          "images"
+         ],
+         "se_results_count": 127,
+         "last_updated_time": "2026-11-19 05:09:42 +00:00",
+         "previous_updated_time": "2026-09-17 00:40:43 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 17.2,
+         "dofollow": 13.7,
+         "referring_pages": 14.2,
+         "referring_domains": 4,
+         "referring_main_domains": 3.8,
+         "rank": 64,
+         "main_domain_rank": 594.8,
+         "last_updated_time": "2026-11-19 05:09:54 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": [
+          "commercial",
+          "navigational"
+         ],
+         "last_updated_time": "2026-05-07 13:40:50 +00:00"
+        }
+       },
+       "depth": 4,
+       "related_keywords": [
+        "はてなブログ収益化 条件",
+        "はてなブログ収益化 難しい",
+        "はてなブログ収益化 やり方",
+        "はてなブログ収益化 無料",
+        "はてなブログ収益化 初心者",
+        "はてな ブログ 収益 化 いつから",
+        "はてなブログ 収益化 知恵袋",
+        "はてなブログ収益化 アクセス数"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "ブログ 一般人 日記",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-13 03:13:46 +00:00",
+         "competition": 0.01,
+         "competition_level": "LOW",
+         "cpc": 1.62,
+         "search_volume": 720,
+         "low_top_of_page_bid": 0.35,
+         "high_top_of_page_bid": 1.4,
+         "categories": [
+          10007,
+          11494,
+          13418
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 590
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 590
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 590
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 590
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 720
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 880
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 1000
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 880
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 1000
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 880
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 880
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": -41
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 48,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E3%83%96%E3%83%AD%E3%82%B0%20%E4%B8%80%E8%88%AC%E4%BA%BA%20%E6%97%A5%E8%A8%98&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches",
+          "images"
+         ],
+         "se_results_count": 110,
+         "last_updated_time": "2026-08-10 09:57:17 +00:00",
+         "previous_updated_time": "2026-04-29 19:23:26 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 81490.7,
+         "dofollow": 73619,
+         "referring_pages": 78316.2,
+         "referring_domains": 411.3,
+         "referring_main_domains": 387.4,
+         "rank": 235.1,
+         "main_domain_rank": 600.4,
+         "last_updated_time": "2026-08-10 09:57:19 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "navigational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-30 03:09:50 +00:00"
+        }
+       },
+       "depth": 3,
+       "related_keywords": [
+        "個人ブログを見る",
+        "ただの日記ブログ",
+        "日記ブログ 人気",
+        "アメーバブログ 一般人",
+        "一般人 ブログ検索",
+        "日記 ブログ 面白い",
+        "アメーバ ブログ 一般人 ランキング",
+        "アメーバブログ 見るだけ"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "個人ブログを見る",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-17 03:20:24 +00:00",
+         "competition": 0,
+         "competition_level": "LOW",
+         "cpc": null,
+         "search_volume": 720,
+         "low_top_of_page_bid": null,
+         "high_top_of_page_bid": null,
+         "categories": [
+          10007,
+          11494,
+          13418
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 720
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 880
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 880
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 720
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 720
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 880
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 880
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 720
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 720
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 880
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 720
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 880
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -18,
+          "quarterly": -18,
+          "yearly": -28
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "個人 ブログを見る",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 41,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E5%80%8B%E4%BA%BA%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E8%A6%8B%E3%82%8B&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+         ],
+         "se_results_count": 109,
+         "last_updated_time": "2026-08-10 05:33:52 +00:00",
+         "previous_updated_time": "2026-05-08 12:30:54 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 501789.1,
+         "dofollow": 495711.7,
+         "referring_pages": 500431.4,
+         "referring_domains": 437.5,
+         "referring_main_domains": 425.3,
+         "rank": 222.3,
+         "main_domain_rank": 470.7,
+         "last_updated_time": "2026-08-10 05:33:53 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": [
+          "navigational"
+         ],
+         "last_updated_time": "2026-04-30 02:55:35 +00:00"
+        }
+       },
+       "depth": 4,
+       "related_keywords": [
+        "アメーバブログ 見るだけ",
+        "アメーバ ブログを見る には",
+        "一般人 ブログ検索",
+        "ブログを見る のは無料",
+        "ブログ 見るだけの人",
+        "アメーバブログ検索",
+        "ブログ 一般人 日記",
+        "アメーバブログ 一般人 検索"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "ブログ始め方 無料",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-12 21:36:55 +00:00",
+         "competition": 0.32,
+         "competition_level": "LOW",
+         "cpc": 1.2,
+         "search_volume": 590,
+         "low_top_of_page_bid": 0.14,
+         "high_top_of_page_bid": 1.15,
+         "categories": [
+          10007,
+          11494,
+          13418
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 590
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 720
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 720
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 720
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 720
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 880
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 720
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 720
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -19,
+          "quarterly": -19,
+          "yearly": -56
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "ブログ 始め方 無料",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E3%83%96%E3%83%AD%E3%82%B0%E5%A7%8B%E3%82%81%E6%96%B9%20%E7%84%A1%E6%96%99&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+         ],
+         "se_results_count": 109,
+         "last_updated_time": "2026-08-10 10:11:54 +00:00",
+         "previous_updated_time": "2026-04-29 19:14:01 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 6.8,
+         "dofollow": 5.3,
+         "referring_pages": 6.3,
+         "referring_domains": 4.4,
+         "referring_main_domains": 4.4,
+         "rank": 37.7,
+         "main_domain_rank": 606.5,
+         "last_updated_time": "2026-08-10 10:11:56 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-30 01:34:49 +00:00"
+        }
+       },
+       "depth": 1,
+       "related_keywords": [
+        "ブログ 始め方 無料 収益化",
+        "ブログ 始め方 無料 スマホ",
+        "ブログ 初心者 おすすめ無料",
+        "無料ブログ収益化 おすすめ",
+        "ブログ 始め方 稼が ない",
+        "ブログ 初心者 おすすめ無料 スマホ",
+        "自分だけのブログ 無料",
+        "ブログ日記代わり おすすめ"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "ブログ 始め方 無料",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-19 07:43:55 +00:00",
+         "competition": 0.32,
+         "competition_level": "LOW",
+         "cpc": 1.2,
+         "search_volume": 590,
+         "low_top_of_page_bid": 0.14,
+         "high_top_of_page_bid": 1.15,
+         "categories": [
+          10007,
+          11494,
+          13418
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 590
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 720
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 720
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 720
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 720
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 880
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 720
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 720
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -19,
+          "quarterly": -19,
+          "yearly": -56
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E3%83%96%E3%83%AD%E3%82%B0%20%E5%A7%8B%E3%82%81%E6%96%B9%20%E7%84%A1%E6%96%99&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+         ],
+         "se_results_count": 83400000,
+         "last_updated_time": "2025-10-23 18:49:06 +00:00",
+         "previous_updated_time": "2025-08-02 13:18:03 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 1781638.4,
+         "dofollow": 1132946.5,
+         "referring_pages": 1134103,
+         "referring_domains": 24619.5,
+         "referring_main_domains": 24623.5,
+         "rank": 254.5,
+         "main_domain_rank": 616.6,
+         "last_updated_time": "2025-10-23 18:49:06 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-30 01:34:05 +00:00"
+        }
+       },
+       "depth": 2,
+       "related_keywords": [
+        "ブログ始め方 無料 収益化",
+        "ブログ始め方 無料 スマホ",
+        "ブログ 初心者 おすすめ無料",
+        "無料ブログ収益化 おすすめ",
+        "ブログ始め方 稼が ない",
+        "自分だけのブログ 無料",
+        "ブログ始め方 初心者 スマホ",
+        "はてなブログ 始め方"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "ブログ おすすめ 無料",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-22 16:43:48 +00:00",
+         "competition": 0.24,
+         "competition_level": "LOW",
+         "cpc": 0.63,
+         "search_volume": 590,
+         "low_top_of_page_bid": 0.04,
+         "high_top_of_page_bid": 0.8,
+         "categories": [
+          10007,
+          11494,
+          13418
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 590
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 590
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 590
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 590
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 590
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 590
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -19,
+          "quarterly": -19,
+          "yearly": -46
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "無料 ブログ おすすめ",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E3%83%96%E3%83%AD%E3%82%B0%20%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%20%E7%84%A1%E6%96%99&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+         ],
+         "se_results_count": 144,
+         "last_updated_time": "2026-09-02 10:08:54 +00:00",
+         "previous_updated_time": "2026-05-05 04:24:56 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 6.8,
+         "dofollow": 5.3,
+         "referring_pages": 6.3,
+         "referring_domains": 4.4,
+         "referring_main_domains": 4.4,
+         "rank": 36.8,
+         "main_domain_rank": 615.3,
+         "last_updated_time": "2026-09-02 10:08:54 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "commercial",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-02 15:47:39 +00:00"
+        }
+       },
+       "depth": 3,
+       "related_keywords": [
+        "ブログ 初心者 おすすめ無料",
+        "ブログ日記代わり おすすめ",
+        "ブログ 初心者 おすすめ無料 スマホ",
+        "ブログ おすすめ 日記",
+        "無料ブログ収益化 おすすめ",
+        "ブログ 無料 収益化",
+        "自分だけのブログ 無料",
+        "ブログ(無料 広告なし)"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "主婦ブログ 50代",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-12 14:04:45 +00:00",
+         "competition": 0,
+         "competition_level": "LOW",
+         "cpc": null,
+         "search_volume": 590,
+         "low_top_of_page_bid": null,
+         "high_top_of_page_bid": null,
+         "categories": [
+          10108,
+          10581
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 590
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 590
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 590
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 590
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 590
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 590
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 590
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 480
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 480
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": 23
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "50代 主婦 ブログ",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 9,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E4%B8%BB%E5%A9%A6%E3%83%96%E3%83%AD%E3%82%B0%2050%E4%BB%A3&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "organic",
+          "people_also_ask",
+          "related_searches"
+         ],
+         "se_results_count": 134,
+         "last_updated_time": "2026-08-28 15:24:18 +00:00",
+         "previous_updated_time": "2026-05-28 22:23:05 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 82.1,
+         "dofollow": 41.5,
+         "referring_pages": 43.5,
+         "referring_domains": 4.6,
+         "referring_main_domains": 4,
+         "rank": 75.1,
+         "main_domain_rank": 647.7,
+         "last_updated_time": "2026-08-28 15:24:18 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-30 02:16:04 +00:00"
+        }
+       },
+       "depth": 3,
+       "related_keywords": [
+        "アラカン主婦ブログ",
+        "主婦ブログ 50代 生き方",
+        "主婦 ブログ 50代 更年期 障害",
+        "60代主婦ブログ",
+        "アメブロ 50代主婦",
+        "40代主婦ブログ",
+        "専業主婦ブログ ひきこもり",
+        "引き こもり 主婦 50代 ブログ"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "ブログ おすすめ無料",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-21 19:56:44 +00:00",
+         "competition": 0.24,
+         "competition_level": "LOW",
+         "cpc": 0.63,
+         "search_volume": 590,
+         "low_top_of_page_bid": 0.04,
+         "high_top_of_page_bid": 0.8,
+         "categories": [
+          10007,
+          11494,
+          13418
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 590
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 590
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 590
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 590
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 590
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 590
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -19,
+          "quarterly": -19,
+          "yearly": -46
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "おすすめ無料ブログ",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.co.jp/search?q=%E3%83%96%E3%83%AD%E3%82%B0%20%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%E7%84%A1%E6%96%99&num=100&hl=ja&gl=JP&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "organic",
+          "people_also_ask",
+          "video",
+          "images",
+          "related_searches"
+         ],
+         "se_results_count": 380000000,
+         "last_updated_time": "2025-04-16 01:51:44 +00:00",
+         "previous_updated_time": "2025-02-14 21:35:02 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 6.1,
+         "dofollow": 4.5,
+         "referring_pages": 5.3,
+         "referring_domains": 3.7,
+         "referring_main_domains": 3.7,
+         "rank": 26.2,
+         "main_domain_rank": 560.9,
+         "last_updated_time": "2025-04-16 01:51:44 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "commercial",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-11 08:22:44 +00:00"
+        }
+       },
+       "depth": 4,
+       "related_keywords": [
+        "ブログ 初心者 おすすめ無料",
+        "ブログおすすめ 日記",
+        "はてなブログ",
+        "ブログ 初心者 おすすめ無料 スマホ",
+        "無料ブログ 収益化 おすすめ",
+        "ブログ 無料 収益化",
+        "自分だけのブログ 無料",
+        "ブログ 無料 おしゃれ"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "ブログ日記代わり おすすめ",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-17 21:38:23 +00:00",
+         "competition": 0.04,
+         "competition_level": "LOW",
+         "cpc": 0.55,
+         "search_volume": 480,
+         "low_top_of_page_bid": 0.07,
+         "high_top_of_page_bid": 1.48,
+         "categories": [
+          10007,
+          11494,
+          13418
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 210
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 260
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 320
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 320
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 590
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 720
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 590
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 590
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -19,
+          "quarterly": -34,
+          "yearly": -64
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "ブログ 日記代わり おすすめ",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E3%83%96%E3%83%AD%E3%82%B0%E6%97%A5%E8%A8%98%E4%BB%A3%E3%82%8F%E3%82%8A%20%E3%81%8A%E3%81%99%E3%81%99%E3%82%81&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches",
+          "images"
+         ],
+         "se_results_count": 3790000,
+         "last_updated_time": "2025-10-31 22:35:26 +00:00",
+         "previous_updated_time": "2025-08-05 20:10:56 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 4.6,
+         "dofollow": 3.3,
+         "referring_pages": 4.1,
+         "referring_domains": 1.5,
+         "referring_main_domains": 1.5,
+         "rank": 16.3,
+         "main_domain_rank": 505.3,
+         "last_updated_time": "2025-10-31 22:35:27 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": [
+          "commercial"
+         ],
+         "last_updated_time": "2026-04-30 02:18:12 +00:00"
+        }
+       },
+       "depth": 2,
+       "related_keywords": [
+        "ブログ日記代わり 公開 しない",
+        "ただの日記ブログ",
+        "日記ブログ 意味ない",
+        "日記ブログ 人気",
+        "日記ブログ 面白い",
+        "はてなブログ日記代わり",
+        "ブログ 日記代わり 収益化",
+        "非公開日記 おすすめ"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "ブログ 日記代わり おすすめ",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-13 07:21:42 +00:00",
+         "competition": 0.04,
+         "competition_level": "LOW",
+         "cpc": 0.55,
+         "search_volume": 480,
+         "low_top_of_page_bid": 0.07,
+         "high_top_of_page_bid": 1.48,
+         "categories": [
+          10007,
+          11494,
+          13418
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 210
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 260
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 320
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 320
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 590
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 720
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 590
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 590
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -19,
+          "quarterly": -34,
+          "yearly": -64
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E3%83%96%E3%83%AD%E3%82%B0%20%E6%97%A5%E8%A8%98%E4%BB%A3%E3%82%8F%E3%82%8A%20%E3%81%8A%E3%81%99%E3%81%99%E3%82%81&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+         ],
+         "se_results_count": 109,
+         "last_updated_time": "2026-08-17 17:58:11 +00:00",
+         "previous_updated_time": "2026-05-27 18:13:05 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 2.4,
+         "dofollow": 1.7,
+         "referring_pages": 2.1,
+         "referring_domains": 1.5,
+         "referring_main_domains": 1.5,
+         "rank": 16.2,
+         "main_domain_rank": 474,
+         "last_updated_time": "2026-08-17 17:58:51 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": [
+          "commercial"
+         ],
+         "last_updated_time": "2026-04-30 03:05:09 +00:00"
+        }
+       },
+       "depth": 2,
+       "related_keywords": [
+        "ブログ日記代わり 公開 しない",
+        "はてなブログ日記代わり",
+        "日記 ブログ 面白い",
+        "日記ブログ 人気",
+        "日記ブログ 意味ない",
+        "日記ブログ 趣味",
+        "ただの日記ブログ",
+        "日記ブログ note"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "人気ブログ 主婦",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-17 20:54:10 +00:00",
+         "competition": 0,
+         "competition_level": "LOW",
+         "cpc": null,
+         "search_volume": 480,
+         "low_top_of_page_bid": null,
+         "high_top_of_page_bid": null,
+         "categories": [
+          10007,
+          11494,
+          13418
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 320
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 590
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 590
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 320
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 590
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 590
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 590
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 590
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -33,
+          "quarterly": -33,
+          "yearly": -46
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 51,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E4%BA%BA%E6%B0%97%E3%83%96%E3%83%AD%E3%82%B0%20%E4%B8%BB%E5%A9%A6&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "organic",
+          "people_also_ask",
+          "related_searches"
+         ],
+         "se_results_count": 140,
+         "last_updated_time": "2026-09-23 14:12:55 +00:00",
+         "previous_updated_time": "2026-06-30 21:00:54 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 3650.8,
+         "dofollow": 1869.3,
+         "referring_pages": 1872.7,
+         "referring_domains": 15.6,
+         "referring_main_domains": 2.8,
+         "rank": 230.7,
+         "main_domain_rank": 664.3,
+         "last_updated_time": "2026-09-23 14:13:11 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-04 07:24:59 +00:00"
+        }
+       },
+       "depth": 3,
+       "related_keywords": [
+        "主婦ブログ 50代",
+        "主婦 ブログ 40代",
+        "人気ブログ 主婦 おしゃれ",
+        "60代主婦ブログ",
+        "専業主婦 ブログ 50代",
+        "節約ブログ",
+        "面白い ブログ 主婦",
+        "主婦ブログ 人気 ワードプレス"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "アラカン主婦ブログ",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-23 13:19:05 +00:00",
+         "competition": 0,
+         "competition_level": "LOW",
+         "cpc": null,
+         "search_volume": 480,
+         "low_top_of_page_bid": null,
+         "high_top_of_page_bid": null,
+         "categories": [
+          10007,
+          11494,
+          13418
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 590
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 590
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 480
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 320
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 390
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": -19,
+          "yearly": -19
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "アラカン 主婦 ブログ",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 14,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E3%82%A2%E3%83%A9%E3%82%AB%E3%83%B3%E4%B8%BB%E5%A9%A6%E3%83%96%E3%83%AD%E3%82%B0&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "organic",
+          "people_also_ask",
+          "related_searches"
+         ],
+         "se_results_count": 132,
+         "last_updated_time": "2026-08-29 23:37:01 +00:00",
+         "previous_updated_time": "2026-05-29 22:20:43 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 65.5,
+         "dofollow": 54.1,
+         "referring_pages": 54.1,
+         "referring_domains": 0.9,
+         "referring_main_domains": 0.6,
+         "rank": 88,
+         "main_domain_rank": 707.3,
+         "last_updated_time": "2026-08-29 23:37:02 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-30 01:32:30 +00:00"
+        }
+       },
+       "depth": 4,
+       "related_keywords": [
+        "アラカン主婦ブログランキング",
+        "アラカン 主婦 ブログ youtube",
+        "50代主婦ブログ",
+        "60代主婦ブログ",
+        "アラカン ブログ 人気",
+        "アラカン ブログ よっしー",
+        "アラ還主婦の暮らし",
+        "シニア 女性 ブログ"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "はてなブログ 注意",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-14 04:00:52 +00:00",
+         "competition": 0,
+         "competition_level": "LOW",
+         "cpc": 10.85,
+         "search_volume": 390,
+         "low_top_of_page_bid": null,
+         "high_top_of_page_bid": null,
+         "categories": [
+          10007,
+          11494,
+          13418
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 320
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 170
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 320
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 320
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 590
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 320
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 390
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 320
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 390
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 88,
+          "quarterly": -33,
+          "yearly": -33
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": null,
+         "keyword_difficulty": 28,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0%20%E6%B3%A8%E6%84%8F&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+         ],
+         "se_results_count": 108,
+         "last_updated_time": "2026-10-02 09:17:30 +00:00",
+         "previous_updated_time": "2026-07-05 09:47:00 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 1215.2,
+         "dofollow": 1199.7,
+         "referring_pages": 1203.1,
+         "referring_domains": 15.4,
+         "referring_main_domains": 15,
+         "rank": 155,
+         "main_domain_rank": 610.8,
+         "last_updated_time": "2026-10-02 09:17:31 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": [
+          "navigational"
+         ],
+         "last_updated_time": "2026-04-30 03:39:25 +00:00"
+        }
+       },
+       "depth": 4,
+       "related_keywords": [
+        "はてなブログ 危険性",
+        "はてなブログ 終了",
+        "はてなブログ note どっちがいい",
+        "はてなブログ 読むだけ",
+        "はてなブログ収益化",
+        "はてなブログ 人気ブロガー",
+        "はてなブログ無料",
+        "はてなブログ 検索"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "ブログ収入 一般人 平均",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-22 08:24:39 +00:00",
+         "competition": 0.06,
+         "competition_level": "LOW",
+         "cpc": 1.13,
+         "search_volume": 390,
+         "low_top_of_page_bid": 0.19,
+         "high_top_of_page_bid": 1.26,
+         "categories": [
+          10004,
+          10276,
+          13411,
+          13761
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 320
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 320
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 320
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 320
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 480
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 320
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 480
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": -46
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E3%83%96%E3%83%AD%E3%82%B0%E5%8F%8E%E5%85%A5%20%E4%B8%80%E8%88%AC%E4%BA%BA%20%E5%B9%B3%E5%9D%87&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+         ],
+         "se_results_count": 101,
+         "last_updated_time": "2026-08-29 02:42:12 +00:00",
+         "previous_updated_time": "2026-05-01 06:05:27 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 2,
+         "dofollow": 1.8,
+         "referring_pages": 2,
+         "referring_domains": 1.6,
+         "referring_main_domains": 1.6,
+         "rank": 13.8,
+         "main_domain_rank": 458.6,
+         "last_updated_time": "2026-08-29 02:42:14 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-30 01:50:11 +00:00"
+        }
+       },
+       "depth": 4,
+       "related_keywords": [
+        "ブログ収入 現実",
+        "ブログ収入 一般人 アメブロ",
+        "アメブロ収入ランキング 一般人",
+        "ブログ 収入 一般人 おすすめ",
+        "ブログ 収入 一般人 中央 値",
+        "ブログ収入ランキング 芸能人",
+        "ブログ収入 確定申告",
+        "ブログで稼ぐ どこがいい"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "専業主婦 ブログ 50代",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-16 02:14:49 +00:00",
+         "competition": 0,
+         "competition_level": "LOW",
+         "cpc": 0.01,
+         "search_volume": 390,
+         "low_top_of_page_bid": null,
+         "high_top_of_page_bid": null,
+         "categories": [
+          10007,
+          11494,
+          13418
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 320
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 390
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 320
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 320
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -19,
+          "quarterly": 0,
+          "yearly": 50
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 6,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E5%B0%82%E6%A5%AD%E4%B8%BB%E5%A9%A6%20%E3%83%96%E3%83%AD%E3%82%B0%2050%E4%BB%A3&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "organic",
+          "people_also_ask",
+          "ai_overview",
+          "related_searches"
+         ],
+         "se_results_count": 134,
+         "last_updated_time": "2026-09-01 06:36:55 +00:00",
+         "previous_updated_time": "2026-05-16 07:02:13 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 45,
+         "dofollow": 29.2,
+         "referring_pages": 29.2,
+         "referring_domains": 0.6,
+         "referring_main_domains": 0.4,
+         "rank": 58.7,
+         "main_domain_rank": 695.5,
+         "last_updated_time": "2026-09-01 06:36:56 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-07 21:40:37 +00:00"
+        }
+       },
+       "depth": 4,
+       "related_keywords": [
+        "アラカン主婦ブログ",
+        "60代主婦ブログ",
+        "主婦 ブログ 50代 更年期 障害",
+        "引き こもり 主婦 50代 ブログ",
+        "専業主婦ブログ ひきこもり",
+        "50代主婦ブログ 生き方",
+        "50代専業主婦 何してる",
+        "アメブロ 50代主婦"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "専業主婦ブログ 50代",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-12 04:45:38 +00:00",
+         "competition": 0,
+         "competition_level": "LOW",
+         "cpc": 0.01,
+         "search_volume": 390,
+         "low_top_of_page_bid": null,
+         "high_top_of_page_bid": null,
+         "categories": [
+          10108,
+          10581
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 320
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 390
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 320
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 320
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -19,
+          "quarterly": 0,
+          "yearly": 50
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "50代 専業主婦 ブログ",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 6,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E5%B0%82%E6%A5%AD%E4%B8%BB%E5%A9%A6%E3%83%96%E3%83%AD%E3%82%B0%2050%E4%BB%A3&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "organic",
+          "people_also_ask",
+          "related_searches"
+         ],
+         "se_results_count": 135,
+         "last_updated_time": "2026-09-01 06:36:47 +00:00",
+         "previous_updated_time": "2026-05-16 06:48:50 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 45,
+         "dofollow": 29.2,
+         "referring_pages": 29.2,
+         "referring_domains": 0.6,
+         "referring_main_domains": 0.4,
+         "rank": 58.7,
+         "main_domain_rank": 695.5,
+         "last_updated_time": "2026-09-01 06:36:48 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-30 02:33:44 +00:00"
+        }
+       },
+       "depth": 4,
+       "related_keywords": [
+        "アラカン主婦ブログ",
+        "60代主婦ブログ",
+        "50代主婦ブログ 人気",
+        "主婦 ブログ 50代 更年期 障害",
+        "引き こもり 主婦 50代 ブログ",
+        "専業主婦ブログ ひきこもり",
+        "50代主婦ブログ 生き方",
+        "50代専業主婦 何してる"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "ブログ 初心者 おすすめ無料",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-22 23:54:39 +00:00",
+         "competition": 0.22,
+         "competition_level": "LOW",
+         "cpc": 1.38,
+         "search_volume": 320,
+         "low_top_of_page_bid": 0.12,
+         "high_top_of_page_bid": 1.15,
+         "categories": [
+          10007,
+          11494,
+          13418
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 210
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 210
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 210
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 170
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 170
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 260
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 260
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 480
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 320
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 390
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": -46
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E3%83%96%E3%83%AD%E3%82%B0%20%E5%88%9D%E5%BF%83%E8%80%85%20%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%E7%84%A1%E6%96%99&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+         ],
+         "se_results_count": 131,
+         "last_updated_time": "2026-09-02 10:22:50 +00:00",
+         "previous_updated_time": "2026-05-31 06:01:14 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 6.8,
+         "dofollow": 5.3,
+         "referring_pages": 6.3,
+         "referring_domains": 4.4,
+         "referring_main_domains": 4.4,
+         "rank": 36.8,
+         "main_domain_rank": 610,
+         "last_updated_time": "2026-09-02 10:22:50 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": [
+          "commercial"
+         ],
+         "last_updated_time": "2026-04-30 02:51:17 +00:00"
+        }
+       },
+       "depth": 2,
+       "related_keywords": [
+        "ブログ 初心者 おすすめ無料 スマホ",
+        "無料ブログ収益化 おすすめ",
+        "ブログ日記代わり おすすめ",
+        "ブログ日記代わり 無料",
+        "ブログ おすすめ 日記",
+        "ブログ おすすめ 無料",
+        "自分だけのブログ 無料",
+        "ブログ(無料 広告なし)"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "主婦ブログ40代",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-12 14:49:03 +00:00",
+         "competition": 0,
+         "competition_level": "LOW",
+         "cpc": null,
+         "search_volume": 320,
+         "low_top_of_page_bid": null,
+         "high_top_of_page_bid": null,
+         "categories": [
+          10007,
+          11494,
+          13418
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 320
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 320
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 260
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 320
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 210
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 210
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 23,
+          "yearly": 129
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "主婦 ブログ 40代",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 11,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E4%B8%BB%E5%A9%A6%E3%83%96%E3%83%AD%E3%82%B040%E4%BB%A3&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "organic",
+          "people_also_ask",
+          "related_searches"
+         ],
+         "se_results_count": 132,
+         "last_updated_time": "2026-09-06 23:10:30 +00:00",
+         "previous_updated_time": null
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 44.7,
+         "dofollow": 44.4,
+         "referring_pages": 44.4,
+         "referring_domains": 0.7,
+         "referring_main_domains": 0.6,
+         "rank": 82.3,
+         "main_domain_rank": 650.6,
+         "last_updated_time": "2026-09-06 23:10:31 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-04 08:38:09 +00:00"
+        }
+       },
+       "depth": 3,
+       "related_keywords": [
+        "40代主婦ブログ 貧乏",
+        "40代専業主婦 ブログ",
+        "40代パート主婦ブログ",
+        "40代主婦 ブログ(アメブロ)",
+        "主婦ブログ 50代",
+        "40代パート主婦ブログ gray",
+        "40代主婦の日常",
+        "専業主婦ブログ 50代"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "はてなブログ 読むだけ",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-13 03:43:51 +00:00",
+         "competition": 0,
+         "competition_level": "LOW",
+         "cpc": null,
+         "search_volume": 320,
+         "low_top_of_page_bid": null,
+         "high_top_of_page_bid": null,
+         "categories": [
+          10007,
+          11494,
+          13418
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 320
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 260
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 320
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 320
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 260
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 320
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 320
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 390
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 390
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 480
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 23,
+          "quarterly": 0,
+          "yearly": -46
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "はてなブログ 読む だけ",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 48,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0%20%E8%AA%AD%E3%82%80%E3%81%A0%E3%81%91&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+         ],
+         "se_results_count": 108,
+         "last_updated_time": "2026-08-30 02:31:12 +00:00",
+         "previous_updated_time": "2026-05-30 00:36:23 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 633349,
+         "dofollow": 404946.3,
+         "referring_pages": 405060.2,
+         "referring_domains": 14728,
+         "referring_main_domains": 14719.1,
+         "rank": 226.5,
+         "main_domain_rank": 671.9,
+         "last_updated_time": "2026-08-30 02:31:13 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": [
+          "navigational"
+         ],
+         "last_updated_time": "2026-04-30 02:27:32 +00:00"
+        }
+       },
+       "depth": 4,
+       "related_keywords": [
+        "はてなブログ 読む だけ 無料",
+        "はてなブログ 読む アプリ",
+        "はてなブログ 検索",
+        "はてなブログ 検索 方法",
+        "はてなブログ 検索 方法 スマホ",
+        "はてなブログ検索 できない",
+        "はてなブログを 見る",
+        "はてなブログ 注意"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "一般人 ブログ検索",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-20 12:52:44 +00:00",
+         "competition": 0,
+         "competition_level": "LOW",
+         "cpc": null,
+         "search_volume": 320,
+         "low_top_of_page_bid": null,
+         "high_top_of_page_bid": null,
+         "categories": [
+          10007,
+          11494,
+          13418
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 720
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 720
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 590
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 320
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 170
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 140
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 110
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 260
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 170
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 170
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 170
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 170
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 22,
+          "yearly": 243
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "ブログ 検索 一般人",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 27,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E4%B8%80%E8%88%AC%E4%BA%BA%20%E3%83%96%E3%83%AD%E3%82%B0%E6%A4%9C%E7%B4%A2&num=100&hl=ja&gl=JP&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "organic",
+          "people_also_ask",
+          "people_also_search",
+          "related_searches"
+         ],
+         "se_results_count": 42,
+         "last_updated_time": "2025-07-24 04:22:25 +00:00",
+         "previous_updated_time": "2025-05-24 06:44:36 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 231351.1,
+         "dofollow": 155218.2,
+         "referring_pages": 156192.7,
+         "referring_domains": 623.2,
+         "referring_main_domains": 553,
+         "rank": 245.3,
+         "main_domain_rank": 499.9,
+         "last_updated_time": "2025-07-24 04:22:26 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-30 01:59:22 +00:00"
+        }
+       },
+       "depth": 4,
+       "related_keywords": [
+        "ブログ 一般人 日記",
+        "アメーバブログ 見るだけ",
+        "個人 ブログを見る",
+        "一般人 ブログランキング",
+        "アメブロ ブログ内検索 スマホ",
+        "アメブロ 検索 ブログ内",
+        "ブログ 一般人 人気",
+        "アメーバブログを見るには"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "アメーバ ブログ 一般人 ランキング",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-22 00:21:48 +00:00",
+         "competition": 0,
+         "competition_level": "LOW",
+         "cpc": null,
+         "search_volume": 320,
+         "low_top_of_page_bid": null,
+         "high_top_of_page_bid": null,
+         "categories": [
+          10108,
+          10584
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 260
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 170
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 110
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 50
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": 243
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 3,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E3%82%A2%E3%83%A1%E3%83%BC%E3%83%90%20%E3%83%96%E3%83%AD%E3%82%B0%20%E4%B8%80%E8%88%AC%E4%BA%BA%20%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+         ],
+         "se_results_count": 122,
+         "last_updated_time": "2026-10-07 05:44:05 +00:00",
+         "previous_updated_time": null
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 17.3,
+         "dofollow": 17.3,
+         "referring_pages": 17.3,
+         "referring_domains": 0.4,
+         "referring_main_domains": 0.3,
+         "rank": 54.8,
+         "main_domain_rank": 646.9,
+         "last_updated_time": "2026-10-07 05:44:07 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": [
+          "navigational"
+         ],
+         "last_updated_time": "2026-05-04 07:22:48 +00:00"
+        }
+       },
+       "depth": 4,
+       "related_keywords": [
+        "アメーバ ブログ 一般人 30代",
+        "アメブロ",
+        "ラブラブ夫婦ブログ 40代",
+        "離婚 ブログランキング",
+        "三 十 代 カップル ブログ 総合 ランキング",
+        "サレ妻 ブログ 人気",
+        "アメブロ アラフォー",
+        "アメブロランキング"
+       ]
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "主婦 ブログ 40代",
+        "location_code": 2392,
+        "language_code": "ja",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-11-20 21:40:46 +00:00",
+         "competition": 0,
+         "competition_level": "LOW",
+         "cpc": null,
+         "search_volume": 320,
+         "low_top_of_page_bid": null,
+         "high_top_of_page_bid": null,
+         "categories": [
+          10007,
+          11494,
+          13418
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 10,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 480
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 320
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 320
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 390
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 260
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 320
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 210
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 210
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 23,
+          "yearly": 129
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "40代 主婦 ブログ",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 8,
+         "detected_language": "ja",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=%E4%B8%BB%E5%A9%A6%20%E3%83%96%E3%83%AD%E3%82%B0%2040%E4%BB%A3&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+         "serp_item_types": [
+          "organic",
+          "people_also_ask",
+          "related_searches"
+         ],
+         "se_results_count": 133,
+         "last_updated_time": "2026-09-06 22:56:42 +00:00",
+         "previous_updated_time": null
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 37.6,
+         "dofollow": 37.6,
+         "referring_pages": 37.6,
+         "referring_domains": 0.4,
+         "referring_main_domains": 0.3,
+         "rank": 72.5,
+         "main_domain_rank": 650.6,
+         "last_updated_time": "2026-09-06 22:56:42 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": [
+          "navigational"
+         ],
+         "last_updated_time": "2026-05-03 16:41:06 +00:00"
+        }
+       },
+       "depth": 4,
+       "related_keywords": [
+        "40代主婦ブログ 貧乏",
+        "40代専業主婦 ブログ",
+        "40代パート主婦ブログ",
+        "40代主婦 ブログ(アメブロ)",
+        "主婦ブログ 50代",
+        "40代パート主婦ブログ gray",
+        "40代主婦の日常",
+        "専業主婦ブログ 50代"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

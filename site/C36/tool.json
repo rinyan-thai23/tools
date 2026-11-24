@@ -1,0 +1,38 @@
+{
+  "id": "C36",
+  "endpoint": "dataforseo_labs/google/keyword_suggestions/live",
+  "who": "kindle_note",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keyword",
+      "label": "c36.keyword"
+    }
+  ],
+  "params": {
+    "limit": 100
+  },
+  "result": {
+    "items": "result.0.items",
+    "where": {},
+    "columns": [
+      {
+        "key": "keyword",
+        "label": "c36.col.keyword"
+      },
+      {
+        "key": "volume",
+        "label": "c36.col.volume",
+        "from": "keyword_info.search_volume"
+      },
+      {
+        "key": "kd",
+        "label": "c36.col.kd",
+        "from": "keyword_properties.keyword_difficulty"
+      }
+    ]
+  },
+  "csv": "C36.csv"
+}

@@ -1,0 +1,46 @@
+{
+ "keyword": "ブログ 始め方\nワイヤレスイヤホン 安い\nアフィリエイト とは",
+ "fetched_at": "2026-11",
+ "tasks": [
+  {
+   "cost": 0.01236,
+   "time": "0.0827 sec.",
+   "result": [
+    {
+     "items_count": 3,
+     "items": [
+      {
+       "keyword": "ブログ 始め方",
+       "keyword_intent": {
+        "label": "informational",
+        "probability": 0.6234
+       },
+       "secondary_keyword_intents": [
+        {
+         "label": "navigational",
+         "probability": 0.3716
+        }
+       ]
+      },
+      {
+       "keyword": "ワイヤレスイヤホン 安い",
+       "keyword_intent": {
+        "label": "commercial",
+        "probability": 0.6121
+       },
+       "secondary_keyword_intents": null
+      },
+      {
+       "keyword": "アフィリエイト とは",
+       "keyword_intent": {
+        "label": "informational",
+        "probability": 0.9998
+       },
+       "secondary_keyword_intents": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

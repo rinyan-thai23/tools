@@ -1,0 +1,36 @@
+{
+  "id": "C41",
+  "endpoint": "dataforseo_labs/google/historical_keyword_data/live",
+  "who": "seller",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keywords",
+      "label": "c41.keyword",
+      "wrap": "array"
+    }
+  ],
+  "result": {
+    "items": "result.0.items.0.history",
+    "where": {},
+    "columns": [
+      {
+        "key": "ym",
+        "label": "c41.col.ym",
+        "join": [
+          "year",
+          "month"
+        ],
+        "sep": "-"
+      },
+      {
+        "key": "volume",
+        "label": "c41.col.volume",
+        "from": "keyword_info.monthly_searches.0.search_volume"
+      }
+    ]
+  },
+  "csv": "C41.csv"
+}

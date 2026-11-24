@@ -1,0 +1,49 @@
+{
+  "id": "C40",
+  "endpoint": "dataforseo_labs/google/keyword_overview/live",
+  "who": "beginner_blogger",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keywords",
+      "label": "c40.keyword",
+      "wrap": "array"
+    }
+  ],
+  "min_sample_rows": 1,
+  "result": {
+    "items": "result.0.items",
+    "where": {},
+    "columns": [
+      {
+        "key": "volume",
+        "label": "c40.col.volume",
+        "from": "keyword_info.search_volume"
+      },
+      {
+        "key": "cpc",
+        "label": "c40.col.cpc",
+        "from": "keyword_info.cpc"
+      },
+      {
+        "key": "kd",
+        "label": "c40.col.kd",
+        "from": "keyword_properties.keyword_difficulty"
+      },
+      {
+        "key": "intent",
+        "label": "c40.col.intent",
+        "from": "search_intent_info.main_intent",
+        "labels": {
+          "informational": "c40.v.informational",
+          "commercial": "c40.v.commercial",
+          "transactional": "c40.v.transactional",
+          "navigational": "c40.v.navigational"
+        }
+      }
+    ]
+  },
+  "csv": "C40.csv"
+}

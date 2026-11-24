@@ -1,0 +1,40 @@
+{
+  "id": "C35",
+  "endpoint": "dataforseo_labs/google/related_keywords/live",
+  "who": "beginner_blogger",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keyword",
+      "label": "c35.keyword"
+    }
+  ],
+  "params": {
+    "limit": 100,
+    "depth": 4
+  },
+  "result": {
+    "items": "result.0.items",
+    "where": {},
+    "columns": [
+      {
+        "key": "keyword",
+        "label": "c35.col.keyword",
+        "from": "keyword_data.keyword"
+      },
+      {
+        "key": "volume",
+        "label": "c35.col.volume",
+        "from": "keyword_data.keyword_info.search_volume"
+      },
+      {
+        "key": "kd",
+        "label": "c35.col.kd",
+        "from": "keyword_data.keyword_properties.keyword_difficulty"
+      }
+    ]
+  },
+  "csv": "C35.csv"
+}

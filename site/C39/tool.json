@@ -1,0 +1,41 @@
+{
+  "id": "C39",
+  "endpoint": "dataforseo_labs/google/search_intent/live",
+  "who": "asp_affiliate",
+  "markets": "language",
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keywords",
+      "label": "c39.keyword",
+      "multiline": true,
+      "wrap": "lines"
+    }
+  ],
+  "language_params": [
+    "language_code"
+  ],
+  "result": {
+    "items": "result.0.items",
+    "where": {},
+    "columns": [
+      {
+        "key": "keyword",
+        "label": "c39.col.keyword"
+      },
+      {
+        "key": "intent",
+        "label": "c39.col.intent",
+        "from": "keyword_intent.label",
+        "labels": {
+          "informational": "c39.v.informational",
+          "commercial": "c39.v.commercial",
+          "transactional": "c39.v.transactional",
+          "navigational": "c39.v.navigational"
+        }
+      }
+    ]
+  },
+  "csv": "C39.csv"
+}

@@ -12,6 +12,8 @@ let cols = [], rows = [];
 function show(task, meta) {
   cols = cfg.result.columns.map((c) => ({ key: c.key, label: t(c.label), link: c.link, type: c.type }));
   rows = extractRows(cfg, task);
+  // 値の読み替え（例：informational → 情報を調べる）。columns[].labels = { 元の値: 文言のキー }
+  for (const c of cfg.result.columns) if (c.labels) rows.forEach((r) => { if (c.labels[r[c.key]]) r[c.key] = t(c.labels[r[c.key]]); });
   renderAnswer($('answer'), cfg.result.answer ? t(cfg.result.answer.label) : '', extractAnswer(cfg, task));
   if (cfg.result.answer_only) $('result').innerHTML = '';
   else {

@@ -1,0 +1,36 @@
+{
+ "keyword": "ブログ 始め方\n副業 ブログ\nアフィリエイト 比較",
+ "fetched_at": "2026-11",
+ "tasks": [
+  {
+   "cost": 0.01236,
+   "time": "0.0503 sec.",
+   "result": [
+    {
+     "se_type": "google",
+     "location_code": 2392,
+     "language_code": "ja",
+     "total_count": 3,
+     "items_count": 3,
+     "items": [
+      {
+       "se_type": "google",
+       "keyword": "アフィリエイト 比較",
+       "keyword_difficulty": 53
+      },
+      {
+       "se_type": "google",
+       "keyword": "ブログ 始め方",
+       "keyword_difficulty": 7
+      },
+      {
+       "se_type": "google",
+       "keyword": "副業 ブログ",
+       "keyword_difficulty": 1
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

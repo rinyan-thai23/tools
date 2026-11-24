@@ -1,0 +1,39 @@
+{
+  "id": "C37",
+  "endpoint": "dataforseo_labs/google/keyword_ideas/live",
+  "who": "asp_affiliate",
+  "markets": true,
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keywords",
+      "label": "c37.keyword",
+      "wrap": "array"
+    }
+  ],
+  "params": {
+    "limit": 100
+  },
+  "result": {
+    "items": "result.0.items",
+    "where": {},
+    "columns": [
+      {
+        "key": "keyword",
+        "label": "c37.col.keyword"
+      },
+      {
+        "key": "volume",
+        "label": "c37.col.volume",
+        "from": "keyword_info.search_volume"
+      },
+      {
+        "key": "kd",
+        "label": "c37.col.kd",
+        "from": "keyword_properties.keyword_difficulty"
+      }
+    ]
+  },
+  "csv": "C37.csv"
+}
