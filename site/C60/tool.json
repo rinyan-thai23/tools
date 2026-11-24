@@ -1,0 +1,178 @@
+{
+  "id": "C60",
+  "endpoint": "on_page/instant_pages",
+  "who": "freelancer_seo",
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "url",
+      "param": "url",
+      "label": "c60.url"
+    }
+  ],
+  "min_sample_rows": 1,
+  "result": {
+    "items": "result.0.items",
+    "where": {},
+    "columns": [
+      {
+        "key": "status",
+        "label": "c60.col.status",
+        "from": "status_code"
+      },
+      {
+        "key": "title",
+        "label": "c60.col.title",
+        "from": "meta.title"
+      },
+      {
+        "key": "description",
+        "label": "c60.col.description",
+        "from": "meta.description"
+      },
+      {
+        "key": "words",
+        "label": "c60.col.words",
+        "from": "meta.content.plain_text_word_count"
+      },
+      {
+        "key": "load",
+        "label": "c60.col.load",
+        "from": "page_timing.duration_time"
+      }
+    ],
+    "title": "c60.summary",
+    "extra": [
+      {
+        "object": {
+          "path": "result.0.items.0.meta.htags",
+          "keys": [
+            "h1",
+            "h2",
+            "h3",
+            "h4",
+            "h5",
+            "h6"
+          ]
+        },
+        "columns": [
+          {
+            "key": "k",
+            "label": "c60.col.level",
+            "from": "key",
+            "labels": {
+              "h1": "c60.v.h1",
+              "h2": "c60.v.h2",
+              "h3": "c60.v.h3",
+              "h4": "c60.v.h4",
+              "h5": "c60.v.h5",
+              "h6": "c60.v.h6"
+            }
+          },
+          {
+            "key": "n",
+            "label": "c60.col.count",
+            "from": "value",
+            "transform": "count"
+          },
+          {
+            "key": "t",
+            "label": "c60.col.headings",
+            "from": "value",
+            "transform": "slash"
+          }
+        ],
+        "title": "c60.headings_title"
+      },
+      {
+        "object": {
+          "path": "result.0.items.0.meta",
+          "keys": [
+            "internal_links_count",
+            "external_links_count",
+            "images_count",
+            "scripts_count"
+          ]
+        },
+        "columns": [
+          {
+            "key": "k",
+            "label": "c60.col.item",
+            "from": "key",
+            "labels": {
+              "internal_links_count": "c60.v.internal_links_count",
+              "external_links_count": "c60.v.external_links_count",
+              "images_count": "c60.v.images_count",
+              "scripts_count": "c60.v.scripts_count"
+            }
+          },
+          {
+            "key": "v",
+            "label": "c60.col.count",
+            "from": "value"
+          }
+        ],
+        "title": "c60.counts_title"
+      },
+      {
+        "object": {
+          "path": "result.0.items.0.checks",
+          "keys": [
+            "is_broken",
+            "is_4xx_code",
+            "is_5xx_code",
+            "is_redirect",
+            "is_https",
+            "canonical",
+            "no_title",
+            "no_description",
+            "no_h1_tag",
+            "no_image_alt",
+            "title_too_long",
+            "title_too_short",
+            "high_loading_time",
+            "duplicate_title_tag",
+            "has_micromarkup",
+            "no_favicon"
+          ]
+        },
+        "columns": [
+          {
+            "key": "k",
+            "label": "c60.col.item",
+            "from": "key",
+            "labels": {
+              "is_broken": "c60.v.is_broken",
+              "is_4xx_code": "c60.v.is_4xx_code",
+              "is_5xx_code": "c60.v.is_5xx_code",
+              "is_redirect": "c60.v.is_redirect",
+              "is_https": "c60.v.is_https",
+              "canonical": "c60.v.canonical",
+              "no_title": "c60.v.no_title",
+              "no_description": "c60.v.no_description",
+              "no_h1_tag": "c60.v.no_h1_tag",
+              "no_image_alt": "c60.v.no_image_alt",
+              "title_too_long": "c60.v.title_too_long",
+              "title_too_short": "c60.v.title_too_short",
+              "high_loading_time": "c60.v.high_loading_time",
+              "duplicate_title_tag": "c60.v.duplicate_title_tag",
+              "has_micromarkup": "c60.v.has_micromarkup",
+              "no_favicon": "c60.v.no_favicon"
+            }
+          },
+          {
+            "key": "v",
+            "label": "c60.col.answer",
+            "from": "value",
+            "labels": {
+              "true": "c60.v.yes",
+              "false": "c60.v.no"
+            }
+          }
+        ],
+        "title": "c60.checks_title"
+      }
+    ]
+  },
+  "csv": "C60.csv"
+}

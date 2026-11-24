@@ -1,0 +1,63 @@
+{
+  "id": "C64",
+  "endpoint": "content_analysis/search/live",
+  "who": "smb_pr",
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keyword",
+      "label": "c64.keyword"
+    }
+  ],
+  "params": {
+    "limit": 100,
+    "filters": [
+      "language",
+      "=",
+      "ja"
+    ]
+  },
+  "result": {
+    "items": "result.0.items",
+    "where": {},
+    "columns": [
+      {
+        "key": "title",
+        "label": "c64.col.title",
+        "from": "content_info.title"
+      },
+      {
+        "key": "url",
+        "label": "c64.col.url",
+        "from": "url",
+        "link": true
+      },
+      {
+        "key": "date",
+        "label": "c64.col.date",
+        "from": "content_info.date_published",
+        "transform": "date"
+      },
+      {
+        "key": "positive",
+        "label": "c64.col.positive",
+        "from": "content_info.connotation_types.positive",
+        "transform": "pct"
+      },
+      {
+        "key": "negative",
+        "label": "c64.col.negative",
+        "from": "content_info.connotation_types.negative",
+        "transform": "pct"
+      },
+      {
+        "key": "neutral",
+        "label": "c64.col.neutral",
+        "from": "content_info.connotation_types.neutral",
+        "transform": "pct"
+      }
+    ]
+  },
+  "csv": "C64.csv"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "C63",
+  "endpoint": "on_page/page_screenshot",
+  "who": "lodging",
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "url",
+      "param": "url",
+      "label": "c63.url"
+    }
+  ],
+  "min_sample_rows": 1,
+  "result": {
+    "items": "result.0.items",
+    "where": {},
+    "columns": [
+      {
+        "key": "image",
+        "label": "c63.col.image",
+        "from": "image",
+        "type": "image_auth",
+        "link": true
+      }
+    ]
+  },
+  "csv": "C63.csv"
+}

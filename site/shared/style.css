@@ -52,3 +52,5 @@ ul.tools{padding-left:1.2em}
 .answer .cite{font-size:.75rem;vertical-align:super;text-decoration:none}
 
 .answer, .answer a { overflow-wrap: anywhere; }
+
+.shot{width:min(100%,640px);height:480px;object-fit:cover;object-position:top;border:1px solid #ccc;border-radius:4px;margin-top:6px}

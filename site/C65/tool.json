@@ -1,0 +1,124 @@
+{
+  "id": "C65",
+  "endpoint": "content_analysis/summary/live",
+  "who": "b2b_sales",
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keyword",
+      "label": "c65.keyword"
+    }
+  ],
+  "min_sample_rows": 1,
+  "result": {
+    "items": "result",
+    "where": {},
+    "columns": [
+      {
+        "key": "total",
+        "label": "c65.col.total",
+        "from": "total_count"
+      }
+    ],
+    "title": "c65.total_title",
+    "extra": [
+      {
+        "object": {
+          "path": "result.0.connotation_types",
+          "keys": [
+            "positive",
+            "negative",
+            "neutral"
+          ]
+        },
+        "columns": [
+          {
+            "key": "k",
+            "label": "c65.col.kind",
+            "from": "key",
+            "labels": {
+              "positive": "c65.v.positive",
+              "negative": "c65.v.negative",
+              "neutral": "c65.v.neutral"
+            }
+          },
+          {
+            "key": "v",
+            "label": "c65.col.count",
+            "from": "value"
+          }
+        ],
+        "title": "c65.tone_title"
+      },
+      {
+        "object": {
+          "path": "result.0.page_types",
+          "keys": [
+            "news",
+            "blogs",
+            "organization",
+            "ecommerce",
+            "message-boards"
+          ]
+        },
+        "columns": [
+          {
+            "key": "k",
+            "label": "c65.col.kind",
+            "from": "key",
+            "labels": {
+              "news": "c65.v.news",
+              "blogs": "c65.v.blogs",
+              "organization": "c65.v.organization",
+              "ecommerce": "c65.v.ecommerce",
+              "message-boards": "c65.v.message-boards"
+            }
+          },
+          {
+            "key": "v",
+            "label": "c65.col.count",
+            "from": "value"
+          }
+        ],
+        "title": "c65.types_title"
+      },
+      {
+        "object": {
+          "path": "result.0.languages"
+        },
+        "columns": [
+          {
+            "key": "k",
+            "label": "c65.col.lang",
+            "from": "key"
+          },
+          {
+            "key": "v",
+            "label": "c65.col.count",
+            "from": "value"
+          }
+        ],
+        "title": "c65.lang_title"
+      },
+      {
+        "items": "result.0.top_domains",
+        "where": {},
+        "columns": [
+          {
+            "key": "domain",
+            "label": "c65.col.domain",
+            "from": "domain"
+          },
+          {
+            "key": "count",
+            "label": "c65.col.count",
+            "from": "count"
+          }
+        ],
+        "title": "c65.domains_title"
+      }
+    ]
+  },
+  "csv": "C65.csv"
+}

@@ -1,7 +1,7 @@
 // 全ツール共通の動き。ツールごとの違いは site/Cxx/tool.json に書く。
 import { callApi, getApi, ApiError } from '/shared/api.js';
 import { extractRows, extractAnswer, extractExtra, parseVideoId } from '/shared/rows.js';
-import { init, t, fillMarkets, renderTable, renderAnswer, downloadCsv, fmtDate, startProgress } from '/shared/ui.js';
+import { init, t, fillMarkets, renderTable, renderAnswer, loadAuthImages, downloadCsv, fmtDate, startProgress } from '/shared/ui.js';
 
 const id = document.body.dataset.tool;
 const cfg = await fetch(`/${id}/tool.json`).then((r) => r.json());
@@ -31,6 +31,7 @@ function show(task, meta) {
     renderTable(d, x.columns.map((c) => ({ key: c.key, label: t(c.label), link: c.link, type: c.type })), x.rows);
     if (x.title) d.insertAdjacentHTML('afterbegin', `<h2 class="sub-title">${t(x.title)}</h2>`);
   }
+  loadAuthImages($('result'));
   $('meta').textContent = meta;
   $('csv').hidden = !rows.length;
 }

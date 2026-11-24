@@ -8,6 +8,13 @@ export const transforms = {
   slash: (v) => (Array.isArray(v) ? v.join(' / ') : String(v ?? '')), // [45, 36] → "45 / 36"
   round0: (v) => (typeof v === 'number' ? Math.round(v) : v),
   round2: (v) => (typeof v === 'number' ? Math.round(v * 100) / 100 : v),
+  count: (v) => (Array.isArray(v) ? v.length : 0), // 配列の個数（見出しの数など）
+  pct: (v) => (typeof v === 'number' ? Math.round(v * 1000) / 10 + '%' : v), // 0.642 → "64.2%"
+  score100: (v) => (typeof v === 'number' ? Math.round(v * 100) : v), // 0.34 → 34
+  clean: (v) => String(v ?? '').replace(/\u00a0/g, ' '), // 改行なしスペース → 通常のスペース
+  texts: (v) => (Array.isArray(v) ? v.map((x) => x.text).filter(Boolean).join(' ') : ''),
+  hlevel: (v) => (v == null ? '' : 'H' + v), // 3 → "H3"
+  ym: (v) => String(v ?? '').slice(0, 7), // "2026-11-01" → "2026-11" // [{text}] → 本文をつなぐ
   ids: (v) => (Array.isArray(v) ? v.map((a) => a.advertiser_id).join(', ') : String(v ?? '')), // 広告主IDの配列 → "AR..., AR..."
 };
 
@@ -37,11 +44,11 @@ export const extractAnswer = (cfg, task) => {
 // 1つの表の行を取り出す。spec = { items, where, flatten, unique, columns }
 //   flatten: 配列の入れ子を平らにする（例 ["sections","annotations"]）／ unique: 同じ値の行を1つにする項目
 export function rowsOf(spec, task) {
-  let list = (spec.object ? [] : (get(task, spec.items) || [])).filter((it) => Object.entries(spec.where || {}).every(([k, v]) => (Array.isArray(v) ? v.includes(it[k]) : it[k] === v)));
+  let list = (spec.object ? [] : [].concat(spec.items).flatMap((p) => get(task, p) || [])).filter((it) => Object.entries(spec.where || {}).every(([k, v]) => (Array.isArray(v) ? v.includes(it[k]) : it[k] === v)));
   for (const k of spec.flatten || []) list = list.flatMap((it) => (it[k] || []).map((c) => ({ ...c, __parent: it }))); // 子に親（__parent）を持たせる
   if (spec.where_after) list = list.filter((it) => Object.entries(spec.where_after).every(([k, v]) => it[k] === v));
   if (spec.max_after) list = list.filter((it) => Object.entries(spec.max_after).every(([k, v]) => it[k] != null && it[k] <= v));
-  if (spec.object) { const o = get(task, spec.object.path) || {}; list = spec.object.keys.map((k) => ({ key: k, value: o[k] })); } // 辞書の項目を1行ずつの表にする
+  if (spec.object) { const o = get(task, spec.object.path) || {}; list = (spec.object.keys || Object.keys(o)).map((k) => ({ key: k, value: o[k] })); } // 辞書の項目を1行ずつの表にする
   let rows = list.map((it) => Object.fromEntries(spec.columns.map((c) => {
     if (c.join) return [c.key, c.join.map((k) => { const v = get(it, k); return typeof v === 'number' && v < 10 ? String(v).padStart(2, '0') : v; }).join(c.sep ?? '-')];
     const v = pick(it, c.from || c.key);

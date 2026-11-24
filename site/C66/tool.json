@@ -1,0 +1,80 @@
+{
+  "id": "C66",
+  "endpoint": "content_analysis/sentiment_analysis/live",
+  "who": "smb_pr",
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keyword",
+      "label": "c66.keyword"
+    }
+  ],
+  "result": {
+    "items": "result.0.positive_connotation_distribution",
+    "where": {},
+    "object": {
+      "path": "result.0.positive_connotation_distribution",
+      "keys": [
+        "positive",
+        "negative",
+        "neutral"
+      ]
+    },
+    "columns": [
+      {
+        "key": "k",
+        "label": "c66.col.group",
+        "from": "key",
+        "labels": {
+          "positive": "c66.v.positive",
+          "negative": "c66.v.negative",
+          "neutral": "c66.v.neutral"
+        }
+      },
+      {
+        "key": "n",
+        "label": "c66.col.count",
+        "from": "value.total_count"
+      }
+    ],
+    "title": "c66.group_title",
+    "extra": [
+      {
+        "object": {
+          "path": "result.0.sentiment_connotation_distribution",
+          "keys": [
+            "happiness",
+            "love",
+            "fun",
+            "sadness",
+            "anger",
+            "share"
+          ]
+        },
+        "columns": [
+          {
+            "key": "k",
+            "label": "c66.col.emotion",
+            "from": "key",
+            "labels": {
+              "happiness": "c66.v.happiness",
+              "love": "c66.v.love",
+              "fun": "c66.v.fun",
+              "sadness": "c66.v.sadness",
+              "anger": "c66.v.anger",
+              "share": "c66.v.share"
+            }
+          },
+          {
+            "key": "n",
+            "label": "c66.col.count",
+            "from": "value.total_count"
+          }
+        ],
+        "title": "c66.emotion_title"
+      }
+    ]
+  },
+  "csv": "C66.csv"
+}

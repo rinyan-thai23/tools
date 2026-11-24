@@ -1,0 +1,92 @@
+{
+  "id": "C62",
+  "endpoint": "on_page/lighthouse/live/json",
+  "who": "local_shop",
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "url",
+      "param": "url",
+      "label": "c62.url"
+    }
+  ],
+  "params": {
+    "for_mobile": true,
+    "categories": [
+      "performance",
+      "accessibility",
+      "best_practices",
+      "seo"
+    ]
+  },
+  "min_sample_rows": 3,
+  "result": {
+    "items": "result.0.categories",
+    "where": {},
+    "columns": [
+      {
+        "key": "k",
+        "label": "c62.col.category",
+        "from": "key",
+        "labels": {
+          "performance": "c62.v.performance",
+          "accessibility": "c62.v.accessibility",
+          "best-practices": "c62.v.best-practices",
+          "seo": "c62.v.seo"
+        }
+      },
+      {
+        "key": "score",
+        "label": "c62.col.score",
+        "from": "value.score",
+        "transform": "score100"
+      }
+    ],
+    "title": "c62.cat_title",
+    "extra": [
+      {
+        "object": {
+          "path": "result.0.audits",
+          "keys": [
+            "first-contentful-paint",
+            "largest-contentful-paint",
+            "total-blocking-time",
+            "cumulative-layout-shift",
+            "speed-index"
+          ]
+        },
+        "columns": [
+          {
+            "key": "k",
+            "label": "c62.col.metric",
+            "from": "key",
+            "labels": {
+              "first-contentful-paint": "c62.v.first-contentful-paint",
+              "largest-contentful-paint": "c62.v.largest-contentful-paint",
+              "total-blocking-time": "c62.v.total-blocking-time",
+              "cumulative-layout-shift": "c62.v.cumulative-layout-shift",
+              "speed-index": "c62.v.speed-index"
+            }
+          },
+          {
+            "key": "v",
+            "label": "c62.col.value",
+            "from": "value.displayValue",
+            "transform": "clean"
+          }
+        ],
+        "title": "c62.metrics_title"
+      }
+    ],
+    "object": {
+      "path": "result.0.categories",
+      "keys": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ]
+    }
+  },
+  "csv": "C62.csv"
+}

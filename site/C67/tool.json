@@ -1,0 +1,52 @@
+{
+  "id": "C67",
+  "endpoint": "content_analysis/phrase_trends/live",
+  "who": "kindle_note",
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "keyword",
+      "param": "keyword",
+      "label": "c67.keyword"
+    }
+  ],
+  "params": {
+    "date_group": "month"
+  },
+  "params_dynamic": {
+    "date_from": "months_ago_11"
+  },
+  "result": {
+    "items": "result",
+    "where": {},
+    "columns": [
+      {
+        "key": "month",
+        "label": "c67.col.month",
+        "from": "date",
+        "transform": "ym"
+      },
+      {
+        "key": "total",
+        "label": "c67.col.total",
+        "from": "total_count"
+      },
+      {
+        "key": "positive",
+        "label": "c67.col.positive",
+        "from": "connotation_types.positive"
+      },
+      {
+        "key": "negative",
+        "label": "c67.col.negative",
+        "from": "connotation_types.negative"
+      },
+      {
+        "key": "neutral",
+        "label": "c67.col.neutral",
+        "from": "connotation_types.neutral"
+      }
+    ]
+  },
+  "csv": "C67.csv"
+}

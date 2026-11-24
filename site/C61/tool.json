@@ -1,0 +1,40 @@
+{
+  "id": "C61",
+  "endpoint": "on_page/content_parsing/live",
+  "who": "beginner_blogger",
+  "slow_search": false,
+  "inputs": [
+    {
+      "id": "url",
+      "param": "url",
+      "label": "c61.url"
+    }
+  ],
+  "result": {
+    "items": [
+      "result.0.items.0.page_content.main_topic",
+      "result.0.items.0.page_content.secondary_topic"
+    ],
+    "where": {},
+    "columns": [
+      {
+        "key": "level",
+        "label": "c61.col.level",
+        "from": "level",
+        "transform": "hlevel"
+      },
+      {
+        "key": "heading",
+        "label": "c61.col.heading",
+        "from": "h_title"
+      },
+      {
+        "key": "body",
+        "label": "c61.col.body",
+        "from": "primary_content",
+        "transform": "texts"
+      }
+    ]
+  },
+  "csv": "C61.csv"
+}

@@ -58,8 +58,28 @@ const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<
 export function renderTable(el, cols, rows) {
   if (!rows.length) { el.innerHTML = `<p>${t('ui.empty')}</p>`; return; }
   el.innerHTML = `<div class="scroll"><table><thead><tr>${cols.map((c) => `<th>${c.label}</th>`).join('')}</tr></thead><tbody>${rows
-    .map((r) => `<tr>${cols.map((c) => `<td>${c.type === 'image' && r[c.key] ? `<img src="${esc(r[c.key])}" alt="" loading="lazy" referrerpolicy="no-referrer" class="thumb">` : c.link && r[c.key] ? `<a href="${esc(r[c.key])}" target="_blank" rel="noopener">${esc(r[c.key])}</a>` : esc(r[c.key])}</td>`).join('')}</tr>`)
+    .map((r) => `<tr>${cols.map((c) => `<td>${c.type === 'image_auth' && r[c.key] ? `<a href="${esc(r[c.key])}" target="_blank" rel="noopener">${esc(r[c.key])}</a><br><img data-auth-src="${esc(r[c.key])}" alt="" class="shot">` : c.type === 'image' && r[c.key] ? `<img src="${esc(r[c.key])}" alt="" loading="lazy" referrerpolicy="no-referrer" class="thumb">` : c.link && r[c.key] ? `<a href="${esc(r[c.key])}" target="_blank" rel="noopener">${esc(r[c.key])}</a>` : esc(r[c.key])}</td>`).join('')}</tr>`)
     .join('')}</tbody></table></div>`;
+}
+
+// DataForSEO の画像（スクショ）は、キーを付けて取りに行く。取れなければ、リンクだけが残る
+export async function loadAuthImages(el) {
+  const c = getCreds();
+  for (const img of el.querySelectorAll('img[data-auth-src]')) {
+    const u = img.dataset.authSrc;
+    const viaFetch = async () => { // 直接開けないときは、キーを付けて取りに行く
+      try {
+        const h = u.startsWith('https://api.dataforseo.com/') && c ? { Authorization: 'Basic ' + btoa(c.login + ':' + c.password) } : {};
+        const res = await fetch(u, { headers: h });
+        if (!res.ok) throw 0;
+        img.onerror = () => img.remove();
+        img.src = URL.createObjectURL(await res.blob());
+      } catch { img.remove(); }
+    };
+    img.onerror = viaFetch;
+    img.referrerPolicy = 'no-referrer';
+    img.src = u;
+  }
 }
 
 export function downloadCsv(name, cols, rows) {
