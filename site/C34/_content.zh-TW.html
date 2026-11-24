@@ -6,8 +6,8 @@
 <tbody>
 <tr class="me"><td>本工具（DataForSEO）</td><td>每次呼叫計費。每次約 $0.024（100 筆，實測）</td><td>由網域列出 100 筆相關關鍵字，附搜尋量與難度。可存成 CSV</td></tr>
 <tr><td>Google Search Console</td><td>免費（僅限自己的網站）</td><td>查看自己的網站實際以哪些搜尋詞出現。看不到別人的網站</td></tr>
-<tr><td>Ahrefs Site Explorer</td><td>Ahrefs Free（僅限自己的網站）；付費 Starter $29/月（月繳，官網未標示通貨碼，請至官網確認）</td><td>查出網站取得排名的關鍵字，也能查別人的網站</td></tr>
-<tr><td>Semrush Organic Research</td><td>Free $0（有使用限制）；SEO 方案 $139/月（月繳）、年繳換算約 $117.33/月（官網未標示通貨碼，請至官網確認）</td><td>查詢網站在搜尋中出現的關鍵字（功能請至官網確認）</td></tr>
+<tr><td>Ahrefs Site Explorer</td><td>Ahrefs Free（僅限自己的網站）；付費 Starter $29/月（月繳，官網未標示幣別，請至官網確認）</td><td>查出網站取得排名的關鍵字，也能查別人的網站</td></tr>
+<tr><td>Semrush Organic Research</td><td>Free $0（有使用限制）；SEO 方案 $139/月（月繳）、年繳換算約 $117.33/月（官網未標示幣別，請至官網確認）</td><td>查詢網站在搜尋中出現的關鍵字（功能請至官網確認）</td></tr>
 <tr><td>Ubersuggest</td><td>Individual $29/月、$192/年（USD，官網表示會依地區調整價格）；月繳方案有 7 天免費試用</td><td>網站分析與關鍵字建議</td></tr>
 </tbody></table></div>
 <p class="asof">以上為 2026年11月時點的整理。價格與方案會調整，申請前請至各家官網確認。</p>
@@ -16,7 +16,7 @@
 <ul>
 <li><strong>別人的網站網域也能查。</strong>可以輸入想參考的部落格網域看看。</li>
 <li><strong>100 筆約 $0.024。</strong>$1 約可查 40 次。</li>
-<li><strong>幾秒內回應。</strong>畫面上實測約 4～10 秒。</li>
+<li><strong>幾秒內回應。</strong>台灣範例實測約 3 秒，慢時可能需 10 秒左右。</li>
 <li><strong>附搜尋量。</strong>可依搜尋量排序候選詞。</li>
 <li><strong>可存成 CSV。</strong></li>
 </ul>
@@ -24,15 +24,15 @@
 <h2>不適合的情境</h2>
 <ul>
 <li><strong>想知道網站實際的排名</strong>：這些是 API 回傳的「與網站相關」的候選，無法判斷是否為排名。</li>
-<li><strong>想看超過 100 筆</strong>：上限為 100 筆。suumo.jp 的總數約有 1200 萬筆（日本網站）。</li>
-<li><strong>想要難度欄位完整的表格</strong>：難度空白的列，依 DataForSEO 的說明，是因為「計算難度需要搜尋結果（SERP）的資料，只有資料庫中有的關鍵字才會顯示」。實測 100 列中有 88 列是空的；空白列的搜尋量中位數為 20，有數值的列為 390，空白多半落在搜尋量較低的字詞。</li>
-<li>該網站特有的公司名稱、物件名稱等字詞也會大量混入（以 suumo.jp 為例）。</li>
+<li><strong>想看超過 100 筆</strong>：上限為 100 筆。台灣範例 momoshop.com.tw 的總數約有 130 萬筆（1,304,094 筆；日本網站 suumo.jp 約 1200 萬筆）。</li>
+<li><strong>想要難度欄位完整的表格</strong>：難度空白的列，依 DataForSEO 的說明，是因為「計算難度需要搜尋結果（SERP）的資料，只有資料庫中有的關鍵字才會顯示」。台灣範例（momoshop.com.tw）保留的 30 列中有 26 列是空的；空白列的搜尋量中位數為 10，有數值的列為 115，空白多半落在搜尋量較低的字詞（日本網站 suumo.jp 的實測為 100 列中 88 列空白，傾向相同）。</li>
+<li>該網站特有的品牌名稱、商品名稱等字詞也會大量混入（以 momoshop.com.tw 為例，如「momo sodastream」「momo 飲料」）。</li>
 <li><strong>台灣網站</strong>：實測（2026-11-24）momoshop.com.tw、pchome.com.tw 都能取得結果。</li>
 </ul>
 <p>本工具專注在一件事：取得「與這個網域相關的 100 筆關鍵字，並附搜尋量與難度」。</p>
 
 <h2>常見問題</h2>
-<details><summary>為什麼有很多列的難度是空白？</summary><p>依 DataForSEO 的說明，計算難度需要搜尋結果（SERP）的資料，所以只有資料庫中有的關鍵字才會顯示。實測 100 列中有 88 列是空的；空白列的搜尋量中位數為 20，有數值的列為 390，空白多半落在搜尋量較低的字詞。</p></details>
+<details><summary>為什麼有很多列的難度是空白？</summary><p>依 DataForSEO 的說明，計算難度需要搜尋結果（SERP）的資料，所以只有資料庫中有的關鍵字才會顯示。台灣範例（momoshop.com.tw）保留的 30 列中有 26 列是空的；空白列的搜尋量中位數為 10，有數值的列為 115，空白多半落在搜尋量較低的字詞（日本網站 suumo.jp 的實測為 100 列中 88 列空白，傾向相同）。</p></details>
 <details><summary>這是排名較高的關鍵字清單嗎？</summary><p>不是。這是 API 回傳的「與網站相關」的候選，並不是網站的排名。</p></details>
 <details><summary>為什麼上限是 100 筆？</summary><p>因為本工具每次固定取 100 筆。100 筆的費用實測為 $0.024。</p></details>
 <details><summary>國家與語言會影響什麼？</summary><p>決定查詢哪個市場的數字。選擇台灣、繁體中文，就是台灣市場的搜尋量。</p></details>

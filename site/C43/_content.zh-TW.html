@@ -14,25 +14,25 @@
 <h2>本工具的優點</h2>
 <ul>
 <li><strong>不需要輸入。</strong>完全沒頭緒的時候，可以當作起點。</li>
-<li><strong>看得出搜尋量的量級。</strong>第 1 名日文的「天気」（天氣），每月搜尋量為 6,800 萬（實測，日本）。</li>
+<li><strong>看得出搜尋量的量級。</strong>第 1 名是英文的「restaurant」，每月搜尋量為 1,360 萬；「天氣」「youtube」為 914 萬（實測，台灣、繁體中文）。</li>
 <li><strong>每次約 $0.024。</strong>$1 約可查 40 次。</li>
-<li><strong>約 2 秒回傳。</strong></li>
+<li><strong>數秒內回傳。</strong>台灣範例實測不到 1 秒。</li>
 <li><strong>可存成 CSV。</strong></li>
 </ul>
 
 <h2>不適合的情境</h2>
 <ul>
-<li><strong>想知道現在的話題詞</strong> → 這不是「時事熱門」榜單。排在上面的，是長期搜尋量很高的詞（例如「天気」「youtube」）。</li>
-<li><strong>想找值得寫的主題</strong> → 像「天気」「youtube」這種詞，對文章主題來說太廣了，榜上這類詞很多。</li>
-<li><strong>被拼錯的詞干擾</strong> → 「yo0utube」「youtub3」「ytb」這類輸入錯誤的詞也會排在前面（實測）。本工具不做篩選。</li>
-<li><strong>需要超過 100 個詞</strong> → 上限為 100 個詞（總數為 3.4 億個詞）。</li>
+<li><strong>想知道現在的話題詞</strong> → 這不是「時事熱門」榜單。排在上面的，是長期搜尋量很高的詞（例如「天氣」「youtube」）。</li>
+<li><strong>想找值得寫的主題</strong> → 像「天氣」「youtube」「餐廳」這種詞，對文章主題來說太廣了，榜上這類詞很多。</li>
+<li><strong>被拼錯的詞干擾</strong> → 「utube」「chatgat」「chapt gpt」這類輸入錯誤的詞也會排在前面（實測，台灣範例）。本工具不做篩選。</li>
+<li><strong>需要超過 100 個詞</strong> → 上限為 100 個詞（台灣範例的總數約 6,200 萬個詞；日本關鍵字的實測為 3.4 億個詞）。</li>
 </ul>
 <p>本工具只專注在一件事：原樣呈現搜尋量最高的前 100 個詞。</p>
 
 <h2>常見問題</h2>
-<details><summary>每次出現的詞都一樣嗎？</summary><p>因為是依搜尋量由高到低的前段名單，不會有太大變化。範例中也是「天気」排在第一。</p></details>
-<details><summary>為什麼會有「yo0utube」這種詞？</summary><p>因為本工具原樣呈現 API 回傳的值，原因本工具無從得知，也沒有做篩選。</p></details>
-<details><summary>國家與語言會影響什麼？</summary><p>它決定查詢數據的市場。選擇日本、日文，就會是日本搜尋量的前段名單。</p></details>
+<details><summary>每次出現的詞都一樣嗎？</summary><p>因為是依搜尋量由高到低的前段名單，不會有太大變化。台灣範例中是「restaurant」排在第一。</p></details>
+<details><summary>為什麼會有「utube」「chatgat」這種詞？</summary><p>因為本工具原樣呈現 API 回傳的值，原因本工具無從得知，也沒有做篩選。</p></details>
+<details><summary>國家與語言會影響什麼？</summary><p>它決定查詢數據的市場。選擇台灣、繁體中文，就會是台灣搜尋量的前段名單。</p></details>
 <details><summary>為什麼沒有輸入欄？</summary><p>因為這個 API 不接受指定詞彙，只依國家與語言運作。</p></details>
 <details><summary>可以用免費信箱註冊嗎？</summary><p>不行。DataForSEO 不接受免費信箱。詳情請見<a href="/dfs-zh-TW.html">什麼是 DataForSEO？</a>。</p></details>
 </section>

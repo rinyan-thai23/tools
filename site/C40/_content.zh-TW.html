@@ -5,8 +5,8 @@
 <thead><tr><th>方法、工具</th><th>費用方式</th><th>特色</th></tr></thead>
 <tbody>
 <tr class="me"><td>本工具（DataForSEO）</td><td>按次計費。每次約 $0.012（實測）</td><td>一個關鍵字的搜尋量、CPC、難度、搜尋意圖放在同一列，可存成 CSV</td></tr>
-<tr><td>Semrush Keyword Overview</td><td>Free $0（有使用限制）；SEO 方案 $139/月（月繳）、年繳換算約 $117.33/月（官網未標示通貨碼，請至官網確認）</td><td>搜尋量、難度（KD%）、搜尋意圖、CPC 顯示在同一個畫面（Semrush 說明文件）</td></tr>
-<tr><td>Ahrefs Keywords Explorer</td><td>Ahrefs Free（僅限自己的網站）；付費 Starter $29/月（月繳，官網未標示通貨碼，請至官網確認）</td><td>搜尋量、難度等關鍵字概況</td></tr>
+<tr><td>Semrush Keyword Overview</td><td>Free $0（有使用限制）；SEO 方案 $139/月（月繳）、年繳換算約 $117.33/月（官網未標示幣別，請至官網確認）</td><td>搜尋量、難度（KD%）、搜尋意圖、CPC 顯示在同一個畫面（Semrush 說明文件）</td></tr>
+<tr><td>Ahrefs Keywords Explorer</td><td>Ahrefs Free（僅限自己的網站）；付費 Starter $29/月（月繳，官網未標示幣別，請至官網確認）</td><td>搜尋量、難度等關鍵字概況</td></tr>
 <tr><td>Google 關鍵字規劃工具</td><td>需要 Google Ads 帳戶並填寫帳單資料（是否收費請至官網確認）</td><td>搜尋量與 CPC 的參考值（是否有難度、搜尋意圖，請至官網確認）</td></tr>
 </tbody></table></div>
 <p class="asof">2026年11月時點的調查。費用可能調整，申請前請至各家官方網站確認。</p>
@@ -15,7 +15,7 @@
 <ul>
 <li><strong>四項數字一列看完。</strong>搜尋量、CPC、難度、搜尋意圖。</li>
 <li><strong>每次約 $0.012。</strong>$1 約可查 80 次。</li>
-<li><strong>幾秒內回傳。</strong>畫面上實測約 1 秒。</li>
+<li><strong>幾秒內回傳。</strong>台灣範例實測不到 1 秒。</li>
 <li><strong>搜尋意圖是中文。</strong></li>
 <li><strong>可存成 CSV。</strong></li>
 </ul>
@@ -24,9 +24,9 @@
 <ul>
 <li><strong>想把多個關鍵字並排比較</strong> → 本工具一次只查一個詞。多個詞請用「查看搜尋量」或「查看關鍵字難度」。</li>
 <li><strong>CPC</strong> 的單位是美元，不會換算成新台幣。</li>
-<li><strong>有些關鍵字的難度是空的</strong> → 難度欄位為空的列，依 DataForSEO 的說明，是因為計算難度需要搜尋結果（SERP）的資料，只有該資料庫收錄的關鍵字才會顯示難度。這次輸入的 1 個詞有數值。在別的查詢中難度為空的詞，改用另一個 API 重新輸入，結果同樣是空的（實測）。</li>
+<li><strong>有些關鍵字的難度是空的</strong> → 難度欄位為空的列，依 DataForSEO 的說明，是因為計算難度需要搜尋結果（SERP）的資料，只有該資料庫收錄的關鍵字才會顯示難度。範例輸入的「旅遊」有數值。日本關鍵字測試時，在別的查詢中難度為空的詞，改用另一個 API 重新輸入，結果同樣是空的（日本關鍵字的實測）。</li>
 <li>不會顯示 12 個月的變化。要看趨勢請用「查看過去每月搜尋量」。</li>
-<li><strong>搜尋量的意義</strong> → 表格中的每月搜尋量，接近最近 12 個月的平均值（實測：5,400；各月數值的平均約 5,125），與最新一個月的數字不同。</li>
+<li><strong>搜尋量的意義</strong> → 表格中的每月搜尋量，接近最近 12 個月的平均值（台灣範例「旅遊」：表格為 60,500；最近 12 個月各月數值的平均約 58,900；最新一個月為 110,000），與最新一個月的數字不同。</li>
 <li><strong>台灣市場的資料</strong>：實測（2026-11-24，台灣、繁體中文）「部落格 架設教學」「部落格」「台北 美食」沒有搜尋量資料，結果為空（仍可能計費）；「咖啡」（約 150 萬）、「旅遊」（約 6.1 萬）、「蝦皮」、「iphone 16」、「聯盟行銷」（約 1,300）、「斜槓」（約 1,900）則有資料。台灣用語可能查不到資料，建議先用較通用的詞試試。</li>
 </ul>
 <p>本工具只專注在一件事：用一列看一個關鍵字的搜尋量、CPC、難度、搜尋意圖。</p>
@@ -34,7 +34,7 @@
 <h2>常見問題</h2>
 <details><summary>搜尋意圖只會顯示一種嗎？</summary><p>只顯示主要的一種。即使是混合多種意圖的詞，也是顯示最強的那一種。</p></details>
 <details><summary>CPC 的單位是什麼？</summary><p>美元。是每次點擊的參考金額。</p></details>
-<details><summary>為什麼難度會是空的？</summary><p>難度欄位為空的列，依 DataForSEO 的說明，是因為計算難度需要搜尋結果（SERP）的資料，只有該資料庫收錄的關鍵字才會顯示難度。這次輸入的 1 個詞有數值。在別的查詢中難度為空的詞，改用另一個 API 重新輸入，結果同樣是空的（實測）。</p></details>
-<details><summary>國家與語言會影響什麼？</summary><p>它決定查詢數據的市場。選擇日本、日文，就會是日本的數字。</p></details>
+<details><summary>為什麼難度會是空的？</summary><p>難度欄位為空的列，依 DataForSEO 的說明，是因為計算難度需要搜尋結果（SERP）的資料，只有該資料庫收錄的關鍵字才會顯示難度。範例輸入的「旅遊」有數值。日本關鍵字測試時，在別的查詢中難度為空的詞，改用另一個 API 重新輸入，結果同樣是空的（日本關鍵字的實測）。</p></details>
+<details><summary>國家與語言會影響什麼？</summary><p>它決定查詢數據的市場。選擇台灣、繁體中文，就會是台灣的數字。</p></details>
 <details><summary>可以用免費信箱註冊嗎？</summary><p>不行。DataForSEO 不接受免費信箱。詳情請見<a href="/dfs-zh-TW.html">什麼是 DataForSEO？</a>。</p></details>
 </section>
