@@ -39,3 +39,4 @@
 2026-11-25 21:00	C24 大量対応(1000語ごとに自動分割・上限5000語)	-	-	-	-	-	API費用 $0.18(画面から1,200語＝2回の実測)。本体のみ(subagentなし)
 2026-11-25 22:00	英語版SEOタイトル用キーワード調査(米国)	-	-	-	-	-	API費用$0.09(488語の月間検索数を1回で取得)。結果は 2026_11/seo/keyword_volumes_en.tsv
 2026-11-25 23:00	繁體中文SEOタイトル用キーワード調査(台湾)	-	-	-	-	-	API費用$0.09。結果は 2026_11/seo/keyword_volumes_zh-TW.tsv
+2026-11-25	zh-TW SEO titles/descriptions (51)	API $0.09 (keyword volumes); subagents 0
