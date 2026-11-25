@@ -1,0 +1,331 @@
+tool	keyword	monthly_searches_tw	competition	cpc_usd
+C01	搜尋排名 查詢	10	LOW	
+C01	關鍵字排名查詢	10	HIGH	0.76
+C01	google 排名查詢	10	LOW	
+C01	SERP 分析	10	MEDIUM	0.1
+C01	排名查詢工具			
+C01	關鍵字排名 工具	10	MEDIUM	
+C01	搜尋結果 前十名			
+C01	SEO 排名 檢查			
+C02	google ai 模式	3600	LOW	0.25
+C02	AI 模式	49500	LOW	0.38
+C02	ai 搜尋 優化	70	MEDIUM	4.02
+C02	GEO 優化	210	MEDIUM	5.01
+C02	LLM SEO	10	MEDIUM	
+C02	ai overview 引用			
+C02	生成式引擎優化	50	MEDIUM	4.29
+C02	AI 搜尋 引用			
+C03	google 地圖 排名	10	LOW	
+C03	在地 SEO			
+C03	google 地圖 SEO			
+C03	google 商家 排名	10	MEDIUM	
+C03	地圖 排名 查詢			
+C03	在地搜尋 排名			
+C03	google map 排名			
+C03	商家 排名 查詢			
+C04	在地商家 排名			
+C04	google 地圖 在地套件			
+C04	local pack	10	LOW	
+C04	google 地圖 更多地點			
+C04	在地 SEO 競爭對手			
+C04	地圖 搜尋結果			
+C05	google 新聞 搜尋	10	LOW	
+C05	新聞 監測	10	LOW	
+C05	輿情 監測	50	LOW	2.19
+C05	新聞 搜尋 工具			
+C05	公司 新聞 追蹤			
+C05	google news	40500	LOW	2.15
+C07	圖片 SEO	10	LOW	2.57
+C07	縮圖 靈感			
+C07	封面 設計 參考			
+C07	電子書 封面 設計			
+C07	google 圖片 搜尋	4400	LOW	2.12
+C07	圖片 搜尋 排名			
+C07	youtube 縮圖 設計	10	LOW	
+C07	書封 設計	110	LOW	6.11
+C08	google 搜尋 建議	20	LOW	
+C08	關鍵字 建議	10	MEDIUM	
+C08	搜尋 建議 關鍵字			
+C08	自動完成 關鍵字			
+C08	google 相關搜尋	10	LOW	
+C08	關鍵字 聯想			
+C09	google dataset search	110	LOW	2.12
+C09	開放資料	320	LOW	
+C09	公開資料集	40	LOW	
+C09	統計 資料 查詢	10	LOW	
+C09	政府 開放資料	390	LOW	
+C09	資料集 搜尋			
+C10	google 廣告透明度中心	50	LOW	
+C10	廣告 透明度			
+C10	競爭對手 廣告			
+C10	google 廣告主 查詢			
+C10	ads transparency center	20	LOW	
+C10	廣告主 查詢			
+C11	競爭對手 廣告			
+C11	google 廣告 競品			
+C11	廣告 範例	20	LOW	
+C11	看 競爭對手 廣告			
+C11	google 廣告 文案	10	LOW	
+C11	廣告 偵測			
+C14	youtube seo	50	LOW	2.49
+C14	youtube 排名	70	LOW	
+C14	youtube 關鍵字	50	LOW	0.79
+C14	youtube 搜尋 結果	10		
+C14	youtube 競爭對手 分析			
+C14	youtube 優化	10	LOW	
+C14	youtube 排名 查詢	30	LOW	
+C18	chatgpt 推薦	40	LOW	0.58
+C18	chatgpt seo	20	MEDIUM	4.25
+C18	chatgpt 排名	10	LOW	
+C18	ai 搜尋 優化	70	MEDIUM	4.02
+C18	geo 優化	210	MEDIUM	5.01
+C18	生成式 引擎 優化	50	MEDIUM	4.29
+C18	ai 可見度			
+C18	品牌 ai 提及			
+C19	claude 與 chatgpt 差異	30	LOW	
+C19	claude ai	74000	LOW	1.49
+C19	claude 搜尋	10	LOW	
+C19	claude 回答			
+C19	claude 評價	210	LOW	0.98
+C19	claude vs chatgpt	480	LOW	0.03
+C20	gemini 與 chatgpt 差異	30	LOW	
+C20	gemini ai	301000	LOW	0.22
+C20	gemini 搜尋	40	LOW	
+C20	gemini 回答	10	LOW	
+C20	gemini vs chatgpt	1000	LOW	0.01
+C20	gemini 推薦	30	LOW	
+C21	perplexity	135000	LOW	1.02
+C21	perplexity 引用			
+C21	perplexity seo	10	LOW	
+C21	perplexity 與 chatgpt	10	LOW	
+C21	perplexity 來源			
+C21	perplexity 搜尋	10	LOW	
+C22	chatgpt 購物	30	LOW	
+C22	chatgpt 搜尋	20	LOW	0.02
+C22	chatgpt 商品 推薦			
+C22	ai 購物	50	LOW	
+C22	chatgpt 搜尋 優化			
+C22	chatgpt 購物 seo			
+C23	ai 搜尋量			
+C23	chatgpt 搜尋量			
+C23	ai 關鍵字	90	LOW	
+C23	ai 搜尋 趨勢			
+C23	ai 搜尋 關鍵字 研究			
+C24	關鍵字 搜尋量	90	LOW	1.19
+C24	搜尋量 查詢	20	LOW	
+C24	關鍵字規劃工具 替代			
+C24	關鍵字 搜尋量 查詢	50	LOW	2.9
+C24	google 搜尋量	40	LOW	
+C24	批次 關鍵字 搜尋量			
+C24	搜尋量 工具			
+C24	免費 搜尋量 查詢			
+C25	競爭對手 關鍵字			
+C25	網站 關鍵字	20	MEDIUM	6.38
+C25	網站 關鍵字 分析	10	MEDIUM	
+C25	關鍵字 研究 網站			
+C25	網址 關鍵字			
+C25	競品 關鍵字	10	MEDIUM	
+C26	關鍵字規劃工具	590	LOW	1.87
+C26	google 關鍵字規劃工具	320	LOW	2.49
+C26	關鍵字 建議	10	MEDIUM	
+C26	相關 關鍵字	10	LOW	
+C26	廣告 關鍵字	10	MEDIUM	55.12
+C26	關鍵字 規劃師	10	MEDIUM	3.78
+C26	關鍵字 廣告 選擇			
+C29	google 趨勢	1300	LOW	0.48
+C29	google trends	22200	LOW	0.72
+C29	關鍵字 趨勢	40	LOW	
+C29	搜尋 趨勢	390	LOW	
+C29	google 趨勢 比較			
+C29	熱門 搜尋	210	LOW	
+C29	季節 關鍵字			
+C29	google trends 比較	10	LOW	
+C33	各國 搜尋量			
+C33	國際 關鍵字			
+C33	海外 關鍵字 研究			
+C33	國家 搜尋量			
+C33	跨國 seo 關鍵字			
+C33	國際 seo	10	LOW	
+C34	關鍵字 研究	20	LOW	
+C34	關鍵字 研究 工具	10	LOW	
+C34	網站 關鍵字 研究			
+C34	seo 關鍵字	480	LOW	3.72
+C34	關鍵字 規劃	30	MEDIUM	5.22
+C34	部落格 關鍵字			
+C34	網域 關鍵字			
+C35	相關 關鍵字	10	LOW	
+C35	相關搜尋	20	LOW	7.63
+C35	關鍵字 擴展			
+C35	關鍵字 聯想			
+C35	語意 關鍵字			
+C35	相關 關鍵字 工具			
+C36	長尾 關鍵字	260	LOW	
+C36	長尾 關鍵字 研究			
+C36	長尾 關鍵字 工具	10		
+C36	長尾 關鍵字 怎麼找	10	LOW	
+C36	關鍵字 組合			
+C36	複合 關鍵字			
+C37	關鍵字 產生器	20	LOW	
+C37	關鍵字 靈感			
+C37	同義 關鍵字			
+C37	關鍵字 建議 工具	110	LOW	
+C37	關鍵字 發想			
+C37	類似 關鍵字			
+C38	關鍵字 難度			
+C38	關鍵字 難度 查詢			
+C38	seo 關鍵字 難度			
+C38	關鍵字 競爭度			
+C38	關鍵字 難度 工具			
+C38	免費 關鍵字 難度			
+C39	搜尋意圖	90	LOW	
+C39	搜尋意圖 分析			
+C39	搜尋意圖 分類			
+C39	關鍵字 意圖			
+C39	搜尋意圖 類型			
+C39	商業意圖 關鍵字			
+C40	關鍵字 分析	50	LOW	3.24
+C40	關鍵字 分析 工具	20	MEDIUM	3.88
+C40	關鍵字 數據	10		
+C40	關鍵字 cpc			
+C40	關鍵字 研究 免費			
+C40	關鍵字 概覽			
+C41	歷史 搜尋量			
+C41	搜尋量 趨勢			
+C41	關鍵字 季節性			
+C41	每月 搜尋量			
+C41	過去 搜尋量			
+C41	關鍵字 歷史 數據			
+C42	網站 分類	10	LOW	
+C42	競爭對手 分析	20	LOW	
+C42	網域 分類			
+C42	網站 領域			
+C42	競爭對手 強項			
+C42	網站 主題 分析			
+C43	熱門 搜尋	210	LOW	
+C43	熱門 關鍵字	260	LOW	3.48
+C43	搜尋 排行	70	LOW	
+C43	熱搜 排行榜	170	LOW	
+C43	最多 人 搜尋	10	LOW	
+C43	熱門 搜尋 關鍵字	50	LOW	
+C43	google 熱搜	720	LOW	0.02
+C44	seo 競爭對手 分析			
+C44	競爭對手 網站 分析			
+C44	seo 競爭對手			
+C44	競品 網站 分析			
+C44	找 競爭對手			
+C44	關鍵字 競爭對手			
+C45	網站 排名 關鍵字			
+C45	競爭對手 關鍵字 排名			
+C45	網站 關鍵字 查詢			
+C45	網域 排名 關鍵字			
+C45	查 網站 關鍵字			
+C45	競品 關鍵字 排名			
+C46	競爭對手 網站			
+C46	找 競爭對手			
+C46	類似 網站	10	LOW	
+C46	競爭對手 分析 工具			
+C46	網站 競爭對手 分析			
+C46	競品 網站			
+C47	關鍵字 差距			
+C47	內容 差距			
+C47	內容 差距 分析			
+C47	關鍵字 差距 分析			
+C47	競品 關鍵字 比較			
+C47	共同 關鍵字			
+C48	熱門 頁面			
+C48	網站 熱門 文章			
+C48	競爭對手 熱門 頁面			
+C48	頁面 流量 估算			
+C48	網站 熱門 頁面 流量			
+C48	最佳 頁面			
+C49	網站 流量 查詢	210	LOW	2.06
+C49	查 網站 流量	30	LOW	2.5
+C49	網站 流量 估算			
+C49	競爭對手 流量			
+C49	網站 流量 工具	10	LOW	
+C49	網站 流量 檢查			
+C49	similarweb 替代			
+C50	搜尋結果 歷史			
+C50	serp 歷史			
+C50	排名 歷史			
+C50	搜尋 排名 變化			
+C50	過去 搜尋結果			
+C50	排名 變動			
+C51	網站 流量 趨勢			
+C51	網站 流量 歷史			
+C51	流量 成長			
+C51	競爭對手 流量 趨勢			
+C51	有機 流量 趨勢			
+C51	網站 成長			
+C52	兩個 頁面 關鍵字 比較			
+C52	頁面 關鍵字			
+C52	網址 關鍵字 比較			
+C52	內容 差距 頁面			
+C52	文章 關鍵字 比較			
+C52	共同 關鍵字 文章			
+C53	多個 網站 流量			
+C53	網站 流量 比較	10	LOW	
+C53	批次 網站 流量			
+C53	比較 網站 流量			
+C53	網域 流量 比較			
+C53	多網站 流量 查詢			
+C60	seo 檢查	20	MEDIUM	2.24
+C60	seo 檢測	40	MEDIUM	3.15
+C60	網頁 seo 檢查			
+C60	網站 seo 診斷			
+C60	seo 檢測 工具	50	MEDIUM	2.79
+C60	免費 seo 檢查			
+C60	網站 診斷			
+C61	擷取 標題			
+C61	h1 h2 檢查			
+C61	網頁 標題 擷取			
+C61	文章 大綱 擷取			
+C61	競爭對手 文章 結構			
+C61	標題 結構 分析			
+C62	lighthouse	2400	LOW	4.97
+C62	pagespeed	880	LOW	2.05
+C62	網站 速度 測試	170	LOW	1.33
+C62	網頁 速度 測試	40	LOW	
+C62	網站 載入 速度	10	LOW	
+C62	core web vitals	140	LOW	2.11
+C62	lighthouse 分數			
+C62	網頁 效能 檢測			
+C63	網頁 截圖	1300	LOW	0.09
+C63	整頁 截圖	720	LOW	
+C63	網站 截圖	50	LOW	
+C63	網頁 擷圖	10	LOW	
+C63	長截圖 網頁	20	LOW	
+C63	網頁 全頁 截圖	40	LOW	
+C65	社群 聆聽	10	LOW	
+C65	社群 監測	10	MEDIUM	
+C65	輿情 分析	260	LOW	1.71
+C65	品牌 監測			
+C65	品牌 聲量	20	LOW	3.35
+C65	網路 聲量	480	LOW	1.76
+C65	輿情 監控	30	LOW	2.16
+C66	情緒 分析	50	LOW	
+C66	情感 分析	50	LOW	1
+C66	情緒 分析 工具	10	LOW	
+C66	正負面 分析			
+C66	品牌 情緒			
+C66	網路 輿情 情緒			
+C67	聲量 趨勢	10	LOW	
+C67	品牌 聲量 趨勢			
+C67	聲量 變化			
+C67	網路 聲量	480	LOW	1.76
+C67	提及 趨勢			
+C67	討論 度 趨勢			
+C74	網站 技術 查詢			
+C74	網站 用什麼 做的			
+C74	網站 cms 查詢			
+C74	wappalyzer	590	LOW	3.12
+C74	builtwith	390	LOW	
+C74	網站 技術 檢測			
+C74	網站 架設 平台 查詢	10		
+C76	whois 查詢	880	LOW	0.96
+C76	網域 查詢	1600	MEDIUM	0.84
+C76	網域 註冊 日期			
+C76	網域 到期日			
+C76	網域 年齡			
+C76	whois	14800	LOW	1.01
+C76	網域 註冊商	40	MEDIUM	1.9
