@@ -90,7 +90,7 @@ a3=f'''<p>GoogleのAIモードは、どのサイトを引用しているので�
 
 <h2>引用の回数（上位10ドメイン）</h2>
 <div class="scroll"><table class="data"><thead><tr><th>ドメイン</th><th>引用された回数</th><th>引用された質問の数</th></tr></thead><tbody>{toprows}</tbody></table></div>
-<p class="note">google.comは、「渋谷 ランチ」などの質問で、Googleの検索結果ビューア（searchviewer）のURLが引用されたものです。youtube.comは、動画やショートのURLです。</p>
+<p class="note">google.comは、「渋谷 ランチ」「新宿 美容院」「日経平均」の3問で出ました。9件のうち8件は、Googleの検索結果ビューア（searchviewer）のURLです。youtube.comは、動画やショートのURLです。</p>
 
 <h2>全データ：全ドメイン（{S["uniq_dom"]}種類）</h2>
 <p><a href="/articles/data/c02-domains-2026-11-25.csv" download>CSVでダウンロード</a></p>
