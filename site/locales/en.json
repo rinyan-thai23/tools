@@ -1,6 +1,6 @@
 {
   "site.title": "DataForSEO single-purpose tools",
-  "site.lead": "Enter your key once and use it in every tool. The key is stored only in this browser.",
+  "site.lead": "BYOK (bring your own key): enter your DataForSEO API key once and use it in every tool. The key is stored only in this browser.",
   "site.tools": "Tools",
   "key.title": "API key",
   "key.set": "API key active",
@@ -64,8 +64,8 @@
   "who.inbound": "For inbound and overseas-facing creators",
   "who.app_dev": "For indie app developers",
   "who.youtuber": "For aspiring YouTubers",
-  "site.index_title": "DataForSEO single-purpose tools | Try SEO and search data one feature at a time",
-  "site.index_meta": "Use DataForSEO API features one at a time on screen: search rankings, maps, news and more. Pay only for what you use, with a free sample.",
+  "site.index_title": "DataForSEO tools (BYOK) | SEO and search data, one feature at a time",
+  "site.index_meta": "Use DataForSEO API features one at a time on screen. BYOK (bring your own key): search rankings, keyword research, maps, news and more. Pay only for what you use, with a free sample.",
   "c02.name": "See Google AI Mode's answer",
   "c02.desc": "Check whether your article is cited in AI Mode",
   "c02.price": "Approx. cost: $0.004 per request (about 250 per $1). The sample view is free.",

@@ -1,6 +1,6 @@
 {
   "site.title": "DataForSEO 1機能ツール集",
-  "site.lead": "キーを1回入れれば、全ツールで使えます。キーはこのブラウザの中だけに保存されます。",
+  "site.lead": "BYOK（Bring Your Own Key＝自分のAPIキーを持ち込む方式）です。キーを1回入れれば、全ツールで使えます。キーはこのブラウザの中だけに保存されます。",
   "site.tools": "ツール一覧",
   "key.title": "APIキー",
   "key.set": "APIキー入力済み",
@@ -64,8 +64,8 @@
   "who.inbound": "インバウンド・海外向け発信者向け",
   "who.app_dev": "個人のアプリ開発者向け",
   "who.youtuber": "YouTuber志望の方向け",
-  "site.index_title": "DataForSEO 1機能ツール集｜SEO・検索データを1つずつ試せる",
-  "site.index_meta": "DataForSEOのAPIを、1機能ずつ画面で使えるツール集。検索順位、地図、ニュースなどを、必要な分だけ従量課金で。無料サンプルつき。",
+  "site.index_title": "DataForSEO 1機能ツール集（BYOK）｜自分のAPIキーでSEO・検索データを1つずつ試せる",
+  "site.index_meta": "DataForSEOのAPIを、1機能ずつ画面で使えるツール集。BYOK（自分のAPIキーを持ち込む方式）で、検索順位、キーワード調査、地図、ニュースなどを、必要な分だけ従量課金で。無料サンプルつき。",
   "c02.name": "GoogleのAIモードの答えを見る",
   "c02.desc": "自分の記事がAIモードに引用されているか見る",
   "c02.price": "料金の目安：1回 約$0.004（$1で約250回）。サンプル表示は無料です。",

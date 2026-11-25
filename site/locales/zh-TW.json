@@ -1,6 +1,6 @@
 {
   "site.title": "DataForSEO 單一功能工具集",
-  "site.lead": "只要輸入一次金鑰，就能在所有工具使用。金鑰只會儲存在這個瀏覽器中。",
+  "site.lead": "採用 BYOK（Bring Your Own Key，自備 API 金鑰）。只要輸入一次金鑰，就能在所有工具使用。金鑰只會儲存在這個瀏覽器中。",
   "site.tools": "工具列表",
   "key.title": "API 金鑰",
   "key.set": "已輸入 API 金鑰",
@@ -52,8 +52,8 @@
   "who.inbound": "給對海外發聲的創作者",
   "who.app_dev": "給個人 App 開發者",
   "who.youtuber": "給想成為 YouTuber 的人",
-  "site.index_title": "DataForSEO 單一功能工具集｜逐項試用 SEO 與搜尋資料",
-  "site.index_meta": "把 DataForSEO 的 API 變成一次一項功能的工具。搜尋排名、地圖、新聞等資料，用多少付多少。附免費範例。",
+  "site.index_title": "DataForSEO 單一功能工具集（BYOK）｜用自己的 API 金鑰逐項試用 SEO 與搜尋資料",
+  "site.index_meta": "把 DataForSEO 的 API 變成一次一項功能的工具。採用 BYOK（自備 API 金鑰），搜尋排名、關鍵字研究、地圖、新聞等資料，用多少付多少。附免費範例。",
   "c01.name": "查看搜尋結果前幾名",
   "c01.desc": "寫文章前，先看看排在前面的網站長什麼樣子",
   "c01.keyword": "關鍵字",
