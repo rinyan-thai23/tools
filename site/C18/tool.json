@@ -44,6 +44,7 @@
   },
   "csv": "C18.csv",
   "sample_langs": [
-    "zh-TW"
+    "zh-TW",
+    "en"
   ]
 }
