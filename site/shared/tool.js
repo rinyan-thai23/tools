@@ -41,6 +41,7 @@ function show(task, meta, now) {
     const xc = x.columns.map((c) => ({ key: c.key, label: t(c.label), link: c.link, type: c.type }));
     more.push({ title: x.title ? t(x.title) : '', cols: xc, rows: x.rows });
     renderTable(d, xc, x.rows);
+    if (x.chart) { const ch = document.createElement('div'); d.prepend(ch); renderChart(ch, xc, x.rows, x.chart); } // 2つ目以降の表にも、グラフを付けられる
     if (x.title) d.insertAdjacentHTML('afterbegin', `<h2 class="sub-title">${t(x.title)}</h2>`);
   }
   loadAuthImages($('result'));

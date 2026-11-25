@@ -86,6 +86,7 @@ export async function loadAuthImages(el) {
 
 // 折れ線グラフ（外部ライブラリなし）。spec = { x: 横軸の列, y: [縦軸の列, ...] }。値が数字の行だけ描く
 export function renderChart(el, cols, rows, spec) {
+  if (spec.type === 'bar') return renderBars(el, cols, rows, spec);
   const ys = (spec.y || []).map((k) => cols.find((c) => c.key === k)).filter(Boolean);
   const src = spec.reverse ? [...rows].reverse() : rows; // 新しい順の表は、古い順に並べ直して描く
   const pts = src.map((r) => ({ x: String(r[spec.x] ?? ''), v: ys.map((c) => (typeof r[c.key] === 'number' ? r[c.key] : null)) }));
@@ -108,6 +109,21 @@ export function renderChart(el, cols, rows, spec) {
   }).join('');
   const legend = ys.length > 1 ? `<p class="note">${ys.map((c, k) => `<span style="color:${colors[k % 3]}">●</span> ${esc(c.label)}`).join('　')}</p>` : '';
   el.insertAdjacentHTML('afterbegin', `<div class="chart"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(ys.map((c) => c.label).join(', '))}" width="100%">${grid}${xl}${lines}</svg>${legend}</div>`);
+}
+
+// 横向きの棒グラフ。spec = { x: 名前の列, y: [値の列], sort: 'desc'（任意：値の大きい順に並べる） }
+function renderBars(el, cols, rows, spec) {
+  const c = cols.find((k) => k.key === spec.y?.[0]);
+  let list = rows.filter((r) => typeof r[spec.y[0]] === 'number').map((r) => ({ n: String(r[spec.x] ?? ''), v: r[spec.y[0]] }));
+  if (!c || !list.length) return;
+  if (spec.sort === 'desc') list = [...list].sort((a, b) => b.v - a.v);
+  const max = Math.max(1, ...list.map((p) => p.v));
+  const LW = 120, W = 640, RH = 22, H = list.length * RH + 6;
+  const body = list.map((p, i) => {
+    const y = 3 + i * RH, w = Math.max(1, ((W - LW - 44) * p.v) / max);
+    return `<text x="${LW - 6}" y="${y + 15}" text-anchor="end" font-size="12" fill="currentColor">${esc(p.n)}</text><rect x="${LW}" y="${y + 3}" width="${w.toFixed(1)}" height="${RH - 8}" rx="2" fill="var(--chart-1, #2563eb)"><title>${esc(p.n)}：${p.v}</title></rect><text x="${LW + w + 5}" y="${y + 15}" font-size="11" fill="currentColor" opacity=".7">${p.v}</text>`;
+  }).join('');
+  el.insertAdjacentHTML('afterbegin', `<div class="chart"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(c.label)}" width="100%">${body}</svg></div>`);
 }
 
 export function downloadCsv(name, cols, rows, more = []) {

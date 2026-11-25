@@ -43,9 +43,23 @@
             "from": "value"
           }
         ],
-        "title": "c32.gender_title"
+        "title": "c32.gender_title",
+        "chart": {
+          "type": "bar",
+          "x": "gender",
+          "y": [
+            "g_value"
+          ]
+        }
       }
-    ]
+    ],
+    "chart": {
+      "type": "bar",
+      "x": "age",
+      "y": [
+        "value"
+      ]
+    }
   },
   "csv": "C32.csv",
   "country_codes": [

@@ -25,7 +25,15 @@
         "key": "value",
         "label": "c31.col.value"
       }
-    ]
+    ],
+    "chart": {
+      "type": "bar",
+      "x": "region",
+      "y": [
+        "value"
+      ],
+      "sort": "desc"
+    }
   },
   "csv": "C31.csv",
   "country_codes": [
