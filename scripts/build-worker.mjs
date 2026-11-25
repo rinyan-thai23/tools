@@ -167,11 +167,14 @@ files['/sitemap.xml'] = { type: types['.xml'], body: b64(`<?xml version="1.0" en
 files['/robots.txt'] = { type: types['.txt'], body: b64(`User-agent: *\nAllow: /\nSitemap: ${siteUrl}/sitemap.xml\n`) };
 
 // ---------- 9. Worker を書き出す
-const code = `const FILES = ${JSON.stringify(files)};
+const code = `const SITE = ${JSON.stringify(siteUrl)};
+const FILES = ${JSON.stringify(files)};
 const dec = (b) => Uint8Array.from(atob(b), (c) => c.charCodeAt(0));
 export default {
   fetch(req) {
-    let p = decodeURIComponent(new URL(req.url).pathname);
+    const u = new URL(req.url);
+    if (u.hostname.endsWith('.workers.dev') || u.hostname === 'www.' + new URL(SITE).hostname) return Response.redirect(SITE + u.pathname + u.search, 301);
+    let p = decodeURIComponent(u.pathname);
     if (!FILES[p] && !p.endsWith('/') && FILES[p + '/index.html']) return Response.redirect(new URL(p + '/', req.url).href, 301);
     if (p.endsWith('/')) p += 'index.html';
     const f = FILES[p];
