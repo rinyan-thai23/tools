@@ -57,11 +57,39 @@ export async function fillMarkets(countrySel, langSel, allowed) {
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
 // cols: [{key, label, link?}]  rows: [{...}]
-export function renderTable(el, cols, rows) {
+// opts.rowCopy(i, btn)：行ごとのコピーボタンを付ける。行が PAGE 件を超えるときは、絞り込み・並べ替え・「さらに表示」を付ける（CSV・コピーは全行）
+const PAGE = 100;
+const cellHtml = (c, r) => (c.type === 'image_auth' && r[c.key] ? `<a href="${esc(r[c.key])}" target="_blank" rel="noopener">${esc(r[c.key])}</a><br><img data-auth-src="${esc(r[c.key])}" alt="" class="shot">` : c.type === 'image' && r[c.key] ? `<img src="${esc(r[c.key])}" alt="" loading="lazy" referrerpolicy="no-referrer" class="thumb">` : c.link && r[c.key] ? `<a href="${esc(r[c.key])}" target="_blank" rel="noopener">${esc(r[c.key])}</a>` : esc(r[c.key]));
+export function renderTable(el, cols, rows, opts = {}) {
   if (!rows.length) { el.innerHTML = `<p>${t('ui.empty')}</p>`; return; }
-  el.innerHTML = `<div class="scroll"><table><thead><tr>${cols.map((c) => `<th>${c.label}</th>`).join('')}</tr></thead><tbody>${rows
-    .map((r) => `<tr>${cols.map((c) => `<td>${c.type === 'image_auth' && r[c.key] ? `<a href="${esc(r[c.key])}" target="_blank" rel="noopener">${esc(r[c.key])}</a><br><img data-auth-src="${esc(r[c.key])}" alt="" class="shot">` : c.type === 'image' && r[c.key] ? `<img src="${esc(r[c.key])}" alt="" loading="lazy" referrerpolicy="no-referrer" class="thumb">` : c.link && r[c.key] ? `<a href="${esc(r[c.key])}" target="_blank" rel="noopener">${esc(r[c.key])}</a>` : esc(r[c.key])}</td>`).join('')}</tr>`)
-    .join('')}</tbody></table></div>`;
+  const big = rows.length > PAGE;
+  const st = { q: '', sort: null, dir: 1, shown: PAGE };
+  const num = (v) => { const n = parseFloat(String(v ?? '').replace(/,/g, '')); return Number.isFinite(n) && /^[-+]?[\d,.]+/.test(String(v ?? '').trim()) ? n : null; };
+  const view = () => {
+    let L = rows.map((r, i) => [r, i]);
+    if (st.q) { const q = st.q.toLowerCase(); L = L.filter(([r]) => cols.some((c) => String(r[c.key] ?? '').toLowerCase().includes(q))); }
+    if (st.sort != null) {
+      const k = cols[st.sort].key, allNum = L.every(([r]) => r[k] == null || r[k] === '' || num(r[k]) != null);
+      L = [...L].sort((x, y) => { const a = x[0][k], b = y[0][k]; if (a == null || a === '') return 1; if (b == null || b === '') return -1; return (allNum ? num(a) - num(b) : String(a).localeCompare(String(b), lang)) * st.dir; });
+    }
+    return L;
+  };
+  const draw = () => {
+    const L = view(), vis = L.slice(0, st.shown);
+    const head = cols.map((c, j) => `<th${big ? ` data-j="${j}" class="sortable"` : ''}>${c.label}${st.sort === j ? (st.dir > 0 ? ' ▲' : ' ▼') : ''}</th>`).join('') + (opts.rowCopy ? '<th></th>' : '');
+    const body = vis.map(([r, i]) => `<tr>${cols.map((c) => `<td>${cellHtml(c, r)}</td>`).join('')}${opts.rowCopy ? `<td><button type="button" class="sub rowcopy" data-i="${i}">${t('ui.copy_row')}</button></td>` : ''}</tr>`).join('');
+    const bar = big ? `<div class="tbar"><input type="search" class="tfilter" placeholder="${t('ui.table_filter')}" value="${esc(st.q)}"> <span class="note">${t('ui.table_shown', { total: L.length === rows.length ? rows.length : `${L.length}/${rows.length}`, shown: vis.length })}</span>${vis.length < L.length ? ` <button type="button" class="sub tmore">${t('ui.table_more', { n: Math.min(PAGE, L.length - vis.length) })}</button> <button type="button" class="sub tall">${t('ui.table_all')}</button>` : ''}</div>` : '';
+    el.innerHTML = `${bar}<div class="scroll"><table><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
+    if (big) {
+      const f = el.querySelector('.tfilter');
+      f.oninput = () => { st.q = f.value.trim(); st.shown = PAGE; const pos = f.selectionStart; draw(); const nf = el.querySelector('.tfilter'); nf.focus(); nf.setSelectionRange(pos, pos); };
+      el.querySelectorAll('th.sortable').forEach((th) => (th.onclick = () => { const j = +th.dataset.j; st.dir = st.sort === j ? -st.dir : 1; st.sort = j; draw(); }));
+      const m = el.querySelector('.tmore'); if (m) m.onclick = () => { st.shown += PAGE; draw(); };
+      const a = el.querySelector('.tall'); if (a) a.onclick = () => { st.shown = rows.length; draw(); };
+    }
+    if (opts.rowCopy) el.querySelectorAll('button.rowcopy').forEach((b) => (b.onclick = () => opts.rowCopy(+b.dataset.i, b)));
+  };
+  draw();
 }
 
 // DataForSEO の画像（スクショ）は、まず直接読み込む。だめなら、キーを付けて取りに行く（ブラウザの制限で取れないこともある）。取れなければ、リンクだけが残る

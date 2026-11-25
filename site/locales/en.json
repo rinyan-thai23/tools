@@ -413,20 +413,20 @@
   "c37.col.kd": "Difficulty (0–100)",
   "c38.name": "See keyword difficulty",
   "c38.desc": "See how hard several keywords are at once",
-  "c38.price": "Cost: about $0.012 for 3 keywords (measured); about $0.024 for 100 (a guide; we measured up to 3). The sample is free.",
+  "c38.price": "Cost: about $0.012 for 3 keywords and $0.072 for 500 (both measured). About $0.13 for up to 1,000 in one go (a guide). Above 1,000 it splits automatically, up to 5,000 (about $0.66). The sample is free.",
   "c38.eta": "Typical time: a few seconds",
   "c38.title": "Keyword Difficulty Checker | Check Difficulty for Many Keywords at Once (Free Sample)",
   "c38.meta": "Enter several keywords and get the keyword difficulty of each in one table. Compare which keywords look easier to rank for. Difficulty can be blank for keywords outside DataForSEO's SERP data.",
-  "c38.keyword": "Keywords (one per line)",
+  "c38.keyword": "Keywords (one per line, up to 5,000)",
   "c38.col.keyword": "Keyword",
   "c38.col.kd": "Difficulty (0–100)",
   "c39.name": "See search intent",
   "c39.desc": "See whether searchers are buying or researching",
-  "c39.price": "Cost: about $0.012 for 3 keywords (measured); about $0.024 for 100 (a guide; we measured up to 3). The sample is free.",
+  "c39.price": "Cost: about $0.012 for 3 keywords and $0.072 for 500 (both measured). About $0.13 for up to 1,000 in one go (a guide). Above 1,000 it splits automatically, up to 5,000 (about $0.66). The sample is free.",
   "c39.eta": "Typical time: a few seconds",
   "c39.title": "Search Intent Checker | Classify Keywords as Informational, Commercial or Transactional (Free Sample)",
   "c39.meta": "Enter several keywords and see the search intent of each (informational, commercial, transactional, navigational) as shares in a table. Tell apart people who want to buy from people who want to learn.",
-  "c39.keyword": "Keywords (one per line)",
+  "c39.keyword": "Keywords (one per line, up to 5,000)",
   "c39.col.keyword": "Keyword",
   "c39.col.intent": "Search intent",
   "c39.v.informational": "Informational",
@@ -487,7 +487,7 @@
   "c44.col.etv": "Estimated traffic",
   "c45.name": "See keywords a site ranks high for",
   "c45.desc": "See which keywords your or a rival's blog ranks for",
-  "c45.price": "Cost: about $0.024 per call (top 10, 100 rows by volume, about 40 per $1). The sample is free.",
+  "c45.price": "Cost: $0.024 for 100 rows and $0.132 for 1,000 rows (both measured). It rises slowly with the number of rows (about $0.0001 per row). The sample is free.",
   "c45.eta": "Typical time: a few seconds",
   "c45.title": "Ranked Keywords | See What Keywords a Website Ranks For, with Position and Volume (Free Sample)",
   "c45.meta": "Enter a domain and get the keywords it ranks for on Google, with position and search volume. Use it for competitor keyword research and to see which keywords your own blog appears for. Free sample.",
@@ -988,5 +988,75 @@
   "c71.ai_prompt": "You are an assistant who helps organize hotel prices.\nThe reader is a person planning a trip or researching hotel prices.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Rows: {n}\n- Columns\n  - Price: the price (yen) for the next Saturday, one night, two adults.\n  - Rating / reviews / stars: the rating, review count and hotel star class.\n  - Prices change by date and booking site. These are the amounts seen that day.\n\n# What I would like you to do\n1. List the 5 cheapest hotels.\n2. Briefly explain, with numbers, the relation between price and rating.\n3. List 3 hotels with high ratings and middle prices.\n4. Briefly say what cannot be known from the data alone (for example, the reasons or future results).\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table (hotel / price / rating / reviews).\n\n# Data (tab-separated)\n```\n{data}\n```",
   "c74.ai_prompt": "You are an assistant who helps organize the technologies a site uses.\nThe reader is a person who wants to know what technologies a competitor or interesting site uses.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Rows: {n}\n- Columns\n  - Group / type / names: the technology group, type and names.\n  - Only technologies that were found. It does not mean the rest are not used.\n\n# What I would like you to do\n1. Organize the technologies by group.\n2. List the technologies for servers, analytics, ads and how the site is built.\n3. List 3 things to check if I want to use the same technologies.\n4. Do not say a technology \"is not used\" just because it was not found.\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table (group / technology).\n\n# Data (tab-separated)\n```\n{data}\n```",
   "c75.ai_prompt": "You are an assistant who helps organize sites using a technology.\nThe reader is a person looking for a sales list or examples of sites using a technology (for example Shopify).\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Rows: {n}\n- Columns\n  - Domain / country / title: a site using the technology.\n  - Number of matching sites (second table): the total number of sites using the technology.\n\n# What I would like you to do\n1. Count the sites per country.\n2. From the titles, group the sites into 3-5 genres.\n3. List 3 points to watch when using this for outreach or finding examples.\n4. Only some sites were returned. Briefly say what cannot be known from the data alone (for example, the share of the whole market).\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table (country / number of sites).\n\n# Data (tab-separated)\n```\n{data}\n```",
-  "c76.ai_prompt": "You are an assistant who helps read domain registration info.\nThe reader is a person who wants to check a domain's age, expiry and registrar.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Rows: {n}\n- Columns\n  - Created / changed / expiration: the registration date, last change and expiry.\n  - Registrar: the company managing the domain.\n  - Some domains (such as .jp) have a blank expiry.\n\n# What I would like you to do\n1. Calculate the years from the registration date to today.\n2. Calculate the days left until expiry (if blank, say so).\n3. List 3 things to check when buying or using the domain.\n4. A domain's age is not the same as a site's quality. Briefly say what cannot be known from the data alone.\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table of the numbers you calculated.\n\n# Data (tab-separated)\n```\n{data}\n```"
+  "c76.ai_prompt": "You are an assistant who helps read domain registration info.\nThe reader is a person who wants to check a domain's age, expiry and registrar.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Rows: {n}\n- Columns\n  - Created / changed / expiration: the registration date, last change and expiry.\n  - Registrar: the company managing the domain.\n  - Some domains (such as .jp) have a blank expiry.\n\n# What I would like you to do\n1. Calculate the years from the registration date to today.\n2. Calculate the days left until expiry (if blank, say so).\n3. List 3 things to check when buying or using the domain.\n4. A domain's age is not the same as a site's quality. Briefly say what cannot be known from the data alone.\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table of the numbers you calculated.\n\n# Data (tab-separated)\n```\n{data}\n```",
+  "ui.steps_title": "How much you can get, and the cost",
+  "ui.steps_amount": "Amount",
+  "ui.steps_cost": "Cost",
+  "ui.steps_use": "Good for",
+  "c38.steps": [
+    [
+      "100 keywords",
+      "about $0.024 (a guide)",
+      "Quickly compare candidates for one topic"
+    ],
+    [
+      "500 keywords",
+      "$0.072 (measured)",
+      "Sort out article candidates for a whole site"
+    ],
+    [
+      "1,000 keywords",
+      "about $0.13 (a guide)",
+      "The upper limit for one request. A big list at once"
+    ],
+    [
+      "5,000 keywords",
+      "about $0.66 (a guide, in 5 requests)",
+      "Very large lists, such as a competitor's whole keyword set"
+    ]
+  ],
+  "c39.steps": [
+    [
+      "100 keywords",
+      "about $0.024 (a guide)",
+      "Sort one topic's candidates by who is searching (buying or learning)"
+    ],
+    [
+      "500 keywords",
+      "$0.072 (measured)",
+      "Sort a whole site's candidates by search intent"
+    ],
+    [
+      "1,000 keywords",
+      "about $0.13 (a guide)",
+      "The upper limit for one request"
+    ],
+    [
+      "5,000 keywords",
+      "about $0.66 (a guide, in 5 requests)",
+      "Organizing very large keyword lists by intent"
+    ]
+  ],
+  "ui.table_filter": "Filter (text)",
+  "ui.table_shown": "Showing {shown} of {total} rows (filter and sort apply to all rows; use CSV or copy for everything)",
+  "ui.table_more": "Show {n} more",
+  "ui.table_all": "Show all",
+  "c45.count": "Number of rows to fetch (more rows cost more; see the table below)",
+  "c45.steps": [
+    [
+      "100 rows",
+      "$0.024 (measured)",
+      "Get the big picture. The top rows by search volume are enough"
+    ],
+    [
+      "300 rows",
+      "about $0.05 (a guide)",
+      "Look at a competitor's top keywords theme by theme"
+    ],
+    [
+      "1,000 rows",
+      "$0.132 (measured)",
+      "Dig into a big site's keywords with sorting and filtering"
+    ]
+  ]
 }

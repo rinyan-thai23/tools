@@ -28,8 +28,7 @@ function show(task, meta, now) {
   renderAnswer($('answer'), cfg.result.answer ? t(cfg.result.answer.label) : '', extractAnswer(cfg, task));
   if (cfg.result.answer_only) $('result').innerHTML = '';
   else {
-    renderTable($('result'), cols, rows);
-    addRowCopy();
+    renderTable($('result'), cols, rows, cfg.copy ? { rowCopy: rowCopyHandler } : {});
     if (cfg.result.chart && rows.length) { const ch = document.createElement('div'); $('result').prepend(ch); renderChart(ch, cols, rows, cfg.result.chart); } // 表の上にグラフ（tool.json の result.chart）
     if (cfg.result.title && rows.length) $('result').insertAdjacentHTML('afterbegin', `<h2 class="sub-title">${t(cfg.result.title)}</h2>`);
   }
@@ -101,6 +100,7 @@ async function sendAll(p, pg) {
     const r = await callApi(cfg.endpoint, { ...p, [c.param]: parts[n] }, { onRetry: pg.retry });
     first ||= r.task; cost += r.cost || 0; time = r.time; result = result.concat(r.task.result || []);
   }
+  if (c.merge_items) result = [{ ...(result[0] || {}), items: result.flatMap((x) => x.items || []), items_count: result.reduce((a, x) => a + (x.items_count || (x.items || []).length), 0) }]; // 結果が result[0].items に入る型は、items をつなげる
   return { task: { ...first, result }, cost: Math.round(cost * 1e6) / 1e6, time };
 }
 
@@ -165,17 +165,9 @@ function renderAiBox() {
   };
 }
 // ---- 表の行ごとのコピー（見出し＋その行を、タブ区切りで）
-function addRowCopy() {
-  if (!cfg.copy) return;
-  const tb = $('result').querySelector('table'); if (!tb || tb.dataset.rc) return; tb.dataset.rc = '1';
-  tb.querySelector('thead tr').insertAdjacentHTML('beforeend', '<th></th>');
-  const one = (r) => tableToTsv(cols, [r]);
-  tb.querySelectorAll('tbody tr').forEach((tr, i) => {
-    const td = document.createElement('td'); const b = document.createElement('button');
-    b.type = 'button'; b.className = 'sub rowcopy'; b.textContent = t('ui.copy_row'); b.title = t('ui.copy_row_title');
-    b.onclick = async () => { const ok = await copyText(one(rows[i])); b.textContent = ok ? t('ui.copied') : t('ui.copy_failed'); setTimeout(() => (b.textContent = t('ui.copy_row')), 1500); };
-    td.appendChild(b); tr.appendChild(td);
-  });
+async function rowCopyHandler(i, b) {
+  const ok = await copyText(tableToTsv(cols, [rows[i]]));
+  b.textContent = ok ? t('ui.copied') : t('ui.copy_failed'); setTimeout(() => (b.textContent = t('ui.copy_row')), 1500);
 }
 // ---- 入力を共有するURL（入力・国・言語だけ。APIキーは入れない）
 const SHARE_MAX = 4000;
@@ -234,6 +226,11 @@ async function sample() {
 }
 
 await init();
+(() => { // 「取得できる量と料金の目安」を、数段階の表で見せる（ロケールの <id>.steps = [[量, 料金, 使いどころ], ...]）
+  const rowsS = (window.__L || {})[`${key}.steps`]; if (!Array.isArray(rowsS) || !rowsS.length) return;
+  const esc = (x) => String(x).replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+  $('steps').innerHTML = `<details open><summary>${t('ui.steps_title')}</summary><div class="scroll"><table class="steps"><thead><tr><th>${t('ui.steps_amount')}</th><th>${t('ui.steps_cost')}</th><th>${t('ui.steps_use')}</th></tr></thead><tbody>${rowsS.map((r) => `<tr>${r.map((c) => `<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div></details>`;
+})();
 if (cfg.markets) await fillMarkets($('country'), $('language'), cfg.country_codes); // 'country' / 'language' のときは、ない方は null
 if (cfg.inputs.some((i) => i.transform === 'technology')) loadTech().catch(() => {});
 if (cfg.chunk) { // 入力した語数と、送る回数・料金の目安を、その場で見せる

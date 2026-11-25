@@ -12,7 +12,6 @@
     }
   ],
   "params": {
-    "limit": 100,
     "filters": [
       [
         "ranked_serp_element.serp_item.type",
@@ -62,5 +61,14 @@
     "zh-TW",
     "en"
   ],
-  "copy": true
+  "copy": true,
+  "count": {
+    "param": "limit",
+    "options": [
+      100,
+      300,
+      1000
+    ],
+    "label": "c45.count"
+  }
 }
