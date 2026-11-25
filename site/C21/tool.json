@@ -8,7 +8,8 @@
     {
       "id": "prompt",
       "param": "user_prompt",
-      "label": "c21.prompt"
+      "label": "c21.prompt",
+      "multiline": true
     }
   ],
   "params": {
@@ -38,5 +39,12 @@
     "zh-TW",
     "en"
   ],
-  "copy": true
+  "copy": true,
+  "multi": {
+    "input": "prompt",
+    "max": 30,
+    "unit_cost": 0.006,
+    "parallel": 3,
+    "confirm_over": 15
+  }
 }

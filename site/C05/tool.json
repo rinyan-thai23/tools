@@ -8,7 +8,8 @@
     {
       "id": "keyword",
       "param": "keyword",
-      "label": "c05.keyword"
+      "label": "c05.keyword",
+      "multiline": true
     }
   ],
   "count": {
@@ -55,5 +56,16 @@
     "zh-TW",
     "en"
   ],
-  "copy": true
+  "copy": true,
+  "multi": {
+    "input": "keyword",
+    "max": 10,
+    "unit_cost": 0.002,
+    "parallel": 2,
+    "confirm_over": 5,
+    "cost_count": {
+      "base": 0,
+      "per": 0.0002
+    }
+  }
 }

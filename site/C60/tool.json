@@ -7,7 +7,8 @@
     {
       "id": "url",
       "param": "url",
-      "label": "c60.url"
+      "label": "c60.url",
+      "multiline": true
     }
   ],
   "min_sample_rows": 1,
@@ -179,5 +180,12 @@
     "zh-TW",
     "en"
   ],
-  "copy": true
+  "copy": true,
+  "multi": {
+    "input": "url",
+    "max": 50,
+    "unit_cost": 0.00015,
+    "parallel": 3,
+    "confirm_over": 30
+  }
 }

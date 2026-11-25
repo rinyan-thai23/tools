@@ -9,7 +9,8 @@
     {
       "id": "prompt",
       "param": "user_prompt",
-      "label": "c19.prompt"
+      "label": "c19.prompt",
+      "multiline": true
     }
   ],
   "params": {
@@ -34,5 +35,12 @@
     "zh-TW",
     "en"
   ],
-  "copy": true
+  "copy": true,
+  "multi": {
+    "input": "prompt",
+    "max": 30,
+    "unit_cost": 0.002,
+    "parallel": 3,
+    "confirm_over": 15
+  }
 }

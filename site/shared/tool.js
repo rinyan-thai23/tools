@@ -201,12 +201,13 @@ function applyShared() { // URLに入力があれば、入力欄に入れる（�
 }
 const L = () => window.__L || {};
 // ---- 複数入力（tool.json の multi: { input, max, unit_cost, parallel, confirm_over }）
+const perItem = () => { const m = cfg.multi; return m.cost_count && $('count') ? m.cost_count.base + m.cost_count.per * (+$('count').value) : m.unit_cost; }; // 1件あたりの料金（件数で変わるツールは、選んだ件数で計算）
 const multiLines = () => {
   const m = cfg.multi; const seen = new Set();
   return $('in-' + m.input).value.split('\n').map((x) => x.trim()).filter((x) => x && !seen.has(x) && seen.add(x)).slice(0, m.max);
 };
 async function runMulti(lines, pg) {
-  const m = cfg.multi, est = (lines.length * m.unit_cost).toFixed(3);
+  const m = cfg.multi, est = (lines.length * perItem()).toFixed(3);
   if (lines.length > (m.confirm_over ?? 10) && !window.confirm(t('ui.multi_confirm', { n: lines.length, cost: est }))) { pg.stop(); return; }
   const results = [], errs = []; let done = 0, cost = 0, time = new Date(), fatal = null;
   const next = (() => { let i = 0; return () => (i < lines.length && !fatal ? i++ : -1); })();
@@ -299,9 +300,10 @@ if (cfg.multi) { // 入力した件数と、料金の目安を、その場で見
   const upd = () => {
     const all = ta.value.split('\n').map((x) => x.trim()).filter(Boolean).length, n = multiLines().length;
     if (!all) { nt.textContent = ''; return; }
-    nt.textContent = (all > cfg.multi.max ? t('ui.multi_over', { max: cfg.multi.max }) + ' ' : '') + (n > 1 ? t('ui.multi_note', { n, cost: (n * cfg.multi.unit_cost).toFixed(3) }) : t('ui.multi_one'));
+    nt.textContent = (all > cfg.multi.max ? t('ui.multi_over', { max: cfg.multi.max }) + ' ' : '') + (n > 1 ? t('ui.multi_note', { n, cost: (n * perItem()).toFixed(3) }) : t('ui.multi_one'));
   };
   ta.addEventListener('input', upd); upd();
+  if ($('count')) $('count').addEventListener('change', upd); // 件数を変えたら、料金の目安も変える
 }
 $('run').onclick = run;
 $('copy').onclick = async () => { const ok = await copyText(tableToTsv(cols, rows, more)); $('copy-msg').textContent = ok ? t('ui.copied') : t('ui.copy_failed'); setTimeout(() => ($('copy-msg').textContent = ''), 2500); };

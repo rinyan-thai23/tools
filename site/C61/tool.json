@@ -7,7 +7,8 @@
     {
       "id": "url",
       "param": "url",
-      "label": "c61.url"
+      "label": "c61.url",
+      "multiline": true
     }
   ],
   "result": {
@@ -41,5 +42,12 @@
     "zh-TW",
     "en"
   ],
-  "copy": true
+  "copy": true,
+  "multi": {
+    "input": "url",
+    "max": 30,
+    "unit_cost": 0.00015,
+    "parallel": 3,
+    "confirm_over": 20
+  }
 }
