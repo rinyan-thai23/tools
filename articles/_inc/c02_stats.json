@@ -1,0 +1,201 @@
+{
+ "total_refs": 75,
+ "uniq_dom": 58,
+ "zero": [
+  "ブログ 始め方",
+  "確定申告 やり方",
+  "ワイヤレスイヤホン おすすめ",
+  "ノートパソコン 選び方",
+  "英会話 独学"
+ ],
+ "n_withref": 15,
+ "refs_dist": [
+  [
+   0,
+   5
+  ],
+  [
+   2,
+   2
+  ],
+  [
+   3,
+   3
+  ],
+  [
+   4,
+   2
+  ],
+  [
+   5,
+   3
+  ],
+  [
+   7,
+   4
+  ],
+  [
+   11,
+   1
+  ]
+ ],
+ "med_refs": 3.5,
+ "max_refs": 11,
+ "md_min": 270,
+ "md_med": 1847,
+ "md_max": 6357,
+ "top": [
+  [
+   "google.com",
+   9
+  ],
+  [
+   "youtube.com",
+   6
+  ],
+  [
+   "xserver.ne.jp",
+   2
+  ],
+  [
+   "apple.com",
+   2
+  ],
+  [
+   "biz.moneyforward.com",
+   2
+  ],
+  [
+   "instagram.com",
+   2
+  ],
+  [
+   "note.com",
+   1
+  ],
+  [
+   "control-eng-life.com",
+   1
+  ],
+  [
+   "zoomy01.com",
+   1
+  ],
+  [
+   "camerawokamaete.com",
+   1
+  ],
+  [
+   "uniqlo.com",
+   1
+  ],
+  [
+   "faq.uniqlo.com",
+   1
+  ]
+ ],
+ "top_q": [
+  [
+   "google.com",
+   3
+  ],
+  [
+   "youtube.com",
+   4
+  ],
+  [
+   "xserver.ne.jp",
+   2
+  ],
+  [
+   "apple.com",
+   1
+  ],
+  [
+   "biz.moneyforward.com",
+   2
+  ],
+  [
+   "instagram.com",
+   2
+  ],
+  [
+   "note.com",
+   1
+  ],
+  [
+   "control-eng-life.com",
+   1
+  ],
+  [
+   "zoomy01.com",
+   1
+  ],
+  [
+   "camerawokamaete.com",
+   1
+  ],
+  [
+   "uniqlo.com",
+   1
+  ],
+  [
+   "faq.uniqlo.com",
+   1
+  ]
+ ],
+ "tot_ov": 43,
+ "tot_ds_withref": 66,
+ "ov_by_q": {
+  "ブログ 始め方": 0,
+  "ブログ 収益化 いつから": 3,
+  "確定申告 やり方": 0,
+  "ワイヤレスイヤホン おすすめ": 0,
+  "ノートパソコン 選び方": 0,
+  "ユニクロ": 1,
+  "iPhone": 1,
+  "渋谷 ランチ": 1,
+  "京都 観光": 1,
+  "副業 おすすめ": 6,
+  "転職 エージェント 比較": 7,
+  "ChatGPT とは": 3,
+  "SEO とは": 2,
+  "キーワードプランナー 使い方": 5,
+  "新宿 美容院": 0,
+  "日経平均": 1,
+  "筋トレ 初心者": 9,
+  "カレー レシピ": 1,
+  "天気": 2,
+  "英会話 独学": 0
+ },
+ "ovu_total": 29,
+ "org_tot": 194,
+ "cost": 0.08,
+ "hl": 11,
+ "inl": 15,
+ "n_items": [
+  [
+   1,
+   20
+  ]
+ ],
+ "ov_zero": [
+  "新宿 美容院"
+ ],
+ "ov_any": [
+  "ブログ 収益化 いつから",
+  "ユニクロ",
+  "iPhone",
+  "渋谷 ランチ",
+  "京都 観光",
+  "副業 おすすめ",
+  "転職 エージェント 比較",
+  "ChatGPT とは",
+  "SEO とは",
+  "キーワードプランナー 使い方",
+  "日経平均",
+  "筋トレ 初心者",
+  "カレー レシピ",
+  "天気"
+ ]
+}

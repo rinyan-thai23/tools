@@ -1,0 +1,34 @@
+<p>GoogleのAIモードは、どのサイトを引用しているのでしょうか。<a href="/articles/c02-ai-mode-20-questions/">20個のキーワード</a>で出た引用元75件を、ドメインごとに数えました。</p>
+
+<h2>先に、わかったこと</h2>
+<ul>
+<li>引用元は<strong>75件</strong>、ドメインは<strong>58種類</strong>でした。</li>
+<li>一番多かったのは<strong>google.com（9回、3問）</strong>で、次が<strong>youtube.com（6回、4問）</strong>でした。</li>
+<li>2回以上引用されたドメインは、上位6種類だけでした。残りは1回ずつでした。</li>
+</ul>
+<p>図書館でいうと、「同じ本が何度も紹介される」のではなく、ほとんどの本が1回ずつ出てくる、という様子です。</p>
+
+<h2>引用の回数（上位10ドメイン）</h2>
+<div class="scroll"><table class="data"><thead><tr><th>ドメイン</th><th>引用された回数</th><th>引用された質問の数</th></tr></thead><tbody><tr><td>google.com</td><td>9</td><td>3</td></tr><tr><td>youtube.com</td><td>6</td><td>4</td></tr><tr><td>xserver.ne.jp</td><td>2</td><td>2</td></tr><tr><td>apple.com</td><td>2</td><td>1</td></tr><tr><td>biz.moneyforward.com</td><td>2</td><td>2</td></tr><tr><td>instagram.com</td><td>2</td><td>2</td></tr><tr><td>note.com</td><td>1</td><td>1</td></tr><tr><td>control-eng-life.com</td><td>1</td><td>1</td></tr><tr><td>zoomy01.com</td><td>1</td><td>1</td></tr><tr><td>camerawokamaete.com</td><td>1</td><td>1</td></tr></tbody></table></div>
+<p class="note">google.comは、「渋谷 ランチ」などの質問で、Googleの検索結果ビューア（searchviewer）のURLが引用されたものです。youtube.comは、動画やショートのURLです。</p>
+
+<h2>全データ：全ドメイン（58種類）</h2>
+<p><a href="/articles/data/c02-domains-2026-11-25.csv" download>CSVでダウンロード</a></p>
+<!--include:c02_domains-->
+
+<h2>全データ：引用元（75件）</h2>
+<p><a href="/articles/data/c02-references-2026-11-25.csv" download>CSVでダウンロード</a></p>
+<details><summary>引用元の一覧を開く（75件）</summary>
+<!--include:c02_refs-->
+</details>
+
+<h2>どうやって調べたか</h2>
+<div class="box">
+<ul>
+<li>日付：2026年11月25日、地域と言語：日本、日本語</li>
+<li>ツール：<a href="/C02/ja/">GoogleのAIモードの答えを見る（C02）</a>（DataForSEOのAPIが、GoogleのAIモードの答えを返します）</li>
+<li>データ：<a href="/articles/c02-ai-mode-20-questions/">20個のキーワードの記事</a>と同じ</li>
+<li>数え方：URLからドメインを取り出し、「www.」を除いて数えました。サブドメイン（biz.moneyforward.com と moneyforward.com など）は、別のドメインとして数えています</li>
+</ul>
+</div>
+<p class="note">20個のキーワードだけの結果です。どのサイトが「よい」かの判断はしていません。</p>
