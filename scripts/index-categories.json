@@ -190,5 +190,158 @@
       "C75",
       "C76"
     ]
+  },
+  "en": {
+    "title": "What you can do here",
+    "intro": "These are DataForSEO API features, one per tool, on screen. Rank checking (SERP), keyword research (search volume, related keywords, difficulty), competitor analysis, local SEO (Google Maps), AI search visibility (ChatGPT, Gemini, Claude, Perplexity, Google AI Mode), YouTube analysis, site audits (page speed, headings) and domain tools (WHOIS, technologies): about 60 tools. BYOK (bring your own key): no subscription, you pay per use with your own API key. Every tool has a free sample, so you can see what you get before you run it.",
+    "sections": [
+      {
+        "title": "Search results and rankings (SEO and local SEO)",
+        "text": "Check Google rankings and see who ranks at the top. Local SEO (Google Maps), news, image and YouTube results are listed per keyword too. For when you want to see who already ranks before you write, or where a shop appears on the map.",
+        "tools": [
+          "C01",
+          "C03",
+          "C04",
+          "C05",
+          "C07",
+          "C14",
+          "C50",
+          "C09"
+        ]
+      },
+      {
+        "title": "Keyword research (search volume, related keywords, difficulty)",
+        "text": "Check monthly search volume for up to 1,000 keywords per call for $0.09. Related keywords, long-tail keywords, autocomplete suggestions, keyword difficulty, search intent and monthly history. For choosing the next article's keyword or building ad keyword lists.",
+        "tools": [
+          "C24",
+          "C26",
+          "C35",
+          "C36",
+          "C37",
+          "C08",
+          "C38",
+          "C39",
+          "C40",
+          "C41",
+          "C25",
+          "C34",
+          "C43"
+        ]
+      },
+      {
+        "title": "Search trends and audience",
+        "text": "Google Trends, weekly popularity, popularity by region, the age and gender of people searching, and search volume by country. To see when demand peaks and who it appeals to.",
+        "tools": [
+          "C29",
+          "C30",
+          "C31",
+          "C32",
+          "C33"
+        ]
+      },
+      {
+        "title": "Competitor sites and traffic",
+        "text": "Which keywords a competitor ranks for, how much search traffic it gets (estimated) and which pages are strongest. Shared keywords between two sites, finding rival sites, and comparing the size of many sites.",
+        "tools": [
+          "C45",
+          "C49",
+          "C51",
+          "C53",
+          "C48",
+          "C42",
+          "C44",
+          "C46",
+          "C47",
+          "C52"
+        ]
+      },
+      {
+        "title": "AI search (LLM SEO / GEO)",
+        "text": "What ChatGPT, Gemini, Claude, Perplexity and Google AI Mode answer, and whether your site is cited. Search volume for AI questions too. Groundwork for LLM SEO and GEO.",
+        "tools": [
+          "C02",
+          "C18",
+          "C19",
+          "C20",
+          "C21",
+          "C22",
+          "C23"
+        ]
+      },
+      {
+        "title": "Advertising (Google Ads)",
+        "text": "Find out whether a competitor runs Google Ads and what the ads look like.",
+        "tools": [
+          "C10",
+          "C11"
+        ]
+      },
+      {
+        "title": "YouTube analysis",
+        "text": "Numbers for a single video, its comments and its full subtitle text.",
+        "tools": [
+          "C15",
+          "C16",
+          "C17"
+        ]
+      },
+      {
+        "title": "Site audits and page analysis",
+        "text": "Basic page facts (title, headings, word count), extracting headings and body text, page speed scores, screenshots, the technologies a site uses and a domain's registration and expiry dates (WHOIS).",
+        "tools": [
+          "C60",
+          "C61",
+          "C62",
+          "C63",
+          "C74",
+          "C76"
+        ]
+      },
+      {
+        "title": "Brand mentions and reputation",
+        "text": "Where your company or product name is being discussed online: mention counts, the share of positive and negative, and monthly trends. Groundwork for PR and sales.",
+        "tools": [
+          "C64",
+          "C65",
+          "C66",
+          "C67"
+        ]
+      },
+      {
+        "title": "Leads, local businesses and hotels",
+        "text": "Lists of local businesses, Google Business Profile details, hotel prices nearby and sites that use a given technology. For finding prospects and researching local competitors.",
+        "tools": [
+          "C68",
+          "C69",
+          "C71",
+          "C75"
+        ]
+      }
+    ],
+    "titled": [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "C11",
+      "C14",
+      "C15",
+      "C16",
+      "C17",
+      "C18",
+      "C19",
+      "C20",
+      "C21",
+      "C22",
+      "C23",
+      "C24",
+      "C25",
+      "C26"
+    ]
   }
 }
