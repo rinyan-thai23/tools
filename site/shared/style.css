@@ -59,3 +59,6 @@ ul.tools{padding-left:1.2em}
 
 .tid{font-size:.6em;opacity:.7;margin-right:.3em;font-variant-numeric:tabular-nums} /* 管理番号（管理者の確認用） */
 .tools .note{display:inline-block;margin-top:2px}
+article h2{font-size:1.15rem;margin-top:1.8em}
+article .asof{font-size:.85rem;opacity:.7}
+article .box{border:1px solid var(--line);border-radius:8px;padding:8px 14px;margin:16px 0}
