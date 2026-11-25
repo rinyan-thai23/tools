@@ -7,6 +7,6 @@
 | Googleトレンド：人気や急上昇を見る画面 | https://trends.google.com/trends/ ／ https://support.google.com/trends/answer/4365533 | 機能の詳細は「公式で確認」 |
 | Keywords Everywhere：クレジット制 | https://keywordseverywhere.com/subscriptions.html ／ https://keywordseverywhere.com/pricing-changes.html | 料金は「公式で確認」 |
 | Googleの検索窓：入力中の候補 | 一般的な知識（出典なし） | 数字の主張なし |
-| Google トレンド：0〜100 の相対値、低ボリュームは 0 表示（無料とは公式ヘルプに明記なし） | https://support.google.com/trends/answer/4365533?hl=zh-Hant | 公式 |
-| Google Keyword Planner：Google Ads アカウントと請求情報の入力が必要（無料かは公式が明記せず）、検索ボリュームは範囲値になりうる | https://support.google.com/google-ads/answer/7337243?hl=zh-Hant ／ https://www.techbang.com/posts/115365-how-to-stay-on-top-of-seo-keyword-traffic-seo-experts | Techbang は著者が Ranking 社所属と明記（宣伝色あり） |
+| Google トレンド：0〜100 の相対値、低ボリュームは 0 表示（無料とは公式ヘルプに明記なし） | https://support.google.com/trends/answer/4365533?hl=en | 公式 |
+| Google Keyword Planner：Google Ads アカウントと請求情報の入力が必要（無料かは公式が明記せず）、検索ボリュームは範囲値になりうる | https://support.google.com/google-ads/answer/7337243?hl=en ／ https://www.techbang.com/posts/115365-how-to-stay-on-top-of-seo-keyword-traffic-seo-experts | Techbang は著者が Ranking 社所属と明記（宣伝色あり） |
 | Ubersuggest：Individual $29/月・$192/年（USD、地域で価格調整あり）、月払いは7日間無料トライアル | https://www.ubersuggest.com/pricing | 台灣向け比較表 |

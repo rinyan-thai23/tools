@@ -8,5 +8,5 @@
 | Ahrefs Keywords Explorer（Keyword ideas） | https://ahrefs.com/keywords-explorer ／ https://ahrefs.com/blog/keyword-difficulty/ | 料金は「公式で確認」 |
 | Googleキーワードプランナー | https://mangools.com/blog/google-keyword-planner/ ／ https://searchengineland.com/google-officially-throttling-keyword-planner-data-low-spending-adwords-accounts-255795 | 二次資料。機能は「公式で確認」 |
 | Ahrefs：Starter $29/月（月繳，未標通貨碼）；Ahrefs Free 僅限自己的網站 | https://ahrefs.com/pricing | 台灣向け比較表。年繳額未掲載 |
-| Google Keyword Planner：Google Ads アカウントと請求情報の入力が必要（無料かは公式が明記せず）、検索ボリュームは範囲値になりうる | https://support.google.com/google-ads/answer/7337243?hl=zh-Hant ／ https://www.techbang.com/posts/115365-how-to-stay-on-top-of-seo-keyword-traffic-seo-experts | Techbang は著者が Ranking 社所属と明記（宣伝色あり） |
+| Google Keyword Planner：Google Ads アカウントと請求情報の入力が必要（無料かは公式が明記せず）、検索ボリュームは範囲値になりうる | https://support.google.com/google-ads/answer/7337243?hl=en ／ https://www.techbang.com/posts/115365-how-to-stay-on-top-of-seo-keyword-traffic-seo-experts | Techbang は著者が Ranking 社所属と明記（宣伝色あり） |
 | DataForSEO Labs：台灣・繁體中文で「部落格 架設教學」「部落格」「台北 美食」は検索量データなし（結果が空）、「咖啡」約150万・「旅遊」約6.1万・「蝦皮」「iphone 16」「聯盟行銷」約1,300・「斜槓」約1,900 は取得できた | 実測（2026-11-24） | |

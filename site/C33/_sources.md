@@ -8,5 +8,5 @@
 | Semrush Keyword Overview | https://www.semrush.com/kb/ ／ https://www.semrush.com/pricing/ | 料金は書かず「公式で確認」 |
 | DataForSEO：2語で$0.18、1語（yoga）も$0.18、約1秒、「ラーメン」52か国（日本96.18%）・「ramen」139か国 | 実測（2026-11-24） | |
 | Ahrefs：Starter $29/月（月繳，未標通貨碼）；Ahrefs Free 僅限自己的網站 | https://ahrefs.com/pricing | 台灣向け比較表。年繳額未掲載 |
-| Google Keyword Planner：Google Ads アカウントと請求情報の入力が必要（無料かは公式が明記せず）、検索ボリュームは範囲値になりうる | https://support.google.com/google-ads/answer/7337243?hl=zh-Hant ／ https://www.techbang.com/posts/115365-how-to-stay-on-top-of-seo-keyword-traffic-seo-experts | Techbang は著者が Ranking 社所属と明記（宣伝色あり） |
+| Google Keyword Planner：Google Ads アカウントと請求情報の入力が必要（無料かは公式が明記せず）、検索ボリュームは範囲値になりうる | https://support.google.com/google-ads/answer/7337243?hl=en ／ https://www.techbang.com/posts/115365-how-to-stay-on-top-of-seo-keyword-traffic-seo-experts | Techbang は著者が Ranking 社所属と明記（宣伝色あり） |
 | Semrush：Free $0；SEO プラン $139/月（月払い）・$117.33/月（年払い換算）、通貨コード未記載 | https://www.semrush.com/prices/ ／ https://www.semrush.com/pricing/ | 台灣向け比較表 |
