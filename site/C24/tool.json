@@ -55,5 +55,6 @@
     "size": 1000,
     "max": 5000,
     "unit_cost": 0.09
-  }
+  },
+  "copy": true
 }

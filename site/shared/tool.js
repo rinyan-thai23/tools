@@ -1,7 +1,7 @@
 // 全ツール共通の動き。ツールごとの違いは site/Cxx/tool.json に書く。
 import { callApi, getApi, ApiError } from '/shared/api.js';
 import { extractRows, extractAnswer, extractExtra, parseVideoId, parseDomain } from '/shared/rows.js';
-import { init, t, fillMarkets, renderTable, renderAnswer, renderChart, loadAuthImages, downloadCsv, fmtDate, startProgress } from '/shared/ui.js';
+import { init, t, fillMarkets, renderTable, renderAnswer, renderChart, loadAuthImages, downloadCsv, fmtDate, startProgress, tableToTsv, copyText } from '/shared/ui.js';
 
 const id = document.body.dataset.tool;
 const cfg = await fetch(`/${id}/tool.json`).then((r) => r.json());
@@ -47,6 +47,8 @@ function show(task, meta, now) {
   loadAuthImages($('result'));
   $('meta').textContent = meta;
   $('csv').hidden = !rows.length;
+  $('copy').hidden = !(cfg.copy && rows.length);
+  renderAiBox();
 }
 
 function params() {
@@ -100,8 +102,44 @@ async function sendAll(p, pg) {
   return { task: { ...first, result }, cost: Math.round(cost * 1e6) / 1e6, time };
 }
 
+// ---- コピー・AI分析プロンプト（tool.json の copy: true のツールだけ。プロンプトの文は、ロケールの <id>.ai_prompt）
+let dataDate = '';
+const selText = (id) => { const e = $(id); return e && e.selectedOptions && e.selectedOptions[0] ? e.selectedOptions[0].textContent : ''; };
+const MAX_CHARS = 120000;
+function aiData() { // データの文字。大きすぎるときは、先頭の行だけにする
+  let text = tableToTsv(cols, rows, more), n = rows.length, truncated = false;
+  if (text.length > MAX_CHARS) {
+    let keep = rows.length; while (keep > 1 && tableToTsv(cols, rows.slice(0, keep)).length > MAX_CHARS) keep = Math.floor(keep * 0.9);
+    text = tableToTsv(cols, rows.slice(0, keep)); n = keep; truncated = true;
+  }
+  return { text, n, truncated };
+}
+function renderAiBox() {
+  const box = $('ai-box');
+  if (!cfg.copy || !rows.length || !(`${key}.ai_prompt` in L())) { box.hidden = true; box.innerHTML = ''; return; }
+  const d = aiData();
+  const vars = { date: dataDate, country: selText('country'), language: selText('language'), n: rows.length };
+  const marker = t('ui.ai_data_here');
+  const shown = t(`${key}.ai_prompt`, { ...vars, data: marker });
+  box.hidden = false;
+  box.innerHTML = `<details><summary>${t('ui.ai_title')}</summary>
+    <p class="note">${t('ui.ai_note')}</p>
+    <textarea id="ai-text" rows="16" spellcheck="false"></textarea>
+    <p class="note">${t('ui.ai_size', { n: d.n, k: d.text.length.toLocaleString() })}${d.truncated ? ' ' + t('ui.ai_trunc', { n: d.n }) : ''}</p>
+    <button id="ai-copy-prompt" class="sub">${t('ui.ai_copy_prompt')}</button>
+    <button id="ai-copy-all">${t('ui.ai_copy_all')}</button>
+    <span id="ai-msg" class="note" role="status"></span></details>`;
+  const ta = $('ai-text'); ta.value = shown;
+  const say = (ok) => { $('ai-msg').textContent = ok ? t('ui.copied') : t('ui.copy_failed'); setTimeout(() => ($('ai-msg').textContent = ''), 2500); };
+  $('ai-copy-prompt').onclick = async () => say(await copyText(ta.value));
+  $('ai-copy-all').onclick = async () => { // マーカーの場所にデータを入れる（消されていたら、最後に付ける）
+    const v = ta.value; const full = v.includes(marker) ? v.split(marker).join(d.text) : v + '\n\n' + d.text;
+    say(await copyText(full));
+  };
+}
+const L = () => window.__L || {};
 async function run() {
-  $('answer').innerHTML = ''; $('result').innerHTML = ''; $('meta').textContent = ''; $('csv').hidden = true;
+  $('answer').innerHTML = ''; $('result').innerHTML = ''; $('meta').textContent = ''; $('csv').hidden = true; $('copy').hidden = true; $('ai-box').hidden = true;
   $('msg').textContent = '';
   $('run').disabled = true;
   const pg = startProgress($('msg'), t(`${key}.eta`));
@@ -110,6 +148,7 @@ async function run() {
     let { task, cost, time } = await sendAll(params(), pg);
     if (cfg.result.lookup) { const lk = await getApi(cfg.result.lookup.endpoint); lookupMap = lk ? Object.fromEntries((lk.result || []).map((x) => [x[cfg.result.lookup.key], x[cfg.result.lookup.value]])) : null; }
     const took = pg.stop();
+    dataDate = new Date().toISOString().slice(0, 10);
     show(task, `${t('ui.cost')}: $${cost} ／ ${t('ui.took')}: ${took}${t('ui.sec')} ／ ${t('ui.fetched')}: ${fmtDate(time)}`);
   } catch (e) {
     pg.stop();
@@ -128,6 +167,7 @@ async function sample() {
   lookupMap = s.tasks[0].lookup || null;
   $('msg').className = 'banner';
   $('msg').textContent = t('ui.sample_notice', { date: s.fetched_at });
+  dataDate = s.fetched_at;
   show(s.tasks[0], '', new Date(`${s.fetched_at}-15`)); // サンプルは、取った月を「今月」として扱う
 }
 
@@ -146,5 +186,6 @@ if (cfg.chunk) { // 入力した語数と、送る回数・料金の目安を、
 }
 $('run').onclick = run;
 $('sample').onclick = sample;
+$('copy').onclick = async () => { const ok = await copyText(tableToTsv(cols, rows, more)); $('copy-msg').textContent = ok ? t('ui.copied') : t('ui.copy_failed'); setTimeout(() => ($('copy-msg').textContent = ''), 2500); };
 $('csv').onclick = () => downloadCsv(cfg.csv || `${id}.csv`, cols, rows, more);
 await sample();

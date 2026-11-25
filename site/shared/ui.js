@@ -9,6 +9,7 @@ export const t = (k, v = {}) => (L[k] || k).replace(/\{(\w+)\}/g, (_, n) => v[n]
 const getJson = (u) => fetch(u).then((r) => r.json());
 export async function init() {
   L = await getJson(`/locales/${lang}.json`);
+  window.__L = L;
   document.querySelectorAll('[data-i18n]').forEach((el) => (el.textContent = t(el.dataset.i18n)));
   const cfg = await getJson('/shared/site-config.json');
   renderKeyBox(document.getElementById('keybox'), cfg.referral_url);
@@ -134,6 +135,24 @@ export function downloadCsv(name, cols, rows, more = []) {
   a.href = URL.createObjectURL(new Blob(['﻿' + text], { type: 'text/csv;charset=utf-8' }));
   a.download = name; a.click();
   setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+}
+
+// 表をタブ区切りの文字にする（表計算に貼れる形。2つ目以降の表も、空行をはさんで続ける）
+export function tableToTsv(cols, rows, more = []) {
+  const c = (v) => String(v ?? '').replace(/[\t\r\n]+/g, ' ').trim();
+  const block = (cs, rs) => [cs.map((x) => c(x.label)).join('\t'), ...rs.map((r) => cs.map((x) => c(r[x.key])).join('\t'))];
+  return [...block(cols, rows), ...more.flatMap((m) => ['', c(m.title), ...block(m.cols, m.rows)])].join('\n');
+}
+
+// クリップボードにコピー（使えないブラウザでは、選択してコピーする方法に切り替える）
+export async function copyText(text) {
+  try { await navigator.clipboard.writeText(text); return true; } catch { /* 下へ */ }
+  try {
+    const ta = document.createElement('textarea');
+    ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta); ta.select();
+    const ok = document.execCommand('copy'); ta.remove(); return ok;
+  } catch { return false; }
 }
 
 export const fmtDate = (d) => d.toLocaleString(lang);

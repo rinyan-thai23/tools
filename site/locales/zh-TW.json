@@ -701,5 +701,15 @@
   "ui.chunk_one": "{n} 個關鍵字 → 以 1 次呼叫送出（約 ${cost}）",
   "ui.chunk_multi": "{n} 個關鍵字 → 每 1,000 個分成 {calls} 次送出（約 ${cost}）",
   "ui.chunk_over": "上限為 {max} 個關鍵字，超過的部分不會送出。",
-  "ui.chunk_progress": "送出中（第 {n}/{m} 次）"
+  "ui.chunk_progress": "送出中（第 {n}/{m} 次）",
+  "ui.copy": "複製表格",
+  "ui.copied": "已複製",
+  "ui.copy_failed": "無法複製，請手動選取表格後複製。",
+  "ui.ai_title": "用 AI 分析（複製提示詞）",
+  "ui.ai_note": "貼到 ChatGPT、Claude、Gemini 等使用。資料在你自己複製貼上之前，不會傳送到任何地方。貼上前可以先修改內容。",
+  "ui.ai_copy_prompt": "只複製提示詞",
+  "ui.ai_copy_all": "複製提示詞＋資料",
+  "ui.ai_size": "資料：{n} 列，約 {k} 字",
+  "ui.ai_trunc": "資料較大，只放入前 {n} 列（完整資料請用 CSV）。",
+  "ui.ai_data_here": "«這裡會放入表格資料»"
 }

@@ -901,5 +901,16 @@
   "ui.chunk_one": "{n} keywords → sent in 1 call (about ${cost})",
   "ui.chunk_multi": "{n} keywords → sent in {calls} calls of up to 1,000 (about ${cost})",
   "ui.chunk_over": "The limit is {max} keywords; the rest are not sent.",
-  "ui.chunk_progress": "Sending (call {n} of {m})"
+  "ui.chunk_progress": "Sending (call {n} of {m})",
+  "ui.copy": "Copy table",
+  "ui.copied": "Copied",
+  "ui.copy_failed": "Could not copy. Please select the table and copy it by hand.",
+  "ui.ai_title": "Analyze with AI (copy the prompt)",
+  "ui.ai_note": "Paste into ChatGPT, Claude, Gemini, etc. Your data is not sent anywhere until you copy and paste it yourself. You can edit the text first.",
+  "ui.ai_copy_prompt": "Copy prompt only",
+  "ui.ai_copy_all": "Copy prompt + data",
+  "ui.ai_size": "Data: {n} rows, about {k} characters",
+  "ui.ai_trunc": "The data is large, so only the first {n} rows are included (use CSV for all).",
+  "ui.ai_data_here": "«The table data goes here»",
+  "c24.ai_prompt": "You are an assistant who helps a beginner blogger choose which keywords to write about.\nThe reader is about to write articles and wants to decide \"which keyword should I write about?\"\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Keywords: {n}\n- Columns\n  - Monthly searches: an estimate based on Google Ads data. Blank means \"no data\", not necessarily zero.\n  - CPC (USD): the average price per click for advertisers. It is not the value of an article.\n  - Competition (0-100): how competitive the keyword is for ads. It is not SEO difficulty.\n  - Last 12 months: monthly search volume, from the newest month to the oldest.\n\n# What I would like you to do\n1. From the keywords that have a monthly search number, pick 5 that look easy for a beginner to write about. Explain why, using the numbers in the data.\n2. Tell me if any keyword rises and falls with the seasons in the last 12 months (\"none\" is fine).\n3. For keywords with blank monthly searches, briefly write what to check before deciding to write about them.\n4. List 3 next steps in order.\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table (keyword / monthly searches / reason).\n\n# Data (tab-separated)\n```\n{data}\n```"
 }

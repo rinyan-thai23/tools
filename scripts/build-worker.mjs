@@ -73,7 +73,7 @@ for (const tool of tools) {
       SWITCH: switcher, TOP: topPath(l), TOPLABEL: T('ui.top'),
       NAME_KEY: `${k}.name`, NAME: T(`${k}.name`), DESC_KEY: `${k}.desc`, DESC: T(`${k}.desc`),
       PRICE_KEY: `${k}.price`, PRICE: T(`${k}.price`), INPUTS: inputs + chunkNote, MARKETS: markets, COUNT: count, SLOW: slow,
-      RUN: T('ui.run'), SAMPLE: T('ui.sample'), CSV: T('ui.csv'), CONTENT: read(`site/${id}/_content.${l}.html`),
+      RUN: T('ui.run'), SAMPLE: T('ui.sample'), CSV: T('ui.csv'), COPY: T('ui.copy'), CONTENT: read(`site/${id}/_content.${l}.html`),
     });
     addPage(`/${id}/${l}/index.html`, html);
   }
@@ -127,10 +127,16 @@ if (existsSync('articles/index.json')) {
   const shell = (title, desc, canon, body) => `<!doctype html>\n<html lang="ja">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width,initial-scale=1">\n<title>${esc(title)}</title>\n<meta name="description" content="${esc(desc)}">\n<link rel="canonical" href="{{SITE_URL}}${canon}">\n<meta property="og:title" content="${esc(title)}">\n<meta property="og:description" content="${esc(desc)}">\n<link rel="stylesheet" href="/shared/style.css">\n</head>\n<body>\n<!--SITE_HEADER-->\n${body}\n<!--SITE_FOOTER-->\n</body>\n</html>\n`;
   addPage('/articles/index.html', shell('記事一覧｜DataForSEO 1機能ツール集', 'ツールで実際に調べたデータをそのまま載せた記事の一覧です。', '/articles/', `<p><a href="/">← ツール一覧</a></p>\n<h1>記事一覧</h1>\n<p>ツールを実際に使って調べたデータを、そのまま載せた記事です。ツールごとに並べています。</p>\n<div class="box">全記事のデータ取得に使ったAPI代の合計：<strong>${usdStr(realTotal)}（約${yen(realTotal)}円）</strong>（1ドル155円で計算）。記事ごとの金額は、下の一覧と各記事の末尾に書いています。</div>\n<p class="note">${nav}</p>\n${list.join('\n')}`));
   for (const a of arts) {
-    const body = read(`articles/${a.slug}.html`).replace(/<!--include:(\w+)-->/g, (m, n) => read(`articles/_inc/${n}.html`));
+    let body = read(`articles/${a.slug}.html`).replace(/<!--include:(\w+)-->/g, (m, n) => read(`articles/_inc/${n}.html`));
     const others = arts.filter((x) => x.slug !== a.slug).map((x) => `<li><a href="/articles/${x.slug}/">${esc(x.title)}</a></li>`).join('\n');
+    const tail = `<div class="box"><strong>この記事のデータ取得にかかったAPI代</strong>：${costLine(a.slug)}<br><span class="note">${esc((costs.per[a.slug] || {}).note || '')}（1ドル155円で計算）</span></div>\n<h2>関連する記事</h2>\n<ul>\n${others}\n</ul>`;
+    // 目次：h2 に id を付けて、先頭に一覧を出す
+    const heads = []; let hn = 0;
+    const addId = (h) => h.replace(/<h2>([\s\S]*?)<\/h2>/g, (m, tx) => { hn++; heads.push([hn, tx.replace(/<[^>]+>/g, '')]); return `<h2 id="s${hn}">${tx}</h2>`; });
+    body = addId(body); const tail2 = addId(tail);
+    const toc = heads.length >= 3 ? `<nav class="toc" aria-label="目次">\n<strong>目次</strong>\n<ol>\n${heads.map(([i, tx]) => `<li><a href="#s${i}">${tx}</a></li>`).join('\n')}\n</ol>\n</nav>\n` : '';
     addPage(`/articles/${a.slug}/index.html`, shell(`${a.title}｜DataForSEO 1機能ツール集`, a.description, `/articles/${a.slug}/`,
-      `<p><a href="/articles/">← 記事一覧</a></p>\n<article>\n<h1>${esc(a.title)}</h1>\n<p class="note">${esc(a.date)} ／ 運営者：Hideaki Takahashi</p>\n<p class="box">この記事のツール：<strong><a href="/${a.tool}/ja/">${a.tool} ${esc(tname(a.tool))}</a></strong><br><span class="note">${esc(tdesc(a.tool))}</span></p>\n${body}\n<div class="box"><strong>この記事のデータ取得にかかったAPI代</strong>：${costLine(a.slug)}<br><span class="note">${esc((costs.per[a.slug] || {}).note || '')}（1ドル155円で計算）</span></div>\n<h2>関連する記事</h2>\n<ul>\n${others}\n</ul>\n<p><a href="/about/">運営者について</a></p>\n</article>`));
+      `<p><a href="/articles/">← 記事一覧</a></p>\n<article>\n<h1>${esc(a.title)}</h1>\n<p class="note">${esc(a.date)} ／ 運営者：Hideaki Takahashi</p>\n<p class="box">この記事のツール：<strong><a href="/${a.tool}/ja/">${a.tool} ${esc(tname(a.tool))}</a></strong><br><span class="note">${esc(tdesc(a.tool))}</span></p>\n${toc}${body}\n${tail2}\n<p><a href="/about/">運営者について</a></p>\n</article>`));
   }
   // ツールページ（日本語）の下に「関連記事」
   for (const t of tools) {
