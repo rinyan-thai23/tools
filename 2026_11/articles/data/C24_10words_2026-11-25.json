@@ -1,0 +1,675 @@
+{
+    "version": "0.1.20261117",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "3.7134 sec.",
+    "cost": 0.09,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11250718-1289-0367-0000-bf2b9224ab8d",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "3.6069 sec.",
+            "cost": 0.09,
+            "result_count": 10,
+            "path": [
+                "v3",
+                "keywords_data",
+                "google_ads",
+                "search_volume",
+                "live"
+            ],
+            "data": {
+                "api": "keywords_data",
+                "function": "search_volume",
+                "se": "google_ads",
+                "keywords": [
+                    "キーワードプランナー",
+                    "MEO 対策",
+                    "キーワード 検索ボリューム",
+                    "検索順位 チェック",
+                    "検索結果 上位 調べる",
+                    "検索ボリューム 調べる",
+                    "SERP 分析",
+                    "検索ボリューム 推移",
+                    "検索ボリューム 一括",
+                    "検索意図 調べる"
+                ],
+                "location_code": 2392,
+                "language_code": "ja"
+            },
+            "result": [
+                {
+                    "keyword": "キーワードプランナー",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": "MEDIUM",
+                    "competition_index": 35,
+                    "search_volume": 14800,
+                    "low_top_of_page_bid": 1.87,
+                    "high_top_of_page_bid": 37.97,
+                    "cpc": 10.75,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 12100
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 12100
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 12100
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 12100
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 14800
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 12100
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 14800
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 14800
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 14800
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 14800
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 14800
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 14800
+                        }
+                    ]
+                },
+                {
+                    "keyword": "MEO 対策",
+                    "spell": "meo 対策",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": "MEDIUM",
+                    "competition_index": 60,
+                    "search_volume": 6600,
+                    "low_top_of_page_bid": 1.37,
+                    "high_top_of_page_bid": 6.31,
+                    "cpc": 6.85,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 5400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 5400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 6600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 6600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 6600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 5400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 6600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 8100
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 8100
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 8100
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 6600
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 6600
+                        }
+                    ]
+                },
+                {
+                    "keyword": "キーワード 検索ボリューム",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": "MEDIUM",
+                    "competition_index": 36,
+                    "search_volume": 390,
+                    "low_top_of_page_bid": 1.06,
+                    "high_top_of_page_bid": 3.39,
+                    "cpc": 2.84,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 320
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 260
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 320
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 320
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 480
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 480
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 590
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 590
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 590
+                        }
+                    ]
+                },
+                {
+                    "keyword": "検索順位 チェック",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 17,
+                    "search_volume": 210,
+                    "low_top_of_page_bid": 1.3,
+                    "high_top_of_page_bid": 3.92,
+                    "cpc": 3.61,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 260
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 320
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 320
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 320
+                        }
+                    ]
+                },
+                {
+                    "keyword": "検索結果 上位 調べる",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "検索ボリューム 調べる",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": "MEDIUM",
+                    "competition_index": 39,
+                    "search_volume": 70,
+                    "low_top_of_page_bid": 1.1,
+                    "high_top_of_page_bid": 3.41,
+                    "cpc": 2.43,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 140
+                        }
+                    ]
+                },
+                {
+                    "keyword": "SERP 分析",
+                    "spell": "serp 分析",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 8,
+                    "search_volume": 50,
+                    "low_top_of_page_bid": 3.21,
+                    "high_top_of_page_bid": 20.64,
+                    "cpc": null,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 50
+                        }
+                    ]
+                },
+                {
+                    "keyword": "検索ボリューム 推移",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 23,
+                    "search_volume": 30,
+                    "low_top_of_page_bid": 1.69,
+                    "high_top_of_page_bid": 2.97,
+                    "cpc": null,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 50
+                        }
+                    ]
+                },
+                {
+                    "keyword": "検索ボリューム 一括",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": "MEDIUM",
+                    "competition_index": 50,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": 9.2,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 10
+                        }
+                    ]
+                },
+                {
+                    "keyword": "検索意図 調べる",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                }
+            ]
+        }
+    ]
+}
