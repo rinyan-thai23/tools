@@ -1,7 +1,7 @@
 import sys; sys.path.insert(0,'/home/user/tools/scripts/aiprompts')
 from lib import *
 S={}
-S['C02']=dict(answer=True,who=('GoogleのAIモードの答えを読み解く手伝いをするアシスタント','Google AI Mode answers'),reader=('自分のサイトが、AIモードの答えに引用されるかを調べたい人です。','a person who wants to see whether their site is cited in Google AI Mode answers.'),
+S['C02']=dict(answer=True,who=('GoogleのAIモードの答えを読み解く手伝いをするアシスタント','an assistant who helps read Google AI Mode answers'),reader=('自分のサイトが、AIモードの答えに引用されるかを調べたい人です。','a person who wants to see whether their site is cited in Google AI Mode answers.'),
  cols=[('タイトル／URL：AIモードの答えが引用したページです。','Title / URL: the pages the AI Mode answer cited.'),'ai'],
  extra=[('引用元が1件も返らない質問もあります。','Some questions return no sources at all.')],
  tasks=[('答えの文章の内容を、3行で要約してください。','Summarize the answer in 3 lines.'),('引用元のドメインを数えて、何回出たかを教えてください。','Count the cited domains and tell me how many times each appears.'),('自分のサイトが引用されているかを確認するときに、見るべき点を3つ挙げてください。','List 3 points to check when seeing whether my site is cited.')],
