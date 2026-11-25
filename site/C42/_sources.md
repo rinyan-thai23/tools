@@ -11,3 +11,4 @@
 | Ahrefs：Starter $29/月（月繳，未標通貨碼）；Ahrefs Free 僅限自己的網站 | https://ahrefs.com/pricing | 台灣向け比較表。年繳額未掲載 |
 | Semrush：Free $0；SEO プラン $139/月（月払い）・$117.33/月（年払い換算）、通貨コード未記載 | https://www.semrush.com/prices/ ／ https://www.semrush.com/pricing/ | 台灣向け比較表 |
 | DataForSEO：momoshop.com.tw・pchome.com.tw で結果が取れた | 実測（2026-11-24） | |
+| 台灣範例 momoshop.com.tw：カテゴリ10015（37,252語・ETV約61.3万）、10010（ETV約120.8万）、総数2,027。カテゴリ名は台灣の実測データに含まれず未確認のため、本文は番号のみ。suumo.jp の10003（15.3万語・ETV約1,196万）は日本サイトの実測と明記 | 実測（2026-11-24） | zh-TW レビューで修正（10015の英語名を削除） |

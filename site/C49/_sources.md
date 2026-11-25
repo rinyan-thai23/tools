@@ -9,3 +9,4 @@
 | Ahrefs Free：自分で認証したサイトが対象／Semrush Domain Overview | https://ahrefs.com/webmaster-tools/ ／ https://ahrefs.com/site-explorer ／ https://www.semrush.com/features/organic-research/ | 料金は書かず「公式で確認」 |
 | Similarweb：免費網站為「限定機能の概要サンプル」、価格は取得できず（「公式で確認」）。台湾メディアで紹介あり | https://www.similarweb.com/pricing/ ／ https://uptogo.com.tw/科技/如何查詢網頁流量？/ | 台湾向け調査（zh_tw_competitors.md）。メディア本文は403で未確認、検索スニペットのみ。前の「月$125〜」は台湾向け調査で確認できず削除 |
 | DataForSEO：momoshop.com.tw・pchome.com.tw で結果が取得できた | 実測（2026-11-24） | |
+| DataForSEO（台湾）：momoshop.com.tw の推定流入5,904,171・キーワード225,959・$0.01212・0.1秒、順位帯12個 | 実測（2026-11-24、sample.zh-TW.json） | 日本の suumo.jp の値は本文に書かない |

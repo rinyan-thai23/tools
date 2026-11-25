@@ -3,7 +3,7 @@
 
 | 書いたこと | 出典 | 備考 |
 |---|---|---|
-| DataForSEO：既定は6か月$0.1272、date_fromで12か月$0.1364・約1秒、suumo.jpの月ごとの推定流入（2025-12 26.8M〜2026-11 19.7M）、最新月が低く出る | 実測（2026-11-24） | 最新月が途中かどうかは未確認と本文に明記 |
+| DataForSEO（台湾 momoshop.com.tw、12か月$0.1356・約0.5秒）：表は2025-11〜2026-10、etv 約998万→507万、キーワード数 約54万→30万（当月2026-11は除外）。以下は日本での実測：既定は6か月$0.1272、date_fromで12か月$0.1364・約1秒、suumo.jpの月ごとの推定流入（2025-12 26.8M〜2026-11 19.7M）、最新月が低く出る | 実測（2026-11-24） | 最新月が途中かどうかは未確認と本文に明記 |
 | DataForSEO：ETVの定義 | https://dataforseo.com/help-center/how-is-etv-calculated ／ https://docs.dataforseo.com/v3/dataforseo_labs-ranked_keywords-live/ | 公式 |
 | Similarweb：スタータープラン月$125〜 | https://www.similarweb.com/corp/pricing ／ https://www.getapp.com/business-intelligence-analytics-software/a/similarweb-pro/ | 公式が一次 |
 | Ahrefs Free（認証したサイトのみ）／Googleサーチコンソール | https://ahrefs.com/webmaster-tools/ ／ https://search.google.com/search-console/about ／ https://ahrefs.com/site-explorer | サーチコンソールは一般的な知識 |

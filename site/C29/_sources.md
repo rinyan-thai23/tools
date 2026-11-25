@@ -11,3 +11,4 @@
 | Google Keyword Planner：Google Ads アカウントと請求情報の入力が必要（無料かは公式が明記せず）、検索ボリュームは範囲値になりうる | https://support.google.com/google-ads/answer/7337243?hl=en ／ https://www.techbang.com/posts/115365-how-to-stay-on-top-of-seo-keyword-traffic-seo-experts | Techbang は著者が Ranking 社所属と明記（宣伝色あり） |
 | Ahrefs：Starter $29/月（月繳，未標通貨碼）；Ahrefs Free 僅限自己的網站 | https://ahrefs.com/pricing | 台灣向け比較表。年繳額未掲載 |
 | Ubersuggest：Individual $29/月・$192/年（USD、地域で価格調整あり）、月払いは7日間無料トライアル | https://www.ubersuggest.com/pricing | 台灣向け比較表 |
+| DataForSEO（台湾）：$0.011、16.7秒、53週、「電子書出版」10週のみ値あり・「部落格 寫作」は全週空 | 実測（2026-11-24、sample.zh-TW.json） | 日本の7.3秒は本文に書かない |
