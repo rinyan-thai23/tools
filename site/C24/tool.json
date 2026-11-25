@@ -10,7 +10,8 @@
       "param": "keywords",
       "label": "c24.keyword",
       "multiline": true,
-      "wrap": "lines"
+      "wrap": "lines",
+      "max": 5000
     }
   ],
   "result": {
@@ -47,5 +48,12 @@
   "sample_langs": [
     "zh-TW",
     "en"
-  ]
+  ],
+  "chunk": {
+    "param": "keywords",
+    "input": "keyword",
+    "size": 1000,
+    "max": 5000,
+    "unit_cost": 0.09
+  }
 }

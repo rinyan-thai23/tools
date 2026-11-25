@@ -1,10 +1,10 @@
 <section class="seo">
 <h2>Ways to check keyword search volume — and how the main tools compare</h2>
-<p>Before you write a blog post, you want to know <strong>how many times a month your target keyword is searched</strong>. Enter keywords one per line and this tool returns monthly search volume, CPC, competition and the last 12 months as a table with one row per keyword.</p>
+<p>Before you write a blog post, you want to know <strong>how many times a month your target keyword is searched</strong>. Enter keywords one per line and this tool returns monthly search volume, CPC, competition and the last 12 months as a table with one row per keyword. <strong>Up to 1,000 keywords cost $0.09 per call</strong>, and beyond 1,000 the tool splits the list and sends it automatically (up to 5,000).</p>
 <div class="scroll"><table>
 <thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>
 <tbody>
-<tr class="me"><td>This tool (DataForSEO)</td><td>Pay per request. $0.09 per call (measured; the same for 2 or 4 keywords)</td><td>Several keywords at once: volume, CPC, competition and a 12-month trend in one table. Save as CSV</td></tr>
+<tr class="me"><td>This tool (DataForSEO)</td><td>Pay per request. $0.09 per call of up to 1,000 keywords (measured: 4 and 538 keywords cost $0.09; 1,200 keywords were split into 2 calls and cost $0.18)</td><td>Hundreds to thousands of keywords at once: volume, CPC, competition and a 12-month trend in one table. Lists over 1,000 are split automatically. Save as CSV</td></tr>
 <tr><td>Google Keyword Planner (by hand)</td><td>Free (needs a Google Ads account). With little ad spend, numbers are said to appear as ranges (for example 1K–10K)</td><td>Google's own data. The rule for how exact the numbers are is not published</td></tr>
 <tr><td>Semrush Keyword Overview</td><td>Free plan available; paid plans are subscriptions (see the official site for prices)</td><td>Volume and related keyword data inside the Semrush suite (see the official site for limits)</td></tr>
 <tr><td>Ubersuggest</td><td>Subscription and one-time options are advertised (prices differ by source; see the official site)</td><td>Keyword research and light analysis</td></tr>
@@ -14,8 +14,9 @@
 <h2>Why use this tool</h2>
 <ul>
 <li><strong>Check many keywords together.</strong> Line up several post ideas and compare them in one call.</li>
-<li><strong>$0.09 for 4 keywords.</strong> In our sample "how to start a blog" showed 6,600 searches a month at a $6.06 CPC and "side hustle" 60,500. In our tests 2 and 4 keywords cost the same (DataForSEO's spec allows up to 1000).</li>
-<li><strong>A few seconds at most.</strong> Our 4-keyword U.S. sample took well under a second (0.04 s).</li>
+<li><strong>Up to 1,000 keywords for $0.09.</strong> That is about $0.00009 per keyword. In our U.S. sample "how to start a blog" showed 6,600 searches a month at a $6.06 CPC and "side hustle" 60,500. A 4-keyword and a 538-keyword list cost the same (measured).</li>
+<li><strong>Over 1,000 is fine.</strong> The tool splits the list into batches of 1,000 and sends them one after another. 1,200 keywords took 2 calls, cost $0.18, took about 10 seconds and came back as 1,200 rows (measured).</li>
+<li><strong>One number, not a range.</strong> Instead of a range such as 100–1K, you get a value such as 210 or 320 (keywords with very little search show a blank).</li>
 <li><strong>CPC and competition come along.</strong> A clue to what the keyword is worth to advertisers.</li>
 <li><strong>Save as CSV.</strong> Sort your candidates in a spreadsheet.</li>
 </ul>
@@ -24,6 +25,8 @@
 <ul>
 <li>You want to know <strong>how hard it is to rank</strong> → the "competition" column is Google Ads competition (0–100), not SEO difficulty.</li>
 <li>You want to check <strong>just one keyword cheaply</strong> → one call is $0.09 even for one keyword. It pays off with many keywords.</li>
+<li>You enter <strong>keywords with little search</strong> → the volume comes back blank. In our test about 60% of 538 phrases were blank. Blank keywords cost the same.</li>
+<li>You want <strong>more than 5,000 keywords</strong> → the tool's limit is 5,000 (5 calls, $0.45).</li>
 <li>You are fine with <strong>free</strong> → if rough numbers are enough, the free Keyword Planner does the job.</li>
 <li>CPC is in US dollars. The tool does not convert it.</li>
 </ul>
@@ -31,7 +34,8 @@
 
 <h2>FAQ</h2>
 <details><summary>In what order is the 12-month trend?</summary><p>From the newest month to the oldest, as "5400 / 8100 / …". In our sample the first value is October 2026.</p></details>
-<details><summary>How many keywords can I enter?</summary><p>DataForSEO's spec says up to 1000. We confirmed up to 4 here.</p></details>
+<details><summary>How many keywords can I enter?</summary><p>One call carries up to 1,000. Beyond that the tool splits the list into batches of 1,000 and sends them one after another (up to 5,000 in total, 5 calls, $0.45). The screen shows the keyword count, the number of calls and the approximate cost. We tested 4, 538 and 1,200 (2 calls).</p></details>
+<details><summary>Why are some volumes blank?</summary><p>Google does not show a figure for keywords with very little search. It does not mean nobody searches them.</p></details>
 <details><summary>What is "competition"?</summary><p>The API's Google Ads competition figure (0–100). A higher number means more advertisers bid on the keyword.</p></details>
 <details><summary>Are the numbers the same as Google Keyword Planner?</summary><p>The source is Google Ads data, but the way it is shown may differ.</p></details>
 <details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href="/dfs-en.html">What is DataForSEO?</a></p></details>

@@ -59,6 +59,7 @@ for (const tool of tools) {
     const L = locales[l];
     const T = (key) => esc(L[key] ?? '');
     const inputs = tool.inputs.map((i) => `<label><span data-i18n="${i.label}">${T(i.label)}</span>${i.select ? `<select id="in-${i.id}">${i.select.map((o) => `<option value="${esc(o.value)}" data-i18n="${o.label}">${T(o.label)}</option>`).join('')}</select>` : i.multiline ? `<textarea id="in-${i.id}" rows="4"></textarea>` : `<input id="in-${i.id}" type="text"${i.datalist ? ` list="dl-${i.id}"` : ''}>${i.datalist ? `<datalist id="dl-${i.id}"></datalist>` : ''}`}</label>`).join('\n');
+    const chunkNote = tool.chunk ? '<p class="note" id="chunk-note"></p>' : '';
     const cSel = `<label><span data-i18n="ui.country">${T('ui.country')}</span><select id="country"></select></label>`;
     const lSel = `<label><span data-i18n="ui.language">${T('ui.language')}</span><select id="language"></select></label>`;
     const markets = tool.markets === 'country' ? cSel : tool.markets === 'language' ? lSel : tool.markets ? `<div class="row">\n  ${cSel}\n  ${lSel}\n</div>` : '';
@@ -71,7 +72,7 @@ for (const tool of tools) {
       LANG: l, ID: id, TITLE: T(`${k}.title`), META: T(`${k}.meta`), ALT: alt, CANON: `{{SITE_URL}}/${id}/${l}/`,
       SWITCH: switcher, TOP: topPath(l), TOPLABEL: T('ui.top'),
       NAME_KEY: `${k}.name`, NAME: T(`${k}.name`), DESC_KEY: `${k}.desc`, DESC: T(`${k}.desc`),
-      PRICE_KEY: `${k}.price`, PRICE: T(`${k}.price`), INPUTS: inputs, MARKETS: markets, COUNT: count, SLOW: slow,
+      PRICE_KEY: `${k}.price`, PRICE: T(`${k}.price`), INPUTS: inputs + chunkNote, MARKETS: markets, COUNT: count, SLOW: slow,
       RUN: T('ui.run'), SAMPLE: T('ui.sample'), CSV: T('ui.csv'), CONTENT: read(`site/${id}/_content.${l}.html`),
     });
     addPage(`/${id}/${l}/index.html`, html);

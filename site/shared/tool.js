@@ -84,6 +84,22 @@ function params() {
   return p;
 }
 
+// 件数が多いとき、APIの上限（1回ぶん）ごとに分けて、順に送る。結果は1つにまとめ、料金は合計する（tool.json の chunk）
+async function sendAll(p, pg) {
+  const c = cfg.chunk, list = c && p[c.param];
+  if (!c || !Array.isArray(list) || list.length <= c.size) return callApi(cfg.endpoint, p, { onRetry: pg.retry });
+  const parts = [];
+  for (let i = 0; i < list.length; i += c.size) parts.push(list.slice(i, i + c.size));
+  let first = null, cost = 0, result = [], time;
+  for (let n = 0; n < parts.length; n++) {
+    if (n) await new Promise((r) => setTimeout(r, 1500)); // 続けて送りすぎない
+    $('msg').textContent = t('ui.chunk_progress', { n: n + 1, m: parts.length });
+    const r = await callApi(cfg.endpoint, { ...p, [c.param]: parts[n] }, { onRetry: pg.retry });
+    first ||= r.task; cost += r.cost || 0; time = r.time; result = result.concat(r.task.result || []);
+  }
+  return { task: { ...first, result }, cost: Math.round(cost * 1e6) / 1e6, time };
+}
+
 async function run() {
   $('answer').innerHTML = ''; $('result').innerHTML = ''; $('meta').textContent = ''; $('csv').hidden = true;
   $('msg').textContent = '';
@@ -91,7 +107,7 @@ async function run() {
   const pg = startProgress($('msg'), t(`${key}.eta`));
   try {
     if (cfg.inputs.some((i) => i.transform === 'technology')) await loadTech();
-    const { task, cost, time } = await callApi(cfg.endpoint, params(), { onRetry: pg.retry });
+    let { task, cost, time } = await sendAll(params(), pg);
     if (cfg.result.lookup) { const lk = await getApi(cfg.result.lookup.endpoint); lookupMap = lk ? Object.fromEntries((lk.result || []).map((x) => [x[cfg.result.lookup.key], x[cfg.result.lookup.value]])) : null; }
     const took = pg.stop();
     show(task, `${t('ui.cost')}: $${cost} ／ ${t('ui.took')}: ${took}${t('ui.sec')} ／ ${t('ui.fetched')}: ${fmtDate(time)}`);
@@ -108,6 +124,7 @@ async function sample() {
   const s = await r.json();
   if (s.inputs) for (const [k, v] of Object.entries(s.inputs)) $('in-' + k).value = v; // 入力が複数あるツール
   else if (cfg.inputs.length) $('in-' + cfg.inputs[0].id).value = s.keyword;
+  document.querySelectorAll('[id^=in-]').forEach((e) => e.dispatchEvent(new Event('input'))); // 語数の表示などを更新
   lookupMap = s.tasks[0].lookup || null;
   $('msg').className = 'banner';
   $('msg').textContent = t('ui.sample_notice', { date: s.fetched_at });
@@ -117,6 +134,16 @@ async function sample() {
 await init();
 if (cfg.markets) await fillMarkets($('country'), $('language'), cfg.country_codes); // 'country' / 'language' のときは、ない方は null
 if (cfg.inputs.some((i) => i.transform === 'technology')) loadTech().catch(() => {});
+if (cfg.chunk) { // 入力した語数と、送る回数・料金の目安を、その場で見せる
+  const ta = $('in-' + cfg.chunk.input), nt = $('chunk-note');
+  const upd = () => {
+    const n = ta.value.split(/[\n,、]+/).map((x) => x.trim()).filter(Boolean).length, c = cfg.chunk;
+    if (!n) { nt.textContent = ''; return; }
+    const used = Math.min(n, c.max), calls = Math.ceil(used / c.size), cost = (calls * c.unit_cost).toFixed(2);
+    nt.textContent = (n > c.max ? t('ui.chunk_over', { max: c.max }) + ' ' : '') + (calls > 1 ? t('ui.chunk_multi', { n: used, calls, cost }) : t('ui.chunk_one', { n: used, cost }));
+  };
+  ta.addEventListener('input', upd); upd();
+}
 $('run').onclick = run;
 $('sample').onclick = sample;
 $('csv').onclick = () => downloadCsv(cfg.csv || `${id}.csv`, cols, rows, more);
