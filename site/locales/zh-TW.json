@@ -711,5 +711,16 @@
   "ui.ai_copy_all": "複製提示詞＋資料",
   "ui.ai_size": "資料：{n} 列，約 {k} 字",
   "ui.ai_trunc": "資料較大，只放入前 {n} 列（完整資料請用 CSV）。",
-  "ui.ai_data_here": "«這裡會放入表格資料»"
+  "ui.ai_data_here": "«這裡會放入表格資料»",
+  "ui.copy_row": "複製",
+  "ui.copy_row_title": "複製這一列（含標題）",
+  "ui.share": "複製含輸入內容的連結",
+  "ui.share_copied": "已複製連結（只含輸入內容與國家、語言，不含 API 金鑰）。",
+  "ui.share_too_long": "輸入內容太長，無法放進網址。",
+  "ui.shared_notice": "已填入分享連結中的輸入內容。確認後按「查詢」，會用你自己的 API 金鑰取得資料（會產生費用）。",
+  "ui.ai_mode_analyze": "分析",
+  "ui.ai_mode_diff": "和上次比較",
+  "ui.ai_prev_saved": "上次的資料（{date}）已存在這個瀏覽器中。「複製提示詞＋資料」會同時放入上次與這次的資料。",
+  "ui.ai_prev_none": "這個瀏覽器沒有上次的資料。請把上次用「複製表格」取得的文字，貼到 «請貼上上次的資料» 的位置。",
+  "ui.ai_prev_here": "«請貼上上次的資料»"
 }

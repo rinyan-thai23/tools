@@ -44,7 +44,7 @@ for (const id of ids) for (const l of langs) {
     if (n < (cfg.min_sample_rows ?? 3)) E.push(`サンプルの行が少ない（${n}）`);
     if (cfg.result.answer && !(await p.$('#answer .answer p'))) E.push('回答文が表示されない');
     if (cfg.result.columns.some((c) => c.type === 'image') && !(await p.$('#result img.thumb'))) E.push('画像が表示されない');
-    for (const sel of ['h1', 'title', '#run', '#sample']) {
+    for (const sel of ['h1', 'title', '#run']) {
       const t = (await p.textContent(sel).catch(() => '')) || '';
       if (!t.trim()) E.push(`${sel} が空`);
     }

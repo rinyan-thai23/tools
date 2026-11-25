@@ -73,7 +73,7 @@ for (const tool of tools) {
       SWITCH: switcher, TOP: topPath(l), TOPLABEL: T('ui.top'),
       NAME_KEY: `${k}.name`, NAME: T(`${k}.name`), DESC_KEY: `${k}.desc`, DESC: T(`${k}.desc`),
       PRICE_KEY: `${k}.price`, PRICE: T(`${k}.price`), INPUTS: inputs + chunkNote, MARKETS: markets, COUNT: count, SLOW: slow,
-      RUN: T('ui.run'), SAMPLE: T('ui.sample'), CSV: T('ui.csv'), COPY: T('ui.copy'), CONTENT: read(`site/${id}/_content.${l}.html`),
+      RUN: T('ui.run'), SAMPLE: T('ui.sample'), CSV: T('ui.csv'), COPY: T('ui.copy'), SHARE: T('ui.share'), CONTENT: read(`site/${id}/_content.${l}.html`),
     });
     addPage(`/${id}/${l}/index.html`, html);
   }

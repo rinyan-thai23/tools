@@ -28,6 +28,7 @@ function show(task, meta, now) {
   if (cfg.result.answer_only) $('result').innerHTML = '';
   else {
     renderTable($('result'), cols, rows);
+    addRowCopy();
     if (cfg.result.chart && rows.length) { const ch = document.createElement('div'); $('result').prepend(ch); renderChart(ch, cols, rows, cfg.result.chart); } // 表の上にグラフ（tool.json の result.chart）
     if (cfg.result.title && rows.length) $('result').insertAdjacentHTML('afterbegin', `<h2 class="sub-title">${t(cfg.result.title)}</h2>`);
   }
@@ -114,28 +115,80 @@ function aiData() { // データの文字。大きすぎるときは、先頭の
   }
   return { text, n, truncated };
 }
+// ---- 前回のデータ（このブラウザの localStorage に保存。比較プロンプト用）
+const hash = (str) => { let h = 5381; for (let i = 0; i < str.length; i++) h = ((h << 5) + h + str.charCodeAt(i)) | 0; return (h >>> 0).toString(36); };
+const prevKey = () => `dfs_prev:${id}:${lang()}:${hash(cfg.inputs.map((i) => $('in-' + i.id).value.trim()).join('\n') + '|' + ($('country') ? $('country').value : '') + '|' + ($('language') ? $('language').value : ''))}`;
+const lang = () => document.documentElement.lang;
+function readPrev() { try { return JSON.parse(localStorage.getItem(prevKey()) || 'null'); } catch { return null; } }
+function writePrev() { try { const d = aiData(); if (d.text.length < 400000) localStorage.setItem(prevKey(), JSON.stringify({ date: dataDate, text: d.text, n: d.n })); } catch { /* 保存できなくても、そのまま */ } }
+let prevRec = null, isSample = true;
 function renderAiBox() {
   const box = $('ai-box');
   if (!cfg.copy || !rows.length || !(`${key}.ai_prompt` in L())) { box.hidden = true; box.innerHTML = ''; return; }
   const d = aiData();
+  const hasDiff = `${key}.ai_prompt_diff` in L();
   const vars = { date: dataDate, country: selText('country'), language: selText('language'), n: rows.length };
-  const marker = t('ui.ai_data_here');
-  const shown = t(`${key}.ai_prompt`, { ...vars, data: marker });
+  const marker = t('ui.ai_data_here'), pmarker = t('ui.ai_prev_here');
+  const text = (mode) => (mode === 'diff'
+    ? t(`${key}.ai_prompt_diff`, { ...vars, data: marker, prev_data: pmarker, prev_date: prevRec ? prevRec.date : '', prev_n: prevRec ? prevRec.n : '' })
+    : t(`${key}.ai_prompt`, { ...vars, data: marker }));
   box.hidden = false;
   box.innerHTML = `<details><summary>${t('ui.ai_title')}</summary>
     <p class="note">${t('ui.ai_note')}</p>
+    ${hasDiff ? `<p><button id="ai-m-analyze" class="sub">${t('ui.ai_mode_analyze')}</button> <button id="ai-m-diff" class="sub">${t('ui.ai_mode_diff')}</button></p><p id="ai-prev-note" class="note"></p>` : ''}
     <textarea id="ai-text" rows="16" spellcheck="false"></textarea>
     <p class="note">${t('ui.ai_size', { n: d.n, k: d.text.length.toLocaleString() })}${d.truncated ? ' ' + t('ui.ai_trunc', { n: d.n }) : ''}</p>
     <button id="ai-copy-prompt" class="sub">${t('ui.ai_copy_prompt')}</button>
     <button id="ai-copy-all">${t('ui.ai_copy_all')}</button>
     <span id="ai-msg" class="note" role="status"></span></details>`;
-  const ta = $('ai-text'); ta.value = shown;
+  const ta = $('ai-text'); let mode = 'analyze'; ta.value = text(mode);
+  const setMode = (m) => {
+    mode = m; ta.value = text(m);
+    $('ai-m-analyze').classList.toggle('sub', m !== 'analyze'); $('ai-m-diff').classList.toggle('sub', m !== 'diff');
+    $('ai-prev-note').textContent = m === 'diff' ? (prevRec ? t('ui.ai_prev_saved', { date: prevRec.date }) : t('ui.ai_prev_none')) : '';
+  };
+  if (hasDiff) { $('ai-m-analyze').onclick = () => setMode('analyze'); $('ai-m-diff').onclick = () => setMode('diff'); setMode('analyze'); }
   const say = (ok) => { $('ai-msg').textContent = ok ? t('ui.copied') : t('ui.copy_failed'); setTimeout(() => ($('ai-msg').textContent = ''), 2500); };
   $('ai-copy-prompt').onclick = async () => say(await copyText(ta.value));
   $('ai-copy-all').onclick = async () => { // マーカーの場所にデータを入れる（消されていたら、最後に付ける）
-    const v = ta.value; const full = v.includes(marker) ? v.split(marker).join(d.text) : v + '\n\n' + d.text;
+    let v = ta.value;
+    if (mode === 'diff' && prevRec) v = v.split(pmarker).join(prevRec.text);
+    const full = v.includes(marker) ? v.split(marker).join(d.text) : v + '\n\n' + d.text;
     say(await copyText(full));
   };
+}
+// ---- 表の行ごとのコピー（見出し＋その行を、タブ区切りで）
+function addRowCopy() {
+  if (!cfg.copy) return;
+  const tb = $('result').querySelector('table'); if (!tb || tb.dataset.rc) return; tb.dataset.rc = '1';
+  tb.querySelector('thead tr').insertAdjacentHTML('beforeend', '<th></th>');
+  const one = (r) => tableToTsv(cols, [r]);
+  tb.querySelectorAll('tbody tr').forEach((tr, i) => {
+    const td = document.createElement('td'); const b = document.createElement('button');
+    b.type = 'button'; b.className = 'sub rowcopy'; b.textContent = t('ui.copy_row'); b.title = t('ui.copy_row_title');
+    b.onclick = async () => { const ok = await copyText(one(rows[i])); b.textContent = ok ? t('ui.copied') : t('ui.copy_failed'); setTimeout(() => (b.textContent = t('ui.copy_row')), 1500); };
+    td.appendChild(b); tr.appendChild(td);
+  });
+}
+// ---- 入力を共有するURL（入力・国・言語だけ。APIキーは入れない）
+const SHARE_MAX = 4000;
+function shareUrl() {
+  const q = new URLSearchParams();
+  cfg.inputs.forEach((i) => { const v = $('in-' + i.id).value.trim(); if (v) q.set('i_' + i.id, v); });
+  if ($('country')) q.set('country', $('country').value); if ($('language')) q.set('language', $('language').value);
+  if ($('count')) q.set('count', $('count').value);
+  return `${location.origin}${location.pathname}?${q.toString()}`;
+}
+function applyShared() { // URLに入力があれば、入力欄に入れる（自動では実行しない）
+  const q = new URLSearchParams(location.search); let any = false;
+  cfg.inputs.forEach((i) => { if (q.has('i_' + i.id)) { $('in-' + i.id).value = q.get('i_' + i.id); any = true; } });
+  if (!any) return false;
+  if ($('country') && q.get('country')) $('country').value = q.get('country');
+  if ($('language') && q.get('language')) $('language').value = q.get('language');
+  if ($('count') && q.get('count')) $('count').value = q.get('count');
+  document.querySelectorAll('[id^=in-]').forEach((e) => e.dispatchEvent(new Event('input')));
+  $('msg').className = 'banner'; $('msg').textContent = t('ui.shared_notice');
+  return true;
 }
 const L = () => window.__L || {};
 async function run() {
@@ -149,7 +202,9 @@ async function run() {
     if (cfg.result.lookup) { const lk = await getApi(cfg.result.lookup.endpoint); lookupMap = lk ? Object.fromEntries((lk.result || []).map((x) => [x[cfg.result.lookup.key], x[cfg.result.lookup.value]])) : null; }
     const took = pg.stop();
     dataDate = new Date().toISOString().slice(0, 10);
+    isSample = false; prevRec = cfg.copy ? readPrev() : null;
     show(task, `${t('ui.cost')}: $${cost} ／ ${t('ui.took')}: ${took}${t('ui.sec')} ／ ${t('ui.fetched')}: ${fmtDate(time)}`);
+    if (cfg.copy) writePrev();
   } catch (e) {
     pg.stop();
     $('msg').className = 'err';
@@ -185,7 +240,8 @@ if (cfg.chunk) { // 入力した語数と、送る回数・料金の目安を、
   ta.addEventListener('input', upd); upd();
 }
 $('run').onclick = run;
-$('sample').onclick = sample;
 $('copy').onclick = async () => { const ok = await copyText(tableToTsv(cols, rows, more)); $('copy-msg').textContent = ok ? t('ui.copied') : t('ui.copy_failed'); setTimeout(() => ($('copy-msg').textContent = ''), 2500); };
 $('csv').onclick = () => downloadCsv(cfg.csv || `${id}.csv`, cols, rows, more);
-await sample();
+const shared = cfg.copy && applyShared();
+if (cfg.copy) { const sb = $('share'); sb.hidden = false; sb.onclick = async () => { const u = shareUrl(); if (u.length > SHARE_MAX) { $('copy-msg').textContent = t('ui.share_too_long'); return; } const ok = await copyText(u); $('copy-msg').textContent = ok ? t('ui.share_copied') : t('ui.copy_failed'); setTimeout(() => ($('copy-msg').textContent = ''), 3500); }; }
+if (!shared) await sample();

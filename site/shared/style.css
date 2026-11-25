@@ -70,3 +70,4 @@ pre.raw{overflow-x:auto;font-size:.8rem;background:rgba(127,127,127,.1);padding:
 .toc ol{margin:6px 0 4px;padding-left:1.4em}
 .toc li{margin:2px 0}
 article h2{scroll-margin-top:12px}
+button.rowcopy{padding:2px 8px;font-size:.75rem;white-space:nowrap}
