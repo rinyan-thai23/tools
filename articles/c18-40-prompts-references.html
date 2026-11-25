@@ -1,0 +1,52 @@
+<p>ChatGPTは、質問されると、いつもWeb検索をしているのでしょうか。<a href="/C18/ja/">ChatGPTの答えを見るツール</a>で、<strong>40の質問</strong>を1回ずつ聞いて、検索したか、どのページを参照したかを全部記録しました。</p>
+
+<h2>先に、わかったこと</h2>
+<ul>
+<li>40の質問のうち、Web検索をしたのは<strong>21問</strong>、しなかったのは<strong>19問</strong>でした。</li>
+<li>Web検索をしたのは、「お店を3つ教えて」のような<strong>場所の質問</strong>や、「最新の」「今日の」を含む質問が中心でした。</li>
+<li>検索をした21問が参照したページは、合計<strong>313件</strong>（重なりを含む）で、ドメインは<strong>200種類</strong>でした。</li>
+<li>検索をしたときとしないときで、1回の費用が大きく違いました（下の表）。</li>
+</ul>
+
+<h2>検索あり・なしで、費用がちがう</h2>
+<div class="scroll"><table class="data"><thead><tr><th></th><th>回数</th><th>1回あたりの費用(USD)</th><th>入力トークン(平均)</th><th>出力トークン(平均)</th></tr></thead><tbody>
+<tr><td>Web検索あり</td><td>31</td><td>0.0272</td><td>8,174</td><td>607</td></tr>
+<tr><td>Web検索なし</td><td>19</td><td>0.0009</td><td>325</td><td>428</td></tr>
+</tbody></table></div>
+<p class="note">この表は、前の記事の10回（渋谷のラーメン）と、この記事の40問を合わせた50回の平均です。</p>
+<p>検索ありは、検索で見つけたページの文章が入力に加わるので、入力トークンが大きく増えます。そのぶん、費用も大きくなります。</p>
+
+<h2>Web検索をしなかった質問（19問）</h2>
+<ul><li>初心者向けのブログの始め方を教えてください</li><li>ワイヤレスイヤホンのおすすめを3つ教えてください</li><li>ノートパソコンの選び方を教えてください</li><li>京都で2日間の観光プランを教えてください</li><li>副業でおすすめのものを教えてください</li><li>確定申告のやり方を簡単に教えてください</li><li>転職エージェントの選び方を教えてください</li><li>SEOとは何ですか</li><li>英会話を独学で上達させる方法を教えてください</li><li>筋トレ初心者向けの週3日メニューを教えてください</li><li>カレーの簡単なレシピを教えてください</li><li>美容院を選ぶときのポイントを教えてください</li><li>日本のおすすめの温泉地を3つ教えてください</li><li>インボイス制度とは何ですか</li><li>在宅勤務に向いている椅子の選び方を教えてください</li><li>NISAの始め方を教えてください</li><li>犬を飼う前に知っておくことを教えてください</li><li>キーワードプランナーの使い方を教えてください</li><li>近くのおすすめのラーメン店を教えてください</li></ul>
+
+<h2>参照されたドメイン（上位）</h2>
+<p>検索をした質問のうち、そのドメインが参照された質問の数です。</p>
+<div class="scroll"><table class="data"><thead><tr><th>ドメイン</th><th>質問の数</th></tr></thead><tbody><tr><td>google.com</td><td>12</td></tr><tr><td>aumo.jp</td><td>6</td></tr><tr><td>beauty.hotpepper.jp</td><td>3</td></tr><tr><td>enjoytokyo.jp</td><td>2</td></tr><tr><td>hamoni.jp</td><td>2</td></tr><tr><td>livejapan.com</td><td>2</td></tr><tr><td>ekiten.jp</td><td>2</td></tr><tr><td>gltjp.com</td><td>2</td></tr></tbody></table></div>
+<p>google.comは、お店の質問でGoogleマップの検索リンクが参照ページに入っていたものです。全ドメインの一覧は<a href="/articles/data/c18-domains-2026-11-25.csv" download>CSV</a>にあります。</p>
+
+<h2>全データ：40の質問</h2>
+<p>質問ごとに、Web検索の有無、内部の検索ワード、参照ページ数、ドメイン数、トークン、費用です。</p>
+<p><a href="/articles/data/c18-40prompts-2026-11-25.csv" download>CSVでダウンロード（回答の全文を含む・40行）</a></p>
+<!--include:c18_prompts-->
+
+<h2>全データ：参照したページ（313件）</h2>
+<p>APIが返した参照ページを、URLのまま全部載せています（「?utm_source=openai」は除いています）。タイトルや抜粋は、APIが返さなかったので空欄です。</p>
+<p><a href="/articles/data/c18-40prompts-references-2026-11-25.csv" download>CSVでダウンロード</a></p>
+<details><summary>参照ページの一覧を開く（313件）</summary>
+<!--include:c18_refs-->
+</details>
+
+<h2>全データ：回答の全文（40問）</h2>
+<!--include:c18_answers40-->
+
+<h2>どうやって調べたか</h2>
+<div class="box">
+<ul>
+<li>日付：2026年11月25日</li>
+<li>質問40個：一般的な質問20個（ブログ、家電、旅行、お金、レシピなど）と、新しさ・場所・価格をふくむ質問20個。私が選びました。1つの質問につき1回</li>
+<li>モデル：gpt-4o-mini（gpt-4o-mini-2024-07-18）、Web検索ができる設定（使うかどうかは、ChatGPTが決めます）</li>
+<li>ツール：<a href="/C18/ja/">ChatGPTの答えを見る（C18）</a></li>
+<li>費用：40問で<strong>$0.5887</strong></li>
+</ul>
+</div>
+<p class="note">このツールが呼ぶChatGPTは<strong>gpt-4o-mini（モデル名：gpt-4o-mini-2024-07-18）、Web検索ができる設定</strong>です。画面のChatGPTと同じ答えになるとは限りません。検索をするかどうかは、質問の言い方でも変わると考えられます。この結果は、この40問についてのものです。</p>

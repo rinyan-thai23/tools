@@ -1,0 +1,39 @@
+<p>「ChatGPTの画面で聞けば同じでは？」と思うかもしれません。<a href="/C18/ja/">ChatGPTの答えを見るツール</a>は、ChatGPTのAPIを使っています。画面と同じではありません。ここでは、分かっている違いと、実測した事実を整理します。</p>
+
+<h2>違いを並べる</h2>
+<div class="scroll"><table>
+<thead><tr><th>項目</th><th>ChatGPTの画面</th><th>このツール（API）</th></tr></thead>
+<tbody>
+<tr><td>使うモデル</td><td>画面や契約の種類で変わることがあります（OpenAIの公式で確認）</td><td>gpt-4o-mini（実測：gpt-4o-mini-2024-07-18）</td></tr>
+<tr><td>Web検索</td><td>画面の設定や質問による</td><td>使える設定。使うかどうかはChatGPTが決める（実測：40問のうち21問で検索）</td></tr>
+<tr><td>あなたの履歴・設定</td><td>ログインした人の履歴や設定が影響することがあります</td><td>履歴のない、1回ごとの質問</td></tr>
+<tr><td>結果の保存</td><td>画面を見る</td><td>表とCSVで保存できる</td></tr>
+<tr><td>まとめて確認</td><td>1問ずつ</td><td>1問ずつ実行（結果をCSVで保存）</td></tr>
+<tr><td>内部の検索ワード</td><td>画面では見えない</td><td>見える（実測：検索した31回で31個）</td></tr>
+<tr><td>費用</td><td>契約による（公式で確認）</td><td>1回ごとの従量課金（実測：検索あり約$0.0272、検索なし約$0.0009）</td></tr>
+</tbody></table></div>
+<p class="note">ChatGPTの画面についての項目は、一般的な説明です。細かい仕様は変わることがあるので、公式で確認してください。</p>
+
+<h2>どう使い分ける？</h2>
+<ul>
+<li><strong>自分の画面で、ちょっと試してみたい</strong> → ChatGPTの画面で十分です。無料でも試せます。</li>
+<li><strong>お客さんがどう聞いても同じ状態で、答えを記録したい。内部の検索ワードも見たい</strong> → このツールが向いています。</li>
+</ul>
+<p>確認だけなら、まずChatGPTの画面で聞いてみてください。記録として残したくなったら、このツールを使ってみてください。</p>
+
+<h2>このツールで、できないこと</h2>
+<ul>
+<li><strong>画面のChatGPTと、同じ答えを出すこと。</strong>モデルや条件が違います。</li>
+<li><strong>同じ質問で、いつも同じ答えを出すこと。</strong>10回聞いて、店の組み合わせは3通りに分かれました（<a href="/articles/c18-ramen-10-times/">10回の記事</a>）。</li>
+<li><strong>ChatGPTに載る方法を教えること。</strong>データを見せるだけで、「こうすれば載る」とは言えません。</li>
+<li><strong>Claude・Gemini・Perplexityの答え。</strong>それぞれ別のツール（C19・C20・C21）です。</li>
+</ul>
+
+<h2>どうやって調べたか</h2>
+<div class="box">
+<ul>
+<li>日付：2026年11月25日</li>
+<li>実測：<a href="/articles/c18-ramen-10-times/">10回の記事</a>と<a href="/articles/c18-40-prompts-references/">40問の記事</a>の結果（合計50回）</li>
+<li>ChatGPTの画面についての説明：一般的な内容です</li>
+</ul>
+</div>

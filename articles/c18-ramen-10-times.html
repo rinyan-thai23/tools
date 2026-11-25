@@ -1,0 +1,51 @@
+<p>お店のオーナーなら、「お客さんがChatGPTに聞いたとき、うちの店は出てくるのかな」と気になります。でも、ChatGPTは聞くたびに答えが変わる、と聞いたことがあるかもしれません。それなら、<strong>同じ質問を10回</strong>したら、どれくらい変わるのでしょうか。<a href="/C18/ja/">ChatGPTの答えを見るツール</a>で、実際に10回聞いてみました。</p>
+
+<h2>聞いた質問</h2>
+<div class="box"><strong>渋谷でおすすめのラーメン店を3つ教えてください</strong></div>
+<p>このツールが呼ぶChatGPTは<strong>gpt-4o-mini（モデル名：gpt-4o-mini-2024-07-18）、Web検索ができる設定</strong>です。画面のChatGPTと同じ答えになるとは限りません。</p>
+
+<h2>先に、わかったこと</h2>
+<ul>
+<li>10回の答えは、<strong>3つの店の組み合わせ</strong>に分かれました（表記ゆれを含みます）。</li>
+<li>「らーめん はやし」は<strong>10回すべて</strong>、「鬼そば 藤谷」は<strong>9回</strong>に出ました。</li>
+<li>3つ目の店は、「喜楽」が7回、「中華麺店 喜楽」が3回、「麺処まろ」が1回でした。</li>
+<li>ChatGPTが答える前に内部で検索した言葉は、ほぼ同じでしたが、少し違う回もありました。</li>
+</ul>
+<p>くじ引きでいうと、「1等と2等はほぼ毎回当たるけれど、3等はたまに入れ替わる」という感じです。</p>
+
+<h2>店の出方</h2>
+<div class="scroll"><table class="data"><thead><tr><th>答えに書かれた店名</th><th>10回のうち出た回数</th></tr></thead><tbody>
+<tr><td>らーめん はやし</td><td>10</td></tr><tr><td>鬼そば 藤谷</td><td>9</td></tr><tr><td>喜楽</td><td>7</td></tr><tr><td>中華麺店 喜楽</td><td>3</td></tr><tr><td>麺処まろ</td><td>1</td></tr>
+</tbody></table></div>
+<p class="note">「喜楽」と「中華麺店 喜楽」は、書かれた名前のまま別に数えています。同じ店かどうかの判断はしていません。</p>
+
+<h2>店の組み合わせ（10回）</h2>
+<div class="scroll"><table class="data"><thead><tr><th>答えに出た店の組み合わせ</th><th>回数</th></tr></thead><tbody>
+<tr><td>らーめん はやし ／ 喜楽 ／ 鬼そば 藤谷</td><td>6</td></tr><tr><td>らーめん はやし ／ 中華麺店 喜楽 ／ 鬼そば 藤谷</td><td>3</td></tr><tr><td>らーめん はやし ／ 喜楽 ／ 麺処まろ</td><td>1</td></tr>
+</tbody></table></div>
+
+<h2>ChatGPTが内部で検索した言葉</h2>
+<p>答える前に、ChatGPTは自分で検索しています。その言葉です（APIが返した<code>fan_out_queries</code>）。</p>
+<div class="scroll"><table class="data"><thead><tr><th>内部の検索ワード</th><th>10回のうち</th></tr></thead><tbody><tr><td>渋谷 おすすめ ラーメン店</td><td>7</td></tr><tr><td>渋谷 おすすめ ラーメン店 2023</td><td>2</td></tr><tr><td>渋谷 ラーメン おすすめ</td><td>1</td></tr></tbody></table></div>
+<p>内部の検索ワードは、<a href="/articles/c18-fan-out-queries/">別の記事</a>で全部並べました。</p>
+
+<h2>全データ（10回ぶん）</h2>
+<p>1回ごとの店名、内部の検索ワード、参照したページ数、使ったトークン、費用です。出力トークンは488〜550の間でした。</p>
+<p><a href="/articles/data/c18-ramen-10runs-2026-11-25.csv" download>CSVでダウンロード（回答の全文を含む）</a></p>
+<!--include:c18_runs-->
+
+<h2>回答の全文（10回）</h2>
+<p>返ってきた文章を、そのまま載せています。店名の文字には、Googleマップの検索リンクがついています。</p>
+<!--include:c18_answers10-->
+
+<h2>どうやって調べたか</h2>
+<div class="box">
+<ul>
+<li>日付：2026年11月25日</li>
+<li>質問：「渋谷でおすすめのラーメン店を3つ教えてください」（同じ文を10回、続けて）</li>
+<li>モデル：gpt-4o-mini（gpt-4o-mini-2024-07-18）、Web検索ができる設定</li>
+<li>ツール：<a href="/C18/ja/">ChatGPTの答えを見る（C18）</a></li>
+<li>費用：10回で<strong>$0.2714</strong>（1回あたり約$0.027）</li>
+</ul>
+</div>
+<p class="note">1つの質問、1つの日付の結果です。ほかの質問や日にちでは、違う結果になることがあります。実在のお店の名前は、ChatGPTが答えた文字をそのまま載せたもので、お店の評価ではありません。</p>
