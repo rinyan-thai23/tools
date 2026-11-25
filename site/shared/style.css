@@ -54,3 +54,5 @@ ul.tools{padding-left:1.2em}
 .answer, .answer a { overflow-wrap: anywhere; }
 
 .shot{width:min(100%,640px);height:480px;object-fit:cover;object-position:top;border:1px solid #ccc;border-radius:4px;margin-top:6px}
+
+.chart{margin:0 0 16px;color:var(--fg,#222)}.chart svg{display:block;max-width:100%;height:auto}

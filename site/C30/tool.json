@@ -30,7 +30,13 @@
         "label": "c30.col.value",
         "from": "values.0"
       }
-    ]
+    ],
+    "chart": {
+      "x": "period",
+      "y": [
+        "value"
+      ]
+    }
   },
   "csv": "C30.csv",
   "country_codes": [

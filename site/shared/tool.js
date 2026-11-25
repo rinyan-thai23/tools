@@ -1,7 +1,7 @@
 // 全ツール共通の動き。ツールごとの違いは site/Cxx/tool.json に書く。
 import { callApi, getApi, ApiError } from '/shared/api.js';
 import { extractRows, extractAnswer, extractExtra, parseVideoId, parseDomain } from '/shared/rows.js';
-import { init, t, fillMarkets, renderTable, renderAnswer, loadAuthImages, downloadCsv, fmtDate, startProgress } from '/shared/ui.js';
+import { init, t, fillMarkets, renderTable, renderAnswer, renderChart, loadAuthImages, downloadCsv, fmtDate, startProgress } from '/shared/ui.js';
 
 const id = document.body.dataset.tool;
 const cfg = await fetch(`/${id}/tool.json`).then((r) => r.json());
@@ -28,6 +28,7 @@ function show(task, meta) {
   if (cfg.result.answer_only) $('result').innerHTML = '';
   else {
     renderTable($('result'), cols, rows);
+    if (cfg.result.chart && rows.length) { const ch = document.createElement('div'); $('result').prepend(ch); renderChart(ch, cols, rows, cfg.result.chart); } // 表の上にグラフ（tool.json の result.chart）
     if (cfg.result.title && rows.length) $('result').insertAdjacentHTML('afterbegin', `<h2 class="sub-title">${t(cfg.result.title)}</h2>`);
   }
   // 2つ目以降の表（result.extra）
