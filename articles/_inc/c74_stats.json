@@ -1,0 +1,367 @@
+{
+ "n_ok": 25,
+ "sites": [
+  "rakuten.co.jp",
+  "kakaku.com",
+  "mercari.com",
+  "nikkei.com",
+  "asahi.com",
+  "yomiuri.co.jp",
+  "toyokeizai.net",
+  "itmedia.co.jp",
+  "ascii.jp",
+  "cookpad.com",
+  "tabelog.com",
+  "jalan.net",
+  "note.com",
+  "ameblo.jp",
+  "toyota.jp",
+  "sony.jp",
+  "xserver.ne.jp",
+  "conoha.jp",
+  "onamae.com",
+  "digital.go.jp",
+  "ferret-plus.com",
+  "lifehacker.jp",
+  "gizmodo.jp",
+  "mynavi.jp",
+  "bookoff.co.jp"
+ ],
+ "stat": {
+  "取得できた": 25,
+  "結果なし（技術が空）": 6,
+  "エラー": 8
+ },
+ "n_all": 39,
+ "cost": 0.372,
+ "err_kinds": {
+  "Invalid Field: 'target'.": 3,
+  "Target page took too long to respond.": 4,
+  "Invalid Field: 'target' (Redirected to Another Domain).": 1
+ },
+ "empty": [
+  "amazon.co.jp",
+  "zozo.jp",
+  "impress.co.jp",
+  "muji.com",
+  "panasonic.com",
+  "yahoo.co.jp"
+ ],
+ "errors": [
+  [
+   "nhk.or.jp",
+   "Invalid Field: 'target'."
+  ],
+  [
+   "suumo.jp",
+   "Target page took too long to respond."
+  ],
+  [
+   "hatenablog.com",
+   "Invalid Field: 'target' (Redirected to Another Domain)."
+  ],
+  [
+   "uniqlo.com",
+   "Target page took too long to respond."
+  ],
+  [
+   "yodobashi.com",
+   "Target page took too long to respond."
+  ],
+  [
+   "biccamera.com",
+   "Target page took too long to respond."
+  ],
+  [
+   "nitori-net.jp",
+   "Invalid Field: 'target'."
+  ],
+  [
+   "goo.ne.jp",
+   "Invalid Field: 'target'."
+  ]
+ ],
+ "wp": [
+  "yomiuri.co.jp",
+  "mynavi.jp"
+ ],
+ "gtm": [
+  "mercari.com",
+  "asahi.com",
+  "yomiuri.co.jp",
+  "toyokeizai.net",
+  "itmedia.co.jp",
+  "ascii.jp",
+  "cookpad.com",
+  "tabelog.com",
+  "ameblo.jp",
+  "xserver.ne.jp",
+  "conoha.jp",
+  "onamae.com",
+  "ferret-plus.com",
+  "lifehacker.jp",
+  "gizmodo.jp",
+  "mynavi.jp",
+  "bookoff.co.jp"
+ ],
+ "ga": [
+  "itmedia.co.jp",
+  "ascii.jp",
+  "cookpad.com",
+  "xserver.ne.jp",
+  "onamae.com"
+ ],
+ "fb": [
+  "nikkei.com",
+  "itmedia.co.jp",
+  "ascii.jp",
+  "xserver.ne.jp"
+ ],
+ "gpt": [
+  "kakaku.com",
+  "asahi.com",
+  "yomiuri.co.jp",
+  "toyokeizai.net",
+  "itmedia.co.jp",
+  "ascii.jp",
+  "tabelog.com",
+  "ferret-plus.com",
+  "lifehacker.jp",
+  "gizmodo.jp"
+ ],
+ "dfl": [
+  "kakaku.com",
+  "asahi.com",
+  "yomiuri.co.jp",
+  "toyokeizai.net",
+  "itmedia.co.jp",
+  "ascii.jp",
+  "tabelog.com",
+  "ferret-plus.com",
+  "lifehacker.jp",
+  "gizmodo.jp"
+ ],
+ "cms": [
+  "yomiuri.co.jp",
+  "digital.go.jp",
+  "mynavi.jp"
+ ],
+ "adv": [
+  "kakaku.com",
+  "asahi.com",
+  "yomiuri.co.jp",
+  "toyokeizai.net",
+  "itmedia.co.jp",
+  "ascii.jp",
+  "tabelog.com",
+  "ferret-plus.com",
+  "lifehacker.jp",
+  "gizmodo.jp"
+ ],
+ "tagm": [
+  "mercari.com",
+  "asahi.com",
+  "yomiuri.co.jp",
+  "toyokeizai.net",
+  "itmedia.co.jp",
+  "ascii.jp",
+  "cookpad.com",
+  "tabelog.com",
+  "ameblo.jp",
+  "sony.jp",
+  "xserver.ne.jp",
+  "conoha.jp",
+  "onamae.com",
+  "ferret-plus.com",
+  "lifehacker.jp",
+  "gizmodo.jp",
+  "mynavi.jp",
+  "bookoff.co.jp"
+ ],
+ "anal": [
+  "mercari.com",
+  "nikkei.com",
+  "itmedia.co.jp",
+  "ascii.jp",
+  "cookpad.com",
+  "jalan.net",
+  "xserver.ne.jp",
+  "onamae.com"
+ ],
+ "cdn": [
+  "kakaku.com",
+  "mercari.com",
+  "asahi.com",
+  "itmedia.co.jp",
+  "ascii.jp",
+  "tabelog.com",
+  "note.com",
+  "toyota.jp",
+  "conoha.jp",
+  "onamae.com",
+  "digital.go.jp",
+  "lifehacker.jp",
+  "gizmodo.jp",
+  "mynavi.jp",
+  "bookoff.co.jp"
+ ],
+ "top": [
+  [
+   "Google Tag Manager",
+   17
+  ],
+  [
+   "jQuery",
+   11
+  ],
+  [
+   "DoubleClick Floodlight",
+   10
+  ],
+  [
+   "Google Publisher Tag",
+   10
+  ],
+  [
+   "Amazon CloudFront",
+   8
+  ],
+  [
+   "Amazon Web Services",
+   8
+  ],
+  [
+   "Apache HTTP Server",
+   6
+  ],
+  [
+   "Cloudflare",
+   6
+  ],
+  [
+   "Cloudflare Bot Management",
+   5
+  ],
+  [
+   "Next.js",
+   5
+  ],
+  [
+   "React",
+   5
+  ],
+  [
+   "Nginx",
+   5
+  ],
+  [
+   "PHP",
+   5
+  ],
+  [
+   "Google Analytics",
+   5
+  ],
+  [
+   "Envoy",
+   4
+  ]
+ ],
+ "nsite": {
+  "rakuten.co.jp": 1,
+  "kakaku.com": 6,
+  "mercari.com": 9,
+  "nikkei.com": 3,
+  "asahi.com": 9,
+  "yomiuri.co.jp": 9,
+  "toyokeizai.net": 6,
+  "itmedia.co.jp": 12,
+  "ascii.jp": 12,
+  "cookpad.com": 5,
+  "tabelog.com": 6,
+  "jalan.net": 4,
+  "note.com": 5,
+  "ameblo.jp": 3,
+  "toyota.jp": 3,
+  "sony.jp": 2,
+  "xserver.ne.jp": 7,
+  "conoha.jp": 4,
+  "onamae.com": 6,
+  "digital.go.jp": 5,
+  "ferret-plus.com": 5,
+  "lifehacker.jp": 9,
+  "gizmodo.jp": 10,
+  "mynavi.jp": 9,
+  "bookoff.co.jp": 5
+ },
+ "total_techs": 44,
+ "maxs": [
+  "itmedia.co.jp",
+  12
+ ],
+ "mins": [
+  "rakuten.co.jp",
+  1
+ ],
+ "genre": [
+  [
+   "ニュース",
+   "4",
+   "6.8",
+   "DoubleClick Floodlight(3), Google Publisher Tag(3), Google Tag Manager(3), HTTP/3(2), Cxense(2)"
+  ],
+  [
+   "IT・Webメディア",
+   "5",
+   "9.6",
+   "DoubleClick Floodlight(5), Google Publisher Tag(5), Google Tag Manager(5), Amazon CloudFront(4), Amazon Web Services(4)"
+  ],
+  [
+   "EC・ショッピング",
+   "4",
+   "5.2",
+   "Apache HTTP Server(2), Cloudflare(2), Cloudflare Bot Management(2), Google Tag Manager(2), jQuery(2)"
+  ],
+  [
+   "暮らし・サービス情報",
+   "4",
+   "6.0",
+   "Google Tag Manager(3), jQuery(3), Apache HTTP Server(2), Google Analytics(1), HTTP/3(1)"
+  ],
+  [
+   "個人の投稿サイト",
+   "2",
+   "4.0",
+   "Next.js(2), React(2), Amazon CloudFront(1), Amazon Web Services(1), Envoy(1)"
+  ],
+  [
+   "企業サイト",
+   "2",
+   "2.5",
+   "Akamai(1), Akamai Bot Manager(1), jQuery(1), Apache HTTP Server(1), Tealium(1)"
+  ],
+  [
+   "サーバー会社・行政",
+   "4",
+   "5.5",
+   "Google Tag Manager(3), jQuery(3), Google Analytics(2), Cloudflare(2), Cloudflare Bot Management(2)"
+  ]
+ ],
+ "wp_where": {
+  "WordPress": [
+   "yomiuri.co.jp",
+   "mynavi.jp"
+  ]
+ },
+ "cms_names": {
+  "yomiuri.co.jp": [
+   "WordPress"
+  ],
+  "digital.go.jp": [
+   "Drupal"
+  ],
+  "mynavi.jp": [
+   "WordPress"
+  ]
+ }
+}

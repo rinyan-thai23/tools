@@ -131,6 +131,26 @@
   "c45-competitor-keywords-limits": {
    "usd": 0.252,
    "note": "10サイト×100件のデータ（11回）を使用"
+  },
+  "c74-sites-technologies": {
+   "usd": 0.372,
+   "note": "39サイトを調べた費用（1サイト$0.012。エラーは無料、結果が空の回は有料）"
+  },
+  "c74-wordpress-count": {
+   "usd": 0.372,
+   "note": "39サイトのデータを使用"
+  },
+  "c74-analytics-ad-tags": {
+   "usd": 0.372,
+   "note": "39サイトのデータを使用"
+  },
+  "c74-technology-by-genre": {
+   "usd": 0.372,
+   "note": "39サイトのデータを使用"
+  },
+  "c74-technology-lookup-limits": {
+   "usd": 0.372,
+   "note": "39サイトのデータを使用"
   }
  },
  "real": {
@@ -140,6 +160,7 @@
   "C02": 0.08,
   "C23": 0.0638,
   "C41": 0.0156,
-  "C45": 0.252
+  "C45": 0.252,
+  "C74": 0.372
  }
 }

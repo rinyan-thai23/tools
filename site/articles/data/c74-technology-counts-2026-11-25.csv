@@ -1,0 +1,45 @@
+﻿技術名,分類,サイト数,サイト
+Google Tag Manager,analytics/tag_managers,17,mercari.com / asahi.com / yomiuri.co.jp / toyokeizai.net / itmedia.co.jp / ascii.jp / cookpad.com / tabelog.com / ameblo.jp / xserver.ne.jp / conoha.jp / onamae.com / ferret-plus.com / lifehacker.jp / gizmodo.jp / mynavi.jp / bookoff.co.jp
+jQuery,web_development/javascript_libraries,11,kakaku.com / yomiuri.co.jp / ascii.jp / tabelog.com / jalan.net / toyota.jp / xserver.ne.jp / onamae.com / digital.go.jp / mynavi.jp / bookoff.co.jp
+DoubleClick Floodlight,marketing/advertising,10,kakaku.com / asahi.com / yomiuri.co.jp / toyokeizai.net / itmedia.co.jp / ascii.jp / tabelog.com / ferret-plus.com / lifehacker.jp / gizmodo.jp
+Google Publisher Tag,marketing/advertising,10,kakaku.com / asahi.com / yomiuri.co.jp / toyokeizai.net / itmedia.co.jp / ascii.jp / tabelog.com / ferret-plus.com / lifehacker.jp / gizmodo.jp
+Amazon CloudFront,servers/cdn,8,itmedia.co.jp / ascii.jp / note.com / digital.go.jp / lifehacker.jp / gizmodo.jp / mynavi.jp / bookoff.co.jp
+Amazon Web Services,servers/paas,8,itmedia.co.jp / ascii.jp / note.com / digital.go.jp / lifehacker.jp / gizmodo.jp / mynavi.jp / bookoff.co.jp
+Apache HTTP Server,servers/web_servers,6,rakuten.co.jp / jalan.net / sony.jp / xserver.ne.jp / mynavi.jp / bookoff.co.jp
+Cloudflare,servers/cdn,6,kakaku.com / mercari.com / asahi.com / tabelog.com / conoha.jp / onamae.com
+Cloudflare Bot Management,security/security,5,kakaku.com / mercari.com / tabelog.com / conoha.jp / onamae.com
+Google Analytics,analytics/analytics,5,itmedia.co.jp / ascii.jp / cookpad.com / xserver.ne.jp / onamae.com
+Next.js,servers/web_servers,5,mercari.com / note.com / ameblo.jp / lifehacker.jp / gizmodo.jp
+Nginx,servers/reverse_proxies,5,asahi.com / itmedia.co.jp / ascii.jp / cookpad.com / ferret-plus.com
+PHP,web_development/programming_languages,5,yomiuri.co.jp / ascii.jp / conoha.jp / digital.go.jp / mynavi.jp
+React,web_development/javascript_frameworks,5,mercari.com / note.com / ameblo.jp / lifehacker.jp / gizmodo.jp
+Cxense,marketing/personalisation,4,asahi.com / toyokeizai.net / itmedia.co.jp / gizmodo.jp
+Envoy,servers/reverse_proxies,4,mercari.com / note.com / lifehacker.jp / gizmodo.jp
+Facebook Pixel,analytics/analytics,4,nikkei.com / itmedia.co.jp / ascii.jp / xserver.ne.jp
+Amazon Advertising,marketing/advertising,3,toyokeizai.net / lifehacker.jp / gizmodo.jp
+HTTP/3,other/miscellaneous,3,nikkei.com / yomiuri.co.jp / cookpad.com
+Akamai,servers/cdn,2,asahi.com / toyota.jp
+DX,sales/shipping_carriers,2,itmedia.co.jp / ferret-plus.com
+MySQL,servers/databases,2,yomiuri.co.jp / mynavi.jp
+Rubicon Project,marketing/advertising,2,kakaku.com / ascii.jp
+Varnish,servers/caching,2,yomiuri.co.jp / cookpad.com
+WordPress,content/blogs,2,yomiuri.co.jp / mynavi.jp
+A8.net,marketing/affiliate_programs,1,xserver.ne.jp
+Akamai Bot Manager,security/security,1,toyota.jp
+Cloudflare Browser Insights,analytics/analytics,1,mercari.com
+Drupal,content/cms,1,digital.go.jp
+Google Ads,marketing/advertising,1,itmedia.co.jp
+Google Ads Conversion Tracking,analytics/analytics,1,itmedia.co.jp
+Google Cloud,servers/iaas,1,mercari.com
+Google Cloud CDN,servers/cdn,1,mercari.com
+Java,web_development/programming_languages,1,jalan.net
+Outbrain,marketing/advertising,1,asahi.com
+Slick,web_development/javascript_libraries,1,mynavi.jp
+Snowplow Analytics,analytics/analytics,1,jalan.net
+SpeedCurve,marketing/rum,1,nikkei.com
+Swiper,web_development/javascript_libraries,1,onamae.com
+Tealium,analytics/customer_data_platform,1,sony.jp
+Twitter,other/widgets,1,ascii.jp
+Xserver,servers/hosting,1,xserver.ne.jp
+cdnjs,servers/cdn,1,asahi.com
+theTradeDesk,marketing/advertising,1,toyokeizai.net

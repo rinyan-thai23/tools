@@ -1,0 +1,49 @@
+<p>サイトの使用技術のAPIでは、何がわかって、何がわからないのでしょうか。<a href="/C74/ja/">サイトの使用技術を見るツール</a>で、39サイトを調べて、確かめた事実を整理します。</p>
+
+<h2>結果（39サイトを調べた）</h2>
+<ul>
+<li><strong>技術が取れた：25サイト</strong></li>
+<li><strong>結果が空だった：6サイト</strong>（amazon.co.jp、zozo.jp、impress.co.jp、muji.com、panasonic.com、yahoo.co.jp）。リクエストは成功（Ok）でしたが、技術の情報が返りませんでした。<strong>この場合も、料金はかかりました</strong>。</li>
+<li><strong>エラー：8サイト</strong>。うち4サイトは「Target page took too long to respond（サイトの応答が遅すぎた）」でした。エラーの回は、料金はかかりませんでした。</li>
+</ul>
+
+<h2>エラーになったサイト</h2>
+<div class="scroll"><table class="data"><thead><tr><th>サイト</th><th>エラーの内容</th></tr></thead><tbody><tr><td>nhk.or.jp</td><td>Invalid Field: &#x27;target&#x27;.</td></tr><tr><td>suumo.jp</td><td>Target page took too long to respond.</td></tr><tr><td>hatenablog.com</td><td>Invalid Field: &#x27;target&#x27; (Redirected to Another Domain).</td></tr><tr><td>uniqlo.com</td><td>Target page took too long to respond.</td></tr><tr><td>yodobashi.com</td><td>Target page took too long to respond.</td></tr><tr><td>biccamera.com</td><td>Target page took too long to respond.</td></tr><tr><td>nitori-net.jp</td><td>Invalid Field: &#x27;target&#x27;.</td></tr><tr><td>goo.ne.jp</td><td>Invalid Field: &#x27;target&#x27;.</td></tr></tbody></table></div>
+<p>hatenablog.comは「別のドメインへリダイレクトされる」というエラーでした。応答が遅かった4サイトのうち、suumo.jpとuniqlo.comは、2回試しても同じでした。</p>
+
+<h2>わかること（実測）</h2>
+<ul>
+<li><strong>見つかった技術の一覧。</strong>大分類・小分類・技術名で返ります。</li>
+<li><strong>低い費用。</strong>1サイトにつき$0.012（約1.9円）。</li>
+</ul>
+
+<h2>わからないこと・気をつけること（実測）</h2>
+<ul>
+<li><strong>見つかる技術は、一部だけ。</strong>rakuten.co.jpは、見つかったのが1個（Apache HTTP Server）だけでした。</li>
+<li><strong>CMSが返らないサイトが多い。</strong>25サイト中、CMSが見つかったのは3サイトでした。</li>
+<li><strong>結果が空・エラーのサイトがある。</strong>39サイト中14サイト（36%）で、技術のデータが取れませんでした。</li>
+<li><strong>Google Tag Managerの中の技術は、見えにくい。</strong>タグマネージャーの中で動かしている分析ツールは、別に見つからないことがあります。</li>
+<li><strong>サイトの良し悪しは分からない。</strong>データを見せるだけです。</li>
+</ul>
+
+<h2>どう使い分ける？</h2>
+<ul>
+<li><strong>1つのサイトを、ちょっと確認したい</strong> → ブラウザの開発者ツールや、ブラウザの拡張機能でも見られます。</li>
+<li><strong>たくさんのサイトを、表やCSVで残したい</strong> → このツールが向いています。</li>
+</ul>
+<p>確認だけなら、まず無料の方法でも十分です。表にまとめたくなったら、このツールを使ってみてください。</p>
+
+<h2>全データ：39サイトの結果</h2>
+<p><a href="/articles/data/c74-status-2026-11-25.csv" download>CSVでダウンロード</a></p>
+<!--include:c74_status-->
+
+<h2>どうやって調べたか</h2>
+<div class="box">
+<ul>
+<li>日付：2026年11月25日</li>
+<li>ツール：<a href="/C74/ja/">サイトの使用技術を見る（C74）</a>（DataForSEOのAPIが、サイトが使っている技術を返します）</li>
+<li>調べたサイト：日本の人気サイトなどを、私が39個選びました（ニュース、IT・Webメディア、EC、暮らし・サービス情報、個人の投稿サイト、企業サイト、サーバー会社・行政）</li>
+<li>結果：<strong>取れたのは25サイト</strong>。ほかの14サイトは、結果が空だったか、エラーでした（<a href="/articles/c74-technology-lookup-limits/">こちらの記事</a>）</li>
+<li>費用：1サイトにつき<strong>$0.012</strong>。39サイトで<strong>$0.372</strong>（エラーは無料、結果が空の回は料金がかかりました）</li>
+</ul>
+</div>

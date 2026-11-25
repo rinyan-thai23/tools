@@ -1,0 +1,155 @@
+﻿ドメイン,ジャンル(筆者が付けた),大分類,小分類,技術名
+rakuten.co.jp,EC・ショッピング,servers,web_servers,Apache HTTP Server
+kakaku.com,EC・ショッピング,servers,cdn,Cloudflare
+kakaku.com,EC・ショッピング,security,security,Cloudflare Bot Management
+kakaku.com,EC・ショッピング,marketing,advertising,DoubleClick Floodlight / Google Publisher Tag / Rubicon Project
+kakaku.com,EC・ショッピング,web_development,javascript_libraries,jQuery
+mercari.com,EC・ショッピング,servers,cdn,Cloudflare / Google Cloud CDN
+mercari.com,EC・ショッピング,servers,reverse_proxies,Envoy
+mercari.com,EC・ショッピング,servers,web_servers,Next.js
+mercari.com,EC・ショッピング,servers,iaas,Google Cloud
+mercari.com,EC・ショッピング,security,security,Cloudflare Bot Management
+mercari.com,EC・ショッピング,analytics,analytics,Cloudflare Browser Insights
+mercari.com,EC・ショッピング,analytics,tag_managers,Google Tag Manager
+mercari.com,EC・ショッピング,marketing,rum,Cloudflare Browser Insights
+mercari.com,EC・ショッピング,web_development,javascript_frameworks,Next.js / React
+mercari.com,EC・ショッピング,web_development,web_frameworks,Next.js
+mercari.com,EC・ショッピング,web_development,static_site_generator,Next.js
+nikkei.com,ニュース,analytics,analytics,Facebook Pixel
+nikkei.com,ニュース,other,miscellaneous,HTTP/3
+nikkei.com,ニュース,marketing,rum,SpeedCurve
+asahi.com,ニュース,servers,cdn,Akamai / cdnjs / Cloudflare
+asahi.com,ニュース,servers,web_servers,Nginx
+asahi.com,ニュース,servers,reverse_proxies,Nginx
+asahi.com,ニュース,marketing,personalisation,Cxense
+asahi.com,ニュース,marketing,segmentation,Cxense
+asahi.com,ニュース,marketing,advertising,DoubleClick Floodlight / Google Publisher Tag / Outbrain
+asahi.com,ニュース,analytics,tag_managers,Google Tag Manager
+asahi.com,ニュース,other,widgets,Outbrain
+yomiuri.co.jp,ニュース,marketing,advertising,DoubleClick Floodlight / Google Publisher Tag
+yomiuri.co.jp,ニュース,analytics,tag_managers,Google Tag Manager
+yomiuri.co.jp,ニュース,other,miscellaneous,HTTP/3
+yomiuri.co.jp,ニュース,web_development,javascript_libraries,jQuery
+yomiuri.co.jp,ニュース,web_development,programming_languages,PHP
+yomiuri.co.jp,ニュース,servers,caching,Varnish
+yomiuri.co.jp,ニュース,servers,databases,MySQL
+yomiuri.co.jp,ニュース,content,cms,WordPress
+yomiuri.co.jp,ニュース,content,blogs,WordPress
+toyokeizai.net,ニュース,marketing,advertising,Amazon Advertising / DoubleClick Floodlight / Google Publisher Tag / theTradeDesk
+toyokeizai.net,ニュース,marketing,personalisation,Cxense
+toyokeizai.net,ニュース,marketing,segmentation,Cxense
+toyokeizai.net,ニュース,analytics,tag_managers,Google Tag Manager
+itmedia.co.jp,IT・Webメディア,servers,cdn,Amazon CloudFront
+itmedia.co.jp,IT・Webメディア,servers,web_servers,Nginx
+itmedia.co.jp,IT・Webメディア,servers,reverse_proxies,Nginx
+itmedia.co.jp,IT・Webメディア,servers,paas,Amazon Web Services
+itmedia.co.jp,IT・Webメディア,marketing,personalisation,Cxense
+itmedia.co.jp,IT・Webメディア,marketing,segmentation,Cxense
+itmedia.co.jp,IT・Webメディア,marketing,advertising,DoubleClick Floodlight / Google Publisher Tag / Google Ads
+itmedia.co.jp,IT・Webメディア,sales,shipping_carriers,DX
+itmedia.co.jp,IT・Webメディア,analytics,analytics,Facebook Pixel / Google Ads Conversion Tracking / Google Analytics
+itmedia.co.jp,IT・Webメディア,analytics,tag_managers,Google Tag Manager
+ascii.jp,IT・Webメディア,servers,cdn,Amazon CloudFront
+ascii.jp,IT・Webメディア,servers,web_servers,Nginx
+ascii.jp,IT・Webメディア,servers,reverse_proxies,Nginx
+ascii.jp,IT・Webメディア,servers,paas,Amazon Web Services
+ascii.jp,IT・Webメディア,marketing,advertising,DoubleClick Floodlight / Google Publisher Tag / Rubicon Project
+ascii.jp,IT・Webメディア,analytics,analytics,Facebook Pixel / Google Analytics
+ascii.jp,IT・Webメディア,analytics,tag_managers,Google Tag Manager
+ascii.jp,IT・Webメディア,web_development,javascript_libraries,jQuery
+ascii.jp,IT・Webメディア,web_development,programming_languages,PHP
+ascii.jp,IT・Webメディア,other,widgets,Twitter
+cookpad.com,暮らし・サービス情報,analytics,analytics,Google Analytics
+cookpad.com,暮らし・サービス情報,analytics,tag_managers,Google Tag Manager
+cookpad.com,暮らし・サービス情報,other,miscellaneous,HTTP/3
+cookpad.com,暮らし・サービス情報,servers,web_servers,Nginx
+cookpad.com,暮らし・サービス情報,servers,reverse_proxies,Nginx
+cookpad.com,暮らし・サービス情報,servers,caching,Varnish
+tabelog.com,暮らし・サービス情報,servers,cdn,Cloudflare
+tabelog.com,暮らし・サービス情報,security,security,Cloudflare Bot Management
+tabelog.com,暮らし・サービス情報,marketing,advertising,DoubleClick Floodlight / Google Publisher Tag
+tabelog.com,暮らし・サービス情報,analytics,tag_managers,Google Tag Manager
+tabelog.com,暮らし・サービス情報,web_development,javascript_libraries,jQuery
+jalan.net,暮らし・サービス情報,servers,web_servers,Apache HTTP Server
+jalan.net,暮らし・サービス情報,servers,iaas,Snowplow Analytics
+jalan.net,暮らし・サービス情報,web_development,programming_languages,Java
+jalan.net,暮らし・サービス情報,web_development,javascript_libraries,jQuery
+jalan.net,暮らし・サービス情報,analytics,analytics,Snowplow Analytics
+note.com,個人の投稿サイト,servers,cdn,Amazon CloudFront
+note.com,個人の投稿サイト,servers,paas,Amazon Web Services
+note.com,個人の投稿サイト,servers,reverse_proxies,Envoy
+note.com,個人の投稿サイト,servers,web_servers,Next.js
+note.com,個人の投稿サイト,web_development,javascript_frameworks,Next.js / React
+note.com,個人の投稿サイト,web_development,web_frameworks,Next.js
+note.com,個人の投稿サイト,web_development,static_site_generator,Next.js
+ameblo.jp,個人の投稿サイト,analytics,tag_managers,Google Tag Manager
+ameblo.jp,個人の投稿サイト,web_development,javascript_frameworks,Next.js / React
+ameblo.jp,個人の投稿サイト,web_development,web_frameworks,Next.js
+ameblo.jp,個人の投稿サイト,web_development,static_site_generator,Next.js
+ameblo.jp,個人の投稿サイト,servers,web_servers,Next.js
+toyota.jp,企業サイト,servers,cdn,Akamai
+toyota.jp,企業サイト,security,security,Akamai Bot Manager
+toyota.jp,企業サイト,web_development,javascript_libraries,jQuery
+sony.jp,企業サイト,servers,web_servers,Apache HTTP Server
+sony.jp,企業サイト,analytics,tag_managers,Tealium
+sony.jp,企業サイト,analytics,customer_data_platform,Tealium
+sony.jp,企業サイト,marketing,customer_data_platform,Tealium
+xserver.ne.jp,サーバー会社・行政,marketing,affiliate_programs,A8.net
+xserver.ne.jp,サーバー会社・行政,servers,web_servers,Apache HTTP Server
+xserver.ne.jp,サーバー会社・行政,servers,hosting,Xserver
+xserver.ne.jp,サーバー会社・行政,analytics,analytics,Facebook Pixel / Google Analytics
+xserver.ne.jp,サーバー会社・行政,analytics,tag_managers,Google Tag Manager
+xserver.ne.jp,サーバー会社・行政,web_development,javascript_libraries,jQuery
+conoha.jp,サーバー会社・行政,servers,cdn,Cloudflare
+conoha.jp,サーバー会社・行政,security,security,Cloudflare Bot Management
+conoha.jp,サーバー会社・行政,analytics,tag_managers,Google Tag Manager
+conoha.jp,サーバー会社・行政,web_development,programming_languages,PHP
+onamae.com,サーバー会社・行政,servers,cdn,Cloudflare
+onamae.com,サーバー会社・行政,security,security,Cloudflare Bot Management
+onamae.com,サーバー会社・行政,analytics,analytics,Google Analytics
+onamae.com,サーバー会社・行政,analytics,tag_managers,Google Tag Manager
+onamae.com,サーバー会社・行政,web_development,javascript_libraries,jQuery / Swiper
+digital.go.jp,サーバー会社・行政,servers,cdn,Amazon CloudFront
+digital.go.jp,サーバー会社・行政,servers,paas,Amazon Web Services
+digital.go.jp,サーバー会社・行政,content,cms,Drupal
+digital.go.jp,サーバー会社・行政,web_development,javascript_libraries,jQuery
+digital.go.jp,サーバー会社・行政,web_development,programming_languages,PHP
+ferret-plus.com,IT・Webメディア,sales,shipping_carriers,DX
+ferret-plus.com,IT・Webメディア,marketing,advertising,DoubleClick Floodlight / Google Publisher Tag
+ferret-plus.com,IT・Webメディア,analytics,tag_managers,Google Tag Manager
+ferret-plus.com,IT・Webメディア,servers,web_servers,Nginx
+ferret-plus.com,IT・Webメディア,servers,reverse_proxies,Nginx
+lifehacker.jp,IT・Webメディア,marketing,advertising,Amazon Advertising / DoubleClick Floodlight / Google Publisher Tag
+lifehacker.jp,IT・Webメディア,servers,cdn,Amazon CloudFront
+lifehacker.jp,IT・Webメディア,servers,reverse_proxies,Envoy
+lifehacker.jp,IT・Webメディア,servers,web_servers,Next.js
+lifehacker.jp,IT・Webメディア,servers,paas,Amazon Web Services
+lifehacker.jp,IT・Webメディア,analytics,tag_managers,Google Tag Manager
+lifehacker.jp,IT・Webメディア,web_development,javascript_frameworks,Next.js / React
+lifehacker.jp,IT・Webメディア,web_development,web_frameworks,Next.js
+lifehacker.jp,IT・Webメディア,web_development,static_site_generator,Next.js
+gizmodo.jp,IT・Webメディア,marketing,advertising,Amazon Advertising / DoubleClick Floodlight / Google Publisher Tag
+gizmodo.jp,IT・Webメディア,marketing,personalisation,Cxense
+gizmodo.jp,IT・Webメディア,marketing,segmentation,Cxense
+gizmodo.jp,IT・Webメディア,servers,cdn,Amazon CloudFront
+gizmodo.jp,IT・Webメディア,servers,reverse_proxies,Envoy
+gizmodo.jp,IT・Webメディア,servers,web_servers,Next.js
+gizmodo.jp,IT・Webメディア,servers,paas,Amazon Web Services
+gizmodo.jp,IT・Webメディア,analytics,tag_managers,Google Tag Manager
+gizmodo.jp,IT・Webメディア,web_development,javascript_frameworks,Next.js / React
+gizmodo.jp,IT・Webメディア,web_development,web_frameworks,Next.js
+gizmodo.jp,IT・Webメディア,web_development,static_site_generator,Next.js
+mynavi.jp,暮らし・サービス情報,servers,cdn,Amazon CloudFront
+mynavi.jp,暮らし・サービス情報,servers,web_servers,Apache HTTP Server
+mynavi.jp,暮らし・サービス情報,servers,paas,Amazon Web Services
+mynavi.jp,暮らし・サービス情報,servers,databases,MySQL
+mynavi.jp,暮らし・サービス情報,analytics,tag_managers,Google Tag Manager
+mynavi.jp,暮らし・サービス情報,web_development,javascript_libraries,jQuery / Slick
+mynavi.jp,暮らし・サービス情報,web_development,programming_languages,PHP
+mynavi.jp,暮らし・サービス情報,content,cms,WordPress
+mynavi.jp,暮らし・サービス情報,content,blogs,WordPress
+bookoff.co.jp,EC・ショッピング,servers,cdn,Amazon CloudFront
+bookoff.co.jp,EC・ショッピング,servers,web_servers,Apache HTTP Server
+bookoff.co.jp,EC・ショッピング,servers,paas,Amazon Web Services
+bookoff.co.jp,EC・ショッピング,analytics,tag_managers,Google Tag Manager
+bookoff.co.jp,EC・ショッピング,web_development,javascript_libraries,jQuery

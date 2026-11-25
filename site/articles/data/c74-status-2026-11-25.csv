@@ -1,0 +1,40 @@
+﻿ドメイン,結果,エラーの内容,費用(USD)
+rakuten.co.jp,取得できた,,0.012
+amazon.co.jp,結果なし（技術が空）,,0.012
+kakaku.com,取得できた,,0.012
+zozo.jp,結果なし（技術が空）,,0.012
+mercari.com,取得できた,,0.012
+nikkei.com,取得できた,,0.012
+asahi.com,取得できた,,0.012
+yomiuri.co.jp,取得できた,,0.012
+nhk.or.jp,エラー,Invalid Field: 'target'.,0
+toyokeizai.net,取得できた,,0.012
+itmedia.co.jp,取得できた,,0.012
+impress.co.jp,結果なし（技術が空）,,0.012
+ascii.jp,取得できた,,0.012
+cookpad.com,取得できた,,0.012
+tabelog.com,取得できた,,0.012
+jalan.net,取得できた,,0.012
+suumo.jp,エラー,Target page took too long to respond.,0
+note.com,取得できた,,0.012
+ameblo.jp,取得できた,,0.012
+hatenablog.com,エラー,Invalid Field: 'target' (Redirected to Another Domain).,0
+toyota.jp,取得できた,,0.012
+uniqlo.com,エラー,Target page took too long to respond.,0
+muji.com,結果なし（技術が空）,,0.012
+sony.jp,取得できた,,0.012
+panasonic.com,結果なし（技術が空）,,0.012
+xserver.ne.jp,取得できた,,0.012
+conoha.jp,取得できた,,0.012
+onamae.com,取得できた,,0.012
+digital.go.jp,取得できた,,0.012
+ferret-plus.com,取得できた,,0.012
+yahoo.co.jp,結果なし（技術が空）,,0.012
+yodobashi.com,エラー,Target page took too long to respond.,0
+biccamera.com,エラー,Target page took too long to respond.,0
+lifehacker.jp,取得できた,,0.012
+gizmodo.jp,取得できた,,0.012
+mynavi.jp,取得できた,,0.012
+nitori-net.jp,エラー,Invalid Field: 'target'.,0
+bookoff.co.jp,取得できた,,0.012
+goo.ne.jp,エラー,Invalid Field: 'target'.,0

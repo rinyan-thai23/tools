@@ -1,0 +1,32 @@
+<p>「WordPressは、世界でも日本でも、よく使われている」と聞きます。人気サイトの中では、どれくらい使われているのでしょうか。<a href="/articles/c74-sites-technologies/">技術が取れた25サイト</a>で数えました。</p>
+
+<h2>先に、わかったこと</h2>
+<ul>
+<li>WordPressが見つかったのは、25サイトのうち<strong>2サイト</strong>（yomiuri.co.jp、mynavi.jp）でした。</li>
+<li>CMS（記事を管理する仕組み）が見つかったのは<strong>3サイト</strong>で、残りの22サイトでは、CMSの名前は返りませんでした。WordPress以外には、<strong>Drupal</strong>（digital.go.jp）が見つかりました。</li>
+<li>CMSが返らなかったサイトも、実際には何かのCMSを使っているかもしれません。APIが見つけられなかっただけの可能性があります。</li>
+</ul>
+<p>お店の看板が出ていないからといって、お店がないとは限りません。「見つかった」と「使っていない」は、別の話です。</p>
+
+<h2>CMSが見つかった3サイト</h2>
+<div class="scroll"><table class="data"><thead><tr><th>サイト</th><th>見つかったCMS</th></tr></thead><tbody><tr><td>yomiuri.co.jp</td><td>WordPress</td></tr><tr><td>digital.go.jp</td><td>Drupal</td></tr><tr><td>mynavi.jp</td><td>WordPress</td></tr></tbody></table></div>
+
+<h2>全データ：サイトごとの技術</h2>
+<p><a href="/articles/data/c74-technologies-2026-11-25.csv" download>CSVでダウンロード</a></p>
+<details><summary>全データの表を開く</summary>
+<!--include:c74_table-->
+</details>
+
+<h2>どうやって調べたか</h2>
+<div class="box">
+<ul>
+<li>日付：2026年11月25日</li>
+<li>ツール：<a href="/C74/ja/">サイトの使用技術を見る（C74）</a>（DataForSEOのAPIが、サイトが使っている技術を返します）</li>
+<li>調べたサイト：日本の人気サイトなどを、私が39個選びました（ニュース、IT・Webメディア、EC、暮らし・サービス情報、個人の投稿サイト、企業サイト、サーバー会社・行政）</li>
+<li>結果：<strong>取れたのは25サイト</strong>。ほかの14サイトは、結果が空だったか、エラーでした（<a href="/articles/c74-technology-lookup-limits/">こちらの記事</a>）</li>
+<li>費用：1サイトにつき<strong>$0.012</strong>。39サイトで<strong>$0.372</strong>（エラーは無料、結果が空の回は料金がかかりました）</li>
+<li>数え方：APIが返した技術名が「WordPress」のものを数えました。CMSは、大分類「content」の小分類「cms」「blogs」に入っていたものです</li>
+<li>データ：<a href="/articles/c74-sites-technologies/">25サイトの記事</a>と同じ</li>
+</ul>
+</div>
+<p class="note">39サイトは、私が選んだものです。日本のサイト全体の割合ではありません。</p>

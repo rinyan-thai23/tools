@@ -1,0 +1,29 @@
+<p>ニュースサイト、ECサイト、企業サイト。ジャンルが違うと、使われている技術も違うのでしょうか。<a href="/articles/c74-sites-technologies/">技術が取れた25サイト</a>を、私が付けたジャンルで分けて、並べました。</p>
+
+<h2>先に、わかったこと</h2>
+<ul>
+<li>広告の技術（Google Publisher Tag、DoubleClick Floodlight）が見つかった10サイトは、<strong>ニュースサイト3つ（asahi.com、yomiuri.co.jp、toyokeizai.net）、IT・Webメディア5つ（itmedia.co.jp、ascii.jp、lifehacker.jp、gizmodo.jp、ferret-plus.com）、kakaku.com、tabelog.com</strong>でした。</li>
+<li>見つかった技術の数は、ジャンルで平均が違いました（下の表）。</li>
+<li>CMSのWordPressが見つかったのは、ニュース（yomiuri.co.jp）と、暮らし・サービス情報（mynavi.jp）の2サイトです。</li>
+</ul>
+
+<h2>ジャンルごとの技術</h2>
+<p>ジャンルは、私が付けたものです（意味での分類で、APIの分類ではありません）。</p>
+<div class="scroll"><table class="data"><thead><tr><th>ジャンル</th><th>サイト数</th><th>見つかった技術の平均数</th><th>よく使われていた技術（サイト数）</th></tr></thead><tbody><tr><td>ニュース</td><td>4</td><td>6.8</td><td>DoubleClick Floodlight(3), Google Publisher Tag(3), Google Tag Manager(3), HTTP/3(2), Cxense(2)</td></tr><tr><td>IT・Webメディア</td><td>5</td><td>9.6</td><td>DoubleClick Floodlight(5), Google Publisher Tag(5), Google Tag Manager(5), Amazon CloudFront(4), Amazon Web Services(4)</td></tr><tr><td>EC・ショッピング</td><td>4</td><td>5.2</td><td>Apache HTTP Server(2), Cloudflare(2), Cloudflare Bot Management(2), Google Tag Manager(2), jQuery(2)</td></tr><tr><td>暮らし・サービス情報</td><td>4</td><td>6.0</td><td>Google Tag Manager(3), jQuery(3), Apache HTTP Server(2), Google Analytics(1), HTTP/3(1)</td></tr><tr><td>個人の投稿サイト</td><td>2</td><td>4.0</td><td>Next.js(2), React(2), Amazon CloudFront(1), Amazon Web Services(1), Envoy(1)</td></tr><tr><td>企業サイト</td><td>2</td><td>2.5</td><td>Akamai(1), Akamai Bot Manager(1), jQuery(1), Apache HTTP Server(1), Tealium(1)</td></tr><tr><td>サーバー会社・行政</td><td>4</td><td>5.5</td><td>Google Tag Manager(3), jQuery(3), Google Analytics(2), Cloudflare(2), Cloudflare Bot Management(2)</td></tr></tbody></table></div>
+
+<h2>全データ：サイトごとの見つかった技術の数</h2>
+<!--include:c74_sites-->
+
+<h2>どうやって調べたか</h2>
+<div class="box">
+<ul>
+<li>日付：2026年11月25日</li>
+<li>ツール：<a href="/C74/ja/">サイトの使用技術を見る（C74）</a>（DataForSEOのAPIが、サイトが使っている技術を返します）</li>
+<li>調べたサイト：日本の人気サイトなどを、私が39個選びました（ニュース、IT・Webメディア、EC、暮らし・サービス情報、個人の投稿サイト、企業サイト、サーバー会社・行政）</li>
+<li>結果：<strong>取れたのは25サイト</strong>。ほかの14サイトは、結果が空だったか、エラーでした（<a href="/articles/c74-technology-lookup-limits/">こちらの記事</a>）</li>
+<li>費用：1サイトにつき<strong>$0.012</strong>。39サイトで<strong>$0.372</strong>（エラーは無料、結果が空の回は料金がかかりました）</li>
+<li>ジャンル：私が付けました。ニュース、IT・Webメディア、EC・ショッピング、暮らし・サービス情報、個人の投稿サイト、企業サイト、サーバー会社・行政の7つ</li>
+<li>データ：<a href="/articles/c74-sites-technologies/">25サイトの記事</a>と同じ</li>
+</ul>
+</div>
+<p class="note">1つのジャンルに、サイトが2〜5個しかありません。傾向と言うには数が少ないので、参考として見てください。</p>
