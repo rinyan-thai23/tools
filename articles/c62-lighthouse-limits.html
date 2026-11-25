@@ -1,0 +1,39 @@
+<p>Lighthouseの点数のAPIでは、何がわかって、何がわからないのでしょうか。<a href="/C62/ja/">表示速度の点数を見るツール</a>で59回測って、確かめた事実を整理します。</p>
+
+<h2>わかること（実測）</h2>
+<ul>
+<li><strong>4つの点数と、5つの数値。</strong>パフォーマンス・アクセシビリティ・ベストプラクティス・SEOの点数と、FCP・LCP・TBT・CLS・Speed Indexです。</li>
+<li><strong>低い費用。</strong>1回$0.005（約0.8円）。</li>
+<li><strong>1回にかかる時間。</strong>56回の平均は約28.0秒（最短11.8秒、最長74.9秒）でした。</li>
+</ul>
+
+<h2>わからないこと・気をつけること（実測）</h2>
+<ul>
+<li><strong>エラーになるサイトがある。</strong>30サイトのうち3サイト（yahoo.co.jp、zozo.jp、muji.com）は、Lighthouseのエラー（ERRORED_DOCUMENT_REQUEST、NO_FCP）でした。エラーの回は無料でした。</li>
+<li><strong>測る場所で、開くページが変わる。</strong>測ったときに、たどり着いたURLが、入力と違うサイトがありました（下の表）。cookpad.comは「/de」（ドイツ語のページ）に飛びました。</li>
+<li><strong>測るたびに、数字が変わる。</strong>同じURLを3回測ると、LCPは10.8秒〜20.8秒まで動きました（<a href="/articles/c62-repeat-3-times/">3回の記事</a>）。</li>
+<li><strong>スマホ設定の結果だけ。</strong>このツールは、モバイルの設定で測ります。</li>
+<li><strong>実際のお客さんの体感の速さではない。</strong>テスト用の環境で測った点数です。</li>
+</ul>
+
+<h2>入力のURLと、たどり着いたURLが違ったサイト</h2>
+<div class="scroll"><table class="data"><thead><tr><th>サイト</th><th>最終的に開いたURL</th></tr></thead><tbody><tr><td>kakaku.com</td><td>https://s.kakaku.com/</td></tr><tr><td>asahi.com</td><td>https://www.asahi.com/sp/</td></tr><tr><td>itmedia.co.jp</td><td>https://www.itmedia.co.jp/spv/</td></tr><tr><td>cookpad.com</td><td>https://cookpad.com/de</td></tr><tr><td>panasonic.com</td><td>https://www.panasonic.com/de/</td></tr></tbody></table></div>
+<p class="note">「www」の有無の違いは除いています。asahi.comの「/sp/」、itmedia.co.jpの「/spv/」、kakaku.comの「s.kakaku.com」は、URLからスマホ用のページに見えます。測定がスマホの設定のため、移った可能性がありますが、理由は確かめていません。</p>
+
+<h2>どう使い分ける？</h2>
+<ul>
+<li><strong>自分のサイトを1回だけ、無料で測りたい</strong> → ChromeのDevToolsにもLighthouseが入っています（公式の機能）。</li>
+<li><strong>たくさんのURLを、表やCSVで残したい</strong> → このツールが向いています。</li>
+</ul>
+<p>確認だけなら、まずChromeの機能でも十分です。何十ものURLを一度に測って残したくなったら、このツールを使ってみてください。</p>
+
+<h2>どうやって調べたか</h2>
+<div class="box">
+<ul>
+<li>日付：2026年11月25日</li>
+<li>ツール：<a href="/C62/ja/">表示速度の点数を見る（C62）</a>（DataForSEOのAPIが、Lighthouseの点数を返します）</li>
+<li>測定の設定：スマホ（モバイル）、パフォーマンス・アクセシビリティ・ベストプラクティス・SEOの4つの点数</li>
+<li>実測：<a href="/articles/c62-30-sites-lighthouse/">30サイトの記事</a>、<a href="/articles/c62-repeat-3-times/">3回の記事</a>、<a href="/articles/c62-top-vs-article/">トップと記事の記事</a>の、合計59回（成功56回、エラー3回）</li>
+<li>費用：1回につき<strong>$0.005</strong>（約0.8円）。この記事のデータ全部（59回）で<strong>$0.28</strong>（エラーの回は無料）</li>
+</ul>
+</div>

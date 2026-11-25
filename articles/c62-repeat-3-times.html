@@ -1,0 +1,32 @@
+<p>Lighthouseの点数は、同じURLを測ったら、毎回同じになるのでしょうか。3つのURLを、それぞれ<strong>3回</strong>ずつ測りました。</p>
+
+<h2>先に、わかったこと</h2>
+<ul>
+<li>3つのURLの、4つの点数は、<strong>3回でほぼ同じ</strong>でした。パフォーマンスの差は、最大で3点（itmedia：31〜34）でした。アクセシビリティ、ベストプラクティス、SEOは、3回とも同じ点数でした。</li>
+<li>一方で、<strong>LCP（一番大きい部分が出るまでの時間）は大きく変わりました</strong>。itmedia.co.jpは、10.8秒、19.2秒、20.8秒でした。</li>
+<li>別の測定（URLの書き方が違う呼び出し）でも、同じサイトの点数は少しずつ違いました（下の表）。</li>
+</ul>
+<p>同じ人が、同じ道を3回走っても、タイムは毎回ちがう。でも「順位」は大きく変わらなかった、という感じです。</p>
+
+<h2>3回の結果</h2>
+<div class="scroll"><table class="data"><thead><tr><th>URL</th><th>パフォーマンス</th><th>アクセシビリティ</th><th>ベストプラクティス</th><th>SEO</th><th>LCPの3回</th></tr></thead><tbody><tr><td>https://www.xserver.ne.jp/</td><td>32〜33</td><td>86〜86</td><td>92〜92</td><td>85〜85</td><td>10.2 s、8.6 s、8.7 s</td></tr><tr><td>https://www.itmedia.co.jp/</td><td>31〜34</td><td>96〜96</td><td>73〜73</td><td>92〜92</td><td>10.8 s、19.2 s、20.8 s</td></tr><tr><td>https://note.com/</td><td>44〜45</td><td>100〜100</td><td>100〜100</td><td>100〜100</td><td>9.0 s、9.6 s、9.9 s</td></tr></tbody></table></div>
+
+<h2>全データ：9回ぶん（3URL×3回）</h2>
+<p><a href="/articles/data/c62-repeat3-2026-11-25.csv" download>CSVでダウンロード</a></p>
+<!--include:c62_repeat-->
+
+<h2>参考：同じサイトを、別の回で測った結果</h2>
+<p>「30サイトの記事」の測定（https://ドメイン/）と、「トップと記事の記事」の測定（https://www.ドメイン/）で、同じサイトのトップページを測った結果です。URLの書き方（wwwの有無）が違います。</p>
+<div class="scroll"><table class="data"><thead><tr><th>サイト</th><th>30サイト記事：パフォーマンス</th><th>LCP</th><th>トップ記事：パフォーマンス</th><th>LCP</th></tr></thead><tbody><tr><td>xserver.ne.jp</td><td>31</td><td>16.8 s</td><td>35</td><td>7.0 s</td></tr><tr><td>conoha.jp</td><td>65</td><td>3.6 s</td><td>73</td><td>2.4 s</td></tr><tr><td>onamae.com</td><td>76</td><td>2.3 s</td><td>76</td><td>2.3 s</td></tr></tbody></table></div>
+
+<h2>どうやって調べたか</h2>
+<div class="box">
+<ul>
+<li>日付：2026年11月25日</li>
+<li>ツール：<a href="/C62/ja/">表示速度の点数を見る（C62）</a>（DataForSEOのAPIが、Lighthouseの点数を返します）</li>
+<li>測定の設定：スマホ（モバイル）、パフォーマンス・アクセシビリティ・ベストプラクティス・SEOの4つの点数</li>
+<li>URL：https://www.xserver.ne.jp/、https://www.itmedia.co.jp/、https://note.com/ を、それぞれ3回ずつ（続けて）</li>
+<li>費用：1回につき<strong>$0.005</strong>（約0.8円）。この記事のデータ全部（59回）で<strong>$0.28</strong>（エラーの回は無料）</li>
+</ul>
+</div>
+<p class="note">3つのURLだけの結果です。ほかのサイトや時間帯では、ばらつき方が違うことがあります。</p>

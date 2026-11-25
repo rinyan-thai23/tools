@@ -1,0 +1,265 @@
+{
+ "nA": 27,
+ "AERR": [
+  [
+   "yahoo.co.jp",
+   "ERRORED_DOCUMENT_REQUEST"
+  ],
+  [
+   "zozo.jp",
+   "ERRORED_DOCUMENT_REQUEST"
+  ],
+  [
+   "muji.com",
+   "NO_FCP"
+  ]
+ ],
+ "dist": {
+  "performance": {
+   "n": 27,
+   "min": 7,
+   "max": 78,
+   "med": 38,
+   "sd": 21.8,
+   "rng": 71
+  },
+  "accessibility": {
+   "n": 27,
+   "min": 58,
+   "max": 100,
+   "med": 91,
+   "sd": 10.8,
+   "rng": 42
+  },
+  "best-practices": {
+   "n": 27,
+   "min": 50,
+   "max": 100,
+   "med": 77,
+   "sd": 14.3,
+   "rng": 50
+  },
+  "seo": {
+   "n": 27,
+   "min": 36,
+   "max": 100,
+   "med": 92,
+   "sd": 18.9,
+   "rng": 64
+  }
+ },
+ "bst": {
+  "itmedia": {
+   "performance": [
+    31,
+    34
+   ],
+   "accessibility": [
+    96,
+    96
+   ],
+   "best-practices": [
+    73,
+    73
+   ],
+   "seo": [
+    92,
+    92
+   ],
+   "n": 3,
+   "lcp": [
+    "10.8 s",
+    "19.2 s",
+    "20.8 s"
+   ]
+  },
+  "note": {
+   "performance": [
+    44,
+    45
+   ],
+   "accessibility": [
+    100,
+    100
+   ],
+   "best-practices": [
+    100,
+    100
+   ],
+   "seo": [
+    100,
+    100
+   ],
+   "n": 3,
+   "lcp": [
+    "9.0 s",
+    "9.6 s",
+    "9.9 s"
+   ]
+  },
+  "xserver": {
+   "performance": [
+    32,
+    33
+   ],
+   "accessibility": [
+    86,
+    86
+   ],
+   "best-practices": [
+    92,
+    92
+   ],
+   "seo": [
+    85,
+    85
+   ],
+   "n": 3,
+   "lcp": [
+    "10.2 s",
+    "8.6 s",
+    "8.7 s"
+   ]
+  }
+ },
+ "pst": {
+  "n": 10,
+  "diff": [
+   [
+    "xserver.ne.jp",
+    1
+   ],
+   [
+    "canva.com",
+    -37
+   ],
+   [
+    "conoha.jp",
+    4
+   ],
+   [
+    "onamae.com",
+    -40
+   ],
+   [
+    "kagoya.jp",
+    5
+   ],
+   [
+    "shopify.com",
+    20
+   ],
+   [
+    "ja.wix.com",
+    -16
+   ],
+   [
+    "xfree.ne.jp",
+    14
+   ],
+   [
+    "value-domain.com",
+    -3
+   ],
+   [
+    "shared.gmocloud.com",
+    6
+   ]
+  ],
+  "art_higher": 6,
+  "art_lower": 4,
+  "same": 0,
+  "med_top": 50.0,
+  "med_art": 40.5,
+  "perr": []
+ },
+ "cost": 0.28,
+ "calls": 59,
+ "ok_calls": 56,
+ "avg_time": 28.0,
+ "max_time": 74.9,
+ "min_time": 11.8,
+ "best": [
+  [
+   "cookpad.com",
+   78
+  ],
+  [
+   "tabelog.com",
+   76
+  ],
+  [
+   "onamae.com",
+   76
+  ],
+  [
+   "mercari.com",
+   72
+  ],
+  [
+   "amazon.co.jp",
+   71
+  ]
+ ],
+ "worst": [
+  [
+   "sony.jp",
+   24
+  ],
+  [
+   "jalan.net",
+   16
+  ],
+  [
+   "rakuten.co.jp",
+   12
+  ],
+  [
+   "bookoff.co.jp",
+   11
+  ],
+  [
+   "toyota.jp",
+   7
+  ]
+ ],
+ "redirects": [
+  [
+   "kakaku.com",
+   "https://s.kakaku.com/"
+  ],
+  [
+   "asahi.com",
+   "https://www.asahi.com/sp/"
+  ],
+  [
+   "itmedia.co.jp",
+   "https://www.itmedia.co.jp/spv/"
+  ],
+  [
+   "cookpad.com",
+   "https://cookpad.com/de"
+  ],
+  [
+   "panasonic.com",
+   "https://www.panasonic.com/de/"
+  ]
+ ],
+ "minseo": [
+  [
+   "onamae.com",
+   36
+  ],
+  [
+   "conoha.jp",
+   40
+  ],
+  [
+   "mercari.com",
+   50
+  ]
+ ],
+ "allbp100": 5,
+ "perf_lt50": 16,
+ "perf_ge90": 0
+}

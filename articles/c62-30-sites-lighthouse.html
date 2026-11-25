@@ -1,0 +1,46 @@
+<p>サイトを開くのが速いか遅いか。それを点数にしてくれるのが「Lighthouse」です。<a href="/C62/ja/">表示速度の点数を見るツール</a>で、日本の人気サイトなど<strong>30個</strong>のトップページを、スマホの設定で測りました。測れたのは<strong>27サイト</strong>です。その全データを載せます。</p>
+
+<h2>先に、わかったこと</h2>
+<ul>
+<li>30サイトのうち、<strong>測れたのは27サイト</strong>。ほかの3サイト（yahoo.co.jp、zozo.jp、muji.com）は、Lighthouseのエラーでした。</li>
+<li>パフォーマンスの点数は、<strong>7〜78</strong>（中央値38）でした。<strong>90点以上のサイトはなく、50点未満が16サイト</strong>でした。</li>
+<li>一番高かったのは<strong>cookpad.com（78）</strong>、一番低かったのは<strong>toyota.jp（7）</strong>でした。</li>
+<li>アクセシビリティは58〜100、ベストプラクティスは50〜100、SEOは36〜100でした。</li>
+</ul>
+<p>通知表にたとえると、「パフォーマンス」は体育の点数です。27人のクラスで、90点を取った子はいませんでした。</p>
+<p class="note">測るたびに点数は少し変わります（<a href="/articles/c62-repeat-3-times/">3回測った記事</a>）。ここは、「この日の1回の結果」です。また、<strong>cookpad.comは、測るとドイツ語のページ（/de）に移って測られました</strong>（<a href="/articles/c62-lighthouse-limits/">こちらの記事</a>）。cookpad.comの点数は、その移った先のページのものです。</p>
+
+<h2>パフォーマンスの高かった5サイト</h2>
+<div class="scroll"><table class="data"><thead><tr><th>サイト</th><th>パフォーマンス</th></tr></thead><tbody><tr><td>cookpad.com</td><td>78</td></tr><tr><td>tabelog.com</td><td>76</td></tr><tr><td>onamae.com</td><td>76</td></tr><tr><td>mercari.com</td><td>72</td></tr><tr><td>amazon.co.jp</td><td>71</td></tr></tbody></table></div>
+
+<h2>パフォーマンスの低かった5サイト</h2>
+<div class="scroll"><table class="data"><thead><tr><th>サイト</th><th>パフォーマンス</th></tr></thead><tbody><tr><td>sony.jp</td><td>24</td></tr><tr><td>jalan.net</td><td>16</td></tr><tr><td>rakuten.co.jp</td><td>12</td></tr><tr><td>bookoff.co.jp</td><td>11</td></tr><tr><td>toyota.jp</td><td>7</td></tr></tbody></table></div>
+
+<h2>全データ：27サイトの点数と数値</h2>
+<p>4つの点数（100点満点）と、5つの数値（FCP＝最初の文字や画像が出るまで、LCP＝一番大きい部分が出るまで、TBT＝操作できない時間、CLS＝レイアウトのずれ、Speed Index）です。「最終的に開いたURL」は、測ったときにたどり着いたページです。</p>
+<p><a href="/articles/data/c62-30sites-mobile-2026-11-25.csv" download>CSVでダウンロード</a></p>
+<!--include:c62_sites-->
+
+<h2>エラーになった3サイト</h2>
+<!--include:c62_errors-->
+
+<h2>この表から作った記事</h2>
+<ul>
+<li><a href="/articles/c62-score-spread/">4つの点数のうち、いちばんばらつくのはどれ？</a></li>
+<li><a href="/articles/c62-repeat-3-times/">同じURLを3回測ったら、点数は毎回同じ？</a></li>
+<li><a href="/articles/c62-top-vs-article/">トップページと記事ページで、点数はどれくらい違う？</a></li>
+<li><a href="/articles/c62-lighthouse-limits/">表示速度を測る方法と、このツールでわからないこと</a></li>
+</ul>
+
+<h2>どうやって調べたか</h2>
+<div class="box">
+<ul>
+<li>日付：2026年11月25日</li>
+<li>ツール：<a href="/C62/ja/">表示速度の点数を見る（C62）</a>（DataForSEOのAPIが、Lighthouseの点数を返します）</li>
+<li>測定の設定：スマホ（モバイル）、パフォーマンス・アクセシビリティ・ベストプラクティス・SEOの4つの点数</li>
+<li>サイト：日本の人気サイトなど30個のトップページ（私が選びました。<a href="/articles/c74-sites-technologies/">技術を調べた記事</a>と同じ顔ぶれ）</li>
+<li>結果：<strong>測れたのは27サイト</strong>。3サイトはエラーでした</li>
+<li>費用：1回につき<strong>$0.005</strong>（約0.8円）。この記事のデータ全部（59回）で<strong>$0.28</strong>（エラーの回は無料）</li>
+</ul>
+</div>
+<p class="note">Lighthouseの点数は、測る場所や回線で変わります。実際のお客さんの体感の速さとは違います。サイトの良し悪しの評価ではありません。</p>

@@ -1,0 +1,21 @@
+﻿サイト,トップ／記事,URL,パフォーマンス,アクセシビリティ,ベストプラクティス,SEO,FCP,LCP,TBT,CLS,Speed Index
+xserver.ne.jp,トップ,https://www.xserver.ne.jp/,35,86,92,85,4.0 s,7.0 s,"1,270 ms",0.001,12.5 s
+xserver.ne.jp,記事,https://www.xserver.ne.jp/blog/start-guide-for-blog-beginners/,36,86,100,92,4.4 s,13.5 s,"1,360 ms",0,6.3 s
+canva.com,トップ,https://www.canva.com/ja_jp/,77,97,81,100,2.7 s,3.8 s,250 ms,0.001,4.2 s
+canva.com,記事,https://www.canva.com/ja_jp/learn/how-to-start-a-blog/,40,98,77,100,2.5 s,8.9 s,"1,050 ms",0,9.8 s
+conoha.jp,トップ,https://www.conoha.jp/,73,93,96,40,1.0 s,2.4 s,"1,290 ms",0.027,1.2 s
+conoha.jp,記事,https://www.conoha.jp/lets-wp/how-to-start-blog/,77,93,96,40,1.0 s,2.3 s,920 ms,0.026,1.0 s
+onamae.com,トップ,https://www.onamae.com/,76,93,96,50,1.0 s,2.3 s,"1,060 ms",0.001,2.5 s
+onamae.com,記事,https://www.onamae.com/business/article/291943/,36,83,73,92,2.4 s,6.5 s,"3,200 ms",0,10.3 s
+kagoya.jp,トップ,https://www.kagoya.jp/,32,78,50,85,3.8 s,53.5 s,"1,620 ms",0,12.3 s
+kagoya.jp,記事,https://www.kagoya.jp/howto/rentalserver/wppractice/wordpressblog/,37,87,54,100,2.9 s,18.3 s,"1,340 ms",0,8.0 s
+shopify.com,トップ,https://www.shopify.com/jp,51,96,100,100,14.6 s,49.4 s,220 ms,0.006,14.6 s
+shopify.com,記事,https://www.shopify.com/jp/blog/how-to-start-a-blog,71,91,96,92,3.7 s,5.2 s,150 ms,0.002,3.7 s
+ja.wix.com,トップ,https://ja.wix.com/,60,100,100,100,2.9 s,5.3 s,590 ms,0.021,2.9 s
+ja.wix.com,記事,https://ja.wix.com/blog/2021/08/how-to-start-a-blog/,44,100,100,100,2.1 s,5.4 s,"3,150 ms",0,5.7 s
+xfree.ne.jp,トップ,https://www.xfree.ne.jp/,27,76,92,85,8.1 s,16.9 s,"2,380 ms",0.039,9.3 s
+xfree.ne.jp,記事,https://www.xfree.ne.jp/media/category/blog-how-to-start/,41,81,100,83,11.9 s,17.4 s,560 ms,0.019,12.4 s
+value-domain.com,トップ,https://www.value-domain.com/,49,81,50,92,2.0 s,6.3 s,"1,420 ms",0,3.9 s
+value-domain.com,記事,https://www.value-domain.com/media/free-blog/,46,92,50,100,2.3 s,5.2 s,"1,020 ms",0,13.3 s
+shared.gmocloud.com,トップ,https://shared.gmocloud.com/,33,89,65,92,5.5 s,27.3 s,"1,050 ms",0.055,11.5 s
+shared.gmocloud.com,記事,https://shared.gmocloud.com/lp/iinkai/making/,39,85,73,100,4.0 s,5.0 s,"1,440 ms",0.109,6.9 s
