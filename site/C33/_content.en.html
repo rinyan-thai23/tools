@@ -4,7 +4,7 @@
 <div class="scroll"><table>
 <thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>
 <tbody>
-<tr class="me"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.18 per call (measured: $0.18 for 2 keywords)</td><td>Volume and share per country in a table. Save as CSV. Countries come as ISO codes (JP, US and so on)</td></tr>
+<tr class="me"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.18 per call (measured: $0.18 for one keyword, and also $0.18 for 2)</td><td>Volume and share per country in a table. Save as CSV. Countries come as ISO codes (US, IN, DE and so on)</td></tr>
 <tr><td>Ahrefs Keywords Explorer</td><td>Subscription (see the official site for plans)</td><td>Shows global volume with a country breakdown</td></tr>
 <tr><td>Google Keyword Planner (by hand)</td><td>Free (needs a Google Ads account)</td><td>You pick a country to research (see the official site for features)</td></tr>
 <tr><td>Semrush Keyword Overview</td><td>Subscription (see the official site)</td><td>Switch countries to see a keyword overview</td></tr>
@@ -13,28 +13,28 @@
 
 <h2>Why use this tool</h2>
 <ul>
-<li><strong>The breakdown by country in one call.</strong> "ラーメン" returned 52 countries (measured; Japan about 96%).</li>
+<li><strong>The breakdown by country in one call.</strong> "ramen" returned 139 countries (measured; the United States about 18%, India about 9%). A Japanese-language keyword returned only 52 countries in a separate test (measured in Japan with a Japanese keyword; Japan about 96%).</li>
 <li><strong>Share included.</strong> See at once how lopsided it is.</li>
-<li><strong>About 1 second.</strong></li>
-<li><strong>English words work too.</strong> "ramen" returned 139 countries.</li>
+<li><strong>A few seconds.</strong> We measured about 0.1 seconds for the US sample.</li>
+<li><strong>Other languages work too.</strong> The number of countries depends on the word.</li>
 <li><strong>Save as CSV.</strong></li>
 </ul>
 
 <h2>When it is not the right fit</h2>
 <ul>
 <li>You want to <strong>test many ideas cheaply</strong> → at $0.18 per call the price is on the high side.</li>
-<li>You want <strong>country names</strong> → countries stay as ISO codes (JP, US and so on). We do not convert them.</li>
-<li>You want <strong>prefectures within Japan</strong> → this is country level. "See popularity by prefecture" fits better.</li>
+<li>You want <strong>country names</strong> → countries stay as ISO codes (US, IN and so on). We do not convert them.</li>
+<li>You want <strong>states or cities within a country</strong> → this is country level only.</li>
 <li>The numbers are the API's estimates of search volume.</li>
-<li>You want <strong>only the top countries</strong> → every returned country is shown: 52 for ラーメン and 139 for ramen.</li>
+<li>You want <strong>only the top countries</strong> → every returned country is shown: 139 for "ramen" in our US sample.</li>
 <li>Each call fetches one keyword; there is no country or language setting.</li>
 </ul>
 <p>This tool does one thing: show a keyword's search volume and share by country.</p>
 
 <h2>FAQ</h2>
-<details><summary>Why is it $0.18?</summary><p>That is the API's price per call. Sending 2 keywords to the API also cost $0.18 (this tool takes one).</p></details>
-<details><summary>What are the country codes?</summary><p>JP is Japan and US is the United States, as two-letter ISO codes.</p></details>
+<details><summary>Why is it $0.18?</summary><p>That is the API's price per call. Sending 2 keywords to the API also cost $0.18, and so did a single keyword.</p></details>
+<details><summary>What are the country codes?</summary><p>US is the United States and IN is India, as two-letter ISO codes.</p></details>
 <details><summary>Why is there no country or language selector?</summary><p>The numbers cover all countries worldwide.</p></details>
-<details><summary>What is the share a share of?</summary><p>Each country's part of the total of the returned countries (Japan 291,183 ÷ total 302,740 = 96.18%, checked).</p></details>
+<details><summary>What is the share a share of?</summary><p>Each country's part of the total of the returned countries (US 80,109 ÷ total 437,044 = 18.33%, checked for "ramen").</p></details>
 <details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href="/dfs-en.html">What is DataForSEO?</a></p></details>
 </section>
