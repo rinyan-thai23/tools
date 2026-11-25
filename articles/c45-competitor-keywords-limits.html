@@ -1,0 +1,52 @@
+<p>競合サイトのキーワードを調べるには、いくつか方法があります。<a href="/C45/ja/">サイトが上位にいるキーワードを見るツール</a>を、実際に11サイトで使って確かめた事実を整理します。</p>
+
+<h2>方法の違い</h2>
+<div class="scroll"><table>
+<thead><tr><th>見たいこと</th><th>Search Console（Google公式）</th><th>ブラウザで検索</th><th>このツール（C45）</th></tr></thead>
+<tbody>
+<tr><td>自分のサイトのキーワード</td><td>見られる（登録したサイトのみ）</td><td>1語ずつ手で探す</td><td>見られる（10位以内のもの）</td></tr>
+<tr><td>他人のサイトのキーワード</td><td>見られない</td><td>思いついた語を1語ずつ確認</td><td>見られる（検索数の多い順に100件）</td></tr>
+<tr><td>まとめて見る</td><td>自分のサイトの検索語の一覧</td><td>できない</td><td>サイトごとに100件をまとめて</td></tr>
+<tr><td>費用</td><td>無料</td><td>無料</td><td>1サイト$0.024（約3.7円）を実測</td></tr>
+</tbody></table></div>
+<p class="note">Search Consoleとブラウザの項目は、一般的な説明です。細かい仕様は変わることがあるので、公式で確認してください。</p>
+
+<h2>このツールで、わかること（実測）</h2>
+<ul>
+<li>サイトが10位以内にいるキーワードの<strong>合計数</strong>（例：xserver.ne.jpは3,241個）。</li>
+<li>検索数の多い順の<strong>上位100件</strong>の、キーワード・順位・検索数・URL。</li>
+<li>10サイトを、10回の呼び出しで調べられました（hatenablog.comの0件を含めると11回で$0.252）。</li>
+</ul>
+
+<h2>わからないこと・気をつけること（実測）</h2>
+<ul>
+<li><strong>100件より先は見えない。</strong>note.comは10位以内が1,937,304個ありますが、取れたのは100件です。</li>
+<li><strong>サイトによって、0件になる。</strong>hatenablog.comを調べたら0件でした（費用は$0.012）。理由は確かめていません。</li>
+<li><strong>「10位以内」だけ。</strong>11位以下のキーワードは、この設定では取れません。</li>
+<li><strong>つづりの違いが別のキーワードになる。</strong>「wordpress」「word press」「wo rdpress」が別々に並びました。</li>
+<li><strong>推計の数字。</strong>順位も検索数も、この日のデータです。</li>
+<li><strong>サイトの良し悪しは分からない。</strong>データを見せるだけです。</li>
+</ul>
+
+<h2>どう使い分ける？</h2>
+<ul>
+<li><strong>自分のサイトの検索語</strong> → Search Consoleが向いています。無料で、実際のデータです。</li>
+<li><strong>競合のサイトが、どんな言葉で上位にいるか、表で見たい</strong> → このツールが向いています。</li>
+</ul>
+<p>確認だけなら、まずブラウザで1語検索するだけでも十分です。競合を何サイトも並べたくなったら、このツールを使ってみてください。</p>
+
+<h2>全データ：サイトごとのまとめ</h2>
+<p>10位以内のキーワード数（全部）です。</p>
+<div class="scroll"><table class="data"><thead><tr><th>サイト</th><th>10位以内のキーワード数（全部）</th></tr></thead><tbody><tr><td>note.com</td><td>1,937,304</td></tr><tr><td>canva.com</td><td>73,557</td></tr><tr><td>xserver.ne.jp</td><td>3,241</td></tr><tr><td>onamae.com</td><td>2,894</td></tr><tr><td>conoha.jp</td><td>2,595</td></tr><tr><td>webtan.impress.co.jp</td><td>2,269</td></tr><tr><td>wix.com</td><td>2,107</td></tr><tr><td>hubspot.jp</td><td>1,970</td></tr><tr><td>ferret-plus.com</td><td>1,289</td></tr><tr><td>ja.wordpress.org</td><td>354</td></tr><tr><td>hatenablog.com</td><td>（0件）</td></tr></tbody></table></div>
+
+<h2>どうやって調べたか</h2>
+<div class="box">
+<ul>
+<li>日付：2026年11月25日、地域と言語：日本、日本語</li>
+<li>ツール：<a href="/C45/ja/">サイトが上位にいるキーワードを見る（C45）</a>（DataForSEOのAPIが、サイトごとに「10位以内のキーワード」を返します）</li>
+<li>調べたサイト：xserver.ne.jp、conoha.jp、onamae.com、note.com、ferret-plus.com、webtan.impress.co.jp、hubspot.jp、canva.com、wix.com、ja.wordpress.org（10サイト。私が選びました）。ほかに hatenablog.com も調べましたが、0件でした</li>
+<li>条件（ツールと同じ）：通常の検索結果で10位以内、検索数の多い順に、サイトごとに100件</li>
+<li>費用：サイト1つにつき<strong>$0.024</strong>。11サイトで<strong>$0.252</strong>（0件だった hatenablog.com は$0.012）</li>
+<li>データ：<a href="/articles/c45-10-sites-top100/">10サイト×100件の記事</a>と同じ</li>
+</ul>
+</div>

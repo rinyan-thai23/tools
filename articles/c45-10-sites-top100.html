@@ -1,0 +1,42 @@
+<p>競合のサイトが、Googleの検索で10位以内にいるキーワードを知りたい。そんなときに使えるのが<a href="/C45/ja/">サイトが上位にいるキーワードを見るツール</a>です。日本の情報サイト<strong>10個</strong>について、10位以内にいるキーワードを、検索数の多い順に<strong>100件ずつ</strong>取りました。全部で1,000件のデータです。</p>
+
+<h2>先に、わかったこと</h2>
+<ul>
+<li>10位以内にいるキーワードの数（全部）は、サイトで大きく違いました。<strong>note.comが1,937,304個</strong>、canva.comが73,557個、xserver.ne.jpが3,241個、ja.wordpress.orgが354個です。</li>
+<li>取れたのは、検索数の多い順の<strong>100件ずつ</strong>です。1回のAPI呼び出しで取れる件数は、このツールの設定で100件でした。</li>
+<li>一番検索数が多かったのは、note.comの<strong>「転機」（月間55,600,000）</strong>でした。</li>
+<li>hatenablog.com を調べたら、<strong>0件</strong>でした。</li>
+</ul>
+<p>お店でいうと、「10店のレジの、売上の大きい商品ベスト100」を、全部書き出した表です。</p>
+
+<h2>サイトごとのまとめ</h2>
+<p>「10位以内のキーワード数（全部）」はAPIが返した合計、「取得した件数」はこの記事で取った100件です。</p>
+<p><a href="/articles/data/c45-site-summary-2026-11-25.csv" download>CSVでダウンロード</a></p>
+<!--include:c45_summary-->
+
+<h2>全データ：10サイト×100件（1,000件）</h2>
+<p>サイト、キーワード、順位、Googleの月間検索数、URLを、APIが返したまま載せています。</p>
+<p><a href="/articles/data/c45-10sites-top100-2026-11-25.csv" download>CSVでダウンロード（1,000行）</a></p>
+<details><summary>1,000件の表を開く</summary>
+<!--include:c45_table-->
+</details>
+
+<h2>この表から作った記事</h2>
+<ul>
+<li><a href="/articles/c45-shared-keywords/">10サイトで、同じキーワードで上位に入っていたもの</a></li>
+<li><a href="/articles/c45-rank1-keywords/">1位のキーワードだけを集めたら</a></li>
+<li><a href="/articles/c45-volume-vs-rank/">検索数と順位を並べて見る</a></li>
+<li><a href="/articles/c45-competitor-keywords-limits/">競合サイトのキーワードを調べる方法と、わからないこと</a></li>
+</ul>
+
+<h2>どうやって調べたか</h2>
+<div class="box">
+<ul>
+<li>日付：2026年11月25日、地域と言語：日本、日本語</li>
+<li>ツール：<a href="/C45/ja/">サイトが上位にいるキーワードを見る（C45）</a>（DataForSEOのAPIが、サイトごとに「10位以内のキーワード」を返します）</li>
+<li>調べたサイト：xserver.ne.jp、conoha.jp、onamae.com、note.com、ferret-plus.com、webtan.impress.co.jp、hubspot.jp、canva.com、wix.com、ja.wordpress.org（10サイト。私が選びました）。ほかに hatenablog.com も調べましたが、0件でした</li>
+<li>条件（ツールと同じ）：通常の検索結果で10位以内、検索数の多い順に、サイトごとに100件</li>
+<li>費用：サイト1つにつき<strong>$0.024</strong>。11サイトで<strong>$0.252</strong>（0件だった hatenablog.com は$0.012）</li>
+</ul>
+</div>
+<p class="note">検索数や順位は、DataForSEOがGoogleの検索結果から推計した、この日のデータです。実際の数字とは違うことがあります。サイトの良し悪しの評価ではありません。</p>

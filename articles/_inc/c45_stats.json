@@ -1,0 +1,321 @@
+{
+ "sites": [
+  "xserver.ne.jp",
+  "conoha.jp",
+  "onamae.com",
+  "note.com",
+  "hatenablog.com",
+  "ferret-plus.com",
+  "webtan.impress.co.jp",
+  "hubspot.jp",
+  "canva.com",
+  "wix.com",
+  "ja.wordpress.org"
+ ],
+ "meta": {
+  "xserver.ne.jp": {
+   "cost": 0.024,
+   "total": 3241,
+   "n": 100
+  },
+  "conoha.jp": {
+   "cost": 0.024,
+   "total": 2595,
+   "n": 100
+  },
+  "onamae.com": {
+   "cost": 0.024,
+   "total": 2894,
+   "n": 100
+  },
+  "note.com": {
+   "cost": 0.024,
+   "total": 1937304,
+   "n": 100
+  },
+  "hatenablog.com": {
+   "cost": 0.012,
+   "total": null,
+   "n": 0
+  },
+  "ferret-plus.com": {
+   "cost": 0.024,
+   "total": 1289,
+   "n": 100
+  },
+  "webtan.impress.co.jp": {
+   "cost": 0.024,
+   "total": 2269,
+   "n": 100
+  },
+  "hubspot.jp": {
+   "cost": 0.024,
+   "total": 1970,
+   "n": 100
+  },
+  "canva.com": {
+   "cost": 0.024,
+   "total": 73557,
+   "n": 100
+  },
+  "wix.com": {
+   "cost": 0.024,
+   "total": 2107,
+   "n": 100
+  },
+  "ja.wordpress.org": {
+   "cost": 0.024,
+   "total": 354,
+   "n": 100
+  }
+ },
+ "total_rows": 1000,
+ "nz": [
+  "hatenablog.com"
+ ],
+ "ov_n": 44,
+ "ov_top": [
+  [
+   "vps",
+   [
+    "conoha.jp",
+    "onamae.com",
+    "xserver.ne.jp"
+   ]
+  ],
+  [
+   "ホームページの作成",
+   [
+    "hubspot.jp",
+    "wix.com",
+    "xserver.ne.jp"
+   ]
+  ],
+  [
+   "楽天 アフィリエイト",
+   [
+    "conoha.jp",
+    "onamae.com",
+    "xserver.ne.jp"
+   ]
+  ],
+  [
+   "楽天　アフィリエイト",
+   [
+    "conoha.jp",
+    "onamae.com",
+    "xserver.ne.jp"
+   ]
+  ],
+  [
+   "楽天のアフィリエイト",
+   [
+    "conoha.jp",
+    "onamae.com",
+    "xserver.ne.jp"
+   ]
+  ],
+  [
+   "楽天アフィリエイト",
+   [
+    "conoha.jp",
+    "onamae.com",
+    "xserver.ne.jp"
+   ]
+  ],
+  [
+   "楽天アフリィエイト",
+   [
+    "conoha.jp",
+    "onamae.com",
+    "xserver.ne.jp"
+   ]
+  ],
+  [
+   "amazon のアフィリエイト",
+   [
+    "onamae.com",
+    "xserver.ne.jp"
+   ]
+  ],
+  [
+   "amazonアソシエイト",
+   [
+    "onamae.com",
+    "xserver.ne.jp"
+   ]
+  ],
+  [
+   "cocoon",
+   [
+    "conoha.jp",
+    "xserver.ne.jp"
+   ]
+  ],
+  [
+   "com",
+   [
+    "onamae.com",
+    "wix.com"
+   ]
+  ],
+  [
+   "tik tok",
+   [
+    "canva.com",
+    "note.com"
+   ]
+  ]
+ ],
+ "ov_max": 3,
+ "r1_n": 114,
+ "r1c": {
+  "canva.com": 31,
+  "note.com": 1,
+  "onamae.com": 12,
+  "wix.com": 13,
+  "xserver.ne.jp": 8,
+  "ja.wordpress.org": 32,
+  "conoha.jp": 7,
+  "hubspot.jp": 4,
+  "ferret-plus.com": 3,
+  "webtan.impress.co.jp": 3
+ },
+ "allr": {
+  "1": 114,
+  "2": 85,
+  "3": 77,
+  "4": 124,
+  "5": 115,
+  "6": 97,
+  "7": 86,
+  "8": 119,
+  "9": 93,
+  "10": 90
+ },
+ "first_top": [
+  [
+   "canva.com",
+   "canva",
+   1830000
+  ],
+  [
+   "note.com",
+   "note",
+   1500000
+  ],
+  [
+   "canva.com",
+   "キャンバ",
+   1500000
+  ],
+  [
+   "canva.com",
+   "イラスト カワイイ",
+   368000
+  ],
+  [
+   "canva.com",
+   "カワイイイラスト",
+   368000
+  ],
+  [
+   "canva.com",
+   "イラスト 馬",
+   246000
+  ],
+  [
+   "canva.com",
+   "イラストうま",
+   246000
+  ],
+  [
+   "canva.com",
+   "イラスト馬",
+   246000
+  ],
+  [
+   "canva.com",
+   "馬 の イラスト",
+   246000
+  ],
+  [
+   "canva.com",
+   "馬 のイラスト",
+   246000
+  ]
+ ],
+ "bands": [
+  [
+   "10万以上",
+   "249",
+   "5",
+   "35",
+   "14%"
+  ],
+  [
+   "1万〜9.9万",
+   "531",
+   "6",
+   "45",
+   "8%"
+  ],
+  [
+   "1,000〜9,999",
+   "220",
+   "5.0",
+   "34",
+   "15%"
+  ]
+ ],
+ "cost": 0.252,
+ "nvol_none": 0,
+ "max_all": "転機",
+ "max_vol": 55600000,
+ "big": [
+  [
+   "note.com",
+   1937304
+  ],
+  [
+   "canva.com",
+   73557
+  ],
+  [
+   "xserver.ne.jp",
+   3241
+  ],
+  [
+   "onamae.com",
+   2894
+  ],
+  [
+   "conoha.jp",
+   2595
+  ],
+  [
+   "webtan.impress.co.jp",
+   2269
+  ],
+  [
+   "wix.com",
+   2107
+  ],
+  [
+   "hubspot.jp",
+   1970
+  ],
+  [
+   "ferret-plus.com",
+   1289
+  ],
+  [
+   "ja.wordpress.org",
+   354
+  ],
+  [
+   "hatenablog.com",
+   null
+  ]
+ ]
+}

@@ -1,0 +1,145 @@
+{
+ "per": {
+  "c24-keyword-volume-538": {
+   "usd": 0.09,
+   "note": "538語を1回の呼び出しで調べた"
+  },
+  "c24-empty-volume-keywords": {
+   "usd": 0.09,
+   "note": "538語のデータ（1回）を使用"
+  },
+  "c24-how-to-read-table": {
+   "usd": 0,
+   "note": "ツールの無料サンプルの1行を使用（追加のAPI代なし）"
+  },
+  "c24-vs-keyword-planner": {
+   "usd": 0.18,
+   "note": "C24を同じ10語で2回（スペースの有無の確認を含む）。キーワードプランナーは無料"
+  },
+  "c24-1000-keywords-limits": {
+   "usd": 0.18,
+   "note": "1,200語を2回に分けて調べた。4語・538語の各$0.09は別の実測"
+  },
+  "c01-blog-top100": {
+   "usd": 0.0175,
+   "note": "上位100件を1回"
+  },
+  "c01-serp-features-20keywords": {
+   "usd": 0.08,
+   "note": "20語×1回（1回$0.004）"
+  },
+  "c01-top100-title-stats": {
+   "usd": 0.0175,
+   "note": "上位100件のデータ（1回）を使用"
+  },
+  "c01-three-ways-to-check-rank": {
+   "usd": 0,
+   "note": "他の記事の実測（10件$0.004、100件$0.0175）を引用"
+  },
+  "c18-ramen-10-times": {
+   "usd": 0.2714,
+   "note": "同じ質問を10回"
+  },
+  "c18-40-prompts-references": {
+   "usd": 0.5887,
+   "note": "40の質問を1回ずつ"
+  },
+  "c18-fan-out-queries": {
+   "usd": 0.8601,
+   "note": "50回ぶん（10回＋40問）のデータを使用"
+  },
+  "c18-api-vs-chatgpt-app": {
+   "usd": 0,
+   "note": "他の記事の実測（50回ぶん、合計$0.8601）を引用"
+  },
+  "c18-four-ai-compared": {
+   "usd": 0.1399,
+   "note": "新しく取った15回。ChatGPTの5回は別の記事のデータ"
+  },
+  "c02-ai-mode-20-questions": {
+   "usd": 0.08,
+   "note": "20回（1回$0.004）"
+  },
+  "c02-ai-mode-vs-top10": {
+   "usd": 0.16,
+   "note": "AIモード20回$0.08＋通常の検索結果20回$0.08"
+  },
+  "c02-ai-mode-cited-domains": {
+   "usd": 0.08,
+   "note": "20回のデータを使用"
+  },
+  "c02-ai-mode-api-limits": {
+   "usd": 0.08,
+   "note": "20回のデータを使用"
+  },
+  "c23-ai-search-volume-538": {
+   "usd": 0.0638,
+   "note": "538語を1回"
+  },
+  "c23-ai-vs-google-volume": {
+   "usd": 0.1538,
+   "note": "AI質問回数$0.0638＋Google検索数（C24）$0.09"
+  },
+  "c23-ai-volume-nonzero-words": {
+   "usd": 0.0638,
+   "note": "538語のデータ（1回）を使用"
+  },
+  "c23-ai-monthly-trend": {
+   "usd": 0.1538,
+   "note": "AI質問回数$0.0638＋Google検索数（C24）$0.09"
+  },
+  "c23-ai-volume-limits": {
+   "usd": 0.0638,
+   "note": "538語のデータ（1回）を使用"
+  },
+  "c41-30-keywords-monthly": {
+   "usd": 0.0156,
+   "note": "30語を1回"
+  },
+  "c41-peak-months": {
+   "usd": 0.0156,
+   "note": "30語のデータ（1回）を使用"
+  },
+  "c41-seasonal-vs-flat": {
+   "usd": 0.0156,
+   "note": "30語のデータ（1回）を使用"
+  },
+  "c41-flat-keywords-jan-vs-apr": {
+   "usd": 0.0156,
+   "note": "30語のデータ（1回）を使用"
+  },
+  "c41-monthly-volume-limits": {
+   "usd": 0.0156,
+   "note": "30語のデータ（1回）を使用"
+  },
+  "c45-10-sites-top100": {
+   "usd": 0.252,
+   "note": "11サイト×1回（1サイト$0.024、0件だった1サイトは$0.012）"
+  },
+  "c45-shared-keywords": {
+   "usd": 0.252,
+   "note": "10サイト×100件のデータ（11回）を使用"
+  },
+  "c45-rank1-keywords": {
+   "usd": 0.252,
+   "note": "10サイト×100件のデータ（11回）を使用"
+  },
+  "c45-volume-vs-rank": {
+   "usd": 0.252,
+   "note": "10サイト×100件のデータ（11回）を使用"
+  },
+  "c45-competitor-keywords-limits": {
+   "usd": 0.252,
+   "note": "10サイト×100件のデータ（11回）を使用"
+  }
+ },
+ "real": {
+  "C24": 0.45,
+  "C01": 0.0975,
+  "C18": 1.0,
+  "C02": 0.08,
+  "C23": 0.0638,
+  "C41": 0.0156,
+  "C45": 0.252
+ }
+}

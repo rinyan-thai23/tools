@@ -111,6 +111,11 @@ for (const { code: l } of indexLangs) {
 // ---------- 5b. 記事（日本語のみ）：articles/index.json と articles/<slug>.html から /articles/ を生成
 if (existsSync('articles/index.json')) {
   const arts = JSON.parse(read('articles/index.json'));
+  const costs = existsSync('articles/costs.json') ? JSON.parse(read('articles/costs.json')) : { per: {}, real: {} };
+  const yen = (usd) => { const y = usd * 155; return y >= 10 ? Math.round(y) : Math.round(y * 10) / 10; };
+  const usdStr = (usd) => '$' + (usd >= 0.1 ? usd.toFixed(2) : String(Number(usd.toFixed(4))));
+  const costLine = (slug) => { const c = costs.per[slug]; if (!c) return ''; return c.usd > 0 ? `${usdStr(c.usd)}（約${yen(c.usd)}円）` : '追加のAPI代なし'; };
+  const realTotal = Object.values(costs.real).reduce((a, b) => a + b, 0);
   const LJ = locales.ja || {};
   const tname = (id) => LJ[`${id.toLowerCase()}.name`] || id;
   const tdesc = (id) => LJ[`${id.toLowerCase()}.desc`] || '';
@@ -118,14 +123,14 @@ if (existsSync('articles/index.json')) {
   for (const a of arts) (byTool[a.tool] ||= []).push(a);
   const toolIdsWithArts = Object.keys(byTool).sort();
   const nav = toolIdsWithArts.map((id) => `<a href="#t-${id}">${id} ${esc(tname(id))}（${byTool[id].length}本）</a>`).join(' ／ ');
-  const list = toolIdsWithArts.map((id) => `<section id="t-${id}">\n<h2><small class="tid">${id}</small> ${esc(tname(id))}</h2>\n<p class="note">対象ツール：<a href="/${id}/ja/">${esc(tname(id))}</a>｜${esc(tdesc(id))}</p>\n<ul class="tools">\n${byTool[id].map((a) => `<li><a href="/articles/${a.slug}/">${esc(a.title)}</a><br><span class="note">${esc(a.description)}（${esc(a.date)}）</span></li>`).join('\n')}\n</ul>\n</section>`);
+  const list = toolIdsWithArts.map((id) => `<section id="t-${id}">\n<h2><small class="tid">${id}</small> ${esc(tname(id))}</h2>\n<p class="note">対象ツール：<a href="/${id}/ja/">${esc(tname(id))}</a>｜${esc(tdesc(id))}</p>\n<ul class="tools">\n${byTool[id].map((a) => `<li><a href="/articles/${a.slug}/">${esc(a.title)}</a><br><span class="note">${esc(a.description)}（${esc(a.date)}）｜データ取得のAPI代：${costLine(a.slug)}</span></li>`).join('\n')}\n</ul>\n</section>`);
   const shell = (title, desc, canon, body) => `<!doctype html>\n<html lang="ja">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width,initial-scale=1">\n<title>${esc(title)}</title>\n<meta name="description" content="${esc(desc)}">\n<link rel="canonical" href="{{SITE_URL}}${canon}">\n<meta property="og:title" content="${esc(title)}">\n<meta property="og:description" content="${esc(desc)}">\n<link rel="stylesheet" href="/shared/style.css">\n</head>\n<body>\n<!--SITE_HEADER-->\n${body}\n<!--SITE_FOOTER-->\n</body>\n</html>\n`;
-  addPage('/articles/index.html', shell('記事一覧｜DataForSEO 1機能ツール集', 'ツールで実際に調べたデータをそのまま載せた記事の一覧です。', '/articles/', `<p><a href="/">← ツール一覧</a></p>\n<h1>記事一覧</h1>\n<p>ツールを実際に使って調べたデータを、そのまま載せた記事です。ツールごとに並べています。</p>\n<p class="note">${nav}</p>\n${list.join('\n')}`));
+  addPage('/articles/index.html', shell('記事一覧｜DataForSEO 1機能ツール集', 'ツールで実際に調べたデータをそのまま載せた記事の一覧です。', '/articles/', `<p><a href="/">← ツール一覧</a></p>\n<h1>記事一覧</h1>\n<p>ツールを実際に使って調べたデータを、そのまま載せた記事です。ツールごとに並べています。</p>\n<div class="box">全記事のデータ取得に使ったAPI代の合計：<strong>${usdStr(realTotal)}（約${yen(realTotal)}円）</strong>（1ドル155円で計算）。記事ごとの金額は、下の一覧と各記事の末尾に書いています。</div>\n<p class="note">${nav}</p>\n${list.join('\n')}`));
   for (const a of arts) {
     const body = read(`articles/${a.slug}.html`).replace(/<!--include:(\w+)-->/g, (m, n) => read(`articles/_inc/${n}.html`));
     const others = arts.filter((x) => x.slug !== a.slug).map((x) => `<li><a href="/articles/${x.slug}/">${esc(x.title)}</a></li>`).join('\n');
     addPage(`/articles/${a.slug}/index.html`, shell(`${a.title}｜DataForSEO 1機能ツール集`, a.description, `/articles/${a.slug}/`,
-      `<p><a href="/articles/">← 記事一覧</a></p>\n<article>\n<h1>${esc(a.title)}</h1>\n<p class="note">${esc(a.date)} ／ 運営者：Hideaki Takahashi</p>\n<p class="box">この記事のツール：<strong><a href="/${a.tool}/ja/">${a.tool} ${esc(tname(a.tool))}</a></strong><br><span class="note">${esc(tdesc(a.tool))}</span></p>\n${body}\n<h2>関連する記事</h2>\n<ul>\n${others}\n</ul>\n<p><a href="/about/">運営者について</a></p>\n</article>`));
+      `<p><a href="/articles/">← 記事一覧</a></p>\n<article>\n<h1>${esc(a.title)}</h1>\n<p class="note">${esc(a.date)} ／ 運営者：Hideaki Takahashi</p>\n<p class="box">この記事のツール：<strong><a href="/${a.tool}/ja/">${a.tool} ${esc(tname(a.tool))}</a></strong><br><span class="note">${esc(tdesc(a.tool))}</span></p>\n${body}\n<div class="box"><strong>この記事のデータ取得にかかったAPI代</strong>：${costLine(a.slug)}<br><span class="note">${esc((costs.per[a.slug] || {}).note || '')}（1ドル155円で計算）</span></div>\n<h2>関連する記事</h2>\n<ul>\n${others}\n</ul>\n<p><a href="/about/">運営者について</a></p>\n</article>`));
   }
   // ツールページ（日本語）の下に「関連記事」
   for (const t of tools) {

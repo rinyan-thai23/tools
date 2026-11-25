@@ -1,0 +1,30 @@
+<p>検索数が多いキーワードは、順位も高いのでしょうか。<a href="/articles/c45-10-sites-top100/">10サイト×100件</a>のデータで、検索数の帯ごとに、順位を並べました。</p>
+
+<h2>先に、わかったこと</h2>
+<ul>
+<li>順位ごとの件数は、1位が114件、2位が85件、…、10位が90件で、<strong>1位から10位まで、ほぼ同じくらいずつ</strong>に分かれました（最少は2位の85件、最多は4位の124件）。</li>
+<li>検索数の帯で比べると、<strong>順位の中央値は5〜6</strong>で、大きくは変わりませんでした。</li>
+<li>1位の割合は、10万以上の帯が<strong>14%</strong>、1万〜9.9万の帯が<strong>8%</strong>、1,000〜9,999の帯が<strong>15%</strong>でした。</li>
+</ul>
+<p>テストでいうと、「難しい問題（検索数が多い言葉）でも、簡単な問題でも、1位を取れる割合はそれほど変わらなかった」という結果です。</p>
+
+<h2>検索数の帯ごとの順位</h2>
+<div class="scroll"><table class="data"><thead><tr><th>月間検索数の帯</th><th>キーワードの数</th><th>順位の中央値</th><th>1位の数</th><th>1位の割合</th></tr></thead><tbody><tr><td>10万以上</td><td>249</td><td>5</td><td>35</td><td>14%</td></tr><tr><td>1万〜9.9万</td><td>531</td><td>6</td><td>45</td><td>8%</td></tr><tr><td>1,000〜9,999</td><td>220</td><td>5.0</td><td>34</td><td>15%</td></tr></tbody></table></div>
+<p class="note">取れた1,000件は、各サイトの「検索数の多い順の100件」なので、検索数が1,000未満のキーワードは含まれません。</p>
+
+<h2>全データ：サイトごとの順位の分布</h2>
+<p>100件が、1位〜10位にそれぞれ何件ずつあるかです。</p>
+<p><a href="/articles/data/c45-rank-distribution-2026-11-25.csv" download>CSVでダウンロード</a></p>
+<!--include:c45_rankdist-->
+
+<h2>どうやって調べたか</h2>
+<div class="box">
+<ul>
+<li>日付：2026年11月25日、地域と言語：日本、日本語</li>
+<li>ツール：<a href="/C45/ja/">サイトが上位にいるキーワードを見る（C45）</a>（DataForSEOのAPIが、サイトごとに「10位以内のキーワード」を返します）</li>
+<li>調べたサイト：xserver.ne.jp、conoha.jp、onamae.com、note.com、ferret-plus.com、webtan.impress.co.jp、hubspot.jp、canva.com、wix.com、ja.wordpress.org（10サイト。私が選びました）。ほかに hatenablog.com も調べましたが、0件でした</li>
+<li>条件（ツールと同じ）：通常の検索結果で10位以内、検索数の多い順に、サイトごとに100件</li>
+<li>費用：サイト1つにつき<strong>$0.024</strong>。11サイトで<strong>$0.252</strong>（0件だった hatenablog.com は$0.012）</li>
+<li>データ：<a href="/articles/c45-10-sites-top100/">10サイト×100件の記事</a>と同じ。1,000件の検索数と順位を使いました</li>
+</ul>
+</div>
