@@ -14,7 +14,7 @@
     "date_group": "month"
   },
   "params_dynamic": {
-    "date_from": "months_ago_11"
+    "date_from": "months_ago_12"
   },
   "result": {
     "items": "result",
@@ -46,7 +46,16 @@
         "label": "c67.col.neutral",
         "from": "connotation_types.neutral"
       }
-    ]
+    ],
+    "chart": {
+      "x": "month",
+      "y": [
+        "total"
+      ]
+    },
+    "drop_current_month": {
+      "date": "date"
+    }
   },
   "csv": "C67.csv",
   "sample_langs": [

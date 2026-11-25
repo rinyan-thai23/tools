@@ -30,7 +30,14 @@
         "label": "c41.col.volume",
         "from": "keyword_info.monthly_searches.0.search_volume"
       }
-    ]
+    ],
+    "chart": {
+      "x": "ym",
+      "y": [
+        "volume"
+      ],
+      "reverse": true
+    }
   },
   "csv": "C41.csv",
   "sample_langs": [

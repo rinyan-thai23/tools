@@ -36,6 +36,11 @@
       "y": [
         "value"
       ]
+    },
+    "drop_partial": {
+      "from": "date_from",
+      "to": "date_to",
+      "days": 6
     }
   },
   "csv": "C30.csv",

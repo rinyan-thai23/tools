@@ -49,9 +49,18 @@ export const extractAnswer = (cfg, task) => {
 
 // 1つの表の行を取り出す。spec = { items, where, flatten, unique, columns }
 //   flatten: 配列の入れ子を平らにする（例 ["sections","annotations"]）／ unique: 同じ値の行を1つにする項目
-export function rowsOf(spec, task) {
+export function rowsOf(spec, task, ctx = {}) {
   if (spec.nested) { const o = get(task, spec.items) || {}; return Object.entries(o).flatMap(([g, gv]) => Object.entries(gv || {}).map(([c, n]) => ({ group: g, type: c, names: n }))).map((it) => Object.fromEntries(spec.columns.map((c) => [c.key, c.transform ? transforms[c.transform](pick(it, c.from || c.key)) : pick(it, c.from || c.key)]))); } // 2段の辞書（分類→種類→名前の一覧）を行にする
   let list = (spec.object ? [] : [].concat(spec.items).flatMap((p) => get(task, p) || [])).filter((it) => Object.entries(spec.where || {}).every(([k, v]) => (Array.isArray(v) ? v.includes(it[k]) : it[k] === v)));
+  // 途中のデータは出さない：drop_partial＝最後の期間が短い（例：7日に満たない週）なら除く／drop_current_month＝今月（途中の月）を除く
+  if (spec.drop_partial && list.length) {
+    const d = spec.drop_partial, last = list[list.length - 1], span = (Date.parse(get(last, d.to)) - Date.parse(get(last, d.from))) / 86400000;
+    if (span < d.days) list = list.slice(0, -1);
+  }
+  if (spec.drop_current_month) {
+    const d = spec.drop_current_month, now = ctx.now || new Date(), cur = `${now.getUTCFullYear()}-${String(now.getUTCMonth() + 1).padStart(2, '0')}`;
+    list = list.filter((it) => (d.date ? String(get(it, d.date)).slice(0, 7) : `${get(it, d.year)}-${String(get(it, d.month)).padStart(2, '0')}`) !== cur);
+  }
   for (const k of spec.flatten || []) list = list.flatMap((it) => (it[k] || []).map((c) => ({ ...c, __parent: it }))); // 子に親（__parent）を持たせる
   if (spec.where_after) list = list.filter((it) => Object.entries(spec.where_after).every(([k, v]) => it[k] === v));
   if (spec.max_after) list = list.filter((it) => Object.entries(spec.max_after).every(([k, v]) => it[k] != null && it[k] <= v));
@@ -65,9 +74,9 @@ export function rowsOf(spec, task) {
   return rows;
 }
 
-export function extractRows(cfg, task) {
+export function extractRows(cfg, task, ctx = {}) {
   const r = cfg.result;
   if (r.answer_only) return [{ answer: extractAnswer(cfg, task) }]; // 回答文だけのツール：CSVは回答文1行
-  return rowsOf(r, task);
+  return rowsOf(r, task, ctx);
 }
 export const extractExtra = (cfg, task) => (cfg.result.extra || []).map((x) => ({ ...x, rows: rowsOf(x, task) }));

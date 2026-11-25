@@ -87,15 +87,17 @@ export async function loadAuthImages(el) {
 // 折れ線グラフ（外部ライブラリなし）。spec = { x: 横軸の列, y: [縦軸の列, ...] }。値が数字の行だけ描く
 export function renderChart(el, cols, rows, spec) {
   const ys = (spec.y || []).map((k) => cols.find((c) => c.key === k)).filter(Boolean);
-  const pts = rows.map((r) => ({ x: String(r[spec.x] ?? ''), v: ys.map((c) => (typeof r[c.key] === 'number' ? r[c.key] : null)) }));
+  const src = spec.reverse ? [...rows].reverse() : rows; // 新しい順の表は、古い順に並べ直して描く
+  const pts = src.map((r) => ({ x: String(r[spec.x] ?? ''), v: ys.map((c) => (typeof r[c.key] === 'number' ? r[c.key] : null)) }));
   if (pts.length < 2 || !ys.length) return;
-  const W = 640, H = 240, L = 44, R = 12, T = 12, B = 30;
+  const W = 640, H = 240, L = 48, R = 12, T = 12, B = 30;
   const max = Math.max(1, ...pts.flatMap((p) => p.v.filter((v) => v != null)));
   const nice = (m) => { const e = 10 ** Math.floor(Math.log10(m)); const f = m / e; return (f <= 1 ? 1 : f <= 2 ? 2 : f <= 5 ? 5 : 10) * e; };
   const top = nice(max);
+  const short = (v) => (v >= 1e6 ? +(v / 1e6).toFixed(1) + 'M' : v >= 1e3 ? +(v / 1e3).toFixed(1) + 'K' : String(Math.round(v))); // 軸の目盛りは短く（26M など）
   const X = (i) => L + ((W - L - R) * i) / (pts.length - 1), Y = (v) => T + (H - T - B) * (1 - v / top);
   const colors = ['var(--chart-1, #2563eb)', 'var(--chart-2, #dc2626)', 'var(--chart-3, #059669)'];
-  const grid = [0, 0.25, 0.5, 0.75, 1].map((g) => `<line x1="${L}" x2="${W - R}" y1="${Y(top * g)}" y2="${Y(top * g)}" stroke="currentColor" opacity=".15"/><text x="${L - 6}" y="${Y(top * g) + 4}" text-anchor="end" font-size="11" fill="currentColor" opacity=".7">${Math.round(top * g)}</text>`).join('');
+  const grid = [0, 0.25, 0.5, 0.75, 1].map((g) => `<line x1="${L}" x2="${W - R}" y1="${Y(top * g)}" y2="${Y(top * g)}" stroke="currentColor" opacity=".15"/><text x="${L - 6}" y="${Y(top * g) + 4}" text-anchor="end" font-size="11" fill="currentColor" opacity=".7">${short(top * g)}</text>`).join('');
   const label = (p) => p.x.slice(0, 10);
   const idx = [0, Math.floor((pts.length - 1) / 2), pts.length - 1];
   const xl = idx.map((i, n) => `<text x="${X(i)}" y="${H - 8}" text-anchor="${n === 0 ? 'start' : n === 2 ? 'end' : 'middle'}" font-size="11" fill="currentColor" opacity=".7">${esc(label(pts[i]))}</text>`).join('');

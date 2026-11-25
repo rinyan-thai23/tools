@@ -17,9 +17,9 @@ async function loadTech() {
 }
 let cols = [], rows = [], more = [], lookupMap = null; // lookupMap：番号→名前（result.lookup があるツールだけ）
 
-function show(task, meta) {
+function show(task, meta, now) {
   cols = cfg.result.columns.map((c) => ({ key: c.key, label: t(c.label), link: c.link, type: c.type }));
-  rows = extractRows(cfg, task);
+  rows = extractRows(cfg, task, { now });
   // 番号を名前に引く（無料の参照データ）。lookup.column の値を「名前（番号）」にする
   if (cfg.result.lookup && lookupMap) rows.forEach((r) => { const n = lookupMap[r[cfg.result.lookup.column]]; if (n) r[cfg.result.lookup.column] = `${n}（${r[cfg.result.lookup.column]}）`; });
   // 値の読み替え（例：informational → 情報を調べる）。columns[].labels = { 元の値: 文言のキー }
@@ -51,7 +51,8 @@ function show(task, meta) {
 function params() {
   const p = { ...(cfg.params || {}) };
   // 実行日から決める日付（date_from：11か月前の月初＝いまの月を入れて12か月分）
-  if (cfg.params_dynamic?.date_from === 'months_ago_11') { const d = new Date(); d.setDate(1); d.setMonth(d.getMonth() - 11); p.date_from = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-01`; }
+  const mago = /^months_ago_(\d+)$/.exec(cfg.params_dynamic?.date_from || '');
+  if (mago) { const d = new Date(); d.setDate(1); d.setMonth(d.getMonth() - +mago[1]); p.date_from = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-01`; }
   const nd = new Date(); nd.setDate(nd.getDate() + (((6 - nd.getDay() + 7) % 7) || 7)); // 次の土曜（今日が土曜なら、来週の土曜）
   const ymd = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
   if (cfg.params_dynamic?.check_in === 'next_saturday') { p.check_in = ymd(nd); nd.setDate(nd.getDate() + 1); p.check_out = ymd(nd); } // 次の土曜・1泊
@@ -109,7 +110,7 @@ async function sample() {
   lookupMap = s.tasks[0].lookup || null;
   $('msg').className = 'banner';
   $('msg').textContent = t('ui.sample_notice', { date: s.fetched_at });
-  show(s.tasks[0], '');
+  show(s.tasks[0], '', new Date(`${s.fetched_at}-15`)); // サンプルは、取った月を「今月」として扱う
 }
 
 await init();

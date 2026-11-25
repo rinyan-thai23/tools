@@ -12,7 +12,7 @@
     }
   ],
   "params_dynamic": {
-    "date_from": "months_ago_11"
+    "date_from": "months_ago_12"
   },
   "result": {
     "items": "result.0.items",
@@ -38,7 +38,18 @@
         "label": "c51.col.keywords",
         "from": "metrics.organic.count"
       }
-    ]
+    ],
+    "chart": {
+      "x": "ym",
+      "y": [
+        "etv"
+      ],
+      "reverse": true
+    },
+    "drop_current_month": {
+      "year": "year",
+      "month": "month"
+    }
   },
   "csv": "C51.csv",
   "sample_langs": [
