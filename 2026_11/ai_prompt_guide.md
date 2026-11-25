@@ -1,6 +1,6 @@
 # AI分析プロンプトの作り方（全ツールに広げるときの決まり）
 
-実装済み（日本語・英語）：C24、C01、C25、C35、C41、C45。ひな形は `site/locales/ja.json` の `c24.ai_prompt` / `c24.ai_prompt_diff`。
+実装済み（日本語・英語）：C24、C01、C25、C35、C38、C39、C40、C41、C45、C46、C47、C48。ひな形は `site/locales/ja.json` の `c24.ai_prompt` / `c24.ai_prompt_diff`。
 
 ## 仕組み
 - `tool.json` に `"copy": true` を書いたツールだけ、「表をコピー」「入力を共有するURL」「行のコピー」「AI分析」が出る
