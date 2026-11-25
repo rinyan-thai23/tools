@@ -1,0 +1,32 @@
+<p>ブログを書く前に、「いま上位にいるのは、どんなページ？」が気になります。<a href="/C01/ja/">検索の上位を見るツール</a>で、「ブログ 始め方」を検索して、<strong>上位100件を全部</strong>出してみました。順位、タイトル、URL、ドメイン、説明文まで、APIが返したまま載せます。</p>
+
+<h2>先に、わかったこと</h2>
+<ul>
+<li>100件に出てきたドメイン（サイトの名前）は<strong>79種類</strong>でした。同じサイトが何回も出ています。</li>
+<li>一番多かったのは <strong>www.youtube.com（8回）</strong>、次が <strong>www.xserver.ne.jp（6回）</strong>でした。</li>
+<li>100件のうち、タイトルが「…」で途中までしか出なかったものが<strong>56件</strong>ありました。</li>
+</ul>
+<p>お店の棚にたとえると、100個の商品の中に、同じメーカーの商品がいくつも混ざっている感じです。</p>
+
+<h2>よく出たドメイン（上位8）</h2>
+<div class="scroll"><table class="data"><thead><tr><th>ドメイン</th><th>100件の中での回数</th></tr></thead><tbody><tr><td>www.youtube.com</td><td>8</td></tr><tr><td>www.xserver.ne.jp</td><td>6</td></tr><tr><td>www.onamae.com</td><td>3</td></tr><tr><td>www.xfree.ne.jp</td><td>3</td></tr><tr><td>makusan.ne.jp</td><td>3</td></tr><tr><td>www.conoha.jp</td><td>2</td></tr><tr><td>www.value-domain.com</td><td>2</td></tr><tr><td>webstyle.work</td><td>2</td></tr></tbody></table></div>
+<p>全ドメインの一覧は、CSVにあります（<a href="/articles/data/c01-blog-100-domains-2026-11-25.csv" download>ドメインごとの回数CSV</a>）。</p>
+
+<h2>全データ（上位100件）</h2>
+<p>APIが返した値を、そのまま全部載せています。「順位」は通常の検索結果の中での順位、「全体の位置」は、AI概要や「他の人はこちらも質問」のような他の枠も数えた位置です。</p>
+<p><a href="/articles/data/c01-blog-100-2026-11-25.csv" download>CSVでダウンロード（100行）</a></p>
+<!--include:c01_table100-->
+
+<h2>どうやって調べたか</h2>
+<div class="box">
+<ul>
+<li>日付：2026年11月25日</li>
+<li>地域と言語：日本、日本語</li>
+<li>キーワード：「ブログ 始め方」（1語）</li>
+<li>件数：上位100件</li>
+<li>ツール：<a href="/C01/ja/">検索の上位を見る（C01）</a>。DataForSEOのAPIが、Googleの検索結果を返します</li>
+<li>費用：<strong>$0.0175</strong>（約2.7円、1ドル155円で計算）</li>
+</ul>
+</div>
+<p class="note">検索結果は、検索する場所や時間で変わることがあります。これは「APIで取った、この日の日本の結果」です。あなたのブラウザの結果と、少し違うことがあります。</p>
+<p>タイトルの文字数や【】の数は、<a href="/articles/c01-top100-title-stats/">次の記事</a>で数えました。</p>

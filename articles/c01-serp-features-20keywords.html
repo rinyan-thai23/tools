@@ -1,0 +1,41 @@
+<p>検索すると、1ページ目はずっと「青いリンク」が10本並んでいる、と思っていませんか。いまの検索結果には、AI概要や「他の人はこちらも質問」など、いろいろな枠が混ざります。<a href="/C01/ja/">検索の上位を見るツール</a>で、<strong>20個のキーワード</strong>の1ページ目を取って、中身の種類を数えました。</p>
+
+<h2>先に、わかったこと</h2>
+<ul>
+<li>20語すべてで調べた、1ページ目の項目は合計<strong>250個</strong>。そのうち「青いリンク」は<strong>194個</strong>でした。</li>
+<li><strong>AI概要</strong>が出たのは、20語のうち<strong>15語</strong>です。</li>
+<li>「他の人はこちらも質問」が出たのは<strong>10語</strong>、地図つきのお店リストが出たのは<strong>3語</strong>でした。</li>
+<li>青いリンクが10本そろっていたのは<strong>16語</strong>です。10本に満たない語もありました。</li>
+</ul>
+<p>お店の棚にたとえると、商品（青いリンク）のほかに、宣伝のポップや案内板が何枚も立っている感じです。</p>
+
+<h2>青いリンクの本数</h2>
+<div class="scroll"><table class="data"><thead><tr><th>青いリンクの本数</th><th>キーワードの数</th></tr></thead><tbody><tr><td>10本</td><td>16語</td></tr><tr><td>9本</td><td>3語</td></tr><tr><td>7本</td><td>1語</td></tr></tbody></table></div>
+
+<h2>出た枠の種類（20語のうち、何語で出たか）</h2>
+<div class="scroll"><table class="data"><thead><tr><th>枠</th><th>APIの名前</th><th>出たキーワードの数</th></tr></thead><tbody><tr><td>通常の検索結果（青いリンク）</td><td><code>organic</code></td><td>20</td></tr><tr><td>AI概要</td><td><code>ai_overview</code></td><td>15</td></tr><tr><td>他の人はこちらも質問</td><td><code>people_also_ask</code></td><td>10</td></tr><tr><td>関連検索</td><td><code>related_searches</code></td><td>10</td></tr><tr><td>地図つきのお店リスト</td><td><code>local_pack</code></td><td>3</td></tr><tr><td>動画</td><td><code>video</code></td><td>3</td></tr><tr><td>画像</td><td><code>images</code></td><td>2</td></tr><tr><td>ナレッジパネル（企業や人物の情報）</td><td><code>knowledge_graph</code></td><td>2</td></tr><tr><td>人気の商品</td><td><code>popular_products</code></td><td>2</td></tr><tr><td>Googleのレビュー</td><td><code>google_reviews</code></td><td>1</td></tr><tr><td>レシピ</td><td><code>recipes</code></td><td>1</td></tr><tr><td>株価</td><td><code>stocks_box</code></td><td>1</td></tr></tbody></table></div>
+
+<h2>キーワードごとの数（全部）</h2>
+<p>1ページ目に出た項目を、種類ごとに数えた表です。0は、その枠が出なかったという意味です。</p>
+<p><a href="/articles/data/c01-20keywords-types-2026-11-25.csv" download>この表のCSV</a></p>
+<!--include:c01_types-->
+
+<h2>1ページ目の全項目（全部）</h2>
+<p>20語の1ページ目に出た、すべての項目です。通常の検索結果以外の枠には、タイトルやURLがないものがあります。</p>
+<p><a href="/articles/data/c01-20keywords-items-2026-11-25.csv" download>CSVでダウンロード（250行）</a></p>
+<details><summary>全250項目の表を開く</summary>
+<!--include:c01_items-->
+</details>
+
+<h2>どうやって調べたか</h2>
+<div class="box">
+<ul>
+<li>日付：2026年11月25日、地域と言語：日本、日本語</li>
+<li>件数：1語につき上位10件（1ページ目）</li>
+<li>キーワード20語：質問の形、商品、ブランド、地域、ニュース、レシピなどを混ぜて、私が選びました</li>
+<li>ツール：<a href="/C01/ja/">検索の上位を見る（C01）</a>と同じAPI。ここでは、ツールの表には出ない「通常の検索結果以外の枠」も数えています</li>
+<li>費用：1語ごとに$0.004、20語で約$0.08</li>
+</ul>
+</div>
+<p class="note">枠の名前は、APIが返した名前をそのまま使っています。数えただけで、よしあしの評価はしていません。検索結果は、場所や時間で変わることがあります。</p>
+<p>1週間後にもう一度同じ20語を調べて、入れ替わりを見る予定です。</p>

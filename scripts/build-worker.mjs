@@ -125,7 +125,7 @@ if (existsSync('articles/index.json')) {
     const body = read(`articles/${a.slug}.html`).replace(/<!--include:(\w+)-->/g, (m, n) => read(`articles/_inc/${n}.html`));
     const others = arts.filter((x) => x.slug !== a.slug).map((x) => `<li><a href="/articles/${x.slug}/">${esc(x.title)}</a></li>`).join('\n');
     addPage(`/articles/${a.slug}/index.html`, shell(`${a.title}｜DataForSEO 1機能ツール集`, a.description, `/articles/${a.slug}/`,
-      `<p><a href="/articles/">← 記事一覧</a></p>\n<article>\n<h1>${esc(a.title)}</h1>\n<p class="note">${esc(a.date)} ／ 運営者：Hideaki Takahashi ／ </p>\n<p class="box">この記事のツール：<strong><a href="/${a.tool}/ja/">${a.tool} ${esc(tname(a.tool))}</a></strong><br><span class="note">${esc(tdesc(a.tool))}</span></p>\n${body}\n<h2>関連する記事</h2>\n<ul>\n${others}\n</ul>\n<p><a href="/about/">運営者について</a></p>\n</article>`));
+      `<p><a href="/articles/">← 記事一覧</a></p>\n<article>\n<h1>${esc(a.title)}</h1>\n<p class="note">${esc(a.date)} ／ 運営者：Hideaki Takahashi</p>\n<p class="box">この記事のツール：<strong><a href="/${a.tool}/ja/">${a.tool} ${esc(tname(a.tool))}</a></strong><br><span class="note">${esc(tdesc(a.tool))}</span></p>\n${body}\n<h2>関連する記事</h2>\n<ul>\n${others}\n</ul>\n<p><a href="/about/">運営者について</a></p>\n</article>`));
   }
   // ツールページ（日本語）の下に「関連記事」
   for (const t of tools) {
