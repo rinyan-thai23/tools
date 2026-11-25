@@ -59,6 +59,7 @@
   },
   "csv": "C45.csv",
   "sample_langs": [
-    "zh-TW"
+    "zh-TW",
+    "en"
   ]
 }
