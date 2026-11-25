@@ -94,9 +94,10 @@ for (const { code: l } of indexLangs) {
   // トップページの「このサイトでできること」（機能別の説明と、ツールへのリンク）。言語ごとに scripts/index-categories.json に書いた分だけ出す
   const catAll = existsSync('scripts/index-categories.json') ? JSON.parse(read('scripts/index-categories.json')) : {};
   const cat = catAll[l];
+  const descs = existsSync('scripts/index-descriptions.json') ? (JSON.parse(read('scripts/index-descriptions.json'))[l] || {}) : {}; // トップの詳しい説明（キーワード入り）
   const introTop = cat ? `<p class="intro-lead"><strong>${esc(cat.intro)}</strong></p>` : '';
   const intro = cat ? `<section class="intro">\n<h2>${esc(cat.title)}</h2>\n${cat.sections.map((sec) => {
-    const items = sec.tools.filter((id) => langsOf(id).some((a) => a.code === l)).map((id) => `  <li><a href="/${id}/${l}/">${esc((cat.titled || []).includes(id) ? L[`${id.toLowerCase()}.title`] : L[`${id.toLowerCase()}.name`])}</a><br><span class="note">${esc(L[`${id.toLowerCase()}.desc`])}</span></li>`);
+    const items = sec.tools.filter((id) => langsOf(id).some((a) => a.code === l)).map((id) => `  <li><small class="tid">${id}</small> <a href="/${id}/${l}/">${esc((cat.titled || []).includes(id) ? L[`${id.toLowerCase()}.title`] : L[`${id.toLowerCase()}.name`])}</a><br><span class="note">${esc(descs[id] ?? L[`${id.toLowerCase()}.desc`])}</span></li>`);
     return items.length ? `<h3>${esc(sec.title)}</h3>\n<p>${esc(sec.text)}</p>\n<ul class="tools">\n${items.join('\n')}\n</ul>` : '';
   }).join('\n')}\n</section>` : '';
   const aboutLang = l === 'ja' ? 'ja' : l === 'zh-TW' ? 'zh-TW' : 'en';
