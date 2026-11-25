@@ -100,3 +100,5 @@
 - 1バッチの手順：①米国のサンプルを実APIで取り直す（site/Cxx/sample.en.json、tool.json の sample_langs に en）②独立の担当1人が本文・locale を整合（指示書 scratchpad/en_align.txt）③check・smoke ④公開 ⑤URLを提示して、ユーザーが確認 → OK なら次のバッチ
 - バッチ：E1 C01 C02 C03 C04 C05 ／ E2 C07 C08 C09 C10 C11 ／ E3 C14 C18 C19 C20 C21 ／ E4 C22 C23 C24 C25 C26 ／ E5 C29 C33 C34 C35 C36 ／ E6 C37 C38 C39 C40 C41 ／ E7 C42 C43 C44 C45 C46 ／ E8 C47 C48 C49 C50 C51 ／ E9 C52 C53 C60 C61 C62 ／ E10 C63 C65 C66 C67 C74 C76
 - 使用量の目安：1バッチ（担当1人）で約15万トークン、API費用は約$0.1〜0.3（C25・C26・C51・C76 を含むバッチはやや高い）
+
+- 2026-11-25 完了：E1〜E10（51本）の英語版（米国向け）仕上げが終わった。日本固定の8本（C15 C16 C17 C64 C68 C69 C71 C75）は対象外のまま

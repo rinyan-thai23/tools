@@ -13,26 +13,26 @@
 
 <h2>Why use this tool</h2>
 <ul>
-<li><strong>The technologies in one list.</strong> xserver.ne.jp came out as six rows: affiliate (A8.net), servers (Apache HTTP Server, Xserver), analytics (Google Analytics, Facebook Pixel), tag management (Google Tag Manager) and JavaScript (jQuery) (measured).</li>
+<li><strong>The technologies in one list.</strong> When a result comes back, each row gives a category, a type and the technology names. In our test in Japan, xserver.ne.jp came out as six rows (servers, analytics, tag management, JavaScript and more). For theverge.com (US sample) it returned 12 rows, including advertising (Amazon Advertising, DoubleClick for Publishers), JavaScript (Next.js, React), servers (Varnish, MySQL), privacy (OneTrust) and content (WordPress) (measured). For nytimes.com the table came back empty, so an empty table can happen.</li>
 <li><strong>About $0.012 per call.</strong> Roughly 83 per $1.</li>
-<li><strong>About 4 seconds.</strong> That is what we measured.</li>
-<li><strong>Paste a URL if you like.</strong> "https://www.xserver.ne.jp/" is converted to the domain before the lookup.</li>
+<li><strong>A few seconds.</strong> We measured about 1 to 2 seconds for theverge.com and about 4 seconds in Japan.</li>
+<li><strong>Paste a URL if you like.</strong> "https://www.theverge.com/" is converted to the domain before the lookup.</li>
 <li><strong>Save as CSV.</strong> Groundwork for a proposal to the client.</li>
 </ul>
 
 <h2>When it is not the right fit</h2>
 <ul>
 <li>You want <strong>a history of technology use</strong> → this is a snapshot of now.</li>
-<li>You want <strong>Japanese category names</strong> → categories and types are English names (e.g. Web servers).</li>
+<li>You want <strong>category names in another language</strong> → categories and types are English names (e.g. Web servers).</li>
 <li>You want <strong>figures such as traffic</strong> → the table has technology names only.</li>
-<li>You are missing <strong>a technology you expected</strong> → only technologies DataForSEO detected are listed.</li>
+<li>You are missing <strong>a technology you expected</strong> → only technologies DataForSEO detected are listed. The nytimes.com test returned none, so an empty table can happen.</li>
 </ul>
 <p>This tool does one thing: show one domain's technologies (category, type and name).</p>
 
 <h2>FAQ</h2>
 <details><summary>What are the categories and types?</summary><p>DataForSEO's classification, in two levels: for example "Web servers" and "Hosting" under "Servers".</p></details>
 <details><summary>Should I add www?</summary><p>Either way works. The tool converts what you type into the plain domain.</p></details>
-<details><summary>Does the price change with the number of technologies?</summary><p>It was about $0.012 for the one domain we tried. We did not look at how the number of technologies matters.</p></details>
+<details><summary>Does the price change with the number of technologies?</summary><p>It was about $0.012 for each domain we tried (nytimes.com returned nothing and was still charged that amount; theverge.com returned 12 rows for the same price). We did not look at how the number of technologies matters.</p></details>
 <details><summary>Is this per page?</summary><p>No. It is a result per domain, not per page.</p></details>
 <details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href="/dfs-en.html">What is DataForSEO?</a></p></details>
 </section>
