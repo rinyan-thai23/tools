@@ -66,6 +66,7 @@
   },
   "csv": "C22.csv",
   "sample_langs": [
-    "zh-TW"
+    "zh-TW",
+    "en"
   ]
 }
