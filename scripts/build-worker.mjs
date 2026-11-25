@@ -91,11 +91,19 @@ for (const { code: l } of indexLangs) {
   const list = Object.entries(groups).map(([who, ts]) =>
     `<h3>${esc(L[`who.${who}`] ?? who)}</h3>\n<ul class="tools">\n${ts.map((t) => `  <li><strong>${t.id}</strong> <a href="/${t.id}/${l}/">${esc(L[`${t.id.toLowerCase()}.name`])}</a><br><span class="note">${esc(L[`${t.id.toLowerCase()}.desc`])}</span></li>`).join('\n')}\n</ul>`).join('\n');
   const switcher = indexLangs.filter((a) => a.code !== l).map((a) => `<a href="${topPath(a.code)}">${esc(a.label)}</a>`).join(' ');
+  // トップページの「このサイトでできること」（機能別の説明と、ツールへのリンク）。言語ごとに scripts/index-categories.json に書いた分だけ出す
+  const catAll = existsSync('scripts/index-categories.json') ? JSON.parse(read('scripts/index-categories.json')) : {};
+  const cat = catAll[l];
+  const introTop = cat ? `<p class="intro-lead"><strong>${esc(cat.intro)}</strong></p>` : '';
+  const intro = cat ? `<section class="intro">\n<h2>${esc(cat.title)}</h2>\n${cat.sections.map((sec) => {
+    const items = sec.tools.filter((id) => langsOf(id).some((a) => a.code === l)).map((id) => `  <li><a href="/${id}/${l}/">${esc(L[`${id.toLowerCase()}.name`])}</a><br><span class="note">${esc(L[`${id.toLowerCase()}.desc`])}</span></li>`);
+    return items.length ? `<h3>${esc(sec.title)}</h3>\n<p>${esc(sec.text)}</p>\n<ul class="tools">\n${items.join('\n')}\n</ul>` : '';
+  }).join('\n')}\n</section>` : '';
   const aboutLang = l === 'ja' ? 'ja' : l === 'zh-TW' ? 'zh-TW' : 'en';
   addPage(topPath(l) + 'index.html', render(indexTpl, {
     LANG: l, TITLE: esc(L['site.index_title']), META: esc(L['site.index_meta']), ALT: indexAlt, CANON: `{{SITE_URL}}${topPath(l)}`,
-    SWITCH: switcher, H1: esc(L['site.title']), LEAD: esc(L['site.lead']), TOOLS_TITLE: esc(L['site.tools']),
-    LIST: list, ABOUT: `<a href="/dfs-${aboutLang}.html">${esc(L['key.about'])}</a>`,
+    SWITCH: switcher, H1: esc(L['site.title']).replace('DataForSEO', '<a data-referral href="https://dataforseo.com/" target="_blank" rel="noopener">DataForSEO</a>'), LEAD: esc(L['site.lead']), TOOLS_TITLE: esc(L['site.tools']),
+    LIST: list, INTRO_TOP: introTop, INTRO: intro, ABOUT: `<a href="/dfs-${aboutLang}.html">${esc(L['key.about'])}</a>`,
   }));
 }
 

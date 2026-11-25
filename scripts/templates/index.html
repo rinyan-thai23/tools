@@ -16,15 +16,18 @@
 <!--SITE_HEADER-->
 <span class="lang">{{SWITCH}}</span>
 <h1>{{H1}}</h1>
+{{INTRO_TOP}}
 <p>{{LEAD}}</p>
 <div id="keybox"></div>
 <p>{{ABOUT}}</p>
+{{INTRO}}
 <h2 id="tools">{{TOOLS_TITLE}}</h2>
 {{LIST}}
 <!--SITE_FOOTER-->
 <script type="module">
-import { init } from '/shared/ui.js';
+import { init, referralLinks } from '/shared/ui.js';
 init();
+referralLinks();
 </script>
 </body>
 </html>
