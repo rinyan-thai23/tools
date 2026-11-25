@@ -9,13 +9,20 @@
       "id": "keyword",
       "param": "keywords",
       "label": "c23.keyword",
-      "wrap": "array"
+      "wrap": "lines",
+      "multiline": true,
+      "max": 2000
     }
   ],
   "result": {
-    "items": "result.0.items.0.ai_monthly_searches",
+    "items": "result.0.items",
     "where": {},
     "columns": [
+      {
+        "key": "keyword",
+        "label": "c23.col.keyword",
+        "from": "__parent.keyword"
+      },
       {
         "key": "ym",
         "label": "c23.col.ym",
@@ -30,6 +37,9 @@
         "label": "c23.col.volume",
         "from": "ai_search_volume"
       }
+    ],
+    "flatten": [
+      "ai_monthly_searches"
     ]
   },
   "csv": "C23.csv",
@@ -37,5 +47,15 @@
     "zh-TW",
     "en"
   ],
-  "copy": true
+  "copy": true,
+  "chunk": {
+    "param": "keywords",
+    "input": "keyword",
+    "size": 1000,
+    "max": 2000,
+    "unit_cost": 0.13,
+    "merge_items": true,
+    "base": 0.01,
+    "per_item": 0.00012
+  }
 }

@@ -29,7 +29,7 @@ function show(task, meta, now) {
   if (cfg.result.answer_only) $('result').innerHTML = '';
   else {
     renderTable($('result'), cols, rows, cfg.copy ? { rowCopy: rowCopyHandler } : {});
-    if (cfg.result.chart && rows.length) { const ch = document.createElement('div'); $('result').prepend(ch); renderChart(ch, cols, rows, cfg.result.chart); } // 表の上にグラフ（tool.json の result.chart）
+    if (cfg.result.chart && rows.length && (!cfg.result.chart.single || new Set(rows.map((r) => r[cfg.result.chart.single])).size === 1)) { const ch = document.createElement('div'); $('result').prepend(ch); renderChart(ch, cols, rows, cfg.result.chart); } // 表の上にグラフ（tool.json の result.chart）
     if (cfg.result.title && rows.length) $('result').insertAdjacentHTML('afterbegin', `<h2 class="sub-title">${t(cfg.result.title)}</h2>`);
   }
   // 2つ目以降の表（result.extra）
@@ -238,7 +238,7 @@ if (cfg.chunk) { // 入力した語数と、送る回数・料金の目安を、
   const upd = () => {
     const n = ta.value.split(/[\n,、]+/).map((x) => x.trim()).filter(Boolean).length, c = cfg.chunk;
     if (!n) { nt.textContent = ''; return; }
-    const used = Math.min(n, c.max), calls = Math.ceil(used / c.size), cost = (calls * c.unit_cost).toFixed(2);
+    const used = Math.min(n, c.max), calls = Math.ceil(used / c.size), cost = (c.per_item != null ? calls * c.base + used * c.per_item : calls * c.unit_cost).toFixed(c.per_item != null ? 3 : 2); // 1回の基本料金＋1語ごと（per_item）の型と、1回いくらの型
     nt.textContent = (n > c.max ? t('ui.chunk_over', { max: c.max }) + ' ' : '') + (calls > 1 ? t('ui.chunk_multi', { n: used, calls, cost }) : t('ui.chunk_one', { n: used, cost }));
   };
   ta.addEventListener('input', upd); upd();

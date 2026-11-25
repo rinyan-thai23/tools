@@ -9,13 +9,20 @@
       "id": "keyword",
       "param": "keywords",
       "label": "c41.keyword",
-      "wrap": "array"
+      "wrap": "lines",
+      "multiline": true,
+      "max": 500
     }
   ],
   "result": {
-    "items": "result.0.items.0.history",
+    "items": "result.0.items",
     "where": {},
     "columns": [
+      {
+        "key": "keyword",
+        "label": "c41.col.keyword",
+        "from": "__parent.keyword"
+      },
       {
         "key": "ym",
         "label": "c41.col.ym",
@@ -36,13 +43,27 @@
       "y": [
         "volume"
       ],
-      "reverse": true
-    }
+      "reverse": true,
+      "single": "keyword"
+    },
+    "flatten": [
+      "history"
+    ]
   },
   "csv": "C41.csv",
   "sample_langs": [
     "zh-TW",
     "en"
   ],
-  "copy": true
+  "copy": true,
+  "chunk": {
+    "param": "keywords",
+    "input": "keyword",
+    "size": 500,
+    "max": 500,
+    "unit_cost": 0.08,
+    "merge_items": true,
+    "base": 0.01,
+    "per_item": 0.00012
+  }
 }
