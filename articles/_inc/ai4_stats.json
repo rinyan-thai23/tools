@@ -1,0 +1,50 @@
+{
+ "shops": {
+  "chatgpt": [
+   "らーめん はやし",
+   "鬼そば 藤谷",
+   "喜楽"
+  ],
+  "claude": [
+   "鶏そば 玉五郎",
+   "ラーメン横丁",
+   "一風堂"
+  ],
+  "gemini": [
+   "らーめん はやし",
+   "中華麺店 喜楽（きらく）",
+   "麺屋 鴨to葱（かもとねぎ）"
+  ],
+  "perplexity": [
+   "らーめん はやし",
+   "中華麺店 喜楽",
+   "道玄坂マンモス"
+  ]
+ },
+ "usedcnt": {
+  "chatgpt": 2,
+  "claude": 0,
+  "gemini": 2,
+  "perplexity": 5
+ },
+ "cost": {
+  "chatgpt": 0.0574,
+  "claude": 0.0127,
+  "gemini": 0.0966,
+  "perplexity": 0.0307
+ },
+ "cost_new": 0.1399,
+ "nrefs": 100,
+ "refs_by": {
+  "chatgpt": 34,
+  "claude": 0,
+  "gemini": 16,
+  "perplexity": 50
+ },
+ "ip": {
+  "chatgpt": "2026年11月25日現在、Appleが日本で販売している最新のiPhoneモデルとその価格は以下の通りです。\n\n\n[iPhone 18 Pro Max Sky Blue: Hinweis beim Apple Event 2026?\n – ZAAP](https://www.zaapgadget.com/de/blogs/news/iphone-18-pro-max-sky-blue-apple-event-2026?utm_source=openai)\n**iPhone Duo**  \n2026年10月23日に発売された折りたたみ式のiPhoneです。 価格は256GBモデルが364,800円、512GBモデルが399,800円、1TBモデルが469,800円、2TBモデルが574,800円です。 ([applipo.ne.jp](https://applipo.ne.jp/app/iphone-saishin-kisyu/?utm_source=openai))\n\n\n\n[Offiziell: Das sind iPhone 18 Pro und iPhone 18 Pro Max - teltarif.de News](https://www.teltarif.de/smartphone/apple/iphone-18-pro/?utm_source=openai)\n**iPhone 18 Pro**  \n2026年9月18日に発売されたモデルで、256GBモデルが219,800円、512GBモデルが254,800円、1TBモデルが324,800円、2TBモデルが429,800円です。 ([applipo.ne.jp](https://applipo.ne.jp/app/iphone-saishin-kisyu/?utm_source=openai))\n\n\n\n[Apple iPhone 18 Pro Max Images, Official Photos](https://www.phonebunch.com/apple_iphone_18_pro_max-images-6142/?utm_source=openai)\n**iPhone 18 Pro Max**  \n同じく2026年9月18日に発売された大型モデルで、256GBモデルが239,800円、512GBモデルが274,800円、1TBモデルが344,800円、2TBモデルが449,800円です。 ([applipo.ne.jp](https://applipo.ne.jp/app/iphone-saishin-kisyu/?utm_source=openai))\n\n\n\n[Apple iPhone 17e A3575 LL 256GB eSIM Tela 6.1\" - Rosa](https://atacadoconnect.com/produto/smartphones/apple-iphone-17e-a3575-ll-256gb-esim-tela-61-rosa/1343151?utm_source=openai)\n**iPhone 17e**  \n2026年3月11日に発売されたエントリーモデルで、256GBモデルが124,800円、512GBモデルが159,800円です。 ([applipo.ne.jp](https://applipo.ne.jp/app/iphone-saishin-kisyu/?utm_source=openai))\n\n\n\n[Buy iPhone Air 256GB/512GB/1TB at Best Price in Nepal\n – Brother-mart](https://brother-mart.com/products/apple-iphone-air-price-in-nepal?utm_source=openai)\n**iPhone Air**  \n2025年9月19日に発売された薄型軽量モデルで、256GBモデルが189,800円、512GBモデルが224,800円、1TBモデルが294,800円です。 ([applipo.ne.jp](https://applipo.ne.jp/app/iphone-saishin-kisyu/?utm_source=openai))\n\n\n\n[Apple iPhone 17 - 256GB - Lavendel - 6,3 inch Super Retina XDR-display | bol](https://www.bol.com/nl/nl/p/apple-iphone-17-256gb-lavender/9300000240171999/?utm_source=openai)\n**iPhone 17**  \n2025年9月19日に発売されたモデルで、256GBモデルが159,800円、512GBモデルが194,800円です。 ([applipo.ne.jp](https://applipo.ne.jp/app/iphone-saishin-kisyu/?utm_source=openai))\n\n\n\n[Apple iPhone 16 128GB 湛海藍色 | Costco 好市多](https://www.costco.com.tw/Digital-Mobile/Mobile-Tablets/iPhone-Mobile-Phones/Apple-iPhone-16-128GB-Ultramarine/p/149004?srsltid=AfmBOopzmzsLD9srYA-VbP7wrS76kdXN9ZE9pb1kWsiAkSFs7gqp9ner&utm_source=openai)\n**iPhone 16**  \n現在も販売されているモデルで、128GBモデルが139,800円です。 ([applipo.ne.jp](https://applipo.ne.jp/app/iphone-saishin-kisyu/?utm_source=openai))\n\n\nなお、2026年9月10日にAppleはiPhone 17などの現行モデルの価格を約10％程度引き上げました。 ([news.mynavi.jp](https://news.mynavi.jp/article/20260910-4943630/?utm_source=openai))\n\nまた、主要キャリア（au、ソフトバンク、ドコモ）でもiPhoneを取り扱っており、各社で価格やキャンペーンが異なります。詳細は各キャリアの公式サイトをご確認ください。 ",
+  "claude": "# 最新のiPhoneの価格\n\n申し訳ありませんが、私の学習データは2024年4月までで、リアルタイム情報は持っていません。\n\n## 確認方法\n\n最新の正確な価格については、以下の方法をお勧めします：\n\n- **Apple公式サイト**（apple.com）\n- **Apple Store**（直営店舗）\n- **キャリア公式サイト**（ドコモ、au、SoftBankなど）\n- **家電量販店**（ビックカメラ、ヨドバシなど）\n\n## 参考情報（2024年4月時点）\n\n2024年初頭では、iPhone 15シリーズが最新でしたが、新モデルが発表されている可能性があります。\n\n具体的な機種や最新価格については、上記の公式サイトをご確認ください。ご不便をおかけします。",
+  "gemini": "2026年秋に発売された最新のフラッグシップモデル**「iPhone 18 Pro」および「iPhone 18 Pro Max」**をはじめとする、Apple Store（直販・SIMフリーモデル）での主な最新iPhoneの価格（税込）は以下の通りです。\n\n### 1. iPhone 18 Pro シリーズ（最新モデル）\n* **iPhone 18 Pro**（256GBモデルが最安構成）\n  * 256GB：**219,800円〜**\n  * 512GB：254,800円〜\n* **iPhone 18 Pro Max**\n  * 256GB：**239,800円〜**\n  * 512GB：274,800円〜\n  * （※最大容量の2TBモデルなどはさらに高価格帯になります）\n\n---\n\n### 2. その他の主な現行・継続販売モデルの価格例\nApple Storeでは、前世代のモデルなども一部継続して販売されていますが、価格改定等により以下の価格帯となっています。\n\n* **iPhone 17**（スタンダードモデル）\n  * 256GB：**159,800円〜**\n* **iPhone 16**（2世代前モデル）\n  * 128GB：**139,800円〜**\n\n※なお、大手キャリア（ドコモ・au・ソフトバンク・楽天モバイル）や家電量販店等で購入する場合の価格は、Apple Storeの直販価格とは異なり、各社の割引プログラムや手数料などが含まれるため通常はやや高めに設定されます。ただし、端末返却プログラムなどを利用することで実質負担額を抑えて購入することも可能です。購入の際は各公式サイトの最新情報もあわせてご確認ください。",
+  "perplexity": "日本のApple公式価格では、最新モデルの価格は以下のとおりです。\n\n- **iPhone 18 Pro**：219,800円から[1]\n- **iPhone 18 Pro Max**：239,800円から[1]\n- **iPhone Duo（折りたたみモデル）**：364,800円から[1]\n\nなお、iPhone 18 Proは36回払いで月額6,105円から、iPhone Duoは月額10,133円からです。価格は容量や購入方法によって変わります。[1][2]"
+ }
+}

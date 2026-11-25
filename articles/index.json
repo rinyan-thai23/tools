@@ -49,6 +49,13 @@
   "description": "APIが返す、ChatGPTが内部で検索した言葉を全部載せました。「2023」が入った検索ワードの一覧もあります。"
  },
  {
+  "slug": "c18-four-ai-compared",
+  "tool": "C18",
+  "date": "2026-11-25",
+  "title": "同じ質問を、ChatGPT・Claude・Gemini・Perplexityに聞いたら、答えと出典はどう違う？",
+  "description": "5つの質問を、4つのAIに1回ずつ聞いて、答え・Webの参照・費用を全部載せました。Webを参照したのは、Perplexityが5問すべて、ChatGPTとGeminiが2問、Claudeは0問でした。"
+ },
+ {
   "slug": "c18-ramen-10-times",
   "tool": "C18",
   "date": "2026-11-25",
