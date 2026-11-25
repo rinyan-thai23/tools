@@ -19,7 +19,56 @@
       {
         "key": "region",
         "label": "c31.col.region",
-        "from": "geo_name"
+        "from": "geo_name",
+        "labels": {
+          "Hokkaido": "c31.r.Hokkaido",
+          "Aomori": "c31.r.Aomori",
+          "Iwate": "c31.r.Iwate",
+          "Miyagi": "c31.r.Miyagi",
+          "Akita": "c31.r.Akita",
+          "Yamagata": "c31.r.Yamagata",
+          "Fukushima": "c31.r.Fukushima",
+          "Ibaraki": "c31.r.Ibaraki",
+          "Tochigi": "c31.r.Tochigi",
+          "Gunma": "c31.r.Gunma",
+          "Saitama": "c31.r.Saitama",
+          "Chiba": "c31.r.Chiba",
+          "Tokyo": "c31.r.Tokyo",
+          "Kanagawa": "c31.r.Kanagawa",
+          "Niigata": "c31.r.Niigata",
+          "Toyama": "c31.r.Toyama",
+          "Ishikawa": "c31.r.Ishikawa",
+          "Fukui": "c31.r.Fukui",
+          "Yamanashi": "c31.r.Yamanashi",
+          "Nagano": "c31.r.Nagano",
+          "Gifu": "c31.r.Gifu",
+          "Shizuoka": "c31.r.Shizuoka",
+          "Aichi": "c31.r.Aichi",
+          "Mie": "c31.r.Mie",
+          "Shiga": "c31.r.Shiga",
+          "Kyoto": "c31.r.Kyoto",
+          "Osaka": "c31.r.Osaka",
+          "Hyogo": "c31.r.Hyogo",
+          "Nara": "c31.r.Nara",
+          "Wakayama": "c31.r.Wakayama",
+          "Tottori": "c31.r.Tottori",
+          "Shimane": "c31.r.Shimane",
+          "Okayama": "c31.r.Okayama",
+          "Hiroshima": "c31.r.Hiroshima",
+          "Yamaguchi": "c31.r.Yamaguchi",
+          "Tokushima": "c31.r.Tokushima",
+          "Kagawa": "c31.r.Kagawa",
+          "Ehime": "c31.r.Ehime",
+          "Kochi": "c31.r.Kochi",
+          "Fukuoka": "c31.r.Fukuoka",
+          "Saga": "c31.r.Saga",
+          "Nagasaki": "c31.r.Nagasaki",
+          "Kumamoto": "c31.r.Kumamoto",
+          "Oita": "c31.r.Oita",
+          "Miyazaki": "c31.r.Miyazaki",
+          "Kagoshima": "c31.r.Kagoshima",
+          "Okinawa": "c31.r.Okinawa"
+        }
       },
       {
         "key": "value",
@@ -43,5 +92,8 @@
     2124,
     2036,
     2410
+  ],
+  "sample_langs": [
+    "en"
   ]
 }
