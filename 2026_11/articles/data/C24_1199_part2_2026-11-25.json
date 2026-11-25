@@ -1,0 +1,3891 @@
+{
+    "version": "0.1.20261117",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "1.9842 sec.",
+    "cost": 0.09,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11250736-1289-0367-0000-1fdded1dd80d",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "1.9616 sec.",
+            "cost": 0.09,
+            "result_count": 200,
+            "path": [
+                "v3",
+                "keywords_data",
+                "google_ads",
+                "search_volume",
+                "live"
+            ],
+            "data": {
+                "api": "keywords_data",
+                "function": "search_volume",
+                "se": "google_ads",
+                "keywords": [
+                    "自社 言及 モニタリング とは",
+                    "風評 調査 とは",
+                    "企業 評判 調べる とは",
+                    "ネット 話題 調べる とは",
+                    "言及 集計 とは",
+                    "ソーシャルリスニング とは",
+                    "ネット 言及 分析 とは",
+                    "ブランド 言及 数 とは",
+                    "言及 数 調べる とは",
+                    "企業 評判 分析 とは",
+                    "ネット 話題 件数 とは",
+                    "競合 言及 数 とは",
+                    "感情分析 ツール とは",
+                    "ポジネガ 分析 とは",
+                    "評判 感情 分析 とは",
+                    "感情分析 無料 とは",
+                    "ネガティブ 言及 調べる とは",
+                    "口コミ 感情 分析 とは",
+                    "ネット 評判 ポジティブ ネガティブ とは",
+                    "感情 分析 ブランド とは",
+                    "言及 数 推移 とは",
+                    "話題 推移 調べる とは",
+                    "キーワード 言及 推移 とは",
+                    "ブランド 言及 推移 とは",
+                    "ネット 話題 増減 とは",
+                    "言及 トレンド とは",
+                    "キーワード 話題性 とは",
+                    "ソーシャルリスニング 推移 とは",
+                    "地域 事業者 リスト とは",
+                    "営業先 リスト 作成 とは",
+                    "企業 リスト 地域 とは",
+                    "営業 リスト 無料 とは",
+                    "店舗 リスト 取得 とは",
+                    "地域 店舗 一覧 とは",
+                    "ターゲット 営業先 探し方 とは",
+                    "事業者 リスト 業種別 とは",
+                    "Googleビジネスプロフィール 確認 とは",
+                    "Googleマップ 店舗 情報 とは",
+                    "Googleビジネス 情報 調べる とは",
+                    "Googleビジネスプロフィール 口コミ 数 とは",
+                    "Googleビジネス 営業時間 とは",
+                    "マップ 店 情報 取得 とは",
+                    "競合 店 マップ 情報 とは",
+                    "Googleビジネスプロフィール 競合 とは",
+                    "ホテル 料金 比較 とは",
+                    "近く の 宿 料金 とは",
+                    "宿泊 料金 相場 とは",
+                    "ホテル 価格 調べる とは",
+                    "競合 宿 料金 とは",
+                    "宿泊 価格 比較 とは",
+                    "ホテル 料金 地域 とは",
+                    "土曜 ホテル 料金 とは",
+                    "サイト 使用技術 調べる とは",
+                    "サイト CMS 調べる とは",
+                    "サイト 何で 作られている とは",
+                    "Wappalyzer とは",
+                    "BuiltWith とは",
+                    "サイト 技術 調査 とは",
+                    "WordPress か 調べる とは",
+                    "サイト 技術 スタック とは",
+                    "Shopify 利用 サイト とは",
+                    "WordPress 利用 サイト 一覧 とは",
+                    "技術 利用 サイト 探す とは",
+                    "Shopify サイト 一覧 とは",
+                    "CMS 利用 サイト リスト とは",
+                    "営業 リスト 技術 とは",
+                    "Shopify 導入 企業 とは",
+                    "BuiltWith リスト とは",
+                    "ドメイン 登録日 調べる とは",
+                    "ドメイン 取得日 とは",
+                    "ドメイン 有効期限 確認 とは",
+                    "whois 検索 とは",
+                    "ドメイン whois とは",
+                    "ドメイン 年齢 とは",
+                    "ドメイン 期限 確認 とは",
+                    "ドメイン 登録 情報 とは",
+                    "Google 検索順位 確認 方法",
+                    "検索順位 チェック 方法",
+                    "検索順位 チェックツール 方法",
+                    "検索順位 無料 方法",
+                    "検索結果 上位 調べる 方法",
+                    "上位表示 サイト 調べる 方法",
+                    "キーワード 上位サイト 方法",
+                    "検索上位 サイト 分析 方法",
+                    "SERP チェック 方法",
+                    "SERP 分析 方法",
+                    "競合 上位 サイト 調べる 方法",
+                    "検索結果 一覧 取得 方法",
+                    "AIモード とは 方法",
+                    "Google AIモード 方法",
+                    "AIモード 引用 方法",
+                    "AIモード 表示されない 方法",
+                    "AI Overview 引用 方法",
+                    "AIモード 対策 方法",
+                    "AIモード 出典 方法",
+                    "AIモード SEO 方法",
+                    "AI検索 引用されるには 方法",
+                    "GEO 対策 方法",
+                    "LLMO 対策 方法",
+                    "AI 検索 引用 調べる 方法",
+                    "Googleマップ 順位 確認 方法",
+                    "Googleマップ 順位 チェック 方法",
+                    "MEO 順位 チェック 方法",
+                    "MEO 対策 方法",
+                    "MEO 順位 確認 方法",
+                    "マップ 検索 順位 方法",
+                    "Googleマップ 上位表示 方法",
+                    "ローカル検索 順位 方法",
+                    "地図 検索 順位 調べる 方法",
+                    "MEO チェックツール 方法",
+                    "マップ 競合 調査 方法",
+                    "店舗 マップ 順位 方法",
+                    "Googleマップ もっと見る 方法",
+                    "ローカルファインダー 方法",
+                    "Googleマップ 4位以下 方法",
+                    "Googleマップ 順位 3位以下 方法",
+                    "ローカルパック 方法",
+                    "ローカル検索 3枠 方法",
+                    "MEO ローカルパック 方法",
+                    "マップ 検索 一覧 方法",
+                    "Googleマップ 店舗 一覧 方法",
+                    "地図 検索結果 もっと見る 方法",
+                    "Googleニュース 検索 方法",
+                    "Googleニュース 掲載 方法",
+                    "Googleニュース 自社 方法",
+                    "ニュース 掲載 調べる 方法",
+                    "プレスリリース 掲載 確認 方法",
+                    "自社 ニュース 掲載 方法",
+                    "ニュース 検索 一覧 方法",
+                    "企業 ニュース 検索 方法",
+                    "ニュース 記事 検索 ツール 方法",
+                    "Googleニュース 載る 方法 方法",
+                    "画像検索 上位 方法",
+                    "Google画像検索 SEO 方法",
+                    "画像SEO 方法",
+                    "サムネイル 参考 方法",
+                    "表紙 デザイン 参考 方法",
+                    "Kindle 表紙 デザイン 方法",
+                    "電子書籍 表紙 作り方 方法",
+                    "画像検索 順位 方法",
+                    "ブログ サムネ 作り方 方法",
+                    "サムネイル トレンド 方法",
+                    "サジェスト キーワード 方法",
+                    "サジェスト 一覧 方法",
+                    "Googleサジェスト 取得 方法",
+                    "サジェスト 調べる 方法",
+                    "サジェスト 取得 ツール 方法",
+                    "サジェスト キーワード 無料 方法",
+                    "検索 候補 一覧 方法",
+                    "オートコンプリート キーワード 方法",
+                    "サジェスト 抽出 方法",
+                    "サジェスト キーワード 一括 方法",
+                    "オープンデータ 検索 方法",
+                    "統計データ 探す 方法",
+                    "データセット 検索 方法",
+                    "公的 統計 探し方 方法",
+                    "統計 データ 無料 ダウンロード 方法",
+                    "Google Dataset Search 方法",
+                    "データセット 探す 方法",
+                    "統計 データ 検索 方法",
+                    "公開データ 探す 方法",
+                    "ブログ 統計 データ 引用 方法",
+                    "Google広告 広告主 調べる 方法",
+                    "広告 出稿 競合 調べる 方法",
+                    "Googleアドセンス 広告主 方法",
+                    "広告 透明性センター 方法",
+                    "Ads Transparency Center 方法",
+                    "競合 広告 調べる 方法",
+                    "広告主 検索 方法",
+                    "Google 広告 出稿 確認 方法",
+                    "競合 リスティング広告 調べる 方法",
+                    "広告 出している 会社 調べる 方法",
+                    "競合 広告 見る 方法",
+                    "Google広告 競合 調べる 方法",
+                    "広告 クリエイティブ 参考 方法",
+                    "競合 リスティング広告 方法",
+                    "広告 出稿状況 確認 方法",
+                    "広告 バナー 競合 方法",
+                    "Googleディスプレイ広告 競合 方法",
+                    "競合 広告 調査 方法",
+                    "広告 文 参考 方法",
+                    "出稿 中 広告 確認 方法",
+                    "YouTube 検索 上位 方法",
+                    "YouTube SEO 方法",
+                    "YouTube キーワード 調査 方法",
+                    "YouTube 動画 上位 分析 方法",
+                    "YouTube 競合 調査 方法",
+                    "YouTube 検索 順位 チェック 方法",
+                    "YouTube 検索結果 一覧 方法",
+                    "ユーチューブ 上位 動画 方法",
+                    "YouTube ジャンル 調査 方法",
+                    "YouTuber 競合 分析 方法",
+                    "YouTube 動画 再生数 調べる 方法",
+                    "YouTube 動画 分析 方法",
+                    "YouTube 動画 データ 方法",
+                    "YouTube 再生回数 確認 方法",
+                    "動画 いいね 数 確認 方法",
+                    "YouTube 動画 情報 取得 方法",
+                    "YouTube 動画 統計 方法",
+                    "YouTube 他人 動画 分析 方法"
+                ],
+                "location_code": 2392,
+                "language_code": "ja"
+            },
+            "result": [
+                {
+                    "keyword": "自社 言及 モニタリング とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "風評 調査 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "企業 評判 調べる とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ネット 話題 調べる とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "言及 集計 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ソーシャルリスニング とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 22,
+                    "search_volume": 40,
+                    "low_top_of_page_bid": 1.67,
+                    "high_top_of_page_bid": 13.34,
+                    "cpc": 19.79,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 50
+                        }
+                    ]
+                },
+                {
+                    "keyword": "ネット 言及 分析 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ブランド 言及 数 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "言及 数 調べる とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "企業 評判 分析 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ネット 話題 件数 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "競合 言及 数 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "感情分析 ツール とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ポジネガ 分析 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "評判 感情 分析 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "感情分析 無料 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ネガティブ 言及 調べる とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "口コミ 感情 分析 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ネット 評判 ポジティブ ネガティブ とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "感情 分析 ブランド とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "言及 数 推移 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "話題 推移 調べる とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "キーワード 言及 推移 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ブランド 言及 推移 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ネット 話題 増減 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "言及 トレンド とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "キーワード 話題性 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ソーシャルリスニング 推移 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "地域 事業者 リスト とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "営業先 リスト 作成 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "企業 リスト 地域 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "営業 リスト 無料 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "店舗 リスト 取得 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "地域 店舗 一覧 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ターゲット 営業先 探し方 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "事業者 リスト 業種別 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Googleビジネスプロフィール 確認 とは",
+                    "spell": "googleビジネスプロフィール 確認 とは",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Googleマップ 店舗 情報 とは",
+                    "spell": "googleマップ 店舗 情報 とは",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Googleビジネス 情報 調べる とは",
+                    "spell": "googleビジネス 情報 調べる とは",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Googleビジネスプロフィール 口コミ 数 とは",
+                    "spell": "googleビジネスプロフィール 口コミ 数 とは",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Googleビジネス 営業時間 とは",
+                    "spell": "googleビジネス 営業時間 とは",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "マップ 店 情報 取得 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "競合 店 マップ 情報 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Googleビジネスプロフィール 競合 とは",
+                    "spell": "googleビジネスプロフィール 競合 とは",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ホテル 料金 比較 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "近く の 宿 料金 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "宿泊 料金 相場 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ホテル 価格 調べる とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "競合 宿 料金 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "宿泊 価格 比較 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ホテル 料金 地域 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "土曜 ホテル 料金 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "サイト 使用技術 調べる とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "サイト CMS 調べる とは",
+                    "spell": "サイト cms 調べる とは",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "サイト 何で 作られている とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Wappalyzer とは",
+                    "spell": "wappalyzer とは",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 0,
+                    "search_volume": 140,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 320
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 90
+                        }
+                    ]
+                },
+                {
+                    "keyword": "BuiltWith とは",
+                    "spell": "builtwith とは",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 0,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 0
+                        }
+                    ]
+                },
+                {
+                    "keyword": "サイト 技術 調査 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "WordPress か 調べる とは",
+                    "spell": "wordpress か 調べる とは",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "サイト 技術 スタック とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Shopify 利用 サイト とは",
+                    "spell": "shopify 利用 サイト とは",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "WordPress 利用 サイト 一覧 とは",
+                    "spell": "wordpress 利用 サイト 一覧 とは",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "技術 利用 サイト 探す とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Shopify サイト 一覧 とは",
+                    "spell": "shopify サイト 一覧 とは",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "CMS 利用 サイト リスト とは",
+                    "spell": "cms 利用 サイト リスト とは",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "営業 リスト 技術 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Shopify 導入 企業 とは",
+                    "spell": "shopify 導入 企業 とは",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "BuiltWith リスト とは",
+                    "spell": "builtwith リスト とは",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ドメイン 登録日 調べる とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ドメイン 取得日 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ドメイン 有効期限 確認 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "whois 検索 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 1,
+                    "search_volume": 50,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 90
+                        }
+                    ]
+                },
+                {
+                    "keyword": "ドメイン whois とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 6,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": 11.77,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 10
+                        }
+                    ]
+                },
+                {
+                    "keyword": "ドメイン 年齢 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 0,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 10
+                        }
+                    ]
+                },
+                {
+                    "keyword": "ドメイン 期限 確認 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ドメイン 登録 情報 とは",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Google 検索順位 確認 方法",
+                    "spell": "google 検索順位 確認 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 10
+                        }
+                    ]
+                },
+                {
+                    "keyword": "検索順位 チェック 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "検索順位 チェックツール 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "検索順位 無料 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "検索結果 上位 調べる 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "上位表示 サイト 調べる 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "キーワード 上位サイト 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "検索上位 サイト 分析 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "SERP チェック 方法",
+                    "spell": "serp チェック 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "SERP 分析 方法",
+                    "spell": "serp 分析 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "競合 上位 サイト 調べる 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "検索結果 一覧 取得 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "AIモード とは 方法",
+                    "spell": "aiモード とは 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Google AIモード 方法",
+                    "spell": "google aiモード 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "AIモード 引用 方法",
+                    "spell": "aiモード 引用 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "AIモード 表示されない 方法",
+                    "spell": "aiモード 表示されない 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "AI Overview 引用 方法",
+                    "spell": "ai overview 引用 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "AIモード 対策 方法",
+                    "spell": "aiモード 対策 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "AIモード 出典 方法",
+                    "spell": "aiモード 出典 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "AIモード SEO 方法",
+                    "spell": "aiモード seo 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "AI検索 引用されるには 方法",
+                    "spell": "ai検索 引用されるには 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "GEO 対策 方法",
+                    "spell": "geo 対策 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "LLMO 対策 方法",
+                    "spell": "llmo 対策 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": "MEDIUM",
+                    "competition_index": 60,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": 1.7,
+                    "high_top_of_page_bid": 3.99,
+                    "cpc": 2.26,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 10
+                        }
+                    ]
+                },
+                {
+                    "keyword": "AI 検索 引用 調べる 方法",
+                    "spell": "ai 検索 引用 調べる 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Googleマップ 順位 確認 方法",
+                    "spell": "googleマップ 順位 確認 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Googleマップ 順位 チェック 方法",
+                    "spell": "googleマップ 順位 チェック 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "MEO 順位 チェック 方法",
+                    "spell": "meo 順位 チェック 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "MEO 対策 方法",
+                    "spell": "meo 対策 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 29,
+                    "search_volume": 70,
+                    "low_top_of_page_bid": 1.27,
+                    "high_top_of_page_bid": 4.01,
+                    "cpc": 3.38,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 70
+                        }
+                    ]
+                },
+                {
+                    "keyword": "MEO 順位 確認 方法",
+                    "spell": "meo 順位 確認 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "マップ 検索 順位 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Googleマップ 上位表示 方法",
+                    "spell": "googleマップ 上位表示 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": "MEDIUM",
+                    "competition_index": 50,
+                    "search_volume": 70,
+                    "low_top_of_page_bid": 0.89,
+                    "high_top_of_page_bid": 3.16,
+                    "cpc": 3.51,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 70
+                        }
+                    ]
+                },
+                {
+                    "keyword": "ローカル検索 順位 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "地図 検索 順位 調べる 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "MEO チェックツール 方法",
+                    "spell": "meo チェックツール 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "マップ 競合 調査 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "店舗 マップ 順位 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Googleマップ もっと見る 方法",
+                    "spell": "googleマップ もっと見る 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ローカルファインダー 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Googleマップ 4位以下 方法",
+                    "spell": "googleマップ 4位以下 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Googleマップ 順位 3位以下 方法",
+                    "spell": "googleマップ 順位 3位以下 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ローカルパック 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ローカル検索 3枠 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "MEO ローカルパック 方法",
+                    "spell": "meo ローカルパック 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "マップ 検索 一覧 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Googleマップ 店舗 一覧 方法",
+                    "spell": "googleマップ 店舗 一覧 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "地図 検索結果 もっと見る 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Googleニュース 検索 方法",
+                    "spell": "googleニュース 検索 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Googleニュース 掲載 方法",
+                    "spell": "googleニュース 掲載 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 1,
+                    "search_volume": 20,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 20
+                        }
+                    ]
+                },
+                {
+                    "keyword": "Googleニュース 自社 方法",
+                    "spell": "googleニュース 自社 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ニュース 掲載 調べる 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "プレスリリース 掲載 確認 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "自社 ニュース 掲載 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ニュース 検索 一覧 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "企業 ニュース 検索 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ニュース 記事 検索 ツール 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Googleニュース 載る 方法 方法",
+                    "spell": "googleニュース 載る 方法 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "画像検索 上位 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Google画像検索 SEO 方法",
+                    "spell": "google画像検索 seo 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "画像SEO 方法",
+                    "spell": "画像seo 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "サムネイル 参考 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "表紙 デザイン 参考 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Kindle 表紙 デザイン 方法",
+                    "spell": "kindle 表紙 デザイン 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "電子書籍 表紙 作り方 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "画像検索 順位 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ブログ サムネ 作り方 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "サムネイル トレンド 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "サジェスト キーワード 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "サジェスト 一覧 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Googleサジェスト 取得 方法",
+                    "spell": "googleサジェスト 取得 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "サジェスト 調べる 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "サジェスト 取得 ツール 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "サジェスト キーワード 無料 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "検索 候補 一覧 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "オートコンプリート キーワード 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "サジェスト 抽出 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "サジェスト キーワード 一括 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "オープンデータ 検索 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "統計データ 探す 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "データセット 検索 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "公的 統計 探し方 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "統計 データ 無料 ダウンロード 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Google Dataset Search 方法",
+                    "spell": "google dataset search 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "データセット 探す 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "統計 データ 検索 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "公開データ 探す 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ブログ 統計 データ 引用 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Google広告 広告主 調べる 方法",
+                    "spell": "google広告 広告主 調べる 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "広告 出稿 競合 調べる 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Googleアドセンス 広告主 方法",
+                    "spell": "googleアドセンス 広告主 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "広告 透明性センター 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Ads Transparency Center 方法",
+                    "spell": "ads transparency center 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "競合 広告 調べる 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "広告主 検索 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Google 広告 出稿 確認 方法",
+                    "spell": "google 広告 出稿 確認 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "競合 リスティング広告 調べる 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "広告 出している 会社 調べる 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "競合 広告 見る 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Google広告 競合 調べる 方法",
+                    "spell": "google広告 競合 調べる 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "広告 クリエイティブ 参考 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "競合 リスティング広告 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "広告 出稿状況 確認 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "広告 バナー 競合 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "Googleディスプレイ広告 競合 方法",
+                    "spell": "googleディスプレイ広告 競合 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "競合 広告 調査 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "広告 文 参考 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "出稿 中 広告 確認 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "YouTube 検索 上位 方法",
+                    "spell": "youtube 検索 上位 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 0,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 10
+                        }
+                    ]
+                },
+                {
+                    "keyword": "YouTube SEO 方法",
+                    "spell": "youtube seo 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 0
+                        }
+                    ]
+                },
+                {
+                    "keyword": "YouTube キーワード 調査 方法",
+                    "spell": "youtube キーワード 調査 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "YouTube 動画 上位 分析 方法",
+                    "spell": "youtube 動画 上位 分析 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "YouTube 競合 調査 方法",
+                    "spell": "youtube 競合 調査 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "YouTube 検索 順位 チェック 方法",
+                    "spell": "youtube 検索 順位 チェック 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "YouTube 検索結果 一覧 方法",
+                    "spell": "youtube 検索結果 一覧 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ユーチューブ 上位 動画 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "YouTube ジャンル 調査 方法",
+                    "spell": "youtube ジャンル 調査 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "YouTuber 競合 分析 方法",
+                    "spell": "youtuber 競合 分析 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "YouTube 動画 再生数 調べる 方法",
+                    "spell": "youtube 動画 再生数 調べる 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "YouTube 動画 分析 方法",
+                    "spell": "youtube 動画 分析 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "YouTube 動画 データ 方法",
+                    "spell": "youtube 動画 データ 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "YouTube 再生回数 確認 方法",
+                    "spell": "youtube 再生回数 確認 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 0,
+                    "search_volume": 20,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 10
+                        }
+                    ]
+                },
+                {
+                    "keyword": "動画 いいね 数 確認 方法",
+                    "spell": null,
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "YouTube 動画 情報 取得 方法",
+                    "spell": "youtube 動画 情報 取得 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "YouTube 動画 統計 方法",
+                    "spell": "youtube 動画 統計 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "YouTube 他人 動画 分析 方法",
+                    "spell": "youtube 他人 動画 分析 方法",
+                    "location_code": 2392,
+                    "language_code": "ja",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                }
+            ]
+        }
+    ]
+}

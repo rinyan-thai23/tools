@@ -62,3 +62,7 @@ ul.tools{padding-left:1.2em}
 article h2{font-size:1.15rem;margin-top:1.8em}
 article .asof{font-size:.85rem;opacity:.7}
 article .box{border:1px solid var(--line);border-radius:8px;padding:8px 14px;margin:16px 0}
+table.data{font-size:.8rem}
+table.data td,table.data th{padding:2px 6px;white-space:nowrap}
+.cols{columns:3 200px;font-size:.9rem}
+pre.raw{overflow-x:auto;font-size:.8rem;background:rgba(127,127,127,.1);padding:8px;border-radius:6px}
