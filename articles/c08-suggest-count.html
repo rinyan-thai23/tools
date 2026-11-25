@@ -1,0 +1,27 @@
+<p>検索候補は、いつも同じ数だけ出るのでしょうか。<a href="/articles/c08-20-keywords-suggest/">20語</a>、<a href="/articles/c08-blog-kana-suggest/">「ブログ＋ひらがな」46個</a>、<a href="/articles/c08-fan-out-vs-suggest/">ChatGPTの内部の検索ワードの前半</a>23個、合わせて<strong>89回</strong>の結果で、候補の数を数えました。</p>
+
+<h2>先に、わかったこと</h2>
+<ul>
+<li>候補の数は、<strong>最大15件</strong>でした。89回のうち<strong>67回</strong>が、ちょうど15件でした。</li>
+<li>20語では、15件が13語、15件未満が7語。一番少ないのは0件（転職 エージェント 比較）でした。</li>
+<li>ひらがなを足した46個では、43個が15件でした。</li>
+<li>0件の2回（「転職 エージェント 比較」「最新 ノートパソコン おすすめ」）は、<strong>料金がかかりました</strong>（1回$0.002）。</li>
+</ul>
+<p>コップに水を注ぐと、15杯分までしか入らない。ほとんどの言葉で、コップはいっぱいになりました。</p>
+
+<h2>20語の、候補の数</h2>
+<!--include:c08_a_counts-->
+
+<h2>46個（ブログ＋ひらがな）の、候補の数</h2>
+<!--include:c08_b_counts-->
+
+<h2>どうやって調べたか</h2>
+<div class="box">
+<ul>
+<li>日付：2026年11月25日、地域と言語：日本、日本語</li>
+<li>ツール：<a href="/C08/ja/">検索窓のサジェストを見る（C08）</a>（DataForSEOのAPIが、Googleの検索候補を返します）</li>
+<li>データ：<a href="/articles/c08-20-keywords-suggest/">20語</a>・<a href="/articles/c08-blog-kana-suggest/">46個</a>・<a href="/articles/c08-fan-out-vs-suggest/">23個</a>の、合計89回</li>
+<li>費用：1回につき<strong>$0.002</strong>（約0.3円）。この記事のデータ89回で<strong>$0.178</strong></li>
+</ul>
+</div>
+<p class="note">上限の15件は、この日のこのAPIの結果です。一般的な決まりかどうかは、確かめていません。</p>

@@ -1,0 +1,34 @@
+<p>サジェストのAPIでは、何がわかって、何がわからないのでしょうか。<a href="/C08/ja/">検索窓のサジェストを見るツール</a>で89回調べて、確かめた事実を整理します。</p>
+
+<h2>わかること（実測）</h2>
+<ul>
+<li><strong>入力した言葉の、検索候補。</strong>候補の文字と、APIが返す「relevance」の数字が返ります。</li>
+<li><strong>低い費用。</strong>1回$0.002（約0.3円）。89回で$0.178。</li>
+</ul>
+
+<h2>わからないこと・気をつけること（実測）</h2>
+<ul>
+<li><strong>候補は最大15件。</strong>89回のうち67回が、ちょうど15件でした。</li>
+<li><strong>0件になる言葉がある。</strong>「転職 エージェント 比較」と「最新 ノートパソコン おすすめ」は「No Search Results」でした。<strong>0件でも、料金はかかりました。</strong></li>
+<li><strong>入力と違う候補が出ることがある。</strong>「SEO とは」を入れたら、最初の候補が「ceo とは」でした。</li>
+<li><strong>表記がそろえられる。</strong>「ChatGPT とは」の候補は「chatgpt とは…」と小文字で返りました。</li>
+<li><strong>検索数ではない。</strong>候補の順や「relevance」は、検索の多さそのものではありません。検索数は<a href="/C24/ja/">別のツール（C24）</a>で調べます。</li>
+<li><strong>この日の日本の結果。</strong>時間や場所、人で変わることがあります。</li>
+</ul>
+
+<h2>どう使い分ける？</h2>
+<ul>
+<li><strong>1つの言葉の候補を、ちょっと見たい</strong> → Googleの検索窓に、そのまま入力すれば、無料で見られます。</li>
+<li><strong>たくさんの言葉の候補を、表やCSVで残したい</strong> → このツールが向いています。「ブログ＋あ〜ん」のような使い方もできます。</li>
+</ul>
+<p>確認だけなら、まず検索窓で十分です。何十個もの言葉を一度に残したくなったら、このツールを使ってみてください。</p>
+
+<h2>どうやって調べたか</h2>
+<div class="box">
+<ul>
+<li>日付：2026年11月25日、地域と言語：日本、日本語</li>
+<li>ツール：<a href="/C08/ja/">検索窓のサジェストを見る（C08）</a>（DataForSEOのAPIが、Googleの検索候補を返します）</li>
+<li>データ：<a href="/articles/c08-20-keywords-suggest/">20語</a>・<a href="/articles/c08-blog-kana-suggest/">46個</a>・<a href="/articles/c08-fan-out-vs-suggest/">23個</a>の、合計89回</li>
+<li>費用：1回につき<strong>$0.002</strong>（約0.3円）。この記事のデータ89回で<strong>$0.178</strong></li>
+</ul>
+</div>

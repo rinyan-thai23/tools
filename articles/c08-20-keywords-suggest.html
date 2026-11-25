@@ -1,0 +1,37 @@
+<p>Googleの検索窓に言葉を入れると、候補（サジェスト）が出ます。「みんながよく調べている言い方」のヒントになります。<a href="/C08/ja/">検索窓のサジェストを見るツール</a>で、<strong>20個の言葉</strong>の候補を取って、全部載せます。</p>
+
+<h2>先に、わかったこと</h2>
+<ul>
+<li>20個の言葉で、候補は合計<strong>251件</strong>でした。</li>
+<li>1つの言葉に出た候補は、<strong>最大15件</strong>でした。15件出たのは、20語のうち<strong>13語</strong>です。</li>
+<li>候補が少なかったのは、「ブログ 収益化 いつから」の<strong>2件</strong>と、「転職 エージェント 比較」の<strong>0件</strong>（「No Search Results」）でした。</li>
+<li>「iPhone」では「iphone18」「iphone17」「iphone18pro」、「SEO とは」では「<strong>ceo とは</strong>」が最初に出ました。</li>
+</ul>
+<p>お店でいうと、「店に入る前に、店員さんが『こんな商品はいかがですか』と15個まで見せてくれる」ようなものです。</p>
+
+<h2>言葉ごとの、候補の数</h2>
+<!--include:c08_a_counts-->
+
+<h2>全データ：20語の候補（251件）</h2>
+<p>候補と、APIが返す「relevance」の数字です。relevanceの意味は、このデータからは分かりません。検索数ではありません。</p>
+<p><a href="/articles/data/c08-20keywords-suggestions-2026-11-25.csv" download>CSVでダウンロード</a></p>
+<!--include:c08_a_table-->
+
+<h2>この表から作った記事</h2>
+<ul>
+<li><a href="/articles/c08-blog-kana-suggest/">「ブログ」のあとに「あ〜ん」を足したら</a></li>
+<li><a href="/articles/c08-suggest-count/">候補の数は、言葉によってどれくらい違う？</a></li>
+<li><a href="/articles/c08-fan-out-vs-suggest/">ChatGPTの内部の検索ワードは、Googleの候補に出る言い方？</a></li>
+<li><a href="/articles/c08-suggest-limits/">サジェストを調べる方法と、わからないこと</a></li>
+</ul>
+
+<h2>どうやって調べたか</h2>
+<div class="box">
+<ul>
+<li>日付：2026年11月25日、地域と言語：日本、日本語</li>
+<li>ツール：<a href="/C08/ja/">検索窓のサジェストを見る（C08）</a>（DataForSEOのAPIが、Googleの検索候補を返します）</li>
+<li>キーワード20個（私が選びました）：「ブログ 始め方」「ブログ 収益化 いつから」「確定申告 やり方」「ワイヤレスイヤホン おすすめ」「ノートパソコン 選び方」「ユニクロ」「iPhone」「渋谷 ランチ」「京都 観光」「副業 おすすめ」「転職 エージェント 比較」「ChatGPT とは」「SEO とは」「キーワードプランナー 使い方」「新宿 美容院」「日経平均」「筋トレ 初心者」「カレー レシピ」「天気」「英会話 独学」</li>
+<li>費用：1回につき<strong>$0.002</strong>（約0.3円）。この記事のデータ20回で<strong>$0.040</strong></li>
+</ul>
+</div>
+<p class="note">検索候補は、時間や場所で変わります。この日の日本の結果です。「候補にある＝検索されている」の証明ではありません。</p>
