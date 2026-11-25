@@ -373,7 +373,7 @@
   "c33.col.share": "Share (%)",
   "c34.name": "See keywords related to a site",
   "c34.desc": "Find keywords that fit your blog",
-  "c34.price": "Cost: about $0.024 per call (100 rows, about 40 per $1). The sample is free.",
+  "c34.price": "Cost: about $0.024 for 100 rows and about $0.13 for 1,000 (measured on the Labs endpoints; it rises about $0.0001 per row). The sample is free.",
   "c34.eta": "Typical time: a few seconds",
   "c34.title": "Website Keyword Research | Find Related Keywords for a Domain with Volume and Difficulty (Free Sample)",
   "c34.meta": "Enter a domain and get keywords related to the site, with search volume and keyword difficulty. A keyword research tool for finding keywords that fit a blog or website. Free sample.",
@@ -383,7 +383,7 @@
   "c34.col.kd": "Difficulty (0–100)",
   "c35.name": "See related keywords",
   "c35.desc": "See candidates for your next article",
-  "c35.price": "Cost: about $0.024 per call (up to 100 rows, about 40 per $1). The sample is free.",
+  "c35.price": "Cost: about $0.024 for 100 rows and about $0.13 for 1,000 (measured on the Labs endpoints; it rises about $0.0001 per row). The sample is free.",
   "c35.eta": "Typical time: a few seconds",
   "c35.title": "Related Keywords and Semantic Keywords | Find Related Terms with Volume and Difficulty (Free Sample)",
   "c35.meta": "Enter a keyword and get related keywords and related searches as a list, with search volume and keyword difficulty. Find what to write next, and semantic keywords to cover. Free sample.",
@@ -393,7 +393,7 @@
   "c35.col.kd": "Difficulty (0–100)",
   "c36.name": "See phrases containing a keyword",
   "c36.desc": "Find long-tail phrases",
-  "c36.price": "Cost: about $0.024 per call (100 rows, about 40 per $1). The sample is free.",
+  "c36.price": "Cost: about $0.024 for 100 rows and about $0.13 for 1,000 (measured on the Labs endpoints; it rises about $0.0001 per row). The sample is free.",
   "c36.eta": "Typical time: under 1 second",
   "c36.title": "Long-Tail Keywords | Find Keyword Variations and Combinations with Volume and Difficulty (Free Sample)",
   "c36.meta": "Enter a keyword and get the long-tail keywords that contain it, as a list with search volume and keyword difficulty. Find keyword variations and combinations with less competition. Free sample.",
@@ -403,7 +403,7 @@
   "c36.col.kd": "Difficulty (0–100)",
   "c37.name": "See keywords in the same genre",
   "c37.desc": "Find rephrased keywords",
-  "c37.price": "Cost: about $0.024 per call (100 rows, about 40 per $1). The sample is free.",
+  "c37.price": "Cost: about $0.024 for 100 rows and about $0.13 for 1,000 (measured on the Labs endpoints; it rises about $0.0001 per row). The sample is free.",
   "c37.eta": "Typical time: a few seconds",
   "c37.title": "Keyword Generator | Keyword Ideas, Synonyms and Similar Terms with Volume (Free Sample)",
   "c37.meta": "Enter a keyword and get keyword ideas, synonyms and similar terms from the same topic, with search volume. A keyword generator for brainstorming alternative wording. Free sample.",
@@ -477,7 +477,7 @@
   "c43.col.volume": "Monthly searches",
   "c44.name": "See strong sites for keywords",
   "c44.desc": "See the strong sites in a field",
-  "c44.price": "Cost: about $0.024 per call (100 rows, about 40 per $1). The sample is free.",
+  "c44.price": "Cost: about $0.024 for 100 rows and about $0.13 for 1,000 (measured on the Labs endpoints; it rises about $0.0001 per row). The sample is free.",
   "c44.eta": "Typical time: a few seconds",
   "c44.title": "SEO Competitor Analysis | Find Domains That Rank for Your Keywords (Free Sample)",
   "c44.meta": "Enter several keywords and get the domains that rank for them, as a table. Competitor analysis for SEO: see which sites are strong across a group of keywords. Free sample.",
@@ -498,7 +498,7 @@
   "c45.col.url": "Page URL",
   "c46.name": "See sites sharing your keywords",
   "c46.desc": "Find your rivals online",
-  "c46.price": "Cost: about $0.024 per call (100 rows, about 40 per $1). The sample is free.",
+  "c46.price": "Cost: about $0.024 for 100 rows and about $0.13 for 1,000 (measured on the Labs endpoints; it rises about $0.0001 per row). The sample is free.",
   "c46.eta": "Typical time: about 5–12 seconds",
   "c46.title": "Find Website Competitors | Similar Sites That Rank for the Same Keywords (Free Sample)",
   "c46.meta": "Enter a domain and get competitor sites that rank for the same keywords. Find your rivals online with a competitor analysis tool. Free sample.",
@@ -508,7 +508,7 @@
   "c46.col.etv": "Estimated traffic (whole site)",
   "c47.name": "See keywords two sites share",
   "c47.desc": "See keywords you share with a rival",
-  "c47.price": "Cost: about $0.024 per call (100 rows, about 40 per $1). The sample is free.",
+  "c47.price": "Cost: about $0.024 for 100 rows and about $0.13 for 1,000 (measured on the Labs endpoints; it rises about $0.0001 per row). The sample is free.",
   "c47.eta": "Typical time: a few seconds (about 6 seconds measured)",
   "c47.title": "Keyword Gap Analysis | Keywords Two Websites Both Rank For (Free Sample)",
   "c47.meta": "Enter two domains and get the keywords both rank for. See how your keywords overlap with a competitor's: groundwork for keyword gap and content gap analysis. Free sample.",
@@ -520,7 +520,7 @@
   "c47.col.volume": "Monthly searches",
   "c48.name": "See a site's top-traffic pages",
   "c48.desc": "See a rival's high-traffic articles",
-  "c48.price": "Cost: about $0.024 per call (100 rows, about 40 per $1). The sample is free.",
+  "c48.price": "Cost: about $0.024 for 100 rows and about $0.13 for 1,000 (measured on the Labs endpoints; it rises about $0.0001 per row). The sample is free.",
   "c48.eta": "Typical time: a few seconds",
   "c48.title": "Top Pages of a Website | See a Competitor's Pages with the Most Estimated Search Traffic (Free Sample)",
   "c48.meta": "Enter a domain and get the pages with the most estimated search traffic, in descending order. See which articles and pages are strongest on a competitor's site. Traffic is an estimate. Free sample.",
@@ -1057,6 +1057,150 @@
       "1,000 rows",
       "$0.132 (measured)",
       "Dig into a big site's keywords with sorting and filtering"
+    ]
+  ],
+  "c34.count": "Number of rows to fetch (more rows cost more; see the table below)",
+  "c34.steps": [
+    [
+      "100 rows",
+      "about $0.024 (measured)",
+      "See the top candidates at a glance"
+    ],
+    [
+      "300 rows",
+      "about $0.05 (a guide)",
+      "See a site's strengths theme by theme"
+    ],
+    [
+      "1,000 rows",
+      "about $0.13 (a guide)",
+      "Dig into a site's keywords with sorting and filtering"
+    ]
+  ],
+  "c35.count": "Number of rows to fetch (more rows cost more; see the table below)",
+  "c35.steps": [
+    [
+      "100 rows",
+      "about $0.024 (measured)",
+      "See the top related keywords first"
+    ],
+    [
+      "300 rows",
+      "about $0.05 (a guide)",
+      "See how the related terms spread, theme by theme"
+    ],
+    [
+      "1,000 rows",
+      "about $0.13 (a guide)",
+      "Get everything available (measured: 154 rows was everything, $0.0305)"
+    ]
+  ],
+  "c36.count": "Number of rows to fetch (more rows cost more; see the table below)",
+  "c36.steps": [
+    [
+      "100 rows",
+      "about $0.024 (measured)",
+      "See the top candidates first"
+    ],
+    [
+      "300 rows",
+      "about $0.05 (a guide)",
+      "See specific phrasings theme by theme"
+    ],
+    [
+      "1,000 rows",
+      "about $0.13 (a guide)",
+      "Get everything available (measured: 740 rows was everything, $0.1008)"
+    ]
+  ],
+  "c37.count": "Number of rows to fetch (more rows cost more; see the table below)",
+  "c37.steps": [
+    [
+      "100 rows",
+      "about $0.024 (measured)",
+      "See the top candidates first"
+    ],
+    [
+      "300 rows",
+      "about $0.05 (a guide)",
+      "See how near terms spread, theme by theme"
+    ],
+    [
+      "1,000 rows",
+      "about $0.13 (a guide)",
+      "Collect as many as possible for article ideas"
+    ]
+  ],
+  "c44.count": "Number of rows to fetch (more rows cost more; see the table below)",
+  "c44.steps": [
+    [
+      "100 rows",
+      "about $0.024 (measured)",
+      "See the top rival sites first"
+    ],
+    [
+      "300 rows",
+      "about $0.05 (a guide)",
+      "Look widely at sites strong for the keyword set"
+    ],
+    [
+      "1,000 rows",
+      "about $0.13 (a guide)",
+      "Line up many rivals and compare by size and position"
+    ]
+  ],
+  "c46.count": "Number of rows to fetch (more rows cost more; see the table below)",
+  "c46.steps": [
+    [
+      "100 rows",
+      "about $0.024 (measured)",
+      "See the top sites that share keywords first"
+    ],
+    [
+      "300 rows",
+      "about $0.05 (a guide)",
+      "List many rival candidates and choose by size"
+    ],
+    [
+      "1,000 rows",
+      "about $0.13 (a guide)",
+      "Find as many online rivals as possible"
+    ]
+  ],
+  "c47.count": "Number of rows to fetch (more rows cost more; see the table below)",
+  "c47.steps": [
+    [
+      "100 rows",
+      "about $0.024 (measured)",
+      "See only the shared keywords with the most searches"
+    ],
+    [
+      "300 rows",
+      "about $0.05 (a guide)",
+      "Compare shared keywords by rank difference"
+    ],
+    [
+      "1,000 rows",
+      "about $0.13 (a guide)",
+      "Find the overlap of two sites broadly"
+    ]
+  ],
+  "c48.count": "Number of rows to fetch (more rows cost more; see the table below)",
+  "c48.steps": [
+    [
+      "100 rows",
+      "about $0.024 (measured)",
+      "See the pages with the most traffic first"
+    ],
+    [
+      "300 rows",
+      "about $0.05 (a guide)",
+      "See what strong articles have in common from URL shapes"
+    ],
+    [
+      "1,000 rows",
+      "about $0.13 (a guide)",
+      "See how traffic is spread across the whole site"
     ]
   ]
 }

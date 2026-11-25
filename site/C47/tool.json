@@ -17,7 +17,6 @@
     }
   ],
   "params": {
-    "limit": 100,
     "order_by": [
       "keyword_data.keyword_info.search_volume,desc"
     ]
@@ -53,5 +52,14 @@
     "zh-TW",
     "en"
   ],
-  "copy": true
+  "copy": true,
+  "count": {
+    "param": "limit",
+    "options": [
+      100,
+      300,
+      1000
+    ],
+    "label": "c47.count"
+  }
 }

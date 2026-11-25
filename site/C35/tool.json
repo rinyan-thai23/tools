@@ -12,7 +12,6 @@
     }
   ],
   "params": {
-    "limit": 100,
     "depth": 4
   },
   "result": {
@@ -41,5 +40,14 @@
     "zh-TW",
     "en"
   ],
-  "copy": true
+  "copy": true,
+  "count": {
+    "param": "limit",
+    "options": [
+      100,
+      300,
+      1000
+    ],
+    "label": "c35.count"
+  }
 }

@@ -13,9 +13,7 @@
       "wrap": "lines"
     }
   ],
-  "params": {
-    "limit": 100
-  },
+  "params": {},
   "result": {
     "items": "result.0.items",
     "where": {},
@@ -43,5 +41,14 @@
     "zh-TW",
     "en"
   ],
-  "copy": true
+  "copy": true,
+  "count": {
+    "param": "limit",
+    "options": [
+      100,
+      300,
+      1000
+    ],
+    "label": "c44.count"
+  }
 }
