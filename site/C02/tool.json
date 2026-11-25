@@ -35,6 +35,7 @@
   },
   "csv": "C02.csv",
   "sample_langs": [
-    "zh-TW"
+    "zh-TW",
+    "en"
   ]
 }

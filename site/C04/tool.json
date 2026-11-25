@@ -63,6 +63,7 @@
   },
   "csv": "C04.csv",
   "sample_langs": [
-    "zh-TW"
+    "zh-TW",
+    "en"
   ]
 }
