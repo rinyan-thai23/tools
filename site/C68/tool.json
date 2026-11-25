@@ -105,5 +105,6 @@
       }
     ]
   },
-  "csv": "C68.csv"
+  "csv": "C68.csv",
+  "copy": true
 }

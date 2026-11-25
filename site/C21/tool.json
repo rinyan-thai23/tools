@@ -37,5 +37,6 @@
   "sample_langs": [
     "zh-TW",
     "en"
-  ]
+  ],
+  "copy": true
 }

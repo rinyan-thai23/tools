@@ -37,5 +37,6 @@
       }
     ]
   },
-  "csv": "C17.csv"
+  "csv": "C17.csv",
+  "copy": true
 }

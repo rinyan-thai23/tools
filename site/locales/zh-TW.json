@@ -722,5 +722,7 @@
   "ui.ai_mode_diff": "和上次比較",
   "ui.ai_prev_saved": "上次的資料（{date}）已存在這個瀏覽器中。「複製提示詞＋資料」會同時放入上次與這次的資料。",
   "ui.ai_prev_none": "這個瀏覽器沒有上次的資料。請把上次用「複製表格」取得的文字，貼到 «請貼上上次的資料» 的位置。",
-  "ui.ai_prev_here": "«請貼上上次的資料»"
+  "ui.ai_prev_here": "«請貼上上次的資料»",
+  "ui.ai_answer_head": "【答案】",
+  "ui.ai_refs_head": "【引用來源表】"
 }

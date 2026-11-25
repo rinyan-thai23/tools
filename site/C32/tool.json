@@ -72,5 +72,6 @@
   ],
   "sample_langs": [
     "en"
-  ]
+  ],
+  "copy": true
 }

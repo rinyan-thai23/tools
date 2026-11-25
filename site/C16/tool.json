@@ -53,5 +53,6 @@
       }
     ]
   },
-  "csv": "C16.csv"
+  "csv": "C16.csv",
+  "copy": true
 }

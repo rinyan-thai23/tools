@@ -56,5 +56,6 @@
       }
     ]
   },
-  "csv": "C75.csv"
+  "csv": "C75.csv",
+  "copy": true
 }

@@ -59,5 +59,6 @@
       }
     ]
   },
-  "csv": "C64.csv"
+  "csv": "C64.csv",
+  "copy": true
 }

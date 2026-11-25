@@ -24,6 +24,7 @@ function show(task, meta, now) {
   if (cfg.result.lookup && lookupMap) rows.forEach((r) => { const n = lookupMap[r[cfg.result.lookup.column]]; if (n) r[cfg.result.lookup.column] = `${n}（${r[cfg.result.lookup.column]}）`; });
   // 値の読み替え（例：informational → 情報を調べる）。columns[].labels = { 元の値: 文言のキー }
   for (const c of cfg.result.columns) if (c.labels) rows.forEach((r) => { if (c.labels[r[c.key]]) r[c.key] = t(c.labels[r[c.key]]); });
+  answerMd = extractAnswer(cfg, task) || '';
   renderAnswer($('answer'), cfg.result.answer ? t(cfg.result.answer.label) : '', extractAnswer(cfg, task));
   if (cfg.result.answer_only) $('result').innerHTML = '';
   else {
@@ -104,14 +105,20 @@ async function sendAll(p, pg) {
 }
 
 // ---- コピー・AI分析プロンプト（tool.json の copy: true のツールだけ。プロンプトの文は、ロケールの <id>.ai_prompt）
-let dataDate = '';
+let dataDate = '', answerMd = '';
 const selText = (id) => { const e = $(id); return e && e.selectedOptions && e.selectedOptions[0] ? e.selectedOptions[0].textContent : ''; };
 const MAX_CHARS = 120000;
-function aiData() { // データの文字。大きすぎるときは、先頭の行だけにする
-  let text = tableToTsv(cols, rows, more), n = rows.length, truncated = false;
+function aiData() { // AIに渡すデータの文字。答え（文章）があれば先頭に付ける。大きすぎるときは、先頭の行だけにする
+  const make = (keep) => {
+    const tbl = rows.length ? tableToTsv(cols, keep == null ? rows : rows.slice(0, keep), keep == null ? more : []) : '';
+    if (!answerMd) return tbl;
+    if (cfg.result.answer_only) return answerMd;
+    return `${t('ui.ai_answer_head')}\n${answerMd}\n\n${t('ui.ai_refs_head')}\n${tbl}`;
+  };
+  let text = make(null), n = rows.length, truncated = false;
   if (text.length > MAX_CHARS) {
-    let keep = rows.length; while (keep > 1 && tableToTsv(cols, rows.slice(0, keep)).length > MAX_CHARS) keep = Math.floor(keep * 0.9);
-    text = tableToTsv(cols, rows.slice(0, keep)); n = keep; truncated = true;
+    let keep = rows.length; while (keep > 1 && make(keep).length > MAX_CHARS) keep = Math.floor(keep * 0.9);
+    text = make(keep); n = keep; truncated = true;
   }
   return { text, n, truncated };
 }
@@ -124,7 +131,7 @@ function writePrev() { try { const d = aiData(); if (d.text.length < 400000) loc
 let prevRec = null, isSample = true;
 function renderAiBox() {
   const box = $('ai-box');
-  if (!cfg.copy || !rows.length || !(`${key}.ai_prompt` in L())) { box.hidden = true; box.innerHTML = ''; return; }
+  if (!cfg.copy || !(rows.length || answerMd) || !(`${key}.ai_prompt` in L())) { box.hidden = true; box.innerHTML = ''; return; }
   const d = aiData();
   const hasDiff = `${key}.ai_prompt_diff` in L();
   const vars = { date: dataDate, country: selText('country'), language: selText('language'), n: rows.length };

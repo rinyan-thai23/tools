@@ -54,5 +54,6 @@
       }
     ]
   },
-  "csv": "C15.csv"
+  "csv": "C15.csv",
+  "copy": true
 }
