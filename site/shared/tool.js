@@ -17,32 +17,42 @@ async function loadTech() {
 }
 let cols = [], rows = [], more = [], lookupMap = null; // lookupMap：番号→名前（result.lookup があるツールだけ）
 
-function show(task, meta, now) {
+function prepRows(task, now) { // 1回の結果から、表の行を作る（番号→名前、値の読み替えまで）
+  const rs = extractRows(cfg, task, { now });
+  if (cfg.result.lookup && lookupMap) rs.forEach((r) => { const n = lookupMap[r[cfg.result.lookup.column]]; if (n) r[cfg.result.lookup.column] = `${n}（${r[cfg.result.lookup.column]}）`; });
+  for (const c of cfg.result.columns) if (c.labels) rs.forEach((r) => { if (c.labels[r[c.key]]) r[c.key] = t(c.labels[r[c.key]]); });
+  return rs;
+}
+// task：1回の結果。multi：複数入力のとき [{ input, task }]（入力ごとの結果を、「入力」の列を付けて1つの表にする）
+function show(task, meta, now, multi) {
+  const items = multi || [{ input: null, task }];
+  const tag = (it, r) => (multi ? { __in: it.input, ...r } : r);
   cols = cfg.result.columns.map((c) => ({ key: c.key, label: t(c.label), link: c.link, type: c.type }));
-  rows = extractRows(cfg, task, { now });
-  // 番号を名前に引く（無料の参照データ）。lookup.column の値を「名前（番号）」にする
-  if (cfg.result.lookup && lookupMap) rows.forEach((r) => { const n = lookupMap[r[cfg.result.lookup.column]]; if (n) r[cfg.result.lookup.column] = `${n}（${r[cfg.result.lookup.column]}）`; });
-  // 値の読み替え（例：informational → 情報を調べる）。columns[].labels = { 元の値: 文言のキー }
-  for (const c of cfg.result.columns) if (c.labels) rows.forEach((r) => { if (c.labels[r[c.key]]) r[c.key] = t(c.labels[r[c.key]]); });
-  answerMd = extractAnswer(cfg, task) || '';
-  renderAnswer($('answer'), cfg.result.answer ? t(cfg.result.answer.label) : '', extractAnswer(cfg, task));
+  if (multi) cols.unshift({ key: '__in', label: t('ui.multi_input') });
+  rows = items.flatMap((it) => prepRows(it.task, now).map((r) => tag(it, r)));
+  answerMd = items.map((it) => { const a = extractAnswer(cfg, it.task) || ''; return multi && a ? `### ${it.input}\n${a}` : a; }).filter(Boolean).join('\n\n');
+  renderAnswer($('answer'), cfg.result.answer ? t(cfg.result.answer.label) : '', answerMd);
   if (cfg.result.answer_only) $('result').innerHTML = '';
   else {
     renderTable($('result'), cols, rows, cfg.copy ? { rowCopy: rowCopyHandler } : {});
-    if (cfg.result.chart && rows.length && (!cfg.result.chart.single || new Set(rows.map((r) => r[cfg.result.chart.single])).size === 1)) { const ch = document.createElement('div'); $('result').prepend(ch); renderChart(ch, cols, rows, cfg.result.chart); } // 表の上にグラフ（tool.json の result.chart）
+    if (!multi && cfg.result.chart && rows.length && (!cfg.result.chart.single || new Set(rows.map((r) => r[cfg.result.chart.single])).size === 1)) { const ch = document.createElement('div'); $('result').prepend(ch); renderChart(ch, cols, rows, cfg.result.chart); } // 表の上にグラフ（tool.json の result.chart）。複数入力のときは出さない
     if (cfg.result.title && rows.length) $('result').insertAdjacentHTML('afterbegin', `<h2 class="sub-title">${t(cfg.result.title)}</h2>`);
   }
   // 2つ目以降の表（result.extra）
   more = [];
-  for (const x of extractExtra(cfg, task)) {
-    if (!x.rows.length) continue;
+  const nex = (cfg.result.extra || []).length;
+  for (let k = 0; k < nex; k++) {
+    const parts = items.map((it) => ({ it, x: extractExtra(cfg, it.task)[k] }));
+    const x = parts[0].x; const xrows = parts.flatMap(({ it, x: y }) => y.rows.map((r) => tag(it, r)));
+    if (!xrows.length) continue;
     const d = document.createElement('div');
     $('result').appendChild(d);
-    x.columns.forEach((c) => { if (c.labels) x.rows.forEach((r) => { if (c.labels[r[c.key]]) r[c.key] = t(c.labels[r[c.key]]); }); });
+    x.columns.forEach((c) => { if (c.labels) xrows.forEach((r) => { if (c.labels[r[c.key]]) r[c.key] = t(c.labels[r[c.key]]); }); });
     const xc = x.columns.map((c) => ({ key: c.key, label: t(c.label), link: c.link, type: c.type }));
-    more.push({ title: x.title ? t(x.title) : '', cols: xc, rows: x.rows });
-    renderTable(d, xc, x.rows);
-    if (x.chart) { const ch = document.createElement('div'); d.prepend(ch); renderChart(ch, xc, x.rows, x.chart); } // 2つ目以降の表にも、グラフを付けられる
+    if (multi) xc.unshift({ key: '__in', label: t('ui.multi_input') });
+    more.push({ title: x.title ? t(x.title) : '', cols: xc, rows: xrows });
+    renderTable(d, xc, xrows);
+    if (!multi && x.chart) { const ch = document.createElement('div'); d.prepend(ch); renderChart(ch, xc, xrows, x.chart); } // 2つ目以降の表にも、グラフを付けられる
     if (x.title) d.insertAdjacentHTML('afterbegin', `<h2 class="sub-title">${t(x.title)}</h2>`);
   }
   loadAuthImages($('result'));
@@ -52,7 +62,7 @@ function show(task, meta, now) {
   renderAiBox();
 }
 
-function params() {
+function params(ov) {
   const p = { ...(cfg.params || {}) };
   // 実行日から決める日付（date_from：11か月前の月初＝いまの月を入れて12か月分）
   const mago = /^months_ago_(\d+)$/.exec(cfg.params_dynamic?.date_from || '');
@@ -61,7 +71,7 @@ function params() {
   const ymd = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
   if (cfg.params_dynamic?.check_in === 'next_saturday') { p.check_in = ymd(nd); nd.setDate(nd.getDate() + 1); p.check_out = ymd(nd); } // 次の土曜・1泊
   for (const i of cfg.inputs) {
-    let v = $('in-' + i.id).value.trim();
+    let v = (ov && ov[i.id] != null ? ov[i.id] : $('in-' + i.id).value).trim();
     if (i.transform === 'domain') { v = parseDomain(v); if (!v) throw new ApiError('bad_input'); }
     if (i.transform === 'technology') { // 技術名は大文字小文字を区別するので、一覧から正しい書き方に直す（一覧にない名前は、料金がかかる前にエラー）
       if (!techNames.length) throw new ApiError('tech_list'); // 一覧が取れていないときは、料金がかかる呼び出しをしない
@@ -190,6 +200,37 @@ function applyShared() { // URLに入力があれば、入力欄に入れる（�
   return true;
 }
 const L = () => window.__L || {};
+// ---- 複数入力（tool.json の multi: { input, max, unit_cost, parallel, confirm_over }）
+const multiLines = () => {
+  const m = cfg.multi; const seen = new Set();
+  return $('in-' + m.input).value.split('\n').map((x) => x.trim()).filter((x) => x && !seen.has(x) && seen.add(x)).slice(0, m.max);
+};
+async function runMulti(lines, pg) {
+  const m = cfg.multi, est = (lines.length * m.unit_cost).toFixed(3);
+  if (lines.length > (m.confirm_over ?? 10) && !window.confirm(t('ui.multi_confirm', { n: lines.length, cost: est }))) { pg.stop(); return; }
+  const results = [], errs = []; let done = 0, cost = 0, time = new Date(), fatal = null;
+  const next = (() => { let i = 0; return () => (i < lines.length && !fatal ? i++ : -1); })();
+  const worker = async () => {
+    for (let i = next(); i >= 0; i = next()) {
+      try {
+        const r = await sendAll(params({ [m.input]: lines[i] }), { retry: pg.retry });
+        results[i] = { input: lines[i], task: r.task }; cost += r.cost || 0; time = r.time || time;
+      } catch (e) {
+        const k = e instanceof ApiError ? e.key : 'other';
+        if (['nokey', '40100', '40210'].includes(k)) { fatal = e; return; } // キー・残高の問題は、続けても同じ。止める
+        errs.push({ input: lines[i], key: k });
+      }
+      done++; $('msg').textContent = t('ui.multi_progress', { n: done, m: lines.length });
+    }
+  };
+  await Promise.all(Array.from({ length: Math.min(m.parallel || 2, lines.length) }, worker));
+  const took = pg.stop();
+  const ok = results.filter(Boolean);
+  if (fatal && !ok.length) throw fatal;
+  dataDate = new Date().toISOString().slice(0, 10); isSample = false; prevRec = null;
+  show(null, `${t('ui.cost')}: $${Math.round(cost * 1e6) / 1e6} ／ ${t('ui.took')}: ${took}${t('ui.sec')} ／ ${t('ui.fetched')}: ${fmtDate(time)}`, undefined, ok);
+  if (errs.length || fatal) { $('msg').className = 'err'; $('msg').textContent = t('ui.multi_failed', { n: errs.length + (fatal ? lines.length - done : 0), list: errs.map((e) => e.input).slice(0, 5).join(', ') }); }
+}
 async function run() {
   $('answer').innerHTML = ''; $('result').innerHTML = ''; $('meta').textContent = ''; $('csv').hidden = true; $('copy').hidden = true; $('ai-box').hidden = true;
   $('msg').textContent = '';
@@ -197,7 +238,11 @@ async function run() {
   const pg = startProgress($('msg'), t(`${key}.eta`));
   try {
     if (cfg.inputs.some((i) => i.transform === 'technology')) await loadTech();
-    let { task, cost, time } = await sendAll(params(), pg);
+    if (cfg.multi) { // 複数入力：1行ごとに1回ずつ送る
+      const lines = multiLines();
+      if (lines.length > 1) { await runMulti(lines, pg); return; }
+    }
+    let { task, cost, time } = await sendAll(params(cfg.multi ? { [cfg.multi.input]: multiLines()[0] ?? '' } : undefined), pg);
     if (cfg.result.lookup) { const lk = await getApi(cfg.result.lookup.endpoint); lookupMap = lk ? Object.fromEntries((lk.result || []).map((x) => [x[cfg.result.lookup.key], x[cfg.result.lookup.value]])) : null; }
     const took = pg.stop();
     dataDate = new Date().toISOString().slice(0, 10);
@@ -215,6 +260,12 @@ async function sample() {
   const sl = (cfg.sample_langs || []).includes(document.documentElement.lang) ? `sample.${document.documentElement.lang}.json` : 'sample.json'; // 言語ごとの専用サンプル（tool.json の sample_langs に書いた言語だけ）
   const r = await fetch(`/${id}/${sl}`);
   const s = await r.json();
+  if (s.multi && cfg.multi && sl === 'sample.json') { // 複数入力のサンプル（3件）：入力欄に3件を入れ、「入力」の列つきの表で見せる
+    $('in-' + cfg.multi.input).value = s.multi.map((m) => m.input).join('\n');
+    document.querySelectorAll('[id^=in-]').forEach((e) => e.dispatchEvent(new Event('input')));
+    $('msg').className = 'banner'; $('msg').textContent = t('ui.sample_notice', { date: s.fetched_at });
+    dataDate = s.fetched_at; show(null, '', new Date(`${s.fetched_at}-15`), s.multi); return;
+  }
   if (s.inputs) for (const [k, v] of Object.entries(s.inputs)) $('in-' + k).value = v; // 入力が複数あるツール
   else if (cfg.inputs.length) $('in-' + cfg.inputs[0].id).value = s.keyword;
   document.querySelectorAll('[id^=in-]').forEach((e) => e.dispatchEvent(new Event('input'))); // 語数の表示などを更新
@@ -240,6 +291,15 @@ if (cfg.chunk) { // 入力した語数と、送る回数・料金の目安を、
     if (!n) { nt.textContent = ''; return; }
     const used = Math.min(n, c.max), calls = Math.ceil(used / c.size), cost = (c.per_item != null ? calls * c.base + used * c.per_item : calls * c.unit_cost).toFixed(c.per_item != null ? 3 : 2); // 1回の基本料金＋1語ごと（per_item）の型と、1回いくらの型
     nt.textContent = (n > c.max ? t('ui.chunk_over', { max: c.max }) + ' ' : '') + (calls > 1 ? t('ui.chunk_multi', { n: used, calls, cost }) : t('ui.chunk_one', { n: used, cost }));
+  };
+  ta.addEventListener('input', upd); upd();
+}
+if (cfg.multi) { // 入力した件数と、料金の目安を、その場で見せる
+  const ta = $('in-' + cfg.multi.input), nt = $('multi-note');
+  const upd = () => {
+    const all = ta.value.split('\n').map((x) => x.trim()).filter(Boolean).length, n = multiLines().length;
+    if (!all) { nt.textContent = ''; return; }
+    nt.textContent = (all > cfg.multi.max ? t('ui.multi_over', { max: cfg.multi.max }) + ' ' : '') + (n > 1 ? t('ui.multi_note', { n, cost: (n * cfg.multi.unit_cost).toFixed(3) }) : t('ui.multi_one'));
   };
   ta.addEventListener('input', upd); upd();
 }

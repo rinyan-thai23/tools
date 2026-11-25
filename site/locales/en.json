@@ -132,11 +132,11 @@
   "c07.col.url": "Source page URL",
   "c08.name": "See search-box suggestions",
   "c08.desc": "See what readers search for alongside your keyword",
-  "c08.price": "Approx. cost: about $0.002 per request (about 500 per $1). The sample view is free.",
+  "c08.price": "Cost: $0.002 per item (measured). With several inputs you pay per item (about $0.04 for 20). The sample is free.",
   "c08.eta": "Typical time: a few seconds",
   "c08.title": "Google Autocomplete Keywords | Get Search Suggestions for Any Keyword as a List (Free Sample)",
   "c08.meta": "Get the Google autocomplete (search suggest) keywords for any keyword as a list. See what readers search alongside your keyword. Save the suggestions as CSV. Free sample.",
-  "c08.keyword": "Keyword",
+  "c08.keyword": "Keywords (one per line, up to 50)",
   "c08.col.suggestion": "Suggestion",
   "c09.name": "Find public datasets",
   "c09.desc": "Find statistics you can use in an article or book",
@@ -655,11 +655,11 @@
   "c61.col.body": "Text",
   "c62.name": "See a page's speed scores",
   "c62.desc": "Check how fast the page opens on a phone",
-  "c62.price": "Cost: about $0.005 per call (about 200 per $1). The sample is free.",
+  "c62.price": "Cost: $0.005 per URL (measured). Each takes about 12-75 seconds. With several inputs you pay and wait per URL (about $0.10 for 20). The sample is free.",
   "c62.eta": "Typical time: about 25-30 seconds",
   "c62.title": "Lighthouse Score and Page Speed Test | Mobile Performance, SEO and Accessibility Scores (Free Sample)",
   "c62.meta": "Enter a URL and get four Lighthouse scores (performance, accessibility, best practices, SEO) for mobile, plus key speed metrics.",
-  "c62.url": "Page URL (e.g. https://example.com/)",
+  "c62.url": "Page URLs (one per line, up to 20. e.g. https://example.com/)",
   "c62.col.category": "Item",
   "c62.col.score": "Score (0-100)",
   "c62.col.metric": "Speed metric",
@@ -819,11 +819,11 @@
   "c71.col.stars": "Stars",
   "c74.name": "See a site's technologies",
   "c74.desc": "See what a site is built with",
-  "c74.price": "Cost: about $0.012 per call (about 83 per $1). The sample is free.",
+  "c74.price": "Cost: $0.012 per domain (measured). Empty results are still charged (errors are free). With several inputs you pay per domain (about $0.36 for 30). The sample is free.",
   "c74.eta": "Typical time: a few seconds",
   "c74.title": "Website Technology Checker | See the CMS, Servers and Analytics a Site Uses – a Wappalyzer / BuiltWith-Style Lookup (Free Sample)",
   "c74.meta": "Enter a domain and get the technologies a site uses: CMS, servers, analytics, advertising and more. A website technology checker for tech stack lookups, in the spirit of Wappalyzer and BuiltWith.",
-  "c74.keyword": "Domain (e.g. example.com)",
+  "c74.keyword": "Domains (one per line, up to 30. e.g. example.com)",
   "c74.col.group": "Category",
   "c74.col.type": "Type",
   "c74.col.names": "Technologies",
@@ -1270,6 +1270,79 @@
       "2,000 keywords",
       "about $0.12 (a guide, in 4 requests)",
       "Screen a large list with basic data"
+    ]
+  ],
+  "ui.multi_input": "Input",
+  "ui.multi_progress": "Fetched {n} of {m}",
+  "ui.multi_note": "{n} items → sent one by one, {n} requests (about ${cost})",
+  "ui.multi_one": "1 item → sent in 1 request",
+  "ui.multi_over": "The limit is {max} items. The rest will not be sent.",
+  "ui.multi_confirm": "Fetching {n} items costs about ${cost}. Continue?",
+  "ui.multi_failed": "{n} item(s) could not be fetched ({list}). The ones that worked are in the table.",
+  "c08.steps": [
+    [
+      "1 item",
+      "$0.002 (measured)",
+      "See the suggestions for one word"
+    ],
+    [
+      "5 items",
+      "$0.01",
+      "Compare suggestions for related words"
+    ],
+    [
+      "20 items",
+      "$0.04",
+      "Collect suggestions by varying the word, e.g. \"blog a\"..."
+    ],
+    [
+      "50 items",
+      "$0.10",
+      "Gather raw material for article ideas at once"
+    ]
+  ],
+  "c62.steps": [
+    [
+      "1 URL",
+      "$0.005, about 25 s (measured)",
+      "See the scores of one page"
+    ],
+    [
+      "5 URLs",
+      "about $0.025, about 2 min",
+      "Measure the main pages of your site"
+    ],
+    [
+      "10 URLs",
+      "about $0.05, about 4 min",
+      "Compare your pages with rivals'"
+    ],
+    [
+      "20 URLs",
+      "about $0.10, about 8 min",
+      "Check the main pages of a whole site in one go"
+    ]
+  ],
+  "c74.steps": [
+    [
+      "1 domain",
+      "$0.012 (measured)",
+      "See the technologies of one site"
+    ],
+    [
+      "5 domains",
+      "$0.06",
+      "Compare the technologies of rival sites"
+    ],
+    [
+      "10 domains",
+      "$0.12",
+      "Sort a list of interesting sites by technology"
+    ],
+    [
+      "30 domains",
+      "$0.36",
+      "Check a whole list of sites at once (e.g. a sales list)"
     ]
   ]
 }

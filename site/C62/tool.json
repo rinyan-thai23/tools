@@ -7,7 +7,8 @@
     {
       "id": "url",
       "param": "url",
-      "label": "c62.url"
+      "label": "c62.url",
+      "multiline": true
     }
   ],
   "params": {
@@ -93,5 +94,12 @@
     "zh-TW",
     "en"
   ],
-  "copy": true
+  "copy": true,
+  "multi": {
+    "input": "url",
+    "max": 20,
+    "unit_cost": 0.005,
+    "parallel": 3,
+    "confirm_over": 5
+  }
 }

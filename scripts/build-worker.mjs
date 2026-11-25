@@ -59,7 +59,7 @@ for (const tool of tools) {
     const L = locales[l];
     const T = (key) => esc(L[key] ?? '');
     const inputs = tool.inputs.map((i) => `<label><span data-i18n="${i.label}">${T(i.label)}</span>${i.select ? `<select id="in-${i.id}">${i.select.map((o) => `<option value="${esc(o.value)}" data-i18n="${o.label}">${T(o.label)}</option>`).join('')}</select>` : i.multiline ? `<textarea id="in-${i.id}" rows="4"></textarea>` : `<input id="in-${i.id}" type="text"${i.datalist ? ` list="dl-${i.id}"` : ''}>${i.datalist ? `<datalist id="dl-${i.id}"></datalist>` : ''}`}</label>`).join('\n');
-    const chunkNote = tool.chunk ? '<p class="note" id="chunk-note"></p>' : '';
+    const chunkNote = (tool.chunk ? '<p class="note" id="chunk-note"></p>' : '') + (tool.multi ? '<p class="note" id="multi-note"></p>' : '');
     const cSel = `<label><span data-i18n="ui.country">${T('ui.country')}</span><select id="country"></select></label>`;
     const lSel = `<label><span data-i18n="ui.language">${T('ui.language')}</span><select id="language"></select></label>`;
     const markets = tool.markets === 'country' ? cSel : tool.markets === 'language' ? lSel : tool.markets ? `<div class="row">\n  ${cSel}\n  ${lSel}\n</div>` : '';
