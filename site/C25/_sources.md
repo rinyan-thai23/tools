@@ -9,3 +9,5 @@
 | Semrush：Free $0、SEOプラン $139/月（月払い）・$117.33/月（年払い換算）。台湾データ発展途上は Techbang 寄稿（著者は同業所属） | https://www.semrush.com/prices/ ／ https://www.techbang.com/posts/115365-how-to-stay-on-top-of-seo-keyword-traffic-seo-experts | 台灣向け調査（確認日 2026-11-24） |
 | Google Keyword Planner：Google広告アカウントと請求情報の入力が必要。費用は未確認 | https://support.google.com/google-ads/answer/7337243?hl=en | 台灣向け調査（確認日 2026-11-24） |
 | 台湾での使用：国＝台灣・言語＝繁體中文で利用可。momoshop.com.tw で469行 | site/C25/sample.zh-TW.json | 範例の実測 |
+| Google Keyword Planner：數字有時只以範圍顯示 | https://www.techbang.com/posts/115365-how-to-stay-on-top-of-seo-keyword-traffic-seo-experts | Techbang 著者は Ranking 社所属と明記（宣伝色あり） |
+| 台灣範例 momoshop.com.tw：sample 保留 60 列、CPC 空白 8 列、$0.09、約 5.7 秒（469 列為完整結果的實測，sample 檔未保留全部列） | site/C25/sample.zh-TW.json | 469 列無法由 sample 檔重新驗證 |

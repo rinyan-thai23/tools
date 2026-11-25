@@ -8,3 +8,4 @@
 | Claude：無料プランあり | https://claude.ai/ ／ https://www.anthropic.com/pricing | 上限は公式で確認と記載 |
 | Ahrefs Brand Radar：Custom Prompts £40/月〜（£表示・地域で通貨変動）、対応：AI Overviews/AI Mode/ChatGPT/Copilot/Gemini/Perplexity | https://ahrefs.com/brand-radar ／ https://ahrefs.com/pricing | 台灣向け調査（確認日 2026-11-24） |
 | Semrush AI Visibility：各プランに含む、Free $0、Starter は50プロンプト/日 | https://www.semrush.com/pricing/ | 台灣向け調査（確認日 2026-11-24） |
+| DataForSEO：台灣「請推薦台北信義區好吃的拉麵店三間」$0.002535、約 4.5 秒（不含網路搜尋）；含網路搜尋的 $0.025 為日本範例的實測 | site/C19/sample.zh-TW.json ／ 實測（2026-11-24） | 範例回答中的店家資訊未經查證，本文已提醒 |

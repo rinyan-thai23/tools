@@ -11,3 +11,4 @@
 | Google トレンド：0〜100 の相対値、低ボリュームは 0 表示（無料とは公式ヘルプに明記なし） | https://support.google.com/trends/answer/4365533?hl=en | 公式 |
 | Google Keyword Planner：Google Ads アカウントと請求情報の入力が必要（無料かは公式が明記せず）、検索ボリュームは範囲値になりうる | https://support.google.com/google-ads/answer/7337243?hl=en ／ https://www.techbang.com/posts/115365-how-to-stay-on-top-of-seo-keyword-traffic-seo-experts | Techbang は著者が Ranking 社所属と明記（宣伝色あり） |
 | DataForSEO Labs：台灣・繁體中文で「部落格 架設教學」「部落格」「台北 美食」は検索量データなし（結果が空）、「咖啡」約150万・「旅遊」約6.1万・「蝦皮」「iphone 16」「聯盟行銷」約1,300・「斜槓」約1,900 は取得できた | 実測（2026-11-24） | |
+| 台灣範例「旅遊」：52 個月（2022-05～2026-10 缺 2026 年 1、7、9 月，另有 2020-06 一筆）、$0.01212、約 0.15 秒 | site/C41/sample.zh-TW.json | 日本範例為 62 個月（2021-08～2026-10，缺 2021-10） |

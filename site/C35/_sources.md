@@ -10,3 +10,4 @@
 | Ahrefs：Starter $29/月（月繳，未標通貨碼）；Ahrefs Free 僅限自己的網站 | https://ahrefs.com/pricing | 台灣向け比較表。年繳額未掲載 |
 | Ubersuggest：Individual $29/月・$192/年（USD、地域で価格調整あり）、月払いは7日間無料トライアル | https://www.ubersuggest.com/pricing | 台灣向け比較表 |
 | DataForSEO Labs：台灣・繁體中文で「部落格 架設教學」「部落格」「台北 美食」は検索量データなし（結果が空）、「咖啡」約150万・「旅遊」約6.1万・「蝦皮」「iphone 16」「聯盟行銷」約1,300・「斜槓」約1,900 は取得できた | 実測（2026-11-24） | |
+| 台灣範例「旅遊」：回傳 100 筆（總數 490）、$0.024、約 0.8 秒，保留的 30 列難度皆有值 | site/C35/sample.zh-TW.json | |

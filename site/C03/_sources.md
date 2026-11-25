@@ -9,3 +9,4 @@
 | DataForSEO：10〜100件で$0.002、3秒以内 | 実測（2026-11-24、「渋谷 整体」、20件と100件） | TSVの$0.002（100件まで）と一致 |
 | Local Falcon：網格型の順位計測（価格は未確認のため「請至官網確認」） | https://www.localfalcon.com/ | 台灣向け調査（確認日 2026-11-24） |
 | Semrush Local：Map Rank Tracker を含む、地点単位の月額制（価格は未確認のため「請至官網確認」） | https://www.semrush.com/pricing/local/ | 台灣向け調査（確認日 2026-11-24） |
+| DataForSEO：台灣「台北 按摩」取 10 筆 $0.002、約 6.1 秒；日本「渋谷 整体」20 筆與 100 筆皆 $0.002 | site/C03/sample.zh-TW.json ／ 實測（2026-11-24） | 本文標明日本實測與台灣實測的區別 |
