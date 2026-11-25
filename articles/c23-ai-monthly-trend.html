@@ -1,0 +1,23 @@
+<p>AIでの質問回数の「12か月の動き」は、Googleの検索数の動きと似ているのでしょうか。AIでの質問回数が多かった上位15語について、<strong>12か月ぶんの数字を、AIとGoogleで並べました</strong>。</p>
+
+<h2>動きの似かた（相関係数）</h2>
+<p>12か月の数字を並べて、「動きが同じか」を−1〜1の数字で出したものです。1に近いほど同じ動き、0に近いほど関係がなく、−1に近いほど逆の動きです。</p>
+<div class="scroll"><table class="data"><thead><tr><th>キーワード</th><th>相関係数（AI×Google、12か月）</th></tr></thead><tbody><tr><td>aiモード とは</td><td>-0.6</td></tr><tr><td>google aiモード</td><td>0.45</td></tr><tr><td>急上昇 ワード</td><td>-0.44</td></tr><tr><td>perplexity とは</td><td>-0.2</td></tr><tr><td>検索 ランキング</td><td>0.11</td></tr><tr><td>スクショ 全体</td><td>-0.62</td></tr><tr><td>youtube 文字起こし</td><td>-0.62</td></tr><tr><td>サイト 診断 無料</td><td>0.48</td></tr><tr><td>エゴサーチ</td><td>0.31</td></tr><tr><td>llmo とは</td><td>0.74</td></tr><tr><td>meo 対策</td><td>0.38</td></tr><tr><td>検索 ワード ランキング</td><td>0.17</td></tr><tr><td>gemini 使い方</td><td>-0.72</td></tr><tr><td>キーワードプランナー</td><td>0.79</td></tr><tr><td>ページ 全体 スクリーンショット</td><td>-0.61</td></tr></tbody></table></div>
+<p>15語の値は、<strong>−0.72から0.79</strong>まで、ばらばらでした。同じ動きの言葉も、逆の動きの言葉もあります。</p>
+<p class="note">12個の数字だけから出した値です。数字が小さい言葉は、1回の増減で大きく動きます。傾向として使うには、数が足りません。</p>
+
+<h2>全データ：月別の数字（上位15語）</h2>
+<p>1語につき2行です。上の行がAIでの質問回数、下の行がGoogleの月間検索数（C24）です。</p>
+<p><a href="/articles/data/c23-monthly-top15-2026-11-25.csv" download>CSVでダウンロード</a></p>
+<!--include:c23_monthly-->
+
+<h2>どうやって調べたか</h2>
+<div class="box">
+<ul>
+<li>日付：2026年11月25日、地域と言語：日本、日本語</li>
+<li>ツール：<a href="/C23/ja/">AIでの質問回数を見る（C23）</a>（DataForSEOのAPIが、AIでの質問回数を返します）</li>
+<li>Googleの月別検索数：<a href="/C24/ja/">C24</a>の「直近12か月」の列。AIの月別：C23の月別の列。期間は2025-11〜2026-10</li>
+<li>データ：<a href="/articles/c23-ai-search-volume-538/">538語の記事</a>と同じ</li>
+<li>計算：ピアソンの相関係数を、12か月の数字で計算しました</li>
+</ul>
+</div>

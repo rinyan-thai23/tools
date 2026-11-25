@@ -1,0 +1,33 @@
+<p>同じ言葉で、Googleの検索数とAIでの質問回数を並べると、どれくらい違うのでしょうか。<a href="/articles/c24-keyword-volume-538/">Googleの検索数（C24）</a>と<a href="/articles/c23-ai-search-volume-538/">AIでの質問回数（C23）</a>を、同じ538語で並べました。同じ日（2026年11月25日）に取っています。</p>
+
+<h2>先に、わかったこと</h2>
+<ul>
+<li>Googleの検索数に数字があった<strong>200語</strong>のうち、AIでの質問回数が0だったのは<strong>124語</strong>、0より大きかったのは<strong>76語</strong>でした。</li>
+<li>Googleの検索数が<strong>空欄だった336語</strong>のうち、AIの質問回数が0より大きかったのは<strong>8語</strong>だけでした。</li>
+<li>Googleで月1,000回以上あった<strong>24語</strong>では、23語でAIの質問回数が0より大きく、1語（wappalyzer）だけが0でした。</li>
+<li>AIの質問回数がGoogleの検索数より大きかったのは、<strong>「aiモード とは」だけ</strong>（AI 442、Google 170）でした。</li>
+<li>両方に数字があった言葉で、AI÷Googleの割合の真ん中の値は<strong>1.4%</strong>でした。</li>
+</ul>
+<p>お店でいうと、「店に来る人」と「電話で問い合わせる人」を数えたら、電話のほうが、ずっと少なかった、という感じです。</p>
+
+<h2>Googleで月1,000回以上あった24語</h2>
+<div class="scroll"><table class="data"><thead><tr><th>キーワード</th><th>Googleの月間検索数（C24）</th><th>AIでの質問回数（C23）</th></tr></thead><tbody><tr><td>google aiモード</td><td>14,800</td><td>244</td></tr><tr><td>geo 対策</td><td>1,600</td><td>3</td></tr><tr><td>llmo 対策</td><td>2,900</td><td>15</td></tr><tr><td>meo 対策</td><td>6,600</td><td>31</td></tr><tr><td>youtube コメント 検索</td><td>2,400</td><td>25</td></tr><tr><td>youtube 文字起こし</td><td>9,900</td><td>58</td></tr><tr><td>youtube 字幕 ダウンロード</td><td>1,000</td><td>3</td></tr><tr><td>動画 文字起こし 無料</td><td>2,400</td><td>3</td></tr><tr><td>llmo とは</td><td>5,400</td><td>32</td></tr><tr><td>claude 使い方</td><td>6,600</td><td>1</td></tr><tr><td>gemini 使い方</td><td>6,600</td><td>29</td></tr><tr><td>perplexity とは</td><td>6,600</td><td>150</td></tr><tr><td>キーワードプランナー</td><td>14,800</td><td>29</td></tr><tr><td>googleトレンド</td><td>40,500</td><td>16</td></tr><tr><td>検索 ランキング</td><td>1,900</td><td>107</td></tr><tr><td>急上昇 ワード</td><td>18,100</td><td>189</td></tr><tr><td>検索 ワード ランキング</td><td>1,300</td><td>30</td></tr><tr><td>pagespeed</td><td>1,300</td><td>15</td></tr><tr><td>lighthouse</td><td>12,100</td><td>25</td></tr><tr><td>ページ 全体 スクリーンショット</td><td>1,900</td><td>27</td></tr><tr><td>エゴサーチ</td><td>4,400</td><td>36</td></tr><tr><td>wappalyzer</td><td>2,400</td><td>0</td></tr><tr><td>whois 検索</td><td>9,900</td><td>9</td></tr><tr><td>ドメイン whois</td><td>1,600</td><td>13</td></tr></tbody></table></div>
+
+<h2>AIでの質問回数が多かった上位10語</h2>
+<div class="scroll"><table class="data"><thead><tr><th>キーワード</th><th>AIでの質問回数</th><th>Googleの月間検索数（C24）</th></tr></thead><tbody><tr><td>aiモード とは</td><td>442</td><td>170</td></tr><tr><td>google aiモード</td><td>244</td><td>14,800</td></tr><tr><td>急上昇 ワード</td><td>189</td><td>18,100</td></tr><tr><td>perplexity とは</td><td>150</td><td>6,600</td></tr><tr><td>検索 ランキング</td><td>107</td><td>1,900</td></tr><tr><td>スクショ 全体</td><td>59</td><td>210</td></tr><tr><td>youtube 文字起こし</td><td>58</td><td>9,900</td></tr><tr><td>サイト 診断 無料</td><td>36</td><td>40</td></tr><tr><td>エゴサーチ</td><td>36</td><td>4,400</td></tr><tr><td>llmo とは</td><td>32</td><td>5,400</td></tr></tbody></table></div>
+
+<h2>全データ：538語を並べた表</h2>
+<p>「AI÷Google（%）」は、両方に数字があるとき、AIの質問回数をGoogleの検索数で割った割合です。</p>
+<p><a href="/articles/data/c23-vs-google-538-2026-11-25.csv" download>CSVでダウンロード（538行）</a></p>
+<!--include:c23_cmp538-->
+
+<h2>どうやって調べたか</h2>
+<div class="box">
+<ul>
+<li>日付：2026年11月25日、地域と言語：日本、日本語</li>
+<li>ツール：<a href="/C23/ja/">AIでの質問回数を見る（C23）</a>（DataForSEOのAPIが、AIでの質問回数を返します）</li>
+<li>Googleの検索数：<a href="/C24/ja/">検索ボリュームを一括で見る（C24）</a>、AIでの質問回数：C23。どちらも同じ日、同じ538語、日本・日本語</li>
+<li>費用：C23が$0.0638、C24が$0.09</li>
+</ul>
+</div>
+<p class="note">どちらも推計の数字です。Googleの検索数は、データがないと空欄で返り、AIでの質問回数は0で返ります。返り方が違うので、「空欄」と「0」は同じ意味とは限りません。</p>

@@ -1,0 +1,30 @@
+<p>「AIでどれくらい質問されているか」を数字で見られるAPIがあります。<a href="/C23/ja/">AIでの質問回数を見るツール</a>で、<a href="/articles/c24-keyword-volume-538/">Googleの検索数を調べた538語</a>と同じ言葉を、全部調べました。</p>
+
+<h2>先に、わかったこと</h2>
+<ul>
+<li>538語のうち、AIでの質問回数が<strong>0より大きかったのは84語（15.6%）</strong>、<strong>0だったのは454語（84.4%）</strong>でした。</li>
+<li>一番多かったのは<strong>「aiモード とは」の442回</strong>です。</li>
+<li>0より大きかった84語の内訳は、1〜9回が58語、10〜99回が21語、100回以上が5語でした。</li>
+<li>538語の合計は<strong>1,847回</strong>（月間）でした。</li>
+</ul>
+<p>Googleの検索数では、大きな数字の言葉がたくさんありました。AIでの質問回数は、同じ言葉でも、ずっと小さい数字でした。</p>
+
+<h2>AIでの質問回数が多かった上位10語</h2>
+<div class="scroll"><table class="data"><thead><tr><th>キーワード</th><th>AIでの質問回数</th><th>Googleの月間検索数（C24）</th></tr></thead><tbody><tr><td>aiモード とは</td><td>442</td><td>170</td></tr><tr><td>google aiモード</td><td>244</td><td>14,800</td></tr><tr><td>急上昇 ワード</td><td>189</td><td>18,100</td></tr><tr><td>perplexity とは</td><td>150</td><td>6,600</td></tr><tr><td>検索 ランキング</td><td>107</td><td>1,900</td></tr><tr><td>スクショ 全体</td><td>59</td><td>210</td></tr><tr><td>youtube 文字起こし</td><td>58</td><td>9,900</td></tr><tr><td>サイト 診断 無料</td><td>36</td><td>40</td></tr><tr><td>エゴサーチ</td><td>36</td><td>4,400</td></tr><tr><td>llmo とは</td><td>32</td><td>5,400</td></tr></tbody></table></div>
+
+<h2>全データ：538語（月別の数字つき）</h2>
+<p>「AIでの質問回数（直近）」と、2025-11〜2026-10の12か月分を、APIが返したまま載せています。</p>
+<p><a href="/articles/data/c23-538-ai-volumes-2026-11-25.csv" download>CSVでダウンロード（538行）</a></p>
+<!--include:c23_table538-->
+
+<h2>どうやって調べたか</h2>
+<div class="box">
+<ul>
+<li>日付：2026年11月25日、地域と言語：日本、日本語</li>
+<li>ツール：<a href="/C23/ja/">AIでの質問回数を見る（C23）</a>（DataForSEOのAPIが、AIでの質問回数を返します）</li>
+<li>キーワード：<a href="/articles/c24-keyword-volume-538/">検索ボリュームの記事</a>と同じ538語（SEO関連。重なりは除いています）。APIは、アルファベットを小文字にして返します</li>
+<li>1回のAPI呼び出しに、538語をまとめて入れました</li>
+<li>費用：<strong>$0.0638</strong>（538語で1回）</li>
+</ul>
+</div>
+<p class="note">AIでの質問回数は、DataForSEOが推計した数字です。実際の回数ではありません。0と出た言葉も、「誰も聞いていない」とは言い切れません。</p>
