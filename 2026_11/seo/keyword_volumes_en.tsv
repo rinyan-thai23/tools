@@ -1,0 +1,495 @@
+tool	keyword	monthly_searches_us	competition	cpc_usd
+C01	serp checker	2400	LOW	12.48
+C01	google rank checker			
+C01	keyword rank checker	4400	LOW	17.11
+C01	search results checker	20	LOW	4.25
+C01	check google rankings	2400	LOW	15.54
+C01	serp analysis	260	LOW	32.2
+C01	top ranking pages for keyword			
+C01	who ranks for keyword			
+C02	google ai mode	450000	LOW	6.7
+C02	ai mode seo	30	LOW	
+C02	google ai mode citations	10	LOW	
+C02	ai overview citations	20	LOW	
+C02	how to rank in ai mode	40	LOW	
+C02	generative engine optimization	4400	LOW	21.78
+C02	geo seo	2400	MEDIUM	18.1
+C02	llm seo	720	LOW	41.1
+C03	google maps rank checker	320	LOW	18.76
+C03	local seo rank tracker	260	LOW	33.32
+C03	google maps ranking	1000	LOW	22.01
+C03	local rank checker	1000	LOW	11.73
+C03	map pack rankings	40	MEDIUM	11.99
+C03	check google maps ranking			
+C03	google maps seo	390	LOW	45.84
+C03	local pack tracker			
+C04	local finder google	10	LOW	
+C04	google local finder	50	LOW	
+C04	map pack	880	LOW	
+C04	local pack rankings	50	LOW	
+C04	google maps more places			
+C04	local finder rank			
+C04	local seo competitors			
+C04	google local results	10	LOW	
+C05	google news search	590	LOW	
+C05	google news results	10	LOW	
+C05	news monitoring	390	LOW	14.63
+C05	company news search	10		
+C05	google news ranking	10	LOW	
+C05	news search api	20	MEDIUM	9.19
+C05	track news mentions			
+C05	news mentions	20	LOW	
+C07	google image search ranking	10	LOW	
+C07	image seo	880	LOW	49.89
+C07	thumbnail ideas	590	LOW	4.72
+C07	book cover design inspiration	70	LOW	8.09
+C07	kindle cover design	20	HIGH	
+C07	youtube thumbnail inspiration	70	LOW	3.32
+C07	image search results	40	LOW	
+C07	google images api	590	LOW	13.97
+C08	google autocomplete keywords	10	LOW	
+C08	google suggest keywords	110	LOW	
+C08	autocomplete keyword tool	10	MEDIUM	19.95
+C08	keyword suggestions	390	LOW	14.74
+C08	search suggestions tool			
+C08	google suggest scraper	40	LOW	
+C08	autosuggest keyword research			
+C08	answer the public alternative	110	LOW	6.77
+C09	google dataset search	2400	LOW	15.91
+C09	public datasets	480	LOW	10.88
+C09	free datasets	320	LOW	7.28
+C09	open data portal	1000	LOW	21.75
+C09	statistics datasets	140	LOW	1.85
+C09	find datasets	50	LOW	
+C09	dataset search engine	10	LOW	
+C09	open datasets for research			
+C10	google ads transparency center	5400	LOW	12.1
+C10	ads transparency center	720	LOW	
+C10	see competitor google ads	10	MEDIUM	
+C10	find advertisers	320	LOW	
+C10	google advertiser search	10	LOW	80.2
+C10	who is running ads			
+C10	competitor ad research			
+C10	google ads advertisers			
+C11	competitor google ads	70	MEDIUM	41.68
+C11	see competitor ads	70	MEDIUM	22.74
+C11	google ads spy	30	HIGH	12.93
+C11	ad examples	8100	LOW	17.03
+C11	google ads competitor research	10	HIGH	
+C11	ads by domain			
+C11	google search ads examples	210	LOW	25.57
+C11	competitor ad copy	10		
+C14	youtube seo	1900	LOW	7.2
+C14	youtube keyword research	720	LOW	7.71
+C14	youtube search results	70	LOW	
+C14	youtube competitor analysis	50	LOW	12.72
+C14	youtube ranking	880	LOW	0.65
+C14	youtube rank checker	140	LOW	4.81
+C14	youtube search analysis	10		
+C14	top youtube videos for keyword			
+C15	youtube video stats	590	LOW	3.52
+C15	youtube video analytics	480	LOW	4.62
+C15	video view count checker			
+C15	youtube video data	90	LOW	
+C15	youtube video analyzer	320	LOW	3.68
+C15	get youtube video info	10	LOW	
+C15	youtube likes count	480	LOW	
+C15	youtube video statistics	590	LOW	3.52
+C16	youtube comments scraper	40	LOW	5.37
+C16	download youtube comments	50	LOW	4.72
+C16	export youtube comments	20	LOW	
+C16	youtube comment downloader	50	LOW	4.72
+C16	youtube comments analysis	10	LOW	
+C16	get youtube comments	20	LOW	2.95
+C16	youtube comments csv			
+C16	youtube comment extractor	90	LOW	4.9
+C17	youtube transcript	110000	LOW	1.71
+C17	youtube subtitles download	2400	LOW	0.69
+C17	download youtube transcript	2900	LOW	1.35
+C17	youtube transcript extractor	4400	LOW	1.64
+C17	youtube video to text	1300	LOW	1.81
+C17	get youtube captions	20	LOW	
+C17	youtube subtitle download	2400	LOW	0.69
+C17	youtube transcript generator	33100	LOW	1.85
+C18	chatgpt recommendations	30	LOW	1.25
+C18	chatgpt seo	390	LOW	30.65
+C18	how to rank in chatgpt	170	LOW	
+C18	llm seo	720	LOW	41.1
+C18	generative engine optimization	4400	LOW	21.78
+C18	ai search optimization	1600	LOW	43.1
+C18	ai visibility	1000	LOW	42.92
+C18	chatgpt brand mentions	50	LOW	
+C19	claude ai	3350000	MEDIUM	0.84
+C19	claude vs chatgpt	49500	LOW	9.08
+C19	claude ai search	90	LOW	2.95
+C19	claude answers	10	LOW	
+C19	claude seo	720	LOW	11.82
+C19	claude citations	70	LOW	2.2
+C19	ai assistants comparison	10	LOW	
+C19	how does claude answer			
+C20	gemini ai	5000000	LOW	0.86
+C20	gemini vs chatgpt	14800	LOW	2.37
+C20	gemini search	1900	LOW	0.81
+C20	gemini seo	50	LOW	
+C20	gemini citations	20	LOW	1.03
+C20	gemini answers	260	LOW	1.49
+C20	google gemini recommendations			
+C20	ai brand visibility	210	MEDIUM	34.71
+C21	perplexity ai	301000	LOW	4.18
+C21	perplexity seo	110	LOW	21.92
+C21	perplexity citations	30	LOW	
+C21	perplexity sources	20	LOW	
+C21	how to get cited by perplexity			
+C21	perplexity vs chatgpt	6600	LOW	3.67
+C21	perplexity answers	10	LOW	
+C21	ai citations	720	LOW	6.07
+C22	chatgpt shopping	1000	LOW	2.31
+C22	chatgpt search	12100	LOW	0.31
+C22	chatgpt product recommendations	10	LOW	
+C22	chatgpt shopping seo	10	LOW	
+C22	chatgpt search optimization	40	LOW	8.47
+C22	how to rank in chatgpt shopping			
+C22	chatgpt products	170	LOW	12.37
+C22	ai shopping	1300	LOW	12.53
+C23	ai search volume	30	LOW	16.35
+C23	chatgpt search volume	10	LOW	
+C23	llm keyword research			
+C23	ai keyword research	70	LOW	26.56
+C23	ai prompts volume			
+C23	ai search trends	40	MEDIUM	14.91
+C23	how many people search chatgpt			
+C23	chatgpt keyword data			
+C24	keyword search volume	880	LOW	12.55
+C24	search volume checker	320	MEDIUM	11.11
+C24	bulk keyword search volume	10	LOW	
+C24	keyword planner alternative	40	LOW	12.82
+C24	check search volume	320	MEDIUM	11.11
+C24	search volume tool	110	LOW	16.52
+C24	google keyword search volume	260	LOW	14.71
+C24	free keyword search volume	30	MEDIUM	11.85
+C25	competitor keyword research	880	LOW	44.28
+C25	keywords for website	720	LOW	17.73
+C25	website keyword research	720	LOW	15.93
+C25	keyword ideas from url	10		
+C25	find keywords for a website	590	LOW	29.54
+C25	keyword research by domain			
+C25	domain keyword ideas			
+C25	seo keywords for website	210	MEDIUM	14.88
+C26	keyword planner	6600	MEDIUM	24.59
+C26	google keyword planner	49500	LOW	22.53
+C26	related keywords	90	LOW	
+C26	keyword ideas for ads			
+C26	ppc keyword research	170	LOW	20.36
+C26	google ads keyword ideas	10	LOW	
+C26	keyword suggestions google ads			
+C29	google trends	368000	LOW	8.69
+C29	google trends compare	140	LOW	6.42
+C29	google trends api	1300	LOW	20.06
+C29	keyword trends	390	LOW	16.7
+C29	trending keywords	390	LOW	16.7
+C29	google trends data	480	LOW	22.88
+C29	seasonal keywords	40	LOW	
+C29	compare keywords google trends			
+C30	keyword trends	390	LOW	16.7
+C30	search popularity over time	10	LOW	
+C30	is a keyword trending			
+C30	trend analysis keyword			
+C30	keyword popularity	50	LOW	9.48
+C30	search interest over time	90	LOW	
+C30	keyword demand over time			
+C30	trending searches	5400	LOW	8.81
+C31	search interest by state			
+C31	keyword popularity by region			
+C31	google trends by state	50	LOW	
+C31	regional keyword research			
+C31	keywords by location			
+C31	search interest by region	10		
+C31	state search trends			
+C31	geographic search interest			
+C32	search demographics	50	LOW	
+C32	who searches for keyword			
+C32	keyword audience age gender			
+C32	search audience demographics			
+C32	demographics for keyword			
+C32	age of searchers			
+C32	gender search interest			
+C32	keyword audience			
+C33	search volume by country	10		
+C33	global keyword search volume			
+C33	keyword popularity by country			
+C33	international keyword research	90	LOW	
+C33	international seo keyword research	30	LOW	
+C33	country search volume			
+C33	global search volume	10	LOW	
+C33	keyword by country			
+C34	keyword research tool	3600	LOW	16.05
+C34	website keyword research	720	LOW	15.93
+C34	competitor keywords	140	LOW	
+C34	domain keywords	110	LOW	6.28
+C34	keyword ideas for blog	10		
+C34	keywords a site ranks for	10		
+C34	seo keyword research	8100	LOW	14.48
+C34	related keywords for site			
+C35	related keywords	90	LOW	
+C35	related keywords tool	70	LOW	
+C35	related searches	880	LOW	6.54
+C35	keyword related terms			
+C35	find related keywords	50	LOW	14.72
+C35	related keywords generator	40	LOW	36.06
+C35	related keyword research			
+C35	semantic keywords	140	LOW	9.1
+C36	long tail keywords	1000	LOW	20.31
+C36	long tail keyword research	110	LOW	
+C36	long tail keyword generator	90	LOW	9.63
+C36	find long tail keywords	210	LOW	
+C36	keyword variations	20	MEDIUM	
+C36	keyword combinations	10	LOW	
+C36	phrase match keywords	70	LOW	
+C36	long tail keyword tool	90	LOW	
+C37	keyword ideas	140	LOW	16.56
+C37	keyword synonyms	390	LOW	
+C37	similar keywords	20	LOW	
+C37	keyword suggestions tool	390	LOW	11.74
+C37	keyword generator	1600	LOW	10.76
+C37	keyword variations tool			
+C37	alternative keywords	30	LOW	
+C37	keyword brainstorming	20	LOW	
+C38	keyword difficulty	390	LOW	22.46
+C38	keyword difficulty checker	320	LOW	12.94
+C38	keyword difficulty tool	110	LOW	
+C38	bulk keyword difficulty			
+C38	seo keyword difficulty	110	LOW	
+C38	check keyword difficulty	320	LOW	12.94
+C38	keyword competition	140	LOW	
+C38	free keyword difficulty	30	MEDIUM	6.87
+C39	search intent	480	LOW	25.56
+C39	search intent checker	10		
+C39	search intent keywords	20	LOW	
+C39	keyword intent	260	LOW	27.21
+C39	search intent types	30	LOW	
+C39	commercial intent keywords	90	LOW	66.95
+C39	informational keywords	70	LOW	
+C39	search intent tool	40	LOW	
+C40	keyword overview	70	MEDIUM	15.61
+C40	keyword analysis	590	LOW	34.7
+C40	keyword analysis tool	3600	LOW	16.05
+C40	keyword metrics	40	LOW	38.35
+C40	keyword data	140	LOW	14.94
+C40	keyword cpc	30	MEDIUM	5.44
+C40	keyword research free	110	MEDIUM	13.97
+C40	keyword analyzer	260	LOW	8.56
+C41	historical search volume	10	LOW	
+C41	keyword search volume history			
+C41	keyword trends over time			
+C41	seasonal keyword research			
+C41	monthly search volume	70	LOW	5.83
+C41	search volume trend	20	LOW	
+C41	keyword seasonality	30	LOW	
+C41	search volume by month			
+C42	website categories	140	LOW	0.64
+C42	competitor niche analysis			
+C42	domain categories	50	LOW	
+C42	site topics analysis			
+C42	what is a website about			
+C42	domain analysis categories			
+C42	competitor strengths seo			
+C42	website niche	20	LOW	
+C43	top google searches	880	LOW	16.26
+C43	top searches	1000	LOW	11.74
+C43	most searched keywords	480	LOW	8.06
+C43	most searched words	110	LOW	
+C43	popular searches	720	LOW	3.46
+C43	top search queries	10	LOW	
+C43	trending google searches	1300	LOW	12.78
+C43	most popular keywords	110	LOW	
+C44	serp competitors	90	LOW	16.42
+C44	seo competitors	320	LOW	28.64
+C44	competitor analysis seo	1000	LOW	19.66
+C44	find seo competitors	40	LOW	
+C44	organic competitors	30	LOW	
+C44	competitor domains	10		
+C44	seo competitor analysis	1000	LOW	19.66
+C44	competing domains for keywords			
+C45	ranked keywords	2400	LOW	9.25
+C45	keywords a domain ranks for			
+C45	competitor keyword rankings	20	LOW	
+C45	domain keywords ranking			
+C45	organic keywords of a website			
+C45	what keywords does a website rank for	10	MEDIUM	9.63
+C45	keyword rankings by domain			
+C45	competitor organic keywords			
+C46	competitor domains	10		
+C46	find competitors website	260	LOW	17.61
+C46	competitor analysis tool	140	LOW	43.87
+C46	seo competitor finder			
+C46	similar websites	720	LOW	6.4
+C46	website competitor analysis	720	LOW	20.83
+C46	domain competitors	10		22.64
+C47	keyword gap	140	LOW	14.23
+C47	content gap analysis	170	LOW	12.58
+C47	keyword gap analysis	90	LOW	23.21
+C47	competitor keyword gap	10	HIGH	
+C47	shared keywords between websites			
+C47	common keywords competitors			
+C47	domain intersection	10	LOW	
+C47	keyword overlap	10	MEDIUM	82.23
+C48	top pages of a website	10		
+C48	competitor top pages			
+C48	most visited pages competitor			
+C48	best performing pages competitor			
+C48	top organic pages			
+C48	website top pages traffic			
+C48	page traffic estimate			
+C48	competitor top content			
+C49	website traffic checker	12100	MEDIUM	8.94
+C49	check website traffic	12100	MEDIUM	8.94
+C49	estimated website traffic	1000	MEDIUM	10.76
+C49	competitor traffic	70	LOW	2.11
+C49	organic traffic estimate			
+C49	domain traffic	70	LOW	
+C49	website traffic estimator	1000	MEDIUM	10.76
+C49	how much traffic does a website get	390	LOW	8.57
+C50	serp history	50	LOW	
+C50	historical serp			
+C50	search results history	50	LOW	
+C50	serp changes over time			
+C50	keyword ranking history	70	LOW	
+C50	serp tracker	1300	LOW	7
+C50	past search results	10	LOW	
+C50	top 10 changes	10		
+C51	website traffic history	70	LOW	7.53
+C51	traffic trend	40	LOW	
+C51	organic traffic history			
+C51	competitor traffic trend			
+C51	domain traffic over time			
+C51	traffic over time estimator			
+C51	website growth	140	LOW	14.34
+C51	organic traffic trend			
+C52	page keyword overlap			
+C52	compare two pages keywords			
+C52	shared keywords two urls			
+C52	content gap two pages			
+C52	page intersection			
+C52	compare pages seo			
+C52	keywords two pages rank for			
+C52	url keyword comparison			
+C53	bulk traffic checker	10	HIGH	11.54
+C53	bulk website traffic	10	MEDIUM	
+C53	check traffic multiple websites			
+C53	compare website traffic	590	LOW	13.8
+C53	bulk domain traffic			
+C53	traffic of multiple domains			
+C53	bulk traffic estimation			
+C53	bulk domain analysis			
+C60	seo checker	5400	MEDIUM	8.94
+C60	page seo checker	4400	MEDIUM	10.67
+C60	on page seo checker	4400	MEDIUM	10.67
+C60	website seo audit	320	LOW	16.61
+C60	seo audit tool	1600	LOW	28
+C60	check page seo	4400	MEDIUM	10.67
+C60	free seo checker	2400	MEDIUM	9.99
+C60	seo analysis tool	880	LOW	26.32
+C61	extract headings from webpage			
+C61	heading extractor	10	LOW	
+C61	h1 h2 checker	10	LOW	
+C61	page headings	720	LOW	
+C61	scrape headings			
+C61	article outline extractor			
+C61	content outline of a page			
+C61	extract page content			
+C62	lighthouse	201000	LOW	4.97
+C62	pagespeed insights	27100	LOW	10.83
+C62	page speed test	5400	LOW	11.24
+C62	website speed test	18100	LOW	9.07
+C62	lighthouse score	880	LOW	14.98
+C62	core web vitals test	480	LOW	13.61
+C62	mobile page speed	20	LOW	
+C62	site speed checker	320	LOW	12.53
+C63	full page screenshot	2900	LOW	2.53
+C63	website screenshot	2400	LOW	3.15
+C63	screenshot of a website	2400	LOW	3.15
+C63	capture full webpage	50	LOW	2.58
+C63	full page screenshot tool	50	LOW	
+C63	webpage screenshot api	70	MEDIUM	7.18
+C63	take screenshot of url	10	LOW	
+C63	website capture	390	LOW	6.56
+C64	brand mentions	320	MEDIUM	30.8
+C64	brand monitoring	390	LOW	57.89
+C64	web mentions	20	LOW	
+C64	track brand mentions	20	LOW	
+C64	online reputation monitoring	170	LOW	41.9
+C64	mention tracking	20	MEDIUM	
+C64	find mentions of my brand			
+C64	company mentions online			
+C65	social listening	1900	MEDIUM	65.22
+C65	social listening tools	3600	MEDIUM	86.13
+C65	brand monitoring tool	210	LOW	147.91
+C65	mentions summary			
+C65	brand sentiment	170	LOW	257.37
+C65	online mentions analysis			
+C65	media monitoring	1600	LOW	10.86
+C65	web mention analytics			
+C66	sentiment analysis	4400	LOW	24.88
+C66	brand sentiment analysis	110	LOW	18.84
+C66	sentiment analysis tool	1000	LOW	27.81
+C66	positive negative mentions			
+C66	online sentiment	20	LOW	
+C66	mention sentiment			
+C66	sentiment of mentions			
+C66	customer sentiment	320	LOW	55.46
+C67	mentions over time	10	LOW	
+C67	brand mentions trend			
+C67	mention volume over time			
+C67	buzz tracking	10	LOW	
+C67	brand mention trends			
+C67	track mentions over time			
+C67	social listening trends	10	MEDIUM	
+C67	mention trend analysis			
+C68	business listings	1900	LOW	35.28
+C68	local business list	320	LOW	34.53
+C68	lead list by location			
+C68	find local businesses	140	LOW	34.07
+C68	business directory data	20	LOW	
+C68	local leads	320	LOW	38.22
+C68	local business database	10	MEDIUM	35.71
+C68	b2b lead list	40	MEDIUM	62.55
+C69	google business profile	550000	LOW	28.71
+C69	google business profile info	10	MEDIUM	
+C69	check google business profile	20	LOW	
+C69	google my business info	40	LOW	29.15
+C69	business profile data			
+C69	google maps business info	10		
+C69	gbp audit	70	LOW	47.05
+C69	google business profile rating	10	LOW	10.41
+C71	hotel prices	6600	MEDIUM	2.84
+C71	compare hotel prices	4400	MEDIUM	4.84
+C71	hotel price tracker	720	MEDIUM	3.49
+C71	hotel rates near me	8100	MEDIUM	2.21
+C71	hotel price comparison	4400	MEDIUM	4.84
+C71	hotel prices by city	10	LOW	
+C71	check hotel prices	140	MEDIUM	5.07
+C71	competitor hotel rates	10	HIGH	4.35
+C74	wappalyzer	5400	LOW	11.27
+C74	builtwith	22200	LOW	4.52
+C74	website technology checker	210	LOW	10.82
+C74	what technology does a website use	30	LOW	
+C74	tech stack lookup	40	LOW	
+C74	cms checker	880	LOW	26.37
+C74	find website technologies			
+C74	website tech lookup	10		
+C75	shopify stores list	210	LOW	5
+C75	websites using shopify	140	MEDIUM	8.62
+C75	builtwith alternative	390	LOW	6.12
+C75	list of websites using technology			
+C75	shopify store finder	90	MEDIUM	15.36
+C75	websites using wordpress	20	MEDIUM	
+C75	technology lookup list			
+C75	tech stack leads	10		
+C76	whois lookup	74000	MEDIUM	6.77
+C76	domain whois	6600	MEDIUM	7.33
+C76	domain age checker	4400	LOW	9.07
+C76	domain expiration date	90	LOW	4.44
+C76	domain registration date	90	LOW	4.62
+C76	check domain age	4400	LOW	9.07
+C76	whois domain	6600	MEDIUM	7.33
+C76	domain registrar lookup	1900	MEDIUM	7.44
