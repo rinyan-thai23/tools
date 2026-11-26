@@ -1,0 +1,131 @@
+<title>お店の見え方マップ</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap">
+<style>
+/* 設計: 店主に向けた1枚LP。「雨雲マップ」の比喩を図で見せる。主役は順位マップ。色は信号（緑・黄・赤）ではなく、濃い藍の濃淡＋橙の一点。 */
+:root{
+  --bg:#f7f6f2; --panel:#fff; --fg:#1d2433; --muted:#5d6678; --line:#e1ded5;
+  --accent:#183a6b; --accent-soft:#e6ecf5; --hot:#d9541e; --hot-soft:#fbe9df;
+  --c1:#183a6b; --c1t:#fff; --c2:#5d86bd; --c2t:#fff; --c3:#c3d3e8; --c3t:#1d2433; --c0:#ecebe6; --c0t:#8a8f9b;
+  --font:'Noto Sans JP','Hiragino Sans','Yu Gothic',system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#12161e; --panel:#1a202b; --fg:#e8ebf1; --muted:#9aa4b6; --line:#2a3342;
+  --accent:#8db4ee; --accent-soft:#1e2a40; --hot:#ff8a55; --hot-soft:#3a2a20;
+  --c1:#8db4ee; --c1t:#0f1626; --c2:#4a6fa5; --c2t:#fff; --c3:#2b3b57; --c3t:#e8ebf1; --c0:#222a38; --c0t:#7b8496; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#12161e; --panel:#1a202b; --fg:#e8ebf1; --muted:#9aa4b6; --line:#2a3342;
+  --accent:#8db4ee; --accent-soft:#1e2a40; --hot:#ff8a55; --hot-soft:#3a2a20;
+  --c1:#8db4ee; --c1t:#0f1626; --c2:#4a6fa5; --c2t:#fff; --c3:#2b3b57; --c3t:#e8ebf1; --c0:#222a38; --c0t:#7b8496; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--font);line-height:1.85;font-size:16px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 56px}
+.wrap{max-width:760px;margin:0 auto}
+.band{padding-block:40px;border-bottom:1px solid var(--line)}
+h1{font-size:clamp(1.7rem,6vw,2.5rem);line-height:1.35;font-weight:900;margin:0 0 16px;text-wrap:balance}
+h2{font-size:1.35rem;font-weight:900;margin:0 0 14px;text-wrap:balance}
+h3{font-size:1rem;margin:0 0 4px}
+p{margin:0 0 12px}
+.eyebrow{color:var(--hot);font-weight:700;font-size:.85rem;letter-spacing:.06em;margin-bottom:10px}
+.lead{font-size:1.05rem;color:var(--muted)}
+.sample{background:var(--hot-soft);border:1px dashed var(--hot);border-radius:6px;padding:8px 12px;font-size:.84rem;margin:0 0 16px}
+.map{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;max-width:420px;margin:12px 0}
+.cell{aspect-ratio:1;display:flex;align-items:center;justify-content:center;border-radius:6px;font-weight:900;font-size:1.2rem;font-variant-numeric:tabular-nums;position:relative}
+.r1{background:var(--c1);color:var(--c1t)} .r2{background:var(--c2);color:var(--c2t)} .r3{background:var(--c3);color:var(--c3t)} .r0{background:var(--c0);color:var(--c0t);font-weight:500;font-size:.8rem}
+.cell.shop::after{content:"A店";position:absolute;bottom:2px;right:4px;font-size:.62rem;font-weight:700;background:var(--hot);color:#fff;padding:0 4px;border-radius:3px}
+.legend{display:flex;flex-wrap:wrap;gap:10px;font-size:.8rem;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:5px}
+.legend i{width:14px;height:14px;border-radius:3px;display:inline-block}
+.axis{display:flex;justify-content:space-between;max-width:420px;font-size:.78rem;color:var(--muted)}
+.cmp{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:14px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px;min-width:0}
+.card .k{font-size:.8rem;color:var(--muted)}
+.card .v{font-size:1.5rem;font-weight:900;font-variant-numeric:tabular-nums}
+.card .s{font-size:.85rem;color:var(--muted)}
+.card.gap .v{color:var(--hot)}
+.steps{display:grid;gap:12px}
+.step{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 16px}
+.note{background:var(--accent-soft);border-radius:8px;padding:14px 16px}
+details{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 16px;margin-bottom:8px}
+summary{cursor:pointer;font-weight:700}
+.cta{background:var(--accent);color:var(--bg);border-radius:10px;padding:22px}
+.cta p{margin:0 0 6px}
+small{color:var(--muted)}
+</style>
+
+<div class="wrap">
+<section class="band">
+  <p class="eyebrow">飲食店・美容室・クリニックのオーナーへ</p>
+  <h1>あなたのお店、隣の駅から探している人には見えていますか？</h1>
+  <p class="lead">Googleマップの順位は、検索する場所によって変わります。お店のまわりを格子状に区切って、場所ごとに「何位か」を1枚の地図にします。天気予報の雨雲マップの、お店版です。</p>
+</section>
+
+<section class="band">
+  <p class="eyebrow">実際にやってみた例</p>
+  <h2>高円寺で「ラーメン」を探す人に、A店はどう見える？</h2>
+  <p class="sample">これは実際に取ったデータのサンプルです（2026年11月26日）。お店の名前は伏せています。</p>
+  <div id="map" class="map" role="img" aria-label="A店のGoogleマップ順位。店のすぐ近くでは1位、北側の駅方面は圏外が多い。"></div>
+  <div class="axis"><span>← 西</span><span>東 →</span></div>
+  <div class="legend" style="margin-top:8px">
+    <span><i style="background:var(--c1)"></i>1〜3位</span>
+    <span><i style="background:var(--c2)"></i>4〜10位</span>
+    <span><i style="background:var(--c3)"></i>11〜20位</span>
+    <span><i style="background:var(--c0)"></i>圏外（21位以下）</span>
+  </div>
+  <p class="cap" style="font-size:.82rem;color:var(--muted);margin-top:8px">上が北（高円寺駅側）、下が南。1マス＝約500m。数字は、そのマスの中心から「ラーメン」と検索したときの順位です。</p>
+  <h3 style="margin-top:20px">この地図から読めること</h3>
+  <p>A店は、自分のお店のすぐ近く（下の段の真ん中）では<b>1位</b>です。でも駅のほうへ向かうと、<b>圏外のマスが増えます</b>。駅前でラーメンを探す人には、A店はほとんど見えていません。</p>
+</section>
+
+<section class="band">
+  <h2>なぜ見えないのか：上位の店と比べると</h2>
+  <p>この地域で、どこかのマスで3位以内に入った店（上位店）と、A店を並べました。</p>
+  <div class="cmp" id="cmp"></div>
+  <p>差が大きいのは、<b>口コミの数と写真の数</b>です。評価の点数（星）は、ほとんど差がありません。</p>
+  <div class="note">
+    <p><b>次の一手（1つだけ）</b></p>
+    <p style="margin:0">お客さんに、食べ終わったあと口コミをお願いする紙（QRコード）をレジに置く。星の点数は十分なので、「数」を増やすのが近道です。</p>
+  </div>
+  <p style="margin-top:12px"><small>口コミの買い取りや、自作自演はGoogleの規約違反です。レポートには「やってはいけないこと」も必ず書きます。</small></p>
+</section>
+
+<section class="band">
+  <h2>お店の人がやること</h2>
+  <div class="steps">
+    <div class="step"><h3>① お店の名前と、探されたい言葉を教える</h3><p style="margin:0">例：「新宿の美容室」「渋谷 ラーメン」。5分で終わります。</p></div>
+    <div class="step"><h3>② こちらで地図を作る</h3><p style="margin:0">お店のまわり25地点で順位を調べ、ライバルとも比べます。</p></div>
+    <div class="step"><h3>③ 1枚のレポートと「次の一手」を受け取る</h3><p style="margin:0">難しい言葉は使いません。やることは1つに絞ります。</p></div>
+  </div>
+</section>
+
+<section class="band">
+  <h2>よくある質問</h2>
+  <details><summary>順位が上がることを保証できますか？</summary><p style="margin-top:8px">できません。このレポートは「今どう見えているか」と「差がどこにあるか」を示すものです。順位は、検索する人や時間でも変わるので、目安として見てください。</p></details>
+  <details><summary>この地図は、実際に誰かが見た画面ですか？</summary><p style="margin-top:8px">いいえ。地図上の各地点から検索したとき、Googleマップが返す順位を機械で取ったものです。人によって表示が少し違うことがあります。</p></details>
+  <details><summary>どのくらいの範囲を調べますか？</summary><p style="margin-top:8px">この例は、東西約2km・南北約2kmです。お店の業種に合わせて広さを変えられます。</p></details>
+  <details><summary>なぜ1枚だけなのですか？</summary><p style="margin-top:8px">お店の人が忙しいからです。見て、1つだけ決めて、動ける量にしています。</p></details>
+</section>
+
+<section class="band" style="border-bottom:0">
+  <div class="cta">
+    <p><b>このページはテスト用の見本です。</b></p>
+    <p>申し込み窓口はまだありません。お店の見え方マップを作ってみたい方は、運営者にお知らせください。</p>
+  </div>
+</section>
+</div>
+
+<script>
+var SAMPLE={"grid":[["-","-","-","-","-"],[17,8,20,"-","-"],["-",10,"-",7,"-"],[20,9,13,8,"-"],[8,4,1,5,7]],
+ "shop":{"rating":4.0,"votes":131,"photos":326},"top":{"rating":4.09,"votes":350,"photos":807}};
+(function(){
+  var m=document.getElementById('map'),html='';
+  SAMPLE.grid.forEach(function(row,ri){row.forEach(function(v,ci){
+    var cls=v==='-'?'r0':v<=3?'r1':v<=10?'r2':'r3';
+    var shop=(ri===4&&ci===2)?' shop':'';
+    html+='<div class="cell '+cls+shop+'">'+(v==='-'?'圏外':v)+'</div>';
+  });});
+  m.innerHTML=html;
+  var c=document.getElementById('cmp');
+  function card(k,a,b,u,gap){return '<div class="card'+(gap?' gap':'')+'"><div class="k">'+k+'</div><div class="v">A店 '+a+u+'</div><div class="s">上位店の平均・中央値 '+b+u+'</div></div>';}
+  c.innerHTML=card('口コミの数',SAMPLE.shop.votes,SAMPLE.top.votes,'件',true)+card('写真の数',SAMPLE.shop.photos,SAMPLE.top.photos,'枚',true)+card('評価（星）',SAMPLE.shop.rating,SAMPLE.top.rating,'',false);
+})();
+</script>
