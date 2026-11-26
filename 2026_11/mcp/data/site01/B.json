@@ -1,0 +1,1814 @@
+{
+ "id": "11260739-1289-0381-0000-6b11c6861945",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "total_count": 17,
+ "items": [
+  {
+   "keyword_data": {
+    "keyword": "カンセイ工業",
+    "keyword_info": {
+     "last_updated_time": "2026-11-14 14:58:50 +00:00",
+     "competition": 0.01,
+     "competition_level": "LOW",
+     "cpc": 3.14,
+     "search_volume": 880,
+     "categories": [
+      10004,
+      10271,
+      13804
+     ],
+     "monthly_searches": {
+      "2026-10": 720,
+      "2026-09": 720,
+      "2026-08": 720,
+      "2026-07": 880,
+      "2026-06": 720,
+      "2026-05": 720,
+      "2026-04": 880,
+      "2026-03": 1000,
+      "2026-02": 880,
+      "2026-01": 880,
+      "2025-12": 880,
+      "2025-11": 1000
+     },
+     "search_volume_trend": {
+      "yearly": -28
+     }
+    },
+    "keyword_properties": {
+     "keyword_difficulty": 21,
+     "detected_language": "ja"
+    },
+    "serp_info": {
+     "check_url": "https://www.google.com/search?q=%E3%82%AB%E3%83%B3%E3%82%BB%E3%82%A4%E5%B7%A5%E6%A5%AD&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+     "serp_item_types": [
+      "organic",
+      "local_pack",
+      "people_also_ask",
+      "related_searches",
+      "google_reviews"
+     ],
+     "se_results_count": 106,
+     "last_updated_time": "2026-09-20 10:32:42 +00:00",
+     "previous_updated_time": "2026-06-18 10:49:26 +00:00"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 1239.9,
+     "dofollow": 1015.1,
+     "referring_pages": 1034.6,
+     "referring_domains": 30.2,
+     "referring_main_domains": 27,
+     "rank": 150.7,
+     "main_domain_rank": 387.4,
+     "last_updated_time": "2026-09-20 10:32:43 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "navigational",
+     "foreign_intent": [
+      "commercial",
+      "transactional"
+     ],
+     "last_updated_time": "2026-04-30 03:24:01 +00:00"
+    }
+   },
+   "ranked_serp_element": {
+    "serp_item": {
+     "type": "organic",
+     "rank_group": 1,
+     "rank_absolute": 1,
+     "domain": "khansei.co.jp",
+     "title": "会社情報 | カンセイ工業株式会社",
+     "url": "https://khansei.co.jp/company/",
+     "breadcrumb": "https://khansei.co.jp › company",
+     "website_name": "カンセイ工業株式会社",
+     "description": "カンセイ工業 株式会社は1994年8月にさいたま市桜区にて設立され、その後2011年に現在のさいたま市吉野町に本社を移転し、今日に至るまで地域交通の安心・安全を支える ...",
+     "highlighted": [
+      "カンセイ工業"
+     ],
+     "main_domain": "khansei.co.jp",
+     "relative_url": "/company/",
+     "etv": 143.533,
+     "estimated_paid_traffic_cost": 450.692,
+     "rank_changes": {
+      "is_new": true
+     },
+     "backlinks_info": {
+      "referring_domains": 2,
+      "referring_main_domains": 2,
+      "referring_pages": 2,
+      "dofollow": 2,
+      "backlinks": 2,
+      "time_update": "2026-11-21 02:39:39 +00:00"
+     },
+     "rank_info": {
+      "page_rank": 58,
+      "main_domain_rank": 148
+     }
+    },
+    "check_url": "https://www.google.com/search?q=%E3%82%AB%E3%83%B3%E3%82%BB%E3%82%A4%E5%B7%A5%E6%A5%AD&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+    "serp_item_types": [
+     "organic",
+     "local_pack",
+     "people_also_ask",
+     "related_searches",
+     "google_reviews"
+    ],
+    "se_results_count": 106,
+    "keyword_difficulty": 21,
+    "last_updated_time": "2026-09-20 10:32:42 +00:00",
+    "previous_updated_time": "2026-06-18 10:49:26 +00:00"
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "カンセイ工業株式会社",
+    "keyword_info": {
+     "last_updated_time": "2026-11-20 01:02:58 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 170,
+     "categories": [
+      10004,
+      10271,
+      13804
+     ],
+     "monthly_searches": {
+      "2026-10": 140,
+      "2026-09": 170,
+      "2026-08": 170,
+      "2026-07": 170,
+      "2026-06": 140,
+      "2026-05": 170,
+      "2026-04": 170,
+      "2026-03": 170,
+      "2026-02": 170,
+      "2026-01": 170,
+      "2025-12": 140,
+      "2025-11": 110
+     },
+     "search_volume_trend": {
+      "monthly": -18,
+      "quarterly": -18,
+      "yearly": -81
+     }
+    },
+    "keyword_properties": {
+     "keyword_difficulty": 18,
+     "detected_language": "ja"
+    },
+    "serp_info": {
+     "check_url": "https://www.google.com/search?q=%E3%82%AB%E3%83%B3%E3%82%BB%E3%82%A4%E5%B7%A5%E6%A5%AD%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+     "serp_item_types": [
+      "organic",
+      "people_also_ask",
+      "related_searches",
+      "knowledge_graph",
+      "google_reviews"
+     ],
+     "se_results_count": 108,
+     "last_updated_time": "2026-09-08 19:07:23 +00:00",
+     "previous_updated_time": "2026-07-05 05:47:50 +00:00"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 1062.4,
+     "dofollow": 1007.4,
+     "referring_pages": 1024.5,
+     "referring_domains": 25.2,
+     "referring_main_domains": 22.4,
+     "rank": 117,
+     "main_domain_rank": 578.9,
+     "last_updated_time": "2026-09-08 19:07:23 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "navigational",
+     "last_updated_time": "2026-04-30 02:13:51 +00:00"
+    }
+   },
+   "ranked_serp_element": {
+    "serp_item": {
+     "type": "organic",
+     "rank_group": 1,
+     "rank_absolute": 1,
+     "domain": "khansei.co.jp",
+     "title": "カンセイ工業株式会社",
+     "url": "https://khansei.co.jp/",
+     "breadcrumb": "https://khansei.co.jp",
+     "website_name": "カンセイ工業株式会社",
+     "description": "カンセイ工業 は、さいたま市を本拠とし、東京・府中、千葉・四街道、横浜とその周辺地域において、道路や駐車場等の路面標示の設置工事を主とし、区画線や道路標示、 ...",
+     "highlighted": [
+      "カンセイ工業"
+     ],
+     "links": [
+      {
+       "type": "link_element",
+       "title": "Company会社情報",
+       "url": "https://khansei.co.jp/company/"
+      },
+      {
+       "type": "link_element",
+       "title": "Aboutカンセイ工業について",
+       "url": "https://khansei.co.jp/about/"
+      },
+      {
+       "type": "link_element",
+       "title": "l | カンセイ工業株式会社",
+       "url": "http://khansei.co.jp/?s=l"
+      },
+      {
+       "type": "link_element",
+       "title": "O | カンセイ工業株式会社",
+       "url": "http://khansei.co.jp/?s=O"
+      },
+      {
+       "type": "link_element",
+       "title": "交通警備職スタッフ募集",
+       "url": "https://khansei.co.jp/keibi/"
+      }
+     ],
+     "main_domain": "khansei.co.jp",
+     "relative_url": "/",
+     "etv": 90.229,
+     "rank_changes": {
+      "previous_rank_absolute": 1
+     },
+     "backlinks_info": {
+      "referring_domains": 67,
+      "referring_main_domains": 63,
+      "referring_pages": 83,
+      "dofollow": 52,
+      "backlinks": 83,
+      "time_update": "2026-11-21 04:53:23 +00:00"
+     },
+     "rank_info": {
+      "page_rank": 247,
+      "main_domain_rank": 148
+     }
+    },
+    "check_url": "https://www.google.com/search?q=%E3%82%AB%E3%83%B3%E3%82%BB%E3%82%A4%E5%B7%A5%E6%A5%AD%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+    "serp_item_types": [
+     "organic",
+     "people_also_ask",
+     "related_searches",
+     "knowledge_graph",
+     "google_reviews"
+    ],
+    "se_results_count": 108,
+    "keyword_difficulty": 18,
+    "last_updated_time": "2026-09-08 19:07:23 +00:00",
+    "previous_updated_time": "2026-07-05 05:47:50 +00:00"
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "カンセイ",
+    "keyword_info": {
+     "last_updated_time": "2026-11-15 23:23:03 +00:00",
+     "competition": 0.04,
+     "competition_level": "LOW",
+     "cpc": 5.02,
+     "search_volume": 720,
+     "low_top_of_page_bid": 1.49,
+     "high_top_of_page_bid": 6.89,
+     "categories": [
+      10002,
+      10231,
+      13474
+     ],
+     "monthly_searches": {
+      "2026-10": 720,
+      "2026-09": 590,
+      "2026-08": 720,
+      "2026-07": 720,
+      "2026-06": 880,
+      "2026-05": 720,
+      "2026-04": 880,
+      "2026-03": 880,
+      "2026-02": 720,
+      "2026-01": 720,
+      "2025-12": 720,
+      "2025-11": 720
+     },
+     "search_volume_trend": {
+      "monthly": 22
+     }
+    },
+    "keyword_properties": {
+     "keyword_difficulty": 16,
+     "detected_language": "ja"
+    },
+    "serp_info": {
+     "check_url": "https://www.google.com/search?q=%E3%82%AB%E3%83%B3%E3%82%BB%E3%82%A4&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1&hl=ja&gl=JP",
+     "serp_item_types": [
+      "organic",
+      "local_pack",
+      "people_also_ask",
+      "related_searches",
+      "images"
+     ],
+     "se_results_count": 108,
+     "last_updated_time": "2026-09-22 01:35:15 +00:00",
+     "previous_updated_time": "2026-06-18 11:02:23 +00:00"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 150.1,
+     "dofollow": 83.9,
+     "referring_pages": 90.3,
+     "referring_domains": 9,
+     "referring_main_domains": 8.3,
+     "rank": 142.6,
+     "main_domain_rank": 306.3,
+     "last_updated_time": "2026-09-22 01:35:16 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-04-30 01:42:42 +00:00"
+    }
+   },
+   "ranked_serp_element": {
+    "serp_item": {
+     "type": "organic",
+     "rank_group": 5,
+     "rank_absolute": 9,
+     "domain": "khansei.co.jp",
+     "title": "会社情報 | カンセイ工業株式会社",
+     "url": "https://khansei.co.jp/company/",
+     "breadcrumb": "https://khansei.co.jp › company",
+     "website_name": "カンセイ工業株式会社",
+     "description": "カンセイ工業株式会社は1994年8月にさいたま市桜区にて設立され、その後2011年に現在のさいたま市吉野町に本社を移転し、今日に至るまで地域交通の安心・安全を支える ...",
+     "highlighted": [
+      "工業"
+     ],
+     "main_domain": "khansei.co.jp",
+     "relative_url": "/company/",
+     "etv": 10.051,
+     "estimated_paid_traffic_cost": 50.458,
+     "rank_changes": {
+      "previous_rank_absolute": 8,
+      "is_down": true
+     },
+     "backlinks_info": {
+      "referring_domains": 2,
+      "referring_main_domains": 2,
+      "referring_pages": 2,
+      "dofollow": 2,
+      "backlinks": 2,
+      "time_update": "2026-11-21 02:39:39 +00:00"
+     },
+     "rank_info": {
+      "page_rank": 58,
+      "main_domain_rank": 148
+     }
+    },
+    "check_url": "https://www.google.com/search?q=%E3%82%AB%E3%83%B3%E3%82%BB%E3%82%A4&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1&hl=ja&gl=JP",
+    "serp_item_types": [
+     "organic",
+     "local_pack",
+     "people_also_ask",
+     "related_searches",
+     "images"
+    ],
+    "se_results_count": 108,
+    "keyword_difficulty": 16,
+    "last_updated_time": "2026-09-22 01:35:15 +00:00",
+    "previous_updated_time": "2026-06-18 11:02:23 +00:00"
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "kansei",
+    "keyword_info": {
+     "last_updated_time": "2026-11-17 00:25:59 +00:00",
+     "competition": 0.01,
+     "competition_level": "LOW",
+     "cpc": 0.49,
+     "search_volume": 590,
+     "categories": [
+      10013,
+      13417,
+      13518,
+      13663
+     ],
+     "monthly_searches": {
+      "2026-10": 590,
+      "2026-09": 590,
+      "2026-08": 590,
+      "2026-07": 590,
+      "2026-06": 590,
+      "2026-05": 590,
+      "2026-04": 720,
+      "2026-03": 720,
+      "2026-02": 720,
+      "2026-01": 720,
+      "2025-12": 720,
+      "2025-11": 720
+     },
+     "search_volume_trend": {
+      "yearly": -18
+     }
+    },
+    "keyword_properties": {
+     "keyword_difficulty": 23,
+     "detected_language": "hu",
+     "is_another_language": true
+    },
+    "serp_info": {
+     "check_url": "https://www.google.com/search?q=kansei&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1&hl=ja&gl=JP",
+     "serp_item_types": [
+      "organic",
+      "people_also_ask",
+      "ai_overview",
+      "local_pack",
+      "related_searches"
+     ],
+     "se_results_count": 112,
+     "last_updated_time": "2026-09-22 09:32:38 +00:00",
+     "previous_updated_time": "2026-06-30 13:03:20 +00:00"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 1126.5,
+     "dofollow": 1038.4,
+     "referring_pages": 1057.9,
+     "referring_domains": 39.2,
+     "referring_main_domains": 35.6,
+     "rank": 145.6,
+     "main_domain_rank": 498.3,
+     "last_updated_time": "2026-09-22 09:32:42 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-04-29 13:35:59 +00:00"
+    }
+   },
+   "ranked_serp_element": {
+    "serp_item": {
+     "type": "organic",
+     "rank_group": 18,
+     "rank_absolute": 24,
+     "domain": "khansei.co.jp",
+     "title": "会社情報 | カンセイ工業株式会社",
+     "url": "https://khansei.co.jp/company/",
+     "breadcrumb": "https://khansei.co.jp › company",
+     "website_name": "カンセイ工業株式会社",
+     "description": "カンセイ工業株式会社 は1994年8月にさいたま市桜区にて設立され、その後2011年に現在のさいたま市吉野町に本社を移転し、今日に至るまで地域交通の安心・安全を支える ...",
+     "highlighted": [
+      "カンセイ工業株式会社"
+     ],
+     "main_domain": "khansei.co.jp",
+     "relative_url": "/company/",
+     "etv": 1.121,
+     "estimated_paid_traffic_cost": 0.549,
+     "rank_changes": {
+      "is_new": true
+     },
+     "backlinks_info": {
+      "referring_domains": 2,
+      "referring_main_domains": 2,
+      "referring_pages": 2,
+      "dofollow": 2,
+      "backlinks": 2,
+      "time_update": "2026-11-11 02:30:29 +00:00"
+     },
+     "rank_info": {
+      "page_rank": 58,
+      "main_domain_rank": 148
+     }
+    },
+    "check_url": "https://www.google.com/search?q=kansei&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1&hl=ja&gl=JP",
+    "serp_item_types": [
+     "organic",
+     "people_also_ask",
+     "ai_overview",
+     "local_pack",
+     "related_searches"
+    ],
+    "se_results_count": 112,
+    "keyword_difficulty": 23,
+    "last_updated_time": "2026-09-22 09:32:38 +00:00",
+    "previous_updated_time": "2026-06-30 13:03:20 +00:00"
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "視覚障害者 点字",
+    "keyword_info": {
+     "last_updated_time": "2026-11-20 19:57:55 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 210,
+     "categories": [
+      10005,
+      13422
+     ],
+     "monthly_searches": {
+      "2026-10": 170,
+      "2026-09": 210,
+      "2026-08": 50,
+      "2026-07": 170,
+      "2026-06": 210,
+      "2026-05": 90,
+      "2026-04": 40,
+      "2026-03": 140,
+      "2026-02": 390,
+      "2026-01": 480,
+      "2025-12": 320,
+      "2025-11": 480
+     },
+     "search_volume_trend": {
+      "monthly": -19,
+      "quarterly": 240,
+      "yearly": -47
+     }
+    },
+    "keyword_properties": {
+     "synonym_clustering_algorithm": "text_processing",
+     "keyword_difficulty": 9,
+     "detected_language": "ja"
+    },
+    "serp_info": {
+     "check_url": "https://www.google.com/search?q=%E8%A6%96%E8%A6%9A%E9%9A%9C%E5%AE%B3%E8%80%85%20%E7%82%B9%E5%AD%97&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+     "serp_item_types": [
+      "ai_overview",
+      "organic",
+      "people_also_ask",
+      "scholarly_articles",
+      "related_searches"
+     ],
+     "se_results_count": 135,
+     "last_updated_time": "2026-09-11 05:05:20 +00:00",
+     "previous_updated_time": "2026-03-14 14:58:37 +00:00"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 147.9,
+     "dofollow": 142.7,
+     "referring_pages": 145.8,
+     "referring_domains": 30.4,
+     "referring_main_domains": 27.9,
+     "rank": 107.5,
+     "main_domain_rank": 353.9,
+     "last_updated_time": "2026-09-11 05:05:22 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-05-03 19:30:48 +00:00"
+    }
+   },
+   "ranked_serp_element": {
+    "serp_item": {
+     "type": "organic",
+     "rank_group": 25,
+     "rank_absolute": 30,
+     "domain": "khansei.co.jp",
+     "title": "視覚障害者点字ライン(溶着式)",
+     "url": "https://khansei.co.jp/services/shikakusyougaisyatenjiline/",
+     "breadcrumb": "https://khansei.co.jp › 事業内容",
+     "website_name": "カンセイ工業株式会社",
+     "description": "経済性に優れた溶着材での視覚障害者誘導標示 です。平板ブロックタイプと違い掘削の必要がないので短時間での施工が出来、交通規制時間を短縮出来ます。専用の施工機を使用 ...",
+     "highlighted": [
+      "経済性に優れた溶着材での視覚障害者誘導標示"
+     ],
+     "main_domain": "khansei.co.jp",
+     "relative_url": "/services/shikakusyougaisyatenjiline/",
+     "etv": 0.243,
+     "rank_changes": {
+      "is_new": true
+     },
+     "rank_info": {
+      "main_domain_rank": 148
+     }
+    },
+    "check_url": "https://www.google.com/search?q=%E8%A6%96%E8%A6%9A%E9%9A%9C%E5%AE%B3%E8%80%85%20%E7%82%B9%E5%AD%97&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+    "serp_item_types": [
+     "ai_overview",
+     "organic",
+     "people_also_ask",
+     "scholarly_articles",
+     "related_searches"
+    ],
+    "se_results_count": 135,
+    "keyword_difficulty": 9,
+    "last_updated_time": "2026-09-11 05:05:20 +00:00",
+    "previous_updated_time": "2026-03-14 14:58:37 +00:00"
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "株式会社カンセイ",
+    "keyword_info": {
+     "last_updated_time": "2026-09-17 01:27:15 +00:00",
+     "competition": 0.02,
+     "competition_level": "LOW",
+     "cpc": 0.3,
+     "search_volume": 590,
+     "low_top_of_page_bid": 0.4,
+     "high_top_of_page_bid": 1.24,
+     "categories": [
+      10008
+     ],
+     "monthly_searches": {
+      "2026-08": 480,
+      "2026-07": 720,
+      "2026-06": 590,
+      "2026-05": 590,
+      "2026-04": 720,
+      "2026-03": 590,
+      "2026-02": 480,
+      "2026-01": 480,
+      "2025-12": 390,
+      "2025-11": 480,
+      "2025-10": 480,
+      "2025-09": 480
+     },
+     "search_volume_trend": {
+      "monthly": -33,
+      "quarterly": -19,
+      "yearly": 23
+     }
+    },
+    "keyword_properties": {
+     "synonym_clustering_algorithm": "text_processing",
+     "keyword_difficulty": 9,
+     "detected_language": "ja"
+    },
+    "serp_info": {
+     "check_url": "https://www.google.com/search?q=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%AB%E3%83%B3%E3%82%BB%E3%82%A4&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+     "serp_item_types": [
+      "ai_overview",
+      "organic",
+      "people_also_ask",
+      "related_searches"
+     ],
+     "se_results_count": 107,
+     "last_updated_time": "2026-09-03 14:42:50 +00:00",
+     "previous_updated_time": "2026-08-27 13:35:38 +00:00"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 126.5,
+     "dofollow": 61,
+     "referring_pages": 66.9,
+     "referring_domains": 5.7,
+     "referring_main_domains": 5.5,
+     "rank": 101,
+     "main_domain_rank": 407.3,
+     "last_updated_time": "2026-09-03 14:42:52 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "navigational",
+     "last_updated_time": "2026-05-06 15:34:15 +00:00"
+    }
+   },
+   "ranked_serp_element": {
+    "serp_item": {
+     "type": "organic",
+     "rank_group": 28,
+     "rank_absolute": 32,
+     "domain": "khansei.co.jp",
+     "title": "会社情報 | カンセイ工業株式会社",
+     "url": "https://khansei.co.jp/company/",
+     "breadcrumb": "https://khansei.co.jp › company",
+     "website_name": "カンセイ工業株式会社",
+     "description": "カンセイ 工業株式会社は1994年8月にさいたま市桜区にて設立され、その後2011年に現在のさいたま市吉野町に本社を移転し、今日に至るまで地域交通の安心・安全を支える ...",
+     "highlighted": [
+      "カンセイ",
+      "株式会社"
+     ],
+     "main_domain": "khansei.co.jp",
+     "relative_url": "/company/",
+     "etv": 2.145,
+     "estimated_paid_traffic_cost": 0.643,
+     "rank_changes": {
+      "previous_rank_absolute": 35,
+      "is_up": true
+     },
+     "backlinks_info": {
+      "referring_domains": 2,
+      "referring_main_domains": 2,
+      "referring_pages": 2,
+      "dofollow": 2,
+      "backlinks": 2,
+      "time_update": "2026-11-21 02:39:39 +00:00"
+     },
+     "rank_info": {
+      "page_rank": 58,
+      "main_domain_rank": 158
+     }
+    },
+    "check_url": "https://www.google.com/search?q=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%AB%E3%83%B3%E3%82%BB%E3%82%A4&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+    "serp_item_types": [
+     "ai_overview",
+     "organic",
+     "people_also_ask",
+     "related_searches"
+    ],
+    "se_results_count": 107,
+    "keyword_difficulty": 9,
+    "last_updated_time": "2026-09-03 14:42:50 +00:00",
+    "previous_updated_time": "2026-08-27 13:35:38 +00:00"
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "区画線 溶融式",
+    "keyword_info": {
+     "last_updated_time": "2026-11-17 08:13:03 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "cpc": 0.26,
+     "search_volume": 390,
+     "categories": [
+      10004,
+      11250,
+      13491
+     ],
+     "monthly_searches": {
+      "2026-10": 320,
+      "2026-09": 390,
+      "2026-08": 320,
+      "2026-07": 320,
+      "2026-06": 390,
+      "2026-05": 390,
+      "2026-04": 390,
+      "2026-03": 480,
+      "2026-02": 320,
+      "2026-01": 390,
+      "2025-12": 320,
+      "2025-11": 320
+     },
+     "search_volume_trend": {
+      "monthly": -18
+     }
+    },
+    "keyword_properties": {
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "serp_info": {
+     "check_url": "https://www.google.com/search?q=%E5%8C%BA%E7%94%BB%E7%B7%9A%20%E6%BA%B6%E8%9E%8D%E5%BC%8F&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+     "serp_item_types": [
+      "ai_overview",
+      "organic",
+      "people_also_ask",
+      "related_searches"
+     ],
+     "se_results_count": 117,
+     "last_updated_time": "2026-09-01 15:38:49 +00:00",
+     "previous_updated_time": "2026-05-30 22:05:03 +00:00"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 1.1,
+     "dofollow": 1,
+     "referring_pages": 1,
+     "referring_domains": 0.8,
+     "referring_main_domains": 0.8,
+     "rank": 19.7,
+     "main_domain_rank": 313.1,
+     "last_updated_time": "2026-09-01 15:38:49 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-05-08 11:22:45 +00:00"
+    }
+   },
+   "ranked_serp_element": {
+    "serp_item": {
+     "type": "organic",
+     "rank_group": 31,
+     "rank_absolute": 36,
+     "domain": "khansei.co.jp",
+     "title": "区画線 (溶着式)",
+     "url": "https://khansei.co.jp/services/kukakusenyouchakushiki/",
+     "breadcrumb": "https://khansei.co.jp › 事業内容",
+     "website_name": "カンセイ工業株式会社",
+     "description": "一般的にはアスファルト面との相性がよく路面と塗料が溶融結合して接着します。乾燥時間が早いのが最大の長所で迅速に交通開放ができます。 施工事例 ...",
+     "highlighted": [
+      "溶融"
+     ],
+     "main_domain": "khansei.co.jp",
+     "relative_url": "/services/kukakusenyouchakushiki/",
+     "etv": 0.117,
+     "estimated_paid_traffic_cost": 0.03,
+     "rank_changes": {
+      "previous_rank_absolute": 31,
+      "is_down": true
+     },
+     "rank_info": {
+      "main_domain_rank": 158
+     }
+    },
+    "check_url": "https://www.google.com/search?q=%E5%8C%BA%E7%94%BB%E7%B7%9A%20%E6%BA%B6%E8%9E%8D%E5%BC%8F&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+    "serp_item_types": [
+     "ai_overview",
+     "organic",
+     "people_also_ask",
+     "related_searches"
+    ],
+    "se_results_count": 117,
+    "last_updated_time": "2026-09-01 15:38:49 +00:00",
+    "previous_updated_time": "2026-05-30 22:05:03 +00:00"
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "視覚障害者点字",
+    "keyword_info": {
+     "last_updated_time": "2026-11-16 03:31:39 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 210,
+     "categories": [
+      10005,
+      13422
+     ],
+     "monthly_searches": {
+      "2026-10": 170,
+      "2026-09": 210,
+      "2026-08": 50,
+      "2026-07": 170,
+      "2026-06": 210,
+      "2026-05": 90,
+      "2026-04": 40,
+      "2026-03": 140,
+      "2026-02": 390,
+      "2026-01": 480,
+      "2025-12": 320,
+      "2025-11": 480
+     },
+     "search_volume_trend": {
+      "monthly": -19,
+      "quarterly": 240,
+      "yearly": -47
+     }
+    },
+    "keyword_properties": {
+     "core_keyword": "視覚障害者 点字",
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "serp_info": {
+     "check_url": "https://www.google.com/search?q=%E8%A6%96%E8%A6%9A%E9%9A%9C%E5%AE%B3%E8%80%85%E7%82%B9%E5%AD%97&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+     "serp_item_types": [
+      "ai_overview",
+      "organic",
+      "people_also_ask",
+      "scholarly_articles",
+      "related_searches"
+     ],
+     "se_results_count": 126,
+     "last_updated_time": "2026-09-11 04:51:11 +00:00",
+     "previous_updated_time": "2026-03-14 14:57:11 +00:00"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 15.8,
+     "dofollow": 12.8,
+     "referring_pages": 15.5,
+     "referring_domains": 11.1,
+     "referring_main_domains": 10.4,
+     "rank": 48.3,
+     "main_domain_rank": 336.2,
+     "last_updated_time": "2026-09-11 04:51:11 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-05-08 10:00:52 +00:00"
+    }
+   },
+   "ranked_serp_element": {
+    "serp_item": {
+     "type": "organic",
+     "rank_group": 31,
+     "rank_absolute": 37,
+     "domain": "khansei.co.jp",
+     "title": "視覚障害者点字ライン(溶着式)",
+     "url": "https://khansei.co.jp/services/shikakusyougaisyatenjiline/",
+     "breadcrumb": "https://khansei.co.jp › 事業内容",
+     "website_name": "カンセイ工業株式会社",
+     "description": "経済性に優れた溶着材での視覚障害者誘導標示 です。平板ブロックタイプと違い掘削の必要がないので短時間での施工が出来、交通規制時間を短縮出来ます。専用の施工機を使用 ...",
+     "highlighted": [
+      "経済性に優れた溶着材での視覚障害者誘導標示"
+     ],
+     "main_domain": "khansei.co.jp",
+     "relative_url": "/services/shikakusyougaisyatenjiline/",
+     "etv": 0.173,
+     "rank_changes": {
+      "is_new": true
+     },
+     "rank_info": {
+      "main_domain_rank": 148
+     }
+    },
+    "check_url": "https://www.google.com/search?q=%E8%A6%96%E8%A6%9A%E9%9A%9C%E5%AE%B3%E8%80%85%E7%82%B9%E5%AD%97&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+    "serp_item_types": [
+     "ai_overview",
+     "organic",
+     "people_also_ask",
+     "scholarly_articles",
+     "related_searches"
+    ],
+    "se_results_count": 126,
+    "last_updated_time": "2026-09-11 04:51:11 +00:00",
+    "previous_updated_time": "2026-03-14 14:57:11 +00:00"
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "エレベーター 点字シール",
+    "keyword_info": {
+     "last_updated_time": "2026-11-20 21:33:10 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "cpc": 0.29,
+     "search_volume": 390,
+     "categories": [
+      10005,
+      13422
+     ],
+     "monthly_searches": {
+      "2026-10": 720,
+      "2026-09": 590,
+      "2026-08": 590,
+      "2026-07": 720,
+      "2026-06": 590,
+      "2026-05": 480,
+      "2026-04": 320,
+      "2026-03": 320,
+      "2026-02": 260,
+      "2026-01": 210,
+      "2025-12": 110,
+      "2025-11": 30
+     },
+     "search_volume_trend": {
+      "monthly": 22,
+      "quarterly": 22,
+      "yearly": 3500
+     }
+    },
+    "keyword_properties": {
+     "core_keyword": "点字シール エレベーター",
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "serp_info": {
+     "check_url": "https://www.google.com/search?q=%E3%82%A8%E3%83%AC%E3%83%99%E3%83%BC%E3%82%BF%E3%83%BC%20%E7%82%B9%E5%AD%97%E3%82%B7%E3%83%BC%E3%83%AB&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+     "serp_item_types": [
+      "ai_overview",
+      "organic",
+      "people_also_ask",
+      "popular_products",
+      "related_searches"
+     ],
+     "se_results_count": 150,
+     "last_updated_time": "2026-10-07 02:11:27 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "transactional",
+     "last_updated_time": "2026-05-03 19:56:40 +00:00"
+    }
+   },
+   "ranked_serp_element": {
+    "serp_item": {
+     "type": "organic",
+     "rank_group": 33,
+     "rank_absolute": 39,
+     "domain": "khansei.co.jp",
+     "title": "視覚障害者点字シート",
+     "url": "https://khansei.co.jp/services/shikakusyougaisyatenjisheet/",
+     "breadcrumb": "https://khansei.co.jp › 事業内容",
+     "website_name": "カンセイ工業株式会社",
+     "description": "視覚障害者点字ラインの溶着式は機械で施工するものに対しこちらは1枚1枚手作業で施工していきます。貼り付けシールタイプや一体形成型、貼付不織布施工タイプなど様々な ...",
+     "highlighted": [
+      "点字",
+      "シール"
+     ],
+     "main_domain": "khansei.co.jp",
+     "relative_url": "/services/shikakusyougaisyatenjisheet/",
+     "etv": 0.179,
+     "estimated_paid_traffic_cost": 0.052,
+     "rank_changes": {
+      "is_new": true
+     },
+     "rank_info": {
+      "main_domain_rank": 141
+     }
+    },
+    "check_url": "https://www.google.com/search?q=%E3%82%A8%E3%83%AC%E3%83%99%E3%83%BC%E3%82%BF%E3%83%BC%20%E7%82%B9%E5%AD%97%E3%82%B7%E3%83%BC%E3%83%AB&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+    "serp_item_types": [
+     "ai_overview",
+     "organic",
+     "people_also_ask",
+     "popular_products",
+     "related_searches"
+    ],
+    "se_results_count": 150,
+    "last_updated_time": "2026-10-07 02:11:27 +00:00"
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "エレベーター 点字 シール",
+    "keyword_info": {
+     "last_updated_time": "2026-11-12 18:12:28 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "cpc": 0.29,
+     "search_volume": 390,
+     "categories": [
+      10005,
+      13422
+     ],
+     "monthly_searches": {
+      "2026-10": 720,
+      "2026-09": 590,
+      "2026-08": 590,
+      "2026-07": 720,
+      "2026-06": 590,
+      "2026-05": 480,
+      "2026-04": 320,
+      "2026-03": 320,
+      "2026-02": 260,
+      "2026-01": 210,
+      "2025-12": 110,
+      "2025-11": 30
+     },
+     "search_volume_trend": {
+      "monthly": 22,
+      "quarterly": 22,
+      "yearly": 3500
+     }
+    },
+    "keyword_properties": {
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "serp_info": {
+     "check_url": "https://www.google.com/search?q=%E3%82%A8%E3%83%AC%E3%83%99%E3%83%BC%E3%82%BF%E3%83%BC%20%E7%82%B9%E5%AD%97%20%E3%82%B7%E3%83%BC%E3%83%AB&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+     "serp_item_types": [
+      "organic",
+      "images",
+      "ai_overview",
+      "people_also_ask",
+      "related_searches"
+     ],
+     "se_results_count": 150,
+     "last_updated_time": "2026-10-07 02:11:12 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "transactional",
+     "last_updated_time": "2026-05-07 09:53:04 +00:00"
+    }
+   },
+   "ranked_serp_element": {
+    "serp_item": {
+     "type": "organic",
+     "rank_group": 34,
+     "rank_absolute": 42,
+     "domain": "khansei.co.jp",
+     "title": "視覚障害者点字シート",
+     "url": "https://khansei.co.jp/services/shikakusyougaisyatenjisheet/",
+     "breadcrumb": "https://khansei.co.jp › 事業内容",
+     "website_name": "カンセイ工業株式会社",
+     "description": "貼り付けシールタイプや一体形成型、貼付不織布施工タイプなど様々な製品で施工できます。掘削の必要がないので、従来の掘削が必要な平板ブロックタイプと比べ、短時間での ...",
+     "highlighted": [
+      "シール"
+     ],
+     "main_domain": "khansei.co.jp",
+     "relative_url": "/services/shikakusyougaisyatenjisheet/",
+     "etv": 0.215,
+     "estimated_paid_traffic_cost": 0.062,
+     "rank_changes": {
+      "is_new": true
+     },
+     "rank_info": {
+      "main_domain_rank": 141
+     }
+    },
+    "check_url": "https://www.google.com/search?q=%E3%82%A8%E3%83%AC%E3%83%99%E3%83%BC%E3%82%BF%E3%83%BC%20%E7%82%B9%E5%AD%97%20%E3%82%B7%E3%83%BC%E3%83%AB&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+    "serp_item_types": [
+     "organic",
+     "images",
+     "ai_overview",
+     "people_also_ask",
+     "related_searches"
+    ],
+    "se_results_count": 150,
+    "last_updated_time": "2026-10-07 02:11:12 +00:00"
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "区画線と は",
+    "keyword_info": {
+     "last_updated_time": "2026-11-15 05:34:52 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 390,
+     "categories": [
+      10016
+     ],
+     "monthly_searches": {
+      "2026-10": 390,
+      "2026-09": 390,
+      "2026-08": 320,
+      "2026-07": 390,
+      "2026-06": 480,
+      "2026-05": 390,
+      "2026-04": 390,
+      "2026-03": 390,
+      "2026-02": 390,
+      "2026-01": 480,
+      "2025-12": 390,
+      "2025-11": 480
+     },
+     "search_volume_trend": {
+      "quarterly": 22,
+      "yearly": -19
+     }
+    },
+    "keyword_properties": {
+     "core_keyword": "区画 線 と は",
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "serp_info": {
+     "check_url": "https://www.google.com/search?q=%E5%8C%BA%E7%94%BB%E7%B7%9A%E3%81%A8%20%E3%81%AF&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+     "serp_item_types": [
+      "ai_overview",
+      "people_also_ask",
+      "organic",
+      "related_searches"
+     ],
+     "se_results_count": 131,
+     "last_updated_time": "2026-08-28 09:40:39 +00:00",
+     "previous_updated_time": "2026-05-13 18:38:08 +00:00"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 2.9,
+     "dofollow": 1.4,
+     "referring_pages": 2,
+     "referring_domains": 1.6,
+     "referring_main_domains": 1.6,
+     "rank": 28.8,
+     "main_domain_rank": 396.6,
+     "last_updated_time": "2026-08-28 09:40:41 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-05-11 09:36:04 +00:00"
+    }
+   },
+   "ranked_serp_element": {
+    "serp_item": {
+     "type": "organic",
+     "rank_group": 34,
+     "rank_absolute": 39,
+     "domain": "khansei.co.jp",
+     "title": "区画線 (溶着式)",
+     "url": "https://khansei.co.jp/services/kukakusenyouchakushiki/",
+     "breadcrumb": "https://khansei.co.jp › 事業内容",
+     "website_name": "カンセイ工業株式会社",
+     "description": "区画線 (溶着式). 最も一般的な施工法で、道路上では道路の構造保全や交通の流れを適切に誘導し、駐車場では駐車区画を明示します。一般的にはアスファルト面との相性が ...",
+     "highlighted": [
+      "区画線"
+     ],
+     "main_domain": "khansei.co.jp",
+     "relative_url": "/services/kukakusenyouchakushiki/",
+     "etv": 0.143,
+     "rank_changes": {
+      "previous_rank_absolute": 23,
+      "is_down": true
+     },
+     "rank_info": {
+      "main_domain_rank": 157
+     }
+    },
+    "check_url": "https://www.google.com/search?q=%E5%8C%BA%E7%94%BB%E7%B7%9A%E3%81%A8%20%E3%81%AF&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+    "serp_item_types": [
+     "ai_overview",
+     "people_also_ask",
+     "organic",
+     "related_searches"
+    ],
+    "se_results_count": 131,
+    "last_updated_time": "2026-08-28 09:40:39 +00:00",
+    "previous_updated_time": "2026-05-13 18:38:08 +00:00"
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "区画線溶融式",
+    "keyword_info": {
+     "last_updated_time": "2026-11-18 00:21:47 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "cpc": 0.26,
+     "search_volume": 390,
+     "categories": [
+      10004,
+      11250,
+      12559,
+      13491
+     ],
+     "monthly_searches": {
+      "2026-10": 320,
+      "2026-09": 390,
+      "2026-08": 320,
+      "2026-07": 320,
+      "2026-06": 390,
+      "2026-05": 390,
+      "2026-04": 390,
+      "2026-03": 480,
+      "2026-02": 320,
+      "2026-01": 390,
+      "2025-12": 320,
+      "2025-11": 320
+     },
+     "search_volume_trend": {
+      "monthly": -18
+     }
+    },
+    "keyword_properties": {
+     "core_keyword": "区画線 溶融式",
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "serp_info": {
+     "check_url": "https://www.google.com/search?q=%E5%8C%BA%E7%94%BB%E7%B7%9A%E6%BA%B6%E8%9E%8D%E5%BC%8F&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+     "serp_item_types": [
+      "ai_overview",
+      "organic",
+      "people_also_ask",
+      "related_searches"
+     ],
+     "se_results_count": 116,
+     "last_updated_time": "2026-09-30 12:14:11 +00:00",
+     "previous_updated_time": "2026-07-07 11:37:53 +00:00"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 1.1,
+     "dofollow": 1,
+     "referring_pages": 1,
+     "referring_domains": 0.8,
+     "referring_main_domains": 0.8,
+     "rank": 17.1,
+     "main_domain_rank": 357.7,
+     "last_updated_time": "2026-09-30 12:15:05 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-04-30 02:33:29 +00:00"
+    }
+   },
+   "ranked_serp_element": {
+    "serp_item": {
+     "type": "organic",
+     "rank_group": 34,
+     "rank_absolute": 39,
+     "domain": "khansei.co.jp",
+     "title": "区画線 (溶着式)",
+     "url": "https://khansei.co.jp/services/kukakusenyouchakushiki/",
+     "breadcrumb": "https://khansei.co.jp › 事業内容",
+     "website_name": "カンセイ工業株式会社",
+     "description": "最も一般的な施工法で、道路上では道路の構造保全や交通の流れを適切に誘導し、駐車場では駐車区画を明示します。一般的にはアスファルト面との相性がよく路面と塗料が溶融 ...",
+     "highlighted": [
+      "区画",
+      "溶融"
+     ],
+     "main_domain": "khansei.co.jp",
+     "relative_url": "/services/kukakusenyouchakushiki/",
+     "etv": 0.095,
+     "estimated_paid_traffic_cost": 0.025,
+     "rank_changes": {
+      "previous_rank_absolute": 37,
+      "is_down": true
+     },
+     "rank_info": {
+      "main_domain_rank": 148
+     }
+    },
+    "check_url": "https://www.google.com/search?q=%E5%8C%BA%E7%94%BB%E7%B7%9A%E6%BA%B6%E8%9E%8D%E5%BC%8F&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+    "serp_item_types": [
+     "ai_overview",
+     "organic",
+     "people_also_ask",
+     "related_searches"
+    ],
+    "se_results_count": 116,
+    "last_updated_time": "2026-09-30 12:14:11 +00:00",
+    "previous_updated_time": "2026-07-07 11:37:53 +00:00"
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "溶融式 区画線",
+    "keyword_info": {
+     "last_updated_time": "2026-11-17 17:58:40 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "cpc": 0.26,
+     "search_volume": 390,
+     "categories": [
+      10004,
+      11250,
+      13491
+     ],
+     "monthly_searches": {
+      "2026-10": 320,
+      "2026-09": 390,
+      "2026-08": 320,
+      "2026-07": 320,
+      "2026-06": 390,
+      "2026-05": 390,
+      "2026-04": 390,
+      "2026-03": 480,
+      "2026-02": 320,
+      "2026-01": 390,
+      "2025-12": 320,
+      "2025-11": 320
+     },
+     "search_volume_trend": {
+      "monthly": -18
+     }
+    },
+    "keyword_properties": {
+     "core_keyword": "区画線 溶融式",
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "serp_info": {
+     "check_url": "https://www.google.com/search?q=%E6%BA%B6%E8%9E%8D%E5%BC%8F%20%E5%8C%BA%E7%94%BB%E7%B7%9A&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+     "serp_item_types": [
+      "ai_overview",
+      "organic",
+      "people_also_ask",
+      "related_searches"
+     ],
+     "se_results_count": 111,
+     "last_updated_time": "2026-09-29 21:23:35 +00:00",
+     "previous_updated_time": "2026-07-06 18:52:46 +00:00"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 1.1,
+     "dofollow": 1,
+     "referring_pages": 1,
+     "referring_domains": 0.8,
+     "referring_main_domains": 0.8,
+     "rank": 17.1,
+     "main_domain_rank": 431,
+     "last_updated_time": "2026-09-29 21:23:38 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-05-07 16:38:17 +00:00"
+    }
+   },
+   "ranked_serp_element": {
+    "serp_item": {
+     "type": "organic",
+     "rank_group": 37,
+     "rank_absolute": 42,
+     "domain": "khansei.co.jp",
+     "title": "区画線 (溶着式)",
+     "url": "https://khansei.co.jp/services/kukakusenyouchakushiki/",
+     "breadcrumb": "https://khansei.co.jp › 事業内容",
+     "website_name": "カンセイ工業株式会社",
+     "description": "最も一般的な施工法で、道路上では道路の構造保全や交通の流れを適切に誘導し、駐車場では駐車区画を明示します。一般的にはアスファルト面との相性がよく路面と塗料が溶融 ...",
+     "highlighted": [
+      "区画",
+      "溶融"
+     ],
+     "main_domain": "khansei.co.jp",
+     "relative_url": "/services/kukakusenyouchakushiki/",
+     "etv": 0.08,
+     "estimated_paid_traffic_cost": 0.021,
+     "rank_changes": {
+      "previous_rank_absolute": 36,
+      "is_down": true
+     },
+     "rank_info": {
+      "main_domain_rank": 148
+     }
+    },
+    "check_url": "https://www.google.com/search?q=%E6%BA%B6%E8%9E%8D%E5%BC%8F%20%E5%8C%BA%E7%94%BB%E7%B7%9A&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+    "serp_item_types": [
+     "ai_overview",
+     "organic",
+     "people_also_ask",
+     "related_searches"
+    ],
+    "se_results_count": 111,
+    "last_updated_time": "2026-09-29 21:23:35 +00:00",
+    "previous_updated_time": "2026-07-06 18:52:46 +00:00"
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "溶融式区画線",
+    "keyword_info": {
+     "last_updated_time": "2026-11-13 06:03:05 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "cpc": 0.26,
+     "search_volume": 390,
+     "categories": [
+      10004,
+      11250,
+      13491
+     ],
+     "monthly_searches": {
+      "2026-10": 320,
+      "2026-09": 390,
+      "2026-08": 320,
+      "2026-07": 320,
+      "2026-06": 390,
+      "2026-05": 390,
+      "2026-04": 390,
+      "2026-03": 480,
+      "2026-02": 320,
+      "2026-01": 390,
+      "2025-12": 320,
+      "2025-11": 320
+     },
+     "search_volume_trend": {
+      "monthly": -18
+     }
+    },
+    "keyword_properties": {
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "serp_info": {
+     "check_url": "https://www.google.com/search?q=%E6%BA%B6%E8%9E%8D%E5%BC%8F%E5%8C%BA%E7%94%BB%E7%B7%9A&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+     "serp_item_types": [
+      "ai_overview",
+      "organic",
+      "people_also_ask",
+      "related_searches"
+     ],
+     "se_results_count": 106,
+     "last_updated_time": "2026-09-29 21:23:48 +00:00",
+     "previous_updated_time": "2026-07-06 13:55:23 +00:00"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 0.9,
+     "dofollow": 0.8,
+     "referring_pages": 0.8,
+     "referring_domains": 0.6,
+     "referring_main_domains": 0.6,
+     "rank": 16.1,
+     "main_domain_rank": 431,
+     "last_updated_time": "2026-09-29 21:23:50 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-05-02 23:27:51 +00:00"
+    }
+   },
+   "ranked_serp_element": {
+    "serp_item": {
+     "type": "organic",
+     "rank_group": 38,
+     "rank_absolute": 43,
+     "domain": "khansei.co.jp",
+     "title": "区画線 (溶着式)",
+     "url": "https://khansei.co.jp/services/kukakusenyouchakushiki/",
+     "breadcrumb": "https://khansei.co.jp › 事業内容",
+     "website_name": "カンセイ工業株式会社",
+     "description": "最も一般的な施工法で、道路上では道路の構造保全や交通の流れを適切に誘導し、駐車場では駐車区画を明示します。一般的にはアスファルト面との相性がよく路面と塗料が溶融 ...",
+     "highlighted": [
+      "区画",
+      "溶融"
+     ],
+     "main_domain": "khansei.co.jp",
+     "relative_url": "/services/kukakusenyouchakushiki/",
+     "etv": 0.23,
+     "estimated_paid_traffic_cost": 0.06,
+     "rank_changes": {
+      "previous_rank_absolute": 41,
+      "is_down": true
+     },
+     "rank_info": {
+      "main_domain_rank": 148
+     }
+    },
+    "check_url": "https://www.google.com/search?q=%E6%BA%B6%E8%9E%8D%E5%BC%8F%E5%8C%BA%E7%94%BB%E7%B7%9A&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+    "serp_item_types": [
+     "ai_overview",
+     "organic",
+     "people_also_ask",
+     "related_searches"
+    ],
+    "se_results_count": 106,
+    "last_updated_time": "2026-09-29 21:23:48 +00:00",
+    "previous_updated_time": "2026-07-06 13:55:23 +00:00"
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "点字シート",
+    "keyword_info": {
+     "last_updated_time": "2026-11-13 08:59:02 +00:00",
+     "competition": 0.77,
+     "competition_level": "HIGH",
+     "cpc": 0.49,
+     "search_volume": 480,
+     "low_top_of_page_bid": 0.16,
+     "high_top_of_page_bid": 0.78,
+     "categories": [
+      10016,
+      10141,
+      10767
+     ],
+     "monthly_searches": {
+      "2026-10": 390,
+      "2026-09": 480,
+      "2026-08": 390,
+      "2026-07": 480,
+      "2026-06": 480,
+      "2026-05": 390,
+      "2026-04": 480,
+      "2026-03": 480,
+      "2026-02": 480,
+      "2026-01": 480,
+      "2025-12": 390,
+      "2025-11": 590
+     },
+     "search_volume_trend": {
+      "monthly": -19,
+      "yearly": -19
+     }
+    },
+    "keyword_properties": {
+     "detected_language": "ja"
+    },
+    "serp_info": {
+     "check_url": "https://www.google.com/search?q=%E7%82%B9%E5%AD%97%E3%82%B7%E3%83%BC%E3%83%88&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+     "serp_item_types": [
+      "organic",
+      "people_also_ask",
+      "popular_products",
+      "related_searches"
+     ],
+     "se_results_count": 158,
+     "last_updated_time": "2026-09-03 09:09:38 +00:00",
+     "previous_updated_time": "2026-08-27 09:39:46 +00:00"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 20.2,
+     "dofollow": 19.4,
+     "referring_pages": 19.7,
+     "referring_domains": 5.6,
+     "referring_main_domains": 4.8,
+     "rank": 30.2,
+     "main_domain_rank": 316.6,
+     "last_updated_time": "2026-09-03 09:09:38 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "navigational",
+     "foreign_intent": [
+      "transactional"
+     ],
+     "last_updated_time": "2026-05-07 20:56:51 +00:00"
+    }
+   },
+   "ranked_serp_element": {
+    "serp_item": {
+     "type": "organic",
+     "rank_group": 39,
+     "rank_absolute": 44,
+     "domain": "khansei.co.jp",
+     "title": "視覚障害者点字シート",
+     "url": "https://khansei.co.jp/services/shikakusyougaisyatenjisheet/",
+     "breadcrumb": "https://khansei.co.jp › 事業内容",
+     "website_name": "カンセイ工業株式会社",
+     "description": "視覚障害者点字シート. 視覚障害者点字ラインの溶着式は機械で施工するものに対しこちらは1枚1枚手作業で施工していきます。貼り付けシールタイプや一体形成型、貼付 ...",
+     "highlighted": [
+      "点字シート"
+     ],
+     "main_domain": "khansei.co.jp",
+     "relative_url": "/services/shikakusyougaisyatenjisheet/",
+     "etv": 0.73,
+     "estimated_paid_traffic_cost": 0.358,
+     "rank_changes": {
+      "previous_rank_absolute": 44
+     },
+     "rank_info": {
+      "main_domain_rank": 158
+     }
+    },
+    "check_url": "https://www.google.com/search?q=%E7%82%B9%E5%AD%97%E3%82%B7%E3%83%BC%E3%83%88&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+    "serp_item_types": [
+     "organic",
+     "people_also_ask",
+     "popular_products",
+     "related_searches"
+    ],
+    "se_results_count": 158,
+    "last_updated_time": "2026-09-03 09:09:38 +00:00",
+    "previous_updated_time": "2026-08-27 09:39:46 +00:00"
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "カンザイ ロジスティックス",
+    "keyword_info": {
+     "last_updated_time": "2026-11-13 13:53:46 +00:00",
+     "competition": 0.03,
+     "competition_level": "LOW",
+     "cpc": 0.53,
+     "search_volume": 260,
+     "categories": [
+      10004,
+      10305,
+      13604
+     ],
+     "monthly_searches": {
+      "2026-10": 70,
+      "2026-09": 90,
+      "2026-08": 110,
+      "2026-07": 140,
+      "2026-06": 140,
+      "2026-05": 260,
+      "2026-04": 720,
+      "2026-03": 480,
+      "2026-02": 390,
+      "2026-01": 390,
+      "2025-12": 260,
+      "2025-11": 210
+     },
+     "search_volume_trend": {
+      "monthly": -22,
+      "quarterly": -36,
+      "yearly": -85
+     }
+    },
+    "keyword_properties": {
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "serp_info": {
+     "check_url": "https://www.google.com/search?q=%E3%82%AB%E3%83%B3%E3%82%B6%E3%82%A4%20%E3%83%AD%E3%82%B8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%82%B9&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+     "serp_item_types": [
+      "organic",
+      "ai_overview",
+      "map",
+      "people_also_ask",
+      "related_searches",
+      "images"
+     ],
+     "se_results_count": 106,
+     "last_updated_time": "2026-10-06 23:43:22 +00:00",
+     "previous_updated_time": "2026-07-14 16:24:04 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "navigational",
+     "last_updated_time": "2026-05-04 06:03:00 +00:00"
+    }
+   },
+   "ranked_serp_element": {
+    "serp_item": {
+     "type": "organic",
+     "rank_group": 48,
+     "rank_absolute": 53,
+     "domain": "khansei.co.jp",
+     "title": "Company会社情報",
+     "url": "https://khansei.co.jp/company/",
+     "breadcrumb": "https://khansei.co.jp › company",
+     "website_name": "カンセイ工業株式会社",
+     "description": "カンセイ工業株式会社は1994年8月にさいたま市桜区にて設立され、その後2011年に現在のさいたま市吉野町に本社を移転し、今日に至るまで地域交通の安心・安全を支える ...",
+     "main_domain": "khansei.co.jp",
+     "relative_url": "/company/",
+     "etv": 0.194,
+     "estimated_paid_traffic_cost": 0.103,
+     "rank_changes": {
+      "is_new": true
+     },
+     "backlinks_info": {
+      "referring_domains": 2,
+      "referring_main_domains": 2,
+      "referring_pages": 2,
+      "dofollow": 2,
+      "backlinks": 2,
+      "time_update": "2026-11-21 02:39:39 +00:00"
+     },
+     "rank_info": {
+      "page_rank": 58,
+      "main_domain_rank": 141
+     }
+    },
+    "check_url": "https://www.google.com/search?q=%E3%82%AB%E3%83%B3%E3%82%B6%E3%82%A4%20%E3%83%AD%E3%82%B8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%82%B9&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+    "serp_item_types": [
+     "organic",
+     "ai_overview",
+     "map",
+     "people_also_ask",
+     "related_searches",
+     "images"
+    ],
+    "se_results_count": 106,
+    "last_updated_time": "2026-10-06 23:43:22 +00:00",
+    "previous_updated_time": "2026-07-14 16:24:04 +00:00"
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "駅点字ブロック",
+    "keyword_info": {
+     "last_updated_time": "2026-11-12 05:45:20 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 480,
+     "categories": [
+      10017,
+      10146,
+      10783
+     ],
+     "monthly_searches": {
+      "2026-10": 480,
+      "2026-09": 480,
+      "2026-08": 390,
+      "2026-07": 720,
+      "2026-06": 880,
+      "2026-05": 390,
+      "2026-04": 260,
+      "2026-03": 320,
+      "2026-02": 590,
+      "2026-01": 590,
+      "2025-12": 480,
+      "2025-11": 590
+     },
+     "search_volume_trend": {
+      "quarterly": 23,
+      "yearly": -19
+     }
+    },
+    "keyword_properties": {
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "serp_info": {
+     "check_url": "https://www.google.com/search?q=%E9%A7%85%E7%82%B9%E5%AD%97%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+     "serp_item_types": [
+      "ai_overview",
+      "organic",
+      "people_also_ask",
+      "related_searches"
+     ],
+     "se_results_count": 178,
+     "last_updated_time": "2026-08-15 07:31:12 +00:00",
+     "previous_updated_time": "2026-05-10 13:20:07 +00:00"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 10.7,
+     "dofollow": 7.6,
+     "referring_pages": 10.1,
+     "referring_domains": 7.1,
+     "referring_main_domains": 6.8,
+     "rank": 31.9,
+     "main_domain_rank": 407.4,
+     "last_updated_time": "2026-08-15 07:31:13 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "navigational",
+     "foreign_intent": [
+      "informational"
+     ],
+     "last_updated_time": "2026-05-06 05:58:38 +00:00"
+    }
+   },
+   "ranked_serp_element": {
+    "serp_item": {
+     "type": "organic",
+     "rank_group": 70,
+     "rank_absolute": 79,
+     "domain": "khansei.co.jp",
+     "title": "視覚障害者点字ライン(溶着式)",
+     "url": "https://khansei.co.jp/services/shikakusyougaisyatenjiline/",
+     "breadcrumb": "https://khansei.co.jp › 事業内容",
+     "website_name": "カンセイ工業株式会社",
+     "description": "経済性に優れた溶着材での視覚障害者誘導標示です。平板ブロックタイプと違い掘削の必要がないので短時間での施工が出来、交通規制時間を短縮出来ます。専用の施工 ...",
+     "highlighted": [
+      "ブロック"
+     ],
+     "main_domain": "khansei.co.jp",
+     "relative_url": "/services/shikakusyougaisyatenjiline/",
+     "etv": 0.131,
+     "rank_changes": {
+      "is_new": true
+     },
+     "rank_info": {
+      "main_domain_rank": 157
+     }
+    },
+    "check_url": "https://www.google.com/search?q=%E9%A7%85%E7%82%B9%E5%AD%97%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF&hl=ja&gl=JP&ie=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+    "serp_item_types": [
+     "ai_overview",
+     "organic",
+     "people_also_ask",
+     "related_searches"
+    ],
+    "se_results_count": 178,
+    "last_updated_time": "2026-08-15 07:31:12 +00:00",
+    "previous_updated_time": "2026-05-10 13:20:07 +00:00"
+   }
+  }
+ ]
+}

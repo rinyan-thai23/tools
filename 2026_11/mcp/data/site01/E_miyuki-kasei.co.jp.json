@@ -1,0 +1,2552 @@
+{
+ "id": "11260739-1289-0389-0000-52e9adec9d4e",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "total_count": 72,
+ "items": [
+  {
+   "keyword_data": {
+    "keyword": "点字ブロック",
+    "keyword_info": {
+     "last_updated_time": "2026-11-13 09:43:05 +00:00",
+     "competition": 0.05,
+     "competition_level": "LOW",
+     "cpc": 0.5,
+     "search_volume": 40500,
+     "low_top_of_page_bid": 0.11,
+     "high_top_of_page_bid": 0.64,
+     "categories": [
+      10016,
+      10141,
+      10767
+     ],
+     "monthly_searches": {
+      "2026-10": 40500,
+      "2026-09": 40500,
+      "2026-08": 18100,
+      "2026-07": 74000,
+      "2026-06": 90500,
+      "2026-05": 27100,
+      "2026-04": 18100,
+      "2026-03": 22200,
+      "2026-02": 40500,
+      "2026-01": 40500,
+      "2025-12": 40500,
+      "2025-11": 40500
+     },
+     "search_volume_trend": {
+      "quarterly": 124,
+      "yearly": -18
+     }
+    },
+    "keyword_properties": {
+     "synonym_clustering_algorithm": "keyword_metrics",
+     "detected_language": "ja"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 40.7,
+     "dofollow": 34.7,
+     "referring_pages": 37.9,
+     "referring_domains": 15,
+     "referring_main_domains": 14,
+     "rank": 70.1,
+     "main_domain_rank": 323.8,
+     "last_updated_time": "2026-11-20 22:09:45 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-05-05 16:58:05 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 44,
+    "rank_absolute": 48,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "視覚障害者誘導用シート [貼付式] -点字シート・点字ブロック",
+    "url": "http://www.miyuki-kasei.co.jp/products/seet/guidance_block.html",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › seet › guidance_block",
+    "website_name": "ミユキ化成",
+    "is_image": true,
+    "checks": [
+     "is_image",
+     "from_web"
+    ],
+    "description": "視覚障害者の移動方向を指示するために路面に敷設されるブロック(シート)であり、平行する線状の突起をその表面に備えたものをいう。 2) 点状ブロック. 視覚障害者に対し ...",
+    "highlighted": [
+     "ブロック"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/products/seet/guidance_block.html",
+    "etv": 21.69,
+    "estimated_paid_traffic_cost": 10.845,
+    "rank_changes": {
+     "is_new": true
+    },
+    "backlinks_info": {
+     "referring_domains": 4,
+     "referring_main_domains": 4,
+     "referring_pages": 4,
+     "dofollow": 4,
+     "backlinks": 4,
+     "time_update": "2026-11-21 03:37:41 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 27,
+     "main_domain_rank": 232
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "品質標語",
+    "keyword_info": {
+     "last_updated_time": "2026-11-12 14:46:09 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 6600,
+     "categories": [
+      10004,
+      10276,
+      11088
+     ],
+     "monthly_searches": {
+      "2026-10": 27100,
+      "2026-09": 18100,
+      "2026-08": 6600,
+      "2026-07": 3600,
+      "2026-06": 3600,
+      "2026-05": 1900,
+      "2026-04": 1300,
+      "2026-03": 880,
+      "2026-02": 1300,
+      "2026-01": 2900,
+      "2025-12": 1600,
+      "2025-11": 12100
+     },
+     "search_volume_trend": {
+      "monthly": 50,
+      "quarterly": 311,
+      "yearly": -18
+     }
+    },
+    "keyword_properties": {
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 0.3,
+     "dofollow": 0.3,
+     "referring_pages": 0.3,
+     "referring_domains": 0.3,
+     "referring_main_domains": 0.2,
+     "rank": 11.2,
+     "main_domain_rank": 314.1,
+     "last_updated_time": "2026-09-12 18:39:51 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-04-30 02:05:11 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 31,
+    "rank_absolute": 36,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "H28年度品質標語入選作品紹介",
+    "url": "http://www.miyuki-kasei.co.jp/pdf/1704271544.pdf",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › pdf",
+    "website_name": "ミユキ化成株式会社",
+    "description": "全国品質月間は今年で第57回を迎えております。 ミユキ化成ではこの全国品質月間に併せ、社内行事の一環として「品質標語」. の募集を行い、審査の結果入選作品が決定 ...",
+    "highlighted": [
+     "品質標語"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/pdf/1704271544.pdf",
+    "etv": 5.927,
+    "rank_changes": {
+     "is_new": true
+    },
+    "rank_info": {
+     "main_domain_rank": 229
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "ユニバーサルデザイン 点字ブロック",
+    "keyword_info": {
+     "last_updated_time": "2026-11-15 18:19:15 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 5400,
+     "categories": [
+      10004,
+      10004,
+      10273,
+      10273,
+      11068
+     ],
+     "monthly_searches": {
+      "2026-10": 2900,
+      "2026-09": 4400,
+      "2026-08": 1300,
+      "2026-07": 22200,
+      "2026-06": 27100,
+      "2026-05": 1600,
+      "2026-04": 590,
+      "2026-03": 720,
+      "2026-02": 1900,
+      "2026-01": 1900,
+      "2025-12": 1900,
+      "2025-11": 2900
+     },
+     "search_volume_trend": {
+      "monthly": -34,
+      "quarterly": 123,
+      "yearly": -19
+     }
+    },
+    "keyword_properties": {
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 10.8,
+     "dofollow": 7.8,
+     "referring_pages": 10.2,
+     "referring_domains": 7.1,
+     "referring_main_domains": 6.9,
+     "rank": 40.5,
+     "main_domain_rank": 398.5,
+     "last_updated_time": "2026-09-13 06:39:41 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-05-05 19:09:36 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 63,
+    "rank_absolute": 71,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "視覚障害者誘導用シート [貼付式] -点字シート・点字ブロック",
+    "url": "http://www.miyuki-kasei.co.jp/products/seet/guidance_block.html",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › seet › guidance_block",
+    "website_name": "ミユキ化成",
+    "description": "視覚障害者の移動方向を指示するために路面に敷設されるブロック(シート)であり、平行する線状の突起をその表面に備えたものをいう。 2) 点状ブロック. 視覚障害者に対し ...",
+    "highlighted": [
+     "ブロック"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/products/seet/guidance_block.html",
+    "etv": 0.423,
+    "rank_changes": {
+     "previous_rank_absolute": 83,
+     "is_up": true
+    },
+    "backlinks_info": {
+     "referring_domains": 4,
+     "referring_main_domains": 4,
+     "referring_pages": 4,
+     "dofollow": 4,
+     "backlinks": 4,
+     "time_update": "2026-11-21 03:37:41 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 34,
+     "main_domain_rank": 229
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "点字ブロックの 種類",
+    "keyword_info": {
+     "last_updated_time": "2026-09-17 02:06:34 +00:00",
+     "competition": 0.07,
+     "competition_level": "LOW",
+     "cpc": 0.28,
+     "search_volume": 5400,
+     "low_top_of_page_bid": 0.12,
+     "high_top_of_page_bid": 0.24,
+     "categories": [
+      10016,
+      10141,
+      10767
+     ],
+     "monthly_searches": {
+      "2026-08": 2900,
+      "2026-07": 12100,
+      "2026-06": 12100,
+      "2026-05": 3600,
+      "2026-04": 1900,
+      "2026-03": 3600,
+      "2026-02": 5400,
+      "2026-01": 5400,
+      "2025-12": 4400,
+      "2025-11": 5400,
+      "2025-10": 5400,
+      "2025-09": 5400
+     },
+     "search_volume_trend": {
+      "monthly": -76,
+      "quarterly": -76
+     }
+    },
+    "keyword_properties": {
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 0.2,
+     "dofollow": 0.2,
+     "referring_pages": 0.2,
+     "referring_domains": 0.2,
+     "referring_main_domains": 0.2,
+     "rank": 9.1,
+     "main_domain_rank": 367.7,
+     "last_updated_time": "2026-11-07 20:39:08 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-05-08 03:17:48 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 68,
+    "rank_absolute": 79,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "視覚障害者誘導用シート [貼付式] -点字シート・点字ブロック",
+    "url": "http://www.miyuki-kasei.co.jp/products/seet/guidance_block.html",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › seet › guidance_block",
+    "website_name": "ミユキ化成",
+    "description": "視覚障害者誘導用シート [貼付式]. 点字シート・点字ブロック. 規格表. 品番, 名称, 寸法(D×L×H) ...",
+    "highlighted": [
+     "点字ブロック"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/products/seet/guidance_block.html",
+    "etv": 0.971,
+    "estimated_paid_traffic_cost": 0.272,
+    "rank_changes": {
+     "previous_rank_absolute": 28,
+     "is_down": true
+    },
+    "backlinks_info": {
+     "referring_domains": 4,
+     "referring_main_domains": 4,
+     "referring_pages": 4,
+     "dofollow": 4,
+     "backlinks": 4,
+     "time_update": "2026-11-21 03:37:41 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 34,
+     "main_domain_rank": 231
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "点字 ブロック イラスト",
+    "keyword_info": {
+     "last_updated_time": "2026-11-15 05:29:26 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 1900,
+     "categories": [
+      10019,
+      10168,
+      10885,
+      12204,
+      13597
+     ],
+     "monthly_searches": {
+      "2026-10": 1900,
+      "2026-09": 1600,
+      "2026-08": 1000,
+      "2026-07": 2900,
+      "2026-06": 2900,
+      "2026-05": 880,
+      "2026-04": 320,
+      "2026-03": 1600,
+      "2026-02": 3600,
+      "2026-01": 2400,
+      "2025-12": 2400,
+      "2025-11": 2900
+     },
+     "search_volume_trend": {
+      "monthly": 19,
+      "quarterly": 90,
+      "yearly": -21
+     }
+    },
+    "keyword_properties": {
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 21.4,
+     "dofollow": 20.1,
+     "referring_pages": 20.8,
+     "referring_domains": 6.1,
+     "referring_main_domains": 5.2,
+     "rank": 37.4,
+     "main_domain_rank": 547.2,
+     "last_updated_time": "2026-11-15 17:03:59 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-05-06 15:05:50 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 35,
+    "rank_absolute": 39,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "視覚障害者誘導用シート [貼付式] -点字シート・点字ブロック",
+    "url": "http://www.miyuki-kasei.co.jp/products/seet/guidance_block.html",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › seet › guidance_block",
+    "website_name": "ミユキ化成",
+    "is_image": true,
+    "checks": [
+     "is_image",
+     "from_web"
+    ],
+    "description": "2) 点状ブロック ... 視覚障害者に対し段差の存在等の警告又は注意喚起を促すために路面に敷設されるブロック(シート)であり、点状の突起をその表面に備えたものをいう。",
+    "highlighted": [
+     "ブロック"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/products/seet/guidance_block.html",
+    "etv": 1.616,
+    "rank_changes": {
+     "is_new": true
+    },
+    "backlinks_info": {
+     "referring_domains": 4,
+     "referring_main_domains": 4,
+     "referring_pages": 4,
+     "dofollow": 4,
+     "backlinks": 4,
+     "time_update": "2026-11-21 03:37:41 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 27,
+     "main_domain_rank": 232
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "点字ブロック イラスト",
+    "keyword_info": {
+     "last_updated_time": "2026-11-15 06:03:51 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 1900,
+     "categories": [
+      10019,
+      10168,
+      10885,
+      12204,
+      13597
+     ],
+     "monthly_searches": {
+      "2026-10": 1900,
+      "2026-09": 1600,
+      "2026-08": 1000,
+      "2026-07": 2900,
+      "2026-06": 2900,
+      "2026-05": 880,
+      "2026-04": 320,
+      "2026-03": 1600,
+      "2026-02": 3600,
+      "2026-01": 2400,
+      "2025-12": 2400,
+      "2025-11": 2900
+     },
+     "search_volume_trend": {
+      "monthly": 19,
+      "quarterly": 90,
+      "yearly": -21
+     }
+    },
+    "keyword_properties": {
+     "core_keyword": "点字ブロックイラスト",
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 9.3,
+     "dofollow": 6.8,
+     "referring_pages": 9,
+     "referring_domains": 6.1,
+     "referring_main_domains": 6,
+     "rank": 21.7,
+     "main_domain_rank": 566,
+     "last_updated_time": "2026-09-15 18:16:21 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-05-02 15:59:43 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 34,
+    "rank_absolute": 39,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "視覚障害者誘導用シート [貼付式] -点字シート・点字ブロック",
+    "url": "http://www.miyuki-kasei.co.jp/products/seet/guidance_block.html",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › seet › guidance_block",
+    "website_name": "ミユキ化成株式会社",
+    "description": "2) 点状ブロック ... 視覚障害者に対し段差の存在等の警告又は注意喚起を促すために路面に敷設されるブロック(シート)であり、点状の突起をその表面に備えたものをいう。",
+    "highlighted": [
+     "ブロック"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/products/seet/guidance_block.html",
+    "etv": 1.393,
+    "rank_changes": {
+     "previous_rank_absolute": 41,
+     "is_up": true
+    },
+    "backlinks_info": {
+     "referring_domains": 4,
+     "referring_main_domains": 4,
+     "referring_pages": 4,
+     "dofollow": 4,
+     "backlinks": 4,
+     "time_update": "2026-11-21 03:37:41 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 34,
+     "main_domain_rank": 229
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "点字ブロックイラスト",
+    "keyword_info": {
+     "last_updated_time": "2026-09-17 20:36:58 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 1900,
+     "categories": [
+      10019,
+      10168,
+      10885,
+      12204,
+      13597
+     ],
+     "monthly_searches": {
+      "2026-08": 1000,
+      "2026-07": 2900,
+      "2026-06": 2900,
+      "2026-05": 880,
+      "2026-04": 320,
+      "2026-03": 1600,
+      "2026-02": 3600,
+      "2026-01": 2400,
+      "2025-12": 2400,
+      "2025-11": 2900,
+      "2025-10": 2400,
+      "2025-09": 1600
+     },
+     "search_volume_trend": {
+      "monthly": -66,
+      "quarterly": -66
+     }
+    },
+    "keyword_properties": {
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-04-30 03:37:08 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 33,
+    "rank_absolute": 35,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "視覚障害者誘導用シート [貼付式] -点字シート・点字ブロック",
+    "url": "http://www.miyuki-kasei.co.jp/products/seet/guidance_block.html",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › seet › guidance_block",
+    "website_name": "ミユキ化成株式会社",
+    "description": "2) 点状ブロック ... 視覚障害者に対し段差の存在等の警告又は注意喚起を促すために路面に敷設されるブロック(シート)であり、点状の突起をその表面に備えたものをいう。",
+    "highlighted": [
+     "ブロック"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/products/seet/guidance_block.html",
+    "etv": 1.489,
+    "rank_changes": {
+     "previous_rank_absolute": 46,
+     "is_up": true
+    },
+    "backlinks_info": {
+     "referring_domains": 4,
+     "referring_main_domains": 4,
+     "referring_pages": 4,
+     "dofollow": 4,
+     "backlinks": 4,
+     "time_update": "2026-11-21 03:37:41 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 34,
+     "main_domain_rank": 229
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "点字ブロックについて",
+    "keyword_info": {
+     "last_updated_time": "2026-09-16 23:25:32 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 1600,
+     "categories": [
+      10005,
+      13422
+     ],
+     "monthly_searches": {
+      "2026-08": 480,
+      "2026-07": 4400,
+      "2026-06": 5400,
+      "2026-05": 720,
+      "2026-04": 210,
+      "2026-03": 390,
+      "2026-02": 1300,
+      "2026-01": 1300,
+      "2025-12": 1000,
+      "2025-11": 880,
+      "2025-10": 1000,
+      "2025-09": 1300
+     },
+     "search_volume_trend": {
+      "monthly": -89,
+      "quarterly": -91,
+      "yearly": 50
+     }
+    },
+    "keyword_properties": {
+     "detected_language": "ja"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 9.5,
+     "dofollow": 6.6,
+     "referring_pages": 9.1,
+     "referring_domains": 6.2,
+     "referring_main_domains": 6.1,
+     "rank": 21.8,
+     "main_domain_rank": 314.1,
+     "last_updated_time": "2026-11-16 03:20:54 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-05-04 10:25:26 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 66,
+    "rank_absolute": 68,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "視覚障害者誘導用シート [貼付式] -点字シート・点字ブロック",
+    "url": "http://www.miyuki-kasei.co.jp/products/seet/guidance_block.html",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › seet › guidance_block",
+    "website_name": "ミユキ化成",
+    "is_image": true,
+    "checks": [
+     "is_image",
+     "from_web"
+    ],
+    "description": "視覚障害者の移動方向を指示するために路面に敷設されるブロック(シート)であり、平行する線状の突起をその表面に備えたものをいう。 2) 点状ブロック. 視覚障害者に対し ...",
+    "highlighted": [
+     "ブロック"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/products/seet/guidance_block.html",
+    "etv": 0.374,
+    "rank_changes": {
+     "previous_rank_absolute": 84,
+     "is_up": true
+    },
+    "backlinks_info": {
+     "referring_domains": 4,
+     "referring_main_domains": 4,
+     "referring_pages": 4,
+     "dofollow": 4,
+     "backlinks": 4,
+     "time_update": "2026-11-21 03:37:41 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 27,
+     "main_domain_rank": 232
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "点字ブロックとは",
+    "keyword_info": {
+     "last_updated_time": "2026-11-12 10:41:43 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 1600,
+     "categories": [
+      10019,
+      10168,
+      10885,
+      13602
+     ],
+     "monthly_searches": {
+      "2026-10": 1300,
+      "2026-09": 1300,
+      "2026-08": 590,
+      "2026-07": 2900,
+      "2026-06": 3600,
+      "2026-05": 880,
+      "2026-04": 390,
+      "2026-03": 720,
+      "2026-02": 1600,
+      "2026-01": 1300,
+      "2025-12": 1300,
+      "2025-11": 1300
+     },
+     "search_volume_trend": {
+      "quarterly": 120
+     }
+    },
+    "keyword_properties": {
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 9.7,
+     "dofollow": 7,
+     "referring_pages": 9.2,
+     "referring_domains": 6.3,
+     "referring_main_domains": 6.2,
+     "rank": 25.3,
+     "main_domain_rank": 305.2,
+     "last_updated_time": "2026-09-16 09:12:02 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-04-30 02:29:17 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 63,
+    "rank_absolute": 71,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "視覚障害者誘導用シート [貼付式] -点字シート・点字ブロック",
+    "url": "http://www.miyuki-kasei.co.jp/products/seet/guidance_block.html",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › seet › guidance_block",
+    "website_name": "ミユキ化成株式会社",
+    "description": "視覚障害者の移動方向を指示するために路面に敷設されるブロック(シート)であり、平行する線状の突起をその表面に備えたものをいう。 2) 点状ブロック. 視覚障害者に対し ...",
+    "highlighted": [
+     "ブロック"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/products/seet/guidance_block.html",
+    "etv": 0.376,
+    "rank_changes": {
+     "previous_rank_absolute": 77,
+     "is_up": true
+    },
+    "backlinks_info": {
+     "referring_domains": 4,
+     "referring_main_domains": 4,
+     "referring_pages": 4,
+     "dofollow": 4,
+     "backlinks": 4,
+     "time_update": "2026-11-21 03:37:41 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 34,
+     "main_domain_rank": 229
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "点字ブロック意味",
+    "keyword_info": {
+     "last_updated_time": "2026-11-12 11:40:27 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 1600,
+     "categories": [
+      10108,
+      10756,
+      13429
+     ],
+     "monthly_searches": {
+      "2026-10": 1000,
+      "2026-09": 1300,
+      "2026-08": 720,
+      "2026-07": 3600,
+      "2026-06": 4400,
+      "2026-05": 1000,
+      "2026-04": 480,
+      "2026-03": 720,
+      "2026-02": 1300,
+      "2026-01": 1300,
+      "2025-12": 1300,
+      "2025-11": 1300
+     },
+     "search_volume_trend": {
+      "monthly": -23,
+      "quarterly": 39,
+      "yearly": -23
+     }
+    },
+    "keyword_properties": {
+     "core_keyword": "点字ブロック 意味",
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 10.8,
+     "dofollow": 7.6,
+     "referring_pages": 10.3,
+     "referring_domains": 7.2,
+     "referring_main_domains": 7,
+     "rank": 32.3,
+     "main_domain_rank": 351.3,
+     "last_updated_time": "2026-11-16 03:22:06 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-05-07 12:40:11 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 63,
+    "rank_absolute": 66,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "視覚障害者誘導用シート [貼付式] -点字シート・点字ブロック",
+    "url": "http://www.miyuki-kasei.co.jp/products/seet/guidance_block.html",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › seet › guidance_block",
+    "website_name": "ミユキ化成",
+    "checks": [
+     "from_web"
+    ],
+    "description": "視覚障害者の移動方向を指示するために路面に敷設されるブロック(シート)であり、平行する線状の突起をその表面に備えたものをいう。 2) 点状ブロック. 視覚障害者に対し ...",
+    "highlighted": [
+     "ブロック"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/products/seet/guidance_block.html",
+    "etv": 0.32,
+    "rank_changes": {
+     "previous_rank_absolute": 81,
+     "is_up": true
+    },
+    "backlinks_info": {
+     "referring_domains": 4,
+     "referring_main_domains": 4,
+     "referring_pages": 4,
+     "dofollow": 4,
+     "backlinks": 4,
+     "time_update": "2026-11-21 03:37:41 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 27,
+     "main_domain_rank": 232
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "点字ブロック 意味",
+    "keyword_info": {
+     "last_updated_time": "2026-11-13 15:25:09 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 1600,
+     "categories": [
+      10005,
+      13422
+     ],
+     "monthly_searches": {
+      "2026-10": 1000,
+      "2026-09": 1300,
+      "2026-08": 720,
+      "2026-07": 3600,
+      "2026-06": 4400,
+      "2026-05": 1000,
+      "2026-04": 480,
+      "2026-03": 720,
+      "2026-02": 1300,
+      "2026-01": 1300,
+      "2025-12": 1300,
+      "2025-11": 1300
+     },
+     "search_volume_trend": {
+      "monthly": -23,
+      "quarterly": 39,
+      "yearly": -23
+     }
+    },
+    "keyword_properties": {
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 10.5,
+     "dofollow": 7.5,
+     "referring_pages": 9.9,
+     "referring_domains": 6.8,
+     "referring_main_domains": 6.6,
+     "rank": 31.2,
+     "main_domain_rank": 340.6,
+     "last_updated_time": "2026-09-16 09:27:37 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-04-30 02:38:26 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 80,
+    "rank_absolute": 90,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "視覚障害者誘導用シート [貼付式] -点字シート・点字ブロック",
+    "url": "http://www.miyuki-kasei.co.jp/products/seet/guidance_block.html",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › seet › guidance_block",
+    "website_name": "ミユキ化成株式会社",
+    "description": "視覚障害者の移動方向を指示するために路面に敷設されるブロック(シート)であり、平行する線状の突起をその表面に備えたものをいう。 2) 点状ブロック. 視覚障害者に対し ...",
+    "highlighted": [
+     "ブロック"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/products/seet/guidance_block.html",
+    "etv": 0.38,
+    "rank_changes": {
+     "previous_rank_absolute": 97,
+     "is_up": true
+    },
+    "backlinks_info": {
+     "referring_domains": 4,
+     "referring_main_domains": 4,
+     "referring_pages": 4,
+     "dofollow": 4,
+     "backlinks": 4,
+     "time_update": "2026-11-21 03:37:41 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 34,
+     "main_domain_rank": 229
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "点字ブロックと は",
+    "keyword_info": {
+     "last_updated_time": "2026-11-18 11:43:09 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 1600,
+     "categories": [
+      10019,
+      10168,
+      10885,
+      13602
+     ],
+     "monthly_searches": {
+      "2026-10": 1300,
+      "2026-09": 1300,
+      "2026-08": 590,
+      "2026-07": 2900,
+      "2026-06": 3600,
+      "2026-05": 880,
+      "2026-04": 390,
+      "2026-03": 720,
+      "2026-02": 1600,
+      "2026-01": 1300,
+      "2025-12": 1300,
+      "2025-11": 1300
+     },
+     "search_volume_trend": {
+      "quarterly": 120
+     }
+    },
+    "keyword_properties": {
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 13.6,
+     "dofollow": 9.6,
+     "referring_pages": 12.8,
+     "referring_domains": 9.4,
+     "referring_main_domains": 9.1,
+     "rank": 51.4,
+     "main_domain_rank": 294.1,
+     "last_updated_time": "2026-11-16 03:21:32 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-04-30 03:19:22 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 66,
+    "rank_absolute": 70,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "視覚障害者誘導用シート [貼付式] -点字シート・点字ブロック",
+    "url": "http://www.miyuki-kasei.co.jp/products/seet/guidance_block.html",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › seet › guidance_block",
+    "website_name": "ミユキ化成",
+    "checks": [
+     "from_web"
+    ],
+    "description": "視覚障害者の移動方向を指示するために路面に敷設されるブロック(シート)であり、平行する線状の突起をその表面に備えたものをいう。 2) 点状ブロック. 視覚障害者に対し ...",
+    "highlighted": [
+     "ブロック"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/products/seet/guidance_block.html",
+    "etv": 0.296,
+    "rank_changes": {
+     "previous_rank_absolute": 73,
+     "is_up": true
+    },
+    "backlinks_info": {
+     "referring_domains": 4,
+     "referring_main_domains": 4,
+     "referring_pages": 4,
+     "dofollow": 4,
+     "backlinks": 4,
+     "time_update": "2026-11-21 03:37:41 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 27,
+     "main_domain_rank": 232
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "点字ブロック 工夫",
+    "keyword_info": {
+     "last_updated_time": "2026-11-15 12:28:59 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 1300,
+     "categories": [
+      10016,
+      10141,
+      10767
+     ],
+     "monthly_searches": {
+      "2026-10": 720,
+      "2026-09": 1000,
+      "2026-08": 320,
+      "2026-07": 2900,
+      "2026-06": 3600,
+      "2026-05": 590,
+      "2026-04": 390,
+      "2026-03": 390,
+      "2026-02": 1000,
+      "2026-01": 1000,
+      "2025-12": 1000,
+      "2025-11": 1300
+     },
+     "search_volume_trend": {
+      "monthly": -28,
+      "quarterly": 125,
+      "yearly": -45
+     }
+    },
+    "keyword_properties": {
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 11,
+     "dofollow": 7.8,
+     "referring_pages": 10.5,
+     "referring_domains": 7.4,
+     "referring_main_domains": 7.2,
+     "rank": 41.9,
+     "main_domain_rank": 340.6,
+     "last_updated_time": "2026-11-18 10:40:03 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-05-05 17:45:05 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 64,
+    "rank_absolute": 67,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "視覚障害者誘導用シート [貼付式] -点字シート・点字ブロック",
+    "url": "http://www.miyuki-kasei.co.jp/products/seet/guidance_block.html",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › seet › guidance_block",
+    "website_name": "ミユキ化成",
+    "checks": [
+     "from_web"
+    ],
+    "description": "視覚障害者誘導用ブロックの色は、黄色を基本とする。しかしながら、色彩に配慮した舗装を施した鋪道等で、黄色のブロックを適用すると色の対比効果が十分発揮できなくなる ...",
+    "highlighted": [
+     "ブロック"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/products/seet/guidance_block.html",
+    "etv": 0.084,
+    "rank_changes": {
+     "previous_rank_absolute": 79,
+     "is_up": true
+    },
+    "backlinks_info": {
+     "referring_domains": 4,
+     "referring_main_domains": 4,
+     "referring_pages": 4,
+     "dofollow": 4,
+     "backlinks": 4,
+     "time_update": "2026-11-21 03:37:41 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 27,
+     "main_domain_rank": 232
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "点字ブロックの工夫",
+    "keyword_info": {
+     "last_updated_time": "2026-11-17 16:32:21 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 1300,
+     "categories": [
+      10019,
+      10168,
+      10885,
+      13602
+     ],
+     "monthly_searches": {
+      "2026-10": 720,
+      "2026-09": 1000,
+      "2026-08": 320,
+      "2026-07": 2900,
+      "2026-06": 3600,
+      "2026-05": 590,
+      "2026-04": 390,
+      "2026-03": 390,
+      "2026-02": 1000,
+      "2026-01": 1000,
+      "2025-12": 1000,
+      "2025-11": 1300
+     },
+     "search_volume_trend": {
+      "monthly": -28,
+      "quarterly": 125,
+      "yearly": -45
+     }
+    },
+    "keyword_properties": {
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 9.7,
+     "dofollow": 6.8,
+     "referring_pages": 9.3,
+     "referring_domains": 6.4,
+     "referring_main_domains": 6.3,
+     "rank": 30.9,
+     "main_domain_rank": 333.4,
+     "last_updated_time": "2026-11-18 06:29:53 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-04-30 02:01:09 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 57,
+    "rank_absolute": 60,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "視覚障害者誘導用シート [貼付式] -点字シート・点字ブロック",
+    "url": "http://www.miyuki-kasei.co.jp/products/seet/guidance_block.html",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › seet › guidance_block",
+    "website_name": "ミユキ化成",
+    "checks": [
+     "from_web"
+    ],
+    "description": "視覚障害者誘導用ブロックの色は、黄色を基本とする。しかしながら、色彩に配慮した舗装を施した鋪道等で、黄色のブロックを適用すると色の対比効果が十分発揮できなくなる ...",
+    "highlighted": [
+     "ブロック"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/products/seet/guidance_block.html",
+    "etv": 0.316,
+    "rank_changes": {
+     "previous_rank_absolute": 90,
+     "is_up": true
+    },
+    "backlinks_info": {
+     "referring_domains": 4,
+     "referring_main_domains": 4,
+     "referring_pages": 4,
+     "dofollow": 4,
+     "backlinks": 4,
+     "time_update": "2026-11-21 03:37:41 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 27,
+     "main_domain_rank": 232
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "点字 ブロック 工夫",
+    "keyword_info": {
+     "last_updated_time": "2026-11-12 07:38:38 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 1300,
+     "categories": [
+      10016
+     ],
+     "monthly_searches": {
+      "2026-10": 720,
+      "2026-09": 1000,
+      "2026-08": 320,
+      "2026-07": 2900,
+      "2026-06": 3600,
+      "2026-05": 590,
+      "2026-04": 390,
+      "2026-03": 390,
+      "2026-02": 1000,
+      "2026-01": 1000,
+      "2025-12": 1000,
+      "2025-11": 1300
+     },
+     "search_volume_trend": {
+      "monthly": -28,
+      "quarterly": 125,
+      "yearly": -45
+     }
+    },
+    "keyword_properties": {
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 9.7,
+     "dofollow": 6.8,
+     "referring_pages": 9.3,
+     "referring_domains": 6.4,
+     "referring_main_domains": 6.3,
+     "rank": 30.9,
+     "main_domain_rank": 308.3,
+     "last_updated_time": "2026-11-18 06:30:29 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-05-04 00:59:24 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 67,
+    "rank_absolute": 71,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "視覚障害者誘導用シート [貼付式] -点字シート・点字ブロック",
+    "url": "http://www.miyuki-kasei.co.jp/products/seet/guidance_block.html",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › seet › guidance_block",
+    "website_name": "ミユキ化成",
+    "is_image": true,
+    "checks": [
+     "is_image",
+     "from_web"
+    ],
+    "description": "視覚障害者誘導用ブロックの色は、黄色を基本とする。しかしながら、色彩に配慮した舗装を施した鋪道等で、黄色のブロックを適用すると色の対比効果が十分発揮できなくなる ...",
+    "highlighted": [
+     "ブロック"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/products/seet/guidance_block.html",
+    "etv": 0.117,
+    "rank_changes": {
+     "previous_rank_absolute": 83,
+     "is_up": true
+    },
+    "backlinks_info": {
+     "referring_domains": 4,
+     "referring_main_domains": 4,
+     "referring_pages": 4,
+     "dofollow": 4,
+     "backlinks": 4,
+     "time_update": "2026-11-21 03:37:41 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 27,
+     "main_domain_rank": 232
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "点字 ブロック の 工夫",
+    "keyword_info": {
+     "last_updated_time": "2026-11-15 07:28:30 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 1300,
+     "categories": [
+      10019,
+      10168,
+      10885,
+      13602
+     ],
+     "monthly_searches": {
+      "2026-10": 720,
+      "2026-09": 1000,
+      "2026-08": 320,
+      "2026-07": 2900,
+      "2026-06": 3600,
+      "2026-05": 590,
+      "2026-04": 390,
+      "2026-03": 390,
+      "2026-02": 1000,
+      "2026-01": 1000,
+      "2025-12": 1000,
+      "2025-11": 1300
+     },
+     "search_volume_trend": {
+      "monthly": -28,
+      "quarterly": 125,
+      "yearly": -45
+     }
+    },
+    "keyword_properties": {
+     "core_keyword": "点字 ブロック 工夫",
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 9.7,
+     "dofollow": 6.8,
+     "referring_pages": 9.3,
+     "referring_domains": 6.4,
+     "referring_main_domains": 6.3,
+     "rank": 30.9,
+     "main_domain_rank": 333.4,
+     "last_updated_time": "2026-11-18 06:45:20 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-04-30 02:38:26 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 68,
+    "rank_absolute": 71,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "視覚障害者誘導用シート [貼付式] -点字シート・点字ブロック",
+    "url": "http://www.miyuki-kasei.co.jp/products/seet/guidance_block.html",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › seet › guidance_block",
+    "website_name": "ミユキ化成",
+    "checks": [
+     "from_web"
+    ],
+    "description": "視覚障害者誘導用ブロックの色は、黄色を基本とする。しかしながら、色彩に配慮した舗装を施した鋪道等で、黄色のブロックを適用すると色の対比効果が十分発揮できなくなる ...",
+    "highlighted": [
+     "ブロック"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/products/seet/guidance_block.html",
+    "etv": 0.117,
+    "rank_changes": {
+     "previous_rank_absolute": 97,
+     "is_up": true
+    },
+    "backlinks_info": {
+     "referring_domains": 4,
+     "referring_main_domains": 4,
+     "referring_pages": 4,
+     "dofollow": 4,
+     "backlinks": 4,
+     "time_update": "2026-11-21 03:37:41 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 27,
+     "main_domain_rank": 232
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "点字ブロック の工夫",
+    "keyword_info": {
+     "last_updated_time": "2026-11-19 00:56:27 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 1300,
+     "categories": [
+      10016,
+      10141,
+      10767
+     ],
+     "monthly_searches": {
+      "2026-10": 720,
+      "2026-09": 1000,
+      "2026-08": 320,
+      "2026-07": 2900,
+      "2026-06": 3600,
+      "2026-05": 590,
+      "2026-04": 390,
+      "2026-03": 390,
+      "2026-02": 1000,
+      "2026-01": 1000,
+      "2025-12": 1000,
+      "2025-11": 1300
+     },
+     "search_volume_trend": {
+      "monthly": -28,
+      "quarterly": 125,
+      "yearly": -45
+     }
+    },
+    "keyword_properties": {
+     "core_keyword": "点字 ブロック の 工夫",
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 9.7,
+     "dofollow": 6.8,
+     "referring_pages": 9.3,
+     "referring_domains": 6.4,
+     "referring_main_domains": 6.3,
+     "rank": 30.9,
+     "main_domain_rank": 333.4,
+     "last_updated_time": "2026-11-18 06:30:06 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-05-04 17:49:08 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 57,
+    "rank_absolute": 61,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "視覚障害者誘導用シート [貼付式] -点字シート・点字ブロック",
+    "url": "http://www.miyuki-kasei.co.jp/products/seet/guidance_block.html",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › seet › guidance_block",
+    "website_name": "ミユキ化成",
+    "checks": [
+     "from_web"
+    ],
+    "description": "視覚障害者誘導用ブロックの色は、黄色を基本とする。しかしながら、色彩に配慮した舗装を施した鋪道等で、黄色のブロックを適用すると色の対比効果が十分発揮できなくなる ...",
+    "highlighted": [
+     "ブロック"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/products/seet/guidance_block.html",
+    "etv": 0.105,
+    "rank_changes": {
+     "previous_rank_absolute": 75,
+     "is_up": true
+    },
+    "backlinks_info": {
+     "referring_domains": 4,
+     "referring_main_domains": 4,
+     "referring_pages": 4,
+     "dofollow": 4,
+     "backlinks": 4,
+     "time_update": "2026-11-21 03:37:41 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 27,
+     "main_domain_rank": 232
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "点字ブロック工夫",
+    "keyword_info": {
+     "last_updated_time": "2026-09-17 03:42:32 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 1300,
+     "categories": [
+      10019,
+      10168,
+      10885,
+      13602
+     ],
+     "monthly_searches": {
+      "2026-08": 320,
+      "2026-07": 2900,
+      "2026-06": 3600,
+      "2026-05": 590,
+      "2026-04": 390,
+      "2026-03": 390,
+      "2026-02": 1000,
+      "2026-01": 1000,
+      "2025-12": 1000,
+      "2025-11": 1300,
+      "2025-10": 1300,
+      "2025-09": 1300
+     },
+     "search_volume_trend": {
+      "monthly": -89,
+      "quarterly": -91,
+      "yearly": -46
+     }
+    },
+    "keyword_properties": {
+     "core_keyword": "点字 ブロック 工夫",
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 9.7,
+     "dofollow": 6.8,
+     "referring_pages": 9.3,
+     "referring_domains": 6.4,
+     "referring_main_domains": 6.3,
+     "rank": 30.9,
+     "main_domain_rank": 308.3,
+     "last_updated_time": "2026-11-18 06:30:45 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-04-30 03:54:12 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 65,
+    "rank_absolute": 70,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "視覚障害者誘導用シート [貼付式] -点字シート・点字ブロック",
+    "url": "http://www.miyuki-kasei.co.jp/products/seet/guidance_block.html",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › seet › guidance_block",
+    "website_name": "ミユキ化成",
+    "is_image": true,
+    "checks": [
+     "is_image",
+     "from_web"
+    ],
+    "description": "視覚障害者誘導用ブロックの色は、黄色を基本とする。しかしながら、色彩に配慮した舗装を施した鋪道等で、黄色のブロックを適用すると色の対比効果が十分発揮できなくなる ...",
+    "highlighted": [
+     "ブロック"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/products/seet/guidance_block.html",
+    "etv": 0.24,
+    "rank_changes": {
+     "previous_rank_absolute": 80,
+     "is_up": true
+    },
+    "backlinks_info": {
+     "referring_domains": 4,
+     "referring_main_domains": 4,
+     "referring_pages": 4,
+     "dofollow": 4,
+     "backlinks": 4,
+     "time_update": "2026-11-21 03:37:41 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 27,
+     "main_domain_rank": 232
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "喋る点字ブロック",
+    "keyword_info": {
+     "last_updated_time": "2026-11-13 01:53:55 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 1000,
+     "categories": [
+      10019,
+      10168,
+      10885,
+      13602
+     ],
+     "monthly_searches": {
+      "2026-10": 1000,
+      "2026-09": 1300,
+      "2026-08": 320,
+      "2026-07": 1900,
+      "2026-06": 2400,
+      "2026-05": 480,
+      "2026-04": 320,
+      "2026-03": 480,
+      "2026-02": 1000,
+      "2026-01": 1000,
+      "2025-12": 880,
+      "2025-11": 1000
+     },
+     "search_volume_trend": {
+      "monthly": -23,
+      "quarterly": 212
+     }
+    },
+    "keyword_properties": {
+     "detected_language": "ja"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 0.4,
+     "dofollow": 0.3,
+     "referring_pages": 0.4,
+     "referring_domains": 0.4,
+     "referring_main_domains": 0.4,
+     "rank": 19.7,
+     "main_domain_rank": 533.4,
+     "last_updated_time": "2026-11-20 05:24:36 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-04-30 02:41:29 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 48,
+    "rank_absolute": 50,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "視覚障害者誘導用シート [貼付式] -点字シート・点字ブロック",
+    "url": "http://www.miyuki-kasei.co.jp/products/seet/guidance_block.html",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › seet › guidance_block",
+    "website_name": "ミユキ化成",
+    "checks": [
+     "from_web"
+    ],
+    "description": "視覚障害者誘導用シート [貼付式]. 点字シート・点字ブロック. 規格表. 品番, 名称, 寸法(D×L×H) ...",
+    "highlighted": [
+     "点字ブロック"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/products/seet/guidance_block.html",
+    "etv": 1.847,
+    "rank_changes": {
+     "is_new": true
+    },
+    "backlinks_info": {
+     "referring_domains": 4,
+     "referring_main_domains": 4,
+     "referring_pages": 4,
+     "dofollow": 4,
+     "backlinks": 4,
+     "time_update": "2026-11-21 03:37:41 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 27,
+     "main_domain_rank": 232
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "品質 標語 製造 業 一覧",
+    "keyword_info": {
+     "last_updated_time": "2026-11-21 04:53:26 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 1000,
+     "categories": [
+      10108,
+      10756,
+      13861
+     ],
+     "monthly_searches": {
+      "2026-10": 6600,
+      "2026-09": 3600,
+      "2026-08": 1300,
+      "2026-07": 720,
+      "2026-06": 590,
+      "2026-05": 260,
+      "2026-04": 70,
+      "2026-03": 70,
+      "2026-02": 90,
+      "2026-01": 90,
+      "2025-12": 20,
+      "2025-11": 10
+     },
+     "search_volume_trend": {
+      "monthly": 83,
+      "quarterly": 408,
+      "yearly": 1592
+     }
+    },
+    "keyword_properties": {
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 0.2,
+     "dofollow": 0.2,
+     "referring_pages": 0.2,
+     "referring_domains": 0.2,
+     "referring_main_domains": 0.2,
+     "rank": 5.4,
+     "main_domain_rank": 313.4,
+     "last_updated_time": "2026-10-05 02:18:40 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "navigational",
+     "last_updated_time": "2026-05-06 10:15:32 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 57,
+    "rank_absolute": 69,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "H28年度品質標語入選作品紹介",
+    "url": "http://www.miyuki-kasei.co.jp/pdf/1704271544.pdf",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › pdf",
+    "website_name": "ミユキ化成株式会社",
+    "description": "全国品質月間は今年で第57回を迎えております。 ミユキ化成ではこの全国品質月間に併せ、社内行事の一環として「品質標語」. の募集を行い、審査の結果入選作品が決定 ...",
+    "highlighted": [
+     "品質標語"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/pdf/1704271544.pdf",
+    "etv": 0.321,
+    "rank_changes": {
+     "is_new": true
+    },
+    "rank_info": {
+     "main_domain_rank": 231
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "品質 標語 製造業 一覧",
+    "keyword_info": {
+     "last_updated_time": "2026-11-12 21:42:44 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 1000,
+     "categories": [
+      10108,
+      10756,
+      13861
+     ],
+     "monthly_searches": {
+      "2026-10": 6600,
+      "2026-09": 3600,
+      "2026-08": 1300,
+      "2026-07": 720,
+      "2026-06": 590,
+      "2026-05": 260,
+      "2026-04": 70,
+      "2026-03": 70,
+      "2026-02": 90,
+      "2026-01": 90,
+      "2025-12": 20,
+      "2025-11": 10
+     },
+     "search_volume_trend": {
+      "monthly": 83,
+      "quarterly": 408,
+      "yearly": 1592
+     }
+    },
+    "keyword_properties": {
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "search_intent_info": {
+     "main_intent": "navigational",
+     "last_updated_time": "2026-05-08 01:32:42 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 59,
+    "rank_absolute": 65,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "H28年度品質標語入選作品紹介",
+    "url": "http://www.miyuki-kasei.co.jp/pdf/1704271544.pdf",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › pdf",
+    "website_name": "ミユキ化成株式会社",
+    "description": "全国品質月間は今年で第57回を迎えております。 ミユキ化成ではこの全国品質月間に併せ、社内行事の一環として「品質標語」. の募集を行い、審査の結果入選作品が決定 ...",
+    "highlighted": [
+     "品質標語"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/pdf/1704271544.pdf",
+    "etv": 2.008,
+    "rank_changes": {
+     "is_new": true
+    },
+    "rank_info": {
+     "main_domain_rank": 231
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "誘導ブロック",
+    "keyword_info": {
+     "last_updated_time": "2026-11-16 12:44:56 +00:00",
+     "competition": 0.03,
+     "competition_level": "LOW",
+     "cpc": 0.12,
+     "search_volume": 880,
+     "categories": [
+      10004,
+      10302,
+      11359,
+      13464
+     ],
+     "monthly_searches": {
+      "2026-10": 720,
+      "2026-09": 880,
+      "2026-08": 390,
+      "2026-07": 1300,
+      "2026-06": 1300,
+      "2026-05": 590,
+      "2026-04": 480,
+      "2026-03": 720,
+      "2026-02": 1000,
+      "2026-01": 1000,
+      "2025-12": 880,
+      "2025-11": 1000
+     },
+     "search_volume_trend": {
+      "monthly": -18,
+      "quarterly": 85,
+      "yearly": -28
+     }
+    },
+    "keyword_properties": {
+     "keyword_difficulty": 9,
+     "detected_language": "ja"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 41.8,
+     "dofollow": 36.3,
+     "referring_pages": 39.1,
+     "referring_domains": 15.9,
+     "referring_main_domains": 14.9,
+     "rank": 91.4,
+     "main_domain_rank": 393.9,
+     "last_updated_time": "2026-09-19 13:15:27 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "transactional",
+     "foreign_intent": [
+      "informational"
+     ],
+     "last_updated_time": "2026-04-30 01:08:48 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 15,
+    "rank_absolute": 19,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "視覚障害者誘導用シート [貼付式] -点字シート・点字ブロック",
+    "url": "http://www.miyuki-kasei.co.jp/products/seet/guidance_block.html",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › seet › guidance_block",
+    "website_name": "ミユキ化成株式会社",
+    "description": "視覚障害者に対し段差の存在等の警告又は注意喚起を促すために路面に敷設されるブロック(シート )であり、点状の突起をその表面に備えたものをいう。 ※JIS T9251 『視覚障害 ...",
+    "highlighted": [
+     "視覚障害者に対し段差の存在等の警告又は注意喚起を促すために路面に敷設されるブロック(シート"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/products/seet/guidance_block.html",
+    "etv": 3.71,
+    "estimated_paid_traffic_cost": 0.445,
+    "rank_changes": {
+     "previous_rank_absolute": 34,
+     "is_up": true
+    },
+    "backlinks_info": {
+     "referring_domains": 4,
+     "referring_main_domains": 4,
+     "referring_pages": 4,
+     "dofollow": 4,
+     "backlinks": 4,
+     "time_update": "2026-11-21 03:37:41 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 34,
+     "main_domain_rank": 229
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "点字ブロック気をつけること",
+    "keyword_info": {
+     "last_updated_time": "2026-11-17 14:22:06 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 880,
+     "categories": [
+      10019,
+      10168,
+      10885,
+      13602
+     ],
+     "monthly_searches": {
+      "2026-10": 1300,
+      "2026-09": 480,
+      "2026-08": 260,
+      "2026-07": 8100,
+      "2026-06": 30,
+      "2026-05": 10,
+      "2026-03": 10,
+      "2026-02": 10,
+      "2026-01": 10,
+      "2025-12": 20,
+      "2025-11": 20
+     },
+     "search_volume_trend": {
+      "monthly": 171,
+      "quarterly": 400,
+      "yearly": 12900
+     }
+    },
+    "keyword_properties": {
+     "core_keyword": "点字ブロック 気 を つける こと",
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 10.5,
+     "dofollow": 7.5,
+     "referring_pages": 9.9,
+     "referring_domains": 6.8,
+     "referring_main_domains": 6.6,
+     "rank": 31.2,
+     "main_domain_rank": 391.6,
+     "last_updated_time": "2026-09-21 02:36:52 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-04-30 02:52:00 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 65,
+    "rank_absolute": 72,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "視覚障害者誘導用シート [貼付式] -点字シート・点字ブロック",
+    "url": "http://www.miyuki-kasei.co.jp/products/seet/guidance_block.html",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › seet › guidance_block",
+    "website_name": "ミユキ化成株式会社",
+    "description": "2) 点状ブロック ... 視覚障害者に対し段差の存在等の警告又は注意喚起を促すために路面に敷設されるブロック(シート)であり、点状の突起をその表面に備えたものをいう。",
+    "highlighted": [
+     "ブロック"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/products/seet/guidance_block.html",
+    "etv": 0.204,
+    "rank_changes": {
+     "is_new": true
+    },
+    "backlinks_info": {
+     "referring_domains": 4,
+     "referring_main_domains": 4,
+     "referring_pages": 4,
+     "dofollow": 4,
+     "backlinks": 4,
+     "time_update": "2026-11-21 03:37:41 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 34,
+     "main_domain_rank": 229
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "点字ブロック 気 を つける こと",
+    "keyword_info": {
+     "last_updated_time": "2026-11-13 07:02:06 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 880,
+     "categories": [
+      10005,
+      10016,
+      10141,
+      13422
+     ],
+     "monthly_searches": {
+      "2026-10": 1300,
+      "2026-09": 480,
+      "2026-08": 260,
+      "2026-07": 8100,
+      "2026-06": 30,
+      "2026-05": 10,
+      "2026-03": 10,
+      "2026-02": 10,
+      "2026-01": 10,
+      "2025-12": 20,
+      "2025-11": 20
+     },
+     "search_volume_trend": {
+      "monthly": 171,
+      "quarterly": 400,
+      "yearly": 12900
+     }
+    },
+    "keyword_properties": {
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 10.5,
+     "dofollow": 7.5,
+     "referring_pages": 9.9,
+     "referring_domains": 6.8,
+     "referring_main_domains": 6.6,
+     "rank": 31.2,
+     "main_domain_rank": 391.6,
+     "last_updated_time": "2026-09-21 02:35:46 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "transactional",
+     "last_updated_time": "2026-08-13 05:56:37 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 64,
+    "rank_absolute": 72,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "視覚障害者誘導用シート [貼付式] -点字シート・点字ブロック",
+    "url": "http://www.miyuki-kasei.co.jp/products/seet/guidance_block.html",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › seet › guidance_block",
+    "website_name": "ミユキ化成株式会社",
+    "description": "2) 点状ブロック ... 視覚障害者に対し段差の存在等の警告又は注意喚起を促すために路面に敷設されるブロック(シート)であり、点状の突起をその表面に備えたものをいう。",
+    "highlighted": [
+     "ブロック"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/products/seet/guidance_block.html",
+    "etv": 0.199,
+    "rank_changes": {
+     "is_new": true
+    },
+    "backlinks_info": {
+     "referring_domains": 4,
+     "referring_main_domains": 4,
+     "referring_pages": 4,
+     "dofollow": 4,
+     "backlinks": 4,
+     "time_update": "2026-11-21 03:37:41 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 34,
+     "main_domain_rank": 229
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "品質 標語 例",
+    "keyword_info": {
+     "last_updated_time": "2026-11-14 21:42:29 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 720,
+     "categories": [
+      10004,
+      10276,
+      11088
+     ],
+     "monthly_searches": {
+      "2026-10": 2900,
+      "2026-09": 1900,
+      "2026-08": 1300,
+      "2026-07": 720,
+      "2026-06": 590,
+      "2026-05": 210,
+      "2026-04": 90,
+      "2026-03": 50,
+      "2026-02": 70,
+      "2026-01": 170,
+      "2025-12": 70,
+      "2025-11": 320
+     },
+     "search_volume_trend": {
+      "monthly": 53,
+      "quarterly": 123,
+      "yearly": 230
+     }
+    },
+    "keyword_properties": {
+     "core_keyword": "品質 標語 の 例",
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 0.2,
+     "dofollow": 0.2,
+     "referring_pages": 0.2,
+     "referring_domains": 0.2,
+     "referring_main_domains": 0.2,
+     "rank": 5.4,
+     "main_domain_rank": 313,
+     "last_updated_time": "2026-09-26 02:00:21 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-04-30 02:27:28 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 32,
+    "rank_absolute": 40,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "H28年度品質標語入選作品紹介",
+    "url": "http://www.miyuki-kasei.co.jp/pdf/1704271544.pdf",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › pdf",
+    "website_name": "ミユキ化成株式会社",
+    "description": "ミユキ化成ではこの全国品質月間に併せ、社内行事の一環として「品質標語」. の募集を行い、審査の結果入選作品が決定いたしました。 入選標語につきましては、来年度の ...",
+    "highlighted": [
+     "品質標語"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/pdf/1704271544.pdf",
+    "etv": 0.228,
+    "rank_changes": {
+     "is_new": true
+    },
+    "rank_info": {
+     "main_domain_rank": 230
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "点字ブロック 設置基準",
+    "keyword_info": {
+     "last_updated_time": "2026-09-17 10:38:42 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 720,
+     "categories": [
+      10004,
+      10273
+     ],
+     "monthly_searches": {
+      "2026-08": 480,
+      "2026-07": 880,
+      "2026-06": 1000,
+      "2026-05": 590,
+      "2026-04": 590,
+      "2026-03": 720,
+      "2026-02": 720,
+      "2026-01": 720,
+      "2025-12": 720,
+      "2025-11": 720,
+      "2025-10": 880,
+      "2025-09": 880
+     },
+     "search_volume_trend": {
+      "monthly": -45,
+      "quarterly": -52,
+      "yearly": -33
+     }
+    },
+    "keyword_properties": {
+     "core_keyword": "点字ブロック設置基準",
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 10.2,
+     "dofollow": 7.7,
+     "referring_pages": 9.9,
+     "referring_domains": 6.9,
+     "referring_main_domains": 6.8,
+     "rank": 41.8,
+     "main_domain_rank": 390.9,
+     "last_updated_time": "2026-09-21 02:34:05 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-04-30 03:37:08 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 46,
+    "rank_absolute": 52,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "視覚障害者誘導用シート [貼付式] -点字シート・点字ブロック",
+    "url": "http://www.miyuki-kasei.co.jp/products/seet/guidance_block.html",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › seet › guidance_block",
+    "website_name": "ミユキ化成株式会社",
+    "description": "... 設置面との輝度比や明度差が確保できる黄色以外の色とする。ただし ... 7．貼着後、ゴムハンマー等で全面を叩いて密着させて完成. 点字シート・点字ブロック 施工方法.",
+    "highlighted": [
+     "設置",
+     "点字ブロック"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/products/seet/guidance_block.html",
+    "etv": 0.297,
+    "rank_changes": {
+     "previous_rank_absolute": 66,
+     "is_up": true
+    },
+    "backlinks_info": {
+     "referring_domains": 4,
+     "referring_main_domains": 4,
+     "referring_pages": 4,
+     "dofollow": 4,
+     "backlinks": 4,
+     "time_update": "2026-11-21 03:37:41 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 34,
+     "main_domain_rank": 229
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "品質 標語 の 例",
+    "keyword_info": {
+     "last_updated_time": "2026-11-21 11:59:27 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 720,
+     "categories": [
+      10108,
+      10756,
+      13861
+     ],
+     "monthly_searches": {
+      "2026-10": 2900,
+      "2026-09": 1900,
+      "2026-08": 1300,
+      "2026-07": 720,
+      "2026-06": 590,
+      "2026-05": 210,
+      "2026-04": 90,
+      "2026-03": 50,
+      "2026-02": 70,
+      "2026-01": 170,
+      "2025-12": 70,
+      "2025-11": 320
+     },
+     "search_volume_trend": {
+      "monthly": 53,
+      "quarterly": 123,
+      "yearly": 230
+     }
+    },
+    "keyword_properties": {
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 0.2,
+     "dofollow": 0.2,
+     "referring_pages": 0.2,
+     "referring_domains": 0.2,
+     "referring_main_domains": 0.2,
+     "rank": 5.4,
+     "main_domain_rank": 254.3,
+     "last_updated_time": "2026-08-28 06:35:46 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-05-11 07:06:11 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 34,
+    "rank_absolute": 39,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "H28年度品質標語入選作品紹介",
+    "url": "http://www.miyuki-kasei.co.jp/pdf/1704271544.pdf",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › pdf",
+    "website_name": "ミユキ化成株式会社",
+    "description": "全国品質月間は今年で第57回を迎えております。 ミユキ化成ではこの全国品質月間に併せ、社内行事の一環として「品質標語」. の募集を行い、審査の結果入選作品が決定 ...",
+    "highlighted": [
+     "品質標語"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/pdf/1704271544.pdf",
+    "etv": 0.144,
+    "rank_changes": {
+     "is_new": true
+    },
+    "rank_info": {
+     "main_domain_rank": 223
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "品質標語 例",
+    "keyword_info": {
+     "last_updated_time": "2026-11-13 02:43:09 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 720,
+     "categories": [
+      10108,
+      10756,
+      13861
+     ],
+     "monthly_searches": {
+      "2026-10": 2900,
+      "2026-09": 1900,
+      "2026-08": 1300,
+      "2026-07": 720,
+      "2026-06": 590,
+      "2026-05": 210,
+      "2026-04": 90,
+      "2026-03": 50,
+      "2026-02": 70,
+      "2026-01": 170,
+      "2025-12": 70,
+      "2025-11": 320
+     },
+     "search_volume_trend": {
+      "monthly": 53,
+      "quarterly": 123,
+      "yearly": 230
+     }
+    },
+    "keyword_properties": {
+     "core_keyword": "品質 標語 の 例",
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 0.2,
+     "dofollow": 0.2,
+     "referring_pages": 0.2,
+     "referring_domains": 0.2,
+     "referring_main_domains": 0.2,
+     "rank": 5.4,
+     "main_domain_rank": 313,
+     "last_updated_time": "2026-09-26 02:00:09 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-04-30 02:02:21 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 31,
+    "rank_absolute": 36,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "H28年度品質標語入選作品紹介",
+    "url": "http://www.miyuki-kasei.co.jp/pdf/1704271544.pdf",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › pdf",
+    "website_name": "ミユキ化成株式会社",
+    "description": "ミユキ化成ではこの全国品質月間に併せ、社内行事の一環として「品質標語」. の募集を行い、審査の結果入選作品が決定いたしました。 入選標語につきましては、来年度の ...",
+    "highlighted": [
+     "品質標語"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/pdf/1704271544.pdf",
+    "etv": 0.177,
+    "rank_changes": {
+     "is_new": true
+    },
+    "rank_info": {
+     "main_domain_rank": 230
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "品質標語例",
+    "keyword_info": {
+     "last_updated_time": "2026-11-20 16:14:59 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 720,
+     "categories": [
+      10108,
+      10756,
+      13861
+     ],
+     "monthly_searches": {
+      "2026-10": 2900,
+      "2026-09": 1900,
+      "2026-08": 1300,
+      "2026-07": 720,
+      "2026-06": 590,
+      "2026-05": 210,
+      "2026-04": 90,
+      "2026-03": 50,
+      "2026-02": 70,
+      "2026-01": 170,
+      "2025-12": 70,
+      "2025-11": 320
+     },
+     "search_volume_trend": {
+      "monthly": 53,
+      "quarterly": 123,
+      "yearly": 230
+     }
+    },
+    "keyword_properties": {
+     "core_keyword": "品質 標語 例",
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 0.2,
+     "dofollow": 0.2,
+     "referring_pages": 0.2,
+     "referring_domains": 0.2,
+     "referring_main_domains": 0.2,
+     "rank": 5.4,
+     "main_domain_rank": 313,
+     "last_updated_time": "2026-09-26 02:00:17 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-05-04 01:22:46 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 31,
+    "rank_absolute": 33,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "H28年度品質標語入選作品紹介",
+    "url": "http://www.miyuki-kasei.co.jp/pdf/1704271544.pdf",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › pdf",
+    "website_name": "ミユキ化成株式会社",
+    "description": "ミユキ化成ではこの全国品質月間に併せ、社内行事の一環として「品質標語」. の募集を行い、審査の結果入選作品が決定いたしました。 入選標語につきましては、来年度の ...",
+    "highlighted": [
+     "品質標語"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/pdf/1704271544.pdf",
+    "etv": 0.133,
+    "rank_changes": {
+     "is_new": true
+    },
+    "rank_info": {
+     "main_domain_rank": 230
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "標語 品質月間",
+    "keyword_info": {
+     "last_updated_time": "2026-09-17 14:04:42 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 590,
+     "categories": [
+      10108
+     ],
+     "monthly_searches": {
+      "2026-08": 480,
+      "2026-07": 720,
+      "2026-06": 50,
+      "2026-05": 90,
+      "2026-04": 40,
+      "2026-03": 20,
+      "2026-02": 30,
+      "2026-01": 30,
+      "2025-12": 70,
+      "2025-11": 1300,
+      "2025-10": 2900,
+      "2025-09": 1300
+     },
+     "search_volume_trend": {
+      "monthly": -33,
+      "quarterly": 860
+     }
+    },
+    "keyword_properties": {
+     "core_keyword": "品質月間 標語",
+     "synonym_clustering_algorithm": "text_processing",
+     "detected_language": "ja"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 1.7,
+     "dofollow": 1.3,
+     "referring_pages": 1.3,
+     "referring_domains": 1,
+     "referring_main_domains": 0.9,
+     "rank": 47.2,
+     "main_domain_rank": 262.9,
+     "last_updated_time": "2026-08-16 03:47:25 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-05-03 11:07:17 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 25,
+    "rank_absolute": 29,
+    "domain": "www.miyuki-kasei.co.jp",
+    "title": "H28年度品質標語入選作品紹介",
+    "url": "http://www.miyuki-kasei.co.jp/pdf/1704271544.pdf",
+    "breadcrumb": "http://www.miyuki-kasei.co.jp › pdf",
+    "website_name": "ミユキ化成株式会社",
+    "description": "全国品質月間は今年で第57回を迎えております。 ミユキ化成ではこの全国品質月間に併せ、社内行事の一環として「品質標語」. の募集を行い、審査の結果入選作品が決定 ...",
+    "highlighted": [
+     "品質月間",
+     "標語"
+    ],
+    "main_domain": "miyuki-kasei.co.jp",
+    "relative_url": "/pdf/1704271544.pdf",
+    "etv": 0.739,
+    "rank_changes": {
+     "is_new": true
+    },
+    "rank_info": {
+     "main_domain_rank": 218
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "id": "11260739-1289-0385-0000-6f5b6d60aed5",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "total_count": 6,
+ "items": [
+  {
+   "page_address": "https://khansei.co.jp/company/",
+   "metrics": {
+    "organic": {
+     "pos_1": 1,
+     "pos_4_10": 1,
+     "pos_11_20": 1,
+     "pos_21_30": 1,
+     "pos_41_50": 1,
+     "etv": 157.044,
+     "count": 5,
+     "estimated_paid_traffic_cost": 502.446,
+     "is_new": 3,
+     "is_up": 1,
+     "is_down": 1
+    }
+   }
+  },
+  {
+   "page_address": "https://khansei.co.jp/services/kukakusenyouchakushiki/",
+   "metrics": {
+    "organic": {
+     "pos_31_40": 5,
+     "etv": 0.665,
+     "count": 5,
+     "estimated_paid_traffic_cost": 0.136,
+     "is_down": 5
+    }
+   }
+  },
+  {
+   "page_address": "https://khansei.co.jp/services/shikakusyougaisyatenjisheet/",
+   "metrics": {
+    "organic": {
+     "pos_31_40": 3,
+     "etv": 1.123,
+     "count": 3,
+     "estimated_paid_traffic_cost": 0.472,
+     "is_new": 2
+    }
+   }
+  },
+  {
+   "page_address": "https://khansei.co.jp/services/shikakusyougaisyatenjiline/",
+   "metrics": {
+    "organic": {
+     "pos_21_30": 1,
+     "pos_31_40": 1,
+     "pos_61_70": 1,
+     "etv": 0.546,
+     "count": 3,
+     "is_new": 3
+    }
+   }
+  },
+  {
+   "page_address": "https://khansei.co.jp/",
+   "metrics": {
+    "organic": {
+     "pos_1": 1,
+     "etv": 90.229,
+     "count": 1
+    }
+   }
+  },
+  {
+   "page_address": "http://khansei.co.jp/"
+  }
+ ]
+}

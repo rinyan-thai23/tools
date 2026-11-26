@@ -1,0 +1,869 @@
+{
+ "id": "11260739-1289-0386-0000-ecaba6457e70",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "total_count": 376,
+ "items": [
+  {
+   "domain": "khansei.co.jp",
+   "avg_position": 29.824,
+   "sum_position": 507,
+   "intersections": 17,
+   "full_domain_metrics": {
+    "organic": {
+     "pos_1": 2,
+     "pos_4_10": 1,
+     "pos_11_20": 1,
+     "pos_21_30": 2,
+     "pos_31_40": 9,
+     "pos_41_50": 1,
+     "pos_61_70": 1,
+     "etv": 249.608,
+     "count": 17,
+     "estimated_paid_traffic_cost": 503.054,
+     "is_new": 8,
+     "is_up": 1,
+     "is_down": 6,
+     "is_lost": 7
+    }
+   },
+   "metrics": {
+    "organic": {
+     "pos_1": 2,
+     "pos_4_10": 1,
+     "pos_11_20": 1,
+     "pos_21_30": 2,
+     "pos_31_40": 9,
+     "pos_41_50": 1,
+     "pos_61_70": 1,
+     "etv": 249.608,
+     "count": 17,
+     "estimated_paid_traffic_cost": 503.054,
+     "is_new": 8,
+     "is_up": 1,
+     "is_down": 6
+    }
+   },
+   "competitor_metrics": {
+    "organic": {
+     "pos_1": 2,
+     "pos_4_10": 1,
+     "pos_11_20": 1,
+     "pos_21_30": 2,
+     "pos_31_40": 9,
+     "pos_41_50": 1,
+     "pos_61_70": 1,
+     "etv": 249.608,
+     "count": 17,
+     "estimated_paid_traffic_cost": 503.054,
+     "is_new": 8,
+     "is_up": 1,
+     "is_down": 6
+    }
+   }
+  },
+  {
+   "domain": "yahoo.co.jp",
+   "avg_position": 32.143,
+   "sum_position": 450,
+   "intersections": 14,
+   "full_domain_metrics": {
+    "organic": {
+     "pos_1": 949686,
+     "pos_2_3": 1908556,
+     "pos_4_10": 4055468,
+     "pos_11_20": 2360091,
+     "pos_21_30": 933526,
+     "pos_31_40": 431655,
+     "pos_41_50": 219036,
+     "pos_51_60": 116736,
+     "pos_61_70": 65731,
+     "pos_71_80": 37823,
+     "pos_81_90": 21338,
+     "pos_91_100": 9552,
+     "etv": 524237291.787,
+     "count": 11109198,
+     "estimated_paid_traffic_cost": 420969175.625,
+     "is_new": 6257890,
+     "is_up": 1965881,
+     "is_down": 1861513,
+     "is_lost": 5565683
+    },
+    "paid": {
+     "pos_1": 35,
+     "pos_2_3": 28,
+     "pos_4_10": 49,
+     "pos_11_20": 1,
+     "etv": 12008.192,
+     "count": 113,
+     "estimated_paid_traffic_cost": 5033.141,
+     "is_new": 113,
+     "is_lost": 45
+    }
+   },
+   "metrics": {
+    "organic": {
+     "pos_1": 1,
+     "pos_4_10": 1,
+     "pos_21_30": 2,
+     "pos_31_40": 8,
+     "pos_41_50": 1,
+     "pos_61_70": 1,
+     "etv": 104.811,
+     "count": 14,
+     "estimated_paid_traffic_cost": 51.812,
+     "is_new": 6,
+     "is_up": 1,
+     "is_down": 5
+    }
+   },
+   "competitor_metrics": {
+    "organic": {
+     "pos_2_3": 3,
+     "pos_21_30": 2,
+     "pos_31_40": 5,
+     "pos_41_50": 3,
+     "pos_71_80": 1,
+     "etv": 35.497,
+     "count": 14,
+     "estimated_paid_traffic_cost": 19.98,
+     "is_new": 10,
+     "is_up": 3
+    }
+   }
+  },
+  {
+   "domain": "instagram.com",
+   "avg_position": 34.231,
+   "sum_position": 445,
+   "intersections": 13,
+   "full_domain_metrics": {
+    "organic": {
+     "pos_1": 336670,
+     "pos_2_3": 1300834,
+     "pos_4_10": 2398159,
+     "pos_11_20": 1638526,
+     "pos_21_30": 919347,
+     "pos_31_40": 553192,
+     "pos_41_50": 339741,
+     "pos_51_60": 209347,
+     "pos_61_70": 130542,
+     "pos_71_80": 80051,
+     "pos_81_90": 47715,
+     "pos_91_100": 23928,
+     "etv": 378142235.449,
+     "count": 7978052,
+     "estimated_paid_traffic_cost": 123855120.71,
+     "is_new": 5086104,
+     "is_up": 1068055,
+     "is_down": 1209795,
+     "is_lost": 4274654
+    },
+    "paid": {
+     "pos_1": 3,
+     "pos_2_3": 2,
+     "etv": 758.06,
+     "count": 5,
+     "estimated_paid_traffic_cost": 413.805,
+     "is_new": 5,
+     "is_lost": 1
+    }
+   },
+   "metrics": {
+    "organic": {
+     "pos_1": 2,
+     "pos_4_10": 1,
+     "pos_11_20": 1,
+     "pos_21_30": 2,
+     "pos_31_40": 6,
+     "pos_61_70": 1,
+     "etv": 248.291,
+     "count": 13,
+     "estimated_paid_traffic_cost": 502.479,
+     "is_new": 5,
+     "is_up": 1,
+     "is_down": 6
+    }
+   },
+   "competitor_metrics": {
+    "organic": {
+     "pos_2_3": 1,
+     "pos_4_10": 4,
+     "pos_31_40": 1,
+     "pos_41_50": 3,
+     "pos_51_60": 1,
+     "pos_61_70": 3,
+     "etv": 52.101,
+     "count": 13,
+     "estimated_paid_traffic_cost": 102.132,
+     "is_new": 7,
+     "is_up": 1,
+     "is_down": 4
+    }
+   }
+  },
+  {
+   "domain": "youtube.com",
+   "avg_position": 12.909,
+   "sum_position": 142,
+   "intersections": 11,
+   "full_domain_metrics": {
+    "organic": {
+     "pos_1": 206577,
+     "pos_2_3": 653250,
+     "pos_4_10": 3804133,
+     "pos_11_20": 3194044,
+     "pos_21_30": 1467500,
+     "pos_31_40": 767146,
+     "pos_41_50": 434784,
+     "pos_51_60": 234122,
+     "pos_61_70": 121322,
+     "pos_71_80": 55741,
+     "pos_81_90": 24693,
+     "pos_91_100": 9163,
+     "etv": 287209190.789,
+     "count": 10972475,
+     "estimated_paid_traffic_cost": 159649203.373,
+     "is_new": 7623467,
+     "is_up": 1286129,
+     "is_down": 1653080,
+     "is_lost": 7005330
+    }
+   },
+   "metrics": {
+    "organic": {
+     "pos_1": 1,
+     "pos_11_20": 1,
+     "pos_21_30": 1,
+     "pos_31_40": 7,
+     "pos_61_70": 1,
+     "etv": 93.292,
+     "count": 11,
+     "estimated_paid_traffic_cost": 1.043,
+     "is_new": 4,
+     "is_down": 5
+    }
+   },
+   "competitor_metrics": {
+    "organic": {
+     "pos_2_3": 3,
+     "pos_4_10": 2,
+     "pos_11_20": 3,
+     "pos_21_30": 3,
+     "etv": 51.11,
+     "count": 11,
+     "estimated_paid_traffic_cost": 13.831,
+     "is_new": 10,
+     "is_down": 1
+    }
+   }
+  },
+  {
+   "domain": "rakuten.co.jp",
+   "avg_position": 48.556,
+   "sum_position": 437,
+   "intersections": 9,
+   "full_domain_metrics": {
+    "organic": {
+     "pos_1": 277847,
+     "pos_2_3": 642943,
+     "pos_4_10": 1583655,
+     "pos_11_20": 920841,
+     "pos_21_30": 561617,
+     "pos_31_40": 364895,
+     "pos_41_50": 232810,
+     "pos_51_60": 145759,
+     "pos_61_70": 90168,
+     "pos_71_80": 53544,
+     "pos_81_90": 30401,
+     "pos_91_100": 13225,
+     "etv": 165920510.21,
+     "count": 4917705,
+     "estimated_paid_traffic_cost": 82362616.116,
+     "is_new": 2371843,
+     "is_up": 901856,
+     "is_down": 1270655,
+     "is_lost": 2272751
+    },
+    "paid": {
+     "pos_1": 1150,
+     "pos_2_3": 1198,
+     "pos_4_10": 196,
+     "etv": 354611.492,
+     "count": 2544,
+     "estimated_paid_traffic_cost": 207549.666,
+     "is_new": 2504,
+     "is_up": 12,
+     "is_down": 21,
+     "is_lost": 2293
+    }
+   },
+   "metrics": {
+    "organic": {
+     "pos_11_20": 1,
+     "pos_21_30": 1,
+     "pos_31_40": 7,
+     "etv": 3.015,
+     "count": 9,
+     "estimated_paid_traffic_cost": 1.076,
+     "is_new": 5,
+     "is_down": 3
+    }
+   },
+   "competitor_metrics": {
+    "organic": {
+     "pos_4_10": 2,
+     "pos_21_30": 2,
+     "pos_51_60": 1,
+     "pos_61_70": 2,
+     "pos_71_80": 1,
+     "pos_91_100": 1,
+     "etv": 10.239,
+     "count": 9,
+     "estimated_paid_traffic_cost": 4.84,
+     "is_new": 6,
+     "is_up": 2,
+     "is_down": 1
+    }
+   }
+  },
+  {
+   "domain": "monotaro.com",
+   "avg_position": 19.25,
+   "sum_position": 154,
+   "intersections": 8,
+   "full_domain_metrics": {
+    "organic": {
+     "pos_1": 20654,
+     "pos_2_3": 34378,
+     "pos_4_10": 124273,
+     "pos_11_20": 117657,
+     "pos_21_30": 63046,
+     "pos_31_40": 29620,
+     "pos_41_50": 16228,
+     "pos_51_60": 10109,
+     "pos_61_70": 6303,
+     "pos_71_80": 3938,
+     "pos_81_90": 2445,
+     "pos_91_100": 1364,
+     "etv": 6077649.268,
+     "count": 430015,
+     "estimated_paid_traffic_cost": 2034638.07,
+     "is_new": 218694,
+     "is_up": 78079,
+     "is_down": 107236,
+     "is_lost": 181290
+    },
+    "paid": {
+     "pos_1": 13,
+     "pos_2_3": 9,
+     "pos_4_10": 4,
+     "etv": 1862.808,
+     "count": 26,
+     "estimated_paid_traffic_cost": 1424.195,
+     "is_new": 26,
+     "is_lost": 48
+    }
+   },
+   "metrics": {
+    "organic": {
+     "pos_31_40": 8,
+     "etv": 1.789,
+     "count": 8,
+     "estimated_paid_traffic_cost": 0.608,
+     "is_new": 2,
+     "is_down": 5
+    }
+   },
+   "competitor_metrics": {
+    "organic": {
+     "pos_4_10": 1,
+     "pos_11_20": 4,
+     "pos_21_30": 2,
+     "pos_31_40": 1,
+     "etv": 20.999,
+     "count": 8,
+     "estimated_paid_traffic_cost": 9.678,
+     "is_new": 3,
+     "is_up": 5
+    }
+   }
+  },
+  {
+   "domain": "mlit.go.jp",
+   "avg_position": 8.75,
+   "sum_position": 70,
+   "intersections": 8,
+   "full_domain_metrics": {
+    "organic": {
+     "pos_1": 15376,
+     "pos_2_3": 17853,
+     "pos_4_10": 48799,
+     "pos_11_20": 55086,
+     "pos_21_30": 36148,
+     "pos_31_40": 25869,
+     "pos_41_50": 19363,
+     "pos_51_60": 13888,
+     "pos_61_70": 9803,
+     "pos_71_80": 6792,
+     "pos_81_90": 4242,
+     "pos_91_100": 2332,
+     "etv": 8846822.757,
+     "count": 255551,
+     "estimated_paid_traffic_cost": 4901929.035,
+     "is_new": 160737,
+     "is_up": 37956,
+     "is_down": 37874,
+     "is_lost": 157236
+    },
+    "paid": {
+     "pos_1": 1,
+     "pos_4_10": 1,
+     "etv": 337.719,
+     "count": 2,
+     "estimated_paid_traffic_cost": 636.56,
+     "is_new": 2,
+     "is_lost": 1
+    }
+   },
+   "metrics": {
+    "organic": {
+     "pos_31_40": 7,
+     "pos_61_70": 1,
+     "etv": 1.189,
+     "count": 8,
+     "estimated_paid_traffic_cost": 0.25,
+     "is_new": 3,
+     "is_down": 5
+    }
+   },
+   "competitor_metrics": {
+    "organic": {
+     "pos_1": 1,
+     "pos_2_3": 3,
+     "pos_11_20": 4,
+     "etv": 62.288,
+     "count": 8,
+     "estimated_paid_traffic_cost": 6.683,
+     "is_new": 7,
+     "is_down": 1
+    }
+   }
+  },
+  {
+   "domain": "k-mil.net",
+   "avg_position": 24.857,
+   "sum_position": 174,
+   "intersections": 7,
+   "full_domain_metrics": {
+    "organic": {
+     "pos_1": 36,
+     "pos_2_3": 110,
+     "pos_4_10": 613,
+     "pos_11_20": 658,
+     "pos_21_30": 669,
+     "pos_31_40": 483,
+     "pos_41_50": 287,
+     "pos_51_60": 184,
+     "pos_61_70": 146,
+     "pos_71_80": 84,
+     "pos_81_90": 50,
+     "pos_91_100": 15,
+     "etv": 15231.445,
+     "count": 3335,
+     "estimated_paid_traffic_cost": 12567.831,
+     "is_new": 1715,
+     "is_up": 725,
+     "is_down": 771,
+     "is_lost": 1570
+    }
+   },
+   "metrics": {
+    "organic": {
+     "pos_31_40": 7,
+     "etv": 1.646,
+     "count": 7,
+     "estimated_paid_traffic_cost": 0.608,
+     "is_new": 2,
+     "is_down": 4
+    }
+   },
+   "competitor_metrics": {
+    "organic": {
+     "pos_2_3": 1,
+     "pos_21_30": 3,
+     "pos_31_40": 3,
+     "etv": 39.914,
+     "count": 7,
+     "estimated_paid_traffic_cost": 19.236,
+     "is_new": 4,
+     "is_down": 1
+    }
+   }
+  },
+  {
+   "domain": "ipros.com",
+   "avg_position": 31.667,
+   "sum_position": 190,
+   "intersections": 6,
+   "full_domain_metrics": {
+    "organic": {
+     "pos_1": 465,
+     "pos_2_3": 1682,
+     "pos_4_10": 10610,
+     "pos_11_20": 16795,
+     "pos_21_30": 16382,
+     "pos_31_40": 11970,
+     "pos_41_50": 8158,
+     "pos_51_60": 5448,
+     "pos_61_70": 3037,
+     "pos_71_80": 1639,
+     "pos_81_90": 746,
+     "pos_91_100": 295,
+     "etv": 392533.081,
+     "count": 77227,
+     "estimated_paid_traffic_cost": 398941.735,
+     "is_new": 44667,
+     "is_up": 13210,
+     "is_down": 17014,
+     "is_lost": 40391
+    }
+   },
+   "metrics": {
+    "organic": {
+     "pos_1": 1,
+     "pos_31_40": 4,
+     "pos_41_50": 1,
+     "etv": 90.945,
+     "count": 6,
+     "estimated_paid_traffic_cost": 0.238,
+     "is_new": 1,
+     "is_down": 4
+    }
+   },
+   "competitor_metrics": {
+    "organic": {
+     "pos_21_30": 4,
+     "pos_31_40": 1,
+     "pos_41_50": 1,
+     "etv": 2.249,
+     "count": 6,
+     "estimated_paid_traffic_cost": 0.334,
+     "is_new": 2,
+     "is_up": 3,
+     "is_down": 1
+    }
+   }
+  },
+  {
+   "domain": "tsrc.or.jp",
+   "avg_position": 16.167,
+   "sum_position": 97,
+   "intersections": 6,
+   "full_domain_metrics": {
+    "organic": {
+     "pos_1": 2,
+     "pos_2_3": 12,
+     "pos_4_10": 16,
+     "pos_11_20": 24,
+     "pos_21_30": 16,
+     "pos_31_40": 2,
+     "pos_71_80": 1,
+     "pos_81_90": 1,
+     "etv": 651.347,
+     "count": 74,
+     "estimated_paid_traffic_cost": 121.843,
+     "is_new": 29,
+     "is_up": 23,
+     "is_down": 17,
+     "is_lost": 25
+    }
+   },
+   "metrics": {
+    "organic": {
+     "pos_21_30": 1,
+     "pos_31_40": 4,
+     "pos_61_70": 1,
+     "etv": 1.67,
+     "count": 6,
+     "estimated_paid_traffic_cost": 0.472,
+     "is_new": 5
+    }
+   },
+   "competitor_metrics": {
+    "organic": {
+     "pos_4_10": 1,
+     "pos_11_20": 3,
+     "pos_21_30": 2,
+     "etv": 15.081,
+     "count": 6,
+     "estimated_paid_traffic_cost": 5.224,
+     "is_new": 4,
+     "is_up": 2
+    }
+   }
+  },
+  {
+   "domain": "amazon.co.jp",
+   "avg_position": 31.167,
+   "sum_position": 187,
+   "intersections": 6,
+   "full_domain_metrics": {
+    "organic": {
+     "pos_1": 194965,
+     "pos_2_3": 413863,
+     "pos_4_10": 1046514,
+     "pos_11_20": 655048,
+     "pos_21_30": 334771,
+     "pos_31_40": 198198,
+     "pos_41_50": 125618,
+     "pos_51_60": 80457,
+     "pos_61_70": 52687,
+     "pos_71_80": 33470,
+     "pos_81_90": 21816,
+     "pos_91_100": 11364,
+     "etv": 96849009.058,
+     "count": 3168771,
+     "estimated_paid_traffic_cost": 34097635.23,
+     "is_new": 1555492,
+     "is_up": 612974,
+     "is_down": 758276,
+     "is_lost": 1593973
+    },
+    "paid": {
+     "pos_1": 270,
+     "pos_2_3": 43,
+     "pos_4_10": 4,
+     "etv": 5768804.151,
+     "count": 317,
+     "estimated_paid_traffic_cost": 430524.197,
+     "is_new": 312,
+     "is_up": 1,
+     "is_down": 4,
+     "is_lost": 433
+    }
+   },
+   "metrics": {
+    "organic": {
+     "pos_11_20": 1,
+     "pos_21_30": 1,
+     "pos_31_40": 4,
+     "etv": 2.66,
+     "count": 6,
+     "estimated_paid_traffic_cost": 1.021,
+     "is_new": 5
+    }
+   },
+   "competitor_metrics": {
+    "organic": {
+     "pos_4_10": 1,
+     "pos_11_20": 2,
+     "pos_21_30": 1,
+     "pos_61_70": 2,
+     "etv": 6.448,
+     "count": 6,
+     "estimated_paid_traffic_cost": 2.71,
+     "is_new": 5,
+     "is_up": 1
+    }
+   }
+  },
+  {
+   "domain": "miyuki-kasei.co.jp",
+   "avg_position": 42.833,
+   "sum_position": 257,
+   "intersections": 6,
+   "full_domain_metrics": {
+    "organic": {
+     "pos_1": 2,
+     "pos_2_3": 1,
+     "pos_4_10": 1,
+     "pos_11_20": 1,
+     "pos_21_30": 11,
+     "pos_31_40": 19,
+     "pos_41_50": 7,
+     "pos_51_60": 12,
+     "pos_61_70": 14,
+     "pos_71_80": 9,
+     "pos_81_90": 1,
+     "etv": 284.993,
+     "count": 78,
+     "estimated_paid_traffic_cost": 38.646,
+     "is_new": 37,
+     "is_up": 25,
+     "is_down": 14,
+     "is_lost": 42
+    }
+   },
+   "metrics": {
+    "organic": {
+     "pos_21_30": 1,
+     "pos_31_40": 4,
+     "pos_61_70": 1,
+     "etv": 1.67,
+     "count": 6,
+     "estimated_paid_traffic_cost": 0.472,
+     "is_new": 5
+    }
+   },
+   "competitor_metrics": {
+    "organic": {
+     "pos_2_3": 1,
+     "pos_31_40": 2,
+     "pos_51_60": 2,
+     "pos_61_70": 1,
+     "etv": 51.962,
+     "count": 6,
+     "estimated_paid_traffic_cost": 25.306,
+     "is_new": 2,
+     "is_up": 1,
+     "is_down": 3
+    }
+   }
+  },
+  {
+   "domain": "jrs-line.co.jp",
+   "avg_position": 44.167,
+   "sum_position": 265,
+   "intersections": 6,
+   "full_domain_metrics": {
+    "organic": {
+     "pos_1": 1,
+     "pos_2_3": 3,
+     "pos_4_10": 29,
+     "pos_11_20": 21,
+     "pos_21_30": 11,
+     "pos_31_40": 11,
+     "pos_41_50": 18,
+     "pos_51_60": 10,
+     "pos_61_70": 1,
+     "pos_71_80": 3,
+     "etv": 289.057,
+     "count": 108,
+     "estimated_paid_traffic_cost": 19.305,
+     "is_new": 59,
+     "is_up": 25,
+     "is_down": 21,
+     "is_lost": 35
+    }
+   },
+   "metrics": {
+    "organic": {
+     "pos_31_40": 5,
+     "pos_61_70": 1,
+     "etv": 0.796,
+     "count": 6,
+     "estimated_paid_traffic_cost": 0.136,
+     "is_new": 1,
+     "is_down": 5
+    }
+   },
+   "competitor_metrics": {
+    "organic": {
+     "pos_31_40": 1,
+     "pos_41_50": 5,
+     "etv": 1.075,
+     "count": 6,
+     "estimated_paid_traffic_cost": 0.081,
+     "is_new": 5,
+     "is_down": 1
+    }
+   }
+  },
+  {
+   "domain": "eight-c.jp",
+   "avg_position": 58.5,
+   "sum_position": 351,
+   "intersections": 6,
+   "full_domain_metrics": {
+    "organic": {
+     "pos_2_3": 8,
+     "pos_11_20": 15,
+     "pos_21_30": 17,
+     "pos_31_40": 21,
+     "pos_41_50": 15,
+     "pos_51_60": 19,
+     "pos_61_70": 18,
+     "pos_71_80": 3,
+     "pos_91_100": 2,
+     "etv": 172.952,
+     "count": 118,
+     "estimated_paid_traffic_cost": 9.209,
+     "is_new": 47,
+     "is_up": 36,
+     "is_down": 30,
+     "is_lost": 39
+    }
+   },
+   "metrics": {
+    "organic": {
+     "pos_21_30": 1,
+     "pos_31_40": 5,
+     "etv": 0.985,
+     "count": 6,
+     "estimated_paid_traffic_cost": 0.111,
+     "is_new": 2,
+     "is_down": 4
+    }
+   },
+   "competitor_metrics": {
+    "organic": {
+     "pos_41_50": 1,
+     "pos_51_60": 2,
+     "pos_61_70": 3,
+     "etv": 0.318,
+     "count": 6,
+     "estimated_paid_traffic_cost": 0.039,
+     "is_new": 5,
+     "is_up": 1
+    }
+   }
+  },
+  {
+   "domain": "rozaikyo.com",
+   "avg_position": 6.8,
+   "sum_position": 34,
+   "intersections": 5,
+   "full_domain_metrics": {
+    "organic": {
+     "pos_2_3": 3,
+     "pos_4_10": 6,
+     "pos_11_20": 10,
+     "pos_21_30": 8,
+     "pos_31_40": 6,
+     "pos_41_50": 1,
+     "pos_51_60": 1,
+     "pos_61_70": 2,
+     "etv": 120.128,
+     "count": 37,
+     "estimated_paid_traffic_cost": 56.109,
+     "is_new": 12,
+     "is_up": 15,
+     "is_down": 8,
+     "is_lost": 24
+    }
+   },
+   "metrics": {
+    "organic": {
+     "pos_31_40": 5,
+     "etv": 0.665,
+     "count": 5,
+     "estimated_paid_traffic_cost": 0.136,
+     "is_down": 5
+    }
+   },
+   "competitor_metrics": {
+    "organic": {
+     "pos_2_3": 2,
+     "pos_4_10": 2,
+     "pos_11_20": 1,
+     "etv": 19.231,
+     "count": 5,
+     "estimated_paid_traffic_cost": 4.859,
+     "is_up": 2,
+     "is_down": 2
+    }
+   }
+  }
+ ]
+}

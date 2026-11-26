@@ -1,0 +1,28 @@
+{
+ "id": "11260739-1289-0388-0000-169e5e6fd2e2",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "total_count": 1,
+ "items": [
+  {
+   "metrics": {
+    "organic": {
+     "pos_1": 2,
+     "pos_4_10": 1,
+     "pos_11_20": 1,
+     "pos_21_30": 2,
+     "pos_31_40": 9,
+     "pos_41_50": 1,
+     "pos_61_70": 1,
+     "etv": 249.608,
+     "count": 17,
+     "estimated_paid_traffic_cost": 503.054,
+     "is_new": 8,
+     "is_up": 1,
+     "is_down": 6,
+     "is_lost": 7
+    }
+   }
+  }
+ ]
+}

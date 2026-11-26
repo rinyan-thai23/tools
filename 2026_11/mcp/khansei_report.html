@@ -1,0 +1,188 @@
+<title>カンセイ工業 検索分析レポート</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap">
+<style>
+/* 設計メモ: 調査レポート。静かな紙の質感、紺を主役に、警告色は一点だけ。1カラム本文＋横スクロールする表。 */
+:root{
+  --bg:#f6f7f9; --panel:#ffffff; --fg:#1b2330; --muted:#5b6678; --line:#dde2ea;
+  --accent:#1f4e8c; --accent-soft:#e3ecf7; --warn:#b4531a; --warn-soft:#f8e9dd; --ok:#2a7a4f;
+  --bar:#1f4e8c; --bar2:#9db4d3;
+  --font:'Noto Sans JP','Hiragino Sans','Yu Gothic',system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#12171f; --panel:#1a212c; --fg:#e6eaf0; --muted:#97a3b6; --line:#2b3544;
+  --accent:#7fb0ee; --accent-soft:#1f2c40; --warn:#f0a070; --warn-soft:#3a2a1e; --ok:#6cc79a;
+  --bar:#7fb0ee; --bar2:#3d5578; color-scheme:dark;}}
+:root[data-theme="dark"]{
+  --bg:#12171f; --panel:#1a212c; --fg:#e6eaf0; --muted:#97a3b6; --line:#2b3544;
+  --accent:#7fb0ee; --accent-soft:#1f2c40; --warn:#f0a070; --warn-soft:#3a2a1e; --ok:#6cc79a;
+  --bar:#7fb0ee; --bar2:#3d5578; color-scheme:dark;}
+body{background:var(--bg);color:var(--fg);font-family:var(--font);line-height:1.8;font-size:15px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px 64px}
+main{max-width:860px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+h1{font-size:1.7rem;line-height:1.35;margin:0;text-wrap:balance}
+h2{font-size:1.2rem;margin:0 0 10px;padding-bottom:6px;border-bottom:2px solid var(--accent);text-wrap:balance}
+h3{font-size:1rem;margin:18px 0 6px}
+p{margin:0 0 10px} ul{margin:0 0 10px;padding-left:1.3em} li{margin-bottom:4px}
+.meta{color:var(--muted);font-size:.85rem}
+.tag{display:inline-block;border:1px solid var(--warn);color:var(--warn);border-radius:4px;padding:1px 8px;font-size:.78rem;margin-right:6px}
+section{min-width:0}
+.summary{background:var(--accent-soft);border-left:4px solid var(--accent);padding:14px 16px;border-radius:0 6px 6px 0}
+.summary p:last-child{margin:0}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:12px 0}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:12px 14px;min-width:0}
+.kpi b{display:block;font-size:1.6rem;font-variant-numeric:tabular-nums;line-height:1.2}
+.kpi span{color:var(--muted);font-size:.82rem}
+.tablewrap{overflow-x:auto;background:var(--panel);border:1px solid var(--line);border-radius:6px}
+table{border-collapse:collapse;width:100%;font-size:.88rem;font-variant-numeric:tabular-nums}
+th,td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--accent-soft);font-weight:700;white-space:nowrap}
+td.n,th.n{text-align:right}
+tr:last-child td{border-bottom:0}
+.bars{display:flex;flex-direction:column;gap:6px;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:14px}
+.bar{display:grid;grid-template-columns:7.5em 1fr 4.5em;align-items:center;gap:10px;font-size:.85rem}
+.bar .t{background:var(--line);border-radius:3px;height:16px;overflow:hidden}
+.bar .t i{display:block;height:100%;background:var(--bar)}
+.bar .t i.w{background:var(--warn)}
+.bar .v{text-align:right;font-variant-numeric:tabular-nums}
+.bar .l{min-width:0;overflow-wrap:anywhere}
+.cap{font-size:.8rem;color:var(--muted);margin-top:6px}
+.callout{background:var(--warn-soft);border-left:4px solid var(--warn);padding:12px 14px;border-radius:0 6px 6px 0}
+.callout p:last-child{margin:0}
+code{background:var(--accent-soft);padding:1px 5px;border-radius:3px;font-size:.85em;overflow-wrap:anywhere}
+a{color:var(--accent)}
+@media (max-width:520px){.bar{grid-template-columns:5.5em 1fr 4em;gap:6px}}
+</style>
+
+<main>
+<header>
+  <p class="meta"><span class="tag">社外秘</span>公開しない・記事にしない／調査日 2026-11-26／対象 khansei.co.jp（カンセイ工業株式会社）</p>
+  <h1>カンセイ工業の検索まわりの現状と、取りこぼしている機会</h1>
+  <p class="meta">地域：日本／言語：日本語／データ取得：DataForSEO 公式MCPサーバー v3 経由（Google検索データの推定値）</p>
+</header>
+
+<section class="summary">
+  <p><b>結論：社名で探された人には届いているが、「困りごと」で探した人には届いていない。</b></p>
+  <p>検索経由の推定アクセスは月約250人。うち約99%が社名の検索です。点字・区画線という事業の言葉では、検索結果の3〜4ページ目にいます。</p>
+  <p>ただし、この会社は紹介や既存の取引で十分に仕事が回っており、Web集客を必要としていません。このレポートは「もし本気でやるなら、ここに余地がある」という地図です。やるべき、という提案ではありません。</p>
+</section>
+
+<section>
+  <h2>1. 現在地</h2>
+  <div class="kpis">
+    <div class="kpi"><b>17語</b><span>Googleで順位がついている言葉の数</span></div>
+    <div class="kpi"><b>約250人</b><span>月間の推定検索流入</span></div>
+    <div class="kpi"><b>約99%</b><span>そのうち社名検索の割合</span></div>
+    <div class="kpi"><b>約2人</b><span>事業ページ3つの合計流入（推定）</span></div>
+  </div>
+  <h3>順位の分布（17語）</h3>
+  <div class="bars" role="img" aria-label="順位帯ごとのキーワード数。1〜3位が2語、4〜10位が1語、11〜20位が1語、21〜30位が2語、31〜40位が9語、41位以下が2語。">
+    <div class="bar"><span class="l">1〜3位</span><span class="t"><i style="width:22.2%"></i></span><span class="v">2語</span></div>
+    <div class="bar"><span class="l">4〜10位</span><span class="t"><i style="width:11.1%"></i></span><span class="v">1語</span></div>
+    <div class="bar"><span class="l">11〜20位</span><span class="t"><i style="width:11.1%"></i></span><span class="v">1語</span></div>
+    <div class="bar"><span class="l">21〜30位</span><span class="t"><i style="width:22.2%"></i></span><span class="v">2語</span></div>
+    <div class="bar"><span class="l">31〜40位</span><span class="t"><i class="w" style="width:100%"></i></span><span class="v">9語</span></div>
+    <div class="bar"><span class="l">41位以下</span><span class="t"><i style="width:22.2%"></i></span><span class="v">2語</span></div>
+  </div>
+  <p class="cap">17語のうち9語（53%）が31〜40位に固まっています。検索の4ページ目で、人はほとんど見に来ません。データ：<code>data/site01/B.json</code></p>
+  <h3>先月からの動き</h3>
+  <p>新規に順位がついた言葉8、順位が上がった1、下がった6、圏外に落ちた7。入れ替わりが大きく、順位が安定していません（<code>A.json</code>）。母数が小さいので、少数の変動でもこう見えます。</p>
+</section>
+
+<section>
+  <h2>2. どのページが、何で見つかっているか</h2>
+  <div class="tablewrap"><table>
+    <thead><tr><th>ページ</th><th class="n">推定流入/月</th><th class="n">語数</th><th>順位帯</th><th>見つかっている言葉</th></tr></thead>
+    <tbody>
+      <tr><td>/company/</td><td class="n">157.0</td><td class="n">5</td><td>1位〜48位</td><td>カンセイ工業(月880・1位)、カンセイ(720・5位)、kansei(590・18位)、株式会社カンセイ(590・28位)、カンザイ ロジスティックス(260・48位)</td></tr>
+      <tr><td>/ (トップ)</td><td class="n">90.2</td><td class="n">1</td><td>1位</td><td>カンセイ工業株式会社(170)</td></tr>
+      <tr><td>/services/shikakusyougaisyatenjisheet/</td><td class="n">1.1</td><td class="n">3</td><td>33〜39位</td><td>エレベーター点字シール(390)、点字シート(480)</td></tr>
+      <tr><td>/services/kukakusenyouchakushiki/</td><td class="n">0.7</td><td class="n">5</td><td>31〜38位</td><td>溶融式区画線(390)、区画線とは(390)ほか。5語すべて順位ダウン</td></tr>
+      <tr><td>/services/shikakusyougaisyatenjiline/</td><td class="n">0.5</td><td class="n">3</td><td>25〜70位</td><td>視覚障害者 点字(210)、駅点字ブロック(480・70位)</td></tr>
+    </tbody>
+  </table></div>
+  <p class="cap">月間検索数は全国・Google。流入は順位と検索数から出した推定値で、実測ではありません。(<code>B.json</code>, <code>C.json</code>)</p>
+  <div class="callout">
+    <p><b>名前の混同。</b>「カンセイ」「kansei」「株式会社カンセイ」「カンザイ ロジスティックス」は、別の会社と混ざる言葉です。「カンセイ」は社名検索でも情報探し(informational)に分類されており、何の会社か分からない人が多いことを示します。</p>
+  </div>
+</section>
+
+<section>
+  <h2>3. 同業は誰か</h2>
+  <p>同じ言葉で競合として出てくる376ドメインのうち、Yahoo・楽天・Amazon・YouTubeなど大手は、たまたま同じ言葉で出ているだけなので除外しました。事業が近いのは次の6つです。</p>
+  <div class="tablewrap"><table>
+    <thead><tr><th>ドメイン</th><th>何をしているサイトか</th><th class="n">重なる言葉</th><th class="n">推定流入/月</th></tr></thead>
+    <tbody>
+      <tr><td>miyuki-kasei.co.jp</td><td>点字ブロックなどの製造会社。規模が近い</td><td class="n">6</td><td class="n">約285</td></tr>
+      <tr><td>jrs-line.co.jp</td><td>路面標示・区画線の同業</td><td class="n">6</td><td class="n">約289</td></tr>
+      <tr><td>eight-c.jp</td><td>同業(区画線まわり)</td><td class="n">6</td><td class="n">約173</td></tr>
+      <tr><td>rozaikyo.com</td><td>路面標示の団体・同業</td><td class="n">5</td><td class="n">約120</td></tr>
+      <tr><td>tsrc.or.jp</td><td>業界団体</td><td class="n">6</td><td class="n">約651</td></tr>
+      <tr><td>k-mil.net</td><td>建設の情報サイト。規模が桁違い</td><td class="n">7</td><td class="n">約15,231</td></tr>
+    </tbody>
+  </table></div>
+  <p class="cap">カンセイの推定流入は約250。同業の専業会社はどこも同じ小さな規模で、Webで大きく稼いでいる同業は見当たりません。この業界は、そもそも検索で仕事を取る業界ではないと読めます。(<code>D.json</code>)</p>
+</section>
+
+<section>
+  <h2>4. 相手にあって、こちらにない言葉</h2>
+  <h3>miyuki-kasei：「点字ブロック」の解説ページ1枚</h3>
+  <p>相手は、点字ブロックの説明ページ1枚で、次の言葉の検索結果に出ています（カンセイは、どれも順位なし）。順位は相手のもので、44〜68位が中心です。1位を取っているわけではありません。</p>
+  <div class="bars" role="img" aria-label="点字ブロック関連語の月間検索数">
+    <div class="bar"><span class="l">点字ブロック</span><span class="t"><i style="width:100%"></i></span><span class="v">40,500</span></div>
+    <div class="bar"><span class="l">…の種類</span><span class="t"><i style="width:13.3%"></i></span><span class="v">5,400</span></div>
+    <div class="bar"><span class="l">…イラスト</span><span class="t"><i style="width:4.7%"></i></span><span class="v">1,900</span></div>
+    <div class="bar"><span class="l">…とは/意味</span><span class="t"><i style="width:4%"></i></span><span class="v">1,600</span></div>
+    <div class="bar"><span class="l">…の工夫</span><span class="t"><i style="width:3.2%"></i></span><span class="v">1,300</span></div>
+    <div class="bar"><span class="l">誘導ブロック</span><span class="t"><i style="width:2.2%"></i></span><span class="v">880</span></div>
+    <div class="bar"><span class="l">…設置基準</span><span class="t"><i style="width:1.8%"></i></span><span class="v">720</span></div>
+  </div>
+  <p class="cap">月間検索数（Google・日本）。「点字ブロック」は購入者だけでなく学生・一般の人も探す広い言葉で、仕事につながる割合は低いと考えられます。(<code>E_miyuki-kasei.co.jp.json</code>)</p>
+  <h3>k-mil.net：解説記事＋製品紹介の型</h3>
+  <p>相手が取れていてカンセイが取れていない言葉は3,328語。規模が違いすぎて真似はできませんが、「側溝」「グレーチングとは」「ガードレール」など、道路まわりの解説記事で上位に出ています。解説で入口を作り、製品紹介につなぐ型です。(<code>E_k-mil.net.json</code>)</p>
+</section>
+
+<section>
+  <h2>5. 取り込める余地の試算</h2>
+  <p>事業ページが狙えそうな言葉5つ（月間検索数の合計1,950）で、順位が上がった場合の流入を計算しました。</p>
+  <div class="tablewrap"><table>
+    <thead><tr><th>言葉</th><th class="n">月間検索</th><th>対応ページ</th></tr></thead>
+    <tbody>
+      <tr><td>溶融式 区画線</td><td class="n">390</td><td>区画線（溶融式）</td></tr>
+      <tr><td>エレベーター 点字シール</td><td class="n">390</td><td>点字シート</td></tr>
+      <tr><td>点字シート</td><td class="n">480</td><td>点字シート</td></tr>
+      <tr><td>視覚障害者 点字</td><td class="n">210</td><td>点字ライン</td></tr>
+      <tr><td>駅 点字ブロック</td><td class="n">480</td><td>点字ライン</td></tr>
+    </tbody>
+  </table></div>
+  <div class="kpis">
+    <div class="kpi"><b>約5人</b><span>いま（31〜40位前後）</span></div>
+    <div class="kpi"><b>約115人</b><span>5位に上げた場合</span></div>
+    <div class="kpi"><b>約215人</b><span>3位に上げた場合</span></div>
+  </div>
+  <p class="cap">計算：クリック率は、1位28%・2位15%・3位11%・5位6%と仮定（一般的な目安で、このサイトの実測ではありません）。同じ意味の言い換えは1語として数えました。BtoBは検索数が少ないので、100人強でも「見積もりを考えている施設担当者」が月に百人来るなら小さくない数です。ただし、問い合わせに変わる割合は未測定で、この試算には含めていません。</p>
+</section>
+
+<section>
+  <h2>6. もしやるなら：誰が喜ぶか</h2>
+  <ul>
+    <li><b>探している人：</b>施設の管理者、設計者、自治体の担当者。「点字ブロックの設置基準」「溶融式区画線とは」を調べている人。</li>
+    <li><b>喜ばれるもの：</b>専門用語を使わず、判断の材料になる解説ページ。「どこに頼めばいいか」が分かる導線。</li>
+    <li><b>優先順位：</b>①点字ブロックの種類・設置基準の解説（相手の取り分、検索数が多い）②区画線ページの見直し（5語すべて下降中）③会社概要に「何の会社か」を一文で明記（名前の混同対策）。</li>
+  </ul>
+  <p>どれも「検索で上に出す作業」ではなく、「探している人に答えるページを作る作業」です。順番は、その答えを持っている人（会社の現場）から聞くところから始まります。</p>
+</section>
+
+<section>
+  <h2>7. このレポートの限界</h2>
+  <ul>
+    <li>数字は検索データからの推定で、実際のアクセスではありません。実数は Search Console と GA4 で確認が必要です。</li>
+    <li>順位がついている言葉は17語と少なく、個々の数字には大きな誤差があります。傾向の把握が目的です。</li>
+    <li>対象は日本・日本語のみ。PCとスマホの区別、季節変動、広告は見ていません。</li>
+    <li>検索意図の分類（情報・取引・社名など）は自動判定で、誤りがあります。</li>
+    <li>問い合わせや売上につながる割合は、データがなく試算していません。</li>
+  </ul>
+  <h3>取得方法</h3>
+  <p>公式MCPサーバー <code>dataforseo-mcp-server</code> 3.1.3 を使い、<code>api_request</code> で6回取得（2026-11-26）。内訳：ドメイン概要、順位つきキーワード100件、ページ別、競合ドメイン、同業2社との差分。推定費用は合計で約0.1ドル。生データはリポジトリの <code>2026_11/mcp/data/site01/</code> にあります。</p>
+</section>
+</main>
