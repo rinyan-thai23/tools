@@ -70,7 +70,7 @@
   "c02.desc": "Kiểm tra bài viết của bạn có được AI Mode trích dẫn không",
   "c02.price": "Chi phí ước tính: $0.004 mỗi yêu cầu (khoảng 250 yêu cầu cho $1). Bản mẫu miễn phí. Khi nhập nhiều mục, bạn trả theo từng mục.",
   "c02.eta": "Thời gian tham khảo của công cụ này: khoảng 7–15 giây",
-  "c02.title": "Google AI Mode: câu trả lời và nguồn trích dẫn | Kiểm tra site của bạn",
+  "c02.title": "Google AI Mode: câu trả lời và nguồn trích dẫn | Kiểm tra website của bạn có được trích dẫn không",
   "c02.meta": "Xem câu trả lời Google AI Mode đưa ra cho một câu hỏi, cùng các trang được trích dẫn. Kiểm tra bài viết của bạn hoặc đối thủ có được trích dẫn không. Khởi đầu cho GEO, LLM SEO. Có bản mẫu miễn phí.",
   "c02.keyword": "Từ khóa (một từ hoặc một câu hỏi) (mỗi dòng một mục, tối đa 30)",
   "c02.answer": "Câu trả lời của AI Mode",
