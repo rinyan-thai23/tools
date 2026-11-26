@@ -1,5 +1,5 @@
 {
-  "site.title": "Bộ công cụ DataForSEO, mỗi công cụ một chức năng",
+  "site.title": "Công cụ SEO và dữ liệu tìm kiếm DataForSEO, mỗi công cụ một chức năng",
   "site.lead": "BYOK (mang khóa của riêng bạn): nhập khóa API DataForSEO một lần rồi dùng cho mọi công cụ. Khóa chỉ được lưu trong trình duyệt này.",
   "site.tools": "Công cụ",
   "key.title": "Khóa API",
@@ -64,8 +64,8 @@
   "who.inbound": "Dành cho người làm nội dung hướng ra nước ngoài",
   "who.app_dev": "Dành cho nhà phát triển ứng dụng độc lập",
   "who.youtuber": "Dành cho người muốn làm YouTuber",
-  "site.index_title": "Công cụ DataForSEO (BYOK) | Dữ liệu SEO và tìm kiếm, mỗi công cụ một chức năng",
-  "site.index_meta": "Dùng từng chức năng của API DataForSEO ngay trên màn hình. BYOK (mang khóa của riêng bạn): thứ hạng tìm kiếm, nghiên cứu từ khóa, bản đồ, tin tức và nhiều hơn nữa. Chỉ trả tiền cho phần đã dùng, có bản mẫu miễn phí.",
+  "site.index_title": "Công cụ SEO, nghiên cứu từ khóa trả theo lượt dùng | DataForSEO (BYOK)",
+  "site.index_meta": "62 công cụ DataForSEO, mỗi công cụ một chức năng: thứ hạng Google, nghiên cứu từ khóa, đối thủ, AI tìm kiếm, YouTube. BYOK, không thuê bao, có bản mẫu miễn phí.",
   "c02.name": "Xem câu trả lời của Google AI Mode",
   "c02.desc": "Kiểm tra bài viết của bạn có được AI Mode trích dẫn không",
   "c02.price": "Chi phí ước tính: $0.004 mỗi yêu cầu (khoảng 250 yêu cầu cho $1). Bản mẫu miễn phí. Khi nhập nhiều mục, bạn trả theo từng mục.",
