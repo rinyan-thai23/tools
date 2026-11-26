@@ -1,0 +1,39 @@
+<section class="seo">
+<h2>Các cách kiểm tra website dùng công nghệ gì và so sánh các công cụ chính</h2>
+<p>Khi làm web, việc đầu tiên bạn muốn biết là <strong>website của khách hàng tiềm năng được xây bằng gì</strong>. Nhập một tên miền, công cụ sẽ lập bảng các công nghệ website đang dùng (máy chủ, công cụ phân tích, quảng cáo và hơn thế nữa) theo danh mục.</p>
+<p class="note">* Bây giờ bạn có thể nhập nhiều mục, mỗi dòng một mục (mỗi mục được gửi lần lượt, nên bạn trả tiền theo từng mục). Bảng sẽ có thêm cột "Đầu vào". Chỗ nào phần dưới nói "một", đó là mô tả cho một mục. Xem chi phí ở bảng phía trên.</p>
+<div class="scroll"><table>
+<thead><tr><th>Cách làm / công cụ</th><th>Cách tính phí</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr class="me"><td>Công cụ này (DataForSEO)</td><td>Trả theo từng yêu cầu. Khoảng $0.012 mỗi lần gọi (đã đo thực tế), tức khoảng 83 lần cho $1</td><td>Công nghệ của một tên miền theo danh mục và loại trong một bảng. Có thể lưu thành CSV</td></tr>
+<tr><td>Wappalyzer</td><td>Tài khoản miễn phí được tra cứu 50 công nghệ mỗi tháng (trang giá chính thức). Xem giá gói trả phí trên trang chính thức</td><td>Dịch vụ để nhận diện công nghệ của website</td></tr>
+<tr><td>BuiltWith</td><td>Tra cứu từng website là miễn phí (trang các gói chính thức)</td><td>Dịch vụ để nhận diện công nghệ của website; xuất danh sách thì phải trả phí</td></tr>
+<tr><td>Đọc mã nguồn trang (làm thủ công)</td><td>Miễn phí</td><td>Cần có kinh nghiệm; biến thành danh sách phải làm bằng tay</td></tr>
+</tbody></table></div>
+<p class="asof">Kiểm tra vào tháng 11/2026. Giá có thể thay đổi — hãy xác nhận trên trang chính thức của từng nhà cung cấp trước khi mua.</p>
+
+<h2>Vì sao nên dùng công cụ này</h2>
+<ul>
+<li><strong>Các công nghệ trong một danh sách.</strong> Khi có kết quả, mỗi dòng cho biết danh mục, loại và tên công nghệ. Trong bài thử ở Nhật, xserver.ne.jp cho ra sáu dòng (máy chủ, công cụ phân tích, quản lý thẻ, JavaScript và hơn thế nữa). Với theverge.com (bản mẫu của Mỹ), công cụ trả về 12 dòng, gồm quảng cáo (Amazon Advertising, DoubleClick for Publishers), JavaScript (Next.js, React), máy chủ (Varnish, MySQL), quyền riêng tư (OneTrust) và nội dung (WordPress) (đã đo thực tế). Với nytimes.com, bảng trả về trống, nên bảng trống là điều có thể xảy ra.</li>
+<li><strong>Khoảng $0.012 mỗi lần gọi.</strong> Khoảng 83 lần cho $1.</li>
+<li><strong>Vài giây.</strong> Chúng tôi đo được khoảng 1 đến 2 giây cho theverge.com và khoảng 4 giây ở Nhật.</li>
+<li><strong>Dán URL cũng được.</strong> "https://www.theverge.com/" sẽ được chuyển thành tên miền trước khi tra cứu.</li>
+<li><strong>Lưu thành CSV.</strong> Là nền tảng để làm đề xuất cho khách hàng.</li>
+</ul>
+
+<h2>Khi nào công cụ này không phù hợp</h2>
+<ul>
+<li>Bạn muốn biết <strong>lịch sử sử dụng công nghệ</strong> → đây là ảnh chụp ở thời điểm hiện tại.</li>
+<li>Bạn muốn <strong>tên danh mục bằng ngôn ngữ khác</strong> → danh mục và loại là tên tiếng Anh (ví dụ: Web servers).</li>
+<li>Bạn muốn <strong>các con số như lưu lượng truy cập</strong> → bảng chỉ có tên công nghệ.</li>
+<li>Bạn thấy thiếu <strong>một công nghệ mà bạn mong đợi</strong> → chỉ những công nghệ DataForSEO phát hiện được mới được liệt kê. Lần thử với nytimes.com không trả về gì, nên bảng trống là điều có thể xảy ra.</li>
+</ul>
+<p>Công cụ này chỉ làm một việc: hiển thị công nghệ của một tên miền (danh mục, loại và tên).</p>
+
+<h2>Câu hỏi thường gặp</h2>
+<details><summary>Danh mục và loại là gì?</summary><p>Là cách phân loại của DataForSEO, gồm hai cấp: ví dụ "Web servers" và "Hosting" nằm dưới "Servers".</p></details>
+<details><summary>Có nên thêm www không?</summary><p>Cách nào cũng được. Công cụ sẽ chuyển những gì bạn gõ thành tên miền gọn.</p></details>
+<details><summary>Giá có thay đổi theo số lượng công nghệ không?</summary><p>Mỗi tên miền chúng tôi thử đều tốn khoảng $0.012 (nytimes.com không trả về gì mà vẫn bị tính mức phí đó; theverge.com trả về 12 dòng với cùng mức giá). Chúng tôi chưa xem số lượng công nghệ có ảnh hưởng gì không.</p></details>
+<details><summary>Có tính theo từng trang không?</summary><p>Không. Kết quả tính theo tên miền, không phải theo trang.</p></details>
+<details><summary>Tôi có thể đăng ký bằng email miễn phí không?</summary><p>Không. DataForSEO không chấp nhận các nhà cung cấp email miễn phí. Xem <a href="/dfs-en.html">What is DataForSEO?</a> (tiếng Anh)</p></details>
+</section>
