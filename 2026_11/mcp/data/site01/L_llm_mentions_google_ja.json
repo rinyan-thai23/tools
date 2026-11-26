@@ -1,0 +1,56 @@
+{
+ "version": "0.1.20261117",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.1985 sec.",
+ "cost": 0.1,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "11260933-1289-0657-0000-8d0aec3a7be9",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.1655 sec.",
+   "cost": 0.1,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "ai_optimization",
+    "llm_mentions",
+    "target_metrics_lite",
+    "live"
+   ],
+   "data": {
+    "api": "ai_optimization",
+    "function": "target_metrics_lite",
+    "target": [
+     {
+      "domain": "khansei.co.jp",
+      "search_filter": "include"
+     },
+     {
+      "domain": "miyuki-kasei.co.jp",
+      "search_filter": "include"
+     },
+     {
+      "domain": "jrs-line.co.jp",
+      "search_filter": "include"
+     }
+    ],
+    "location_code": 2392,
+    "language_code": "ja",
+    "platform": "google"
+   },
+   "result": [
+    {
+     "total_count": 0,
+     "offset": 0,
+     "items_count": 0,
+     "aggregated_metrics": null,
+     "items": []
+    }
+   ]
+  }
+ ]
+}
