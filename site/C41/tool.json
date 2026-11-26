@@ -53,7 +53,8 @@
   "csv": "C41.csv",
   "sample_langs": [
     "zh-TW",
-    "en"
+    "en",
+    "vi"
   ],
   "copy": true,
   "chunk": {
