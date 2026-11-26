@@ -348,6 +348,39 @@
   "c31.keyword": "Từ khóa (một từ)",
   "c31.col.region": "Khu vực (tiếng Anh)",
   "c31.col.value": "Mức quan tâm (cao nhất = 100)",
+  "c32.name": "Xem độ tuổi và giới tính người tìm kiếm",
+  "c32.desc": "Biết độ tuổi và giới tính của người đọc",
+  "c32.price": "Chi phí: khoảng $0.0024 mỗi lần gọi (khoảng 400 lần cho $1). Bản mẫu miễn phí.",
+  "c32.eta": "Thời gian tham khảo: khoảng 1 giây",
+  "c32.title": "Nhân khẩu học tìm kiếm | Độ tuổi và giới tính (Bản mẫu miễn phí)",
+  "c32.meta": "Nhập một từ khóa để xem nhóm tuổi và tỷ lệ giới tính của những người tìm kiếm nó, dưới dạng bảng và biểu đồ cột. Giúp bạn nhanh chóng biết khán giả của mình là ai. Có bản mẫu miễn phí.",
+  "c32.keyword": "Từ khóa (một từ khóa)",
+  "c32.col.age": "Nhóm tuổi",
+  "c32.col.value": "Giá trị (cao nhất = 100)",
+  "c32.col.gender": "Giới tính",
+  "c32.col.g_value": "Giá trị (cao nhất = 100)",
+  "c32.age_title": "Nhóm tuổi",
+  "c32.gender_title": "Giới tính",
+  "c33.name": "Xem lượt tìm kiếm theo quốc gia",
+  "c33.desc": "Xem những quốc gia nào tìm một từ khóa",
+  "c33.price": "Chi phí: khoảng $0.18 mỗi lần gọi (khoảng 5 lần cho $1). Bản mẫu miễn phí.",
+  "c33.eta": "Thời gian tham khảo: vài giây",
+  "c33.title": "Lượt tìm kiếm theo quốc gia | Từ khóa quốc tế (Mẫu miễn phí)",
+  "c33.meta": "Nhập một từ khóa để xem những quốc gia nào tìm nó, kèm tỷ lệ của từng quốc gia. Kiểm tra xem từ khóa có được tìm ở nước ngoài không: nghiên cứu từ khóa quốc tế và SEO quốc tế. Có bản mẫu miễn phí.",
+  "c33.keyword": "Từ khóa (một từ khóa)",
+  "c33.col.country": "Quốc gia (mã ISO)",
+  "c33.col.volume": "Lượt tìm kiếm",
+  "c33.col.share": "Tỷ lệ (%)",
+  "c34.name": "Xem từ khóa liên quan đến một website",
+  "c34.desc": "Tìm từ khóa phù hợp với blog của bạn",
+  "c34.price": "Chi phí: khoảng $0.024 cho 100 dòng và khoảng $0.13 cho 1.000 dòng (đã đo trên các endpoint Labs; tăng khoảng $0.0001 mỗi dòng). Bản mẫu miễn phí.",
+  "c34.eta": "Thời gian tham khảo: vài giây",
+  "c34.title": "Từ khóa liên quan đến website | Có lượt tìm kiếm và độ khó",
+  "c34.meta": "Nhập một tên miền để xem các từ khóa liên quan đến website đó, kèm lượt tìm kiếm hàng tháng và độ khó từ khóa. Giúp tìm từ khóa hợp với blog hay website. Có bản mẫu miễn phí.",
+  "c34.keyword": "Tên miền (ví dụ: example.com)",
+  "c34.col.keyword": "Từ khóa",
+  "c34.col.volume": "Lượt tìm kiếm hàng tháng",
+  "c34.col.kd": "Độ khó (0–100)",
   "c35.name": "Xem từ khóa liên quan",
   "c35.desc": "Tìm ý tưởng cho bài viết tiếp theo của bạn",
   "c35.price": "Chi phí: khoảng $0.024 cho 100 dòng và khoảng $0.13 cho 1.000 dòng (đã đo trên các endpoint Labs; tăng khoảng $0.0001 cho mỗi dòng). Bản mẫu miễn phí.",
@@ -358,6 +391,48 @@
   "c35.col.keyword": "Từ khóa",
   "c35.col.volume": "Lượt tìm kiếm hàng tháng",
   "c35.col.kd": "Độ khó (0–100)",
+  "c36.name": "Xem các cụm từ chứa một từ khóa",
+  "c36.desc": "Tìm các cụm từ dài (long-tail)",
+  "c36.price": "Chi phí: khoảng $0.024 cho 100 dòng và khoảng $0.13 cho 1.000 dòng (đã đo trên các endpoint Labs; tăng khoảng $0.0001 mỗi dòng). Bản mẫu miễn phí.",
+  "c36.eta": "Thời gian tham khảo: dưới 1 giây",
+  "c36.title": "Từ khóa dài (long-tail) | Biến thể có lượt tìm kiếm và độ khó",
+  "c36.meta": "Nhập một từ khóa để xem các từ khóa dài (long-tail) chứa nó, dạng danh sách có lượt tìm kiếm và độ khó từ khóa. Tìm các biến thể và cách kết hợp từ khóa ít cạnh tranh hơn. Có bản mẫu miễn phí.",
+  "c36.keyword": "Từ khóa (một từ khóa)",
+  "c36.col.keyword": "Từ khóa",
+  "c36.col.volume": "Lượt tìm kiếm hàng tháng",
+  "c36.col.kd": "Độ khó (0–100)",
+  "c37.name": "Xem từ khóa cùng chủ đề",
+  "c37.desc": "Tìm các từ khóa diễn đạt theo cách khác",
+  "c37.price": "Chi phí: khoảng $0.024 cho 100 dòng và khoảng $0.13 cho 1.000 (đã đo trên các endpoint Labs; tăng khoảng $0.0001 mỗi dòng). Bản mẫu miễn phí.",
+  "c37.eta": "Thời gian tham khảo: vài giây",
+  "c37.title": "Gợi ý từ khóa | Từ đồng nghĩa và từ gần nghĩa (bản mẫu miễn phí)",
+  "c37.meta": "Nhập một từ khóa để nhận gợi ý từ khóa, từ đồng nghĩa và từ gần nghĩa cùng chủ đề, kèm lượt tìm kiếm. Công cụ gợi ý từ khóa để nghĩ ra cách diễn đạt khác. Bản mẫu miễn phí.",
+  "c37.keyword": "Từ khóa (một từ)",
+  "c37.col.keyword": "Từ khóa",
+  "c37.col.volume": "Lượt tìm kiếm hàng tháng",
+  "c37.col.kd": "Độ khó (0–100)",
+  "c38.name": "Xem độ khó từ khóa",
+  "c38.desc": "Xem độ khó của nhiều từ khóa cùng lúc",
+  "c38.price": "Chi phí: khoảng $0.012 cho 3 từ khóa và $0.072 cho 500 (đều đã đo). Khoảng $0.13 cho tối đa 1.000 trong một lần (ước tính). Trên 1.000 sẽ tự động chia nhỏ, tối đa 5.000 (khoảng $0.66). Bản mẫu miễn phí.",
+  "c38.eta": "Thời gian tham khảo: vài giây",
+  "c38.title": "Độ khó từ khóa | Kiểm tra nhiều từ khóa cùng lúc (bản mẫu miễn phí)",
+  "c38.meta": "Nhập nhiều từ khóa và nhận độ khó từ khóa của từng từ trong một bảng. So sánh từ khóa nào trông dễ xếp hạng hơn. Độ khó có thể để trống với từ khóa ngoài dữ liệu SERP của DataForSEO.",
+  "c38.keyword": "Từ khóa (mỗi dòng một từ khóa, tối đa 5.000)",
+  "c38.col.keyword": "Từ khóa",
+  "c38.col.kd": "Độ khó (0–100)",
+  "c39.name": "Xem ý định tìm kiếm",
+  "c39.desc": "Xem người tìm kiếm đang muốn mua hay đang tìm hiểu",
+  "c39.price": "Chi phí: khoảng $0.012 cho 3 từ khóa và $0.072 cho 500 từ khóa (đều là số đã đo thực tế). Khoảng $0.13 cho tối đa 1.000 từ khóa trong một lần (số tham khảo). Trên 1.000, công cụ tự chia danh sách, tối đa 5.000 (khoảng $0.66). Bản mẫu miễn phí.",
+  "c39.eta": "Thời gian tham khảo: vài giây",
+  "c39.title": "Kiểm tra ý định tìm kiếm | Phân loại từ khóa (bản mẫu miễn phí)",
+  "c39.meta": "Nhập nhiều từ khóa để xem ý định tìm kiếm của từng từ khóa (thông tin, thương mại, giao dịch, điều hướng) dưới dạng tỷ lệ trong một bảng. Phân biệt người muốn mua với người muốn tìm hiểu.",
+  "c39.keyword": "Từ khóa (mỗi từ khóa một dòng, tối đa 5.000)",
+  "c39.col.keyword": "Từ khóa",
+  "c39.col.intent": "Ý định tìm kiếm",
+  "c39.v.informational": "Thông tin",
+  "c39.v.commercial": "Thương mại",
+  "c39.v.transactional": "Giao dịch",
+  "c39.v.navigational": "Điều hướng",
   "c40.name": "Xem dữ liệu cơ bản của một từ khóa",
   "c40.desc": "Xem các con số của một từ khóa cùng lúc",
   "c40.price": "Chi phí: khoảng $0.012 cho 1 từ khóa và $0.0294 cho 500 từ khóa (đã đo; 145 từ khóa có dữ liệu). Giá tính theo số dòng trả về. Bản mẫu miễn phí.",
@@ -382,6 +457,34 @@
   "c41.keyword": "Từ khóa (mỗi dòng một từ khóa, tối đa 500)",
   "c41.col.ym": "Tháng",
   "c41.col.volume": "Lượt tìm kiếm",
+  "c42.name": "Xem danh mục của một website",
+  "c42.desc": "Xem website của đối thủ mạnh ở những danh mục nào",
+  "c42.price": "Chi phí: khoảng $0.024 mỗi lần gọi (100 dòng, khoảng 40 lần cho $1). Bản mẫu miễn phí.",
+  "c42.eta": "Thời gian tham khảo: vài giây",
+  "c42.title": "Danh mục website | Đối thủ mạnh ở chủ đề nào (bản mẫu miễn phí)",
+  "c42.meta": "Nhập một tên miền để xem các danh mục (chủ đề) mà website xuất hiện trên Google, kèm số từ khóa và lưu lượng truy cập ước tính của từng danh mục. Xem đối thủ mạnh ở mảng nào. Có bản mẫu miễn phí.",
+  "c42.keyword": "Tên miền (ví dụ: example.com)",
+  "c42.col.category": "Danh mục",
+  "c42.col.keywords": "Từ khóa",
+  "c42.col.etv": "Lưu lượng truy cập ước tính",
+  "c43.name": "Xem những từ được tìm nhiều nhất",
+  "c43.desc": "Duyệt các từ được tìm kiếm nhiều nhất",
+  "c43.price": "Chi phí: khoảng $0.024 cho mỗi lần gọi (100 dòng, khoảng 40 lần cho $1). Bản mẫu miễn phí.",
+  "c43.eta": "Thời gian tham khảo: vài giây",
+  "c43.title": "Top tìm kiếm Google | Từ khóa tìm nhiều nhất (Bản mẫu miễn phí)",
+  "c43.meta": "Lấy các từ khóa được tìm nhiều nhất, xếp theo lượt tìm kiếm. Duyệt top tìm kiếm trên Google. Đây là danh sách từ khóa có lượt tìm cao, không phải những từ đang tăng nhanh nhất. Bản mẫu miễn phí.",
+  "c43.col.keyword": "Từ khóa",
+  "c43.col.volume": "Lượt tìm kiếm hàng tháng",
+  "c44.name": "Xem các website mạnh theo từ khóa",
+  "c44.desc": "Xem các website mạnh trong một lĩnh vực",
+  "c44.price": "Chi phí: khoảng $0.024 cho 100 dòng và khoảng $0.13 cho 1.000 dòng (đã đo trên các endpoint Labs; tăng khoảng $0.0001 mỗi dòng). Bản mẫu miễn phí.",
+  "c44.eta": "Thời gian tham khảo: vài giây",
+  "c44.title": "Phân tích đối thủ SEO | Tên miền xếp hạng theo từ khóa (Mẫu miễn phí)",
+  "c44.meta": "Nhập vài từ khóa và nhận về các tên miền xếp hạng cho chúng thành một bảng. Phân tích đối thủ cạnh tranh cho SEO: xem website nào mạnh trên cả nhóm từ khóa. Bản mẫu miễn phí.",
+  "c44.keyword": "Từ khóa (mỗi dòng một từ khóa)",
+  "c44.col.domain": "Tên miền",
+  "c44.col.avg_position": "Vị trí trung bình",
+  "c44.col.etv": "Lưu lượng truy cập ước tính",
   "c45.name": "Xem website xếp hạng cao với từ khóa nào",
   "c45.desc": "Xem blog của bạn hoặc của đối thủ xếp hạng với những từ khóa nào",
   "c45.price": "Chi phí: $0.024 cho 100 dòng và $0.132 cho 1.000 dòng (đều đã đo thực tế). Chi phí tăng chậm theo số dòng (khoảng $0.0001 mỗi dòng). Bản mẫu miễn phí.",
@@ -506,6 +609,8 @@
   "c41.ai_prompt": "Bạn là trợ lý giúp tìm mùa bán hàng tốt nhất.\nNgười đọc là người bán sản phẩm hoặc dịch vụ và muốn biết \"mùa cao điểm mỗi năm là khi nào\" để lên kế hoạch chuẩn bị.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Năm-tháng: tháng của bản ghi. Tháng không có bản ghi có thể không có dòng.\n  - Lượt tìm kiếm: ước tính số lượt tìm kiếm trên Google trong tháng đó.\n- Con số của một tháng sau này có thể được thay bằng một giá trị khác. Đây là ước tính, không phải số đếm chính xác.\n\n# Việc tôi muốn bạn làm\n1. Với mỗi năm, hãy nêu tháng có nhiều lượt tìm kiếm nhất. Cho tôi biết luôn là mỗi năm có phải cùng một tháng không.\n2. Tính tỷ lệ giữa tháng nhiều lượt tìm kiếm nhất và tháng ít nhất.\n3. Cho tôi biết về các tháng không có bản ghi hoặc bằng 0.\n4. Gợi ý thời điểm nên bắt đầu chuẩn bị cho mùa cao điểm, ghi rõ \"đây là suy đoán\", và viết ngắn gọn.\n\n# Quy tắc\n- Nếu có nhiều từ khóa, hãy trả lời riêng cho từng từ khóa.\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (năm / tháng cao điểm / lượt tìm kiếm trong tháng cao điểm).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
   "c45.ai_prompt": "Bạn là trợ lý giúp phân tích từ khóa của một website.\nNgười đọc là một blogger tiếp thị liên kết (affiliate), muốn xem blog của mình hoặc của đối thủ xuất hiện trong tìm kiếm với những từ khóa nào.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Từ khóa: từ khóa mà website tôi nhập nằm trong top 10 của kết quả tìm kiếm thông thường.\n  - Thứ hạng: vị trí cho từ khóa đó (1-10).\n  - Lượt tìm kiếm hàng tháng: ước tính dựa trên dữ liệu Google Ads.\n  - URL trang: trang xuất hiện cho từ khóa đó.\n- Dữ liệu này chỉ gồm top 100 theo lượt tìm kiếm. Đây không phải tất cả từ khóa trong top 10. Các biến thể chính tả có thể xuất hiện như những từ khóa riêng.\n\n# Việc tôi muốn bạn làm\n1. Gom các từ khóa thành 3-5 chủ đề.\n2. Liệt kê các từ khóa có lượt tìm kiếm lớn nhưng thứ hạng thấp hơn (ứng viên để cải thiện).\n3. Liệt kê các từ khóa đứng hạng 1 nhưng có lượt tìm kiếm nhỏ, nếu có.\n4. Gợi ý 5 bài viết nên viết tiếp theo, kèm lý do.\n5. Nói ngắn gọn điều gì không thể biết chỉ từ dữ liệu (ví dụ: vì sao trang đứng ở thứ hạng đó).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (nhóm / từ khóa / thứ hạng / lượt tìm kiếm hàng tháng).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
   "c45.ai_prompt_diff": "Bạn là trợ lý giúp so sánh từ khóa của một website theo thời gian.\nNgười đọc là một blogger tiếp thị liên kết (affiliate), đã kiểm tra cùng một website hai lần vào hai ngày khác nhau và muốn biết thứ hạng đã thay đổi thế nào.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Lần trước: {prev_date}\n- Các cột: Từ khóa là một từ khóa trong top 10, Thứ hạng là 1-10, Lượt tìm kiếm hàng tháng là ước tính dựa trên dữ liệu Google Ads.\n- Dữ liệu chỉ gồm top 100 theo lượt tìm kiếm. Từ khóa chỉ xuất hiện ở một trong hai lần thì ghi là \"mới\" hoặc \"đã biến mất\".\n\n# Việc tôi muốn bạn làm\n1. Các từ khóa tăng hoặc giảm thứ hạng, kèm lần trước và lần này.\n2. Các từ khóa mới và các từ khóa đã biến mất, kèm lượt tìm kiếm.\n3. Tóm tắt ngắn gọn, bằng con số, xem thay đổi lớn hay nhỏ.\n4. Nói điều gì không thể biết chỉ từ dữ liệu: thay đổi đó là thật, hay chỉ là nhiễu của dữ liệu?\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (từ khóa / thứ hạng lần trước / thứ hạng hiện tại).\n\n# Dữ liệu lần trước (phân tách bằng Tab)\n```\n{prev_data}\n```\n\n# Dữ liệu lần này (phân tách bằng Tab)\n```\n{data}\n```",
+  "c38.ai_prompt": "Bạn là trợ lý giúp so sánh độ khó của các từ khóa.\nNgười đọc là một blogger mới bắt đầu, muốn thu hẹp nhiều từ khóa ứng viên.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Độ khó (0-100): mức tham khảo cho biết xếp hạng cao khó đến đâu. Số càng lớn càng khó. Đây chỉ là tham khảo, không phải bảo đảm. Để trống nghĩa là không có dữ liệu.\n\n# Việc tôi muốn bạn làm\n1. Liệt kê 10 từ khóa có độ khó thấp nhất (bỏ qua các dòng để trống).\n2. Nếu bạn đọc ra được điều gì từ các từ trong những từ khóa có độ khó cao, hãy viết ngắn gọn.\n3. Nếu có từ khóa để trống, hãy liệt kê chúng và ghi chú rằng \"không có dữ liệu\" không có nghĩa là độ khó thấp.\n4. Nói ngắn gọn điều gì không thể biết chỉ từ dữ liệu (ví dụ: nếu tôi viết bài thì có lên được top không).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (từ khóa / độ khó).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
+  "c39.ai_prompt": "Bạn là trợ lý giúp phân loại xem người tìm kiếm muốn gì.\nNgười đọc là một blogger mới bắt đầu, muốn biết trước khi viết bài: \"người tìm từ khóa này muốn làm gì?\".\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số từ khóa: {n}\n- Giải thích các cột\n  - Ý định tìm kiếm: kết quả phân loại do API trả về (thông tin = muốn biết, thương mại = muốn so sánh, giao dịch = muốn mua hoặc đăng ký, điều hướng = muốn vào một website cụ thể). Phân loại này chỉ mang tính tham khảo.\n\n# Việc tôi muốn bạn làm\n1. Đếm số từ khóa theo từng ý định tìm kiếm.\n2. Giải thích ngắn gọn bài viết nên khác nhau thế nào giữa từ khóa \"muốn biết\" và từ khóa \"muốn mua / so sánh\".\n3. Nếu có, liệt kê các từ khóa có ý định tìm kiếm để trống.\n4. Nói ngắn gọn những điều không thể biết chỉ từ dữ liệu này (ví dụ: người đọc thật sự mong đợi điều gì).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (ý định tìm kiếm / số từ khóa / ví dụ).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
   "c40.ai_prompt": "Bạn là trợ lý giúp đánh giá một từ khóa.\nNgười đọc là một blogger mới bắt đầu, muốn quyết định có nên viết về một từ khóa hay không.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Lượt tìm kiếm hàng tháng: ước tính dựa trên dữ liệu Google Ads. Để trống nghĩa là \"không có dữ liệu\", chưa chắc là bằng 0.\n  - CPC (USD): giá trung bình mỗi lượt nhấp mà nhà quảng cáo trả. Đây không phải giá trị của một bài viết.\n  - Độ khó (0-100): chỉ số tham khảo cho việc đứng top khó đến đâu. Đây chỉ là gợi ý, không phải bảo đảm.\n  - Ý định tìm kiếm: phân loại người tìm muốn gì (muốn biết, muốn so sánh, muốn mua...). Chỉ để tham khảo.\n- Đầu vào là một từ khóa nên bảng có một dòng.\n\n# Việc tôi muốn bạn làm\n1. Liệt kê 3 điểm cần xem, dựa trên các con số, khi quyết định có nên viết về từ khóa này.\n2. Tóm tắt ngắn gọn các con số cho biết điều gì (quy mô tìm kiếm, độ khó, ý định).\n3. Nói ngắn gọn điều gì không thể biết chỉ từ dữ liệu (ví dụ: nếu tôi viết thì có lên được top không).\n4. Liệt kê 3 việc cần kiểm tra tiếp theo, theo thứ tự.\n\n# Quy tắc\n- Nếu có nhiều từ khóa, hãy trả lời riêng cho từng từ khóa.\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một trong hai: \"nên viết\" / \"tìm hiểu thêm một chút\", kèm lý do trong một dòng.\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
   "ui.ai_answer_head": "[Câu trả lời]",
   "ui.ai_refs_head": "[Bảng nguồn]",
@@ -532,12 +637,64 @@
   "c29.ai_prompt": "Bạn là trợ lý giúp đọc Google Trends.\nNgười đọc là người muốn so sánh xem mức quan tâm của các cụm từ thay đổi thế nào.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Giai đoạn (tuần): tuần đó.\n  - Mức quan tâm (theo thứ tự đã nhập): mức quan tâm (0-100) của từng cụm từ, theo thứ tự đã nhập. Đây không phải lượt tìm kiếm.\n  - Kết quả và con số có thể thay đổi theo địa điểm và thời gian. Đây là kết quả của ngày này và điều kiện này.\n\n# Việc tôi muốn bạn làm\n1. Với từng cụm từ, nêu tuần đạt đỉnh và giá trị trung bình.\n2. So sánh trung bình của 4 tuần đầu và 4 tuần cuối để xem cụm từ nào tăng, cụm từ nào giảm.\n3. Nói ngắn gọn, kèm con số, các cụm từ có biến động giống nhau hay không.\n4. Nói ngắn gọn điều gì không thể biết chỉ từ dữ liệu (ví dụ: nguyên nhân hoặc kết quả trong tương lai).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (cụm từ / tuần đạt đỉnh / trung bình).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
   "c30.ai_prompt": "Bạn là trợ lý giúp đọc xu hướng mức quan tâm theo thời gian.\nNgười đọc là người muốn biết một từ khóa trở nên phổ biến vào lúc nào.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Khoảng thời gian (tuần): tuần đó.\n  - Mức quan tâm (0-100): giá trị tương đối, trong đó mức cao nhất của cả giai đoạn là 100. Không phải lượt tìm kiếm.\n  - Kết quả và con số có thể thay đổi theo địa điểm và thời điểm. Đây là kết quả của ngày này và điều kiện này.\n\n# Việc tôi muốn bạn làm\n1. Nêu tên các tuần cao điểm và cho tôi biết chúng có rơi vào cùng một mùa mỗi năm không.\n2. So sánh mức trung bình của 4 tuần gần nhất với cùng các tuần của một năm trước.\n3. Cho tôi biết về các giai đoạn có giá trị bằng 0 hoặc rất nhỏ, nếu có.\n4. Nói ngắn gọn điều gì không thể biết chỉ từ dữ liệu (ví dụ: nguyên nhân hoặc kết quả trong tương lai).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng tóm tắt các cao điểm (khoảng thời gian / mức quan tâm).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
   "c31.ai_prompt": "Bạn là trợ lý giúp đọc mức quan tâm theo khu vực.\nNgười đọc là người muốn biết một từ khóa phổ biến ở những khu vực nào.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Khu vực: một tỉnh (prefecture) hoặc khu vực khác.\n  - Mức quan tâm (max=100): giá trị tương đối, trong đó khu vực cao nhất là 100. Không phải lượt tìm kiếm.\n  - Kết quả và con số có thể thay đổi theo địa điểm và thời điểm. Đây là kết quả của ngày này và điều kiện này.\n\n# Việc tôi muốn bạn làm\n1. Liệt kê 5 khu vực có mức quan tâm cao nhất.\n2. Liệt kê 5 khu vực thấp nhất.\n3. Tóm tắt ngắn gọn, kèm con số, mức chênh lệch giữa các khu vực.\n4. Nói ngắn gọn điều gì không thể biết chỉ từ dữ liệu (ví dụ: nguyên nhân hoặc kết quả trong tương lai).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (khu vực / mức quan tâm).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
+  "c32.ai_prompt": "Bạn là trợ lý giúp đọc xem ai đang tìm kiếm.\nNgười đọc muốn biết độ tuổi và giới tính của những người tìm kiếm một cụm từ.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Nhóm tuổi / giới tính: các nhóm người.\n  - Giá trị (max=100): giá trị tương đối, trong đó nhóm cao nhất là 100. Đây không phải số người.\n  - Kết quả và con số có thể thay đổi theo địa điểm và thời gian. Dữ liệu này chỉ đúng cho ngày này và các điều kiện này.\n\n# Việc tôi muốn bạn làm\n1. Sắp xếp các nhóm tuổi theo giá trị.\n2. So sánh giá trị của các giới tính và cho tôi biết giới tính nào cao hơn.\n3. Gợi ý cách nghĩ về độ tuổi và giới tính của người đọc khi viết về cụm từ này, trong phạm vi dữ liệu cho thấy.\n4. Nói ngắn gọn những điều không thể biết chỉ từ dữ liệu (ví dụ: lý do hoặc kết quả trong tương lai).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (nhóm / giá trị).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
+  "c33.ai_prompt": "Bạn là trợ lý giúp đọc lượt tìm kiếm theo quốc gia.\nNgười đọc muốn biết cụm từ này có được tìm ở nước ngoài hay không.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Quốc gia (mã ISO): mã 2 chữ cái (JP = Nhật Bản).\n  - Lượt tìm kiếm / tỷ lệ (%): lượt tìm kiếm ước tính ở quốc gia đó và tỷ lệ của nó trong tổng số.\n\n# Việc tôi muốn bạn làm\n1. Liệt kê 5 quốc gia có tỷ lệ cao nhất.\n2. So sánh tỷ lệ của Nhật Bản với các quốc gia còn lại.\n3. Liệt kê 3 điểm cần lưu ý khi cân nhắc viết cho độc giả ở nước ngoài.\n4. Nói ngắn gọn những điều không thể biết chỉ từ dữ liệu (ví dụ: lý do hoặc kết quả trong tương lai).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (quốc gia / lượt tìm kiếm / tỷ lệ).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
+  "c34.ai_prompt": "Bạn là trợ lý giúp sắp xếp các từ khóa phù hợp với một website.\nNgười đọc là người muốn tìm từ khóa phù hợp với website của mình hoặc của đối thủ cạnh tranh.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Lượt tìm kiếm hàng tháng: ước tính dựa trên dữ liệu Google Ads. Để trống nghĩa là \"không có dữ liệu\", chưa chắc là bằng 0.\n  - Độ khó (0-100): chỉ số tham khảo cho việc đứng top khó đến mức nào. Đây chỉ là tham khảo, không phải bảo đảm.\n  - Kết quả và con số có thể thay đổi theo địa điểm và thời gian. Đây là dữ liệu của ngày này và điều kiện này.\n\n# Việc tôi muốn bạn làm\n1. Chia các từ khóa thành 3-5 chủ đề.\n2. Liệt kê 5 từ khóa có lượt tìm kiếm lớn và độ khó thấp hơn, kèm lý do và con số.\n3. Gợi ý 3 bài viết nên viết tiếp theo.\n4. Nói ngắn gọn điều gì không thể biết chỉ từ dữ liệu (ví dụ: lý do hoặc kết quả trong tương lai).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (nhóm / từ khóa / lượt tìm kiếm / độ khó).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
+  "c36.ai_prompt": "Bạn là trợ lý giúp sắp xếp các từ khóa dài (long-tail).\nNgười đọc là người muốn chọn bài viết từ những cụm từ cụ thể (long-tail) có chứa một từ khóa.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Lượt tìm kiếm hàng tháng: ước tính dựa trên dữ liệu Google Ads. Để trống nghĩa là \"không có dữ liệu\", chưa chắc là bằng 0.\n  - Độ khó (0-100): chỉ số tham khảo cho việc đứng top khó đến mức nào. Đây chỉ là tham khảo, không phải bảo đảm.\n  - Kết quả và con số có thể thay đổi theo địa điểm và thời gian. Đây là dữ liệu của ngày này và điều kiện này.\n\n# Việc tôi muốn bạn làm\n1. Chia các từ khóa thành 3-5 nhóm theo nỗi băn khoăn hoặc mục đích.\n2. Liệt kê 5 ứng viên trông dễ viết dù lượt tìm kiếm nhỏ, kèm lý do và con số.\n3. Đưa ra 3 ý tưởng tiêu đề.\n4. Nói ngắn gọn điều gì không thể biết chỉ từ dữ liệu (ví dụ: lý do hoặc kết quả trong tương lai).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (nhóm / từ khóa / lượt tìm kiếm / độ khó).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
+  "c37.ai_prompt": "Bạn là trợ lý giúp sắp xếp các từ khóa cùng chủ đề.\nNgười đọc là người muốn tìm cách diễn đạt khác và các từ gần nghĩa của một từ khóa.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Lượt tìm kiếm hàng tháng: ước tính dựa trên dữ liệu Google Ads. Để trống nghĩa là \"không có dữ liệu\", chưa chắc là bằng 0.\n  - Độ khó (0-100): mức tham khảo cho biết xếp hạng cao khó đến đâu. Đây chỉ là tham khảo, không phải bảo đảm.\n  - Kết quả và con số có thể thay đổi theo địa điểm và thời gian. Đây là kết quả của ngày này và điều kiện này.\n\n# Việc tôi muốn bạn làm\n1. Gom các cách diễn đạt khác và các từ khóa cùng nghĩa.\n2. Liệt kê 5 từ khóa theo lượt tìm kiếm.\n3. Gợi ý 3 cụm từ có thể dùng làm biến thể trong bài viết.\n4. Nói ngắn gọn điều gì không thể biết chỉ từ dữ liệu (ví dụ: lý do hoặc kết quả trong tương lai).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (từ khóa / lượt tìm kiếm / độ khó).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
+  "c42.ai_prompt": "Bạn là trợ lý giúp sắp xếp các danh mục của một website.\nNgười đọc là người muốn biết đối thủ cạnh tranh mạnh ở những lĩnh vực nào.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Danh mục: lĩnh vực mà website xuất hiện trên Google.\n  - Từ khóa: số từ khóa thuộc lĩnh vực đó.\n  - Lưu lượng truy cập ước tính: ước tính số lượt truy cập từ tìm kiếm. Đây không phải số lượt truy cập thật.\n\n# Việc tôi muốn bạn làm\n1. Liệt kê 5 danh mục có lưu lượng truy cập ước tính cao nhất.\n2. Cho tôi biết, dưới dạng tỷ lệ, lưu lượng truy cập tập trung vào các danh mục như thế nào.\n3. Liệt kê các danh mục có nhiều từ khóa nhưng lưu lượng truy cập nhỏ.\n4. Nói ngắn gọn những điều không thể biết chỉ từ dữ liệu này (ví dụ: nguyên nhân hoặc kết quả trong tương lai).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (danh mục / từ khóa / lưu lượng truy cập ước tính).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
+  "c43.ai_prompt": "Bạn là trợ lý giúp sắp xếp các từ được tìm kiếm nhiều.\nNgười đọc là người muốn xem những từ nào đang được tìm kiếm nhiều.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Lượt tìm kiếm hàng tháng: ước tính dựa trên dữ liệu Google Ads. Để trống nghĩa là \"không có dữ liệu\", chưa chắc là bằng 0.\n  - Kết quả và con số có thể thay đổi theo địa điểm và thời gian. Dữ liệu này chỉ đúng cho ngày này và các điều kiện này.\n\n# Việc tôi muốn bạn làm\n1. Chia các từ thành 3-5 nhóm chủ đề.\n2. Liệt kê 10 từ theo lượt tìm kiếm.\n3. Liệt kê những từ có thể liên quan đến blog của tôi, nếu có.\n4. Đây là danh sách các từ được tìm kiếm nhiều, không phải các từ đang tăng nhanh. Hãy nói ngắn gọn những điều không thể biết chỉ từ dữ liệu này (ví dụ: bây giờ từ đó có đang là xu hướng hay không).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (nhóm chủ đề / từ khóa / lượt tìm kiếm).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
+  "c44.ai_prompt": "Bạn là trợ lý giúp tìm các website mạnh cho một nhóm từ khóa.\nNgười đọc là người muốn biết website nào xếp hạng cho các từ khóa của mình.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Tên miền: website xếp hạng cho các từ khóa tôi đã nhập.\n  - Vị trí trung bình: thứ hạng trung bình của website trên các từ khóa tôi đã nhập.\n  - Lưu lượng truy cập ước tính: ước tính số lượt truy cập từ tìm kiếm. Đây không phải số lượt truy cập thật.\n\n# Việc tôi muốn bạn làm\n1. Liệt kê 5 website có vị trí trung bình tốt nhất.\n2. Liệt kê các website có lưu lượng truy cập ước tính lớn và so sánh với vị trí trung bình của chúng.\n3. Liệt kê 3 website cần theo dõi như những đối thủ mạnh, kèm lý do.\n4. Hãy nói ngắn gọn những điều không thể biết chỉ từ dữ liệu này (ví dụ: nguyên nhân hoặc kết quả trong tương lai).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (tên miền / vị trí trung bình / lưu lượng truy cập ước tính).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
   "c62.ai_prompt": "Bạn là trợ lý giúp đọc điểm tốc độ của trang web.\nNgười đọc là người muốn kiểm tra trang của mình hoặc của đối thủ hiện ra nhanh đến đâu.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Mục / điểm: bốn điểm Lighthouse (hiệu suất, khả năng truy cập, thực hành tốt nhất, SEO), trên thang 100, với cài đặt di động.\n  - Chỉ số tốc độ (bảng thứ hai): giá trị của FCP, LCP, TBT, CLS và Speed Index.\n  - Các con số thay đổi đôi chút mỗi lần đo. Đây không phải trải nghiệm thật của khách truy cập.\n\n# Việc tôi muốn bạn làm\n1. Liệt kê các điểm thấp và cho biết những chỉ số nào có vẻ liên quan, trong phạm vi dữ liệu cho thấy.\n2. Liệt kê các chỉ số có giá trị đặc biệt lớn (chậm).\n3. Gợi ý 3 bước thử cải thiện theo thứ tự (ghi rõ đây là suy đoán).\n4. Nói ngắn gọn những gì không thể biết chỉ từ dữ liệu (ví dụ: nguyên nhân hoặc kết quả trong tương lai).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (mục / con số / điều cần lưu ý).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
   "c74.ai_prompt": "Bạn là trợ lý giúp sắp xếp các công nghệ mà một website sử dụng.\nNgười đọc là người muốn biết đối thủ hoặc một website họ quan tâm đang dùng những công nghệ nào.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Nhóm / loại / tên: nhóm, loại và tên của công nghệ.\n  - Chỉ gồm các công nghệ đã được tìm thấy. Điều này không có nghĩa là những công nghệ còn lại không được dùng.\n\n# Việc tôi muốn bạn làm\n1. Sắp xếp các công nghệ theo nhóm.\n2. Liệt kê các công nghệ về máy chủ, phân tích, quảng cáo và cách website được xây dựng.\n3. Liệt kê 3 điều cần kiểm tra nếu tôi muốn dùng cùng những công nghệ đó.\n4. Đừng nói một công nghệ \"không được dùng\" chỉ vì nó không được tìm thấy.\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (nhóm / công nghệ).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
   "ui.steps_title": "Lấy được bao nhiêu, và chi phí",
   "ui.steps_amount": "Số lượng",
   "ui.steps_cost": "Chi phí",
   "ui.steps_use": "Phù hợp để",
+  "c38.steps": [
+    [
+      "100 từ khóa",
+      "khoảng $0.024 (ước tính)",
+      "So sánh nhanh các ứng viên cho một chủ đề"
+    ],
+    [
+      "500 từ khóa",
+      "$0.072 (đã đo)",
+      "Chọn lọc các bài viết ứng viên cho cả website"
+    ],
+    [
+      "1.000 từ khóa",
+      "khoảng $0.13 (ước tính)",
+      "Giới hạn trên của một yêu cầu. Một danh sách lớn trong một lần"
+    ],
+    [
+      "5.000 từ khóa",
+      "khoảng $0.66 (ước tính, trong 5 yêu cầu)",
+      "Danh sách rất lớn, chẳng hạn toàn bộ bộ từ khóa của đối thủ cạnh tranh"
+    ]
+  ],
+  "c39.steps": [
+    [
+      "100 từ khóa",
+      "khoảng $0.024 (số tham khảo)",
+      "Phân loại các ứng viên của một chủ đề theo người đang tìm (mua hay tìm hiểu)"
+    ],
+    [
+      "500 từ khóa",
+      "$0.072 (đã đo thực tế)",
+      "Phân loại các ứng viên của cả website theo ý định tìm kiếm"
+    ],
+    [
+      "1.000 từ khóa",
+      "khoảng $0.13 (số tham khảo)",
+      "Giới hạn tối đa cho một lần gọi"
+    ],
+    [
+      "5.000 từ khóa",
+      "khoảng $0.66 (số tham khảo, chia thành 5 lần gọi)",
+      "Sắp xếp danh sách từ khóa rất lớn theo ý định tìm kiếm"
+    ]
+  ],
   "ui.table_filter": "Lọc (theo chữ)",
   "ui.table_shown": "Đang hiển thị {shown}/{total} dòng (bộ lọc và sắp xếp áp dụng cho mọi dòng; hãy dùng CSV hoặc sao chép để lấy tất cả)",
   "ui.table_more": "Hiển thị thêm {n}",
@@ -560,6 +717,24 @@
       "Đào sâu từ khóa của một website lớn bằng cách sắp xếp và lọc"
     ]
   ],
+  "c34.count": "Số dòng cần lấy (nhiều dòng hơn thì tốn hơn; xem bảng bên dưới)",
+  "c34.steps": [
+    [
+      "100 dòng",
+      "khoảng $0.024 (đã đo)",
+      "Xem nhanh các ứng viên hàng đầu"
+    ],
+    [
+      "300 dòng",
+      "khoảng $0.05 (ước tính)",
+      "Xem thế mạnh của một website theo từng chủ đề"
+    ],
+    [
+      "1.000 dòng",
+      "khoảng $0.13 (ước tính)",
+      "Đào sâu từ khóa của một website bằng cách sắp xếp và lọc"
+    ]
+  ],
   "c35.count": "Số dòng cần lấy (nhiều dòng hơn thì tốn hơn; xem bảng bên dưới)",
   "c35.steps": [
     [
@@ -576,6 +751,60 @@
       "1.000 dòng",
       "khoảng $0.13 (ước tính)",
       "Lấy toàn bộ những gì có sẵn (đã đo: 154 dòng là toàn bộ, $0.0305)"
+    ]
+  ],
+  "c36.count": "Số dòng cần lấy (nhiều dòng hơn thì tốn hơn; xem bảng bên dưới)",
+  "c36.steps": [
+    [
+      "100 dòng",
+      "khoảng $0.024 (đã đo)",
+      "Xem trước các ứng viên hàng đầu"
+    ],
+    [
+      "300 dòng",
+      "khoảng $0.05 (ước tính)",
+      "Xem các cách diễn đạt cụ thể theo từng chủ đề"
+    ],
+    [
+      "1.000 dòng",
+      "khoảng $0.13 (ước tính)",
+      "Lấy toàn bộ những gì có sẵn (đã đo: 740 dòng là tất cả, $0.1008)"
+    ]
+  ],
+  "c37.count": "Số dòng cần lấy (nhiều dòng hơn thì tốn hơn; xem bảng bên dưới)",
+  "c37.steps": [
+    [
+      "100 dòng",
+      "khoảng $0.024 (đã đo)",
+      "Xem trước các ứng viên hàng đầu"
+    ],
+    [
+      "300 dòng",
+      "khoảng $0.05 (ước tính)",
+      "Xem các từ gần nghĩa lan rộng thế nào, theo từng chủ đề"
+    ],
+    [
+      "1.000 dòng",
+      "khoảng $0.13 (ước tính)",
+      "Thu thập càng nhiều càng tốt để lấy ý tưởng bài viết"
+    ]
+  ],
+  "c44.count": "Số dòng cần lấy (càng nhiều dòng càng tốn phí; xem bảng bên dưới)",
+  "c44.steps": [
+    [
+      "100 dòng",
+      "khoảng $0.024 (đã đo thực tế)",
+      "Xem trước các website đối thủ hàng đầu"
+    ],
+    [
+      "300 dòng",
+      "khoảng $0.05 (ước tính)",
+      "Nhìn rộng các website mạnh cho bộ từ khóa"
+    ],
+    [
+      "1.000 dòng",
+      "khoảng $0.13 (ước tính)",
+      "Xếp nhiều đối thủ cạnh nhau và so sánh theo quy mô và vị trí"
     ]
   ],
   "c41.col.keyword": "Từ khóa",
