@@ -36,7 +36,8 @@
   "csv": "C37.csv",
   "sample_langs": [
     "zh-TW",
-    "en"
+    "en",
+    "vi"
   ],
   "copy": true,
   "count": {
