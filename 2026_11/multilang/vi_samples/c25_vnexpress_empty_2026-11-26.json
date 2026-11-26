@@ -1,0 +1,35 @@
+{
+    "version": "0.1.20261117",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "5.4708 sec.",
+    "cost": 0.09,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11260324-1289-0369-0000-f9c415a22bab",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "5.4023 sec.",
+            "cost": 0.09,
+            "result_count": 0,
+            "path": [
+                "v3",
+                "keywords_data",
+                "google_ads",
+                "keywords_for_site",
+                "live"
+            ],
+            "data": {
+                "api": "keywords_data",
+                "function": "keywords_for_site",
+                "se": "google_ads",
+                "target": "vnexpress.net",
+                "location_code": 2704,
+                "language_code": "vi"
+            },
+            "result": null
+        }
+    ]
+}

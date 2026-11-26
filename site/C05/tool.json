@@ -54,7 +54,8 @@
   "csv": "C05.csv",
   "sample_langs": [
     "zh-TW",
-    "en"
+    "en",
+    "vi"
   ],
   "copy": true,
   "multi": {
