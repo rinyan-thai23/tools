@@ -1,0 +1,121 @@
+<title>口コミとHPのズレ診断</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap">
+<style>
+/* 設計: 制作会社・店主向けの見本。「お客さんの言葉」と「お店の言葉」のズレを、棒で並べて見せる。藍＝口コミ、橙＝サイト。 */
+:root{--bg:#f7f6f2;--panel:#fff;--fg:#1d2433;--muted:#5d6678;--line:#e1ded5;--accent:#183a6b;--accent-soft:#e6ecf5;--hot:#d9541e;--hot-soft:#fbe9df;--ok:#2a7a4f;--ok-soft:#e5f2ea;--font:'Noto Sans JP','Hiragino Sans','Yu Gothic',system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12161e;--panel:#1a202b;--fg:#e8ebf1;--muted:#9aa4b6;--line:#2a3342;--accent:#8db4ee;--accent-soft:#1e2a40;--hot:#ff8a55;--hot-soft:#3a2a20;--ok:#6cc79a;--ok-soft:#1b2e24;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#12161e;--panel:#1a202b;--fg:#e8ebf1;--muted:#9aa4b6;--line:#2a3342;--accent:#8db4ee;--accent-soft:#1e2a40;--hot:#ff8a55;--hot-soft:#3a2a20;--ok:#6cc79a;--ok-soft:#1b2e24;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--font);line-height:1.85;font-size:16px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 56px}
+.wrap{max-width:780px;margin:0 auto}.band{padding-block:34px;border-bottom:1px solid var(--line)}
+h1{font-size:clamp(1.6rem,5.6vw,2.3rem);line-height:1.38;font-weight:900;margin:0 0 14px;text-wrap:balance}h2{font-size:1.25rem;font-weight:900;margin:0 0 12px;text-wrap:balance}h3{font-size:1rem;margin:16px 0 6px}
+p{margin:0 0 12px}.eyebrow{color:var(--hot);font-weight:700;font-size:.85rem;letter-spacing:.06em;margin-bottom:8px}.lead{font-size:1.05rem;color:var(--muted)}
+.sample{background:var(--hot-soft);border:1px dashed var(--hot);border-radius:6px;padding:8px 12px;font-size:.84rem;margin:0 0 14px}
+.report{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px 18px;margin-bottom:18px}.report .m,.m{color:var(--muted);font-size:.82rem}
+.sum{background:var(--accent-soft);border-left:4px solid var(--accent);padding:12px 14px;border-radius:0 6px 6px 0;margin:12px 0}
+.leg{display:flex;flex-wrap:wrap;gap:14px;font-size:.8rem;color:var(--muted);margin:6px 0}.leg i{display:inline-block;width:14px;height:10px;border-radius:2px;margin-right:5px;vertical-align:0}
+.rows{display:flex;flex-direction:column;gap:9px;margin:8px 0}
+.row{display:grid;grid-template-columns:11em 1fr;gap:8px;align-items:center;font-size:.85rem}
+.row .n{min-width:0}.row .b{display:flex;flex-direction:column;gap:3px}
+.bar{display:flex;align-items:center;gap:8px}.bar .t{flex:1;background:var(--line);border-radius:3px;height:11px;overflow:hidden}.bar .t i{display:block;height:100%}.bar .v{width:5.2em;text-align:right;font-variant-numeric:tabular-nums;font-size:.78rem;color:var(--muted)}
+.rv i{background:var(--accent)}.hp i{background:var(--hot)}
+.flag{font-size:.74rem;color:var(--hot);font-weight:700}
+@media(max-width:560px){.row{grid-template-columns:1fr;gap:3px}}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}@media(max-width:640px){.two{grid-template-columns:1fr}}.two>*{min-width:0}
+.good{background:var(--ok-soft);border-radius:8px;padding:12px 14px}.bad{background:var(--hot-soft);border-radius:8px;padding:12px 14px}.good h3,.bad h3{margin-top:0}
+ul{margin:0 0 8px;padding-left:1.2em}li{margin-bottom:4px}
+pre{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:12px;white-space:pre-wrap;overflow-wrap:anywhere;font-family:var(--font);font-size:.88rem;line-height:1.7;margin:0}
+.step{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin-bottom:10px}
+details{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 16px;margin-bottom:8px}summary{cursor:pointer;font-weight:700}
+.cta{background:var(--accent);color:var(--bg);border-radius:10px;padding:22px}.cta p{margin:0 0 6px}
+</style>
+<div class="wrap">
+<section class="band">
+  <p class="eyebrow">制作会社・店主の方へ</p>
+  <h1>お客さんが褒めている言葉を、お店のホームページは、まだ使っていないかもしれません</h1>
+  <p class="lead">Googleマップの口コミ（お客さんの言葉）と、公式サイト（お店の言葉）を突き合わせて、<b>「口コミで褒められているのに、サイトに書いていない強み」</b>を見つけます。サイトの文章づくりの材料と、営業の切り口になります。</p>
+</section>
+
+<section class="band">
+  <p class="eyebrow">実際にやってみた例</p>
+  <h2>国分寺の美容室2店：口コミ各100件と、公式サイトを突き合わせた結果</h2>
+  <p class="sample">実際のデータ（2026年11月26日取得）です。お店の名前は伏せています。サイトは、ブラウザで表示して、見える文章を取り出しました。</p>
+  <div class="leg"><span><i style="background:var(--accent)"></i>口コミ：高評価（星4〜5）の本文で、その話題が出る割合</span><span><i style="background:var(--hot)"></i>サイト：その話題が出る回数</span></div>
+
+  <div class="report">
+    <p class="m">B美容室 ／ 高評価の口コミ本文 76件 ／ 公式サイト：6ページ・約3,200文字</p>
+    <div class="sum"><p style="margin:0"><b>お客さんは「丁寧なカウンセリング」「話しやすい」「ずっと通っている」と褒めています。サイトには、ほとんど書かれていません。</b>このサイトは、グループ全体の会社案内（採用が中心）で、お客さん向けの強みを伝える文章が少ないためです。</p></div>
+    <div class="rows">
+      <div class="row"><span class="n">丁寧・安心・親切<br><span class="flag">口コミで多いが、サイトでは薄い</span></span><span class="b"><span class="bar rv"><span class="t"><i style="width:84%"></i></span><span class="v">84%</span></span><span class="bar hp"><span class="t"><i style="width:3%"></i></span><span class="v">1回</span></span></span></div>
+      <div class="row"><span class="n">話しやすい・居心地<br><span class="flag">口コミで多いが、サイトでは薄い</span></span><span class="b"><span class="bar rv"><span class="t"><i style="width:74%"></i></span><span class="v">74%</span></span><span class="bar hp"><span class="t"><i style="width:7%"></i></span><span class="v">2回</span></span></span></div>
+      <div class="row"><span class="n">リピート・長く通う<br><span class="flag">口コミで多いが、サイトでは薄い</span></span><span class="b"><span class="bar rv"><span class="t"><i style="width:45%"></i></span><span class="v">45%</span></span><span class="bar hp"><span class="t"><i style="width:3%"></i></span><span class="v">1回</span></span></span></div>
+      <div class="row"><span class="n">希望を汲み取る<br><span class="flag">口コミで多いが、サイトでは薄い</span></span><span class="b"><span class="bar rv"><span class="t"><i style="width:42%"></i></span><span class="v">42%</span></span><span class="bar hp"><span class="t"><i style="width:7%"></i></span><span class="v">2回</span></span></span></div>
+      <div class="row"><span class="n">カウンセリング・相談<br><span class="flag">口コミで多いのに、サイトに無い</span></span><span class="b"><span class="bar rv"><span class="t"><i style="width:38%"></i></span><span class="v">38%</span></span><span class="bar hp"><span class="t"><i style="width:0%"></i></span><span class="v">0回</span></span></span></div>
+      <div class="row"><span class="n">駅近・通いやすさ<br><span class="flag">口コミで多いのに、サイトに無い</span></span><span class="b"><span class="bar rv"><span class="t"><i style="width:21%"></i></span><span class="v">21%</span></span><span class="bar hp"><span class="t"><i style="width:0%"></i></span><span class="v">0回</span></span></span></div>
+    </div>
+    <h3>お客さんの言葉から作った、サイトの文章案（下書き）</h3>
+    <pre>【キャッチコピー案】
+「なんとなく」のイメージも、マンツーマンのカウンセリングで形にします。
+
+【紹介文案】
+初めての方にも、まず丁寧にお話をうかがいます。ご希望がふんわりしていても、少しずつ整理しながら、似合うスタイルをご提案します。マンツーマンの施術で、リラックスしてお過ごしいただけます。駅からも行きやすい立地です。
+
+【FAQ案】
+Q. ざっくりしたイメージでも大丈夫ですか？
+A. はい。お話をうかがいながら、一緒に整理します。［お店の実際の対応に合わせて修正］
+Q. 初めてでも入りやすいですか？
+A. ［お客様から「入りやすい」との声が多いです。実際の雰囲気に合わせて記入］</pre>
+    <p class="m">※ 文章案は、すべて、お店の実際に合わせて確認してください（事実と違うことは書かないでください）。［　］は、お店が書く欄です。文章は、口コミの言い換えで、そのままの引用ではありません。</p>
+  </div>
+
+  <div class="report">
+    <p class="m">A美容室 ／ 高評価の口コミ本文 91件 ／ 公式サイト：6ページ・約5,400文字</p>
+    <div class="sum"><p style="margin:0"><b>サイトが推している「カットの上手さ」「ショート」は、口コミでも同じように褒められています（一致）。</b>一方で、「丁寧で安心」「何度も通っている」はサイトに書かれていません。</p></div>
+    <div class="rows">
+      <div class="row"><span class="n">カットの技術<br><span class="flag" style="color:var(--ok)">サイトと口コミが一致</span></span><span class="b"><span class="bar rv"><span class="t"><i style="width:71%"></i></span><span class="v">71%</span></span><span class="bar hp"><span class="t"><i style="width:43%"></i></span><span class="v">13回</span></span></span></div>
+      <div class="row"><span class="n">ショート・ボブ<br><span class="flag" style="color:var(--ok)">サイトと口コミが一致</span></span><span class="b"><span class="bar rv"><span class="t"><i style="width:44%"></i></span><span class="v">44%</span></span><span class="bar hp"><span class="t"><i style="width:20%"></i></span><span class="v">6回</span></span></span></div>
+      <div class="row"><span class="n">リピート・長く通う<br><span class="flag">口コミで多いのに、サイトに無い</span></span><span class="b"><span class="bar rv"><span class="t"><i style="width:32%"></i></span><span class="v">32%</span></span><span class="bar hp"><span class="t"><i style="width:0%"></i></span><span class="v">0回</span></span></span></div>
+      <div class="row"><span class="n">丁寧・安心・親切<br><span class="flag">口コミで多いのに、サイトに無い</span></span><span class="b"><span class="bar rv"><span class="t"><i style="width:26%"></i></span><span class="v">26%</span></span><span class="bar hp"><span class="t"><i style="width:0%"></i></span><span class="v">0回</span></span></span></div>
+      <div class="row"><span class="n">髪質改善・縮毛矯正</span><span class="b"><span class="bar rv"><span class="t"><i style="width:15%"></i></span><span class="v">15%</span></span><span class="bar hp"><span class="t"><i style="width:43%"></i></span><span class="v">13回</span></span></span></div>
+      <div class="row"><span class="n">カラー・白髪</span><span class="b"><span class="bar rv"><span class="t"><i style="width:15%"></i></span><span class="v">15%</span></span><span class="bar hp"><span class="t"><i style="width:47%"></i></span><span class="v">14回</span></span></span></div>
+    </div>
+    <div class="two" style="margin-top:12px">
+      <div class="good"><h3>活かせること</h3><ul><li>サイトの「ショートがうまい」は、口コミの裏づけがある。<b>お客さんの声を、サイトに載せる</b>と説得力が増す。</li><li>「通っている」「リピート」「毎回」などに触れる高評価の口コミが約3割ある。<b>「長く通うお客様が多いサロン」</b>は、新規の人に安心を与える言葉になりうる。</li></ul></div>
+      <div class="bad"><h3>気づくこと</h3><ul><li>サイトは「髪質改善」「カラー」を13〜14回書いているが、口コミで話題になるのは15%ずつ。<b>お店が押しているメニューと、お客さんが評価している点は、少し違う。</b></li></ul></div>
+    </div>
+  </div>
+
+  <div class="report" style="margin-bottom:0">
+    <p class="m">もう1店（人気店）</p>
+    <p style="margin:0"><b>Googleマップに、公式サイトの登録がないお店がありました。</b>口コミ（半年で50件）だけで、お客さんに選ばれています。このお店は、口コミが「唯一の言葉」です。サイトを作るなら、口コミで褒められている言葉が、そのまま最初の材料になります。</p>
+  </div>
+  <p class="m" style="margin-top:12px"><b>この診断の限界：</b>2店だけの例です。話題の数え方はキーワードによる目安です（「丁寧」は広い言葉です）。サイトの文章は、ブラウザで表示できた範囲（6ページまで）です。口コミで褒められている言葉を使うと、集客が増えるかは、確かめていません。</p>
+</section>
+
+<section class="band">
+  <h2>どう使えるか</h2>
+  <div class="two">
+    <div class="step"><h3>制作会社の方</h3><p style="margin:0">お客さん候補のお店のサイトと口コミを突き合わせた診断を、営業の最初の資料にできます。「口コミで褒められている強みが、サイトに書かれていません」は、具体的な提案の入口です。</p></div>
+    <div class="step"><h3>店主の方</h3><p style="margin:0">自分のサイトを作り直すとき、何を書くかの材料になります。お客さんの言葉で、強みを伝えられます。</p></div>
+  </div>
+</section>
+
+<section class="band">
+  <h2>どうやって作っているか</h2>
+  <div class="step"><h3>① 口コミを集める</h3><p style="margin:0">Googleマップの口コミ100件（約$0.0075）と、サイトのアドレス（約$0.002）。</p></div>
+  <div class="step"><h3>② サイトの文章を取る</h3><p style="margin:0">ブラウザで表示して、見える文章を取り出します（費用0）。</p></div>
+  <div class="step"><h3>③ 突き合わせて、文章案を作る</h3><p style="margin:0">話題ごとに数えて、ズレを見つけ、AIが文章案にします。</p></div>
+  <p class="sample" style="margin-top:12px">データ取得の実費は、1店あたり約$0.01（約1.5円）。AIの文章づくりの費用は別です。金額は試験運用で決めます。</p>
+</section>
+
+<section class="band">
+  <h2>よくある質問</h2>
+  <details><summary>口コミの文章を、そのままサイトに載せていいですか？</summary><p style="margin-top:8px">おすすめしません。口コミの転載は、投稿者の許可や規約の確認が必要です。この診断は、口コミの言い換えと、話題の割合だけを使います。</p></details>
+  <details><summary>書いてあることを、そのまま載せて大丈夫ですか？</summary><p style="margin-top:8px">文章案は下書きです。お店が実際にしていないことは書かないでください。［　］の欄は、お店の確認が必要です。</p></details>
+  <details><summary>公式サイトがないお店はどうなりますか？</summary><p style="margin-top:8px">口コミだけで、「お客さんが褒めている言葉」をまとめます。サイトを作るときの最初の材料になります。</p></details>
+</section>
+
+<section class="band" style="border-bottom:0">
+  <div class="cta"><p><b>このページはテスト用の見本です。</b></p><p>申し込み窓口はまだありません。試験運用に参加したい方は、運営者にお知らせください。</p></div>
+</section>
+</div>
