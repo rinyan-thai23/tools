@@ -1,0 +1,100 @@
+<title>競合の口コミ読解レポート</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap">
+<style>
+/* 設計: 店主向けの1枚LP。主役は「近所の競合の口コミを読んだ結果」の実物。011と同じ藍＋橙。 */
+:root{--bg:#f7f6f2;--panel:#fff;--fg:#1d2433;--muted:#5d6678;--line:#e1ded5;--accent:#183a6b;--accent-soft:#e6ecf5;--hot:#d9541e;--hot-soft:#fbe9df;--ok:#2a7a4f;--ok-soft:#e5f2ea;--font:'Noto Sans JP','Hiragino Sans','Yu Gothic',system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12161e;--panel:#1a202b;--fg:#e8ebf1;--muted:#9aa4b6;--line:#2a3342;--accent:#8db4ee;--accent-soft:#1e2a40;--hot:#ff8a55;--hot-soft:#3a2a20;--ok:#6cc79a;--ok-soft:#1b2e24;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#12161e;--panel:#1a202b;--fg:#e8ebf1;--muted:#9aa4b6;--line:#2a3342;--accent:#8db4ee;--accent-soft:#1e2a40;--hot:#ff8a55;--hot-soft:#3a2a20;--ok:#6cc79a;--ok-soft:#1b2e24;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--font);line-height:1.85;font-size:16px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 56px}
+.wrap{max-width:780px;margin:0 auto}.band{padding-block:36px;border-bottom:1px solid var(--line)}
+h1{font-size:clamp(1.6rem,5.6vw,2.4rem);line-height:1.38;font-weight:900;margin:0 0 14px;text-wrap:balance}h2{font-size:1.3rem;font-weight:900;margin:0 0 12px;text-wrap:balance}h3{font-size:1rem;margin:18px 0 6px}
+p{margin:0 0 12px}.eyebrow{color:var(--hot);font-weight:700;font-size:.85rem;letter-spacing:.06em;margin-bottom:8px}.lead{font-size:1.05rem;color:var(--muted)}
+.sample{background:var(--hot-soft);border:1px dashed var(--hot);border-radius:6px;padding:8px 12px;font-size:.84rem;margin:0 0 14px}
+.report{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px 18px}.report .m{color:var(--muted);font-size:.82rem}
+.sum{background:var(--accent-soft);border-left:4px solid var(--accent);padding:12px 14px;border-radius:0 6px 6px 0;margin:12px 0}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:12px 0}
+.kpi{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px 12px;min-width:0}.kpi b{display:block;font-size:1.4rem;font-variant-numeric:tabular-nums}.kpi span{color:var(--muted);font-size:.8rem}.kpi.hot b{color:var(--hot)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}@media(max-width:640px){.two{grid-template-columns:1fr}}.two>*{min-width:0}
+.good{background:var(--ok-soft);border-radius:8px;padding:12px 14px}.bad{background:var(--hot-soft);border-radius:8px;padding:12px 14px}.good h3,.bad h3{margin-top:0}
+ul{margin:0 0 8px;padding-left:1.2em}li{margin-bottom:4px}
+.next{border:2px solid var(--hot);border-radius:10px;padding:12px 14px;margin:14px 0}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:8px;background:var(--panel);margin:8px 0}table{border-collapse:collapse;width:100%;min-width:560px;font-size:.88rem;font-variant-numeric:tabular-nums}th,td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{background:var(--accent-soft);white-space:nowrap}tr:last-child td{border-bottom:0}tr.me td{background:var(--hot-soft);font-weight:700}
+.step{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin-bottom:10px}
+details{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 16px;margin-bottom:8px}summary{cursor:pointer;font-weight:700}
+.cta{background:var(--accent);color:var(--bg);border-radius:10px;padding:22px}.cta p{margin:0 0 6px}
+</style>
+<div class="wrap">
+<section class="band">
+  <p class="eyebrow">開業・リニューアル・新メニューを考えている店主へ</p>
+  <h1>近所のライバルは、何で選ばれて、何で嫌われているのか。お客さんの本音を、代わりに読みます</h1>
+  <p class="lead">近所の競合の口コミを、1店100件ずつ読んで、「選ばれる理由」「嫌われる理由」「自分の店だけの強み」を1枚にまとめます。ライバル店の客席で、お客さんの会話を聞いてくるイメージです。</p>
+</section>
+
+<section class="band">
+  <p class="eyebrow">実際にやってみた例</p>
+  <h2>国分寺の美容室（A美容室・口コミ18件）と、近所の人気4店（各100件）</h2>
+  <p class="sample">実際の口コミ（2026年11月26日取得・合計418件）を読んだ結果です。お店の名前、スタッフ名、投稿者名は伏せています。競合はB〜Eと表記しています。</p>
+  <div class="report">
+    <p class="m">A美容室　競合の口コミ読解レポート ／ 比べた店：近所の人気4店（B〜E）</p>
+    <div class="sum"><p style="margin:0"><b>近所の人気店は「希望をうまく言えなくても、汲み取ってくれる」ことで選ばれています。</b>A美容室の低評価（仕上がりのズレ）は、その裏返しです。一方で、<b>「個室」を褒められているのはA美容室だけ</b>です。</p></div>
+    <h3>数字で比べる</h3>
+    <div class="tw"><table><thead><tr><th>店</th><th>直近6か月の口コミ数</th><th>平均の星</th><th>返信した割合</th><th>低評価（星1〜2）への返信</th></tr></thead><tbody>
+      <tr class="me"><td>A美容室</td><td>4件</td><td>3.7（全18件）</td><td>28%</td><td>4 / 6</td></tr>
+      <tr><td>B（髪質改善サロン）</td><td>50件</td><td>4.6（最新100件）</td><td>99%</td><td>5 / 5</td></tr>
+      <tr><td>C（髪質改善・白髪ケア）</td><td>73件</td><td>4.8</td><td>100%</td><td>1 / 1</td></tr>
+      <tr><td>D（ショートカット専門）</td><td>30件</td><td>4.9</td><td>16%</td><td>1 / 1</td></tr>
+      <tr><td>E（カット・縮毛矯正）</td><td>35件</td><td>4.8</td><td>62%</td><td>1 / 1</td></tr></tbody></table></div>
+    <p class="m">競合の「平均の星」は、最新100件の平均です。直近6か月の口コミ数は、その100件のうち6か月以内の数です。</p>
+    <div class="kpis">
+      <div class="kpi hot"><b>4件 対 30〜73件</b><span>直近6か月に増えた口コミの数（A美容室 対 競合4店）</span></div>
+      <div class="kpi hot"><b>39% 対 3%</b><span>星1〜3の割合（A美容室 7/18 対 競合 13/400）</span></div>
+      <div class="kpi"><b>51%</b><span>競合の高評価（本文つき344件）のうち、カウンセリング・希望の汲み取りに触れている割合</span></div>
+    </div>
+    <div class="two" style="margin-top:14px">
+      <div class="good"><h3>競合が選ばれている理由</h3>
+        <ul><li><b>希望をうまく言えなくても汲み取ってくれる</b>（4店に共通。写真を見せる、ざっくり伝える、が成り立つ）</li>
+        <li>B：<b>予約前にメッセージで髪の状態や希望を伝えられる</b>／髪質や骨格の説明が分かりやすい</li>
+        <li>C：<b>マンツーマン</b>の丁寧なカウンセリング、気遣い、駅から入りやすい</li>
+        <li>D：<b>ショートカットの上手さ</b>（得意分野がはっきり）、1対1の接客</li>
+        <li>E：毎回<b>似合う髪型の提案</b>、親身な相談、カット代にシャンプーが含まれる分かりやすさ</li></ul></div>
+      <div class="bad"><h3>競合が嫌われている理由（星1〜3の13件）</h3>
+        <ul><li><b>接客の態度：</b>無愛想／ため息をつかれた／道具の扱いが雑</li>
+        <li><b>要望の伝わり違い：</b>色味・形・襟足・前髪が、イメージと違った</li>
+        <li><b>施術の失敗：</b>縮毛矯正の根元折れ（1件）</li>
+        <li><b>店内の匂い・換気：</b>1件</li>
+        <li>返信は、星1〜2の8件すべてについていた</li></ul></div>
+    </div>
+    <h3>A美容室だけの強み</h3>
+    <p>競合400件で「個室・半個室」に触れた口コミは<b>0件</b>。A美容室は18件中<b>6件</b>が個室を褒めています。<b>「個室で、希望をじっくり確認してから切る」</b>は、競合が打ち出していない組み合わせです。（読み取りからの仮説です。実際に効くかは、試さないと分かりません）</p>
+    <div class="next"><p style="margin:0 0 4px"><b>次の一手（1つだけ）</b></p><p style="margin:0">予約のときに、イメージ写真と髪の悩みを送ってもらう欄を作る。競合Bは、予約前のメッセージが好評です。A美容室の低評価（仕上がりのズレ）への、最も直接の対策にもなります。</p></div>
+    <p class="m"><b>この読み取りの限界：</b>競合4店は、私たちが選んだ近所の人気店です（口コミ100件以上の店のみ）。口コミの数え方は、キーワードによる目安で、読み取りはAIです。「選ばれる理由」が来店につながるかは、口コミからは分かりません。</p>
+  </div>
+</section>
+
+<section class="band">
+  <h2>お店の人がやること</h2>
+  <div class="step"><h3>① お店の名前と場所、比べたい業種を教える</h3><p style="margin:0">競合は、こちらで近所の人気店から選びます。お店の希望も聞けます。</p></div>
+  <div class="step"><h3>② こちらで口コミを集めて、AIが読む</h3><p style="margin:0">競合1店あたり100件。本文・星・時期・返信の有無を集めます。</p></div>
+  <div class="step"><h3>③ 1枚のレポートを受け取る</h3><p style="margin:0">選ばれる理由、嫌われる理由、自分の店だけの強み、次の一手を1つ。</p></div>
+</section>
+
+<section class="band">
+  <h2>料金のイメージ（検討中）</h2>
+  <div class="tw"><table><thead><tr><th>形</th><th>中身</th><th>金額の案</th></tr></thead><tbody>
+  <tr><td>スポット</td><td>競合4〜5店の口コミを読んで1枚</td><td>1〜3万円</td></tr></tbody></table></div>
+  <p class="sample" style="margin-top:12px">口コミの取得にかかる実費は、4店で400件、約$0.03（約5円）でした。読み取りはAIです。金額は試験運用で決めます。</p>
+</section>
+
+<section class="band">
+  <h2>よくある質問</h2>
+  <details><summary>競合の口コミを読んでもいいのですか？</summary><p style="margin-top:8px">Googleマップに公開されている口コミです。レポートには、投稿者名・スタッフ名を出さず、要約と言い換えで載せます。</p></details>
+  <details><summary>どの競合を選ぶのですか？</summary><p style="margin-top:8px">近所で、同じキーワードで上位に出る、口コミ100件以上の店から選びます。お店の希望があれば、その店を入れます。</p></details>
+  <details><summary>書いてあることを、そのままやればお客さんが増えますか？</summary><p style="margin-top:8px">約束できません。レポートは「お客さんが何を褒め、何に不満を持っているか」を見える形にするものです。来店につながるかは、口コミからは分かりません。</p></details>
+  <details><summary>口コミを増やす提案はしてもらえますか？</summary><p style="margin-top:8px">お客さんにお願いする方法は提案できます。口コミの買い取りや自作自演は、Googleの規約違反なので提案しません。</p></details>
+</section>
+
+<section class="band" style="border-bottom:0">
+  <div class="cta"><p><b>このページはテスト用の見本です。</b></p><p>申し込み窓口はまだありません。試験運用に参加したい方は、運営者にお知らせください。</p></div>
+</section>
+</div>
