@@ -195,6 +195,10 @@
   "c24-13countries-search-volume": {
    "usd": 1.35,
    "note": "13か国＋英語キーワード2回＝成功15回（1回$0.09）。同時アクセス制限の失敗1回は$0"
+  },
+  "c24-overseas-research-lessons": {
+   "usd": 0,
+   "note": "13か国の記事のデータを使用（追加のAPI代なし）"
   }
  },
  "real": {
