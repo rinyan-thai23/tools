@@ -20,7 +20,7 @@ export async function referralLinks() {
   const cfg = await getJson('/shared/site-config.json');
   document.querySelectorAll('a[data-referral]').forEach((a) => {
     a.href = cfg.referral_url || 'https://dataforseo.com/';
-    if (cfg.referral_url) { a.rel = 'noopener sponsored'; a.after(document.createTextNode(lang === 'ja' ? ' （紹介リンクです）' : lang === 'zh-TW' ? '（推薦連結）' : ' (referral link)')); }
+    if (cfg.referral_url) { a.rel = 'noopener sponsored'; a.after(document.createTextNode(lang === 'ja' ? ' （紹介リンクです）' : lang === 'zh-TW' ? '（推薦連結）' : lang === 'vi' ? ' (liên kết giới thiệu)' : ' (referral link)')); }
   });
 }
 
@@ -48,6 +48,7 @@ function renderKeyBox(box, referral) {
 
 export async function fillMarkets(countrySel, langSel, allowed) {
   const m = await getJson('/shared/markets.json');
+  m.countries = m.countries.filter((c) => !c.only || c.only.includes(lang)); m.languages = m.languages.filter((c) => !c.only || c.only.includes(lang)); // only：その言語の画面にだけ出す
   if (allowed) m.countries = m.countries.filter((c) => allowed.includes(c.code)); // そのAPIが対応している国だけ
   const opt = (a, d) => a.map((x) => `<option value="${x.code}" ${x.code === d ? 'selected' : ''}>${x[lang] || x.en}</option>`).join('');
   if (countrySel) countrySel.innerHTML = opt(m.countries, allowed && !allowed.includes((m.defaults[lang] || m.defaults.en).country) ? allowed[0] : (m.defaults[lang] || m.defaults.en).country);

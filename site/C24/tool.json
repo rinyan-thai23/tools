@@ -47,7 +47,8 @@
   "csv": "C24.csv",
   "sample_langs": [
     "zh-TW",
-    "en"
+    "en",
+    "vi"
   ],
   "chunk": {
     "param": "keywords",

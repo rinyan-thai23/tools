@@ -150,7 +150,7 @@ if (existsSync('articles/index.json')) {
 
 // ---------- 6. ヘッダー・フッター・確認タグ・紹介リンクの差し込み
 const refUrl = cfg.referral_url || 'https://dataforseo.com/';
-const noteText = { ja: ' （紹介リンクです）', en: ' (referral link)', 'zh-TW': '（推薦連結）' };
+const noteText = { ja: ' （紹介リンクです）', en: ' (referral link)', 'zh-TW': '（推薦連結）', vi: ' (liên kết giới thiệu)' };
 const part = (n, l) => read(existsSync(`scripts/partials/${n}.${l}.html`) ? `scripts/partials/${n}.${l}.html` : `scripts/partials/${n}.en.html`);
 for (const [u, f] of Object.entries(files)) {
   if (!u.endsWith('.html')) continue;
