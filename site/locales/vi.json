@@ -33,12 +33,24 @@
   "err.bad_video": "Hãy nhập URL video YouTube hoặc ID video (ví dụ https://www.youtube.com/watch?v=…)",
   "err.bad_input": "Chưa nhập gì. Hãy nhập từ khóa.",
   "err.other": "Đã xảy ra lỗi",
+  "c01.name": "Xem kết quả tìm kiếm hàng đầu",
+  "c01.desc": "Trước khi viết, xem những trang nào đang đứng đầu",
+  "c01.keyword": "Từ khóa (mỗi dòng một từ khóa, tối đa 10)",
+  "c01.col.rank": "Thứ hạng",
+  "c01.col.title": "Tiêu đề",
+  "c01.col.url": "URL",
+  "c01.col.domain": "Tên miền",
   "key.about": "DataForSEO là gì? (tiếng Anh)",
+  "c01.price": "Chi phí ước tính: $0.004 cho 10 kết quả, $0.0055 cho 20 (tăng nhẹ khi số kết quả nhiều hơn). Bản mẫu miễn phí. Khi nhập nhiều mục, bạn trả theo từng mục. Mỗi mục mất thời gian, nên nhiều mục thì phải chờ lâu hơn.",
   "ui.elapsed": "Đã trôi qua",
   "ui.sec": " giây",
   "ui.retrying": "Dịch vụ đang bận. Đang thử lại ({n}/3)",
   "ui.took": "Thời gian xử lý",
+  "c01.count": "Số kết quả (tính từ đầu bảng)",
+  "c01.eta": "Thời gian tham khảo của công cụ này: khoảng 1 phút (nhiều kết quả hơn thì lâu hơn)",
   "ui.slow_search": "ⓘ Hiện nay Google dẫn mỗi liên kết trong kết quả tìm kiếm qua một địa chỉ trung gian của Google (để theo dõi lượt nhấp). Việc xác định URL thật mất thêm thời gian, nên việc lấy dữ liệu chậm hơn.",
+  "c01.title": "Kiểm tra thứ hạng Google (SERP) | Top 10–100 kết quả cho mọi từ khóa",
+  "c01.meta": "Nhập một từ khóa để xem 10–100 kết quả hàng đầu của Google dạng bảng: thứ hạng, tiêu đề, URL và tên miền. Chọn quốc gia và ngôn ngữ. Có bản mẫu miễn phí.",
   "ui.top": "Trang chủ",
   "who.beginner_blogger": "Dành cho blogger mới bắt đầu",
   "who.asp_affiliate": "Dành cho người làm tiếp thị liên kết qua ASP",
@@ -54,6 +66,28 @@
   "who.youtuber": "Dành cho người muốn làm YouTuber",
   "site.index_title": "Công cụ DataForSEO (BYOK) | Dữ liệu SEO và tìm kiếm, mỗi công cụ một chức năng",
   "site.index_meta": "Dùng từng chức năng của API DataForSEO ngay trên màn hình. BYOK (mang khóa của riêng bạn): thứ hạng tìm kiếm, nghiên cứu từ khóa, bản đồ, tin tức và nhiều hơn nữa. Chỉ trả tiền cho phần đã dùng, có bản mẫu miễn phí.",
+  "c02.name": "Xem câu trả lời của Google AI Mode",
+  "c02.desc": "Kiểm tra bài viết của bạn có được AI Mode trích dẫn không",
+  "c02.price": "Chi phí ước tính: $0.004 mỗi yêu cầu (khoảng 250 yêu cầu cho $1). Bản mẫu miễn phí. Khi nhập nhiều mục, bạn trả theo từng mục.",
+  "c02.eta": "Thời gian tham khảo của công cụ này: khoảng 7–15 giây",
+  "c02.title": "Google AI Mode: câu trả lời và nguồn trích dẫn | Kiểm tra site của bạn",
+  "c02.meta": "Xem câu trả lời Google AI Mode đưa ra cho một câu hỏi, cùng các trang được trích dẫn. Kiểm tra bài viết của bạn hoặc đối thủ có được trích dẫn không. Khởi đầu cho GEO, LLM SEO. Có bản mẫu miễn phí.",
+  "c02.keyword": "Từ khóa (một từ hoặc một câu hỏi) (mỗi dòng một mục, tối đa 30)",
+  "c02.answer": "Câu trả lời của AI Mode",
+  "c02.refs": "Nguồn được trích dẫn",
+  "c02.col.title": "Tiêu đề",
+  "c02.col.url": "URL",
+  "c18.name": "Xem câu trả lời của ChatGPT",
+  "c18.desc": "Xem ChatGPT trả lời gì khi khách hàng hỏi",
+  "c18.price": "Chi phí: khoảng $0.03 mỗi câu hỏi (có tìm kiếm web, khoảng 37 câu hỏi cho $1). Bản mẫu miễn phí. Khi nhập nhiều mục, bạn trả theo từng mục.",
+  "c18.eta": "Thời gian tham khảo: vài giây (khoảng 4 giây trong bản mẫu của chúng tôi)",
+  "c18.title": "Câu trả lời ChatGPT | Kiểm tra thương hiệu có được gợi ý (LLM SEO)",
+  "c18.meta": "Xem nguyên văn câu trả lời ChatGPT đưa ra cho một câu hỏi. Kiểm tra thương hiệu của bạn có được gợi ý khi khách hàng hỏi không. Điểm khởi đầu cho LLM SEO và tối ưu tìm kiếm AI. Có bản mẫu miễn phí.",
+  "c18.prompt": "Câu hỏi (ví dụ: Gợi ý 3 quán phở ngon ở Hà Nội) (mỗi dòng một câu hỏi, tối đa 20)",
+  "c18.col.title": "Tiêu đề trang được trích dẫn",
+  "c18.col.url": "URL trang được trích dẫn",
+  "c18.answer": "Câu trả lời của ChatGPT",
+  "c18.refs": "Các trang được trích dẫn",
   "c24.name": "Xem lượt tìm kiếm hàng loạt",
   "c24.desc": "Xem lượt tìm kiếm hàng tháng của nhiều từ khóa cùng lúc",
   "c24.price": "Chi phí: $0.09 cho mỗi lần gọi tối đa 1.000 từ khóa (khoảng $0.00009 mỗi từ khóa). Trên 1.000 từ khóa, công cụ tự chia danh sách: $0.09 cho mỗi 1.000. Bản mẫu miễn phí.",
@@ -93,8 +127,12 @@
   "ui.ai_prev_none": "Trình duyệt này chưa lưu dữ liệu lần trước. Hãy dán văn bản bạn có được từ «Sao chép bảng» lần trước vào chỗ ghi «Dán dữ liệu lần trước vào đây».",
   "ui.ai_prev_here": "«Dán dữ liệu lần trước vào đây»",
   "c24.ai_prompt_diff": "Bạn là trợ lý giúp một blogger mới bắt đầu chọn nên viết bài về từ khóa nào.\nNgười đọc đã kiểm tra lượt tìm kiếm của các từ khóa hai lần, vào hai ngày khác nhau, và muốn biết \"so với lần trước đã thay đổi gì\".\n\n# Về dữ liệu\n- Lần này: {date} / Lần trước: {prev_date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số từ khóa lần này: {n}\n- Giải thích các cột\n  - Lượt tìm kiếm hàng tháng: ước tính dựa trên dữ liệu Google Ads. Để trống nghĩa là \"không có dữ liệu\", chưa chắc là bằng 0.\n  - CPC (USD): giá trung bình mỗi lượt nhấp mà nhà quảng cáo trả. Đây không phải giá trị của một bài viết.\n  - Mức cạnh tranh (0–100): mức độ cạnh tranh của từ khóa trong quảng cáo. Đây không phải độ khó SEO.\n  - 12 tháng gần nhất: lượt tìm kiếm từng tháng, từ tháng mới nhất đến tháng cũ nhất.\n- Hãy so sánh cùng một từ khóa giữa lần trước và lần này. Từ khóa chỉ xuất hiện ở một bên thì ghi là \"mới\" hoặc \"đã biến mất\".\n\n# Việc tôi muốn bạn làm\n1. 5 từ khóa có lượt tìm kiếm hàng tháng thay đổi nhiều nhất, xếp từ thay đổi lớn nhất. Hiển thị lần trước, lần này và chênh lệch.\n2. Cho tôi biết những từ khóa lần trước để trống mà lần này có số (hoặc ngược lại).\n3. Nói ngắn gọn điều gì không thể biết chỉ từ dữ liệu: thay đổi đó là thật, hay chỉ là sai số của ước tính?\n4. Liệt kê 3 bước tiếp theo theo thứ tự.\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (từ khóa / lần trước / lần này / chênh lệch).\n\n# Dữ liệu lần trước (phân tách bằng Tab)\n```\n{prev_data}\n```\n\n# Dữ liệu lần này (phân tách bằng Tab)\n```\n{data}\n```",
+  "c01.ai_prompt": "Bạn là trợ lý giúp kiểm tra kết quả tìm kiếm.\nNgười đọc là một blogger mới bắt đầu, sắp viết bài và muốn biết \"hiện giờ những trang nào đang đứng đầu\".\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Thứ hạng: vị trí trong các kết quả thông thường (liên kết xanh). Không tính AI Overview, bản đồ, v.v.\n  - Tiêu đề: tiêu đề hiển thị trong kết quả. Tiêu đề dài có thể bị cắt bằng \"...\".\n  - URL / Tên miền: địa chỉ trang và tên website.\n- Kết quả tìm kiếm thay đổi theo địa điểm và thời gian. Đây là kết quả của ngày này và điều kiện này.\n\n# Việc tôi muốn bạn làm\n1. Nếu có tên miền xuất hiện nhiều lần, hãy cho tôi biết xuất hiện bao nhiêu lần.\n2. Liệt kê các từ hoặc mẫu chung của các tiêu đề (dấu ngoặc, năm, con số, v.v.), trong phạm vi có thể đếm được. Hãy cẩn thận với các tiêu đề bị cắt bằng \"...\".\n3. Dựa vào điểm chung của các tiêu đề hàng đầu, gợi ý 3 ý tưởng tiêu đề cho bài viết tôi sắp viết. Mỗi ý kèm một lý do ngắn.\n4. Nói ngắn gọn điều gì không thể biết chỉ từ dữ liệu (ví dụ: \"tôi có thể vượt lên được không?\").\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (tên miền / số lần xuất hiện).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
+  "c01.ai_prompt_diff": "Bạn là trợ lý giúp so sánh kết quả tìm kiếm theo thời gian.\nNgười đọc là một blogger mới bắt đầu, đã kiểm tra cùng một từ khóa hai lần vào hai ngày khác nhau và muốn biết các trang hàng đầu đã thay đổi thế nào.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Lần trước: {prev_date}\n- Các cột: Thứ hạng là vị trí trong các kết quả thông thường (liên kết xanh). URL và Tên miền là trang và website.\n- Hãy so sánh cùng một URL giữa lần trước và lần này. URL chỉ xuất hiện ở một bên thì ghi là \"mới\" hoặc \"đã biến mất\".\n\n# Việc tôi muốn bạn làm\n1. Các URL tăng hoặc giảm thứ hạng, kèm thứ hạng lần trước và lần này.\n2. Các URL mới và các URL đã biến mất, kèm tên miền.\n3. Tóm tắt ngắn gọn, bằng con số, xem có nhiều hay ít trang thay đổi.\n4. Nói điều gì không thể biết chỉ từ dữ liệu: thay đổi đó là thật, hay chỉ là nhiễu của kết quả?\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (URL / thứ hạng lần trước / thứ hạng hiện tại).\n\n# Dữ liệu lần trước (phân tách bằng Tab)\n```\n{prev_data}\n```\n\n# Dữ liệu lần này (phân tách bằng Tab)\n```\n{data}\n```",
   "ui.ai_answer_head": "[Câu trả lời]",
   "ui.ai_refs_head": "[Bảng nguồn]",
+  "c02.ai_prompt": "Bạn là trợ lý giúp đọc các câu trả lời của Google AI Mode.\nNgười đọc là người muốn biết website của mình có được trích dẫn trong câu trả lời của Google AI Mode hay không.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Nội dung: văn bản câu trả lời của AI và bảng các nguồn\n- Giải thích các cột\n  - Tiêu đề / URL: các trang mà câu trả lời của AI Mode đã trích dẫn.\n  - Câu trả lời có thể thay đổi mỗi lần hỏi. Đây là một kết quả của ngày này.\n- Một số câu hỏi hoàn toàn không trả về nguồn nào.\n\n# Việc tôi muốn bạn làm\n1. Tóm tắt câu trả lời trong 3 dòng.\n2. Đếm các tên miền được trích dẫn và cho tôi biết mỗi tên miền xuất hiện bao nhiêu lần.\n3. Liệt kê 3 điểm cần kiểm tra khi xem website của tôi có được trích dẫn hay không.\n4. Nói ngắn gọn điều gì không thể biết chỉ từ dữ liệu (ví dụ: lý do hoặc kết quả trong tương lai).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (tên miền / số lần).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
+  "c18.ai_prompt": "Bạn là trợ lý giúp đọc các câu trả lời của ChatGPT.\nNgười đọc là người muốn kiểm tra xem công ty hoặc sản phẩm của mình có xuất hiện khi khách hàng hỏi AI những câu hỏi như vậy hay không.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Nội dung: văn bản câu trả lời của AI và bảng các nguồn\n- Giải thích các cột\n  - Tiêu đề trang được trích dẫn / URL: các trang mà câu trả lời đã sử dụng.\n  - Câu trả lời có thể thay đổi mỗi lần hỏi. Đây là một kết quả của ngày này.\n- ChatGPT mà công cụ này dùng có thể khác với màn hình ChatGPT.\n\n# Việc tôi muốn bạn làm\n1. Liệt kê mọi tên công ty, sản phẩm và cửa hàng trong câu trả lời, theo thứ tự xuất hiện.\n2. Liệt kê 3 điểm cần kiểm tra để biết công ty hoặc sản phẩm của tôi có xuất hiện hay không.\n3. Nếu có hiển thị nguồn, hãy đếm các tên miền. Nếu không, hãy ghi \"không có\".\n4. Nói ngắn gọn điều gì không thể biết chỉ từ dữ liệu (ví dụ: làm thế nào để được đưa vào câu trả lời).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (tên / thứ tự xuất hiện).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
   "ui.steps_title": "Lấy được bao nhiêu, và chi phí",
   "ui.steps_amount": "Số lượng",
   "ui.steps_cost": "Chi phí",
@@ -109,5 +147,56 @@
   "ui.multi_one": "1 mục → gửi trong 1 yêu cầu",
   "ui.multi_over": "Giới hạn là {max} mục. Phần còn lại sẽ không được gửi.",
   "ui.multi_confirm": "Lấy {n} mục sẽ tốn khoảng ${cost}. Tiếp tục?",
-  "ui.multi_failed": "Có {n} mục không lấy được ({list}). Các mục thành công đã có trong bảng."
+  "ui.multi_failed": "Có {n} mục không lấy được ({list}). Các mục thành công đã có trong bảng.",
+  "c01.steps": [
+    [
+      "1 mục",
+      "$0.004 (ước tính)",
+      "Kiểm tra một từ khóa"
+    ],
+    [
+      "5 mục",
+      "$0.02 (ước tính)",
+      "Xếp nhiều từ khóa cạnh nhau để so sánh"
+    ],
+    [
+      "10 mục",
+      "$0.04 (ước tính)",
+      "Xử lý nhiều từ khóa cùng lúc và lưu thành bảng hoặc CSV"
+    ]
+  ],
+  "c02.steps": [
+    [
+      "1 mục",
+      "$0.004 (ước tính)",
+      "Kiểm tra một từ khóa (câu hỏi)"
+    ],
+    [
+      "5 mục",
+      "$0.02 (ước tính)",
+      "Xếp nhiều từ khóa (câu hỏi) cạnh nhau để so sánh"
+    ],
+    [
+      "30 mục",
+      "$0.12 (ước tính)",
+      "Xử lý nhiều từ khóa (câu hỏi) cùng lúc và lưu thành bảng hoặc CSV"
+    ]
+  ],
+  "c18.steps": [
+    [
+      "1 mục",
+      "$0.03 (ước tính)",
+      "Kiểm tra một câu hỏi"
+    ],
+    [
+      "5 mục",
+      "$0.15 (ước tính)",
+      "Xếp nhiều câu hỏi cạnh nhau để so sánh"
+    ],
+    [
+      "20 mục",
+      "$0.60 (ước tính)",
+      "Xử lý nhiều câu hỏi cùng lúc và lưu thành bảng hoặc CSV"
+    ]
+  ]
 }
