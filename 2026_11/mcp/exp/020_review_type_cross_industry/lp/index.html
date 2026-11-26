@@ -1,0 +1,97 @@
+<title>3業種の口コミ不満マップ</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap">
+<style>
+/* 設計: 業界の人向けの比較レポート見本。歯科・美容室・整骨院の3業種を並べ、共通点と違いを見せる。016と同じ藍＋橙。 */
+:root{--bg:#f7f6f2;--panel:#fff;--fg:#1d2433;--muted:#5d6678;--line:#e1ded5;--accent:#183a6b;--accent-soft:#e6ecf5;--hot:#d9541e;--hot-soft:#fbe9df;--ok:#2a7a4f;--ok-soft:#e5f2ea;--font:'Noto Sans JP','Hiragino Sans','Yu Gothic',system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12161e;--panel:#1a202b;--fg:#e8ebf1;--muted:#9aa4b6;--line:#2a3342;--accent:#8db4ee;--accent-soft:#1e2a40;--hot:#ff8a55;--hot-soft:#3a2a20;--ok:#6cc79a;--ok-soft:#1b2e24;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#12161e;--panel:#1a202b;--fg:#e8ebf1;--muted:#9aa4b6;--line:#2a3342;--accent:#8db4ee;--accent-soft:#1e2a40;--hot:#ff8a55;--hot-soft:#3a2a20;--ok:#6cc79a;--ok-soft:#1b2e24;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--font);line-height:1.85;font-size:16px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 56px}
+.wrap{max-width:780px;margin:0 auto}.band{padding-block:34px;border-bottom:1px solid var(--line)}
+h1{font-size:clamp(1.6rem,5.6vw,2.3rem);line-height:1.38;font-weight:900;margin:0 0 14px;text-wrap:balance}h2{font-size:1.25rem;font-weight:900;margin:0 0 12px;text-wrap:balance}h3{font-size:1rem;margin:16px 0 6px}
+p{margin:0 0 12px}.eyebrow{color:var(--hot);font-weight:700;font-size:.85rem;letter-spacing:.06em;margin-bottom:8px}.lead{font-size:1.05rem;color:var(--muted)}
+.sample{background:var(--hot-soft);border:1px dashed var(--hot);border-radius:6px;padding:8px 12px;font-size:.84rem;margin:0 0 14px}
+.sum{background:var(--accent-soft);border-left:4px solid var(--accent);padding:12px 14px;border-radius:0 6px 6px 0;margin:12px 0}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:8px;background:var(--panel);margin:8px 0}table{border-collapse:collapse;width:100%;min-width:560px;font-size:.88rem;font-variant-numeric:tabular-nums}th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{background:var(--accent-soft);white-space:nowrap}tr:last-child td{border-bottom:0}
+.m{color:var(--muted);font-size:.82rem}
+.bars{display:flex;flex-direction:column;gap:6px;margin:6px 0 4px}.bar{display:grid;grid-template-columns:11em 1fr 3.4em;gap:8px;align-items:center;font-size:.85rem}.bar .t{background:var(--line);border-radius:3px;height:14px;overflow:hidden}.bar .t i{display:block;height:100%;background:var(--hot)}.bar .t i.c{background:var(--accent)}.bar .v{text-align:right;font-variant-numeric:tabular-nums}.bar .l{min-width:0}
+@media(max-width:560px){.bar{grid-template-columns:8em 1fr 3.2em;font-size:.8rem}}
+.three{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}@media(max-width:820px){.three{grid-template-columns:1fr}}.three>*{min-width:0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px}.card h3{margin-top:0}
+ul{margin:0 0 8px;padding-left:1.2em}li{margin-bottom:4px}
+.step{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin-bottom:10px}
+.cta{background:var(--accent);color:var(--bg);border-radius:10px;padding:22px}.cta p{margin:0 0 6px}
+</style>
+<div class="wrap">
+<section class="band">
+  <p class="eyebrow">開業支援・メーカー・業界コンサル・メディアの方へ</p>
+  <h1>歯科・美容室・整骨院。お客さんの不満は、業種で違い、業種をまたいで共通します</h1>
+  <p class="lead">Googleマップの口コミ約1,660件（80院）を、自動で集めて、AIが読み、3業種を並べました。1業種ずつ調べるより、<b>共通点と違い</b>が見えます。</p>
+</section>
+
+<section class="band">
+  <p class="sample">実際の口コミ（2026年11月26日取得、東京中心20km圏・評価4以上・口コミ10件以上の店）です。店名・スタッフ名・投稿者名は載せていません。取得から集計までは自動で、1業種あたり約1分、約$0.11〜0.14でした。</p>
+  <div class="sum"><p style="margin:0"><b>3業種とも、不満の上位に「応対」（態度・電話・待たせ方）が入ります。</b>その上で、歯科は「治療後の結果・見落とし」、美容室は「希望と違う仕上がり」、整骨院は「施術の中身と営業・勧誘」が、それぞれ業種ならではの不満です。</p></div>
+
+  <h2>数字で並べる</h2>
+  <div class="tw"><table><thead><tr><th>項目</th><th>歯科</th><th>美容室</th><th>整骨院</th></tr></thead><tbody>
+    <tr><td>調べた院・店</td><td>32</td><td>24</td><td>24</td></tr>
+    <tr><td>口コミ件数</td><td>606</td><td>523</td><td>534</td></tr>
+    <tr><td>新しい順の口コミのうち星1〜2</td><td><b>12.3%</b></td><td>6.4%</td><td>4.0%</td></tr>
+    <tr><td>星1〜2への返信率</td><td>31%</td><td>50%</td><td><b>66%</b></td></tr>
+    <tr><td>本文のない口コミ（星だけ）</td><td>19%</td><td><b>34%</b></td><td>16%</td></tr>
+    <tr><td>星1〜2に「予約・待ち」が出る割合<br>（星4〜5では）</td><td>24%（12%）</td><td>21%（9%）</td><td><b>35%</b>（6%）</td></tr>
+    <tr><td>星1〜2に「料金・費用」が出る割合<br>（星4〜5では）</td><td>19%（7%）</td><td>21%（7%）</td><td><b>50%</b>（20%）</td></tr></tbody></table></div>
+  <p class="m">星の割合は新しい順の口コミで計算（評価の低い順で取った分は除く）。話題は、キーワードによる自動集計です。</p>
+
+  <h2>業種ごとの不満の型（AIが星1〜2の本文を読んだ結果）</h2>
+  <div class="three">
+    <div class="card"><h3>歯科（50件を読んだ）</h3>
+      <div class="bars">
+        <div class="bar"><span class="l">受付・電話の応対</span><span class="t"><i style="width:100%"></i></span><span class="v">約28%</span></div>
+        <div class="bar"><span class="l">治療の結果・見落とし</span><span class="t"><i style="width:100%"></i></span><span class="v">約28%</span></div>
+        <div class="bar"><span class="l">説明不足</span><span class="t"><i style="width:57%"></i></span><span class="v">約16%</span></div>
+        <div class="bar"><span class="l">待たされる・予約</span><span class="t"><i style="width:43%"></i></span><span class="v">約12%</span></div>
+        <div class="bar"><span class="l">医師の態度</span><span class="t"><i style="width:36%"></i></span><span class="v">約10%</span></div>
+        <div class="bar"><span class="l">HPと実際の食い違い</span><span class="t"><i style="width:21%"></i></span><span class="v">約6%</span></div></div></div>
+    <div class="card"><h3>美容室（34件を読んだ）</h3>
+      <div class="bars">
+        <div class="bar"><span class="l">希望と違う仕上がり</span><span class="t"><i class="c" style="width:100%"></i></span><span class="v">約45%</span></div>
+        <div class="bar"><span class="l">接客・態度</span><span class="t"><i class="c" style="width:58%"></i></span><span class="v">約26%</span></div>
+        <div class="bar"><span class="l">要望が伝わらない</span><span class="t"><i class="c" style="width:36%"></i></span><span class="v">約16%</span></div>
+        <div class="bar"><span class="l">担当・店の変化</span><span class="t"><i class="c" style="width:27%"></i></span><span class="v">約12%</span></div>
+        <div class="bar"><span class="l">待たされる・予約</span><span class="t"><i class="c" style="width:22%"></i></span><span class="v">約10%</span></div>
+        <div class="bar"><span class="l">ダメージ・失敗</span><span class="t"><i class="c" style="width:22%"></i></span><span class="v">約10%</span></div></div></div>
+    <div class="card"><h3>整骨院（24件を読んだ）</h3>
+      <div class="bars">
+        <div class="bar"><span class="l">態度・接客</span><span class="t"><i style="width:100%"></i></span><span class="v">約25%</span></div>
+        <div class="bar"><span class="l">施術の中身・効果</span><span class="t"><i style="width:100%"></i></span><span class="v">約25%</span></div>
+        <div class="bar"><span class="l">営業・勧誘</span><span class="t"><i style="width:68%"></i></span><span class="v">約17%</span></div>
+        <div class="bar"><span class="l">待たされる・予約</span><span class="t"><i style="width:68%"></i></span><span class="v">約17%</span></div>
+        <div class="bar"><span class="l">料金</span><span class="t"><i style="width:48%"></i></span><span class="v">約12%</span></div>
+        <div class="bar"><span class="l">担当・常連優先</span><span class="t"><i style="width:32%"></i></span><span class="v">約8%</span></div></div></div>
+  </div>
+  <p class="m">1件が複数の型に入るので、合計は100%を超えます。整骨院は読んだ件数が24件のため、1件が約4%です。件数はAIが読んだ目安です。</p>
+
+  <h2>この比較から言えること</h2>
+  <ul>
+    <li><b>共通：</b>どの業種でも、不満の上位2〜3つに<b>「応対」（態度・電話・待たせ方）</b>が入る。受付・電話・待たせ方・態度の標準を決めるのが、業種を問わず手を付けやすい一手。</li>
+    <li><b>美容室：</b>「写真を見せて伝えたのに違った」が目立つ。<b>写真や言葉でのすり合わせを、見える形で確認する仕組み</b>が効く。</li>
+    <li><b>整骨院：</b>星1〜2の半数が「料金・回数券・勧誘」に触れる。<b>料金と回数券の説明を、先にはっきり出す</b>ことが、不満の芽を減らす。</li>
+    <li><b>歯科：</b>評価の高い院でも、星1〜2が12%と最も高い。<b>治療後の結果の説明と、ホームページの情報の正確さ</b>が論点。</li>
+    <li><b>低評価への返信：</b>歯科は31%と低く、<b>返信が最も手薄な業種</b>。</li></ul>
+  <p class="m"><b>この比較の限界：</b>評価4以上の院・店だけを調べたので、各業種全体の不満ではありません。院・店の数は各24〜32です。「型」の件数は、AIが一部を読んだ目安です。美容室の口コミは本文のないものが多く（34%）、読める件数が少なめです。</p>
+</section>
+
+<section class="band">
+  <h2>どうやって作っているか</h2>
+  <div class="step"><h3>① 業種と地域を決める</h3><p style="margin:0">例：「東京の歯科・美容室・整骨院」。他の業種・地域にも広げられます。</p></div>
+  <div class="step"><h3>② 自動で集めて数える</h3><p style="margin:0">店をランダムに選び、口コミを並列で取り、星・返信率・話題を自動で集計します。1業種あたり約1分。</p></div>
+  <div class="step"><h3>③ AIが読んで、型にまとめる</h3><p style="margin:0">星の低い口コミを読んで、不満の型と使い道をまとめます。型の自動分類は、いま精度を上げている途中です。</p></div>
+  <p class="sample" style="margin-top:12px">データ取得の実費は、3業種・約1,660件で約$0.37（約55円）。AIの読み取りの費用は別です。金額は試験運用で決めます。</p>
+</section>
+
+<section class="band" style="border-bottom:0">
+  <div class="cta"><p><b>このページはテスト用の見本です。</b></p><p>申し込み窓口はまだありません。試験運用に参加したい方は、運営者にお知らせください。</p></div>
+</section>
+</div>
