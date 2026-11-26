@@ -1,0 +1,82 @@
+<title>近所の料金・メニュー比較</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap">
+<style>
+/* 設計: 店主向けの見本。近所の競合の料金を、同じ表に揃えて見せる。藍＋橙（001〜020と同じ系統）。 */
+:root{--bg:#f7f6f2;--panel:#fff;--fg:#1d2433;--muted:#5d6678;--line:#e1ded5;--accent:#183a6b;--accent-soft:#e6ecf5;--hot:#d9541e;--hot-soft:#fbe9df;--ok:#2a7a4f;--ok-soft:#e5f2ea;--font:'Noto Sans JP','Hiragino Sans','Yu Gothic',system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12161e;--panel:#1a202b;--fg:#e8ebf1;--muted:#9aa4b6;--line:#2a3342;--accent:#8db4ee;--accent-soft:#1e2a40;--hot:#ff8a55;--hot-soft:#3a2a20;--ok:#6cc79a;--ok-soft:#1b2e24;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#12161e;--panel:#1a202b;--fg:#e8ebf1;--muted:#9aa4b6;--line:#2a3342;--accent:#8db4ee;--accent-soft:#1e2a40;--hot:#ff8a55;--hot-soft:#3a2a20;--ok:#6cc79a;--ok-soft:#1b2e24;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--font);line-height:1.85;font-size:16px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 56px}
+.wrap{max-width:780px;margin:0 auto}.band{padding-block:34px;border-bottom:1px solid var(--line)}
+h1{font-size:clamp(1.6rem,5.6vw,2.3rem);line-height:1.38;font-weight:900;margin:0 0 14px;text-wrap:balance}h2{font-size:1.25rem;font-weight:900;margin:0 0 12px;text-wrap:balance}h3{font-size:1rem;margin:16px 0 6px}
+p{margin:0 0 12px}.eyebrow{color:var(--hot);font-weight:700;font-size:.85rem;letter-spacing:.06em;margin-bottom:8px}.lead{font-size:1.05rem;color:var(--muted)}
+.sample{background:var(--hot-soft);border:1px dashed var(--hot);border-radius:6px;padding:8px 12px;font-size:.84rem;margin:0 0 14px}
+.report{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px 18px}.m{color:var(--muted);font-size:.82rem}
+.sum{background:var(--accent-soft);border-left:4px solid var(--accent);padding:12px 14px;border-radius:0 6px 6px 0;margin:12px 0}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:12px 0}
+.kpi{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px 12px;min-width:0}.kpi b{display:block;font-size:1.4rem;font-variant-numeric:tabular-nums}.kpi span{color:var(--muted);font-size:.8rem}.kpi.hot b{color:var(--hot)}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:8px;background:var(--panel);margin:8px 0}table{border-collapse:collapse;width:100%;min-width:640px;font-size:.86rem;font-variant-numeric:tabular-nums}th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{background:var(--accent-soft);white-space:nowrap}tr:last-child td{border-bottom:0}td.n{text-align:right;white-space:nowrap}
+.step{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin-bottom:10px}
+ul{margin:0 0 8px;padding-left:1.2em}li{margin-bottom:4px}
+details{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 16px;margin-bottom:8px}summary{cursor:pointer;font-weight:700}
+.cta{background:var(--accent);color:var(--bg);border-radius:10px;padding:22px}.cta p{margin:0 0 6px}
+</style>
+<div class="wrap">
+<section class="band">
+  <p class="eyebrow">開業・値上げ・メニューの見直しを考えている店主へ</p>
+  <h1>近所のお店は、いくらで、どんなメニューを出しているのか。見に行く手間を、代わりに集めます</h1>
+  <p class="lead">Googleマップで近所の競合を見つけ、各店の公式サイトを開いて、料金とメニューを読み取り、同じ表に揃えます。</p>
+</section>
+
+<section class="band">
+  <p class="eyebrow">実際にやってみた例</p>
+  <h2>国分寺駅の近く2km圏の美容室：評価4以上の22店を調べた結果</h2>
+  <p class="sample">実際のデータ（2026年11月26日取得）です。店名は伏せています。料金は、各店のサイトの表記をAIが読み取った目安です（税込・税抜は店によって違います）。</p>
+  <div class="report">
+    <div class="sum"><p style="margin:0"><b>同じ「国分寺・評価4以上」でも、カットは4,400円〜7,700円（約1.7倍）、縮毛矯正は15,300円〜35,200円（約2.3倍）と、店ごとに大きく違います。</b>専門店ほど高く、表記も店ごとにバラバラです。</p></div>
+    <div class="kpis">
+      <div class="kpi"><b>22店</b><span>近所の評価4以上の美容室（口コミ20件以上）</span></div>
+      <div class="kpi hot"><b>5店</b><span>料金が読み取れた店（全体の約2割）</span></div>
+      <div class="kpi"><b>約1.7倍</b><span>カットの最安と最高の差</span></div>
+      <div class="kpi"><b>約2.3倍</b><span>縮毛矯正の最安と最高の差</span></div>
+    </div>
+    <h3>料金の比較表（目安）</h3>
+    <div class="tw"><table><thead><tr><th>店</th><th>カット</th><th>カラー</th><th>パーマ</th><th>縮毛矯正・ストレート</th><th>備考</th></tr></thead><tbody>
+      <tr><td>A（ショート専門）</td><td class="n">7,300円<br><span class="m">シャンプー・ブロー込み</span></td><td class="n">7,590円〜</td><td class="n">—</td><td class="n">15,300円</td><td>ブリーチ14,630円〜。学生カット3,650〜6,200円</td></tr>
+      <tr><td>B（クセ・髪質改善）</td><td class="n">6,600円<br><span class="m">（推定）</span></td><td class="n">16,000円〜<br><span class="m">カット＋ヘアマスク込み</span></td><td class="n">16,500円〜<br><span class="m">カット＋ヘアマスク込み</span></td><td class="n">24,000円〜<br><span class="m">カット＋ヘアマスク込み</span></td><td>セット価格が中心。ヘアマスク単体10,500円</td></tr>
+      <tr><td>C（エステ型）</td><td class="n">7,700円</td><td class="n">16,500円<br><span class="m">「カラーエステ」</span></td><td class="n">11,000〜14,300円</td><td class="n">22,000円<br><span class="m">「ストレートエステ」</span></td><td>トリートメントエステ18,800円</td></tr>
+      <tr><td>D（メンズ・理容寄り）</td><td class="n">4,400円</td><td class="n">7,200円〜<br><span class="m">カット込み</span></td><td class="n">8,800円〜<br><span class="m">カット込み</span></td><td class="n">—</td><td>学生・子ども料金あり（2,600〜4,200円）</td></tr>
+      <tr><td>E（縮毛矯正専門）</td><td class="n">約4,400円<br><span class="m">（差額から推定）</span></td><td class="n">18,700円<br><span class="m">「髪質改善カラーエステ」</span></td><td class="n">—</td><td class="n">35,200円<br><span class="m">「髪質改善ストレートエステ」</span></td><td>カット＋ストレート38,500円</td></tr></tbody></table></div>
+    <h3>読み取れること</h3>
+    <ul>
+      <li><b>専門性で値段が決まる：</b>縮毛矯正の専門店（E）は35,200円で、一般的な店（A）の約2.3倍。「何でもやる店」と「これに特化した店」で、同じメニューでも相場が違う。</li>
+      <li><b>表記がバラバラ：</b>「カット込み」「シャンプー・ブロー込み」「ヘアマスク込みのセット」「◯◯エステ」など。そのままでは比べられない。<b>揃えて並べる作業</b>が、この表の価値。</li>
+      <li><b>メニュー名で売り方が分かる：</b>「◯◯エステ」と名前を付けて単価を上げる店（C・E）と、基本メニューを並べる店（A・D）がある。</li></ul>
+    <p class="m"><b>この表の限界：</b>料金が読み取れたのは22店のうち5店（約2割）です。残りは、予約ポータルのページ（6店）、サイトなし・SNSのみ（3店）、料金が画像のサイト、サイトに接続できない・内容が空のサイト、チェーン・会社の共通サイト（料金なし）でした。「（推定）」は、差額や文脈から私たちが推定した値です。税込・税抜は店で違い、そろえていません。</p>
+  </div>
+</section>
+
+<section class="band">
+  <h2>お店の人がやること</h2>
+  <div class="step"><h3>① お店の場所と、比べたい業種を教える</h3><p style="margin:0">近所（半径1〜3km）の、評価の高い競合を選びます。</p></div>
+  <div class="step"><h3>② こちらで集めて、AIが読み取る</h3><p style="margin:0">各店の公式サイトの料金・メニューを読み取り、同じ形に揃えます。</p></div>
+  <div class="step"><h3>③ 1枚の比較表を受け取る</h3><p style="margin:0">相場の幅、専門性による差、自分の値段の置きどころを、一緒にまとめます。</p></div>
+</section>
+
+<section class="band">
+  <h2>料金のイメージ（検討中）</h2>
+  <div class="tw"><table style="min-width:420px"><thead><tr><th>形</th><th>中身</th><th>金額の案</th></tr></thead><tbody><tr><td>スポット</td><td>近所の競合5〜10店の料金・メニュー比較</td><td>1〜3万円</td></tr></tbody></table></div>
+  <p class="sample" style="margin-top:12px">データ取得の実費は、店リスト22店で約$0.02（約3円）。サイトの表示は無料のブラウザで行いました。AIの読み取りの費用は別です。金額は試験運用で決めます。</p>
+</section>
+
+<section class="band">
+  <h2>よくある質問</h2>
+  <details><summary>競合のサイトを見てもいいのですか？</summary><p style="margin-top:8px">公開されている公式サイトの料金表です。予約ポータル（ホットペッパービューティー等）のページは、利用規約の確認が必要なので、今回は読み取っていません。</p></details>
+  <details><summary>料金が載っていない店は、どうなりますか？</summary><p style="margin-top:8px">「料金なし（非公開・画像・読み取り不可）」と表に書きます。無理に推定はしません（今回の「（推定）」は、差額などの根拠があるものだけです）。</p></details>
+  <details><summary>この表の通りに値段を決めれば、お客さんが増えますか？</summary><p style="margin-top:8px">約束できません。表は、近所の相場と、メニューの組み方を見える形にするものです。値段は、お店の強み・コスト・お客さんに合わせて決めてください。</p></details>
+</section>
+
+<section class="band" style="border-bottom:0">
+  <div class="cta"><p><b>このページはテスト用の見本です。</b></p><p>申し込み窓口はまだありません。試験運用に参加したい方は、運営者にお知らせください。</p></div>
+</section>
+</div>

@@ -78,7 +78,7 @@ th{background:var(--accent-soft);white-space:nowrap}tr:last-child td{border-bott
 const FONT = '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap">';
 function shell({title, body, crumbs = ''}) {
   return `<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">${NOINDEX}<title>${esc(title)}</title>${FONT}<style>${CSS}</style></head><body>
-<nav class="top"><a href="/"><b>MCP実験室</b></a>${crumbs}<span class="sp"></span><a href="/ideas/">アイデア帳</a><a href="/patterns/">型の判断</a><a href="/about/">進め方</a><span class="tag">社内用・検索に出しません</span></nav>
+<nav class="top"><a href="/"><b>MCP実験室</b></a>${crumbs}<span class="sp"></span><a href="/ideas/">アイデア帳</a><a href="/industries/">業種メモ</a><a href="/patterns/">型の判断</a><a href="/about/">進め方</a><span class="tag">社内用・検索に出しません</span></nav>
 <main>${body}</main></body></html>`;
 }
 const md = s => marked.parse(s, {gfm: true}).replace(/<table>/g, '<div class="tw"><table>').replace(/<\/table>/g, '</table></div>');
@@ -153,8 +153,8 @@ const indexBody = `
 <p>「誰を喜ばせるか」から考えて、DataForSEOのデータで作れる<b>レポート型の事業案</b>を、実際にAPIを叩いて試す場所です。まず20本で区切り、そのあと既存ツールの公開とじっくりした検討に移ります。1つの案は、<b>1ページに全部入っています</b>（誰のため・何をどうしたか・費用・結果・弱点・LP・生データ）。</p>
 <p class="note">このサイトは検索エンジンに出さない設定です（noindex）。パスワードはないので、URLを知っている人は開けます。実在の店名・会社名つきのデータを含みます。</p>
 <div class="cards">
- <div class="card"><b>${data.filter(r => ['000', '001', '002', '003', '004', '007', '011', '013', '015', '016', '017', '019', '020'].includes(r.id)).length} / 20案</b><span>実験を終えた案（目標20）（${data.filter(r => r['判定'] === '構想').length}案が構想中）</span></div>
- <div class="card"><b>約$1.71</b><span>ここまでの実費合計（約255円）</span></div>
+ <div class="card"><b>${data.filter(r => ['000', '001', '002', '003', '004', '007', '011', '013', '014', '015', '016', '017', '019', '020'].includes(r.id)).length} / 20案</b><span>実験を終えた案（目標20）（${data.filter(r => r['判定'] === '構想').length}案が構想中）</span></div>
+ <div class="card"><b>約$1.73</b><span>ここまでの実費合計（約255円）</span></div>
  <div class="card"><b>約$0.054</b><span>診断1回の原価（約8円）</span></div>
  <div class="card"><b>0人</b><span>外の人の反応（これから）</span></div>
 </div>
@@ -172,6 +172,7 @@ const indexBody = `
 put('/index.html', shell({title: 'MCP実験室', body: indexBody}), '.html');
 put('/about/index.html', shell({title: '進め方', body: md(fs.readFileSync(path.join(root, 'README.md'), 'utf8')), crumbs: '<span>／</span><span>進め方</span>'}), '.html');
 put('/ideas/index.html', shell({title: 'アイデア帳', body: md(fs.readFileSync(path.join(root, 'IDEAS.md'), 'utf8')), crumbs: '<span>／</span><span>アイデア帳</span>'}), '.html');
+put('/industries/index.html', shell({title: '業種メモ', body: md(fs.readFileSync(path.join(root, 'INDUSTRIES.md'), 'utf8')), crumbs: '<span>／</span><span>業種メモ</span>'}), '.html');
 put('/patterns/index.html', shell({title: '型の判断', body: md(fs.readFileSync(path.join(root, 'PATTERNS.md'), 'utf8')), crumbs: '<span>／</span><span>型の判断</span>'}), '.html');
 put('/robots.txt', 'User-agent: *\nDisallow: /\n', '.txt');
 
