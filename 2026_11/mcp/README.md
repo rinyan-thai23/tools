@@ -55,3 +55,14 @@ NODE_USE_ENV_PROXY=1 node lib/grid.mjs --keyword ラーメン --lat 35.7057 --ln
 ※INDEX.tsv の点数は、いまはAIによる暫定の自己採点。外の人の反応が入ったら付け直す。
 
 「外の人の反応」は、実際に知り合いや見込み客に見せたときの言葉。100本は自分たちのテスト。**採用は、外の人の反応で決める。**
+
+## 公開サイト（社内用・検索に出さない）
+- https://lab.byokkit.com/ ：このフォルダの資料を、1案1ページにまとめて公開（Cloudflare Worker `lab-byokkit`、独自ドメイン）
+- 検索に出さない設定：全ページに noindex の meta、全応答に `X-Robots-Tag: noindex, nofollow, noarchive`、`/robots.txt` は全拒否。**パスワードはない**ので、URLを知っている人は開ける。店名つきの生データも含む
+- 更新：資料を直したら、次を実行
+```
+cd 2026_11/mcp && npm i
+node deploy/build-lab.mjs
+cd deploy && CLOUDFLARE_ACCOUNT_ID=04b402248ae5c56d6d24177a0f812040 CLOUDFLARE_API_TOKEN=proxy-injected npx wrangler@4 deploy -c wrangler.lab.jsonc
+```
+- 仕組み：`deploy/build-lab.mjs` が README・INDEX・PATTERNS・各 `exp/NNN_*` を読んで、静的ページを作り、1つのWorkerに埋め込む（既存の `dfs-tools` とは別のWorker）
