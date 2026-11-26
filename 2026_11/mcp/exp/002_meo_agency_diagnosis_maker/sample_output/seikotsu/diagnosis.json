@@ -1,0 +1,70 @@
+{
+ "shop": {
+  "title": "(masked)",
+  "rating": 4.6,
+  "votes": 17,
+  "photos": 18,
+  "profile": {
+   "オーナー確認（ビジネスの所有者確認）": true,
+   "電話番号の登録": true,
+   "ホームページの登録": true,
+   "営業時間の登録": true,
+   "追加カテゴリの登録": true
+  }
+ },
+ "keyword": "整骨院",
+ "grid": [
+  [
+   null,
+   null,
+   null,
+   16,
+   9
+  ],
+  [
+   20,
+   null,
+   13,
+   9,
+   7
+  ],
+  [
+   null,
+   17,
+   1,
+   3,
+   4
+  ],
+  [
+   null,
+   null,
+   20,
+   8,
+   5
+  ],
+  [
+   null,
+   null,
+   null,
+   17,
+   8
+  ]
+ ],
+ "counts": {
+  "total": 25,
+  "top3": 2,
+  "top10": 9,
+  "out": 10
+ },
+ "top_shops": {
+  "n": 46,
+  "rating": 4.68,
+  "votes": 24,
+  "photos": 17
+ },
+ "next": "今回の診断では、上位店との大きな差は見つかりませんでした。口コミへの返信を全件に1〜2行ずつ返しながら、口コミを少しずつ増やすのが、次の一手です。",
+ "cost_usd": 0.052,
+ "calls": 26,
+ "center_rank": 1,
+ "benchmark": "area_top3"
+}

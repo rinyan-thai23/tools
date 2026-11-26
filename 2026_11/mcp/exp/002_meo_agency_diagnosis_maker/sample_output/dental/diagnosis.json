@@ -1,0 +1,70 @@
+{
+ "shop": {
+  "title": "(masked)",
+  "rating": 3.8,
+  "votes": 15,
+  "photos": 32,
+  "profile": {
+   "オーナー確認（ビジネスの所有者確認）": true,
+   "電話番号の登録": true,
+   "ホームページの登録": true,
+   "営業時間の登録": true,
+   "追加カテゴリの登録": true
+  }
+ },
+ "keyword": "歯科",
+ "grid": [
+  [
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  [
+   null,
+   null,
+   19,
+   17,
+   null
+  ],
+  [
+   null,
+   17,
+   10,
+   7,
+   13
+  ],
+  [
+   19,
+   12,
+   6,
+   10,
+   14
+  ],
+  [
+   null,
+   19,
+   16,
+   15,
+   15
+  ]
+ ],
+ "counts": {
+  "total": 25,
+  "top3": 0,
+  "top10": 4,
+  "out": 10
+ },
+ "top_shops": {
+  "n": 3,
+  "rating": 4.27,
+  "votes": 61,
+  "photos": 19
+ },
+ "next": "お客さんに口コミをお願いする紙（QRコード）を、会計のそばに置く。いまの15件を、上位店の中央値61件に近づけるのが最初の目標です。",
+ "cost_usd": 0.052,
+ "calls": 26,
+ "center_rank": 10,
+ "benchmark": "door_top3"
+}

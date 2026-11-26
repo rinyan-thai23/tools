@@ -41,7 +41,13 @@ for (const c of g.cells) {
 }
 const flat = mat.flat(), total = flat.length;
 const cnt3 = flat.filter(v => v && v <= 3).length, cnt10 = flat.filter(v => v && v <= 10).length, cntOut = flat.filter(v => !v).length;
-const tops = [...top.values()];
+const h = (n - 1) / 2, centerRank = Number.isInteger(h) ? mat[h][h] : null;
+// 比べる相手：お店の位置（マップの中心）で3位以内に入れていない時は、その場所で上にいる店。入れている時は、この地域で3位以内に入った店
+const centerCell = g.cells.find(c => c.r === h && c.q === h);
+const atDoor = centerCell ? centerCell.items.filter(i => i.cid !== shop.cid).slice(0, 3) : [];
+const useDoor = (centerRank == null || centerRank > 3) && atDoor.length >= 3;
+const tops = useDoor ? atDoor : [...top.values()];
+const topLabel = useDoor ? 'お店の場所（マップの中心）で上位3位に出る店' : `この地域のどこかの地点で3位以内に入った他のお店（${tops.length}店）`;
 const t = {rating: +(tops.reduce((s, i) => s + (i.rating || 0), 0) / (tops.filter(i => i.rating).length || 1)).toFixed(2), votes: med(tops.map(i => i.votes)), photos: med(tops.map(i => i.photos))};
 const me = {rating: shop.rating?.value ?? null, votes: shop.rating?.votes_count ?? null, photos: shop.total_photos ?? null};
 const profile = [
@@ -55,8 +61,9 @@ if (shop.is_claimed === false) next = 'Googleに「このお店のオーナー�
 else if (me.votes != null && t.votes && me.votes < t.votes * 0.5) next = `お客さんに口コミをお願いする紙（QRコード）を、会計のそばに置く。いまの${me.votes}件を、上位店の中央値${t.votes}件に近づけるのが最初の目標です。`;
 else if (me.photos != null && t.photos && me.photos < t.photos * 0.5) next = `写真を増やす。外観・内観・メニュー（商品）の3種類を、月に5枚ずつ追加。いまの${me.photos}枚に対して、上位店の中央値は${t.photos}枚です。`;
 else if (me.rating != null && t.rating && me.rating <= t.rating - 0.4) next = `評価（星）の差を縮める。星1〜2の口コミを読み、共通の不満を1つ見つけて、返信で丁寧に対応する。いまの${me.rating}に対して、上位店の平均は${t.rating}です。`;
+else if (centerRank != null && centerRank > 3) next = `お店の場所でも${centerRank}位です。まず、この場所で上にいる3店（上の比較）との差を、口コミの中身・写真・プロフィールの説明文で1つ見つけ、そこから手を付ける。`;
 else if (profile.some(p => !p[1])) next = `未登録の項目（${profile.filter(p => !p[1]).map(p => p[0]).join('・')}）を埋める。`;
-else next = '口コミへの返信を、全件に1〜2行ずつ返す。基本の項目は上位店と同じ水準です。';
+else next = '今回の診断では、上位店との大きな差は見つかりませんでした。口コミへの返信を全件に1〜2行ずつ返しながら、口コミを少しずつ増やすのが、次の一手です。';
 
 const mask = !!cfg.mask, shopName = mask ? 'お客さまの店舗（例）' : shop.title, agency = cfg.agency || {name: '（会社名）', contact: ''};
 const area = cfg.area_label || (shop.address_info?.city || '');
@@ -90,7 +97,7 @@ footer{border-top:1px solid var(--line);padding-top:12px}
 <header><p class="m">${esc(agency.name)} ／ 診断日 ${esc(new Date().toISOString().slice(0, 10))} ／ 検索キーワード「${esc(cfg.keyword)}」</p>
 <h1>${esc(shopName)}さま<br>Googleマップ見え方診断</h1></header>
 <section class="sum"><p><b>${esc(shopName)}は、お店のまわり${total}地点のうち、3位以内が${cnt3}地点、10位以内が${cnt10}地点、圏外（21位以下）が${cntOut}地点でした。</b></p>
-<p class="m" style="margin:0">「${esc(cfg.keyword)}」と検索した人に、場所ごとにどう見えるかを調べました。</p></section>
+<p style="margin:0 0 4px">お店の場所（マップの中心）では<b>${centerRank ? centerRank + '位' : '圏外'}</b>です。</p><p class="m" style="margin:0">「${esc(cfg.keyword)}」と検索した人に、場所ごとにどう見えるかを調べました。</p></section>
 <section><h2>場所ごとの順位</h2>
 <div class="map" role="img" aria-label="場所ごとの順位マップ">${mat.map(r => r.map(cell).join('')).join('')}</div>
 <div class="legend"><span><i style="background:var(--c1)"></i>1〜3位</span><span><i style="background:var(--c2)"></i>4〜10位</span><span><i style="background:var(--c3)"></i>11〜20位</span><span><i style="background:var(--c0)"></i>圏外</span></div>
@@ -100,12 +107,12 @@ footer{border-top:1px solid var(--line);padding-top:12px}
 <div class="card${me.votes != null && t.votes && me.votes < t.votes * .5 ? ' gap' : ''}"><div class="k">口コミの数</div><div class="v">${me.votes ?? '—'}件</div><div class="m">上位店の中央値 ${t.votes ?? '—'}件</div></div>
 <div class="card${me.photos != null && t.photos && me.photos < t.photos * .5 ? ' gap' : ''}"><div class="k">写真の数</div><div class="v">${me.photos ?? '—'}枚</div><div class="m">上位店の中央値 ${t.photos ?? '—'}枚</div></div>
 <div class="card"><div class="k">評価（星）</div><div class="v">${me.rating ?? '—'}</div><div class="m">上位店の平均 ${t.rating}</div></div>
-</div><p class="m" style="margin-top:6px">上位店＝この地域のどこかの地点で3位以内に入った他のお店（${tops.length}店）。</p></section>
+</div><p class="m" style="margin-top:6px">上位店＝${topLabel}。</p></section>
 <section><h2>プロフィールの基本項目</h2><ul class="chk">${profile.map(p => `<li><span>${p[0]}</span><span class="${p[1] ? 'ok' : 'ng'}">${p[1] ? '登録あり' : '未登録'}</span></li>`).join('')}</ul></section>
 <section class="next"><p style="margin:0"><b>次の一手（まず1つ）</b></p><p style="margin:0">${esc(next)}</p></section>
 <footer><p class="m">この診断は、Googleマップの検索結果を機械で取得した目安です。人や時間によって表示は変わります。順位の上昇を保証するものではありません。口コミの買い取り・自作自演はGoogleの規約違反です。</p>
 <p class="m">${esc(agency.name)} ${esc(agency.contact || '')}</p></footer>
 </main>`;
 fs.writeFileSync(path.join(outDir, 'diagnosis.html'), html);
-fs.writeFileSync(path.join(outDir, 'diagnosis.json'), JSON.stringify({shop: {title: mask ? '(masked)' : shop.title, rating: me.rating, votes: me.votes, photos: me.photos, profile: Object.fromEntries(profile)}, keyword: cfg.keyword, grid: mat, counts: {total, top3: cnt3, top10: cnt10, out: cntOut}, top_shops: {n: tops.length, ...t}, next, cost_usd: +cost.toFixed(4), calls}, null, 1));
-console.log(JSON.stringify({shop: shop.title, counts: {total, top3: cnt3, top10: cnt10, out: cntOut}, me, top: t, next, cost: +cost.toFixed(4), calls}, null, 1));
+fs.writeFileSync(path.join(outDir, 'diagnosis.json'), JSON.stringify({shop: {title: mask ? '(masked)' : shop.title, rating: me.rating, votes: me.votes, photos: me.photos, profile: Object.fromEntries(profile)}, keyword: cfg.keyword, grid: mat, counts: {total, top3: cnt3, top10: cnt10, out: cntOut}, top_shops: {n: tops.length, ...t}, next, cost_usd: +cost.toFixed(4), calls, center_rank: centerRank, benchmark: useDoor ? 'door_top3' : 'area_top3'}, null, 1));
+console.log(JSON.stringify({shop: shop.title, counts: {total, top3: cnt3, top10: cnt10, out: cntOut}, me, top: t, next, cost: +cost.toFixed(4), calls, center_rank: centerRank, benchmark: useDoor ? 'door_top3' : 'area_top3'}, null, 1));
