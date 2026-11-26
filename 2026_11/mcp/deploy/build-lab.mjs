@@ -89,7 +89,7 @@ const head = rows[0], data = rows.slice(1).map(r => Object.fromEntries(head.map(
 const NAMES = {
   '000': 'ドメイン診断（簡易コンサル）とMCPの比較', '001': '場所ごとの順位マップ診断（店主向け）', '002': 'MEO診断メーカー（制作会社・代行向け）',
   '003': 'AI概要への掲載チェック', '004': '順位のノイズ測定', '005': '店の特定の改善', '006': '複数店舗の比較ボード', '007': '既存ツールとの違いの整理',
-  '008': '担当者がいない会社の月1通信簿', '009': '店舗向けマップ月次通信簿', '010': '開業前の商圏競合調査', '011': '口コミ読解レポート', '012': '営業提案書の下書き', '013': '士業向け「探されている言葉」の地図'};
+  '008': '担当者がいない会社の月1通信簿', '009': '店舗向けマップ月次通信簿', '010': '開業前の商圏競合調査', '011': '口コミ読解レポート', '012': '営業提案書の下書き', '013': '士業向け「探されている言葉」の地図', '014': '近所の競合の料金・メニュー比較'};
 
 // ---------- 事例ページ ----------
 const cases = []; // {id, dir, readme, files:[{url,label,size}], extra}
@@ -134,9 +134,9 @@ for (let i = 0; i < cases.length; i++) {
     Object.entries(groups).map(([g, xs]) => `<h3>${esc(g)}</h3><ul class="files">${xs.map(x => `<li><a href="${x.u}">${esc(x.rel.split('/').pop())}</a><span class="sz">${kb(x.size)}</span></li>`).join('')}</ul>`).join('');
   const prev = cases[i - 1], next = cases[i + 1];
   const pn = `<div class="pn"><span>${prev ? `← <a href="${url0(prev)}">${prev.id} ${esc(NAMES[prev.id])}</a>` : ''}</span><span>${next ? `<a href="${url0(next)}">${next.id} ${esc(NAMES[next.id])}</a> →` : ''}</span></div>`;
-  const row0 = data.find(d => d.id === c.id); const row = row0 && {...row0, '誰の': row0['who(誰の)'], '何を解決': row0['solves(何を解決)']};
+  const row0 = data.find(d => d.id === c.id); const row = row0 && {...row0, '誰の': row0['who(誰の)'], '何を解決': row0['solves(何を解決)'], '区分': row0['区分(データ)']};
   const body = (btn.length ? `<div class="btns">${btn.join('')}</div>` : '') + md(c.readme) +
-    (row ? `<h2>台帳での評価</h2><div class="tw"><table><tbody>${['誰の', '何を解決', '判定', '合計/21', 'メモ'].map(k => row[k] !== undefined ? `<tr><th>${k}</th><td>${esc(row[k])}</td></tr>` : '').join('')}</tbody></table></div>` : '') +
+    (row ? `<h2>台帳での評価</h2><div class="tw"><table><tbody>${['誰の', '何を解決', '区分', '判定', '合計/21', 'メモ'].map(k => row[k] !== undefined ? `<tr><th>${k}</th><td>${esc(row[k])}</td></tr>` : '').join('')}</tbody></table></div>` : '') +
     filesHtml + pn;
   const title = `${c.id} ${NAMES[c.id]}`;
   put(url0(c) + 'index.html', shell({title, body, crumbs: `<span>／</span><span>${esc(title)}</span>`}), '.html');
@@ -144,17 +144,17 @@ for (let i = 0; i < cases.length; i++) {
 
 // ---------- 全体の目次 ----------
 const stat = v => /^(採用|候補)/.test(v) ? `<span class="ok">${esc(v)}</span>` : v ? `<span class="hold">${esc(v)}</span>` : '';
-const tbl = `<div class="tw"><table style="min-width:900px"><thead><tr><th>ID</th><th>案</th><th>誰の</th><th>何を解決できるか</th><th>形・売り先</th><th>費用(USD)</th><th>状態</th></tr></thead><tbody>${data.map(r => {
+const tbl = `<div class="tw"><table style="min-width:1100px"><thead><tr><th>ID</th><th>案</th><th>誰の</th><th>何を解決できるか</th><th>形・売り先</th><th>データの区分</th><th>費用(USD)</th><th>状態</th></tr></thead><tbody>${data.map(r => {
   const nm = esc(NAMES[r.id] || r.slug);
-  return `<tr><td>${r.id}</td><td>${idsWithPage.has(r.id) ? `<a href="/c/${r.id}/">${nm}</a>` : nm}</td><td>${esc(r['who(誰の)'])}</td><td>${esc(r['solves(何を解決)'])}</td><td>${esc(r['tags(形・売り先)'])}</td><td>${esc(r['原価USD'])}</td><td>${stat(r['判定'])}</td></tr>`;
+  return `<tr><td>${r.id}</td><td>${idsWithPage.has(r.id) ? `<a href="/c/${r.id}/">${nm}</a>` : nm}</td><td>${esc(r['who(誰の)'])}</td><td>${esc(r['solves(何を解決)'])}</td><td>${esc(r['tags(形・売り先)'])}</td><td>${esc(r['区分(データ)'])}</td><td>${esc(r['原価USD'])}</td><td>${stat(r['判定'])}</td></tr>`;
 }).join('')}</tbody></table></div>`;
 const indexBody = `
 <h1>MCP実験室：レポート型の事業案を100本試す</h1>
 <p>「誰を喜ばせるか」から考えて、DataForSEOのデータで作れる<b>レポート型の事業案</b>を、実際にAPIを叩いて試す場所です。良かったものを最終的に10個採用します。1つの案は、<b>1ページに全部入っています</b>（誰のため・何をどうしたか・費用・結果・弱点・LP・生データ）。</p>
 <p class="note">このサイトは検索エンジンに出さない設定です（noindex）。パスワードはないので、URLを知っている人は開けます。実在の店名・会社名つきのデータを含みます。</p>
 <div class="cards">
- <div class="card"><b>${data.filter(r => ['000', '001', '002', '003'].includes(r.id)).length}案</b><span>実験を終えた案（${data.filter(r => r['判定'] === '構想').length}案が構想中）</span></div>
- <div class="card"><b>約$0.84</b><span>ここまでの実費合計（約130円）</span></div>
+ <div class="card"><b>${data.filter(r => ['000', '001', '002', '003', '004'].includes(r.id)).length}案</b><span>実験を終えた案（${data.filter(r => r['判定'] === '構想').length}案が構想中）</span></div>
+ <div class="card"><b>約$0.99</b><span>ここまでの実費合計（約150円）</span></div>
  <div class="card"><b>約$0.054</b><span>診断1回の原価（約8円）</span></div>
  <div class="card"><b>0人</b><span>外の人の反応（これから）</span></div>
 </div>
