@@ -566,7 +566,7 @@
  },
  "vi": {
   "title": "Bạn có thể làm gì ở đây",
-  "intro": "Đây là các tính năng của DataForSEO API, mỗi tính năng là một công cụ riêng trên màn hình. Kiểm tra thứ hạng (SERP), nghiên cứu từ khóa (lượt tìm kiếm hàng tháng, từ khóa liên quan, độ khó từ khóa), phân tích đối thủ, SEO địa phương (Google Maps), mức hiển thị trên AI tìm kiếm (ChatGPT, Gemini, Claude, Perplexity, Google AI Mode), phân tích YouTube, kiểm tra website (tốc độ trang, các thẻ tiêu đề) và công cụ tên miền (WHOIS, công nghệ sử dụng): khoảng 60 công cụ. BYOK (dùng Khóa API của chính bạn): không cần đăng ký gói tháng, bạn chỉ trả tiền theo mức dùng bằng Khóa API của mình. Công cụ nào cũng có bản mẫu miễn phí, nên bạn xem được kết quả trước khi chạy.",
+  "intro": "Đây là các tính năng của DataForSEO API, mỗi tính năng là một công cụ riêng trên màn hình. Kiểm tra thứ hạng (SERP), nghiên cứu từ khóa (lượt tìm kiếm hàng tháng, từ khóa liên quan, độ khó từ khóa), phân tích đối thủ, SEO địa phương (Google Maps), mức hiển thị trên AI tìm kiếm (ChatGPT, Gemini, Claude, Perplexity, Google AI Mode), phân tích YouTube, kiểm tra website (tốc độ trang, các thẻ heading) và công cụ tên miền (WHOIS, công nghệ sử dụng): khoảng 60 công cụ. BYOK (dùng Khóa API của chính bạn): không cần đăng ký gói tháng, bạn chỉ trả tiền theo mức dùng bằng Khóa API của mình. Công cụ nào cũng có bản mẫu miễn phí, nên bạn xem được kết quả trước khi chạy.",
   "sections": [
    {
     "title": "Kết quả tìm kiếm và thứ hạng (SEO và SEO địa phương)",
@@ -584,7 +584,7 @@
    },
    {
     "title": "Nghiên cứu từ khóa (lượt tìm kiếm hàng tháng, từ khóa liên quan, độ khó từ khóa)",
-    "text": "Xem lượt tìm kiếm hàng tháng của tối đa 1.000 từ khóa mỗi lần gọi với giá $0.09. Có từ khóa liên quan, từ khóa đuôi dài, gợi ý tự động điền, độ khó từ khóa, ý định tìm kiếm và lịch sử theo tháng. Dùng để chọn từ khóa cho bài viết tiếp theo hoặc lập danh sách từ khóa quảng cáo.",
+    "text": "Xem lượt tìm kiếm hàng tháng của tối đa 1.000 từ khóa mỗi lần gọi với giá $0.09. Có từ khóa liên quan, từ khóa đuôi dài, gợi ý tìm kiếm tự động, độ khó từ khóa, ý định tìm kiếm và lịch sử theo tháng. Dùng để chọn từ khóa cho bài viết tiếp theo hoặc lập danh sách từ khóa quảng cáo.",
     "tools": [
      "C24",
      "C26",
@@ -660,7 +660,7 @@
    },
    {
     "title": "Kiểm tra website và phân tích trang",
-    "text": "Thông tin cơ bản của trang (tiêu đề, các thẻ tiêu đề, số từ), trích xuất các thẻ tiêu đề và nội dung bài viết, điểm tốc độ trang, ảnh chụp màn hình, công nghệ mà website sử dụng và ngày đăng ký, ngày hết hạn của tên miền (WHOIS).",
+    "text": "Thông tin cơ bản của trang (tiêu đề, các thẻ heading, số từ), trích xuất các thẻ heading và nội dung bài viết, điểm tốc độ trang, ảnh chụp màn hình, công nghệ mà website sử dụng và ngày đăng ký, ngày hết hạn của tên miền (WHOIS).",
     "tools": [
      "C60",
      "C61",
