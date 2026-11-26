@@ -1,0 +1,270 @@
+{
+ "total_count": 24,
+ "cost": 0.02064,
+ "items": [
+  {
+   "cid": "3880289128662667421",
+   "title": "森塾 国立校",
+   "url": "https://www.morijuku.com/school/kunitachi/?utm_source=googlemap&utm_medium=maplink",
+   "domain": "www.morijuku.com",
+   "rating": 4.7,
+   "votes": 74,
+   "price_level": null,
+   "address": "〒186-0002 Tokyo, Kunitachi, Higashi, 1 Chome−4−12 ＫＳ国立ビル 6階",
+   "phone": "+8142-501-9071"
+  },
+  {
+   "cid": "15761497402769827571",
+   "title": "森塾 国分寺校",
+   "url": "https://www.morijuku.com/school/kokubunji/?utm_source=googlemap&utm_medium=maplink",
+   "domain": "www.morijuku.com",
+   "rating": 4.7,
+   "votes": 70,
+   "price_level": null,
+   "address": "〒185-0021 Tokyo, Kokubunji, Minamicho, 3 Chome−23−3 常栄ビル 2階",
+   "phone": "+8142-320-4035"
+  },
+  {
+   "cid": "3359340979904365397",
+   "title": "武田塾 国分寺校",
+   "url": "http://www.takeda.tv/kokubunji/",
+   "domain": "www.takeda.tv",
+   "rating": 4.8,
+   "votes": 62,
+   "price_level": null,
+   "address": "〒185-0021 Tokyo, Kokubunji, Minamicho, 3 Chome−17−2 東海ビル 2階",
+   "phone": "+8142-548-5977"
+  },
+  {
+   "cid": "1452824685458605209",
+   "title": "森塾 武蔵小金井校",
+   "url": "https://www.morijuku.com/school/musashikoganei/?utm_source=googlemap&utm_medium=maplink",
+   "domain": "www.morijuku.com",
+   "rating": 4.8,
+   "votes": 53,
+   "price_level": null,
+   "address": "〒184-0004 Tokyo, Koganei, Honcho, 1 Chome−18−10 小金井本町ビル 7階",
+   "phone": "+8142-386-8335"
+  },
+  {
+   "cid": "17197161364916815409",
+   "title": "学習塾Canpass（キャンパス）小平校",
+   "url": "https://canpass-class.com/",
+   "domain": "canpass-class.com",
+   "rating": 4.9,
+   "votes": 44,
+   "price_level": null,
+   "address": "151-19 Meguritacho, Kodaira, Tokyo 187-0013",
+   "phone": "+8142-329-5155"
+  },
+  {
+   "cid": "4178062843143119052",
+   "title": "学習塾Canpass（キャンパス）あかしあ通り校",
+   "url": "https://canpass-class.com/",
+   "domain": "canpass-class.com",
+   "rating": 5,
+   "votes": 44,
+   "price_level": null,
+   "address": "2 Chome-2-19 Gakuenhigashicho, Kodaira, Tokyo 187-0043",
+   "phone": "+8142-312-1303"
+  },
+  {
+   "cid": "380970098413439325",
+   "title": "坪田塾 国立校",
+   "url": "https://tsubotajuku.com/schoolhouse_guide/tokyo-kunitachi/",
+   "domain": "tsubotajuku.com",
+   "rating": 4.3,
+   "votes": 32,
+   "price_level": null,
+   "address": "〒186-0002 Tokyo, Kunitachi, Higashi, 1 Chome−4−15 国立ＫＴビル 5F",
+   "phone": "+81120-580-986"
+  },
+  {
+   "cid": "14765064391287795097",
+   "title": "個別能力開発会プラスアルファ・開進塾",
+   "url": "https://plu-al.net/plusalpha",
+   "domain": "plu-al.net",
+   "rating": 5,
+   "votes": 27,
+   "price_level": null,
+   "address": "〒185-0011 Tokyo, Kokubunji, Honda, 2 Chome−1−19 セルビスビル 2F-B",
+   "phone": "+8142-324-0200"
+  },
+  {
+   "cid": "18383932635625847382",
+   "title": "個別指導の学習塾 英才個別学院 恋ヶ窪校",
+   "url": "https://www.eisai.org/koigakubo/?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+   "domain": "www.eisai.org",
+   "rating": 4.6,
+   "votes": 26,
+   "price_level": null,
+   "address": "〒185-0003 Tokyo, Kokubunji, Tokura, 1 Chome−5−14 恋ヶ窪ローズハイツ 1階",
+   "phone": "+8142-300-7055"
+  },
+  {
+   "cid": "690435142411504627",
+   "title": "代々木個別指導学院 武蔵小金井校",
+   "url": "https://www.yoyogi-group.com/musashikoganei.html",
+   "domain": "www.yoyogi-group.com",
+   "rating": 4.6,
+   "votes": 26,
+   "price_level": null,
+   "address": "〒184-0004 Tokyo, Koganei, Honcho, 5 Chome−19−3 大澤ビル 3Ｆ",
+   "phone": "+8142-382-8466"
+  },
+  {
+   "cid": "4970835810117501997",
+   "title": "武田塾 国立校",
+   "url": "https://www.takeda.tv/kunitachi/",
+   "domain": "www.takeda.tv",
+   "rating": 4.5,
+   "votes": 23,
+   "price_level": null,
+   "address": "〒186-0002 Tokyo, Kunitachi, Higashi, 1 Chome−4−28 5階",
+   "phone": "+8142-573-4757"
+  },
+  {
+   "cid": "4132439210530317286",
+   "title": "大学受験ディアロ国分寺校",
+   "url": "https://dialo.jp/school/school17.html?utm_source=gmb&utm_medium=display&utm_campaign=websiteurl17",
+   "domain": "dialo.jp",
+   "rating": 4.8,
+   "votes": 21,
+   "price_level": null,
+   "address": "〒185-0021 Tokyo, Kokubunji, Minamicho, 3 Chome−1−29 国分寺南医療ビル 3階",
+   "phone": "+8142-313-8996"
+  },
+  {
+   "cid": "11404882836180191643",
+   "title": "インテグラアカデミー 国分寺本教室",
+   "url": "https://integra-academy.jp/?utm_source=google&utm_medium=maps",
+   "domain": "integra-academy.jp",
+   "rating": 5,
+   "votes": 20,
+   "price_level": null,
+   "address": "〒185-0021 Tokyo, Kokubunji, Minamicho, 2 Chome−14−6 フラッツ秦 1F",
+   "phone": "+8142-320-2360"
+  },
+  {
+   "cid": "7579183469742046918",
+   "title": "個別指導コノ塾 一橋学園校",
+   "url": "https://conojuku.co/centers/27?utm_source=googlemap&utm_medium=organic&utm_campaign=map",
+   "domain": "conojuku.co",
+   "rating": 4.9,
+   "votes": 20,
+   "price_level": null,
+   "address": "〒187-0045 Tokyo, Kodaira, Gakuen Nishimachi, 2 Chome−14−21 日興アネックス 1F",
+   "phone": "+8142-313-2228"
+  },
+  {
+   "cid": "959974036052179335",
+   "title": "城南コベッツ 国分寺教室",
+   "url": "https://www.covez.jp/school/kanto/tokyo/kokubunji/kokubunji/?utm_source=google&utm_medium=GoogleMyBusiness",
+   "domain": "www.covez.jp",
+   "rating": 4.7,
+   "votes": 20,
+   "price_level": null,
+   "address": "〒185-0012 Tokyo, Kokubunji, Honcho, 2 Chome−9−12 国分寺オリエント丹野 １階",
+   "phone": "+8142-329-8216"
+  },
+  {
+   "cid": "12261153545116087969",
+   "title": "個別指導塾フォルテ 国立校",
+   "url": "https://school.fuerte.tokyo/class/kunitachi",
+   "domain": "school.fuerte.tokyo",
+   "rating": 4.9,
+   "votes": 16,
+   "price_level": null,
+   "address": "〒186-0002 Tokyo, Kunitachi, Higashi, 1 Chome−4−20 イーストワン国立 １０２",
+   "phone": "+8170-1359-5948"
+  },
+  {
+   "cid": "5223306135368936853",
+   "title": "個別指導塾 幼児教室 東京英才学院 国分寺教室",
+   "url": "https://www.tokyo-eisai-koku.com/",
+   "domain": "www.tokyo-eisai-koku.com",
+   "rating": 5,
+   "votes": 15,
+   "price_level": null,
+   "address": "〒185-0012 Tokyo, Kokubunji, Honcho, 3 Chome−10−18 ビューコートアサミ 2F",
+   "phone": "+8142-328-3501"
+  },
+  {
+   "cid": "6244054132594289538",
+   "title": "ena国立 学習塾 中学・高校受験対策",
+   "url": "https://www.ena.co.jp/rooms/ena%E5%9B%BD%E7%AB%8B/",
+   "domain": "www.ena.co.jp",
+   "rating": 4.7,
+   "votes": 15,
+   "price_level": null,
+   "address": "〒186-0002 Tokyo, Kunitachi, Higashi, 1 Chome−4−24 タワ",
+   "phone": "+81120-061-711"
+  },
+  {
+   "cid": "17683728065859545516",
+   "title": "個別指導学院フリーステップ 国分寺教室",
+   "url": "https://www.kaisei-group.co.jp/freestep/school/312485/?utm_source=google&utm_medium=maps&argument=diiZBngV&dmai=a61f76449678e2",
+   "domain": "www.kaisei-group.co.jp",
+   "rating": 4.7,
+   "votes": 13,
+   "price_level": null,
+   "address": "〒185-0012 Tokyo, Kokubunji, Honcho, 2 Chome−7−2 ハウスアメニティ99 1階・2階",
+   "phone": "+8142-312-0030"
+  },
+  {
+   "cid": "10639197069705198376",
+   "title": "研進学院 府中晴見町校",
+   "url": "https://main-kenshin.ssl-lolipop.jp/locations-03-fuchu-harumichokou.html",
+   "domain": "main-kenshin.ssl-lolipop.jp",
+   "rating": 4.8,
+   "votes": 12,
+   "price_level": null,
+   "address": "〒183-0057 Tokyo, Fuchu, Harumicho, 1 Chome−27−19 石井マンション 1階 B号",
+   "phone": "+8142-319-0602"
+  },
+  {
+   "cid": "9660312619281895189",
+   "title": "個別指導塾WAM 一橋学園校",
+   "url": "https://wam-hitotsubashigakuen.com/lp",
+   "domain": "wam-hitotsubashigakuen.com",
+   "rating": 4.5,
+   "votes": 11,
+   "price_level": null,
+   "address": "〒187-0021 Tokyo, Kodaira, Josuiminamicho, 1 Chome−1−1 桜橋マンション １Ｆ",
+   "phone": "+81120-963-696"
+  },
+  {
+   "cid": "2212454828491892802",
+   "title": "鼎進学教室",
+   "url": "http://kanae-academeia.com/",
+   "domain": "kanae-academeia.com",
+   "rating": 4.6,
+   "votes": 10,
+   "price_level": null,
+   "address": "1 Chome-5-1 Kita, Kunitachi, Tokyo 186-0001",
+   "phone": "+8142-505-4790"
+  },
+  {
+   "cid": "3510604410051614944",
+   "title": "個別指導の明光義塾 一橋学園教室",
+   "url": "https://www.meikogijuku.jp/school/tokyo/kodaira-shi/S0319/?utm_source=GMB&utm_medium=profile&utm_campaign=Local_Search_S0319",
+   "domain": "www.meikogijuku.jp",
+   "rating": 4.9,
+   "votes": 10,
+   "price_level": null,
+   "address": "〒187-0043 Tokyo, Kodaira, Gakuenhigashicho, 1 Chome−7−37 メゾンドフルール 1F",
+   "phone": "+8142-345-2380"
+  },
+  {
+   "cid": "7871481632734321213",
+   "title": "松陰塾 府中晴見校",
+   "url": "https://showin-juku.jp/fuchuharumi/?utm_source=google&utm_medium=maps",
+   "domain": "showin-juku.jp",
+   "rating": 4.7,
+   "votes": 10,
+   "price_level": null,
+   "address": "〒183-0057 Tokyo, Fuchu, Harumicho, 1 Chome−２７−34 桑田コーポ 1F D号",
+   "phone": "+8142-306-9400"
+  }
+ ]
+}

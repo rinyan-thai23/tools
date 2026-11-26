@@ -5,7 +5,7 @@ import {connect} from '../../../lib/mcp.mjs';
 const [cat, center, limit, out] = [process.argv[2], process.argv[3], +process.argv[4], process.argv[5]];
 const mcp = await connect();
 const r = await mcp.api('/v3/business_data/business_listings/search/live', [{categories: [cat], location_coordinate: center, limit,
-  filters: [['rating.value', '>=', 4], 'and', ['rating.votes_count', '>=', 20], 'and', ['address_info.country_code', '=', 'JP']], order_by: ['rating.votes_count,desc']}]);
+  filters: [['rating.value', '>=', 4], 'and', ['rating.votes_count', '>=', +(process.argv[6] || 20)], 'and', ['address_info.country_code', '=', 'JP']], order_by: ['rating.votes_count,desc']}]);
 const x = r.tasks?.[0]?.result?.[0];
 const items = (x?.items || []).map(i => ({cid: i.cid, title: i.original_title || i.title, url: i.url, domain: i.domain, rating: i.rating?.value, votes: i.rating?.votes_count, price_level: i.price_level, address: i.address, phone: i.phone}));
 fs.writeFileSync(out, JSON.stringify({total_count: x?.total_count, cost: r.cost, items}, null, 1));
