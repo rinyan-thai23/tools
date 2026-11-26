@@ -1,0 +1,38 @@
+<section class="seo">
+<h2>Các cách xem giá chỗ nghỉ gần đó và so sánh các công cụ chính</h2>
+<p>Chủ chỗ nghỉ muốn biết <strong>các chỗ nghỉ gần đó đang bán giá bao nhiêu cho thứ Bảy sắp tới</strong>. Nhập một khu vực, công cụ sẽ lập bảng tên khách sạn, giá và điểm đánh giá cho một đêm, hai người lớn, nhận phòng vào thứ Bảy tới.</p>
+<div class="scroll"><table>
+<thead><tr><th>Cách làm / công cụ</th><th>Cách tính phí</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr class="me"><td>Công cụ này (DataForSEO)</td><td>Trả theo từng yêu cầu. Khoảng $0.004 cho mỗi lần gọi (đã đo thực tế), khoảng 250 lần gọi cho mỗi $1</td><td>Khoảng 20 khách sạn trong khu vực với tên, giá và điểm đánh giá trong một bảng. Có thể lưu thành CSV</td></tr>
+<tr><td>Google Travel (Hotels)</td><td>Xem trang chính thức</td><td>Một màn hình để chọn ngày và số khách rồi xem giá khách sạn</td></tr>
+<tr><td>Rakuten Travel / Jalan (làm thủ công)</td><td>Xem các trang chính thức</td><td>Bạn chọn ngày và kiểm tra từng chỗ nghỉ; xếp chúng cạnh nhau phải làm thủ công</td></tr>
+<tr><td>Booking.com (làm thủ công)</td><td>Xem trang chính thức</td><td>Bạn chọn ngày và kiểm tra từng chỗ nghỉ; xếp chúng cạnh nhau phải làm thủ công</td></tr>
+</tbody></table></div>
+<p class="asof">Kiểm tra vào tháng 11/2026. Giá có thể thay đổi — hãy xác nhận trên trang chính thức của từng nhà cung cấp trước khi mua.</p>
+
+<h2>Vì sao nên dùng công cụ này</h2>
+<ul>
+<li><strong>Các chỗ nghỉ gần đó xếp thành một danh sách chỉ trong một lần gọi.</strong> "京都" trả về 20 dòng trong khoảng 5 giây (đã đo thực tế).</li>
+<li><strong>Giá và điểm đánh giá nằm cạnh nhau.</strong> Điểm đánh giá và số lượt đánh giá cũng được hiển thị.</li>
+<li><strong>Khoảng $0.004 cho mỗi lần gọi.</strong> Khoảng 250 lần gọi cho mỗi $1, nên bạn có thể làm mới vào mỗi thứ Bảy.</li>
+<li><strong>Ngày được cố định là "thứ Bảy tới, một đêm, hai người lớn".</strong> Bạn không phải chọn ngày.</li>
+<li><strong>Lưu thành CSV.</strong> Dùng để ghi lại hằng tuần.</li>
+</ul>
+
+<h2>Khi nào công cụ này không phù hợp</h2>
+<ul>
+<li>Bạn muốn <strong>giá ngày thường hoặc ngày lễ</strong> → ngày được cố định là một đêm từ thứ Bảy tới.</li>
+<li><strong>Giá để trống</strong> → khi API trả về giá bằng 0, ô được để trống. Có thể là không có giá, chứ không phải phòng miễn phí (chưa xác nhận lý do). Số ô trống thay đổi theo khu vực và ngày (đã đo thực tế: 2 trên 20 với "京都", 12 trên 20 với "東京 ホテル", và 2 trên 18 với cùng cách tìm đó vào một ngày khác).</li>
+<li>Bạn muốn <strong>giá theo từng loại phòng</strong> → bảng chỉ có một mức giá cho mỗi chỗ nghỉ.</li>
+<li>Bạn muốn biết <strong>thứ hạng chỗ nghỉ của chính mình</strong> → bảng không hiển thị thứ hạng.</li>
+</ul>
+<p>Công cụ này chỉ làm một việc: hiển thị giá và điểm đánh giá của các chỗ nghỉ trong một khu vực cho một đêm từ thứ Bảy tới.</p>
+
+<h2>Câu hỏi thường gặp</h2>
+<details><summary>Giá này là cho khoảng thời gian nào?</summary><p>Một đêm cho hai người lớn, nhận phòng vào thứ Bảy tới và trả phòng vào Chủ Nhật. Đơn vị là yên.</p></details>
+<details><summary>Vì sao có giá để trống?</summary><p>API trả về 0 cho khách sạn đó, và công cụ này hiển thị 0 là ô trống. Có thể là không có giá (ví dụ hết phòng), nhưng chúng tôi chưa xác nhận lý do.</p></details>
+<details><summary>Tôi viết khu vực như thế nào?</summary><p>Một tên địa điểm như "京都" hoặc "浅草". Thêm một từ, như "東京 ホテル", cũng dùng được.</p></details>
+<details><summary>Tôi có thể đổi ngày không?</summary><p>Không trong công cụ này. Ngày được cố định là thứ Bảy tới.</p></details>
+<details><summary>Tôi có thể đăng ký bằng email miễn phí không?</summary><p>Không. DataForSEO không chấp nhận các nhà cung cấp email miễn phí. Xem <a href="/dfs-en.html">What is DataForSEO?</a> (tiếng Anh)</p></details>
+</section>

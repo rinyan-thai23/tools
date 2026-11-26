@@ -1,0 +1,39 @@
+<section class="seo">
+<h2>Các cách kiểm tra ngày đăng ký và ngày hết hạn của tên miền, và so sánh các công cụ chính</h2>
+<p>Khi làm website, bạn muốn xác nhận <strong>tên miền của khách hàng được đăng ký từ khi nào và còn hiệu lực bao lâu</strong>. Nhập một tên miền, công cụ này sẽ lập bảng ngày đăng ký, ngày thay đổi, ngày hết hạn và nhà đăng ký.</p>
+<p class="note">* Giờ đây bạn có thể nhập nhiều mục, mỗi dòng một mục (mỗi mục được gửi riêng lẻ, nên bạn trả tiền theo số mục). Bảng sẽ có thêm cột «Đầu vào». Chỗ nào bên dưới nói «một», đó là mô tả trường hợp chỉ nhập một mục. Xem chi phí trong bảng ở đầu trang.</p>
+<div class="scroll"><table>
+<thead><tr><th>Cách làm / công cụ</th><th>Cách tính phí</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr class="me"><td>Công cụ này (DataForSEO)</td><td>Trả theo từng yêu cầu. Khoảng $0.1212 mỗi yêu cầu (đo thực tế), khoảng 8 yêu cầu cho $1</td><td>Ngày đăng ký, ngày thay đổi, ngày hết hạn và nhà đăng ký của một tên miền trong một bảng. Lưu thành CSV</td></tr>
+<tr><td>ICANN Lookup</td><td>Miễn phí</td><td>Trang chính thức của ICANN để tra cứu dữ liệu đăng ký tên miền</td></tr>
+<tr><td>IANA WHOIS</td><td>Xem trang chính thức</td><td>Trang của IANA để tra cứu các tên miền cấp cao nhất như .com (xem tính năng trên trang chính thức)</td></tr>
+<tr><td>Trang quản lý của nhà đăng ký bạn dùng</td><td>Tùy hợp đồng của bạn</td><td>Cho biết ngày hết hạn của tên miền của chính bạn; không xem được tên miền của người khác</td></tr>
+</tbody></table></div>
+<p class="asof">Kiểm tra vào tháng 11/2026. Giá có thể thay đổi — hãy xác nhận trên trang chính thức của từng nhà cung cấp trước khi mua.</p>
+
+<h2>Vì sao nên dùng công cụ này</h2>
+<ul>
+<li><strong>Ngày đăng ký và ngày hết hạn trong cùng một dòng.</strong> shopify.com hiển thị đăng ký ngày 2005-03-11, thay đổi ngày 2025-03-19 và hết hạn ngày 2027-03-11 (đo thực tế).</li>
+<li><strong>Có cả nhà đăng ký.</strong> shopify.com được đăng ký qua MarkMonitor Inc. (đo thực tế).</li>
+<li><strong>Bạn có thể dán URL.</strong> URL sẽ được chuyển thành tên miền trước khi tra cứu.</li>
+<li><strong>Chỉ vài giây.</strong> Chúng tôi đo được dưới 1 giây với shopify.com và 3–4 giây ở Nhật Bản.</li>
+<li><strong>Lưu thành CSV.</strong> Giữ lại hồ sơ về tuổi của một tên miền.</li>
+</ul>
+
+<h2>Khi nào công cụ này không phù hợp</h2>
+<ul>
+<li><strong>Giá mỗi yêu cầu cao</strong> → khoảng $0.1212 mỗi yêu cầu. Nếu bạn chỉ kiểm tra từng tên miền một, một trang miễn phí như ICANN Lookup có thể là đủ.</li>
+<li>Bạn muốn <strong>ngày hết hạn của mọi tên miền</strong> → shopify.com trả về ngày hết hạn, nhưng hai tên miền .jp chúng tôi thử ở Nhật Bản (rakuten.co.jp, xserver.ne.jp) có ngày hết hạn để trống (đo thực tế ở Nhật Bản). Chúng tôi chưa kiểm tra các tên miền khác.</li>
+<li>Bạn muốn <strong>tên chủ sở hữu hoặc thông tin liên hệ</strong> → bảng không hiển thị những thông tin này.</li>
+<li><strong>«Ngày thay đổi»</strong> nghĩa là gì → đó là ngày «bản ghi được thay đổi» mà DataForSEO trả về, chưa chắc là ngày gia hạn.</li>
+</ul>
+<p>Công cụ này chỉ làm một việc: hiển thị ngày đăng ký, ngày thay đổi, ngày hết hạn và nhà đăng ký của một tên miền.</p>
+
+<h2>Câu hỏi thường gặp</h2>
+<details><summary>Vì sao ngày hết hạn để trống ở một số dòng?</summary><p>Không có ngày hết hạn nào được trả về. Trong các lần thử ở Nhật Bản, cả tên miền .co.jp và .ne.jp chúng tôi thử đều để trống, trong khi shopify.com có ngày hết hạn. Chúng tôi chưa xác nhận được lý do.</p></details>
+<details><summary>Vì sao giá cao?</summary><p>Đó là giá của DataForSEO: khoảng $0.1212 mỗi yêu cầu. Hãy cân nhắc bạn cần bao nhiêu yêu cầu trước khi bắt đầu.</p></details>
+<details><summary>Tôi có thể nhập tên miền phụ hoặc www không?</summary><p>"https://", "www." và mọi đường dẫn sẽ được loại bỏ trước khi tra cứu. Tên miền phụ (như blog.example.com) được gửi nguyên như vậy, nên hãy nhập tên miền đã đăng ký (example.com).</p></details>
+<details><summary>Làm sao để biết tuổi của tên miền?</summary><p>Hãy đếm số năm từ ngày đăng ký đến hôm nay. Công cụ này không tự tính.</p></details>
+<details><summary>Tôi có thể đăng ký bằng email miễn phí không?</summary><p>Không. DataForSEO không chấp nhận các nhà cung cấp email miễn phí. Xem <a href="/dfs-en.html">What is DataForSEO?</a> (tiếng Anh)</p></details>
+</section>

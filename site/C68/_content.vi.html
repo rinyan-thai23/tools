@@ -1,0 +1,38 @@
+<section class="seo">
+<h2>Các cách lập danh sách doanh nghiệp địa phương và so sánh các công cụ chính</h2>
+<p>Một nhân viên kinh doanh B2B muốn <strong>tìm hàng loạt nơi để đến gặp</strong>. Hãy chọn một từ chỉ loại hình kinh doanh và một khu vực, công cụ sẽ liệt kê tối đa 100 doanh nghiệp địa phương kèm tên, danh mục, địa chỉ, điện thoại, website và đánh giá.</p>
+<div class="scroll"><table>
+<thead><tr><th>Cách làm / công cụ</th><th>Cách tính phí</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr class="me"><td>Công cụ này (DataForSEO)</td><td>Trả theo từng yêu cầu. Khoảng $0.048 cho 100 dòng (đã đo thực tế), khoảng 20 lần gọi cho $1</td><td>100 doanh nghiệp kèm tên, danh mục, địa chỉ, điện thoại, website và đánh giá trong một bảng. Có thể lưu thành CSV</td></tr>
+<tr><td>Tìm kiếm trên Google Maps (làm thủ công)</td><td>Miễn phí</td><td>Bạn sao chép từng thứ bạn thấy; việc biến thành bảng phải làm tay</td></tr>
+<tr><td>Google Places API</td><td>Trả theo mức dùng (xem giá trên trang chính thức)</td><td>Cách lấy dữ liệu địa điểm của Google bằng code; cần công sức lập trình</td></tr>
+<tr><td>Outscraper</td><td>Xem giá trên trang chính thức</td><td>Dịch vụ thu thập dữ liệu Google Maps (xem tính năng trên trang chính thức)</td></tr>
+</tbody></table></div>
+<p class="asof">Kiểm tra vào tháng 11/2026. Giá có thể thay đổi — hãy xác nhận trên trang chính thức của từng nhà cung cấp trước khi mua.</p>
+
+<h2>Vì sao nên dùng công cụ này</h2>
+<ul>
+<li><strong>100 dòng chỉ trong một lần gọi.</strong> Tìm "ラーメン" ở Tokyo trả về 100 dòng trong khoảng 3 đến 6 giây (đã đo thực tế).</li>
+<li><strong>Có sẵn điện thoại và website.</strong> Trong 100 dòng đó, 87 dòng có số điện thoại, 90 dòng có website và 95 dòng có đánh giá (đã đo thực tế).</li>
+<li><strong>Khoảng $0.048 mỗi lần gọi.</strong> Khoảng 20 lần cho $1, nên bạn có thể thử nhiều khu vực.</li>
+<li><strong>Chỉ cần chọn khu vực từ danh sách.</strong> Không cần tra vĩ độ và kinh độ.</li>
+<li><strong>Lưu thành CSV.</strong> Một bản nháp cho danh sách khách hàng của bạn.</li>
+</ul>
+
+<h2>Khi nào công cụ này không phù hợp</h2>
+<ul>
+<li>Bạn muốn <strong>cách viết bằng tiếng Nhật</strong> → nhiều dòng có tên, địa chỉ và danh mục bằng tiếng Anh (ví dụ "Koto City", "Ramen restaurant").</li>
+<li>Bạn muốn <strong>lọc chính xác theo loại hình kinh doanh</strong> → từ chỉ loại hình chỉ là tìm kiếm văn bản. Trong 100 dòng của "ラーメン", 70 dòng có danh mục là quán ramen (đã đo thực tế). Bãi đỗ xe và những nơi tương tự cũng lẫn vào.</li>
+<li>Bạn muốn <strong>một khu vực không có trong danh sách</strong> → khu vực được chọn từ 12 thành phố lớn.</li>
+<li>Bạn muốn <strong>hơn 100 kết quả</strong> → công cụ này dừng ở 100. Số kết quả khớp với "ラーメン" quanh Tokyo Station là 624 (đã đo thực tế).</li>
+</ul>
+<p>Công cụ này chỉ làm một việc: liệt kê tối đa 100 doanh nghiệp trong khu vực đã chọn khớp với một từ chỉ loại hình kinh doanh.</p>
+
+<h2>Câu hỏi thường gặp</h2>
+<details><summary>Khu vực rộng bao nhiêu?</summary><p>Bán kính 5 km quanh trung tâm thành phố đã chọn. Với Tokyo, trung tâm là Tokyo Station.</p></details>
+<details><summary>Vì sao một số dòng bằng tiếng Anh?</summary><p>Trong bài thử của chúng tôi, cả 100 danh mục đều bằng tiếng Anh, còn 29 tên và 59 địa chỉ bằng tiếng Nhật. Có thể dữ liệu được lưu như vậy, nhưng chúng tôi chưa xác nhận được lý do.</p></details>
+<details><summary>Tôi viết từ chỉ loại hình kinh doanh thế nào?</summary><p>Một từ bình thường như "ラーメン" hoặc "美容室". Các doanh nghiệp có phần mô tả khớp với từ đó sẽ xuất hiện.</p></details>
+<details><summary>Ô điện thoại hoặc website để trống nghĩa là gì?</summary><p>Nghĩa là chưa có thông tin nào được đăng ký. Trong 100 dòng, 13 dòng không có điện thoại và 10 dòng không có website (đã đo thực tế).</p></details>
+<details><summary>Tôi có thể đăng ký bằng email miễn phí không?</summary><p>Không. DataForSEO không chấp nhận các nhà cung cấp email miễn phí. Xem <a href="/dfs-en.html">What is DataForSEO?</a> (tiếng Anh)</p></details>
+</section>
