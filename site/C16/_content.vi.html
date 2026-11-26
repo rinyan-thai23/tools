@@ -1,0 +1,39 @@
+<section class="seo">
+<h2>Các cách đọc bình luận của một video và so sánh các công cụ chính</h2>
+<p>Trước khi mua hàng, bạn muốn biết <strong>ý kiến thật của người mua</strong> qua bình luận dưới video đánh giá — nhưng việc cuộn qua hàng trăm bình luận từng cái một rất mệt. Hãy nhập URL video, công cụ sẽ liệt kê các bình luận: nội dung, lượt thích, số phản hồi và ngày đăng.</p>
+<div class="scroll"><table>
+<thead><tr><th>Cách làm / công cụ</th><th>Cách tính phí</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr class="me"><td>Công cụ này (DataForSEO)</td><td>Trả theo từng yêu cầu. Khoảng $0.002 cho 20 bình luận, khoảng $0.01 cho 100 (đã đo thực tế)</td><td>Nội dung bình luận, lượt thích, phản hồi và ngày đăng trong một bảng. Lưu thành CSV rồi tìm kiếm và sắp xếp</td></tr>
+<tr><td>Phần bình luận trên YouTube (làm thủ công)</td><td>Miễn phí</td><td>Cuộn và đọc trên màn hình. Việc sao chép và lưu là do bạn tự làm</td></tr>
+<tr><td>vidIQ</td><td>Có gói miễn phí và các gói trả phí Boost và MAX (trang giá của họ ghi Boost $19/tháng và MAX $49/tháng)</td><td>Là công cụ dành cho người vận hành kênh. Cách xử lý bình luận: xem trang chính thức</td></tr>
+<tr><td>YouTube Data API</td><td>Hạn mức miễn phí (10.000 đơn vị mỗi ngày); lấy bình luận tốn 1 đơn vị</td><td>API chính thức. Nếu bạn viết code, có thể lấy bình luận với quy mô lớn, nhưng cần công sức thiết lập</td></tr>
+</tbody></table></div>
+<p class="asof">Kiểm tra vào tháng 11/2026. Giá có thể thay đổi — hãy xác nhận trên trang chính thức của từng nhà cung cấp trước khi mua.</p>
+
+<h2>Vì sao nên dùng công cụ này</h2>
+<ul>
+<li><strong>Nội dung bình luận trong một bảng.</strong> Lưu thành CSV và tìm trong bảng tính những từ như "hỏng" hoặc "chưa nhận được hàng".</li>
+<li><strong>Có kèm lượt thích và phản hồi.</strong> Xem bình luận nào được nhiều người đồng cảm.</li>
+<li><strong>Vài giây.</strong> Khoảng 6–7 giây cho 20 bình luận và khoảng 7 giây cho 100 (đã đo thực tế).</li>
+<li><strong>Khoảng $0.01 cho 100 bình luận.</strong> Đọc một trăm bình luận của một video trong một lần.</li>
+<li><strong>Có ngày đăng.</strong> Phân biệt bình luận cũ với bình luận gần đây.</li>
+</ul>
+
+<h2>Khi nào công cụ này không phù hợp</h2>
+<ul>
+<li>Bạn muốn <strong>tất cả bình luận</strong> → tối đa 100 mỗi lần gọi. Video có hàng triệu bình luận vẫn chỉ trả về số lượng bạn chọn.</li>
+<li>Bạn muốn biết <strong>bình luận nào là thật lòng</strong> → công cụ chỉ trình bày các bình luận ra.</li>
+<li>Bạn cần <strong>một thứ tự cụ thể</strong> → bình luận theo thứ tự API trả về, không nhất thiết theo lượt thích.</li>
+<li>Bạn muốn <strong>nội dung phản hồi</strong> → công cụ hiển thị số phản hồi, không hiển thị nội dung phản hồi.</li>
+<li>Bạn <strong>viết được code</strong> → YouTube Data API chính thức tốn 1 đơn vị cho mỗi yêu cầu lấy bình luận; hãy dùng nó khi cần khối lượng lớn.</li>
+</ul>
+<p>Công cụ này chỉ làm một việc: trình bày các bình luận của một video cùng các con số của chúng.</p>
+
+<h2>Câu hỏi thường gặp</h2>
+<details><summary>Tôi có thể lấy hơn 100 bình luận không?</summary><p>Phiên bản này cho chọn 20, 50 hoặc 100.</p></details>
+<details><summary>Vì sao ngày không hiển thị kiểu "7 năm trước"?</summary><p>Chúng tôi dùng mốc thời gian và hiển thị một ngày cụ thể.</p></details>
+<details><summary>Tôi có được dùng lại bình luận của người khác không?</summary><p>Bình luận thuộc về tác giả của chúng. Bảng này dùng để đọc xu hướng; nếu bạn trích dẫn, hãy tôn trọng quyền của tác giả và chủ video.</p></details>
+<details><summary>Vì sao không có ô chọn quốc gia hay ngôn ngữ?</summary><p>Việc tra cứu dựa trên ID video. Chúng tôi cố định ở Nhật Bản và tiếng Nhật.</p></details>
+<details><summary>Tôi có thể đăng ký bằng email miễn phí không?</summary><p>Không. DataForSEO không chấp nhận các nhà cung cấp email miễn phí. Xem <a href="/dfs-en.html">What is DataForSEO?</a> (tiếng Anh)</p></details>
+</section>

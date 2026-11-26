@@ -1,0 +1,39 @@
+<section class="seo">
+<h2>Các cách kiểm tra số liệu của một video và so sánh các công cụ chính</h2>
+<p>Bạn thấy một video đang bùng nổ và muốn <strong>lưu lại lượt xem và lượt thích của nó</strong>. Hãy nhập URL video, công cụ sẽ trả về một dòng: tiêu đề, lượt xem, lượt thích, số bình luận, ngày đăng và mô tả.</p>
+<div class="scroll"><table>
+<thead><tr><th>Cách làm / công cụ</th><th>Cách tính phí</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr class="me"><td>Công cụ này (DataForSEO)</td><td>Trả theo từng yêu cầu. Khoảng $0.006 (đã đo thực tế)</td><td>Lượt xem, lượt thích, bình luận, ngày đăng và mô tả của một video trên một dòng. Có thể lưu thành CSV</td></tr>
+<tr><td>Trang xem video YouTube (làm thủ công)</td><td>Miễn phí</td><td>Luôn dùng được. Bạn thấy các con số nhưng phải tự sao chép</td></tr>
+<tr><td>vidIQ</td><td>Có gói miễn phí và các gói trả phí Boost và MAX (trang giá của họ ghi Boost $19/tháng và MAX $49/tháng)</td><td>Có các màn hình phân tích video (xem tính năng trên trang chính thức). Là công cụ dành cho người vận hành kênh</td></tr>
+<tr><td>YouTube Data API</td><td>Hạn mức miễn phí (10.000 đơn vị mỗi ngày); một lần tra cứu video tốn 1 đơn vị</td><td>API chính thức. Nếu bạn viết code, có thể lấy số liệu với quy mô lớn, nhưng cần công sức thiết lập</td></tr>
+</tbody></table></div>
+<p class="asof">Kiểm tra vào tháng 11/2026. Giá có thể thay đổi — hãy xác nhận trên trang chính thức của từng nhà cung cấp trước khi mua.</p>
+
+<h2>Vì sao nên dùng công cụ này</h2>
+<ul>
+<li><strong>Chỉ cần dán URL.</strong> URL video hoặc ID video đều dùng được.</li>
+<li><strong>Có kèm phần mô tả.</strong> Giữ tiêu đề và mô tả ngay cạnh các con số.</li>
+<li><strong>Khoảng $0.006.</strong> Khoảng 160 lần tra cứu cho $1, nên bạn có thể ghi lại nhiều video.</li>
+<li><strong>Vài giây.</strong> Chúng tôi đo được khoảng 6–7 giây.</li>
+<li><strong>Lưu thành CSV.</strong> Lấy lại sau này và tự so sánh các con số.</li>
+</ul>
+
+<h2>Khi nào công cụ này không phù hợp</h2>
+<ul>
+<li>Bạn muốn xem <strong>xu hướng theo thời gian</strong> → mỗi kết quả chỉ là một ảnh chụp tại một thời điểm.</li>
+<li>Bạn muốn <strong>số liệu chỉ chủ video mới thấy</strong>, như doanh thu hay độ tuổi người xem → công cụ không hiển thị.</li>
+<li>Bạn muốn số liệu <strong>của cả kênh</strong> → mỗi lần gọi chỉ một video.</li>
+<li>Bạn muốn <strong>nhiều video cùng lúc</strong> → mỗi lần gọi một video.</li>
+<li>Bạn <strong>viết được code</strong> → YouTube Data API chính thức tốn 1 đơn vị cho mỗi lần tra cứu video; hãy dùng nó khi cần khối lượng lớn.</li>
+</ul>
+<p>Công cụ này chỉ làm một việc: lập bảng các số liệu công khai của một video.</p>
+
+<h2>Câu hỏi thường gặp</h2>
+<details><summary>Những dạng URL nào dùng được?</summary><p>Liên kết watch?v=, liên kết rút gọn youtu.be, URL Shorts và ID video gồm 11 ký tự.</p></details>
+<details><summary>Vì sao không có ô chọn quốc gia hay ngôn ngữ?</summary><p>Việc tra cứu dựa trên ID video. Chúng tôi cố định ở Nhật Bản và tiếng Nhật.</p></details>
+<details><summary>Có con số nào bị để trống không?</summary><p>Những gì API không trả về sẽ để trống.</p></details>
+<details><summary>Số bình luận có tính cả phản hồi không?</summary><p>Chúng tôi hiển thị nguyên con số của API; chưa rõ cách phân chia chi tiết.</p></details>
+<details><summary>Tôi có thể đăng ký bằng email miễn phí không?</summary><p>Không. DataForSEO không chấp nhận các nhà cung cấp email miễn phí. Xem <a href="/dfs-en.html">What is DataForSEO?</a> (tiếng Anh)</p></details>
+</section>

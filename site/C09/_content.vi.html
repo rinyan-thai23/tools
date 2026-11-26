@@ -1,0 +1,38 @@
+<section class="seo">
+<h2>Các cách tìm bộ dữ liệu công khai và so sánh các lựa chọn chính</h2>
+<p>Bạn đang viết một bài báo hoặc một cuốn sách và muốn có một con số như "dân số Mỹ thay đổi thế nào trong mười năm", nhưng bạn không biết <strong>bộ dữ liệu công khai nào có thể trích dẫn nằm ở đâu</strong>, và việc tìm kiếm bị bế tắc. Nhập một chủ đề, công cụ này sẽ liệt kê những gì Google Dataset Search trả về: tên bộ dữ liệu, nhà cung cấp, ngày cập nhật gần nhất và liên kết.</p>
+<div class="scroll"><table>
+<thead><tr><th>Cách làm / công cụ</th><th>Cách tính phí</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr class="me"><td>Công cụ này (DataForSEO)</td><td>Trả theo từng lần yêu cầu. Khoảng $0.002 cho 20 kết quả (đã đo)</td><td>Tên, nhà cung cấp, ngày cập nhật và URL trong một bảng. Lưu thành CSV. Đã thử với từ khóa tiếng Anh</td></tr>
+<tr><td>Google Dataset Search (tự tìm)</td><td>Miễn phí</td><td>Cùng một chỉ mục, hiển thị trên màn hình. Có bộ lọc (thời gian cập nhật, định dạng, quyền sử dụng) và phù hợp để mở và kiểm tra từng mục một</td></tr>
+<tr><td>Cổng dữ liệu mở của chính phủ (ví dụ: data.gov)</td><td>Xem trang chính thức</td><td>Xem trang chính thức để biết phạm vi và tính năng</td></tr>
+<tr><td>Kaggle Datasets</td><td>Xem trang chính thức</td><td>Nhiều bộ dữ liệu cho phân tích và học máy. Phù hợp để tìm nguyên liệu phân tích hơn là tìm nguồn có thể trích dẫn</td></tr>
+</tbody></table></div>
+<p class="asof">Kiểm tra vào tháng 11/2026. Giá có thể thay đổi — hãy xác nhận trên trang chính thức của từng nhà cung cấp trước khi mua.</p>
+
+<h2>Vì sao nên dùng công cụ này</h2>
+<ul>
+<li><strong>Mang kết quả tìm kiếm đi dưới dạng bảng.</strong> Tên, nhà cung cấp, ngày cập nhật và liên kết nằm cạnh nhau, rất hợp để lọc sơ bộ trước khi so sánh các ứng viên.</li>
+<li><strong>Khoảng $0.002 cho 20 kết quả.</strong> Khoảng 500 lần tìm cho $1, nên bạn có thể thử nhiều chủ đề.</li>
+<li><strong>Vài giây.</strong> Chúng tôi đo được khoảng 3,5 giây cho "population united states".</li>
+<li><strong>Thấy được ngày cập nhật.</strong> Giúp bạn tránh dữ liệu đã cũ (một số dòng để trống).</li>
+<li><strong>Lưu thành CSV.</strong> Giữ lại danh sách liên kết nguồn để dùng sau.</li>
+</ul>
+
+<h2>Khi nào công cụ này không phù hợp</h2>
+<ul>
+<li>Bạn muốn <strong>xem chính dữ liệu</strong> → bảng chỉ hiển thị tên, nhà cung cấp, ngày cập nhật và liên kết. Hãy kiểm tra các con số trên trang của nhà cung cấp.</li>
+<li>Bạn chỉ muốn <strong>số liệu thống kê chính thức của chính phủ</strong> → một cổng của chính phủ sẽ tập trung hơn. Trong bản mẫu "population united states" của chúng tôi, danh sách lẫn cả FRED, Statista, CEIC và các trang tổng hợp khác. Tên nhà cung cấp là những gì chính trang đó tự khai, nên một cái tên như cơ quan chính phủ không bảo đảm đó là nguồn thật.</li>
+<li>Bạn cần biết <strong>điều khoản sử dụng</strong> → bảng không hiển thị chúng. Hãy đọc điều khoản trên trang được liên kết trước khi dùng bất cứ thứ gì.</li>
+<li>Kết quả cho <strong>từ khóa không phải tiếng Anh</strong> → chúng tôi chỉ thử với tiếng Anh.</li>
+</ul>
+<p>Công cụ này chỉ làm một việc: liệt kê nơi các bộ dữ liệu công khai về một chủ đề được công bố.</p>
+
+<h2>Câu hỏi thường gặp</h2>
+<details><summary>Tôi có thể đưa dữ liệu vào bài viết hoặc sách của mình nguyên vẹn không?</summary><p>Điều khoản khác nhau tùy từng bộ dữ liệu. Công cụ này không đánh giá điều đó. Hãy kiểm tra điều khoản sử dụng và cách ghi nguồn tại nhà cung cấp.</p></details>
+<details><summary>Vì sao một số ngày cập nhật hoặc nhà cung cấp để trống?</summary><p>Chúng tôi hiển thị đúng những gì API trả về. Trong lần thử của chúng tôi ("population united states", 20 kết quả), có 2 dòng không có nhà cung cấp và 3 dòng không có ngày cập nhật.</p></details>
+<details><summary>Vì sao không có mục chọn quốc gia hay ngôn ngữ?</summary><p>API chỉ làm việc dựa trên từ khóa.</p></details>
+<details><summary>Tôi có thể chọn số kết quả không?</summary><p>Số này được cố định ở 20. Trong một lần thử trước đó, 40 kết quả tốn khoảng $0.004 (đã đo).</p></details>
+<details><summary>Tôi có thể đăng ký bằng email miễn phí không?</summary><p>Không. DataForSEO không chấp nhận các nhà cung cấp email miễn phí. Xem <a href="/dfs-en.html">What is DataForSEO?</a> (tiếng Anh)</p></details>
+</section>
