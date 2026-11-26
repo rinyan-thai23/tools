@@ -1,9 +1,9 @@
 # リサーチ小技メモ
 
-## 「その国で、英語の語がどれだけ検索されているか」を安く調べる
+## 「その国で、英語キーワードがどれだけ検索されているか」を安く調べる
 - 何がわかる：英語版のままで、その国の人に届くか／現地語に翻訳する価値があるか。
 - 方法：Google Ads 検索ボリューム live（keywords_data/google_ads/search_volume/live）に、
-  location_name=その国、language_code=en、keywords=英語の語（6語など）を送る。
+  location_name=その国、language_code=en、keywords=英語キーワード（6語など）を送る。
   同じ国で language_code=現地語＋現地語の語、も送って並べる。
 - 費用：1回 $0.09（1回=1国・最大1000語まで同額）。6語でも1000語でも同じなので、語はたくさん入れたほうが得。
 - 注意：対応する国×言語の組み合わせは無料の locations_and_languages（Labs）で確認できる（language en が無い国もある）。
