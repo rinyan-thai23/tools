@@ -1,567 +1,759 @@
 {
-  "ja": {
-    "title": "このサイトでできること",
-    "intro": "DataForSEOのAPIを、1機能ずつ、画面で使えるようにしたツール集です。検索順位チェック、キーワード調査（検索ボリューム・関連キーワード・難易度）、競合サイトの分析、MEO（Googleマップの順位）、AI検索（ChatGPT・Gemini・Claude・Perplexity・GoogleのAIモード）での引用の確認、YouTubeの分析、サイト診断（表示速度・見出し）、ドメイン調査（WHOIS・使用技術）まで、約60のツールがあります。BYOK（自分のAPIキーを持ち込む方式）で、月額はなく、使った分だけの従量課金です。どのツールも、無料のサンプル表示で中身を確かめてから、自分のキーで調べられます。",
-    "sections": [
-      {
-        "title": "検索順位・検索結果を調べる（SEO・MEO）",
-        "text": "Google検索の順位チェックと、上位サイトの確認ができます。地図（MEO）、ニュース、画像、YouTubeの検索結果も、キーワードごとに一覧にします。「書く前に、上位にどんなサイトがいるか見たい」「自分の店が地図の何番目か知りたい」ときに。",
-        "tools": [
-          "C01",
-          "C03",
-          "C04",
-          "C05",
-          "C07",
-          "C14",
-          "C50",
-          "C09"
-        ]
-      },
-      {
-        "title": "キーワード調査（検索ボリューム・関連キーワード・難易度）",
-        "text": "月間の検索ボリュームを、1,000語まで1回$0.09で一括で調べられます。関連キーワード、ロングテール、サジェスト、キーワードの難易度、検索意図、過去の月別の検索数まで。「次に書く記事のキーワードを決めたい」「広告用のキーワードを出したい」ときに。",
-        "tools": [
-          "C24",
-          "C26",
-          "C35",
-          "C36",
-          "C37",
-          "C08",
-          "C38",
-          "C39",
-          "C40",
-          "C41",
-          "C25",
-          "C34",
-          "C43"
-        ]
-      },
-      {
-        "title": "検索トレンド・検索している人の傾向",
-        "text": "Googleトレンドの推移、人気度の週ごとの変化、都道府県別の人気、検索している人の年齢・性別、国別の検索数。「いつ売れ時が来るか」「どの地域・どの年代に刺さるか」を知りたいときに。",
-        "tools": [
-          "C29",
-          "C30",
-          "C31",
-          "C32",
-          "C33"
-        ]
-      },
-      {
-        "title": "競合サイト・流入（アクセス）の分析",
-        "text": "相手のサイトが、どんなキーワードで検索に出ているか、推定の流入（アクセス）はどのくらいか、どのページが強いか。2つのサイトの共通キーワード、ライバルサイトの発見、複数サイトの規模の比較まで。",
-        "tools": [
-          "C45",
-          "C49",
-          "C51",
-          "C53",
-          "C48",
-          "C42",
-          "C44",
-          "C46",
-          "C47",
-          "C52"
-        ]
-      },
-      {
-        "title": "AI検索（LLMO・GEO対策）",
-        "text": "ChatGPT・Gemini・Claude・Perplexity・GoogleのAIモードに聞いたら、何と答えるか。自社や自分の記事が引用されているか。AIでよく聞かれているテーマの検索回数も。LLMO対策・GEO対策の下調べに。",
-        "tools": [
-          "C02",
-          "C18",
-          "C19",
-          "C20",
-          "C21",
-          "C22",
-          "C23"
-        ]
-      },
-      {
-        "title": "広告（Google広告）",
-        "text": "競合がGoogle広告を出しているか、どんな広告を出しているかを調べます。",
-        "tools": [
-          "C10",
-          "C11"
-        ]
-      },
-      {
-        "title": "YouTubeの分析",
-        "text": "動画1本の数字、コメント、字幕（文字起こし）の全文を取り出せます。",
-        "tools": [
-          "C15",
-          "C16",
-          "C17"
-        ]
-      },
-      {
-        "title": "サイト診断・ページの分析",
-        "text": "ページの基本情報（タイトル・見出し・文字数）、見出しと本文の取り出し、表示速度の点数、スクリーンショット、サイトの使用技術（CMSなど）、ドメインの登録日と期限（WHOIS）。",
-        "tools": [
-          "C60",
-          "C61",
-          "C62",
-          "C63",
-          "C74",
-          "C76"
-        ]
-      },
-      {
-        "title": "ネット上の評判・言及",
-        "text": "自社名や商品名が、ネットのどこで話題になっているか。言及の数、前向き・後ろ向きの割合、月ごとの推移。広報や営業の下調べに。",
-        "tools": [
-          "C64",
-          "C65",
-          "C66",
-          "C67"
-        ]
-      },
-      {
-        "title": "営業先・地域のお店・宿",
-        "text": "地域の事業者の一覧、Googleビジネスプロフィールの情報、近くの宿の料金、ある技術を使っているサイトのリスト。営業先の候補探しと、地域の競合調べに。",
-        "tools": [
-          "C68",
-          "C69",
-          "C71",
-          "C75"
-        ]
-      }
-    ],
-    "titled": [
-      "C01",
-      "C02",
-      "C03",
-      "C04",
-      "C05",
-      "C07",
-      "C08",
-      "C09",
-      "C10",
-      "C11",
-      "C14",
-      "C15",
-      "C16",
-      "C17",
-      "C18",
-      "C19",
-      "C20",
-      "C21",
-      "C22",
-      "C23",
-      "C24",
-      "C25",
-      "C26",
-      "C29",
-      "C30",
-      "C31",
-      "C32",
-      "C33",
-      "C34",
-      "C35",
-      "C36",
-      "C37",
-      "C38",
-      "C39",
-      "C40",
-      "C41",
-      "C42",
-      "C43",
-      "C44",
-      "C45",
-      "C46",
-      "C47",
-      "C48",
-      "C49",
-      "C50",
-      "C51",
-      "C52",
-      "C53",
-      "C60",
-      "C61",
-      "C62",
-      "C63",
-      "C64",
-      "C65",
-      "C66",
-      "C67",
-      "C68",
-      "C69",
-      "C71",
-      "C74",
-      "C75",
-      "C76"
+ "ja": {
+  "title": "このサイトでできること",
+  "intro": "DataForSEOのAPIを、1機能ずつ、画面で使えるようにしたツール集です。検索順位チェック、キーワード調査（検索ボリューム・関連キーワード・難易度）、競合サイトの分析、MEO（Googleマップの順位）、AI検索（ChatGPT・Gemini・Claude・Perplexity・GoogleのAIモード）での引用の確認、YouTubeの分析、サイト診断（表示速度・見出し）、ドメイン調査（WHOIS・使用技術）まで、約60のツールがあります。BYOK（自分のAPIキーを持ち込む方式）で、月額はなく、使った分だけの従量課金です。どのツールも、無料のサンプル表示で中身を確かめてから、自分のキーで調べられます。",
+  "sections": [
+   {
+    "title": "検索順位・検索結果を調べる（SEO・MEO）",
+    "text": "Google検索の順位チェックと、上位サイトの確認ができます。地図（MEO）、ニュース、画像、YouTubeの検索結果も、キーワードごとに一覧にします。「書く前に、上位にどんなサイトがいるか見たい」「自分の店が地図の何番目か知りたい」ときに。",
+    "tools": [
+     "C01",
+     "C03",
+     "C04",
+     "C05",
+     "C07",
+     "C14",
+     "C50",
+     "C09"
     ]
-  },
-  "en": {
-    "title": "What you can do here",
-    "intro": "These are DataForSEO API features, one per tool, on screen. Rank checking (SERP), keyword research (search volume, related keywords, difficulty), competitor analysis, local SEO (Google Maps), AI search visibility (ChatGPT, Gemini, Claude, Perplexity, Google AI Mode), YouTube analysis, site audits (page speed, headings) and domain tools (WHOIS, technologies): about 60 tools. BYOK (bring your own key): no subscription, you pay per use with your own API key. Every tool has a free sample, so you can see what you get before you run it.",
-    "sections": [
-      {
-        "title": "Search results and rankings (SEO and local SEO)",
-        "text": "Check Google rankings and see who ranks at the top. Local SEO (Google Maps), news, image and YouTube results are listed per keyword too. For when you want to see who already ranks before you write, or where a shop appears on the map.",
-        "tools": [
-          "C01",
-          "C03",
-          "C04",
-          "C05",
-          "C07",
-          "C14",
-          "C50",
-          "C09"
-        ]
-      },
-      {
-        "title": "Keyword research (search volume, related keywords, difficulty)",
-        "text": "Check monthly search volume for up to 1,000 keywords per call for $0.09. Related keywords, long-tail keywords, autocomplete suggestions, keyword difficulty, search intent and monthly history. For choosing the next article's keyword or building ad keyword lists.",
-        "tools": [
-          "C24",
-          "C26",
-          "C35",
-          "C36",
-          "C37",
-          "C08",
-          "C38",
-          "C39",
-          "C40",
-          "C41",
-          "C25",
-          "C34",
-          "C43"
-        ]
-      },
-      {
-        "title": "Search trends and audience",
-        "text": "Google Trends, weekly popularity, popularity by region, the age and gender of people searching, and search volume by country. To see when demand peaks and who it appeals to.",
-        "tools": [
-          "C29",
-          "C30",
-          "C31",
-          "C32",
-          "C33"
-        ]
-      },
-      {
-        "title": "Competitor sites and traffic",
-        "text": "Which keywords a competitor ranks for, how much search traffic it gets (estimated) and which pages are strongest. Shared keywords between two sites, finding rival sites, and comparing the size of many sites.",
-        "tools": [
-          "C45",
-          "C49",
-          "C51",
-          "C53",
-          "C48",
-          "C42",
-          "C44",
-          "C46",
-          "C47",
-          "C52"
-        ]
-      },
-      {
-        "title": "AI search (LLM SEO / GEO)",
-        "text": "What ChatGPT, Gemini, Claude, Perplexity and Google AI Mode answer, and whether your site is cited. Search volume for AI questions too. Groundwork for LLM SEO and GEO.",
-        "tools": [
-          "C02",
-          "C18",
-          "C19",
-          "C20",
-          "C21",
-          "C22",
-          "C23"
-        ]
-      },
-      {
-        "title": "Advertising (Google Ads)",
-        "text": "Find out whether a competitor runs Google Ads and what the ads look like.",
-        "tools": [
-          "C10",
-          "C11"
-        ]
-      },
-      {
-        "title": "YouTube analysis",
-        "text": "Numbers for a single video, its comments and its full subtitle text.",
-        "tools": [
-          "C15",
-          "C16",
-          "C17"
-        ]
-      },
-      {
-        "title": "Site audits and page analysis",
-        "text": "Basic page facts (title, headings, word count), extracting headings and body text, page speed scores, screenshots, the technologies a site uses and a domain's registration and expiry dates (WHOIS).",
-        "tools": [
-          "C60",
-          "C61",
-          "C62",
-          "C63",
-          "C74",
-          "C76"
-        ]
-      },
-      {
-        "title": "Brand mentions and reputation",
-        "text": "Where your company or product name is being discussed online: mention counts, the share of positive and negative, and monthly trends. Groundwork for PR and sales.",
-        "tools": [
-          "C64",
-          "C65",
-          "C66",
-          "C67"
-        ]
-      },
-      {
-        "title": "Leads, local businesses and hotels",
-        "text": "Lists of local businesses, Google Business Profile details, hotel prices nearby and sites that use a given technology. For finding prospects and researching local competitors.",
-        "tools": [
-          "C68",
-          "C69",
-          "C71",
-          "C75"
-        ]
-      }
-    ],
-    "titled": [
-      "C01",
-      "C02",
-      "C03",
-      "C04",
-      "C05",
-      "C07",
-      "C08",
-      "C09",
-      "C10",
-      "C11",
-      "C14",
-      "C15",
-      "C16",
-      "C17",
-      "C18",
-      "C19",
-      "C20",
-      "C21",
-      "C22",
-      "C23",
-      "C24",
-      "C25",
-      "C26",
-      "C29",
-      "C30",
-      "C31",
-      "C32",
-      "C33",
-      "C34",
-      "C35",
-      "C36",
-      "C37",
-      "C38",
-      "C39",
-      "C40",
-      "C41",
-      "C42",
-      "C43",
-      "C44",
-      "C45",
-      "C46",
-      "C47",
-      "C48",
-      "C49",
-      "C50",
-      "C51",
-      "C52",
-      "C53",
-      "C60",
-      "C61",
-      "C62",
-      "C63",
-      "C64",
-      "C65",
-      "C66",
-      "C67",
-      "C68",
-      "C69",
-      "C71",
-      "C74",
-      "C75",
-      "C76"
+   },
+   {
+    "title": "キーワード調査（検索ボリューム・関連キーワード・難易度）",
+    "text": "月間の検索ボリュームを、1,000語まで1回$0.09で一括で調べられます。関連キーワード、ロングテール、サジェスト、キーワードの難易度、検索意図、過去の月別の検索数まで。「次に書く記事のキーワードを決めたい」「広告用のキーワードを出したい」ときに。",
+    "tools": [
+     "C24",
+     "C26",
+     "C35",
+     "C36",
+     "C37",
+     "C08",
+     "C38",
+     "C39",
+     "C40",
+     "C41",
+     "C25",
+     "C34",
+     "C43"
     ]
-  },
-  "zh-TW": {
-    "title": "本站可以做什麼",
-    "intro": "這是把 DataForSEO 的 API 功能，一次一項做成畫面的工具集。排名查詢（SERP）、關鍵字研究（搜尋量、相關關鍵字、難度）、競爭對手分析、在地 SEO（Google 地圖）、AI 搜尋能見度（ChatGPT、Gemini、Claude、Perplexity、Google AI 模式）、網站診斷（網頁速度、標題）與網域工具（Whois、使用技術），約 50 個工具。採用 BYOK（自備 API 金鑰）：沒有月費，用自己的金鑰，用多少付多少。每個工具都有免費範例，執行前就能先看到結果長什麼樣子。",
-    "sections": [
-      {
-        "title": "搜尋結果與排名（SEO、在地 SEO）",
-        "text": "查詢 Google 排名，看看誰排在前面。在地 SEO（Google 地圖）、新聞、圖片與 YouTube 的搜尋結果，也會依關鍵字列成清單。適合在動筆前先看哪些網站已經排名，或查看店家在地圖上的位置。",
-        "tools": [
-          "C01",
-          "C03",
-          "C04",
-          "C05",
-          "C07",
-          "C14",
-          "C50",
-          "C09"
-        ]
-      },
-      {
-        "title": "關鍵字研究（搜尋量、相關關鍵字、難度）",
-        "text": "每次最多 1,000 個關鍵字，只要 $0.09 就能批次查詢每月搜尋量。另有相關關鍵字、長尾關鍵字、搜尋建議、關鍵字難度、搜尋意圖與每月歷史。適合決定下一篇文章的關鍵字，或整理廣告關鍵字。",
-        "tools": [
-          "C24",
-          "C26",
-          "C35",
-          "C36",
-          "C37",
-          "C08",
-          "C38",
-          "C39",
-          "C40",
-          "C41",
-          "C25",
-          "C34",
-          "C43"
-        ]
-      },
-      {
-        "title": "搜尋趨勢與受眾",
-        "text": "Google 趨勢走勢與各國搜尋量。用來看熱度什麼時候到高峰，以及哪些地區的人在搜尋。",
-        "tools": [
-          "C29",
-          "C30",
-          "C31",
-          "C32",
-          "C33"
-        ]
-      },
-      {
-        "title": "競爭對手網站與流量",
-        "text": "競爭對手在哪些關鍵字排名、預估的搜尋流量有多少、哪些頁面最強。也可比較兩個網站的共同關鍵字、找出競爭對手，並比較多個網站的規模。",
-        "tools": [
-          "C45",
-          "C49",
-          "C51",
-          "C53",
-          "C48",
-          "C42",
-          "C44",
-          "C46",
-          "C47",
-          "C52"
-        ]
-      },
-      {
-        "title": "AI 搜尋（GEO、LLM SEO）",
-        "text": "ChatGPT、Gemini、Claude、Perplexity 與 Google AI 模式會怎麼回答，以及你的網站是否被引用。也能查看 AI 問題的搜尋量。是 GEO 與 LLM SEO 的前期調查。",
-        "tools": [
-          "C02",
-          "C18",
-          "C19",
-          "C20",
-          "C21",
-          "C22",
-          "C23"
-        ]
-      },
-      {
-        "title": "廣告（Google 廣告）",
-        "text": "查看競爭對手是否投放 Google 廣告，以及廣告長什麼樣子。",
-        "tools": [
-          "C10",
-          "C11"
-        ]
-      },
-      {
-        "title": "YouTube 分析",
-        "text": "單支影片的數字、留言與完整字幕文字。",
-        "tools": [
-          "C15",
-          "C16",
-          "C17"
-        ]
-      },
-      {
-        "title": "網站診斷與頁面分析",
-        "text": "頁面基本資料（標題、標題數、字數）、擷取標題與內文、網頁速度分數、截圖、網站使用的技術，以及網域的註冊日與到期日（Whois）。",
-        "tools": [
-          "C60",
-          "C61",
-          "C62",
-          "C63",
-          "C74",
-          "C76"
-        ]
-      },
-      {
-        "title": "品牌聲量與輿情",
-        "text": "公司或商品名稱在網路上的討論：提及數、正負面占比與每月趨勢。適合公關與業務的前期調查。",
-        "tools": [
-          "C64",
-          "C65",
-          "C66",
-          "C67"
-        ]
-      },
-      {
-        "title": "潛在客戶、在地商家與飯店",
-        "text": "在地商家清單、Google 商家檔案資訊、附近飯店的價格，以及使用特定技術的網站名單。",
-        "tools": [
-          "C68",
-          "C69",
-          "C71",
-          "C75"
-        ]
-      }
-    ],
-    "titled": [
-      "C01",
-      "C02",
-      "C03",
-      "C04",
-      "C05",
-      "C07",
-      "C08",
-      "C09",
-      "C10",
-      "C11",
-      "C14",
-      "C18",
-      "C19",
-      "C20",
-      "C21",
-      "C22",
-      "C23",
-      "C24",
-      "C25",
-      "C26",
-      "C29",
-      "C33",
-      "C34",
-      "C35",
-      "C36",
-      "C37",
-      "C38",
-      "C39",
-      "C40",
-      "C41",
-      "C42",
-      "C43",
-      "C44",
-      "C45",
-      "C46",
-      "C47",
-      "C48",
-      "C49",
-      "C50",
-      "C51",
-      "C52",
-      "C53",
-      "C60",
-      "C61",
-      "C62",
-      "C63",
-      "C65",
-      "C66",
-      "C67",
-      "C74",
-      "C76"
+   },
+   {
+    "title": "検索トレンド・検索している人の傾向",
+    "text": "Googleトレンドの推移、人気度の週ごとの変化、都道府県別の人気、検索している人の年齢・性別、国別の検索数。「いつ売れ時が来るか」「どの地域・どの年代に刺さるか」を知りたいときに。",
+    "tools": [
+     "C29",
+     "C30",
+     "C31",
+     "C32",
+     "C33"
     ]
-  }
+   },
+   {
+    "title": "競合サイト・流入（アクセス）の分析",
+    "text": "相手のサイトが、どんなキーワードで検索に出ているか、推定の流入（アクセス）はどのくらいか、どのページが強いか。2つのサイトの共通キーワード、ライバルサイトの発見、複数サイトの規模の比較まで。",
+    "tools": [
+     "C45",
+     "C49",
+     "C51",
+     "C53",
+     "C48",
+     "C42",
+     "C44",
+     "C46",
+     "C47",
+     "C52"
+    ]
+   },
+   {
+    "title": "AI検索（LLMO・GEO対策）",
+    "text": "ChatGPT・Gemini・Claude・Perplexity・GoogleのAIモードに聞いたら、何と答えるか。自社や自分の記事が引用されているか。AIでよく聞かれているテーマの検索回数も。LLMO対策・GEO対策の下調べに。",
+    "tools": [
+     "C02",
+     "C18",
+     "C19",
+     "C20",
+     "C21",
+     "C22",
+     "C23"
+    ]
+   },
+   {
+    "title": "広告（Google広告）",
+    "text": "競合がGoogle広告を出しているか、どんな広告を出しているかを調べます。",
+    "tools": [
+     "C10",
+     "C11"
+    ]
+   },
+   {
+    "title": "YouTubeの分析",
+    "text": "動画1本の数字、コメント、字幕（文字起こし）の全文を取り出せます。",
+    "tools": [
+     "C15",
+     "C16",
+     "C17"
+    ]
+   },
+   {
+    "title": "サイト診断・ページの分析",
+    "text": "ページの基本情報（タイトル・見出し・文字数）、見出しと本文の取り出し、表示速度の点数、スクリーンショット、サイトの使用技術（CMSなど）、ドメインの登録日と期限（WHOIS）。",
+    "tools": [
+     "C60",
+     "C61",
+     "C62",
+     "C63",
+     "C74",
+     "C76"
+    ]
+   },
+   {
+    "title": "ネット上の評判・言及",
+    "text": "自社名や商品名が、ネットのどこで話題になっているか。言及の数、前向き・後ろ向きの割合、月ごとの推移。広報や営業の下調べに。",
+    "tools": [
+     "C64",
+     "C65",
+     "C66",
+     "C67"
+    ]
+   },
+   {
+    "title": "営業先・地域のお店・宿",
+    "text": "地域の事業者の一覧、Googleビジネスプロフィールの情報、近くの宿の料金、ある技術を使っているサイトのリスト。営業先の候補探しと、地域の競合調べに。",
+    "tools": [
+     "C68",
+     "C69",
+     "C71",
+     "C75"
+    ]
+   }
+  ],
+  "titled": [
+   "C01",
+   "C02",
+   "C03",
+   "C04",
+   "C05",
+   "C07",
+   "C08",
+   "C09",
+   "C10",
+   "C11",
+   "C14",
+   "C15",
+   "C16",
+   "C17",
+   "C18",
+   "C19",
+   "C20",
+   "C21",
+   "C22",
+   "C23",
+   "C24",
+   "C25",
+   "C26",
+   "C29",
+   "C30",
+   "C31",
+   "C32",
+   "C33",
+   "C34",
+   "C35",
+   "C36",
+   "C37",
+   "C38",
+   "C39",
+   "C40",
+   "C41",
+   "C42",
+   "C43",
+   "C44",
+   "C45",
+   "C46",
+   "C47",
+   "C48",
+   "C49",
+   "C50",
+   "C51",
+   "C52",
+   "C53",
+   "C60",
+   "C61",
+   "C62",
+   "C63",
+   "C64",
+   "C65",
+   "C66",
+   "C67",
+   "C68",
+   "C69",
+   "C71",
+   "C74",
+   "C75",
+   "C76"
+  ]
+ },
+ "en": {
+  "title": "What you can do here",
+  "intro": "These are DataForSEO API features, one per tool, on screen. Rank checking (SERP), keyword research (search volume, related keywords, difficulty), competitor analysis, local SEO (Google Maps), AI search visibility (ChatGPT, Gemini, Claude, Perplexity, Google AI Mode), YouTube analysis, site audits (page speed, headings) and domain tools (WHOIS, technologies): about 60 tools. BYOK (bring your own key): no subscription, you pay per use with your own API key. Every tool has a free sample, so you can see what you get before you run it.",
+  "sections": [
+   {
+    "title": "Search results and rankings (SEO and local SEO)",
+    "text": "Check Google rankings and see who ranks at the top. Local SEO (Google Maps), news, image and YouTube results are listed per keyword too. For when you want to see who already ranks before you write, or where a shop appears on the map.",
+    "tools": [
+     "C01",
+     "C03",
+     "C04",
+     "C05",
+     "C07",
+     "C14",
+     "C50",
+     "C09"
+    ]
+   },
+   {
+    "title": "Keyword research (search volume, related keywords, difficulty)",
+    "text": "Check monthly search volume for up to 1,000 keywords per call for $0.09. Related keywords, long-tail keywords, autocomplete suggestions, keyword difficulty, search intent and monthly history. For choosing the next article's keyword or building ad keyword lists.",
+    "tools": [
+     "C24",
+     "C26",
+     "C35",
+     "C36",
+     "C37",
+     "C08",
+     "C38",
+     "C39",
+     "C40",
+     "C41",
+     "C25",
+     "C34",
+     "C43"
+    ]
+   },
+   {
+    "title": "Search trends and audience",
+    "text": "Google Trends, weekly popularity, popularity by region, the age and gender of people searching, and search volume by country. To see when demand peaks and who it appeals to.",
+    "tools": [
+     "C29",
+     "C30",
+     "C31",
+     "C32",
+     "C33"
+    ]
+   },
+   {
+    "title": "Competitor sites and traffic",
+    "text": "Which keywords a competitor ranks for, how much search traffic it gets (estimated) and which pages are strongest. Shared keywords between two sites, finding rival sites, and comparing the size of many sites.",
+    "tools": [
+     "C45",
+     "C49",
+     "C51",
+     "C53",
+     "C48",
+     "C42",
+     "C44",
+     "C46",
+     "C47",
+     "C52"
+    ]
+   },
+   {
+    "title": "AI search (LLM SEO / GEO)",
+    "text": "What ChatGPT, Gemini, Claude, Perplexity and Google AI Mode answer, and whether your site is cited. Search volume for AI questions too. Groundwork for LLM SEO and GEO.",
+    "tools": [
+     "C02",
+     "C18",
+     "C19",
+     "C20",
+     "C21",
+     "C22",
+     "C23"
+    ]
+   },
+   {
+    "title": "Advertising (Google Ads)",
+    "text": "Find out whether a competitor runs Google Ads and what the ads look like.",
+    "tools": [
+     "C10",
+     "C11"
+    ]
+   },
+   {
+    "title": "YouTube analysis",
+    "text": "Numbers for a single video, its comments and its full subtitle text.",
+    "tools": [
+     "C15",
+     "C16",
+     "C17"
+    ]
+   },
+   {
+    "title": "Site audits and page analysis",
+    "text": "Basic page facts (title, headings, word count), extracting headings and body text, page speed scores, screenshots, the technologies a site uses and a domain's registration and expiry dates (WHOIS).",
+    "tools": [
+     "C60",
+     "C61",
+     "C62",
+     "C63",
+     "C74",
+     "C76"
+    ]
+   },
+   {
+    "title": "Brand mentions and reputation",
+    "text": "Where your company or product name is being discussed online: mention counts, the share of positive and negative, and monthly trends. Groundwork for PR and sales.",
+    "tools": [
+     "C64",
+     "C65",
+     "C66",
+     "C67"
+    ]
+   },
+   {
+    "title": "Leads, local businesses and hotels",
+    "text": "Lists of local businesses, Google Business Profile details, hotel prices nearby and sites that use a given technology. For finding prospects and researching local competitors.",
+    "tools": [
+     "C68",
+     "C69",
+     "C71",
+     "C75"
+    ]
+   }
+  ],
+  "titled": [
+   "C01",
+   "C02",
+   "C03",
+   "C04",
+   "C05",
+   "C07",
+   "C08",
+   "C09",
+   "C10",
+   "C11",
+   "C14",
+   "C15",
+   "C16",
+   "C17",
+   "C18",
+   "C19",
+   "C20",
+   "C21",
+   "C22",
+   "C23",
+   "C24",
+   "C25",
+   "C26",
+   "C29",
+   "C30",
+   "C31",
+   "C32",
+   "C33",
+   "C34",
+   "C35",
+   "C36",
+   "C37",
+   "C38",
+   "C39",
+   "C40",
+   "C41",
+   "C42",
+   "C43",
+   "C44",
+   "C45",
+   "C46",
+   "C47",
+   "C48",
+   "C49",
+   "C50",
+   "C51",
+   "C52",
+   "C53",
+   "C60",
+   "C61",
+   "C62",
+   "C63",
+   "C64",
+   "C65",
+   "C66",
+   "C67",
+   "C68",
+   "C69",
+   "C71",
+   "C74",
+   "C75",
+   "C76"
+  ]
+ },
+ "zh-TW": {
+  "title": "本站可以做什麼",
+  "intro": "這是把 DataForSEO 的 API 功能，一次一項做成畫面的工具集。排名查詢（SERP）、關鍵字研究（搜尋量、相關關鍵字、難度）、競爭對手分析、在地 SEO（Google 地圖）、AI 搜尋能見度（ChatGPT、Gemini、Claude、Perplexity、Google AI 模式）、網站診斷（網頁速度、標題）與網域工具（Whois、使用技術），約 50 個工具。採用 BYOK（自備 API 金鑰）：沒有月費，用自己的金鑰，用多少付多少。每個工具都有免費範例，執行前就能先看到結果長什麼樣子。",
+  "sections": [
+   {
+    "title": "搜尋結果與排名（SEO、在地 SEO）",
+    "text": "查詢 Google 排名，看看誰排在前面。在地 SEO（Google 地圖）、新聞、圖片與 YouTube 的搜尋結果，也會依關鍵字列成清單。適合在動筆前先看哪些網站已經排名，或查看店家在地圖上的位置。",
+    "tools": [
+     "C01",
+     "C03",
+     "C04",
+     "C05",
+     "C07",
+     "C14",
+     "C50",
+     "C09"
+    ]
+   },
+   {
+    "title": "關鍵字研究（搜尋量、相關關鍵字、難度）",
+    "text": "每次最多 1,000 個關鍵字，只要 $0.09 就能批次查詢每月搜尋量。另有相關關鍵字、長尾關鍵字、搜尋建議、關鍵字難度、搜尋意圖與每月歷史。適合決定下一篇文章的關鍵字，或整理廣告關鍵字。",
+    "tools": [
+     "C24",
+     "C26",
+     "C35",
+     "C36",
+     "C37",
+     "C08",
+     "C38",
+     "C39",
+     "C40",
+     "C41",
+     "C25",
+     "C34",
+     "C43"
+    ]
+   },
+   {
+    "title": "搜尋趨勢與受眾",
+    "text": "Google 趨勢走勢與各國搜尋量。用來看熱度什麼時候到高峰，以及哪些地區的人在搜尋。",
+    "tools": [
+     "C29",
+     "C30",
+     "C31",
+     "C32",
+     "C33"
+    ]
+   },
+   {
+    "title": "競爭對手網站與流量",
+    "text": "競爭對手在哪些關鍵字排名、預估的搜尋流量有多少、哪些頁面最強。也可比較兩個網站的共同關鍵字、找出競爭對手，並比較多個網站的規模。",
+    "tools": [
+     "C45",
+     "C49",
+     "C51",
+     "C53",
+     "C48",
+     "C42",
+     "C44",
+     "C46",
+     "C47",
+     "C52"
+    ]
+   },
+   {
+    "title": "AI 搜尋（GEO、LLM SEO）",
+    "text": "ChatGPT、Gemini、Claude、Perplexity 與 Google AI 模式會怎麼回答，以及你的網站是否被引用。也能查看 AI 問題的搜尋量。是 GEO 與 LLM SEO 的前期調查。",
+    "tools": [
+     "C02",
+     "C18",
+     "C19",
+     "C20",
+     "C21",
+     "C22",
+     "C23"
+    ]
+   },
+   {
+    "title": "廣告（Google 廣告）",
+    "text": "查看競爭對手是否投放 Google 廣告，以及廣告長什麼樣子。",
+    "tools": [
+     "C10",
+     "C11"
+    ]
+   },
+   {
+    "title": "YouTube 分析",
+    "text": "單支影片的數字、留言與完整字幕文字。",
+    "tools": [
+     "C15",
+     "C16",
+     "C17"
+    ]
+   },
+   {
+    "title": "網站診斷與頁面分析",
+    "text": "頁面基本資料（標題、標題數、字數）、擷取標題與內文、網頁速度分數、截圖、網站使用的技術，以及網域的註冊日與到期日（Whois）。",
+    "tools": [
+     "C60",
+     "C61",
+     "C62",
+     "C63",
+     "C74",
+     "C76"
+    ]
+   },
+   {
+    "title": "品牌聲量與輿情",
+    "text": "公司或商品名稱在網路上的討論：提及數、正負面占比與每月趨勢。適合公關與業務的前期調查。",
+    "tools": [
+     "C64",
+     "C65",
+     "C66",
+     "C67"
+    ]
+   },
+   {
+    "title": "潛在客戶、在地商家與飯店",
+    "text": "在地商家清單、Google 商家檔案資訊、附近飯店的價格，以及使用特定技術的網站名單。",
+    "tools": [
+     "C68",
+     "C69",
+     "C71",
+     "C75"
+    ]
+   }
+  ],
+  "titled": [
+   "C01",
+   "C02",
+   "C03",
+   "C04",
+   "C05",
+   "C07",
+   "C08",
+   "C09",
+   "C10",
+   "C11",
+   "C14",
+   "C18",
+   "C19",
+   "C20",
+   "C21",
+   "C22",
+   "C23",
+   "C24",
+   "C25",
+   "C26",
+   "C29",
+   "C33",
+   "C34",
+   "C35",
+   "C36",
+   "C37",
+   "C38",
+   "C39",
+   "C40",
+   "C41",
+   "C42",
+   "C43",
+   "C44",
+   "C45",
+   "C46",
+   "C47",
+   "C48",
+   "C49",
+   "C50",
+   "C51",
+   "C52",
+   "C53",
+   "C60",
+   "C61",
+   "C62",
+   "C63",
+   "C65",
+   "C66",
+   "C67",
+   "C74",
+   "C76"
+  ]
+ },
+ "vi": {
+  "title": "Bạn có thể làm gì ở đây",
+  "intro": "Đây là các tính năng của DataForSEO API, mỗi tính năng là một công cụ riêng trên màn hình. Kiểm tra thứ hạng (SERP), nghiên cứu từ khóa (lượt tìm kiếm hàng tháng, từ khóa liên quan, độ khó từ khóa), phân tích đối thủ, SEO địa phương (Google Maps), mức hiển thị trên AI tìm kiếm (ChatGPT, Gemini, Claude, Perplexity, Google AI Mode), phân tích YouTube, kiểm tra website (tốc độ trang, các thẻ tiêu đề) và công cụ tên miền (WHOIS, công nghệ sử dụng): khoảng 60 công cụ. BYOK (dùng Khóa API của chính bạn): không cần đăng ký gói tháng, bạn chỉ trả tiền theo mức dùng bằng Khóa API của mình. Công cụ nào cũng có bản mẫu miễn phí, nên bạn xem được kết quả trước khi chạy.",
+  "sections": [
+   {
+    "title": "Kết quả tìm kiếm và thứ hạng (SEO và SEO địa phương)",
+    "text": "Kiểm tra thứ hạng trên Google và xem ai đang đứng đầu. SEO địa phương (Google Maps), tin tức, hình ảnh và kết quả YouTube cũng được liệt kê theo từng từ khóa. Dùng khi bạn muốn xem ai đã có thứ hạng trước khi viết bài, hoặc một cửa hàng xuất hiện ở đâu trên bản đồ.",
+    "tools": [
+     "C01",
+     "C03",
+     "C04",
+     "C05",
+     "C07",
+     "C14",
+     "C50",
+     "C09"
+    ]
+   },
+   {
+    "title": "Nghiên cứu từ khóa (lượt tìm kiếm hàng tháng, từ khóa liên quan, độ khó từ khóa)",
+    "text": "Xem lượt tìm kiếm hàng tháng của tối đa 1.000 từ khóa mỗi lần gọi với giá $0.09. Có từ khóa liên quan, từ khóa đuôi dài, gợi ý tự động điền, độ khó từ khóa, ý định tìm kiếm và lịch sử theo tháng. Dùng để chọn từ khóa cho bài viết tiếp theo hoặc lập danh sách từ khóa quảng cáo.",
+    "tools": [
+     "C24",
+     "C26",
+     "C35",
+     "C36",
+     "C37",
+     "C08",
+     "C38",
+     "C39",
+     "C40",
+     "C41",
+     "C25",
+     "C34",
+     "C43"
+    ]
+   },
+   {
+    "title": "Xu hướng tìm kiếm và đối tượng người dùng",
+    "text": "Google Trends, mức độ quan tâm theo tuần, mức độ quan tâm theo khu vực, độ tuổi và giới tính của người tìm kiếm, và lượt tìm kiếm theo quốc gia. Để biết nhu cầu tăng cao lúc nào và thu hút những ai.",
+    "tools": [
+     "C29",
+     "C30",
+     "C31",
+     "C32",
+     "C33"
+    ]
+   },
+   {
+    "title": "Website đối thủ và lưu lượng truy cập",
+    "text": "Đối thủ đang có thứ hạng cho những từ khóa nào, nhận được bao nhiêu lưu lượng truy cập từ tìm kiếm (ước tính) và những trang nào mạnh nhất. Có từ khóa chung giữa hai website, tìm các website đối thủ và so sánh quy mô của nhiều website.",
+    "tools": [
+     "C45",
+     "C49",
+     "C51",
+     "C53",
+     "C48",
+     "C42",
+     "C44",
+     "C46",
+     "C47",
+     "C52"
+    ]
+   },
+   {
+    "title": "AI tìm kiếm (LLM SEO / GEO)",
+    "text": "ChatGPT, Gemini, Claude, Perplexity và Google AI Mode trả lời những gì, và website của bạn có được trích dẫn hay không. Cũng có lượt tìm kiếm cho các câu hỏi gửi cho AI. Là nền tảng cho LLM SEO và GEO.",
+    "tools": [
+     "C02",
+     "C18",
+     "C19",
+     "C20",
+     "C21",
+     "C22",
+     "C23"
+    ]
+   },
+   {
+    "title": "Quảng cáo (Google Ads)",
+    "text": "Tìm hiểu xem đối thủ có chạy Google Ads hay không và quảng cáo trông như thế nào.",
+    "tools": [
+     "C10",
+     "C11"
+    ]
+   },
+   {
+    "title": "Phân tích YouTube",
+    "text": "Các số liệu của một video, bình luận và toàn bộ phụ đề của video đó.",
+    "tools": [
+     "C15",
+     "C16",
+     "C17"
+    ]
+   },
+   {
+    "title": "Kiểm tra website và phân tích trang",
+    "text": "Thông tin cơ bản của trang (tiêu đề, các thẻ tiêu đề, số từ), trích xuất các thẻ tiêu đề và nội dung bài viết, điểm tốc độ trang, ảnh chụp màn hình, công nghệ mà website sử dụng và ngày đăng ký, ngày hết hạn của tên miền (WHOIS).",
+    "tools": [
+     "C60",
+     "C61",
+     "C62",
+     "C63",
+     "C74",
+     "C76"
+    ]
+   },
+   {
+    "title": "Lượt nhắc đến thương hiệu và danh tiếng",
+    "text": "Tên công ty hoặc sản phẩm của bạn đang được bàn luận ở đâu trên mạng: số lượt nhắc đến, tỷ lệ cảm xúc tích cực và tiêu cực, và xu hướng theo tháng. Là nền tảng cho PR và bán hàng.",
+    "tools": [
+     "C64",
+     "C65",
+     "C66",
+     "C67"
+    ]
+   },
+   {
+    "title": "Khách hàng tiềm năng, doanh nghiệp địa phương và khách sạn",
+    "text": "Danh sách doanh nghiệp địa phương, thông tin Google Business Profile, giá khách sạn ở gần và các website dùng một công nghệ nhất định. Để tìm khách hàng tiềm năng và nghiên cứu đối thủ địa phương.",
+    "tools": [
+     "C68",
+     "C69",
+     "C71",
+     "C75"
+    ]
+   }
+  ],
+  "titled": [
+   "C01",
+   "C02",
+   "C03",
+   "C04",
+   "C05",
+   "C07",
+   "C08",
+   "C09",
+   "C10",
+   "C11",
+   "C14",
+   "C15",
+   "C16",
+   "C17",
+   "C18",
+   "C19",
+   "C20",
+   "C21",
+   "C22",
+   "C23",
+   "C24",
+   "C25",
+   "C26",
+   "C29",
+   "C30",
+   "C31",
+   "C32",
+   "C33",
+   "C34",
+   "C35",
+   "C36",
+   "C37",
+   "C38",
+   "C39",
+   "C40",
+   "C41",
+   "C42",
+   "C43",
+   "C44",
+   "C45",
+   "C46",
+   "C47",
+   "C48",
+   "C49",
+   "C50",
+   "C51",
+   "C52",
+   "C53",
+   "C60",
+   "C61",
+   "C62",
+   "C63",
+   "C64",
+   "C65",
+   "C66",
+   "C67",
+   "C68",
+   "C69",
+   "C71",
+   "C74",
+   "C75",
+   "C76"
+  ]
+ }
 }
