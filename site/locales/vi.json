@@ -561,7 +561,7 @@
   "c50.meta": "Nhập một từ khóa để xem top 10 kết quả trong các bản chụp SERP trước đây, từng bản một. Xem các website đứng đầu có đổi chỗ hay giữ nguyên: kiểm tra lịch sử SERP. Bản mẫu miễn phí.",
   "c50.keyword": "Từ khóa (một từ khóa)",
   "c50.col.date": "Ngày",
-  "c50.col.rank": "Vị trí",
+  "c50.col.rank": "Thứ hạng",
   "c50.col.domain": "Tên miền",
   "c51.name": "Xem xu hướng lưu lượng truy cập của một website",
   "c51.desc": "Xem website của bạn có đang tăng trưởng không",
@@ -589,7 +589,7 @@
   "c53.desc": "Nắm nhanh quy mô của cả danh sách khách hàng tiềm năng",
   "c53.price": "Chi phí: khoảng $0.012 cho 3 tên miền (đã đo thực tế); khoảng $0.024 cho 100 (tham khảo). Bản mẫu miễn phí.",
   "c53.eta": "Thời gian tham khảo: vài giây",
-  "c53.title": "So sánh lưu lượng website | Lưu lượng ước tính nhiều site (Miễn phí)",
+  "c53.title": "So sánh lưu lượng website | Nhiều website (Bản mẫu miễn phí)",
   "c53.meta": "Nhập nhiều tên miền, mỗi dòng một tên, và nhận lưu lượng truy cập tự nhiên ước tính của từng tên miền trong một bảng. So sánh lưu lượng của cả danh sách website. Bản mẫu miễn phí.",
   "c53.keyword": "Tên miền (mỗi dòng một tên)",
   "c53.col.domain": "Tên miền",
@@ -598,8 +598,8 @@
   "c60.desc": "Kiểm tra tình trạng trang của khách hàng",
   "c60.price": "Chi phí: khoảng $0.00015 cho mỗi lần gọi (khoảng 6.600 lần gọi cho mỗi $1). Bản mẫu miễn phí. Nếu nhập nhiều mục, bạn trả theo từng mục.",
   "c60.eta": "Thời gian tham khảo: vài giây",
-  "c60.title": "Kiểm tra SEO on-page | Tiêu đề, heading, số từ của URL (mẫu miễn phí)",
-  "c60.meta": "Nhập một URL và nhận tiêu đề, mô tả, số heading, số từ, thời gian tải và các cờ kiểm tra SEO của trang dưới dạng bảng. Công cụ kiểm tra SEO on-page và đánh giá nhanh một trang. Bản mẫu miễn phí.",
+  "c60.title": "Kiểm tra SEO on-page | Tiêu đề, heading, số từ (Bản mẫu miễn phí)",
+  "c60.meta": "Nhập một URL và nhận tiêu đề, mô tả, số heading, số từ, thời gian tải và các mục kiểm tra SEO của trang dưới dạng bảng. Công cụ kiểm tra SEO on-page và đánh giá nhanh một trang. Bản mẫu miễn phí.",
   "c60.url": "URL trang (ví dụ https://example.com/) (mỗi dòng một URL, tối đa 50)",
   "c60.col.status": "Trạng thái",
   "c60.col.title": "Tiêu đề",
@@ -614,7 +614,7 @@
   "c60.summary": "Thông tin cơ bản của trang này",
   "c60.headings_title": "Số lượng heading",
   "c60.counts_title": "Số lượng liên kết, hình ảnh và các mục khác",
-  "c60.checks_title": "Cờ kiểm tra (đánh giá của DataForSEO)",
+  "c60.checks_title": "Các mục kiểm tra (đánh giá của DataForSEO)",
   "c60.v.h1": "Heading 1 (H1)",
   "c60.v.h2": "Heading 2 (H2)",
   "c60.v.h3": "Heading 3 (H3)",
@@ -647,7 +647,7 @@
   "c61.desc": "Xem các bài viết hàng đầu được xây dựng thế nào",
   "c61.price": "Chi phí: khoảng $0.00015 cho mỗi lần gọi (khoảng 6.600 lần gọi cho mỗi $1). Bản mẫu miễn phí. Nếu nhập nhiều mục, bạn trả theo từng mục.",
   "c61.eta": "Thời gian tham khảo: vài giây",
-  "c61.title": "Trích xuất heading trang web | H1–H4 và nội dung dạng bảng (miễn phí)",
+  "c61.title": "Trích xuất heading trang web | H1–H4 (Bản mẫu miễn phí)",
   "c61.meta": "Nhập URL một bài viết và nhận nội dung dưới mỗi heading (H1 đến H4) dưới dạng bảng. Trích xuất heading của bài viết đối thủ cạnh tranh để biết nó được cấu trúc thế nào. Bản mẫu miễn phí.",
   "c61.url": "URL bài viết (ví dụ https://example.com/blog/) (mỗi dòng một URL, tối đa 30)",
   "c61.col.level": "Cấp",
@@ -1007,10 +1007,10 @@
     [
       "1.000 dòng",
       "khoảng $0.13 (ước tính)",
-      "Tìm phần trùng nhau của hai website một cách rộng rãi"
+      "Tìm rộng phần từ khóa trùng nhau của hai website"
     ]
   ],
-  "c48.count": "Số dòng cần lấy (nhiều dòng hơn thì tốn hơn; xem bảng bên dưới)",
+  "c48.count": "Số dòng cần lấy (càng nhiều dòng càng tốn phí; xem bảng bên dưới)",
   "c48.steps": [
     [
       "100 dòng",
