@@ -1,0 +1,118 @@
+<title>口コミ読解レポート</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap">
+<style>
+/* 設計: 店主向けの1枚LP。主役は「口コミを読んだ結果」の実物。藍＋橙、001・002と同じ系統。 */
+:root{--bg:#f7f6f2;--panel:#fff;--fg:#1d2433;--muted:#5d6678;--line:#e1ded5;--accent:#183a6b;--accent-soft:#e6ecf5;--hot:#d9541e;--hot-soft:#fbe9df;--ok:#2a7a4f;--ok-soft:#e5f2ea;--font:'Noto Sans JP','Hiragino Sans','Yu Gothic',system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12161e;--panel:#1a202b;--fg:#e8ebf1;--muted:#9aa4b6;--line:#2a3342;--accent:#8db4ee;--accent-soft:#1e2a40;--hot:#ff8a55;--hot-soft:#3a2a20;--ok:#6cc79a;--ok-soft:#1b2e24;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#12161e;--panel:#1a202b;--fg:#e8ebf1;--muted:#9aa4b6;--line:#2a3342;--accent:#8db4ee;--accent-soft:#1e2a40;--hot:#ff8a55;--hot-soft:#3a2a20;--ok:#6cc79a;--ok-soft:#1b2e24;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--font);line-height:1.85;font-size:16px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 56px}
+.wrap{max-width:780px;margin:0 auto}.band{padding-block:36px;border-bottom:1px solid var(--line)}
+h1{font-size:clamp(1.6rem,5.6vw,2.4rem);line-height:1.38;font-weight:900;margin:0 0 14px;text-wrap:balance}h2{font-size:1.3rem;font-weight:900;margin:0 0 12px;text-wrap:balance}h3{font-size:1rem;margin:18px 0 6px}
+p{margin:0 0 12px}.eyebrow{color:var(--hot);font-weight:700;font-size:.85rem;letter-spacing:.06em;margin-bottom:8px}.lead{font-size:1.05rem;color:var(--muted)}
+.sample{background:var(--hot-soft);border:1px dashed var(--hot);border-radius:6px;padding:8px 12px;font-size:.84rem;margin:0 0 14px}
+.report{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px 18px}
+.report .m{color:var(--muted);font-size:.82rem}
+.sum{background:var(--accent-soft);border-left:4px solid var(--accent);padding:12px 14px;border-radius:0 6px 6px 0;margin:12px 0}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin:12px 0}
+.kpi{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px 12px;min-width:0}.kpi b{display:block;font-size:1.4rem;font-variant-numeric:tabular-nums}.kpi span{color:var(--muted);font-size:.8rem}
+.kpi.hot b{color:var(--hot)}
+.bars{display:flex;flex-direction:column;gap:5px;margin:8px 0}.bar{display:grid;grid-template-columns:3.2em 1fr 2.8em;gap:8px;align-items:center;font-size:.85rem}.bar .t{background:var(--line);border-radius:3px;height:14px;overflow:hidden}.bar .t i{display:block;height:100%;background:var(--accent)}.bar .t i.w{background:var(--hot)}.bar .v{text-align:right;font-variant-numeric:tabular-nums}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}@media(max-width:640px){.two{grid-template-columns:1fr}}.two>*{min-width:0}
+.good{background:var(--ok-soft);border-radius:8px;padding:12px 14px}.bad{background:var(--hot-soft);border-radius:8px;padding:12px 14px}
+.good h3,.bad h3{margin-top:0}ul{margin:0 0 8px;padding-left:1.2em}li{margin-bottom:4px}
+.next{border:2px solid var(--hot);border-radius:10px;padding:12px 14px;margin:14px 0}
+pre{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:12px;white-space:pre-wrap;overflow-wrap:anywhere;font-family:var(--font);font-size:.88rem;line-height:1.7;margin:0}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:8px;background:var(--panel)}table{border-collapse:collapse;width:100%;min-width:480px;font-size:.88rem}th,td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{background:var(--accent-soft);white-space:nowrap}tr:last-child td{border-bottom:0}
+.step,.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin-bottom:10px}
+details{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 16px;margin-bottom:8px}summary{cursor:pointer;font-weight:700}
+.cta{background:var(--accent);color:var(--bg);border-radius:10px;padding:22px}.cta p{margin:0 0 6px}small{color:var(--muted)}
+</style>
+<div class="wrap">
+<section class="band">
+  <p class="eyebrow">歯科・美容室・クリニックなど、口コミが気になる店主へ</p>
+  <h1>口コミを、全部読む時間はありますか？ 代わりに読んで、要点と返信の下書きにします</h1>
+  <p class="lead">Googleマップの口コミを読んで、「なぜ褒められているか」「何に不満が集まっているか」「どの口コミに返信が必要か」を1枚にまとめます。</p>
+</section>
+
+<section class="band">
+  <p class="eyebrow">実際にやってみた例</p>
+  <h2>口コミ18件の小さな美容室（星3.7）を読んだ結果</h2>
+  <p class="sample">実際の口コミ（2026年11月26日取得・全18件）を読んだ結果です。お店の名前、スタッフ名、投稿者名は伏せています。</p>
+  <div class="report">
+    <p class="m">A美容室　Googleマップ口コミ読解レポート ／ 取得件数 18件（全件）</p>
+    <div class="sum"><p style="margin:0"><b>星3.7の理由は「最近の低評価」です。</b>2年より前の10件は平均4.4ですが、直近2年の8件は平均2.8に下がっています。低評価は、3つの型に分かれます。</p></div>
+    <div class="kpis">
+      <div class="kpi"><b>3.7</b><span>平均の星（18件）</span></div>
+      <div class="kpi hot"><b>2.8</b><span>直近2年の8件の平均</span></div>
+      <div class="kpi"><b>4.4</b><span>2年より前の10件の平均</span></div>
+      <div class="kpi hot"><b>1件</b><span>返信のない、本文つきの星1（2か月前）</span></div>
+    </div>
+    <h3>星の分布</h3>
+    <div class="bars" role="img" aria-label="星の分布。星5が11件、星3が1件、星2が2件、星1が4件">
+      <div class="bar"><span>星5</span><span class="t"><i style="width:100%"></i></span><span class="v">11</span></div>
+      <div class="bar"><span>星4</span><span class="t"><i style="width:0%"></i></span><span class="v">0</span></div>
+      <div class="bar"><span>星3</span><span class="t"><i style="width:9%"></i></span><span class="v">1</span></div>
+      <div class="bar"><span>星2</span><span class="t"><i class="w" style="width:18%"></i></span><span class="v">2</span></div>
+      <div class="bar"><span>星1</span><span class="t"><i class="w" style="width:36%"></i></span><span class="v">4</span></div>
+    </div>
+    <div class="two" style="margin-top:14px">
+      <div class="good"><h3>褒められているところ</h3>
+        <ul><li><b>個室・半個室</b>で、周りを気にせず落ち着ける（6件）</li><li><b>お店がきれい</b></li><li><b>スタッフが話しやすく、優しい</b>（子どものカットを任せる人も）</li><li>伝えたイメージを汲み取る技術（スタイリスト指名のリピート）</li><li>駅から近い</li></ul></div>
+      <div class="bad"><h3>不満が集まっているところ（低評価7件）</h3>
+        <ul><li><b>カットの仕上がり：2件</b>（希望より短く切られた／毛先がバサバサ・まとまらない）</li><li><b>予約・会計のトラブル：3件</b>（待たされた／支払いが二重／遅刻への注意に驚いた）</li><li><b>施術中のマナー：1件</b>（咳をしたまま施術）</li><li>本文のない星1：1件</li></ul></div>
+    </div>
+    <h3>返信の状況</h3>
+    <p>返信は、18件中5件、低評価6件中4件。<b>返信がない低評価が2件</b>あります。うち1件（2か月前・星1・カットの仕上がり）は、本文があり、最近の口コミです。</p>
+    <div class="next"><p style="margin:0 0 4px"><b>次の一手（1つだけ）</b></p><p style="margin:0">2か月前の星1（カットの仕上がり）に返信する。下書きは次のとおりです。</p></div>
+    <pre>この度はご来店いただき、ありがとうございました。
+ご希望と異なる長さに仕上がってしまい、ご不快な思いをさせてしまったこと、お詫び申し上げます。
+お伝えいただいた「伸びた分だけ」というご希望を、施術前に確認し切れていなかった点を、担当［　］とともに振り返りました。
+今後は、カット前に仕上がりの長さを、ご一緒に確認してから進めてまいります。
+詳しくお話をお伺いしたく、よろしければ［連絡先］までご連絡ください。</pre>
+    <p class="m" style="margin-top:6px">※［　］は、お店が実際にやったことを書く欄です。事実と違うことは書かないでください（下書きは骨組みです）。</p>
+    <p class="m"><b>この読み取りの限界：</b>18件（本文なしの4件を含む）だけの傾向です。件数が少ないので、「型」は目安です。</p>
+  </div>
+</section>
+
+<section class="band">
+  <p class="eyebrow">大きな医院ではどうなるか</p>
+  <h2>口コミ1,180件の歯科（星4.3）の、低評価を読むと</h2>
+  <p class="sample">実際の口コミ（100件の見本＋星1の40件）の集計です。医院の名前は伏せています。</p>
+  <div class="kpis">
+    <div class="kpi"><b>22%</b><span>見本100件のうち星1（22件）</span></div>
+    <div class="kpi hot"><b>0 / 24</b><span>見本100件のうち、低評価（星1〜2）に返信があった数</span></div>
+    <div class="kpi hot"><b>17 / 24</b><span>低評価のうち「自費診療・費用」に触れていた数</span></div>
+  </div>
+  <p>星1を読むと、<b>「高い自費診療を勧められた」「保険を希望したら態度が変わった」「説明なしに同意書を出された」</b>という内容が目立ちます。痛みや処置への不満、受付の対応への不満がそれに続きます。星4.3の医院でも、<b>低評価に返信していない</b>ことが、次の患者さんにどう見えるか、が論点になります。</p>
+  <p class="sample">口コミの数え方：キーワードで数えた目安で、1件が複数の話題に入ります（読み取りはAI）。見本の100件は「関連性」順の抜き出しで、全体の傾向とは限りません。</p>
+</section>
+
+<section class="band">
+  <h2>お店の人がやること</h2>
+  <div class="step"><h3>① お店の名前と場所を教える</h3><p style="margin:0">Googleマップに載っているお店なら、取れます。5分で終わります。</p></div>
+  <div class="step"><h3>② こちらで口コミを集めて、AIが読む</h3><p style="margin:0">口コミ本文・星・時期・返信の有無を集めます。</p></div>
+  <div class="step"><h3>③ 1枚のレポートを受け取る</h3><p style="margin:0">要点、返信が必要な口コミ、返信の下書き、次の一手を1つ。</p></div>
+</section>
+
+<section class="band">
+  <h2>料金のイメージ（検討中）</h2>
+  <div class="tw"><table><thead><tr><th>形</th><th>中身</th><th>金額の案</th></tr></thead><tbody>
+  <tr><td>スポット</td><td>直近の口コミを読んで、1枚＋返信下書き</td><td>1〜3万円</td></tr>
+  <tr><td>月額</td><td>毎月の新しい口コミを読んで、返信の下書きまで</td><td>月1〜2万円（検討中）</td></tr></tbody></table></div>
+  <p class="sample" style="margin-top:12px">口コミの取得にかかる実費は、100件で約$0.0075（約1円）です。18件の見本は約$0.0015でした。金額は試験運用で決めます。</p>
+</section>
+
+<section class="band">
+  <h2>よくある質問</h2>
+  <details><summary>口コミは全部読めますか？</summary><p style="margin-top:8px">全部読むことは可能ですが、まずは新しい順や、星の低い順に、必要な件数を読みます。見本は、全18件と、星1の40件＋100件です。</p></details>
+  <details><summary>返信の下書きは、そのまま使っていいですか？</summary><p style="margin-top:8px">そのまま使わず、お店が実際にやったことを書き足してください。下書きは骨組みです。事実と違うことを書かないようにしています。</p></details>
+  <details><summary>投稿者の名前は出ますか？</summary><p style="margin-top:8px">レポートには出しません。口コミは、要約と短い言い換えで載せます。</p></details>
+  <details><summary>口コミを増やす提案はしてもらえますか？</summary><p style="margin-top:8px">お客さんにお願いする方法は、提案できます。口コミの買い取りや自作自演は、Googleの規約違反なので、提案しません。</p></details>
+  <details><summary>確実に星が上がりますか？</summary><p style="margin-top:8px">約束できません。レポートは、いま何が起きているかを見える形にするものです。</p></details>
+</section>
+
+<section class="band" style="border-bottom:0">
+  <div class="cta"><p><b>このページはテスト用の見本です。</b></p><p>申し込み窓口はまだありません。試験運用に参加したい方は、運営者にお知らせください。</p></div>
+</section>
+</div>

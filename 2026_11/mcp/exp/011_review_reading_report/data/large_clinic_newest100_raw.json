@@ -1,0 +1,67 @@
+{
+ "cid": "新宿駅東口医院",
+ "sort": "newest",
+ "depth": 100,
+ "cost": 0.0075,
+ "task_id": "11261243-1289-0298-0000-04e9e28a18c3",
+ "result": {
+  "version": "0.1.20261117",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.0798 sec.",
+  "cost": 0,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+   {
+    "id": "11261243-1289-0298-0000-04e9e28a18c3",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0399 sec.",
+    "cost": 0,
+    "result_count": 1,
+    "path": [
+     "v3",
+     "business_data",
+     "google",
+     "reviews",
+     "task_get",
+     "11261243-1289-0298-0000-04e9e28a18c3"
+    ],
+    "data": {
+     "se_type": "reviews",
+     "se": "google",
+     "api": "business_data",
+     "function": "reviews",
+     "cid": "新宿駅東口医院",
+     "location_code": 2392,
+     "language_code": "ja",
+     "depth": 100,
+     "sort_by": "newest",
+     "device": "desktop",
+     "os": "windows"
+    },
+    "result": [
+     {
+      "keyword": "cid:新宿駅東口医院",
+      "type": "google_reviews",
+      "se_domain": "google.co.jp",
+      "location_code": 2392,
+      "language_code": "ja",
+      "check_url": "https://www.google.co.jp/search?q=&sort=newestFirst&hl=ja&gl=JP&gws_rd=cr&ie=UTF-8&oe=UTF-8&uule=w+CAIQIFISCS8Zf9cPTmc0EURSZnzUdUL1",
+      "datetime": "2026-11-26 12:43:35 +00:00",
+      "title": null,
+      "sub_title": null,
+      "rating": null,
+      "feature_id": null,
+      "place_id": null,
+      "cid": null,
+      "reviews_count": null,
+      "items_count": 0,
+      "items": null
+     }
+    ]
+   }
+  ]
+ }
+}

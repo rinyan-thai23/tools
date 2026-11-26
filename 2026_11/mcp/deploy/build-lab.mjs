@@ -143,7 +143,7 @@ for (let i = 0; i < cases.length; i++) {
 }
 
 // ---------- 全体の目次 ----------
-const stat = v => /^(採用|候補)/.test(v) ? `<span class="ok">${esc(v)}</span>` : v ? `<span class="hold">${esc(v)}</span>` : '';
+const stat = v => /^(採用|候補|見本完了)/.test(v) ? `<span class="ok">${esc(v)}</span>` : v ? `<span class="hold">${esc(v)}</span>` : '';
 const tbl = `<div class="tw"><table style="min-width:1100px"><thead><tr><th>ID</th><th>案</th><th>誰の</th><th>何を解決できるか</th><th>形・売り先</th><th>データの区分</th><th>費用(USD)</th><th>状態</th></tr></thead><tbody>${data.map(r => {
   const nm = esc(NAMES[r.id] || r.slug);
   return `<tr><td>${r.id}</td><td>${idsWithPage.has(r.id) ? `<a href="/c/${r.id}/">${nm}</a>` : nm}</td><td>${esc(r['who(誰の)'])}</td><td>${esc(r['solves(何を解決)'])}</td><td>${esc(r['tags(形・売り先)'])}</td><td>${esc(r['区分(データ)'])}</td><td>${esc(r['原価USD'])}</td><td>${stat(r['判定'])}</td></tr>`;
@@ -153,8 +153,8 @@ const indexBody = `
 <p>「誰を喜ばせるか」から考えて、DataForSEOのデータで作れる<b>レポート型の事業案</b>を、実際にAPIを叩いて試す場所です。良かったものを最終的に10個採用します。1つの案は、<b>1ページに全部入っています</b>（誰のため・何をどうしたか・費用・結果・弱点・LP・生データ）。</p>
 <p class="note">このサイトは検索エンジンに出さない設定です（noindex）。パスワードはないので、URLを知っている人は開けます。実在の店名・会社名つきのデータを含みます。</p>
 <div class="cards">
- <div class="card"><b>${data.filter(r => ['000', '001', '002', '003', '004'].includes(r.id)).length}案</b><span>実験を終えた案（${data.filter(r => r['判定'] === '構想').length}案が構想中）</span></div>
- <div class="card"><b>約$0.99</b><span>ここまでの実費合計（約150円）</span></div>
+ <div class="card"><b>${data.filter(r => ['000', '001', '002', '003', '004', '011'].includes(r.id)).length}案</b><span>実験を終えた案（${data.filter(r => r['判定'] === '構想').length}案が構想中）</span></div>
+ <div class="card"><b>約$1.01</b><span>ここまでの実費合計（約150円）</span></div>
  <div class="card"><b>約$0.054</b><span>診断1回の原価（約8円）</span></div>
  <div class="card"><b>0人</b><span>外の人の反応（これから）</span></div>
 </div>
