@@ -51,7 +51,8 @@
   "csv": "C52.csv",
   "sample_langs": [
     "zh-TW",
-    "en"
+    "en",
+    "vi"
   ],
   "copy": true
 }
