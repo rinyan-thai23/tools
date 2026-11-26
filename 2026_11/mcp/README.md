@@ -9,6 +9,7 @@
 mcp/
   README.md          ← これ
   INDEX.tsv          ← 100本の台帳（番号・誰向け・費用・点数・判定）
+  PATTERNS.md        ← 成り立ちそうな型／そうでない型の判断（根拠つき）。節目ごとに更新
   package.json       ← 公式MCPサーバーのバージョン固定（3.1.3）。`npm i` で入る
   lib/               ← 共通部品（mcp.mjs: MCP接続 / grid.mjs: 場所ごとの地図順位）
   exp/NNN_slug/      ← 1案＝1フォルダ

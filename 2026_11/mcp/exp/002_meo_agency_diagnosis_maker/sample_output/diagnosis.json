@@ -23,48 +23,48 @@
   ],
   [
    null,
-   null,
-   null,
-   null,
+   16,
+   9,
+   18,
    null
   ],
   [
    null,
-   null,
+   12,
    2,
+   7,
+   18
+  ],
+  [
    null,
-   null
+   19,
+   6,
+   8,
+   12
   ],
   [
    null,
    null,
-   20,
-   null,
-   null
-  ],
-  [
-   null,
-   null,
-   null,
-   null,
-   null
+   18,
+   12,
+   12
   ]
  ],
  "counts": {
   "total": 25,
   "top3": 1,
-  "top10": 1,
-  "out": 23
+  "top10": 5,
+  "out": 11
  },
  "top_shops": {
-  "n": 52,
-  "rating": 4.38,
-  "votes": 22,
-  "photos": 15
+  "n": 30,
+  "rating": 4.52,
+  "votes": 28,
+  "photos": 29
  },
- "next": "評価（星）の差を縮める。星1〜2の口コミを読み、共通の不満を1つ見つけて、返信で丁寧に対応する。いまの3.7に対して、上位店の平均は4.38です。",
- "cost_usd": 0.052,
- "calls": 26,
+ "next": "評価（星）の差を縮める。星1〜2の口コミを読み、共通の不満を1つ見つけて、返信で丁寧に対応する。いまの3.7に対して、上位店の平均は4.52です。",
+ "cost_usd": 0.054,
+ "calls": 27,
  "center_rank": 2,
  "benchmark": "area_top3"
 }

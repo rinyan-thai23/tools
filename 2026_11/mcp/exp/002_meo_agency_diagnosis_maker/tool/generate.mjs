@@ -24,15 +24,25 @@ if (fs.existsSync(cachePath) && !process.argv.includes('--refetch')) {
   const find = await mcp.api('/v3/serp/google/maps/live/advanced', [{keyword: cfg.shop_query, location_code: 2392, language_code: 'ja', depth: 5}]);
   shop = find.tasks?.[0]?.result?.[0]?.items?.[0];
   if (!shop) { console.error('店が見つかりませんでした'); process.exit(1); }
-  // 2. 店のまわりで順位を取る
-  g = await runGrid(mcp, {keyword: cfg.keyword, lat: shop.latitude, lng: shop.longitude, n: cfg.grid || 5});
+  // 2. 格子の間隔を決める。'auto'：お店の場所で検索した上位20店が広がる距離（20位までの距離）の半分を間隔にする（+$0.002）
+  let scale = cfg.step_scale || 1, r20 = null;
+  if (cfg.step_scale === 'auto') {
+    const pr = await mcp.api('/v3/serp/google/maps/live/advanced', [{keyword: cfg.keyword, location_coordinate: `${shop.latitude},${shop.longitude},15z`, language_code: 'ja', depth: 20}]);
+    const ds = (pr.tasks?.[0]?.result?.[0]?.items || []).filter(i => i.latitude).map(i => Math.hypot((i.latitude - shop.latitude) * 111000, (i.longitude - shop.longitude) * 90000)).sort((a, b) => a - b);
+    r20 = ds.length ? Math.round(ds[ds.length - 1]) : 1100;
+    scale = Math.min(2, Math.max(0.1, +(r20 / 2 / 550).toFixed(2)));
+    console.log(`上位20店の広がり ${r20}m → 格子の間隔 約${Math.round(550 * scale)}m`);
+  }
+  // 3. 店のまわりで順位を取る
+  g = await runGrid(mcp, {keyword: cfg.keyword, lat: shop.latitude, lng: shop.longitude, n: cfg.grid || 5, scale});
+  g.r20 = r20;
   cost = mcp.cost; calls = mcp.calls; await mcp.close();
   fs.mkdirSync(path.dirname(cachePath), {recursive: true});
   fs.writeFileSync(cachePath, JSON.stringify({shop, g, cost, calls}));
 }
 console.log('対象の店:', shop.title, '/', shop.address);
 
-// 3. 集計
+// 4. 集計
 const n = g.n, mat = Array.from({length: n}, () => Array(n).fill(null));
 const top = new Map();
 for (const c of g.cells) {
@@ -55,7 +65,7 @@ const profile = [
   ['電話番号の登録', !!shop.phone], ['ホームページの登録', !!shop.url], ['営業時間の登録', !!shop.work_hours],
   ['追加カテゴリの登録', (shop.additional_categories || []).length > 0],
 ];
-// 4. 次の一手（差がいちばん大きい項目を1つ。ルールはここに書いてある）
+// 5. 次の一手（差がいちばん大きい項目を1つ。ルールはここに書いてある）
 let next;
 if (shop.is_claimed === false) next = 'Googleに「このお店のオーナー」として登録（確認）を済ませる。ここが未完了だと、情報の追加ができません。';
 else if (me.votes != null && t.votes && me.votes < t.votes * 0.5) next = `お客さんに口コミをお願いする紙（QRコード）を、会計のそばに置く。いまの${me.votes}件を、上位店の中央値${t.votes}件に近づけるのが最初の目標です。`;
@@ -96,12 +106,12 @@ footer{border-top:1px solid var(--line);padding-top:12px}
 <main>
 <header><p class="m">${esc(agency.name)} ／ 診断日 ${esc(new Date().toISOString().slice(0, 10))} ／ 検索キーワード「${esc(cfg.keyword)}」</p>
 <h1>${esc(shopName)}さま<br>Googleマップ見え方診断</h1></header>
-<section class="sum"><p><b>${esc(shopName)}は、お店のまわり${total}地点のうち、3位以内が${cnt3}地点、10位以内が${cnt10}地点、圏外（21位以下）が${cntOut}地点でした。</b></p>
+<section class="sum"><p><b>${esc(shopName)}は、お店のまわり${total}地点（約${(g.step_m || 550) * (n - 1)}m四方）のうち、3位以内が${cnt3}地点、10位以内が${cnt10}地点、圏外（21位以下）が${cntOut}地点でした。</b></p>
 <p style="margin:0 0 4px">お店の場所（マップの中心）では<b>${centerRank ? centerRank + '位' : '圏外'}</b>です。</p><p class="m" style="margin:0">「${esc(cfg.keyword)}」と検索した人に、場所ごとにどう見えるかを調べました。</p></section>
 <section><h2>場所ごとの順位</h2>
 <div class="map" role="img" aria-label="場所ごとの順位マップ">${mat.map(r => r.map(cell).join('')).join('')}</div>
 <div class="legend"><span><i style="background:var(--c1)"></i>1〜3位</span><span><i style="background:var(--c2)"></i>4〜10位</span><span><i style="background:var(--c3)"></i>11〜20位</span><span><i style="background:var(--c0)"></i>圏外</span></div>
-<p class="m" style="margin-top:6px">上が北。1マス約500m。お店はマップの中心です。</p></section>
+<p class="m" style="margin-top:6px">上が北。1マス約${g.step_m || 550}m。お店はマップの中心です。</p></section>
 <section><h2>上位の店と比べると</h2>
 <div class="cmp">
 <div class="card${me.votes != null && t.votes && me.votes < t.votes * .5 ? ' gap' : ''}"><div class="k">口コミの数</div><div class="v">${me.votes ?? '—'}件</div><div class="m">上位店の中央値 ${t.votes ?? '—'}件</div></div>

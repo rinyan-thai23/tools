@@ -1,0 +1,70 @@
+{
+ "shop": {
+  "title": "(masked)",
+  "rating": 3.9,
+  "votes": 126,
+  "photos": 189,
+  "profile": {
+   "オーナー確認（ビジネスの所有者確認）": true,
+   "電話番号の登録": true,
+   "ホームページの登録": true,
+   "営業時間の登録": true,
+   "追加カテゴリの登録": true
+  }
+ },
+ "keyword": "ラーメン",
+ "grid": [
+  [
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  [
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  [
+   null,
+   15,
+   2,
+   null,
+   null
+  ],
+  [
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  [
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ ],
+ "counts": {
+  "total": 25,
+  "top3": 1,
+  "top10": 1,
+  "out": 23
+ },
+ "top_shops": {
+  "n": 67,
+  "rating": 4.06,
+  "votes": 425,
+  "photos": 956.5
+ },
+ "next": "お客さんに口コミをお願いする紙（QRコード）を、会計のそばに置く。いまの126件を、上位店の中央値425件に近づけるのが最初の目標です。",
+ "cost_usd": 0.052,
+ "calls": 26,
+ "center_rank": 2,
+ "benchmark": "area_top3"
+}

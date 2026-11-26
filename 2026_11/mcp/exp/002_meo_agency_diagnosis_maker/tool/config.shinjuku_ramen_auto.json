@@ -1,0 +1,13 @@
+{
+ "shop_query": "麺創房 無敵麻辣湯 新宿店",
+ "keyword": "ラーメン",
+ "slug": "shinjuku_ramen_auto",
+ "grid": 5,
+ "mask": true,
+ "agency": {
+  "name": "◯◯制作会社（例）",
+  "contact": "お問い合わせ：example@example.com"
+ },
+ "out_dir": "../sample_output/shinjuku_ramen_auto",
+ "step_scale": "auto"
+}

@@ -12,8 +12,9 @@ export function cellsAround(lat0, lng0, n = 5, dlat = 0.005, dlng = 0.0062) {
 const slim = x => ({rank: x.rank_group, title: x.title, cid: x.cid, rating: x.rating?.value ?? null, votes: x.rating?.votes_count ?? null,
   lat: x.latitude, lng: x.longitude, cat: x.category, claimed: x.is_claimed, photos: x.total_photos ?? null});
 
-export async function runGrid(mcp, {keyword, lat, lng, n = 5, depth = 20, conc = 5}) {
-  const cells = cellsAround(lat, lng, n), out = [];
+export async function runGrid(mcp, {keyword, lat, lng, n = 5, depth = 20, conc = 5, scale = 1}) {
+  const dlat = 0.005 * scale, dlng = 0.0062 * scale;
+  const cells = cellsAround(lat, lng, n, dlat, dlng), out = [];
   let i = 0;
   const worker = async () => { while (i < cells.length) { const c = cells[i++];
     const d = await mcp.api('/v3/serp/google/maps/live/advanced', [{keyword, location_coordinate: `${c.lat},${c.lng},15z`, language_code: 'ja', depth}]);
@@ -21,7 +22,7 @@ export async function runGrid(mcp, {keyword, lat, lng, n = 5, depth = 20, conc =
     out.push({...c, status: tk?.status_code, items: (tk?.result?.[0]?.items || []).map(slim)}); } };
   await Promise.all(Array.from({length: conc}, worker));
   out.sort((a, b) => a.r - b.r || a.q - b.q);
-  return {keyword, center: [lat, lng], n, cells: out};
+  return {keyword, center: [lat, lng], n, step_m: Math.round(dlat * 111000), cells: out};
 }
 
 if (process.argv[1] && process.argv[1].endsWith('grid.mjs')) {

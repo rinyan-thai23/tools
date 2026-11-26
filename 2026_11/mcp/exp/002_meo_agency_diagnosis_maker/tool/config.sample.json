@@ -1,9 +1,13 @@
 {
-  "shop_query": "newi国分寺",
-  "keyword": "美容室",
-  "slug": "newi_kokubunji_bijutsu",
-  "grid": 5,
-  "mask": true,
-  "agency": {"name": "◯◯制作会社（例）", "contact": "お問い合わせ：example@example.com"},
-  "out_dir": "../sample_output"
+ "shop_query": "newi国分寺",
+ "keyword": "美容室",
+ "slug": "kokubunji_auto",
+ "grid": 5,
+ "mask": true,
+ "agency": {
+  "name": "◯◯制作会社（例）",
+  "contact": "お問い合わせ：example@example.com"
+ },
+ "out_dir": "../sample_output/kokubunji_auto",
+ "step_scale": "auto"
 }
