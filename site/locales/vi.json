@@ -77,6 +77,59 @@
   "c02.refs": "Nguồn được trích dẫn",
   "c02.col.title": "Tiêu đề",
   "c02.col.url": "URL",
+  "c03.name": "Xem các địa điểm đứng đầu trên Google Maps",
+  "c03.desc": "Xem cửa hàng của bạn và đối thủ đứng hạng mấy trên bản đồ",
+  "c03.price": "Chi phí ước tính: khoảng $0.002 cho 10–100 kết quả (đã đo thực tế; cùng một mức giá cho mọi số lượng, khoảng 500 yêu cầu cho $1). Bản mẫu miễn phí. Khi nhập nhiều mục, bạn trả theo từng mục.",
+  "c03.eta": "Thời gian tham khảo của công cụ này: vài giây",
+  "c03.title": "Kiểm tra thứ hạng Google Maps | Top doanh nghiệp (bản mẫu miễn phí)",
+  "c03.meta": "Nhập một từ khóa và nhận bảng doanh nghiệp địa phương đứng đầu Google Maps: thứ hạng, đánh giá, lượt đánh giá, số điện thoại. Dùng vị trí trên toàn quốc.",
+  "c03.keyword": "Từ khóa (ví dụ: massage san francisco) (mỗi dòng một mục, tối đa 30)",
+  "c03.count": "Số kết quả (từ trên xuống)",
+  "c03.col.rank": "Thứ hạng",
+  "c03.col.title": "Tên",
+  "c03.col.rating": "Đánh giá",
+  "c03.col.votes": "Lượt đánh giá",
+  "c03.col.address": "Địa chỉ",
+  "c03.col.phone": "Điện thoại",
+  "c03.col.url": "Website",
+  "c04.name": "Xem danh sách \"thêm địa điểm\" trên bản đồ",
+  "c04.desc": "Xem cửa hàng của bạn và đối thủ ngoài 3 vị trí đầu trên bản đồ",
+  "c04.price": "Chi phí ước tính: khoảng $0.002 cho 20 kết quả, $0.01 cho 100 (đã đo thực tế). Từ khóa không có kết quả vẫn bị tính phí. Bản mẫu miễn phí. Khi nhập nhiều mục, bạn trả theo từng mục. Mỗi mục cần thời gian, nên nhiều mục sẽ phải chờ lâu.",
+  "c04.eta": "Thời gian tham khảo của công cụ này: khoảng 2–2,5 phút",
+  "c04.title": "Google Local Finder | Doanh nghiệp ngoài top 3 (bản mẫu miễn phí)",
+  "c04.meta": "Lấy danh sách \"thêm địa điểm\" trên Google Maps (local finder), gồm các vị trí ngoài top 3 của map pack. Xem đối thủ đứng ở đâu sau local pack.",
+  "c04.keyword": "Từ khóa (ví dụ: massage san francisco) (mỗi dòng một mục, tối đa 10)",
+  "c04.count": "Số kết quả (từ trên xuống)",
+  "c04.col.rank": "Thứ hạng",
+  "c04.col.title": "Tên",
+  "c04.col.rating": "Đánh giá",
+  "c04.col.votes": "Lượt đánh giá",
+  "c04.col.description": "Mô tả (khu vực, giờ mở cửa)",
+  "c04.col.phone": "Điện thoại",
+  "c04.col.url": "Website",
+  "c05.name": "Xem các bài trên Google News",
+  "c05.desc": "Xem công ty hoặc ngành của bạn xuất hiện trong tin tức như thế nào",
+  "c05.price": "Chi phí ước tính: khoảng $0.002 cho 10 kết quả, $0.004 cho 20 (tăng theo từng 10). Bản mẫu miễn phí. Khi nhập nhiều mục, bạn trả theo từng mục. Mỗi mục mất thời gian, nên nhiều mục thì phải chờ lâu hơn.",
+  "c05.eta": "Thời gian tham khảo của công cụ này: khoảng 1–1,5 phút",
+  "c05.title": "Kết quả Google News | Theo dõi tin tức về công ty bạn",
+  "c05.meta": "Nhập từ khóa hoặc tên công ty để xem các bài trên Google News dạng bảng: nguồn, ngày và tiêu đề. Dùng để theo dõi tin tức và xem công ty hoặc ngành của bạn xuất hiện trong tin tức như thế nào.",
+  "c05.keyword": "Từ khóa (ví dụ tên công ty) (mỗi dòng một từ khóa, tối đa 10)",
+  "c05.count": "Số kết quả (tính từ đầu bảng)",
+  "c05.col.source": "Nguồn",
+  "c05.col.date": "Ngày",
+  "c05.col.title": "Tiêu đề",
+  "c05.col.url": "URL",
+  "c07.name": "Xem kết quả hàng đầu của tìm kiếm hình ảnh",
+  "c07.desc": "Xem bìa và ảnh thu nhỏ của một từ khóa trông như thế nào",
+  "c07.price": "Chi phí ước tính: khoảng $0.002 cho 20–100 kết quả (đã đo thực tế; giá như nhau ở mọi số lượng). Bản mẫu miễn phí. Khi nhập nhiều mục, bạn trả theo từng mục.",
+  "c07.eta": "Thời gian tham khảo của công cụ này: khoảng 7–10 giây",
+  "c07.title": "Tìm kiếm hình ảnh Google | Ý tưởng ảnh thu nhỏ và bìa sách",
+  "c07.meta": "Nhập từ khóa để xem các hình ảnh hàng đầu của Google dạng danh sách ảnh thu nhỏ. Dùng để tìm ý tưởng ảnh thu nhỏ, cảm hứng thiết kế bìa sách và nghiên cứu SEO hình ảnh: xem loại hình ảnh nào đứng đầu.",
+  "c07.keyword": "Từ khóa (mỗi dòng một từ khóa, tối đa 30)",
+  "c07.count": "Số kết quả (tính từ đầu bảng)",
+  "c07.col.image": "Hình ảnh",
+  "c07.col.title": "Tiêu đề",
+  "c07.col.url": "URL trang nguồn",
   "c08.name": "Xem gợi ý trong ô tìm kiếm",
   "c08.desc": "Xem người đọc tìm gì cùng với từ khóa của bạn",
   "c08.price": "Chi phí: $0.002 mỗi mục (đã đo thực tế). Khi nhập nhiều mục, bạn trả theo từng mục (khoảng $0.04 cho 20 mục). Bản mẫu miễn phí.",
@@ -96,6 +149,53 @@
   "c18.col.url": "URL trang được trích dẫn",
   "c18.answer": "Câu trả lời của ChatGPT",
   "c18.refs": "Các trang được trích dẫn",
+  "c19.name": "Xem câu trả lời của Claude",
+  "c19.desc": "Xem Claude trả lời gì khi được hỏi",
+  "c19.price": "Chi phí: khoảng $0.002 mỗi câu hỏi (không tìm kiếm web, khoảng 450 câu hỏi cho $1). Bản mẫu miễn phí. Khi nhập nhiều mục, bạn trả theo từng mục.",
+  "c19.eta": "Thời gian tham khảo: vài giây",
+  "c19.title": "Câu trả lời của Claude | So sánh với ChatGPT (Có bản mẫu miễn phí)",
+  "c19.meta": "Xem câu trả lời Claude đưa ra cho một câu hỏi. So sánh với ChatGPT và Gemini, kiểm tra thương hiệu của bạn hoặc đối thủ được mô tả thế nào. Có bản mẫu miễn phí.",
+  "c19.prompt": "Câu hỏi (ví dụ: Công cụ chấm công nào tốt cho công ty nhỏ?) (mỗi dòng một câu hỏi, tối đa 30)",
+  "c19.col.answer": "Câu trả lời của Claude",
+  "c19.answer": "Câu trả lời của Claude",
+  "c20.name": "Xem câu trả lời của Gemini",
+  "c20.desc": "Xem Gemini trả lời gì khi được hỏi",
+  "c20.price": "Chi phí: khoảng $0.016–0.06 mỗi câu hỏi (có tìm kiếm web; 3 lần thử). Bản mẫu miễn phí. Khi nhập nhiều mục, bạn trả theo từng mục.",
+  "c20.eta": "Thời gian tham khảo: khoảng 4–8 giây",
+  "c20.title": "Câu trả lời của Gemini | So sánh với ChatGPT (Có bản mẫu miễn phí)",
+  "c20.meta": "Xem câu trả lời Gemini đưa ra cho một câu hỏi. So sánh Gemini và ChatGPT, kiểm tra thương hiệu của bạn có xuất hiện không. Có bản mẫu miễn phí.",
+  "c20.prompt": "Câu hỏi (ví dụ: Gợi ý ba quán ramen ngon ở New York) (mỗi dòng một câu hỏi, tối đa 20)",
+  "c20.col.title": "Tên nguồn",
+  "c20.col.url": "URL trang được trích dẫn",
+  "c20.answer": "Câu trả lời của Gemini",
+  "c20.refs": "Các trang được trích dẫn",
+  "c21.name": "Xem câu trả lời của Perplexity",
+  "c21.desc": "Xem Perplexity trích dẫn những website nào",
+  "c21.price": "Chi phí: khoảng $0.006 mỗi câu hỏi (khoảng 170 câu hỏi cho $1). Bản mẫu miễn phí. Khi nhập nhiều mục, bạn trả theo từng mục.",
+  "c21.eta": "Thời gian tham khảo: vài giây",
+  "c21.title": "Câu trả lời và nguồn của Perplexity | Xem website được trích dẫn",
+  "c21.meta": "Xem câu trả lời Perplexity đưa ra cùng các nguồn nó trích dẫn. Biết Perplexity trích dẫn những website nào cho một câu hỏi: điểm khởi đầu cho Perplexity SEO và LLM SEO. Có bản mẫu miễn phí.",
+  "c21.prompt": "Câu hỏi (ví dụ: Gợi ý 3 quán ramen ngon ở New York) (mỗi dòng một câu hỏi, tối đa 30)",
+  "c21.col.title": "Tiêu đề trang",
+  "c21.col.url": "URL trang",
+  "c21.answer": "Câu trả lời của Perplexity",
+  "c21.refs": "Các kết quả tìm kiếm được trích dẫn",
+  "c22.name": "Xem tìm kiếm của ChatGPT",
+  "c22.desc": "Xem tìm kiếm của ChatGPT hiển thị những sản phẩm nào",
+  "c22.price": "Chi phí: khoảng $0.004 mỗi lượt tìm kiếm (khoảng 250 lượt cho $1). Mất khoảng 20–30 giây. Bản mẫu miễn phí. Khi nhập nhiều mục, bạn trả theo từng mục.",
+  "c22.eta": "Thời gian tham khảo: khoảng 20–30 giây",
+  "c22.title": "Tìm kiếm và mua sắm của ChatGPT | Xem sản phẩm và nguồn nào xuất hiện",
+  "c22.meta": "Xem các sản phẩm và nguồn được trích dẫn mà tìm kiếm của ChatGPT trả về cho câu hỏi kiểu mua sắm. Kiểm tra sản phẩm của bạn có xuất hiện không. Có bản mẫu miễn phí.",
+  "c22.keyword": "Từ khóa (ví dụ: how to start a blog) (mỗi dòng một từ khóa, tối đa 10)",
+  "c22.col.title": "Tiêu đề nguồn",
+  "c22.col.domain": "Website",
+  "c22.col.url": "URL nguồn",
+  "c22.col.p_image": "Hình ảnh",
+  "c22.col.p_title": "Sản phẩm",
+  "c22.col.p_tag": "Thẻ",
+  "c22.answer": "Câu trả lời của tìm kiếm ChatGPT",
+  "c22.refs": "Nguồn",
+  "c22.products": "Sản phẩm được gợi ý",
   "c23.name": "Xem chủ đề được hỏi AI nhiều đến đâu",
   "c23.desc": "Kiểm tra một chủ đề có hay được hỏi AI không",
   "c23.price": "Chi phí: khoảng $0.0101 cho 1 từ khóa và $0.0638 cho 538 từ khóa (đã đo thực tế). Tối đa 1.000 từ khóa trong một yêu cầu; nhiều hơn sẽ được tự động chia nhỏ (tối đa 2.000). Bản mẫu miễn phí.",
@@ -117,6 +217,28 @@
   "c24.col.cpc": "CPC (USD)",
   "c24.col.competition": "Mức cạnh tranh (0–100)",
   "c24.col.monthly": "12 tháng gần nhất (mới nhất trước)",
+  "c25.name": "Tìm ý tưởng từ khóa cho một website",
+  "c25.desc": "Tìm ý tưởng từ khóa phù hợp với website của khách hàng",
+  "c25.price": "Chi phí: $0.09 mỗi lần gọi (khoảng 11 lần gọi cho $1). Tối đa khoảng 1.000 dòng mỗi lần gọi. Bản mẫu miễn phí.",
+  "c25.eta": "Thời gian tham khảo: khoảng 5–8 giây",
+  "c25.title": "Từ khóa đối thủ | Tìm từ khóa theo tên miền, kèm lượt tìm kiếm và CPC",
+  "c25.meta": "Nhập một tên miền để nhận ý tưởng từ khóa phù hợp với website, kèm lượt tìm kiếm và CPC. Dùng để nghiên cứu từ khóa đối thủ và tìm từ khóa nên nhắm tới. Dựa trên dữ liệu Google Ads.",
+  "c25.keyword": "Tên miền (ví dụ: example.com)",
+  "c25.col.keyword": "Từ khóa",
+  "c25.col.volume": "Lượt tìm kiếm hàng tháng",
+  "c25.col.cpc": "CPC (USD)",
+  "c25.col.competition": "Mức cạnh tranh (0–100)",
+  "c26.name": "Tìm từ khóa liên quan cho quảng cáo",
+  "c26.desc": "Tìm các từ khóa bạn có thể dùng trong quảng cáo",
+  "c26.price": "Chi phí: $0.09 mỗi lần gọi (khoảng 11 lần gọi cho $1). Bản mẫu miễn phí.",
+  "c26.eta": "Thời gian tham khảo: khoảng 4 giây",
+  "c26.title": "Ý tưởng từ khóa từ Google Ads | Từ khóa liên quan cho PPC và SEO",
+  "c26.meta": "Nhập một từ khóa để nhận ý tưởng từ khóa liên quan từ dữ liệu Google Ads, kèm lượt tìm kiếm và CPC. Cùng nguồn dữ liệu với Keyword Planner: dùng để chọn từ khóa PPC và tìm ý tưởng SEO.",
+  "c26.keyword": "Từ khóa (một từ khóa)",
+  "c26.col.keyword": "Từ khóa",
+  "c26.col.volume": "Lượt tìm kiếm hàng tháng",
+  "c26.col.cpc": "CPC (USD)",
+  "c26.col.competition": "Mức cạnh tranh (0–100)",
   "c35.name": "Xem từ khóa liên quan",
   "c35.desc": "Tìm ý tưởng cho bài viết tiếp theo của bạn",
   "c35.price": "Chi phí: khoảng $0.024 cho 100 dòng và khoảng $0.13 cho 1.000 dòng (đã đo trên các endpoint Labs; tăng khoảng $0.0001 cho mỗi dòng). Bản mẫu miễn phí.",
@@ -223,6 +345,7 @@
   "c24.ai_prompt_diff": "Bạn là trợ lý giúp một blogger mới bắt đầu chọn nên viết bài về từ khóa nào.\nNgười đọc đã kiểm tra lượt tìm kiếm của các từ khóa hai lần, vào hai ngày khác nhau, và muốn biết \"so với lần trước đã thay đổi gì\".\n\n# Về dữ liệu\n- Lần này: {date} / Lần trước: {prev_date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số từ khóa lần này: {n}\n- Giải thích các cột\n  - Lượt tìm kiếm hàng tháng: ước tính dựa trên dữ liệu Google Ads. Để trống nghĩa là \"không có dữ liệu\", chưa chắc là bằng 0.\n  - CPC (USD): giá trung bình mỗi lượt nhấp mà nhà quảng cáo trả. Đây không phải giá trị của một bài viết.\n  - Mức cạnh tranh (0–100): mức độ cạnh tranh của từ khóa trong quảng cáo. Đây không phải độ khó SEO.\n  - 12 tháng gần nhất: lượt tìm kiếm từng tháng, từ tháng mới nhất đến tháng cũ nhất.\n- Hãy so sánh cùng một từ khóa giữa lần trước và lần này. Từ khóa chỉ xuất hiện ở một bên thì ghi là \"mới\" hoặc \"đã biến mất\".\n\n# Việc tôi muốn bạn làm\n1. 5 từ khóa có lượt tìm kiếm hàng tháng thay đổi nhiều nhất, xếp từ thay đổi lớn nhất. Hiển thị lần trước, lần này và chênh lệch.\n2. Cho tôi biết những từ khóa lần trước để trống mà lần này có số (hoặc ngược lại).\n3. Nói ngắn gọn điều gì không thể biết chỉ từ dữ liệu: thay đổi đó là thật, hay chỉ là sai số của ước tính?\n4. Liệt kê 3 bước tiếp theo theo thứ tự.\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (từ khóa / lần trước / lần này / chênh lệch).\n\n# Dữ liệu lần trước (phân tách bằng Tab)\n```\n{prev_data}\n```\n\n# Dữ liệu lần này (phân tách bằng Tab)\n```\n{data}\n```",
   "c01.ai_prompt": "Bạn là trợ lý giúp kiểm tra kết quả tìm kiếm.\nNgười đọc là một blogger mới bắt đầu, sắp viết bài và muốn biết \"hiện giờ những trang nào đang đứng đầu\".\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Thứ hạng: vị trí trong các kết quả thông thường (liên kết xanh). Không tính AI Overview, bản đồ, v.v.\n  - Tiêu đề: tiêu đề hiển thị trong kết quả. Tiêu đề dài có thể bị cắt bằng \"...\".\n  - URL / Tên miền: địa chỉ trang và tên website.\n- Kết quả tìm kiếm thay đổi theo địa điểm và thời gian. Đây là kết quả của ngày này và điều kiện này.\n\n# Việc tôi muốn bạn làm\n1. Nếu có tên miền xuất hiện nhiều lần, hãy cho tôi biết xuất hiện bao nhiêu lần.\n2. Liệt kê các từ hoặc mẫu chung của các tiêu đề (dấu ngoặc, năm, con số, v.v.), trong phạm vi có thể đếm được. Hãy cẩn thận với các tiêu đề bị cắt bằng \"...\".\n3. Dựa vào điểm chung của các tiêu đề hàng đầu, gợi ý 3 ý tưởng tiêu đề cho bài viết tôi sắp viết. Mỗi ý kèm một lý do ngắn.\n4. Nói ngắn gọn điều gì không thể biết chỉ từ dữ liệu (ví dụ: \"tôi có thể vượt lên được không?\").\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (tên miền / số lần xuất hiện).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
   "c01.ai_prompt_diff": "Bạn là trợ lý giúp so sánh kết quả tìm kiếm theo thời gian.\nNgười đọc là một blogger mới bắt đầu, đã kiểm tra cùng một từ khóa hai lần vào hai ngày khác nhau và muốn biết các trang hàng đầu đã thay đổi thế nào.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Lần trước: {prev_date}\n- Các cột: Thứ hạng là vị trí trong các kết quả thông thường (liên kết xanh). URL và Tên miền là trang và website.\n- Hãy so sánh cùng một URL giữa lần trước và lần này. URL chỉ xuất hiện ở một bên thì ghi là \"mới\" hoặc \"đã biến mất\".\n\n# Việc tôi muốn bạn làm\n1. Các URL tăng hoặc giảm thứ hạng, kèm thứ hạng lần trước và lần này.\n2. Các URL mới và các URL đã biến mất, kèm tên miền.\n3. Tóm tắt ngắn gọn, bằng con số, xem có nhiều hay ít trang thay đổi.\n4. Nói điều gì không thể biết chỉ từ dữ liệu: thay đổi đó là thật, hay chỉ là nhiễu của kết quả?\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (URL / thứ hạng lần trước / thứ hạng hiện tại).\n\n# Dữ liệu lần trước (phân tách bằng Tab)\n```\n{prev_data}\n```\n\n# Dữ liệu lần này (phân tách bằng Tab)\n```\n{data}\n```",
+  "c25.ai_prompt": "Bạn là trợ lý giúp đề xuất các từ khóa phù hợp với một website.\nNgười đọc là một freelancer SEO muốn đưa ý tưởng từ khóa cho website của khách hàng vào bản đề xuất.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Từ khóa: ứng viên được ước tính là phù hợp với website (tên miền) tôi đã nhập.\n  - Lượt tìm kiếm hàng tháng: ước tính dựa trên dữ liệu Google Ads. Để trống nghĩa là \"không có dữ liệu\", chưa chắc là bằng 0.\n  - CPC (USD): giá trung bình mỗi lượt nhấp mà nhà quảng cáo trả. Đây không phải giá trị của một bài viết.\n  - Mức cạnh tranh (0-100): mức độ cạnh tranh của từ khóa trong quảng cáo. Đây không phải độ khó SEO.\n- Đây không phải dữ liệu về thứ hạng thực tế của website cho các từ khóa này.\n\n# Việc tôi muốn bạn làm\n1. Chia các từ khóa thành 3-5 chủ đề.\n2. Chọn 10 từ khóa nên nhắm tới trước. Xem lượt tìm kiếm và mức cạnh tranh, rồi nêu lý do bằng con số.\n3. Phác thảo bản đề xuất gửi cho khách hàng, chỉ gồm các đề mục (tối đa 5 mục).\n4. Nói ngắn gọn điều gì không thể biết chỉ từ dữ liệu (ví dụ: thứ hạng hiện tại hoặc kết quả).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (từ khóa / lượt tìm kiếm hàng tháng / mức cạnh tranh / lý do).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
   "c35.ai_prompt": "Bạn là trợ lý giúp chọn bài viết tiếp theo.\nNgười đọc là một blogger mới bắt đầu, muốn chọn bài viết tiếp theo từ các từ khóa liên quan đến từ khóa tôi đã nhập.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Từ khóa: một ứng viên liên quan đến từ khóa tôi đã nhập.\n  - Lượt tìm kiếm hàng tháng: ước tính số lượt tìm kiếm hàng tháng trên Google. Để trống nghĩa là \"không có dữ liệu\", chưa chắc là bằng 0.\n  - Độ khó (0-100): chỉ số tham khảo cho việc đứng top khó đến đâu. Số càng lớn càng khó. Đây chỉ là gợi ý, không phải bảo đảm.\n\n# Việc tôi muốn bạn làm\n1. Xem sự cân bằng giữa lượt tìm kiếm và độ khó, rồi chọn 5 từ khóa trông dễ cho người mới. Giải thích lý do kèm các con số.\n2. Chia các từ khóa thành 3-4 chủ đề.\n3. Với 3 từ khóa bạn đã chọn, gợi ý mỗi từ khóa một tiêu đề bài viết.\n4. Nói ngắn gọn điều gì không thể biết chỉ từ lượt tìm kiếm và độ khó (ví dụ: nếu tôi viết thì có lên được top không).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (từ khóa / lượt tìm kiếm hàng tháng / độ khó / lý do).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
   "c41.ai_prompt": "Bạn là trợ lý giúp tìm mùa bán hàng tốt nhất.\nNgười đọc là người bán sản phẩm hoặc dịch vụ và muốn biết \"mùa cao điểm mỗi năm là khi nào\" để lên kế hoạch chuẩn bị.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Năm-tháng: tháng của bản ghi. Tháng không có bản ghi có thể không có dòng.\n  - Lượt tìm kiếm: ước tính số lượt tìm kiếm trên Google trong tháng đó.\n- Con số của một tháng sau này có thể được thay bằng một giá trị khác. Đây là ước tính, không phải số đếm chính xác.\n\n# Việc tôi muốn bạn làm\n1. Với mỗi năm, hãy nêu tháng có nhiều lượt tìm kiếm nhất. Cho tôi biết luôn là mỗi năm có phải cùng một tháng không.\n2. Tính tỷ lệ giữa tháng nhiều lượt tìm kiếm nhất và tháng ít nhất.\n3. Cho tôi biết về các tháng không có bản ghi hoặc bằng 0.\n4. Gợi ý thời điểm nên bắt đầu chuẩn bị cho mùa cao điểm, ghi rõ \"đây là suy đoán\", và viết ngắn gọn.\n\n# Quy tắc\n- Nếu có nhiều từ khóa, hãy trả lời riêng cho từng từ khóa.\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (năm / tháng cao điểm / lượt tìm kiếm trong tháng cao điểm).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
   "c45.ai_prompt": "Bạn là trợ lý giúp phân tích từ khóa của một website.\nNgười đọc là một blogger tiếp thị liên kết (affiliate), muốn xem blog của mình hoặc của đối thủ xuất hiện trong tìm kiếm với những từ khóa nào.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Từ khóa: từ khóa mà website tôi nhập nằm trong top 10 của kết quả tìm kiếm thông thường.\n  - Thứ hạng: vị trí cho từ khóa đó (1-10).\n  - Lượt tìm kiếm hàng tháng: ước tính dựa trên dữ liệu Google Ads.\n  - URL trang: trang xuất hiện cho từ khóa đó.\n- Dữ liệu này chỉ gồm top 100 theo lượt tìm kiếm. Đây không phải tất cả từ khóa trong top 10. Các biến thể chính tả có thể xuất hiện như những từ khóa riêng.\n\n# Việc tôi muốn bạn làm\n1. Gom các từ khóa thành 3-5 chủ đề.\n2. Liệt kê các từ khóa có lượt tìm kiếm lớn nhưng thứ hạng thấp hơn (ứng viên để cải thiện).\n3. Liệt kê các từ khóa đứng hạng 1 nhưng có lượt tìm kiếm nhỏ, nếu có.\n4. Gợi ý 5 bài viết nên viết tiếp theo, kèm lý do.\n5. Nói ngắn gọn điều gì không thể biết chỉ từ dữ liệu (ví dụ: vì sao trang đứng ở thứ hạng đó).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (nhóm / từ khóa / thứ hạng / lượt tìm kiếm hàng tháng).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
@@ -231,9 +354,18 @@
   "ui.ai_answer_head": "[Câu trả lời]",
   "ui.ai_refs_head": "[Bảng nguồn]",
   "c02.ai_prompt": "Bạn là trợ lý giúp đọc các câu trả lời của Google AI Mode.\nNgười đọc là người muốn biết website của mình có được trích dẫn trong câu trả lời của Google AI Mode hay không.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Nội dung: văn bản câu trả lời của AI và bảng các nguồn\n- Giải thích các cột\n  - Tiêu đề / URL: các trang mà câu trả lời của AI Mode đã trích dẫn.\n  - Câu trả lời có thể thay đổi mỗi lần hỏi. Đây là một kết quả của ngày này.\n- Một số câu hỏi hoàn toàn không trả về nguồn nào.\n\n# Việc tôi muốn bạn làm\n1. Tóm tắt câu trả lời trong 3 dòng.\n2. Đếm các tên miền được trích dẫn và cho tôi biết mỗi tên miền xuất hiện bao nhiêu lần.\n3. Liệt kê 3 điểm cần kiểm tra khi xem website của tôi có được trích dẫn hay không.\n4. Nói ngắn gọn điều gì không thể biết chỉ từ dữ liệu (ví dụ: lý do hoặc kết quả trong tương lai).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (tên miền / số lần).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
+  "c03.ai_prompt": "Bạn là trợ lý giúp sắp xếp thứ hạng các cửa hàng trên bản đồ.\nNgười đọc là chủ cửa hàng (hoặc người hỗ trợ cửa hàng) muốn biết những cửa hàng nào hiện ở đầu bản đồ.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Thứ hạng: vị trí trong kết quả bản đồ.\n  - Đánh giá / lượt đánh giá: số sao và số lượt đánh giá hiển thị trên bản đồ.\n  - Địa chỉ, điện thoại, website: thông tin cửa hàng hiển thị trên bản đồ.\n  - Kết quả và con số có thể thay đổi theo địa điểm và thời gian. Dữ liệu này chỉ đúng cho ngày này và điều kiện này.\n\n# Việc tôi muốn bạn làm\n1. Xếp cạnh nhau số sao và số lượt đánh giá của 5 cửa hàng đứng đầu, rồi tóm tắt ngắn những điểm chung.\n2. Cho tôi biết, bằng con số, các cửa hàng có nhiều lượt đánh giá khác với các cửa hàng có ít lượt đánh giá ở điểm nào.\n3. Liệt kê 3 điều tôi có thể kiểm tra để cửa hàng của tôi hiện cao hơn (chỉ trong phạm vi dữ liệu cho phép).\n4. Nói ngắn gọn những điều không thể biết chỉ từ dữ liệu (ví dụ: lý do hoặc kết quả trong tương lai).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (cửa hàng / thứ hạng / đánh giá / lượt đánh giá).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
+  "c04.ai_prompt": "Bạn là trợ lý giúp sắp xếp danh sách \"thêm địa điểm\" trên bản đồ.\nNgười đọc là chủ cửa hàng muốn biết các đối thủ, kể cả những cửa hàng được liệt kê sau top 3 trên bản đồ.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Thứ hạng: vị trí trong danh sách \"thêm địa điểm\".\n  - Đánh giá / lượt đánh giá: số sao và số lượt đánh giá.\n  - Mô tả: ghi chú ngắn như khu vực hoặc giờ mở cửa.\n  - Kết quả và con số có thể thay đổi theo địa điểm và thời gian. Dữ liệu này chỉ đúng cho ngày này và điều kiện này.\n\n# Việc tôi muốn bạn làm\n1. Dựa vào số sao và số lượt đánh giá, liệt kê 5 cửa hàng trông giống đối thủ.\n2. Tóm tắt ngắn những điểm chung trong phần mô tả (khu vực, giờ mở cửa).\n3. Liệt kê 3 điểm cần kiểm tra khi so sánh với cửa hàng của tôi.\n4. Nói ngắn gọn những điều không thể biết chỉ từ dữ liệu (ví dụ: lý do hoặc kết quả trong tương lai).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (cửa hàng / thứ hạng / đánh giá / lượt đánh giá).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
+  "c05.ai_prompt": "Bạn là trợ lý giúp sắp xếp các bài báo tin tức.\nNgười đọc là người làm PR hoặc bán hàng, muốn biết công ty hoặc sản phẩm xuất hiện trong tin tức như thế nào.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Nguồn / ngày / tiêu đề: tên trang báo, ngày đăng và tiêu đề bài.\n  - Kết quả và các con số có thể thay đổi theo địa điểm và thời gian. Đây là kết quả của ngày này và điều kiện này.\n\n# Việc tôi muốn bạn làm\n1. Đếm số bài của mỗi trang báo.\n2. Tóm tắt các chủ đề thành 3-5 nhóm, ngày mới nhất xếp trước.\n3. Liệt kê các từ xuất hiện nhiều trong tiêu đề, trong phạm vi có thể đếm được.\n4. Nói ngắn gọn điều gì không thể biết chỉ từ dữ liệu (ví dụ: việc đưa tin có thiện cảm hay không).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (trang báo / số bài).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
+  "c07.ai_prompt": "Bạn là trợ lý giúp sắp xếp kết quả tìm kiếm hình ảnh.\nNgười đọc là người muốn xem những gì đang hiển thị ở đầu kết quả tìm kiếm hình ảnh trước khi thiết kế ảnh thu nhỏ, bìa sách hoặc ảnh cho blog.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Hình ảnh: hình ảnh hiển thị trong kết quả (bảng được sao chép không chứa chính hình ảnh).\n  - Tiêu đề / URL trang: tiêu đề của hình ảnh và trang mà hình ảnh xuất hiện.\n  - Kết quả và các con số có thể thay đổi theo địa điểm và thời gian. Đây là kết quả của ngày này và điều kiện này.\n\n# Việc tôi muốn bạn làm\n1. Đếm các tên miền của trang và liệt kê những website xuất hiện nhiều.\n2. Liệt kê các từ chung của các tiêu đề, trong phạm vi có thể đếm được.\n3. Bạn không thể nhìn thấy chính các hình ảnh, nên đừng đánh giá hình ảnh trông như thế nào.\n4. Nói ngắn gọn điều gì không thể biết chỉ từ dữ liệu (ví dụ: lý do hoặc kết quả trong tương lai).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (tên miền / số lần).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
   "c08.ai_prompt": "Bạn là trợ lý giúp sắp xếp các gợi ý tìm kiếm.\nNgười đọc là một blogger mới bắt đầu, đang tìm ý tưởng bài viết và các biến thể của từ khóa.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Gợi ý: cụm từ hiện ra trong ô tìm kiếm của Google. Tối đa 15, không phải lượt tìm kiếm.\n  - Kết quả và các con số có thể thay đổi theo địa điểm và thời gian. Đây là dữ liệu của ngày này, trong điều kiện này.\n\n# Việc tôi muốn bạn làm\n1. Chia các gợi ý thành 3-5 nhóm chủ đề.\n2. Từ các gợi ý, đề xuất 3 ý tưởng tiêu đề bài viết.\n3. Liệt kê những gợi ý trông giống nỗi lo hoặc câu hỏi.\n4. Nói ngắn gọn điều gì không thể biết chỉ từ dữ liệu (ví dụ: gợi ý nào được tìm nhiều nhất).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (nhóm / gợi ý).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
   "c18.ai_prompt": "Bạn là trợ lý giúp đọc các câu trả lời của ChatGPT.\nNgười đọc là người muốn kiểm tra xem công ty hoặc sản phẩm của mình có xuất hiện khi khách hàng hỏi AI những câu hỏi như vậy hay không.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Nội dung: văn bản câu trả lời của AI và bảng các nguồn\n- Giải thích các cột\n  - Tiêu đề trang được trích dẫn / URL: các trang mà câu trả lời đã sử dụng.\n  - Câu trả lời có thể thay đổi mỗi lần hỏi. Đây là một kết quả của ngày này.\n- ChatGPT mà công cụ này dùng có thể khác với màn hình ChatGPT.\n\n# Việc tôi muốn bạn làm\n1. Liệt kê mọi tên công ty, sản phẩm và cửa hàng trong câu trả lời, theo thứ tự xuất hiện.\n2. Liệt kê 3 điểm cần kiểm tra để biết công ty hoặc sản phẩm của tôi có xuất hiện hay không.\n3. Nếu có hiển thị nguồn, hãy đếm các tên miền. Nếu không, hãy ghi \"không có\".\n4. Nói ngắn gọn điều gì không thể biết chỉ từ dữ liệu (ví dụ: làm thế nào để được đưa vào câu trả lời).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (tên / thứ tự xuất hiện).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
+  "c19.ai_prompt": "Bạn là trợ lý giúp đọc các câu trả lời của Claude.\nNgười đọc là người muốn kiểm tra xem công ty hoặc sản phẩm của mình có xuất hiện khi khách hàng hỏi AI những câu hỏi như vậy hay không.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Nội dung: văn bản câu trả lời của AI và bảng các nguồn\n- Giải thích các cột\n  - Câu trả lời: văn bản câu trả lời của Claude.\n  - Câu trả lời có thể thay đổi mỗi lần hỏi. Đây là một kết quả của ngày này.\n- Claude trong công cụ này không dùng tìm kiếm web. Không hiển thị nguồn.\n\n# Việc tôi muốn bạn làm\n1. Liệt kê mọi tên công ty, sản phẩm và cửa hàng trong câu trả lời, theo thứ tự xuất hiện.\n2. Liệt kê 3 điểm cần kiểm tra để biết công ty hoặc sản phẩm của tôi có xuất hiện hay không.\n3. Nếu có hiển thị nguồn, hãy đếm các tên miền. Nếu không, hãy ghi \"không có\".\n4. Nói ngắn gọn điều gì không thể biết chỉ từ dữ liệu (ví dụ: làm thế nào để được đưa vào câu trả lời).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (tên / thứ tự xuất hiện).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
+  "c20.ai_prompt": "Bạn là trợ lý giúp đọc các câu trả lời của Gemini.\nNgười đọc là người muốn kiểm tra xem công ty hoặc sản phẩm của mình có xuất hiện khi khách hàng hỏi AI những câu hỏi như vậy hay không.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Nội dung: văn bản câu trả lời của AI và bảng các nguồn\n- Giải thích các cột\n  - Tên nguồn / URL: các trang mà câu trả lời đã trích dẫn.\n  - Câu trả lời có thể thay đổi mỗi lần hỏi. Đây là một kết quả của ngày này.\n\n# Việc tôi muốn bạn làm\n1. Liệt kê mọi tên công ty, sản phẩm và cửa hàng trong câu trả lời, theo thứ tự xuất hiện.\n2. Liệt kê 3 điểm cần kiểm tra để biết công ty hoặc sản phẩm của tôi có xuất hiện hay không.\n3. Nếu có hiển thị nguồn, hãy đếm các tên miền. Nếu không, hãy ghi \"không có\".\n4. Nói ngắn gọn điều gì không thể biết chỉ từ dữ liệu (ví dụ: làm thế nào để được đưa vào câu trả lời).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (tên / thứ tự xuất hiện).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
+  "c21.ai_prompt": "Bạn là trợ lý giúp đọc các câu trả lời của Perplexity.\nNgười đọc là người muốn kiểm tra xem công ty hoặc sản phẩm của mình có xuất hiện khi khách hàng hỏi AI những câu hỏi như vậy hay không.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Nội dung: văn bản câu trả lời của AI và bảng các nguồn\n- Giải thích các cột\n  - Tiêu đề trang / URL: các trang mà câu trả lời đã sử dụng.\n  - Câu trả lời có thể thay đổi mỗi lần hỏi. Đây là một kết quả của ngày này.\n\n# Việc tôi muốn bạn làm\n1. Liệt kê mọi tên công ty, sản phẩm và cửa hàng trong câu trả lời, theo thứ tự xuất hiện.\n2. Liệt kê 3 điểm cần kiểm tra để biết công ty hoặc sản phẩm của tôi có xuất hiện hay không.\n3. Nếu có hiển thị nguồn, hãy đếm các tên miền. Nếu không, hãy ghi \"không có\".\n4. Nói ngắn gọn điều gì không thể biết chỉ từ dữ liệu (ví dụ: làm thế nào để được đưa vào câu trả lời).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (tên / thứ tự xuất hiện).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
+  "c22.ai_prompt": "Bạn là trợ lý giúp đọc các kết quả tìm kiếm của ChatGPT.\nNgười đọc là người muốn kiểm tra xem sản phẩm hoặc cửa hàng của mình có xuất hiện trong các câu trả lời mua sắm và tìm kiếm của ChatGPT hay không.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Nội dung: văn bản câu trả lời của AI và bảng các nguồn\n- Giải thích các cột\n  - Tiêu đề nguồn / website / URL: các trang mà câu trả lời đã sử dụng.\n  - Sản phẩm / thẻ: các sản phẩm được hiển thị trong câu trả lời và thẻ của chúng (bảng thứ hai).\n  - Câu trả lời có thể thay đổi mỗi lần hỏi. Đây là một kết quả của ngày này.\n\n# Việc tôi muốn bạn làm\n1. Liệt kê mọi tên sản phẩm và thương hiệu trong câu trả lời, theo thứ tự xuất hiện.\n2. Đếm các website nguồn và liệt kê những website xuất hiện nhiều lần.\n3. Liệt kê 3 điểm cần kiểm tra để biết sản phẩm của tôi có xuất hiện hay không.\n4. Nói ngắn gọn điều gì không thể biết chỉ từ dữ liệu (ví dụ: lý do hoặc kết quả trong tương lai).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (thương hiệu / sản phẩm / thứ tự).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
   "c23.ai_prompt": "Bạn là trợ lý giúp đọc số lượt hỏi AI.\nNgười đọc là người muốn biết chủ đề này có được hỏi trong AI hay không.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Năm-tháng: tháng đó.\n  - Lượt tìm kiếm AI: ước tính số lần được hỏi trong AI trong tháng đó. Không chính xác. Có thể bằng 0.\n\n# Việc tôi muốn bạn làm\n1. Nêu tháng sôi động nhất và tháng vắng nhất, rồi tính tỷ lệ giữa chúng.\n2. So sánh trung bình 3 tháng đầu với 3 tháng cuối để xem đang tăng hay giảm.\n3. Nếu có tháng bằng 0, hãy cho tôi biết.\n4. Nói ngắn gọn điều gì không thể biết chỉ từ dữ liệu (ví dụ: lý do hoặc kết quả trong tương lai).\n\n# Quy tắc\n- Nếu có nhiều từ khóa, hãy trả lời riêng cho từng từ khóa.\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (năm-tháng / lượt tìm kiếm AI).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
+  "c26.ai_prompt": "Bạn là trợ lý giúp sắp xếp các từ khóa quảng cáo.\nNgười đọc là người đang chọn từ khóa cho quảng cáo hoặc SEO từ một danh sách ứng viên.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Lượt tìm kiếm hàng tháng: ước tính dựa trên dữ liệu Google Ads. Để trống nghĩa là \"không có dữ liệu\", chưa chắc là bằng 0.\n  - CPC (USD): giá trung bình mỗi lượt nhấp mà nhà quảng cáo trả. Đây không phải giá trị của một bài viết.\n  - Mức cạnh tranh (0-100): mức độ cạnh tranh của từ khóa trong quảng cáo. Đây không phải độ khó SEO.\n\n# Việc tôi muốn bạn làm\n1. Chia các từ khóa thành 3-5 chủ đề.\n2. Liệt kê 5 ứng viên có lượt tìm kiếm lớn và CPC thấp hơn, kèm lý do và con số.\n3. Liệt kê các ứng viên có mức cạnh tranh cao và ghi chú những điều cần lưu ý.\n4. Nói ngắn gọn điều gì không thể biết chỉ từ dữ liệu (ví dụ: nguyên nhân hoặc kết quả trong tương lai).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (nhóm / từ khóa / lượt tìm kiếm / CPC).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
   "c62.ai_prompt": "Bạn là trợ lý giúp đọc điểm tốc độ của trang web.\nNgười đọc là người muốn kiểm tra trang của mình hoặc của đối thủ hiện ra nhanh đến đâu.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Mục / điểm: bốn điểm Lighthouse (hiệu suất, khả năng truy cập, thực hành tốt nhất, SEO), trên thang 100, với cài đặt di động.\n  - Chỉ số tốc độ (bảng thứ hai): giá trị của FCP, LCP, TBT, CLS và Speed Index.\n  - Các con số thay đổi đôi chút mỗi lần đo. Đây không phải trải nghiệm thật của khách truy cập.\n\n# Việc tôi muốn bạn làm\n1. Liệt kê các điểm thấp và cho biết những chỉ số nào có vẻ liên quan, trong phạm vi dữ liệu cho thấy.\n2. Liệt kê các chỉ số có giá trị đặc biệt lớn (chậm).\n3. Gợi ý 3 bước thử cải thiện theo thứ tự (ghi rõ đây là suy đoán).\n4. Nói ngắn gọn những gì không thể biết chỉ từ dữ liệu (ví dụ: nguyên nhân hoặc kết quả trong tương lai).\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (mục / con số / điều cần lưu ý).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
   "c74.ai_prompt": "Bạn là trợ lý giúp sắp xếp các công nghệ mà một website sử dụng.\nNgười đọc là người muốn biết đối thủ hoặc một website họ quan tâm đang dùng những công nghệ nào.\n\n# Về dữ liệu\n- Ngày lấy dữ liệu: {date}\n- Quốc gia và ngôn ngữ: {country} / {language}\n- Số dòng: {n}\n- Giải thích các cột\n  - Nhóm / loại / tên: nhóm, loại và tên của công nghệ.\n  - Chỉ gồm các công nghệ đã được tìm thấy. Điều này không có nghĩa là những công nghệ còn lại không được dùng.\n\n# Việc tôi muốn bạn làm\n1. Sắp xếp các công nghệ theo nhóm.\n2. Liệt kê các công nghệ về máy chủ, phân tích, quảng cáo và cách website được xây dựng.\n3. Liệt kê 3 điều cần kiểm tra nếu tôi muốn dùng cùng những công nghệ đó.\n4. Đừng nói một công nghệ \"không được dùng\" chỉ vì nó không được tìm thấy.\n\n# Quy tắc\n- Chỉ dùng những con số tôi đưa. Không được bịa số.\n- Khi bạn đoán, hãy ghi \"đây là suy đoán\".\n- Viết ngắn gọn, dễ hiểu, để một học sinh cấp hai cũng hiểu được.\n- Kết thúc bằng một bảng (nhóm / công nghệ).\n\n# Dữ liệu (phân tách bằng Tab)\n```\n{data}\n```",
   "ui.steps_title": "Lấy được bao nhiêu, và chi phí",
@@ -456,6 +588,74 @@
       "Xử lý nhiều từ khóa (câu hỏi) cùng lúc và lưu thành bảng hoặc CSV"
     ]
   ],
+  "c03.steps": [
+    [
+      "1 mục",
+      "$0.002 (ước tính)",
+      "Kiểm tra một từ khóa"
+    ],
+    [
+      "5 mục",
+      "$0.01 (ước tính)",
+      "Xếp nhiều từ khóa cạnh nhau để so sánh"
+    ],
+    [
+      "30 mục",
+      "$0.06 (ước tính)",
+      "Xử lý nhiều từ khóa cùng lúc và lưu thành bảng hoặc CSV"
+    ]
+  ],
+  "c04.steps": [
+    [
+      "1 mục",
+      "$0.01 (ước tính)",
+      "Kiểm tra một từ khóa"
+    ],
+    [
+      "5 mục",
+      "$0.05 (ước tính)",
+      "Xếp nhiều từ khóa cạnh nhau để so sánh"
+    ],
+    [
+      "10 mục",
+      "$0.10 (ước tính)",
+      "Xử lý nhiều từ khóa cùng lúc và lưu thành bảng hoặc CSV"
+    ]
+  ],
+  "c05.steps": [
+    [
+      "1 mục",
+      "$0.002 (ước tính)",
+      "Kiểm tra một từ khóa"
+    ],
+    [
+      "5 mục",
+      "$0.01 (ước tính)",
+      "Xếp nhiều từ khóa cạnh nhau để so sánh"
+    ],
+    [
+      "10 mục",
+      "$0.02 (ước tính)",
+      "Xử lý nhiều từ khóa cùng lúc và lưu thành bảng hoặc CSV"
+    ]
+  ],
+  "c07.steps": [
+    [
+      "1 mục",
+      "$0.002 (ước tính)",
+      "Kiểm tra một từ khóa"
+    ],
+    [
+      "5 mục",
+      "$0.01 (ước tính)",
+      "Xếp nhiều từ khóa cạnh nhau để so sánh"
+    ],
+    [
+      "30 mục",
+      "$0.06 (ước tính)",
+      "Xử lý nhiều từ khóa cùng lúc và lưu thành bảng hoặc CSV"
+    ]
+  ],
   "c18.steps": [
     [
       "1 mục",
@@ -471,6 +671,74 @@
       "20 mục",
       "$0.60 (ước tính)",
       "Xử lý nhiều câu hỏi cùng lúc và lưu thành bảng hoặc CSV"
+    ]
+  ],
+  "c19.steps": [
+    [
+      "1 mục",
+      "$0.002 (ước tính)",
+      "Kiểm tra một câu hỏi"
+    ],
+    [
+      "5 mục",
+      "$0.01 (ước tính)",
+      "Xếp nhiều câu hỏi cạnh nhau để so sánh"
+    ],
+    [
+      "30 mục",
+      "$0.06 (ước tính)",
+      "Xử lý nhiều câu hỏi cùng lúc và lưu thành bảng hoặc CSV"
+    ]
+  ],
+  "c20.steps": [
+    [
+      "1 mục",
+      "$0.06 (ước tính)",
+      "Kiểm tra một câu hỏi"
+    ],
+    [
+      "5 mục",
+      "$0.30 (ước tính)",
+      "Xếp nhiều câu hỏi cạnh nhau để so sánh"
+    ],
+    [
+      "20 mục",
+      "$1.20 (ước tính)",
+      "Xử lý nhiều câu hỏi cùng lúc và lưu thành bảng hoặc CSV"
+    ]
+  ],
+  "c21.steps": [
+    [
+      "1 mục",
+      "$0.006 (ước tính)",
+      "Kiểm tra một câu hỏi"
+    ],
+    [
+      "5 mục",
+      "$0.03 (ước tính)",
+      "Xếp nhiều câu hỏi cạnh nhau để so sánh"
+    ],
+    [
+      "30 mục",
+      "$0.18 (ước tính)",
+      "Xử lý nhiều câu hỏi cùng lúc và lưu thành bảng hoặc CSV"
+    ]
+  ],
+  "c22.steps": [
+    [
+      "1 mục",
+      "$0.004 (ước tính)",
+      "Kiểm tra một từ khóa"
+    ],
+    [
+      "5 mục",
+      "$0.02 (ước tính)",
+      "Xếp nhiều từ khóa cạnh nhau để so sánh"
+    ],
+    [
+      "10 mục",
+      "$0.04 (ước tính)",
+      "Xử lý nhiều từ khóa cùng lúc và lưu thành bảng hoặc CSV"
     ]
   ]
 }

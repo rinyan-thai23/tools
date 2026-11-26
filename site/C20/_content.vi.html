@@ -1,0 +1,39 @@
+<section class="seo">
+<h2>Các cách xem Gemini trả lời thế nào và so sánh các công cụ chính</h2>
+<p>Khi ai đó hỏi Gemini về ngành của khách hàng bạn, <strong>nó trích dẫn những website nào</strong>? Bạn muốn có một câu như "tìm kiếm AI hiện nay trông như thế này" trong đề xuất của mình. Hãy nhập một câu hỏi, công cụ sẽ trả về câu trả lời của Gemini có tìm kiếm web, kèm các trang mà nó đã trích dẫn.</p>
+<p class="note">* Bây giờ bạn có thể nhập nhiều mục, mỗi dòng một mục (mỗi mục được gửi riêng, nên bạn trả theo từng mục). Bảng sẽ có thêm cột "Đầu vào". Chỗ nào phần dưới nói "một", đó là mô tả cho một mục. Xem bảng ở trên cùng để biết chi phí.</p>
+<div class="scroll"><table>
+<thead><tr><th>Cách làm / công cụ</th><th>Cách tính phí</th><th>Ghi chú</th></tr></thead>
+<tbody>
+<tr class="me"><td>Công cụ này (DataForSEO)</td><td>Trả theo từng yêu cầu. Khoảng $0.016–0.06 mỗi lần (3 lần thử; trung bình khoảng $0.035)</td><td>Nhập một câu hỏi, nhận văn bản câu trả lời và các trang được trích dẫn (tiêu đề và URL). Có thể lưu thành CSV. Mô hình được cố định là gemini-3.5-flash-lite</td></tr>
+<tr><td>Ứng dụng Gemini (làm thủ công)</td><td>Có gói miễn phí (xem giới hạn trên trang chính thức)</td><td>Bạn tự hỏi và tự đọc. Là màn hình thật. Bạn tự lưu lại kết quả</td></tr>
+<tr><td>SE Ranking SE Visible</td><td>Thuê bao (xem giá trên trang chính thức)</td><td>Theo dõi mức độ xuất hiện trên nhiều công cụ AI, trong đó có Gemini. Dùng để theo dõi lâu dài</td></tr>
+<tr><td>Ahrefs Brand Radar</td><td>Thuê bao (xem trang giá chính thức)</td><td>Nghiên cứu và theo dõi mức độ xuất hiện trên AI</td></tr>
+</tbody></table></div>
+<p class="asof">Kiểm tra vào tháng 11/2026. Giá có thể thay đổi — hãy xác nhận trên trang chính thức của từng nhà cung cấp trước khi mua.</p>
+
+<h2>Vì sao nên dùng công cụ này</h2>
+<ul>
+<li><strong>Câu trả lời và nguồn nằm cạnh nhau.</strong> Giữ nguyên các tiêu đề và URL được trích dẫn.</li>
+<li><strong>URL nguồn thật.</strong> Bạn nhận được URL trang gốc, không phải liên kết chuyển hướng của Google.</li>
+<li><strong>Vài giây.</strong> Chúng tôi đã đo khoảng 4–8 giây (bản mẫu New York của chúng tôi mất 4,5 giây).</li>
+<li><strong>Hỏi gì cũng được.</strong> Hãy diễn đạt theo ngành của khách hàng bạn.</li>
+<li><strong>Lưu thành CSV.</strong> Dán vào bản nháp đề xuất của bạn.</li>
+</ul>
+
+<h2>Khi nào công cụ này không phù hợp</h2>
+<ul>
+<li>Bạn cần <strong>mức giá cố định</strong> → khi có tìm kiếm web, chi phí thay đổi theo độ dài câu trả lời và số lần tìm kiếm. Trong 3 lần thử, chi phí là $0.016, $0.030 và $0.058 (bản mẫu New York tốn $0.030).</li>
+<li>Bạn muốn <strong>đúng những gì ứng dụng Gemini hiển thị</strong> → công cụ này hỏi gemini-3.5-flash-lite qua API, nên câu trả lời có thể khác.</li>
+<li>Bạn gọi vào <strong>lúc đông</strong> → dịch vụ phía sau DataForSEO đôi khi trả về lỗi bận (50301). Công cụ thử lại tối đa 3 lần, sau đó báo là đang bận (trường hợp này không tính phí).</li>
+<li>Bạn muốn <strong>theo dõi lâu dài</strong> → một lần gọi chỉ cho một câu trả lời tại một thời điểm.</li>
+</ul>
+<p>Công cụ này chỉ làm một việc: cho bạn thấy Gemini có tìm kiếm web trả lời một câu hỏi thế nào và trích dẫn những gì.</p>
+
+<h2>Câu hỏi thường gặp</h2>
+<details><summary>Vì sao chi phí thay đổi?</summary><p>Khi có tìm kiếm web, chi phí phụ thuộc vào lượng tìm kiếm và độ dài câu trả lời. Chúng tôi đã đo từ khoảng $0.016 đến $0.058.</p></details>
+<details><summary>Vì sao tiêu đề nguồn chỉ là tên website?</summary><p>Gemini thường gọi một nguồn trích dẫn bằng tên website của nó. Chúng tôi hiển thị đúng như kết quả trả về.</p></details>
+<details><summary>Tôi có bị tính phí khi trả về lỗi không?</summary><p>Với lỗi bận (50301), chi phí là $0.</p></details>
+<details><summary>Vì sao không có chọn quốc gia hay ngôn ngữ?</summary><p>Lệnh gọi này không có thiết lập quốc gia hay ngôn ngữ.</p></details>
+<details><summary>Tôi có thể đăng ký bằng email miễn phí không?</summary><p>Không. DataForSEO không chấp nhận các nhà cung cấp email miễn phí. Xem <a href="/dfs-en.html">What is DataForSEO?</a> (tiếng Anh)</p></details>
+</section>
