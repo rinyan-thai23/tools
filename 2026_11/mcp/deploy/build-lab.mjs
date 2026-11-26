@@ -97,7 +97,7 @@ const exp = path.join(root, 'exp');
 for (const d of fs.readdirSync(exp).sort()) {
   const m = d.match(/^(\d{3})_/); if (!m) continue;
   const dir = path.join(exp, d);
-  const files = walk(dir, (p, n) => n === 'README.md' && path.dirname(p) === dir || n === '_template.html' || n === 'node_modules');
+  const files = walk(dir, (p, n) => n === 'README.md' && path.dirname(p) === dir || n === '_template.html' || n === 'node_modules' || /^(sites|sites_.*|html)$/.test(n));
   cases.push({id: m[1], dir, readme: fs.readFileSync(path.join(dir, 'README.md'), 'utf8'), files, base: dir});
 }
 // 000：最初の実験（ドメイン診断とMCP比較）は mcp/ 直下にある
@@ -154,7 +154,7 @@ const indexBody = `
 <p class="note">このサイトは検索エンジンに出さない設定です（noindex）。パスワードはないので、URLを知っている人は開けます。実在の店名・会社名つきのデータを含みます。</p>
 <div class="cards">
  <div class="card"><b>${data.filter(r => ['000', '001', '002', '003', '004', '007', '011', '013', '014', '015', '016', '017', '019', '020'].includes(r.id)).length} / 20案</b><span>実験を終えた案（目標20）（${data.filter(r => r['判定'] === '構想').length}案が構想中）</span></div>
- <div class="card"><b>約$1.73</b><span>ここまでの実費合計（約255円）</span></div>
+ <div class="card"><b>約$1.80</b><span>ここまでの実費合計（約270円）</span></div>
  <div class="card"><b>約$0.054</b><span>診断1回の原価（約8円）</span></div>
  <div class="card"><b>0人</b><span>外の人の反応（これから）</span></div>
 </div>
