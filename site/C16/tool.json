@@ -54,5 +54,8 @@
     ]
   },
   "csv": "C16.csv",
-  "copy": true
+  "copy": true,
+  "sample_langs": [
+    "vi"
+  ]
 }

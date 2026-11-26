@@ -94,7 +94,8 @@
     2410
   ],
   "sample_langs": [
-    "en"
+    "en",
+    "vi"
   ],
   "copy": true
 }
