@@ -1,0 +1,188 @@
+{
+    "version": "0.1.20261117",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "3.2382 sec.",
+    "cost": 0.09,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11260122-1289-0367-0000-dbd2e67651a2",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "3.0045 sec.",
+            "cost": 0.09,
+            "result_count": 6,
+            "path": [
+                "v3",
+                "keywords_data",
+                "google_ads",
+                "search_volume",
+                "live"
+            ],
+            "data": {
+                "api": "keywords_data",
+                "function": "search_volume",
+                "se": "google_ads",
+                "location_name": "Pakistan",
+                "language_code": "ur",
+                "keywords": [
+                    "کی ورڈ ریسرچ",
+                    "ایس ای او ٹول",
+                    "ایفیلیٹ مارکیٹنگ",
+                    "بلاگ کیسے بنائیں",
+                    "ایس ای او سیکھیں",
+                    "ایس ای او سروس"
+                ]
+            },
+            "result": [
+                {
+                    "keyword": "کی ورڈ ریسرچ",
+                    "spell": null,
+                    "location_code": 2586,
+                    "language_code": "ur",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ایس ای او ٹول",
+                    "spell": null,
+                    "location_code": 2586,
+                    "language_code": "ur",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ایفیلیٹ مارکیٹنگ",
+                    "spell": null,
+                    "location_code": 2586,
+                    "language_code": "ur",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 17,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": 0.33,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 10
+                        }
+                    ]
+                },
+                {
+                    "keyword": "بلاگ کیسے بنائیں",
+                    "spell": null,
+                    "location_code": 2586,
+                    "language_code": "ur",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ایس ای او سیکھیں",
+                    "spell": null,
+                    "location_code": 2586,
+                    "language_code": "ur",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "ایس ای او سروس",
+                    "spell": null,
+                    "location_code": 2586,
+                    "language_code": "ur",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                }
+            ]
+        }
+    ]
+}

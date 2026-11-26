@@ -1,0 +1,432 @@
+{
+    "version": "0.1.20261117",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "3.0759 sec.",
+    "cost": 0.09,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11260122-1289-0367-0000-d22c75526d8d",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "2.9784 sec.",
+            "cost": 0.09,
+            "result_count": 6,
+            "path": [
+                "v3",
+                "keywords_data",
+                "google_ads",
+                "search_volume",
+                "live"
+            ],
+            "data": {
+                "api": "keywords_data",
+                "function": "search_volume",
+                "se": "google_ads",
+                "location_name": "Philippines",
+                "language_code": "tl",
+                "keywords": [
+                    "keyword research",
+                    "seo tool",
+                    "affiliate marketing",
+                    "paano gumawa ng blog",
+                    "matuto ng seo",
+                    "seo service"
+                ]
+            },
+            "result": [
+                {
+                    "keyword": "keyword research",
+                    "spell": null,
+                    "location_code": 2608,
+                    "language_code": "tl",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 1,
+                    "search_volume": 6600,
+                    "low_top_of_page_bid": 0.24,
+                    "high_top_of_page_bid": 2.95,
+                    "cpc": 1.44,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 3600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 14800
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 3600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 8100
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 6600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 9900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 22200
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 6600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 390
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 320
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 320
+                        }
+                    ]
+                },
+                {
+                    "keyword": "seo tool",
+                    "spell": null,
+                    "location_code": 2608,
+                    "language_code": "tl",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 3,
+                    "search_volume": 8100,
+                    "low_top_of_page_bid": 0.22,
+                    "high_top_of_page_bid": 1.73,
+                    "cpc": 1.4,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 4400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 14800
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 5400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 9900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 9900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 14800
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 27100
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 9900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 1900
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 1000
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 1600
+                        }
+                    ]
+                },
+                {
+                    "keyword": "affiliate marketing",
+                    "spell": null,
+                    "location_code": 2608,
+                    "language_code": "tl",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 6,
+                    "search_volume": 9900,
+                    "low_top_of_page_bid": 0.09,
+                    "high_top_of_page_bid": 1.02,
+                    "cpc": 1.41,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 6600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 18100
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 6600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 12100
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 9900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 12100
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 27100
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 14800
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 5400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 6600
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 5400
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 3600
+                        }
+                    ]
+                },
+                {
+                    "keyword": "paano gumawa ng blog",
+                    "spell": null,
+                    "location_code": 2608,
+                    "language_code": "tl",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 1,
+                    "search_volume": 110,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": 0.85,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 260
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 90
+                        }
+                    ]
+                },
+                {
+                    "keyword": "matuto ng seo",
+                    "spell": null,
+                    "location_code": 2608,
+                    "language_code": "tl",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "seo service",
+                    "spell": null,
+                    "location_code": 2608,
+                    "language_code": "tl",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 16,
+                    "search_volume": 1900,
+                    "low_top_of_page_bid": 0.96,
+                    "high_top_of_page_bid": 5,
+                    "cpc": 2.1,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 320
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 1600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 1600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 1600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 3600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 1900
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 880
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 1900
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
