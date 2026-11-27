@@ -78,7 +78,7 @@ th{background:var(--accent-soft);white-space:nowrap}tr:last-child td{border-bott
 const FONT = '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap">';
 function shell({title, body, crumbs = ''}) {
   return `<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">${NOINDEX}<title>${esc(title)}</title>${FONT}<style>${CSS}</style></head><body>
-<nav class="top"><a href="/"><b>MCP実験室</b></a>${crumbs}<span class="sp"></span><a href="/ideas/">アイデア帳</a><a href="/industries/">業種メモ</a><a href="/patterns/">型の判断</a><a href="/about/">進め方</a><span class="tag">社内用・検索に出しません</span></nav>
+<nav class="top"><a href="/"><b>MCP実験室</b></a>${crumbs}<span class="sp"></span><a href="/show/">見せる用</a><a href="/ideas/">アイデア帳</a><a href="/industries/">業種メモ</a><a href="/patterns/">型の判断</a><a href="/about/">進め方</a><span class="tag">社内用・検索に出しません</span></nav>
 <main>${body}</main></body></html>`;
 }
 const md = s => marked.parse(s, {gfm: true}).replace(/<table>/g, '<div class="tw"><table>').replace(/<\/table>/g, '</table></div>');
@@ -89,7 +89,7 @@ const head = rows[0], data = rows.slice(1).map(r => Object.fromEntries(head.map(
 const NAMES = {
   '000': 'ドメイン診断（簡易コンサル）とMCPの比較', '001': '場所ごとの順位マップ診断（店主向け）', '002': 'MEO診断メーカー（制作会社・代行向け）',
   '003': 'AI概要への掲載チェック', '004': '順位のノイズ測定', '005': '店の特定の改善', '006': '複数店舗の比較ボード', '007': '既存ツールとの違いの整理',
-  '008': '担当者がいない会社の月1通信簿', '009': '店舗向けマップ月次通信簿', '010': '開業前の商圏競合調査', '011': '口コミ読解レポート', '012': '営業提案書の下書き', '013': '士業向け「探されている言葉」の地図', '014': '近所の競合の料金・メニュー比較', '015': '競合の口コミから「選ばれる理由・嫌われる理由」を読む', '016': '業種×街の「不満・期待」調査レポート', '017': '口コミとHPのズレ診断（旧：口コミから作るHP素材）', '018': '多言語の口コミ（インバウンドの声）', '019': '大量・無作為の口コミ抽出（見積り）', '020': '3業種の口コミ不満マップ（歯科・美容室・整骨院）', '021': 'お店の総合診断書（002の強化版）'};
+  '008': '担当者がいない会社の月1通信簿', '009': '店舗向けマップ月次通信簿', '010': '開業前の商圏競合調査', '011': '口コミ読解レポート', '012': '営業提案書の下書き', '013': '士業向け「探されている言葉」の地図', '014': '近所の競合の料金・メニュー比較', '015': '競合の口コミから「選ばれる理由・嫌われる理由」を読む', '016': '業種×街の「不満・期待」調査レポート', '017': '口コミとHPのズレ診断（旧：口コミから作るHP素材）', '018': '多言語の口コミ（インバウンドの声）', '019': '大量・無作為の口コミ抽出（見積り）', '020': '3業種の口コミ不満マップ（歯科・美容室・整骨院）', '021': 'お店の総合診断書（002の強化版）', '022': '外の反応を取る準備（聞き取りキット）'};
 
 // ---------- 事例ページ ----------
 const cases = []; // {id, dir, readme, files:[{url,label,size}], extra}
@@ -143,7 +143,7 @@ for (let i = 0; i < cases.length; i++) {
 }
 
 // ---------- 全体の目次 ----------
-const stat = v => /^(採用|候補|見本完了|見積り完了|実測完了)/.test(v) ? `<span class="ok">${esc(v)}</span>` : v ? `<span class="hold">${esc(v)}</span>` : '';
+const stat = v => /^(採用|候補|見本完了|見積り完了|実測完了|準備完了)/.test(v) ? `<span class="ok">${esc(v)}</span>` : v ? `<span class="hold">${esc(v)}</span>` : '';
 const tbl = `<div class="tw"><table style="min-width:1100px"><thead><tr><th>ID</th><th>案</th><th>誰の</th><th>何を解決できるか</th><th>形・売り先</th><th>データの区分</th><th>費用(USD)</th><th>状態</th></tr></thead><tbody>${data.map(r => {
   const nm = esc(NAMES[r.id] || r.slug);
   return `<tr><td>${r.id}</td><td>${idsWithPage.has(r.id) ? `<a href="/c/${r.id}/">${nm}</a>` : nm}</td><td>${esc(r['who(誰の)'])}</td><td>${esc(r['solves(何を解決)'])}</td><td>${esc(r['tags(形・売り先)'])}</td><td>${esc(r['区分(データ)'])}</td><td>${esc(r['原価USD'])}</td><td>${stat(r['判定'])}</td></tr>`;
@@ -153,7 +153,7 @@ const indexBody = `
 <p>「誰を喜ばせるか」から考えて、DataForSEOのデータで作れる<b>レポート型の事業案</b>を、実際にAPIを叩いて試す場所です。まず20本で区切り、そのあと既存ツールの公開とじっくりした検討に移ります。1つの案は、<b>1ページに全部入っています</b>（誰のため・何をどうしたか・費用・結果・弱点・LP・生データ）。</p>
 <p class="note">このサイトは検索エンジンに出さない設定です（noindex）。パスワードはないので、URLを知っている人は開けます。実在の店名・会社名つきのデータを含みます。</p>
 <div class="cards">
- <div class="card"><b>${data.filter(r => ['000', '001', '002', '003', '004', '007', '011', '013', '014', '015', '016', '017', '019', '020', '021'].includes(r.id)).length} / 20案</b><span>実験を終えた案（目標20）（${data.filter(r => r['判定'] === '構想').length}案が構想中）</span></div>
+ <div class="card"><b>${data.filter(r => ['000', '001', '002', '003', '004', '007', '011', '013', '014', '015', '016', '017', '019', '020', '021', '022'].includes(r.id)).length} / 20案</b><span>実験を終えた案（目標20）（${data.filter(r => r['判定'] === '構想').length}案が構想中）</span></div>
  <div class="card"><b>約$1.85</b><span>ここまでの実費合計（約280円）</span></div>
  <div class="card"><b>約$0.054</b><span>診断1回の原価（約8円）</span></div>
  <div class="card"><b>0人</b><span>外の人の反応（これから）</span></div>
@@ -173,6 +173,7 @@ put('/index.html', shell({title: 'MCP実験室', body: indexBody}), '.html');
 put('/about/index.html', shell({title: '進め方', body: md(fs.readFileSync(path.join(root, 'README.md'), 'utf8')), crumbs: '<span>／</span><span>進め方</span>'}), '.html');
 put('/ideas/index.html', shell({title: 'アイデア帳', body: md(fs.readFileSync(path.join(root, 'IDEAS.md'), 'utf8')), crumbs: '<span>／</span><span>アイデア帳</span>'}), '.html');
 put('/industries/index.html', shell({title: '業種メモ', body: md(fs.readFileSync(path.join(root, 'INDUSTRIES.md'), 'utf8')), crumbs: '<span>／</span><span>業種メモ</span>'}), '.html');
+putHtml('/show/index.html', path.join(root, 'exp/022_feedback_kit/show/index.html'));
 put('/patterns/index.html', shell({title: '型の判断', body: md(fs.readFileSync(path.join(root, 'PATTERNS.md'), 'utf8')), crumbs: '<span>／</span><span>型の判断</span>'}), '.html');
 put('/robots.txt', 'User-agent: *\nDisallow: /\n', '.txt');
 
