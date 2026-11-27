@@ -1,0 +1,94 @@
+{
+ "total_count": 8,
+ "cost": 0.01488,
+ "items": [
+  {
+   "cid": "3046030174224647129",
+   "title": "ダーツカラオケ アミューズメントバーARCANA（アルカナ）立川",
+   "url": "https://storeboard.jp/guest/media/arcana",
+   "domain": "storeboard.jp",
+   "rating": 4.9,
+   "votes": 252,
+   "price_level": "inexpensive",
+   "address": "〒190-0022 Tokyo, Tachikawa, Nishikicho, 2 Chome−1−10 エリア立川 1階",
+   "phone": "+8142-518-9988"
+  },
+  {
+   "cid": "58615918120219761",
+   "title": "アミューズメントバー D.P.S 立川北口店",
+   "url": "https://www.hotpepper.jp/strJ004470713/",
+   "domain": "www.hotpepper.jp",
+   "rating": 4.8,
+   "votes": 199,
+   "price_level": null,
+   "address": "尾崎ビル 2F, 2 Chome-15-21 Akebonocho, Tachikawa, Tokyo 190-0012",
+   "phone": "+8142-512-5200"
+  },
+  {
+   "cid": "1049948081120373986",
+   "title": "KANAU2号店 (VIP個室・貸切対応）",
+   "url": null,
+   "domain": null,
+   "rating": 4.9,
+   "votes": 36,
+   "price_level": "inexpensive",
+   "address": "〒190-0022 Tokyo, Tachikawa, Nishikicho, 1 Chome−6−15 KANAUビル 2階",
+   "phone": "+8142-519-3570"
+  },
+  {
+   "cid": "18022166934984616606",
+   "title": "カラオケ バーリズム 薫",
+   "url": null,
+   "domain": null,
+   "rating": 4.8,
+   "votes": 27,
+   "price_level": "inexpensive",
+   "address": "〒190-0022 Tokyo, Tachikawa, Nishikicho, 2 Chome−1−24 LEC 1stビル ２階",
+   "phone": "+8142-595-6302"
+  },
+  {
+   "cid": "6357246151075918971",
+   "title": "ｓｅｉｋｏ",
+   "url": null,
+   "domain": null,
+   "rating": 4.3,
+   "votes": 27,
+   "price_level": "inexpensive",
+   "address": "3 Chome-26-13 Tamagawacho, Akishima, Tokyo 196-0034",
+   "phone": "+8142-542-0030"
+  },
+  {
+   "cid": "3576669924445565235",
+   "title": "スナックポルケ",
+   "url": null,
+   "domain": null,
+   "rating": 4.8,
+   "votes": 21,
+   "price_level": null,
+   "address": "〒190-0002 Tokyo, Tachikawa, Saiwaicho, 4 Chome−４１−2",
+   "phone": "+8142-537-3517"
+  },
+  {
+   "cid": "819503383601323642",
+   "title": "snack015",
+   "url": null,
+   "domain": null,
+   "rating": 4.7,
+   "votes": 19,
+   "price_level": "inexpensive",
+   "address": "102 3 Chome-41-2 Sunagawacho, Tachikawa, Tokyo 190-0031",
+   "phone": "+8142-502-8813"
+  },
+  {
+   "cid": "7633298231046530060",
+   "title": "カラオケバー PANDA",
+   "url": "https://www.instagram.com/bar_panda.jp?igsh=MWZraXAwMmd4aXBoZQ==",
+   "domain": "www.instagram.com",
+   "rating": 4.8,
+   "votes": 16,
+   "price_level": null,
+   "address": "〒190-0022 Tokyo, Tachikawa, Nishikicho, 1 Chome−5−28 谷野ビル",
+   "phone": null
+  }
+ ]
+}

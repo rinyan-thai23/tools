@@ -5,6 +5,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {connect} from '../../../lib/mcp.mjs';
 import {runGrid} from '../../../lib/grid.mjs';
+import {identifyShop} from '../../../lib/identify.mjs';
 
 const cfg = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'));
 const outDir = path.resolve(path.dirname(process.argv[2]), cfg.out_dir || 'out');
@@ -14,16 +15,22 @@ const med = a => { a = a.filter(x => x != null).sort((x, y) => x - y); if (!a.le
 
 // 取得結果は data/ に保存。2回目以降（文面やルールの調整）は、保存分を使うので無料。
 const cachePath = path.resolve(path.dirname(process.argv[2]), '../data', (cfg.slug || 'run') + '.json');
-let shop, g, cost = 0, calls = 0;
+let shop, g, cost = 0, calls = 0, identification = null;
 if (fs.existsSync(cachePath) && !process.argv.includes('--refetch')) {
-  ({shop, g, cost, calls} = JSON.parse(fs.readFileSync(cachePath, 'utf8')));
+  ({shop, g, cost, calls, identification} = JSON.parse(fs.readFileSync(cachePath, 'utf8')));
   console.log('保存済みデータを使用（費用0）');
 } else {
   const mcp = await connect();
-  // 1. 店を探す（全国検索。店名＋地名で入れる）
-  const find = await mcp.api('/v3/serp/google/maps/live/advanced', [{keyword: cfg.shop_query, location_code: 2392, language_code: 'ja', depth: 5}]);
-  shop = find.tasks?.[0]?.result?.[0]?.items?.[0];
-  if (!shop) { console.error('店が見つかりませんでした'); process.exit(1); }
+  // 1. 店を特定する（005）：候補を出して確信度を付ける。low（同名・チェーンで絞れない）なら、住所か電話のヒントを求めて止まる
+  const idr = await identifyShop(mcp, {query: cfg.shop_query, address_hint: cfg.address_hint, phone_hint: cfg.phone_hint});
+  console.log(`店の特定：確信度 ${idr.confidence}｜${idr.reason}`);
+  if (idr.confidence === 'low' && !cfg.force) {
+    console.log('候補：\n' + idr.candidates.map(c => `  ${c.点}点 ${c.店名}｜${c.住所}｜${c.電話 || ''}`).join('\n'));
+    console.log('→ config に address_hint（住所の一部）か phone_hint を入れて、もう一度実行してください（進める場合は force:true）');
+    await mcp.close(); process.exit(2);
+  }
+  shop = idr.shop; identification = {confidence: idr.confidence, reason: idr.reason, candidates: idr.candidates};
+  if (process.argv.includes('--identify-only')) { console.log(JSON.stringify(identification, null, 1)); await mcp.close(); process.exit(0); }
   // 2. 格子の間隔を決める。'auto'：お店の場所で検索した上位20店が広がる距離（20位までの距離）の半分を間隔にする（+$0.002）
   let scale = cfg.step_scale || 1, r20 = null;
   if (cfg.step_scale === 'auto') {
@@ -38,7 +45,7 @@ if (fs.existsSync(cachePath) && !process.argv.includes('--refetch')) {
   g.r20 = r20;
   cost = mcp.cost; calls = mcp.calls; await mcp.close();
   fs.mkdirSync(path.dirname(cachePath), {recursive: true});
-  fs.writeFileSync(cachePath, JSON.stringify({shop, g, cost, calls}));
+  fs.writeFileSync(cachePath, JSON.stringify({shop, g, cost, calls, identification}));
 }
 console.log('対象の店:', shop.title, '/', shop.address);
 
@@ -105,7 +112,7 @@ footer{border-top:1px solid var(--line);padding-top:12px}
 </style>
 <main>
 <header><p class="m">${esc(agency.name)} ／ 診断日 ${esc(new Date().toISOString().slice(0, 10))} ／ 検索キーワード「${esc(cfg.keyword)}」</p>
-<h1>${esc(shopName)}さま<br>Googleマップ見え方診断</h1></header>
+<h1>${esc(shopName)}さま<br>Googleマップ見え方診断</h1>${identification && identification.confidence !== 'high' && !mask ? `<p class="m">対象店の確認：${esc(shop.address || '')}（確信度：${esc(identification.confidence)}。違う店なら、お知らせください）</p>` : ''}</header>
 <section class="sum"><p><b>${esc(shopName)}は、お店のまわり${total}地点（約${(g.step_m || 550) * (n - 1)}m四方）のうち、3位以内が${cnt3}地点、10位以内が${cnt10}地点、圏外（21位以下）が${cntOut}地点でした。</b></p>
 <p style="margin:0 0 4px">お店の場所（マップの中心）では<b>${centerRank ? centerRank + '位' : '圏外'}</b>です。</p><p class="m" style="margin:0">「${esc(cfg.keyword)}」と検索した人に、場所ごとにどう見えるかを調べました。</p></section>
 <section><h2>場所ごとの順位</h2>
@@ -124,5 +131,5 @@ footer{border-top:1px solid var(--line);padding-top:12px}
 <p class="m">${esc(agency.name)} ${esc(agency.contact || '')}</p></footer>
 </main>`;
 fs.writeFileSync(path.join(outDir, 'diagnosis.html'), html);
-fs.writeFileSync(path.join(outDir, 'diagnosis.json'), JSON.stringify({shop: {title: mask ? '(masked)' : shop.title, rating: me.rating, votes: me.votes, photos: me.photos, profile: Object.fromEntries(profile)}, keyword: cfg.keyword, grid: mat, counts: {total, top3: cnt3, top10: cnt10, out: cntOut}, top_shops: {n: tops.length, ...t}, next, cost_usd: +cost.toFixed(4), calls, center_rank: centerRank, benchmark: useDoor ? 'door_top3' : 'area_top3'}, null, 1));
+fs.writeFileSync(path.join(outDir, 'diagnosis.json'), JSON.stringify({shop: {title: mask ? '(masked)' : shop.title, rating: me.rating, votes: me.votes, photos: me.photos, profile: Object.fromEntries(profile)}, keyword: cfg.keyword, 店の特定: identification && {確信度: identification.confidence, 理由: identification.reason}, grid: mat, counts: {total, top3: cnt3, top10: cnt10, out: cntOut}, top_shops: {n: tops.length, ...t}, next, cost_usd: +cost.toFixed(4), calls, center_rank: centerRank, benchmark: useDoor ? 'door_top3' : 'area_top3'}, null, 1));
 console.log(JSON.stringify({shop: shop.title, counts: {total, top3: cnt3, top10: cnt10, out: cntOut}, me, top: t, next, cost: +cost.toFixed(4), calls, center_rank: centerRank, benchmark: useDoor ? 'door_top3' : 'area_top3'}, null, 1));

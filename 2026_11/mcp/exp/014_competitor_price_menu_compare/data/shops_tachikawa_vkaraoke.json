@@ -1,0 +1,50 @@
+{
+ "total_count": 4,
+ "cost": 0.01344,
+ "items": [
+  {
+   "cid": "8483485153866267145",
+   "title": "ダーツカフェデルタ立川店（DartsCafeDELTA立川店）",
+   "url": "https://condel.co.jp/dart-cafe-delta/tachikawa/",
+   "domain": "condel.co.jp",
+   "rating": 4.8,
+   "votes": 1356,
+   "price_level": "moderate",
+   "address": "〒190-0012 Tokyo, Tachikawa, Akebonocho, 2 Chome−12−1 曙ビル 4F",
+   "phone": "+8142-512-9247"
+  },
+  {
+   "cid": "16643097323033394821",
+   "title": "カラオケ＆BAR【立川紳士協会】",
+   "url": "https://instagram.com/tga20211025?igshid=MXJvN2thMmNkMXN2YQ==",
+   "domain": "instagram.com",
+   "rating": 5,
+   "votes": 220,
+   "price_level": "inexpensive",
+   "address": "〒190-0022 Tokyo, Tachikawa, Nishikicho, 1 Chome−3−21 ライオンビル 3階 302",
+   "phone": "+8142-595-7855"
+  },
+  {
+   "cid": "7796302413144928282",
+   "title": "PRIVATE BAR VIA(プライベート バー ビア)",
+   "url": null,
+   "domain": null,
+   "rating": 4.9,
+   "votes": 39,
+   "price_level": "inexpensive",
+   "address": "〒190-0022 Tokyo, Tachikawa, Nishikicho, 2 Chome−1−25 錦ビル 202",
+   "phone": null
+  },
+  {
+   "cid": "17909228945669648805",
+   "title": "乃木屋",
+   "url": "https://nogiya.com/",
+   "domain": "nogiya.com",
+   "rating": 4.4,
+   "votes": 16,
+   "price_level": "inexpensive",
+   "address": "〒190-0031 Tokyo, Tachikawa, Sunagawacho, 2 Chome−４１−4 野木マンション 1F",
+   "phone": "+8142-537-8255"
+  }
+ ]
+}

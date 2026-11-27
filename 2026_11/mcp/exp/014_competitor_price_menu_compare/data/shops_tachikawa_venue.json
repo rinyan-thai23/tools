@@ -1,0 +1,61 @@
+{
+ "total_count": 5,
+ "cost": 0.0138,
+ "items": [
+  {
+   "cid": "14815805811004473195",
+   "title": "立川ステージガーデン",
+   "url": "https://www.t-sg.jp/",
+   "domain": "www.t-sg.jp",
+   "rating": 4,
+   "votes": 1999,
+   "price_level": null,
+   "address": "Ｎ１, 3-3 Midoricho, Tachikawa, Tokyo 190-0014",
+   "phone": "+8142-524-8888"
+  },
+  {
+   "cid": "6867782775003395763",
+   "title": "ドリーミーホール 国立",
+   "url": "https://www.dreamy.co.jp/hall/kunitachi/",
+   "domain": "www.dreamy.co.jp",
+   "rating": 4,
+   "votes": 26,
+   "price_level": null,
+   "address": "〒186-0011 Tokyo, Kunitachi, Yaho, 5132-2 ドリーミーホール国立",
+   "phone": "+8142-571-1511"
+  },
+  {
+   "cid": "10490550299771389722",
+   "title": "ホテル日航立川 東京 宴会場",
+   "url": "https://hotelnikko-tachikawatokyo.jp/banquet/",
+   "domain": "hotelnikko-tachikawatokyo.jp",
+   "rating": 4.4,
+   "votes": 20,
+   "price_level": null,
+   "address": "〒190-0022 Tokyo, Tachikawa, Nishikicho, 1 Chome−12−1 ホテル日航立川東京",
+   "phone": "+8142-503-9102"
+  },
+  {
+   "cid": "12430399907049041761",
+   "title": "つちのこひろば（国立市地域子育て支援拠点事業）",
+   "url": "https://k-nouennokai.org/tutinokohiroba/",
+   "domain": "k-nouennokai.org",
+   "rating": 4,
+   "votes": 20,
+   "price_level": null,
+   "address": "5119 Yaho, Kunitachi, Tokyo 186-0011",
+   "phone": "+8142-505-7200"
+  },
+  {
+   "cid": "15250644374896462213",
+   "title": "Artistic Studio lalala TOKYO ラララ 東京",
+   "url": "https://www.facebook.com/lalala2015lalala/",
+   "domain": "www.facebook.com",
+   "rating": 4.5,
+   "votes": 11,
+   "price_level": null,
+   "address": "4 Chome-3-2 Shibasakicho, Tachikawa, Tokyo 190-0023",
+   "phone": "+8190-2564-3198"
+  }
+ ]
+}

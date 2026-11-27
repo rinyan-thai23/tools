@@ -1,0 +1,82 @@
+<title>複数店舗の比較ボード</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap">
+<style>
+/* 設計: 複数店舗を持つ本部向けの見本。20支店を1表に並べ、注意の印が多い順に。藍＋橙（001〜021と同じ系統）。 */
+:root{--bg:#f7f6f2;--panel:#fff;--fg:#1d2433;--muted:#5d6678;--line:#e1ded5;--accent:#183a6b;--accent-soft:#e6ecf5;--hot:#d9541e;--hot-soft:#fbe9df;--ok:#2a7a4f;--ok-soft:#e5f2ea;--font:'Noto Sans JP','Hiragino Sans','Yu Gothic',system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12161e;--panel:#1a202b;--fg:#e8ebf1;--muted:#9aa4b6;--line:#2a3342;--accent:#8db4ee;--accent-soft:#1e2a40;--hot:#ff8a55;--hot-soft:#3a2a20;--ok:#6cc79a;--ok-soft:#1b2e24;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#12161e;--panel:#1a202b;--fg:#e8ebf1;--muted:#9aa4b6;--line:#2a3342;--accent:#8db4ee;--accent-soft:#1e2a40;--hot:#ff8a55;--hot-soft:#3a2a20;--ok:#6cc79a;--ok-soft:#1b2e24;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--font);line-height:1.85;font-size:16px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 56px}
+.wrap{max-width:800px;margin:0 auto}.band{padding-block:34px;border-bottom:1px solid var(--line)}
+h1{font-size:clamp(1.6rem,5.6vw,2.3rem);line-height:1.38;font-weight:900;margin:0 0 14px;text-wrap:balance}h2{font-size:1.25rem;font-weight:900;margin:0 0 12px;text-wrap:balance}h3{font-size:1rem;margin:16px 0 6px}
+p{margin:0 0 12px}.eyebrow{color:var(--hot);font-weight:700;font-size:.85rem;letter-spacing:.06em;margin-bottom:8px}.lead{font-size:1.05rem;color:var(--muted)}
+.sample{background:var(--hot-soft);border:1px dashed var(--hot);border-radius:6px;padding:8px 12px;font-size:.84rem;margin:0 0 14px}.m{color:var(--muted);font-size:.82rem}
+.sum{background:var(--accent-soft);border-left:4px solid var(--accent);padding:12px 14px;border-radius:0 6px 6px 0;margin:12px 0}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:12px 0}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px 12px;min-width:0}.kpi b{display:block;font-size:1.4rem;font-variant-numeric:tabular-nums}.kpi span{color:var(--muted);font-size:.8rem}.kpi.hot b{color:var(--hot)}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:8px;background:var(--panel);margin:8px 0}table{border-collapse:collapse;width:100%;min-width:640px;font-size:.86rem;font-variant-numeric:tabular-nums}th,td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{background:var(--accent-soft);white-space:nowrap}tr:last-child td{border-bottom:0}td.n{text-align:right;white-space:nowrap}td.bad{background:var(--hot-soft);color:var(--hot);font-weight:700}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin-bottom:10px}.card h3{margin:0 0 4px}.card .tg{display:inline-block;font-size:.74rem;font-weight:700;color:var(--hot);border:1px solid var(--hot);border-radius:4px;padding:0 7px;margin-right:6px}
+ul{margin:0 0 8px;padding-left:1.2em}li{margin-bottom:4px}
+.step{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin-bottom:10px}
+details{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 16px;margin-bottom:8px}summary{cursor:pointer;font-weight:700}
+.cta{background:var(--accent);color:var(--bg);border-radius:10px;padding:22px}.cta p{margin:0 0 6px}
+</style>
+<div class="wrap">
+<section class="band">
+  <p class="eyebrow">複数の店舗（支店）を持つ本部・オーナーの方へ</p>
+  <h1>20支店のうち、どの店が、なぜ負けているのか。1枚の表で見えます</h1>
+  <p class="lead">同じチェーンでも、支店ごとにお客さんの不満は違います。Googleマップの口コミと順位を自動で集めて、支店を横に並べ、注意の印が多い順に並べます。口コミは、AIが読んで、支店ごとの原因をまとめます。</p>
+</section>
+
+<section class="band">
+  <p class="eyebrow">実際にやってみた例</p>
+  <h2>東京西部の24時間ジム：20支店の比較ボード</h2>
+  <p class="sample">実際のデータ（2026年11月27日取得）です。チェーン名・支店名・投稿者名は伏せ、支店は記号（A〜T）で表します。AIが読んだ文章は、口コミの言い換えで、事実の確認はしていません。</p>
+  <div class="sum"><p style="margin:0"><b>20支店のうち、注意の印がある支店は12。印が最も多い支店Aは、評価3.4・低評価への返信率36%・口コミが増えるのも遅い状態でした。</b>原因は、支店ごとにまったく違います（狭さ、改装後の変更、シャワーのカビ、解約トラブルなど）。</p></div>
+  <div class="kpis">
+    <div class="kpi"><b>12 / 20</b><span>注意の印が1つ以上ある支店</span></div>
+    <div class="kpi hot"><b>2.7〜4.6</b><span>支店ごとの評価の幅</span></div>
+    <div class="kpi hot"><b>0%</b><span>低評価（星1〜2）に1件も返信していない支店が3つ</span></div>
+    <div class="kpi"><b>約$0.10</b><span>データ取得の実費（20支店・約1分）</span></div>
+  </div>
+  <h3>支店の比較表（注意の印が多い順）</h3>
+  <div class="tw"><table><thead><tr><th>支店</th><th>評価（口コミ数）</th><th>お店の場所での順位<br><span class="m" style="font-weight:400">「ジム」で検索</span></th><th>直近6か月の口コミ<br><span class="m" style="font-weight:400">最新30件のうち</span></th><th>星1〜2の割合<br><span class="m" style="font-weight:400">最新30件のうち</span></th><th>低評価への返信率</th><th>印</th></tr></thead><tbody>__ROWS__</tbody></table></div>
+  <p class="m">赤は、注意の印がついた項目です。印のルール：評価3.9未満／星1〜2が2割以上／低評価（3件以上）への返信が半分未満／お店の場所でも7位以下／直近6か月の口コミが7件以下。</p>
+
+  <h3>AIが読んだ：印が多い支店の、原因</h3>
+  <div class="card"><h3><span class="tg">支店A</span>評価3.4・返信率36%</h3><p style="margin:0">改装後に不評。<b>「照明が明るすぎて居心地が悪い」「無料のウォーターサーバーを撤去して有料に」「シャワー室のシャンプーを廃止」</b>という声。近くの別支店に通い始めたという口コミも。<span class="m">（変更の事前の説明が足りなかった可能性）</span></p></div>
+  <div class="card"><h3><span class="tg">支店B</span>評価4.6なのに、星1〜2が20%・低評価への返信0%</h3><p style="margin:0"><b>シャワールームのカビを、スタッフに伝えても直らない</b>、利用者のマナー（ダンベルの占有）。<b>評価は高いのに、低評価に1件も返信していない。</b></p></div>
+  <div class="card"><h3><span class="tg">支店C</span>評価2.7（最低）</h3><p style="margin:0"><b>館内が狭い（2階建て）、マシンの不調が放置される、ネット・Wi-Fiがつながらない、スタッフがおしゃべりしている。</b>「ダメな支店の代表」という声も。</p></div>
+  <div class="card"><h3><span class="tg">支店D</span>評価3.8</h3><p style="margin:0">浄水器がない、蚊やチョウバエの発生（地下）、ベンチプレスの長時間占有、スマホをいじる利用者。</p></div>
+  <div class="card"><h3><span class="tg">支店E</span>評価3.8</h3><p style="margin:0"><b>「退会手続きをしたのに、会費が引き落とされた」</b>、利用者のマナー（マシンを拭かない）、スタッフのスマホ・清掃への不満。</p></div>
+  <div class="card"><h3><span class="tg">支店F</span>評価3.9</h3><p style="margin:0">駅前の地下で狭く、<b>マシンの種類が少ない</b>（特定のマシンの要望）、平日18〜21時が混雑。</p></div>
+
+  <h3>20支店を通して、見えること（本部へ）</h3>
+  <ul>
+    <li><b>設備が支店で不統一：</b>シャワー室のシャンプー・ボディソープは、支店によって「ある／ない」が違い、利用者は近くの支店と比べて不満を書く。<b>標準を決める</b>と、不満が減る。</li>
+    <li><b>低評価への返信が、支店任せ：</b>返信率0%の支店が複数ある一方、100%の支店もある。<b>本部で返信のルール（誰が・何日以内に）を決める</b>と、一気にそろう。</li>
+    <li><b>空調（暑い・寒い）：</b>複数の支店で、スタッフが不在の時間帯の空調への不満が出ている（原因は、口コミからは分からない）。</li>
+    <li><b>解約・請求のトラブル：</b>支店Eで出ている。本部の仕組みの問題の可能性がある。</li>
+    <li><b>口コミの勢い：</b>直近6か月の口コミが7件以下の支店が複数ある。<b>口コミをお願いする導線</b>が支店ごとに違う可能性。</li></ul>
+  <p class="m"><b>この表の限界：</b>評価・順位・口コミは、取得時点の目安です。星1〜2の割合は、最新30件のうちの割合なので、1件で数％動きます（件数が少ない支店は、特に）。「お店の場所での順位」は、その支店の位置で「ジム」と検索した結果で、人や時間で動きます。口コミは利用者の主張で、事実の確認はしていません。AIが読んだのは、星1〜2の口コミの一部です。</p>
+</section>
+
+<section class="band">
+  <h2>どうやって作っているか</h2>
+  <div class="step"><h3>① 支店を集める</h3><p style="margin:0">チェーン名と地域から、近くの支店を地図検索で集めます（1回約$0.002）。</p></div>
+  <div class="step"><h3>② 口コミと順位を並列で集める</h3><p style="margin:0">支店ごとに、新しい順30件＋評価の低い順10件の口コミと、お店の場所での順位。20支店で約1分、約$0.10。</p></div>
+  <div class="step"><h3>③ 数えて、印を付けて、AIが読む</h3><p style="margin:0">評価・返信率・口コミの勢いなどを集計し、印を付けて並べ、印の多い支店の低評価をAIが読みます。</p></div>
+  <p class="sample" style="margin-top:12px">データ取得の実費は、20支店で約$0.10（約15円）。AIの読み取りの費用は別です。金額は試験運用で決めます。月に1回の定点観測にする場合は、順位の小さなゆれ（1時間でも動く）を、変化として報告しない設計が必要です。</p>
+</section>
+
+<section class="band">
+  <h2>よくある質問</h2>
+  <details><summary>自社のチェーンの全店をやってもらえますか？</summary><p style="margin:0;margin-top:8px">地図で見つかる支店なら可能です。支店数が多い場合は、費用が支店数に比例します（1支店あたり約$0.005）。</p></details>
+  <details><summary>支店の店長に、この表を渡していいですか？</summary><p style="margin:0;margin-top:8px">おすすめは、本部の会議用です。支店名を出して順位をつけると、支店の反発を招く可能性があります。まず、本部の担当者で、原因の仮説として使ってください。</p></details>
+  <details><summary>口コミの内容は、本当ですか？</summary><p style="margin:0;margin-top:8px">口コミは利用者の主張で、事実の確認はしていません。「本部が現地で確認する材料」として使ってください。</p></details>
+</section>
+
+<section class="band" style="border-bottom:0">
+  <div class="cta"><p><b>このページはテスト用の見本です。</b></p><p>申し込み窓口はまだありません。試験運用に参加したい方は、運営者にお知らせください。</p></div>
+</section>
+</div>
