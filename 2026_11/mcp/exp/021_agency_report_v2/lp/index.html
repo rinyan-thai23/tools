@@ -1,0 +1,118 @@
+<title>お店の総合診断書</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap">
+<style>
+/* 設計: 制作会社・MEO代行向けの「総合診断書」見本。5つの視点を1枚に。取れなかった欄は、取れなかったと表示する。藍＋橙（001〜020と同じ系統）。 */
+:root{--bg:#f7f6f2;--panel:#fff;--fg:#1d2433;--muted:#5d6678;--line:#e1ded5;--accent:#183a6b;--accent-soft:#e6ecf5;--hot:#d9541e;--hot-soft:#fbe9df;--ok:#2a7a4f;--ok-soft:#e5f2ea;--gray:#eceae3;--font:'Noto Sans JP','Hiragino Sans','Yu Gothic',system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12161e;--panel:#1a202b;--fg:#e8ebf1;--muted:#9aa4b6;--line:#2a3342;--accent:#8db4ee;--accent-soft:#1e2a40;--hot:#ff8a55;--hot-soft:#3a2a20;--ok:#6cc79a;--ok-soft:#1b2e24;--gray:#222a38;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#12161e;--panel:#1a202b;--fg:#e8ebf1;--muted:#9aa4b6;--line:#2a3342;--accent:#8db4ee;--accent-soft:#1e2a40;--hot:#ff8a55;--hot-soft:#3a2a20;--ok:#6cc79a;--ok-soft:#1b2e24;--gray:#222a38;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--font);line-height:1.85;font-size:16px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 56px}
+.wrap{max-width:800px;margin:0 auto}.band{padding-block:34px;border-bottom:1px solid var(--line)}
+h1{font-size:clamp(1.6rem,5.6vw,2.3rem);line-height:1.38;font-weight:900;margin:0 0 14px;text-wrap:balance}h2{font-size:1.25rem;font-weight:900;margin:0 0 12px;text-wrap:balance}h3{font-size:1rem;margin:0 0 6px}
+p{margin:0 0 12px}.eyebrow{color:var(--hot);font-weight:700;font-size:.85rem;letter-spacing:.06em;margin-bottom:8px}.lead{font-size:1.05rem;color:var(--muted)}
+.sample{background:var(--hot-soft);border:1px dashed var(--hot);border-radius:6px;padding:8px 12px;font-size:.84rem;margin:0 0 14px}
+.m{color:var(--muted);font-size:.82rem}
+.report{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px 18px;margin-bottom:22px}
+.head{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:baseline;margin-bottom:6px}.head b{font-size:1.15rem}
+.sum{background:var(--accent-soft);border-left:4px solid var(--accent);padding:12px 14px;border-radius:0 6px 6px 0;margin:10px 0 16px}
+.sec{border-top:1px solid var(--line);padding-top:12px;margin-top:14px}
+.sec h3{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.tag{font-size:.72rem;font-weight:700;border-radius:4px;padding:1px 8px;border:1px solid var(--accent);color:var(--accent)}
+.tag.no{border-color:var(--muted);color:var(--muted);background:var(--gray)}.tag.part{border-color:var(--hot);color:var(--hot)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(125px,1fr));gap:8px;margin:8px 0}
+.kpi{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:8px 10px;min-width:0}.kpi b{display:block;font-size:1.2rem;font-variant-numeric:tabular-nums}.kpi span{color:var(--muted);font-size:.76rem}.kpi.hot b{color:var(--hot)}
+.empty{background:var(--gray);border:1px dashed var(--muted);border-radius:8px;padding:10px 12px;color:var(--muted);font-size:.9rem}
+ul{margin:0 0 8px;padding-left:1.2em}li{margin-bottom:3px}
+.next{border:2px solid var(--hot);border-radius:10px;padding:10px 14px;margin:14px 0 4px}
+.pitch{background:var(--ok-soft);border-radius:8px;padding:10px 14px;margin-top:10px}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:8px;background:var(--panel);margin:8px 0}table{border-collapse:collapse;width:100%;min-width:600px;font-size:.86rem;font-variant-numeric:tabular-nums}th,td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{background:var(--accent-soft);white-space:nowrap}tr:last-child td{border-bottom:0}
+.cta{background:var(--accent);color:var(--bg);border-radius:10px;padding:22px}.cta p{margin:0 0 6px}
+</style>
+<div class="wrap">
+<section class="band">
+  <p class="eyebrow">制作会社・MEO代行の営業担当さまへ</p>
+  <h1>お客さん候補の店に送れる「総合診断書」。5つの視点が、1枚に入ります</h1>
+  <p class="lead">①Googleマップでの見え方 ②口コミの読み取り ③近所の競合との口コミ比較 ④口コミと公式サイトのズレ ⑤近所の料金比較。<b>取れなかった欄は、「取れなかった」とそのまま表示します。</b>それ自体が、営業の切り口になります。</p>
+</section>
+
+<section class="band">
+  <p class="eyebrow">実際にやってみた例（2店）</p>
+  <p class="sample">実際のデータ（2026年11月26〜27日取得、国分寺の美容室）です。店名・スタッフ名・投稿者名は伏せています。「AI」とある文章は、AIが読み取ってまとめた目安です。</p>
+
+  <!-- A店 -->
+  <div class="report">
+    <div class="head"><b>A店</b><span class="m">口コミ18件・星3.7／公式サイトなし（予約ポータルのみ）</span></div>
+    <div class="sum"><p style="margin:0"><b>お店のすぐ近くでは2位ですが、少し離れると圏外が増え、口コミは「最近の低評価」と「増えるペースの遅さ」が課題です。公式サイトがなく、口コミで褒められている「個室」「話しやすさ」を、まだ言葉にできていません。</b></p></div>
+
+    <div class="sec"><h3>① Googleマップでの見え方<span class="tag">自動</span></h3>
+      <div class="kpis"><div class="kpi"><b>2位</b><span>お店の場所での順位</span></div><div class="kpi hot"><b>1 / 5 / 11</b><span>25地点のうち 3位以内／10位以内／圏外</span></div><div class="kpi hot"><b>3.7 対 4.52</b><span>星（A店 対 近所の上位店）</span></div></div>
+      <p class="m" style="margin:0">お店を中心に、約110m間隔の25地点で「美容室」と検索した順位です。順位は目安で、時間で動きます。</p></div>
+
+    <div class="sec"><h3>② 口コミの読み取り<span class="tag">自動で集計＋AI</span></h3>
+      <div class="kpis"><div class="kpi hot"><b>2.8 対 4.4</b><span>直近2年の8件の平均 対 2年より前の10件</span></div><div class="kpi"><b>28%</b><span>口コミに返信した割合（低評価は4/6）</span></div><div class="kpi hot"><b>1件</b><span>返信のない、本文つきの星1（2か月前）</span></div></div>
+      <ul><li><b>AI：</b>低評価は3つの型。<b>カットの仕上がり（希望と違う）、予約・会計のトラブル、施術中のマナー</b>。</li><li><b>褒められている：</b><b>個室・半個室（6件）</b>、きれい、スタッフが話しやすい。</li></ul></div>
+
+    <div class="sec"><h3>③ 近所の競合との口コミ比較<span class="tag">自動で集計＋AI</span></h3>
+      <div class="kpis"><div class="kpi hot"><b>4件 対 30〜73件</b><span>直近6か月の口コミ数（A店 対 競合4店）</span></div><div class="kpi hot"><b>39% 対 3%</b><span>星1〜3の割合</span></div><div class="kpi"><b>51%</b><span>競合の高評価で「カウンセリング・希望の汲み取り」に触れる割合</span></div></div>
+      <p style="margin:0"><b>AI：</b>競合は「希望をうまく言えなくても汲み取ってくれる」で選ばれている。「個室」を褒められているのは、競合400件で0件、A店だけ（6件）。</p></div>
+
+    <div class="sec"><h3>④ 口コミと公式サイトのズレ<span class="tag no">取れなかった</span></h3>
+      <div class="empty">公式サイトがなく、予約ポータルのページのみです（ポータルの文章は、利用規約の確認が必要なので読み取っていません）。<b>「お客さんが褒めている言葉を載せる場所が、まだない」状態です。</b></div></div>
+
+    <div class="sec"><h3>⑤ 近所の料金比較<span class="tag part">一部だけ</span></h3>
+      <p class="m" style="margin:0 0 6px">A店の料金は取れません（ポータルのみ）。近所の競合の料金（サイトから取れた5店）は、次のとおりです。</p>
+      <p style="margin:0">カット <b>4,400〜7,700円</b>（約1.7倍）／縮毛矯正 <b>15,300〜35,200円</b>（約2.3倍）。専門店ほど高く、表記は店ごとにバラバラです。</p></div>
+
+    <div class="next"><p style="margin:0 0 4px"><b>次の一手（1つだけ）</b></p><p style="margin:0">2か月前の星1（カットの仕上がり）に返信する。</p></div>
+    <div class="pitch"><p style="margin:0"><b>営業の切り口：</b>①公式サイトがない店 ②口コミの勢いが競合の約1/7〜1/18 ③「個室」という、競合が言っていない強みがある。→ <b>「口コミで褒められている言葉を使った公式サイト」と「口コミをお願いする導線（QR）」</b>の提案。</p></div>
+  </div>
+
+  <!-- B店 -->
+  <div class="report">
+    <div class="head"><b>B店</b><span class="m">口コミ113件・星4.9／公式サイトあり（6ページ）</span></div>
+    <div class="sum"><p style="margin:0"><b>マップでも口コミでも強いお店です。課題は、「お客さんが褒めている言葉」が、公式サイトに書かれていないことです。</b></p></div>
+
+    <div class="sec"><h3>① Googleマップでの見え方<span class="tag">自動</span></h3>
+      <div class="kpis"><div class="kpi"><b>2位</b><span>お店の場所での順位</span></div><div class="kpi"><b>2 / 11 / 3</b><span>25地点のうち 3位以内／10位以内／圏外</span></div><div class="kpi"><b>4.9 対 4.39</b><span>星（B店 対 近所の上位店）</span></div></div></div>
+
+    <div class="sec"><h3>② 口コミの読み取り<span class="tag">自動で集計＋AI</span></h3>
+      <div class="kpis"><div class="kpi"><b>4.88</b><span>最新100件の平均の星（星1〜2は1件）</span></div><div class="kpi"><b>30件</b><span>直近6か月の口コミ数</span></div><div class="kpi hot"><b>16%</b><span>口コミに返信した割合</span></div></div>
+      <p style="margin:0"><b>AI：</b>「カットが上手」「ショート（ベリーショート）が得意」が、褒められる理由の中心。不満はほぼない。</p></div>
+
+    <div class="sec"><h3>③ 近所の競合との口コミ比較<span class="tag">自動で集計</span></h3>
+      <p style="margin:0">直近6か月の口コミ数は、B店30件に対して競合は35〜73件（A店は4件）。口コミが増えるペースは、競合の中では少なめですが、A店（4件）よりは大きく上です。</p></div>
+
+    <div class="sec"><h3>④ 口コミと公式サイトのズレ<span class="tag">自動で集計＋AI</span></h3>
+      <ul><li><b>一致：</b>サイトの「カット」「ショート」は、口コミでも同じように褒められている（カット71%／ショート44%）。</li><li><b>ズレ：</b>口コミで<b>「丁寧・安心・親切」26%</b>、<b>「長く通う・リピート」32%</b>が褒められているのに、<b>サイトには0回</b>。</li></ul>
+      <p class="m" style="margin:0">AIの文章案（下書き）：「長く通ってくださるお客様が多いサロンです。毎回、ていねいにお話をうかがってから施術します。」※お店の実際に合わせて確認が必要</p></div>
+
+    <div class="sec"><h3>⑤ 近所の料金比較<span class="tag">自動で集計＋AIが読み取り</span></h3>
+      <p style="margin:0">B店のカットは <b>7,300円</b>（近所の幅 4,400〜7,700円の上のほう）、縮毛矯正は <b>15,300円</b>（近所の幅 15,300〜35,200円の下限）。専門店の縮毛矯正は35,200円で、B店の約2.3倍です。<span class="m">（料金は、各店サイトの表記を読んだ目安。税込・税抜はそろえていません）</span></p></div>
+
+    <div class="next"><p style="margin:0 0 4px"><b>次の一手（1つだけ）</b></p><p style="margin:0">公式サイトに、「長く通うお客様が多い」「ていねいなカウンセリング」を、お客さんの言葉で足す。</p></div>
+    <div class="pitch"><p style="margin:0"><b>営業の切り口：</b>サイトを作り直す動機は薄いが、<b>「口コミで3割の人が褒めている言葉が、サイトに0回です」</b>という具体的な指摘は、追加ページ・文章の更新の提案になる。</p></div>
+  </div>
+  <p class="m"><b>この見本の限界：</b>2店だけの例です。数字は、取得した時点の目安です。AIの文章は、お店の実際に合わせた確認が必要です。「営業の切り口」は、私たちの見立てで、実際に営業で使えるかは、確かめていません。</p>
+</section>
+
+<section class="band">
+  <h2>1枚を作るのにかかるもの（1店あたり）</h2>
+  <div class="tw"><table><thead><tr><th>欄</th><th>使う部品</th><th>自動／AI／手作業</th><th>データ取得の実費</th><th>時間の目安</th></tr></thead><tbody>
+    <tr><td>① マップでの見え方</td><td>25地点の順位（002）</td><td>自動</td><td class="n">約$0.054</td><td>約1分</td></tr>
+    <tr><td>② 口コミの読み取り</td><td>口コミ100件（011）</td><td>取得・集計は自動、読み取りはAI</td><td class="n">約$0.0075</td><td>取得約1分＋AI</td></tr>
+    <tr><td>③ 競合との口コミ比較</td><td>競合4店×100件（015）</td><td>取得・集計は自動、競合選びは保存データから、読み取りはAI</td><td class="n">約$0.03</td><td>取得約2分＋AI</td></tr>
+    <tr><td>④ 口コミとサイトのズレ</td><td>サイトの表示（無料）＋集計（017）</td><td>表示・集計は自動、文章案はAI</td><td class="n">約$0.002</td><td>約2〜3分＋AI</td></tr>
+    <tr><td>⑤ 近所の料金比較</td><td>店リスト＋サイトの表示（014）</td><td>表示は自動、<b>料金の読み取りはAI（手間が大きい）</b></td><td class="n">約$0.02</td><td>約3〜10分＋AI</td></tr>
+    <tr><td><b>合計</b></td><td></td><td></td><td class="n"><b>約$0.11〜0.15（約17〜23円）</b></td><td><b>データ取得 約10分＋AIの読み取り</b></td></tr></tbody></table></div>
+  <p class="sample">データ取得の実費と時間は、実測の合算です（地図$0.054＋口コミ$0.0075＋競合の口コミ$0.03＋サイトのアドレス$0.002＋近所の店リスト$0.02）。AIの読み取りの費用・時間は、含みません。金額は試験運用で決めます。</p>
+</section>
+
+<section class="band">
+  <h2>こう使えます</h2>
+  <ul><li><b>営業の最初の1通：</b>診断書を添えて、「お店の見え方を調べてみました」と送る（メール文面のひな形つき）。</li><li><b>提案の入口：</b>「公式サイトがない」「口コミの勢いが競合の1/10」「口コミで褒められている言葉がサイトに無い」は、具体的な提案につながる。</li><li><b>取れなかった欄も、情報：</b>「サイトなし」「料金が公開されていない」も、診断書にそのまま書く。</li></ul>
+</section>
+
+<section class="band" style="border-bottom:0">
+  <div class="cta"><p><b>このページはテスト用の見本です。</b></p><p>申し込み窓口はまだありません。試験運用に参加したい方は、運営者にお知らせください。</p></div>
+</section>
+</div>
