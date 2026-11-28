@@ -1,0 +1,73 @@
+{
+ "C37": {
+  "locale": {
+   "c37.name": "Lihat kata kunci dalam genre yang sama",
+   "c37.desc": "Temukan kata kunci dengan cara penyebutan lain",
+   "c37.price": "Biaya: sekitar $0.024 untuk 100 baris dan sekitar $0.13 untuk 1.000 (hasil ukur di endpoint Labs; naik sekitar $0.0001 per baris). Contoh gratis.",
+   "c37.eta": "Waktu rata-rata: beberapa detik",
+   "c37.title": "Pembuat Kata Kunci | Ide dan Sinonim dengan Volume (Contoh Gratis)",
+   "c37.meta": "Masukkan satu kata kunci dan dapatkan ide kata kunci, sinonim, dan istilah serupa dari topik yang sama, lengkap dengan volume pencarian. Cocok untuk mencari variasi kata. Contoh gratis.",
+   "c37.keyword": "Kata kunci (satu)",
+   "c37.col.keyword": "Kata kunci",
+   "c37.col.volume": "Pencarian per bulan",
+   "c37.col.kd": "Tingkat kesulitan (0–100)",
+   "c37.ai_prompt": "Kamu adalah asisten yang membantu merapikan kata kunci dalam satu genre.\nPembaca ingin mencari kata-kata yang artinya dekat dan cara lain untuk menyebut satu kata kunci.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Pencarian per bulan: perkiraan berdasarkan data Google Ads. Kosong berarti \"tidak ada data\", belum tentu nol.\n  - Tingkat kesulitan (0-100): panduan seberapa sulit untuk masuk peringkat atas. Ini panduan, bukan jaminan.\n  - Hasil dan angka bisa berubah menurut tempat dan waktu. Ini untuk hari dan kondisi ini.\n\n# Yang saya minta\n1. Kumpulkan kata kunci yang artinya sama atau bisa menjadi cara lain untuk menyebutnya.\n2. Daftarkan 5 yang volume pencariannya terbesar.\n3. Usulkan 3 kata yang bisa dipakai sebagai variasi dalam artikel.\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya alasan atau hasil di masa depan).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (kata kunci / pencarian / tingkat kesulitan).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+   "c37.count": "Jumlah baris yang diambil (makin banyak makin mahal; lihat tabel di bawah)",
+   "c37.steps": [
+    [
+     "100 baris",
+     "sekitar $0.024 (hasil ukur)",
+     "Lihat dulu kandidat teratas"
+    ],
+    [
+     "300 baris",
+     "sekitar $0.05 (perkiraan)",
+     "Lihat sebaran kata serupa per tema"
+    ],
+    [
+     "1.000 baris",
+     "sekitar $0.13 (perkiraan)",
+     "Kumpulkan sebanyak mungkin untuk ide artikel"
+    ]
+   ]
+  },
+  "content": "<section class=\"seo\">\n<h2>Cara menemukan kata kunci dalam genre yang sama — dan perbandingan alat utamanya</h2>\n<p>Di artikel afiliasi, kamu juga ingin menjangkau <strong>orang yang mengatakan hal yang sama dengan kata lain</strong>. Masukkan satu kata kunci, dan alat ini menampilkan hingga 100 kata kunci dalam genre yang sama, lengkap dengan volume bulanan dan tingkat kesulitan.</p>\n<p class=\"note\">* Kamu bisa memilih 100, 300, atau 1.000 baris (bawaannya 100). Kata \"100\" di teks di bawah menjelaskan pilihan bawaan. Biayanya ada di tabel bagian atas.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Cara / alat</th><th>Model harga</th><th>Catatan</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>Alat ini (DataForSEO)</td><td>Bayar per permintaan. Sekitar $0.024 per panggilan untuk 100 baris (hasil ukur)</td><td>Kata kunci dalam genre yang sama dengan volume dan tingkat kesulitan, 100 baris. Bisa disimpan sebagai CSV</td></tr>\n<tr><td>Google \"pencarian terkait\" (manual)</td><td>Gratis</td><td>Muncul di hasil pencarian, tanpa volume</td></tr>\n<tr><td>Ahrefs Keywords Explorer (Keyword ideas)</td><td>Langganan (paketnya lihat situs resminya)</td><td>Daftar ide beserta angkanya</td></tr>\n<tr><td>Google Keyword Planner</td><td>Gratis (butuh akun Google Ads)</td><td>Punya fitur yang menyarankan ide dari kata kunci (lihat situs resminya)</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Dicek pada November 2026. Harga bisa berubah — pastikan di situs resmi masing-masing sebelum membeli.</p>\n\n<h2>Kenapa pakai alat ini</h2>\n<ul>\n<li><strong>Cara penyebutan lain bermunculan.</strong> Kata-kata yang dekat tetapi tidak memuat katamu ikut muncul (dari \"how to start a blog\" muncul \"how to get blog\" dan \"blogger tutorial for beginners\"; hasil ukur di AS).</li>\n<li><strong>Totalnya terlihat.</strong> Sekitar 174 ribu secara total untuk \"how to start a blog\" (hasil ukur di AS).</li>\n<li><strong>Sekitar $0.024 untuk 100.</strong> Sekitar 40 per $1.</li>\n<li><strong>Beberapa detik.</strong> Kami mengukur panggilannya kurang dari 2 detik.</li>\n<li><strong>Simpan sebagai CSV.</strong></li>\n</ul>\n\n<h2>Kapan alat ini kurang cocok</h2>\n<ul>\n<li>Kamu hanya ingin <strong>kata yang benar-benar dekat</strong> → topik yang jauh dari katamu juga ikut tercampur. Untuk \"how to start a blog\", sebagian baris di luar topik, seperti \"how to make a twitter thread\" (hasil ukur di AS).</li>\n<li>Kamu ingin <strong>tabel dengan semua tingkat kesulitan terisi</strong> → DataForSEO menyebut tingkat kesulitan kata kunci butuh data SERP, jadi hanya tersedia untuk kata kunci yang ada di basis data SERP-nya. Dalam uji kami (\"how to start a blog\"), 2 dari 30 baris pada contoh yang disimpan kosong.</li>\n<li>Kamu ingin <strong>lebih dari 100</strong> → pilih 300 atau 1.000 di kolom jumlah.</li>\n<li>Sebagian baris bisa kembali tanpa volume (tidak ada satu pun dari 30 baris contoh yang disimpan).</li>\n</ul>\n<p>Alat ini hanya melakukan satu hal: menampilkan hingga 100 kata kunci dalam genre yang sama dengan kata kuncimu, lengkap dengan volume dan tingkat kesulitan.</p>\n\n<h2>FAQ</h2>\n<details><summary>Kenapa kata yang hubungannya longgar ikut muncul?</summary><p>Kami menampilkan apa adanya yang dikembalikan API sebagai genre yang sama, tanpa disaring.</p></details>\n<details><summary>Kenapa banyak tingkat kesulitan yang kosong?</summary><p>DataForSEO menyebut tingkat kesulitan kata kunci butuh data SERP, jadi hanya tersedia untuk kata kunci yang ada di basis data SERP-nya. Dalam uji kami (\"how to start a blog\"), 2 dari 30 baris pada contoh yang disimpan kosong.</p></details>\n<details><summary>Apa arti volume yang kosong?</summary><p>API tidak mengembalikan nilai untuk baris itu. Kami membiarkannya kosong.</p></details>\n<details><summary>Apa bedanya dengan \"kata kunci terkait\" dan \"frasa yang memuat kata kunci\"?</summary><p>Kata kunci terkait melebar dengan mengikuti hubungan. Frasa yang memuat kata kunci harus mengandung katamu. Alat ini melebar lewat pengelompokan genre.</p></details>\n<details><summary>Bisakah mendaftar dengan email gratis?</summary><p>Tidak. DataForSEO tidak menerima penyedia email gratis. Lihat <a href=\"/dfs-id.html\">Apa itu DataForSEO?</a></p></details>\n</section>"
+ },
+ "C38": {
+  "locale": {
+   "c38.name": "Lihat tingkat kesulitan kata kunci",
+   "c38.desc": "Lihat sekaligus seberapa sulit beberapa kata kunci",
+   "c38.price": "Biaya: sekitar $0.012 untuk 3 kata kunci dan $0.072 untuk 500 (keduanya hasil ukur). Sekitar $0.13 untuk hingga 1.000 sekaligus (perkiraan). Di atas 1.000 alat ini membagi daftar otomatis, hingga 5.000 (sekitar $0.66). Contoh gratis.",
+   "c38.eta": "Waktu rata-rata: beberapa detik",
+   "c38.title": "Cek Tingkat Kesulitan Kata Kunci | Banyak Sekaligus (Contoh Gratis)",
+   "c38.meta": "Masukkan beberapa kata kunci dan dapatkan tingkat kesulitan masing-masing dalam satu tabel. Bandingkan mana yang tampak lebih mudah. Bisa kosong untuk kata kunci di luar data SERP DataForSEO.",
+   "c38.keyword": "Kata kunci (satu per baris, maksimal 5.000)",
+   "c38.col.keyword": "Kata kunci",
+   "c38.col.kd": "Tingkat kesulitan (0–100)",
+   "c38.ai_prompt": "Kamu adalah asisten yang membantu membandingkan tingkat kesulitan kata kunci.\nPembaca adalah blogger pemula yang ingin menyaring banyak kandidat kata kunci.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Tingkat kesulitan (0-100): panduan seberapa sulit untuk masuk peringkat atas. Makin besar makin sulit. Ini panduan, bukan jaminan. Kosong berarti tidak ada data.\n\n# Yang saya minta\n1. Daftarkan 10 kata kunci dengan tingkat kesulitan terendah (abaikan yang kosong).\n2. Jika ada yang bisa dibaca dari kata-kata pada kata kunci dengan tingkat kesulitan tinggi, tulis singkat.\n3. Jika ada kata kunci yang kosong, daftarkan dan catat bahwa \"tidak ada data\" bukan berarti tingkat kesulitannya rendah.\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya, apakah saya bisa sampai ke peringkat atas jika menulisnya).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (kata kunci / tingkat kesulitan).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+   "c38.steps": [
+    [
+     "100 kata kunci",
+     "sekitar $0.024 (perkiraan)",
+     "Bandingkan cepat kandidat untuk satu topik"
+    ],
+    [
+     "500 kata kunci",
+     "$0.072 (hasil ukur)",
+     "Pilah kandidat artikel untuk seluruh situs"
+    ],
+    [
+     "1.000 kata kunci",
+     "sekitar $0.13 (perkiraan)",
+     "Batas atas satu permintaan. Daftar besar sekaligus"
+    ],
+    [
+     "5.000 kata kunci",
+     "sekitar $0.66 (perkiraan, dalam 5 permintaan)",
+     "Daftar yang sangat besar, seperti seluruh kata kunci pesaing"
+    ]
+   ]
+  },
+  "content": "<section class=\"seo\">\n<h2>Cara mengecek tingkat kesulitan kata kunci — dan perbandingan alat utamanya</h2>\n<p>Saat mengusulkan topik artikel ke klien, kamu ingin mengecek sekaligus <strong>kata kunci mana yang lebih mudah dan mana yang sulit</strong>. Masukkan kata kunci satu per baris, dan alat ini mengembalikan tingkat kesulitan (0–100) per kata kunci dalam bentuk tabel.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Cara / alat</th><th>Model harga</th><th>Catatan</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>Alat ini (DataForSEO)</td><td>Bayar per permintaan. Sekitar $0.012 untuk 3 kata kunci dan $0.072 untuk 500 (hasil ukur). Di atas 1.000 alat ini membagi daftar otomatis (hingga 5.000)</td><td>Tingkat kesulitan beberapa kata kunci dalam satu tabel. Bisa disimpan sebagai CSV</td></tr>\n<tr><td>Ahrefs Keywords Explorer</td><td>Langganan (paketnya lihat situs resminya)</td><td>KD-nya adalah perkiraan 0–100 berdasarkan backlink 10 hasil teratas (menurut bantuan Ahrefs)</td></tr>\n<tr><td>Semrush Keyword Overview</td><td>Langganan (paketnya lihat situs resminya)</td><td>KD%-nya adalah skor 0–100 dari penilaian 10 hasil teratas (menurut bantuan Semrush)</td></tr>\n<tr><td>Ubersuggest</td><td>Opsi langganan dan bayar sekali diiklankan (harga berbeda menurut sumber; lihat situs resminya)</td><td>Fiturnya lihat situs resminya</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Dicek pada November 2026. Harga bisa berubah — pastikan di situs resmi masing-masing sebelum membeli.</p>\n\n<h2>Kenapa pakai alat ini</h2>\n<ul>\n<li><strong>Cek banyak kata kunci bersamaan.</strong> Deretkan kandidat usulanmu dan bandingkan dalam satu panggilan.</li>\n<li><strong>Angka apa adanya.</strong> Tanpa penilaian atau warna.</li>\n<li><strong>Sekitar $0.012 untuk 3 kata kunci dan $0.072 untuk 500 (hasil ukur).</strong> Hingga 1.000 masuk dalam satu permintaan; yang lebih banyak dibagi otomatis (hingga 5.000).</li>\n<li><strong>Beberapa detik.</strong> Kami mengukur panggilannya kurang dari 1 detik.</li>\n<li><strong>Simpan sebagai CSV.</strong> Tempel ke proposalmu.</li>\n</ul>\n\n<h2>Kapan alat ini kurang cocok</h2>\n<ul>\n<li>Kamu mengharapkan <strong>angka yang sama dengan alat lain</strong> → setiap alat menghitung tingkat kesulitan dengan caranya sendiri (artikel Ahrefs sendiri menyebut kata kunci yang sama bisa mendapat skor yang sangat berbeda). Jangan menyandingkan angka dari alat yang berbeda.</li>\n<li>Sebuah kata kunci <strong>tidak punya tingkat kesulitan</strong> → DataForSEO menyebut tingkat kesulitan kata kunci butuh data SERP, jadi hanya tersedia untuk kata kunci yang ada di basis data SERP-nya. 3 kata yang kami masukkan semuanya mengembalikan nilai. Kata yang kosong pada satu pencarian bisa tetap kosong saat dimasukkan lagi.</li>\n<li>Kamu juga ingin <strong>volume</strong> → tabel ini hanya menampilkan tingkat kesulitan. Untuk volume, cocoknya \"Lihat volume pencarian\".</li>\n<li>Tingkat kesulitan hanyalah panduan. Bisa sampai ke peringkat atas atau tidak juga bergantung pada isi artikel, backlink, dan lainnya.</li>\n</ul>\n<p>Alat ini hanya melakukan satu hal: menampilkan tingkat kesulitan (0–100) dari beberapa kata kunci sekaligus.</p>\n\n<h2>FAQ</h2>\n<details><summary>Angka 0–100 itu apa?</summary><p>DataForSEO menjelaskannya sebagai skor buatan sendiri untuk seberapa sulit mencapai 10 hasil teratas, dengan 0 mudah dan 100 sangat sulit.</p></details>\n<details><summary>Apakah sama dengan tingkat kesulitan Ahrefs?</summary><p>Belum tentu. Cara menghitungnya berbeda, jadi kata kunci yang sama bisa mendapat skor berbeda.</p></details>\n<details><summary>Berapa banyak kata kunci yang bisa dimasukkan?</summary><p>Spesifikasi DataForSEO menyebut hingga 1000. Di sini kami sudah memastikan sampai 3.</p></details>\n<details><summary>Kenapa ada kata kunci yang tidak menampilkan apa-apa?</summary><p>Kata yang tidak ada di data SERP DataForSEO kembali dengan tingkat kesulitan kosong. Kami belum memeriksa apakah baris yang kosong tetap dikenai biaya.</p></details>\n<details><summary>Bisakah mendaftar dengan email gratis?</summary><p>Tidak. DataForSEO tidak menerima penyedia email gratis. Lihat <a href=\"/dfs-id.html\">Apa itu DataForSEO?</a></p></details>\n</section>"
+ }
+}
