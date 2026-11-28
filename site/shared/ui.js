@@ -20,7 +20,7 @@ export async function referralLinks() {
   const cfg = await getJson('/shared/site-config.json');
   document.querySelectorAll('a[data-referral]').forEach((a) => {
     a.href = cfg.referral_url || 'https://dataforseo.com/';
-    if (cfg.referral_url) { a.rel = 'noopener sponsored'; a.after(document.createTextNode(lang === 'ja' ? ' （紹介リンクです）' : lang === 'zh-TW' ? '（推薦連結）' : lang === 'vi' ? ' (liên kết giới thiệu)' : ' (referral link)')); }
+    if (cfg.referral_url) { a.rel = 'noopener sponsored'; a.after(document.createTextNode(lang === 'ja' ? ' （紹介リンクです）' : lang === 'zh-TW' ? '（推薦連結）' : lang === 'vi' ? ' (liên kết giới thiệu)' : lang === 'id' ? ' (tautan referral)' : ' (referral link)')); }
   });
 }
 

@@ -16,5 +16,10 @@
     "code": "vi",
     "label": "Tiếng Việt",
     "partial": true
+  },
+  {
+    "code": "id",
+    "label": "Bahasa Indonesia",
+    "partial": true
   }
 ]

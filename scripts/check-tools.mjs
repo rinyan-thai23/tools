@@ -124,7 +124,7 @@ for (const id of ids) {
     if (!/class="me"/.test(content)) E.push(`[${l}] 比較表に「このツール」の行（class="me"）がない`);
     if (!/class="asof"/.test(content)) E.push(`[${l}] 「○年○月時点」の注記（class="asof"）がない`);
     if (!/2026/.test(t)) E.push(`[${l}] 本文に調べた年月がない`);
-    if (!/(向いていない|向かない|不適合|not the right fit|When it is not|không phù hợp)/i.test(content)) E.push(`[${l}] 「向いていない場面」がない`);
+    if (!/(向いていない|向かない|不適合|not the right fit|When it is not|không phù hợp|kurang cocok)/i.test(content)) E.push(`[${l}] 「向いていない場面」がない`);
     if (BAD_WORDS.test(content) || BAD_WORDS.test(JSON.stringify(L).includes(`"${k}.`) ? need.map((x) => L[x] || '').join(' ') : '')) E.push(`[${l}] 仮の文言（TODO/〇〇 など）が残っている`);
     if (/最安|業界No|必ず|絶対|圧倒的|革命|最便宜|最低價|絕對|一定會|必定/.test(content)) E.push(`[${l}] 言い切り・誇大表現がある（最安・必ず・絶対 など）`);
     // 類似度（使い回しの検出）
