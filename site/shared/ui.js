@@ -49,11 +49,23 @@ function renderKeyBox(box, referral) {
 export async function fillMarkets(countrySel, langSel, allowed, endpoint = '') {
   const m = await getJson('/shared/markets.json');
   m.countries = m.countries.filter((c) => !c.only || c.only.includes(lang)); m.languages = m.languages.filter((c) => !c.only || c.only.includes(lang)); // only：その言語の画面にだけ出す
-  m.countries = m.countries.filter((c) => !(c.not_for || []).some((p) => endpoint.startsWith(p))); // not_for：そのAPIが、この国の英語に対応していない
   if (allowed) m.countries = m.countries.filter((c) => allowed.includes(c.code)); // そのAPIが対応している国だけ
   const opt = (a, d) => a.map((x) => `<option value="${x.code}" ${x.code === d ? 'selected' : ''}>${x[lang] || x.en}</option>`).join('');
-  if (countrySel) countrySel.innerHTML = opt(m.countries, allowed && !allowed.includes((m.defaults[lang] || m.defaults.en).country) ? allowed[0] : (m.defaults[lang] || m.defaults.en).country);
-  if (langSel) langSel.innerHTML = opt(m.languages, (m.defaults[lang] || m.defaults.en).language);
+  const dflt = m.defaults[lang] || m.defaults.en;
+  if (countrySel) countrySel.innerHTML = opt(m.countries, allowed && !allowed.includes(dflt.country) ? allowed[0] : dflt.country);
+  // 言語：国に langs があれば、その言語だけ（現地語を選べる）。not_lang_for：そのAPIが対応しない言語を外す。country_only の言語は、その国を選んだときだけ出す
+  const fillLangs = () => {
+    if (!langSel) return;
+    const c = countrySel ? m.countries.find((x) => String(x.code) === countrySel.value) : null;
+    const bad = c && c.not_lang_for ? Object.entries(c.not_lang_for).filter(([p]) => endpoint.startsWith(p)).flatMap(([, v]) => v) : [];
+    let ls = m.languages.filter((x) => !x.country_only || (c && (c.langs || []).includes(x.code)));
+    if (c && c.langs) ls = c.langs.map((k) => ls.find((x) => x.code === k)).filter((x) => x && !bad.includes(x.code));
+    const prev = langSel.value;
+    langSel.innerHTML = opt(ls, c && c.langs ? ls[0]?.code : dflt.language);
+    if (prev && ls.some((x) => x.code === prev) && !(c && c.langs)) langSel.value = prev;
+  };
+  fillLangs();
+  if (countrySel) countrySel.addEventListener('change', fillLangs);
 }
 
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));

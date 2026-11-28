@@ -67,6 +67,10 @@
       "vi": "Indonesia",
       "only": [
         "en"
+      ],
+      "langs": [
+        "en",
+        "id"
       ]
     },
     {
@@ -77,6 +81,10 @@
       "vi": "Philippines",
       "only": [
         "en"
+      ],
+      "langs": [
+        "en",
+        "tl"
       ]
     },
     {
@@ -87,6 +95,10 @@
       "vi": "Ấn Độ",
       "only": [
         "en"
+      ],
+      "langs": [
+        "en",
+        "hi"
       ]
     },
     {
@@ -98,10 +110,18 @@
       "only": [
         "en"
       ],
-      "not_for": [
-        "dataforseo_labs/",
-        "ai_optimization/ai_keyword_data/"
-      ]
+      "langs": [
+        "th",
+        "en"
+      ],
+      "not_lang_for": {
+        "dataforseo_labs/": [
+          "en"
+        ],
+        "ai_optimization/ai_keyword_data/": [
+          "en"
+        ]
+      }
     },
     {
       "code": 2702,
@@ -110,6 +130,9 @@
       "zh-TW": "新加坡",
       "vi": "Singapore",
       "only": [
+        "en"
+      ],
+      "langs": [
         "en"
       ]
     },
@@ -121,6 +144,10 @@
       "vi": "Malaysia",
       "only": [
         "en"
+      ],
+      "langs": [
+        "en",
+        "ms"
       ]
     },
     {
@@ -130,6 +157,9 @@
       "zh-TW": "紐西蘭",
       "vi": "New Zealand",
       "only": [
+        "en"
+      ],
+      "langs": [
         "en"
       ]
     },
@@ -141,6 +171,9 @@
       "vi": "Ireland",
       "only": [
         "en"
+      ],
+      "langs": [
+        "en"
       ]
     },
     {
@@ -150,6 +183,9 @@
       "zh-TW": "南非",
       "vi": "Nam Phi",
       "only": [
+        "en"
+      ],
+      "langs": [
         "en"
       ]
     },
@@ -161,6 +197,10 @@
       "vi": "Các Tiểu vương quốc Ả Rập Thống nhất",
       "only": [
         "en"
+      ],
+      "langs": [
+        "en",
+        "ar"
       ]
     },
     {
@@ -170,6 +210,9 @@
       "zh-TW": "奈及利亞",
       "vi": "Nigeria",
       "only": [
+        "en"
+      ],
+      "langs": [
         "en"
       ]
     },
@@ -181,6 +224,10 @@
       "vi": "Pakistan",
       "only": [
         "en"
+      ],
+      "langs": [
+        "en",
+        "ur"
       ]
     }
   ],
@@ -215,6 +262,83 @@
       "only": [
         "vi"
       ]
+    },
+    {
+      "code": "th",
+      "ja": "タイ語",
+      "en": "Thai",
+      "zh-TW": "泰文",
+      "vi": "Tiếng Thái",
+      "only": [
+        "en"
+      ],
+      "country_only": true
+    },
+    {
+      "code": "id",
+      "ja": "インドネシア語",
+      "en": "Indonesian",
+      "zh-TW": "印尼文",
+      "vi": "Tiếng Indonesia",
+      "only": [
+        "en"
+      ],
+      "country_only": true
+    },
+    {
+      "code": "hi",
+      "ja": "ヒンディー語",
+      "en": "Hindi",
+      "zh-TW": "印地文",
+      "vi": "Tiếng Hindi",
+      "only": [
+        "en"
+      ],
+      "country_only": true
+    },
+    {
+      "code": "tl",
+      "ja": "フィリピン語（タガログ語）",
+      "en": "Filipino (Tagalog)",
+      "zh-TW": "菲律賓文（他加祿文）",
+      "vi": "Tiếng Filipino (Tagalog)",
+      "only": [
+        "en"
+      ],
+      "country_only": true
+    },
+    {
+      "code": "ms",
+      "ja": "マレー語",
+      "en": "Malay",
+      "zh-TW": "馬來文",
+      "vi": "Tiếng Mã Lai",
+      "only": [
+        "en"
+      ],
+      "country_only": true
+    },
+    {
+      "code": "ur",
+      "ja": "ウルドゥー語",
+      "en": "Urdu",
+      "zh-TW": "烏爾都文",
+      "vi": "Tiếng Urdu",
+      "only": [
+        "en"
+      ],
+      "country_only": true
+    },
+    {
+      "code": "ar",
+      "ja": "アラビア語",
+      "en": "Arabic",
+      "zh-TW": "阿拉伯文",
+      "vi": "Tiếng Ả Rập",
+      "only": [
+        "en"
+      ],
+      "country_only": true
     }
   ],
   "defaults": {
