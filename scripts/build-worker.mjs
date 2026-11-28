@@ -100,7 +100,7 @@ for (const { code: l } of indexLangs) {
     const items = sec.tools.filter((id) => langsOf(id).some((a) => a.code === l)).map((id) => `  <li><small class="tid">${id}</small> <a href="/${id}/${l}/">${esc((cat.titled || []).includes(id) ? L[`${id.toLowerCase()}.title`] : L[`${id.toLowerCase()}.name`])}</a><br><span class="note">${esc(descs[id] ?? L[`${id.toLowerCase()}.desc`])}</span></li>`);
     return items.length ? `<h3>${esc(sec.title)}</h3>\n<p>${esc(sec.text)}</p>\n<ul class="tools">\n${items.join('\n')}\n</ul>` : '';
   }).join('\n')}\n</section>` : '';
-  const aboutLang = l === 'ja' ? 'ja' : l === 'zh-TW' ? 'zh-TW' : 'en';
+  const aboutLang = l === 'ja' ? 'ja' : l === 'zh-TW' ? 'zh-TW' : l === 'vi' ? 'vi' : 'en';
   addPage(topPath(l) + 'index.html', render(indexTpl, {
     LANG: l, TITLE: esc(L['site.index_title']), META: esc(L['site.index_meta']), ALT: indexAlt, CANON: `{{SITE_URL}}${topPath(l)}`,
     SWITCH: switcher, H1: esc(L['site.title']).replace('DataForSEO', '<a data-referral href="https://dataforseo.com/" target="_blank" rel="noopener">DataForSEO</a>'), LEAD: esc(L['site.lead']), TOOLS_TITLE: cat ? '' : esc(L['site.tools']),
