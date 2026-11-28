@@ -57,6 +57,7 @@
   "csv": "C15.csv",
   "copy": true,
   "sample_langs": [
-    "vi"
+    "vi",
+    "id"
   ]
 }
