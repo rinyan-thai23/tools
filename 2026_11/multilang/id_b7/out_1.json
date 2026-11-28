@@ -1,0 +1,72 @@
+{
+ "C46": {
+  "locale": {
+   "c46.name": "Lihat situs yang berbagi kata kunci denganmu",
+   "c46.desc": "Temukan pesaingmu di internet",
+   "c46.price": "Biaya: sekitar $0.024 untuk 100 baris dan sekitar $0.13 untuk 1.000 (hasil ukur pada endpoint Labs; naik sekitar $0.0001 per baris). Contoh gratis.",
+   "c46.eta": "Waktu rata-rata: sekitar 5–12 detik",
+   "c46.title": "Cari Pesaing Situs | Situs dengan Kata Kunci Sama (Contoh Gratis)",
+   "c46.meta": "Masukkan domain dan dapatkan situs pesaing yang punya kata kunci yang sama. Temukan pesaingmu di internet dengan alat analisis pesaing. Contoh gratis.",
+   "c46.keyword": "Domain (contoh: example.com)",
+   "c46.col.domain": "Domain",
+   "c46.col.shared": "Kata kunci yang sama",
+   "c46.col.etv": "Perkiraan trafik (seluruh situs)",
+   "c46.ai_prompt": "Kamu adalah asisten yang membantu merapikan daftar situs pesaing.\nPembaca adalah blogger yang ingin tahu situs mana yang bersaing dengan situsnya di hasil pencarian.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Domain: situs yang punya kata kunci yang sama dengan situs yang saya masukkan.\n  - Kata kunci yang sama: jumlah kata kunci yang sama dengan situs yang saya masukkan.\n  - Perkiraan trafik (seluruh situs): perkiraan kunjungan dari pencarian ke seluruh situs itu. Ini bukan jumlah kunjungan yang sebenarnya.\n- Urutannya sesuai yang dikembalikan API. Hanya 100 teratas.\n\n# Yang saya minta\n1. Daftarkan 5 situs dengan kata kunci yang sama paling banyak.\n2. Daftarkan 3 situs dengan perkiraan trafik besar dan 3 situs dengan perkiraan trafik kecil.\n3. Jika ada situs yang \"kata kunci samanya banyak tetapi trafiknya kecil\", daftarkan (calon pesaing yang ukurannya mirip).\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya, isi situsnya atau kelebihannya).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (domain / kata kunci yang sama / perkiraan trafik).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+   "c46.count": "Jumlah baris yang diambil (makin banyak makin mahal; lihat tabel di bawah)",
+   "c46.steps": [
+    [
+     "100 baris",
+     "sekitar $0.024 (hasil ukur)",
+     "Lihat dulu situs teratas yang berbagi kata kunci"
+    ],
+    [
+     "300 baris",
+     "sekitar $0.05 (perkiraan)",
+     "Daftarkan banyak calon pesaing lalu pilih menurut ukurannya"
+    ],
+    [
+     "1.000 baris",
+     "sekitar $0.13 (perkiraan)",
+     "Temukan sebanyak mungkin pesaing di internet"
+    ]
+   ]
+  },
+  "content": "<section class=\"seo\">\n<h2>Cara menemukan situs yang berbagi kata kunci denganmu — dan perbandingan alat utamanya</h2>\n<p>Kalau kamu mengelola situs perusahaan, kamu perlu tahu <strong>siapa pesaingmu di internet</strong>. Masukkan sebuah domain, dan alat ini menampilkan hingga 100 situs yang muncul untuk kata kunci yang sama di hasil pencarian, lengkap dengan jumlah kata kunci yang sama dan perkiraan trafiknya.</p>\n<p class=\"note\">* Kamu bisa memilih 100, 300, atau 1.000 baris (bawaannya 100). Bagian \"100\" di teks di bawah ini menjelaskan pengaturan bawaan. Biayanya ada di tabel paling atas.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Cara / alat</th><th>Model harga</th><th>Catatan</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>Alat ini (DataForSEO)</td><td>Bayar per permintaan. Sekitar $0.024 per panggilan untuk 100 baris (hasil ukur)</td><td>Dari sebuah domain: situs yang berbagi kata kunci, dengan jumlah kata kunci yang sama dan perkiraan trafik, 100 baris. Bisa disimpan sebagai CSV</td></tr>\n<tr><td>Membaca hasil pencarian sendiri (manual)</td><td>Gratis</td><td>Cari kata kunci utamamu lalu lihat hasil teratas. Makin lama makin melelahkan saat daftarnya bertambah</td></tr>\n<tr><td>Semrush Organic Research (Competitors)</td><td>Langganan (paketnya lihat situs resmi)</td><td>Mengurutkan pesaing berdasarkan kata kunci yang sama dan lainnya. Bantuan Semrush menyebut pesaing SEO belum tentu pesaing bisnis</td></tr>\n<tr><td>Ahrefs Site Explorer</td><td>Langganan (paketnya lihat situs resmi)</td><td>Punya cara untuk menemukan domain pesaing (lihat situs resmi)</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Dicek pada November 2026. Harga bisa berubah — pastikan di situs resmi masing-masing sebelum membeli.</p>\n\n<h2>Kenapa pakai alat ini</h2>\n<ul>\n<li><strong>Temukan pesaing lewat kata kunci yang sama.</strong> Untuk target.com, amazon.com punya sekitar 2,7 juta kata kunci yang sama, youtube.com sekitar 2,6 juta, dan walmart.com sekitar 2,4 juta (hasil ukur).</li>\n<li><strong>Perkiraan trafik seluruh situs ikut tampil.</strong> Kamu bisa lihat seberapa besar mereka.</li>\n<li><strong>Sekitar $0.024 per panggilan.</strong> Sekitar 40 panggilan per $1.</li>\n<li><strong>Lebih lambat daripada alat kami yang lain.</strong> Sekitar 11 detik pada contoh AS (sekitar 5 detik pada uji di Jepang).</li>\n<li><strong>Simpan sebagai CSV.</strong></li>\n</ul>\n\n<h2>Kapan alat ini kurang cocok</h2>\n<ul>\n<li>Kamu hanya ingin <strong>pesaing bisnis</strong> → daftarnya berisi situs yang muncul untuk kata yang sama. Portal besar dan YouTube ikut masuk. Semrush juga mencatat bahwa pesaing SEO bisa berbeda dari pesaing bisnis.</li>\n<li><strong>Baris pertama</strong> adalah domainmu sendiri → baris teratas adalah domain yang kamu masukkan. Kami menampilkannya apa adanya.</li>\n<li>Kamu ingin <strong>lebih dari 100</strong> → pilih 300 atau 1.000 di kolom jumlah (target.com punya sekitar 337 ribu secara total).</li>\n<li>Perkiraan trafik di tabel adalah angka untuk seluruh situs. Ini angka hasil pemodelan, bukan kunjungan yang sebenarnya.</li>\n</ul>\n<p>Alat ini hanya melakukan satu hal: menampilkan 100 situs yang berbagi kata kunci dengan sebuah domain, beserta jumlah kata kunci yang sama.</p>\n\n<h2>FAQ</h2>\n<details><summary>Kenapa domainku sendiri ada di urutan pertama?</summary><p>API menyertakan domain yang kamu masukkan. Kami menampilkannya apa adanya.</p></details>\n<details><summary>Apa maksud jumlah \"kata kunci yang sama\"?</summary><p>Jumlah kata kunci yang membuat domainmu dan situs itu sama-sama muncul di hasil pencarian.</p></details>\n<details><summary>Apakah perkiraan trafik hanya untuk kata kunci yang sama?</summary><p>Tidak. Itu perkiraan trafik untuk seluruh situs.</p></details>\n<details><summary>Apa yang berubah saat negara dan bahasa diganti?</summary><p>Pasar untuk angka-angkanya. Contoh kami memakai Amerika Serikat dan bahasa Inggris, jadi angkanya untuk hasil pencarian di AS.</p></details>\n<details><summary>Bisakah mendaftar dengan email gratis?</summary><p>Tidak. DataForSEO tidak menerima penyedia email gratis. Lihat <a href=\"/dfs-id.html\">Apa itu DataForSEO?</a></p></details>\n</section>\n"
+ },
+ "C47": {
+  "locale": {
+   "c47.name": "Lihat kata kunci yang dimiliki dua situs",
+   "c47.desc": "Lihat kata kunci yang sama dengan pesaing",
+   "c47.price": "Biaya: sekitar $0.024 untuk 100 baris dan sekitar $0.13 untuk 1.000 (hasil ukur pada endpoint Labs; naik sekitar $0.0001 per baris). Contoh gratis.",
+   "c47.eta": "Waktu rata-rata: beberapa detik (sekitar 6 detik hasil ukur)",
+   "c47.title": "Analisis Kesenjangan Kata Kunci | Kata Kunci Dua Situs (Contoh Gratis)",
+   "c47.meta": "Masukkan dua domain dan dapatkan kata kunci yang sama-sama mereka miliki. Lihat tumpang tindih kata kunci dengan pesaing: dasar untuk analisis keyword gap dan content gap. Contoh gratis.",
+   "c47.target1": "Domain 1 (contoh: example.com)",
+   "c47.target2": "Domain 2 (contoh: example.org)",
+   "c47.col.keyword": "Kata kunci",
+   "c47.col.rank1": "Posisi situs pertama",
+   "c47.col.rank2": "Posisi situs kedua",
+   "c47.col.volume": "Pencarian per bulan",
+   "c47.ai_prompt": "Kamu adalah asisten yang membantu membandingkan dua situs.\nPembaca adalah blogger yang ingin tahu kata kunci mana yang sama antara situsnya dan situs pesaing.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Kata kunci: kata kunci yang membuat kedua situs muncul di hasil pencarian.\n  - Peringkat situs pertama / kedua: peringkat masing-masing dari dua situs yang saya masukkan.\n  - Pencarian per bulan: perkiraan berdasarkan data Google Ads.\n- Hanya 100 teratas berdasarkan volume pencarian.\n\n# Yang saya minta\n1. Daftarkan 5 kata kunci (berdasarkan volume pencarian) yang peringkat situs kedua lebih tinggi (angkanya lebih kecil) daripada situs pertama.\n2. Daftarkan 5 kata kunci (berdasarkan volume pencarian) yang peringkat situs pertama lebih tinggi.\n3. Dari kata kunci yang situs pertama kalah dari situs kedua dan volume pencariannya besar, usulkan 3 artikel yang perlu diperbaiki.\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya, alasan perbedaan peringkat).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (kata kunci / peringkat situs pertama / peringkat situs kedua / pencarian per bulan).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+   "c47.count": "Jumlah baris yang diambil (makin banyak makin mahal; lihat tabel di bawah)",
+   "c47.steps": [
+    [
+     "100 baris",
+     "sekitar $0.024 (hasil ukur)",
+     "Lihat hanya kata kunci sama dengan pencarian terbanyak"
+    ],
+    [
+     "300 baris",
+     "sekitar $0.05 (perkiraan)",
+     "Bandingkan kata kunci yang sama menurut selisih peringkat"
+    ],
+    [
+     "1.000 baris",
+     "sekitar $0.13 (perkiraan)",
+     "Temukan tumpang tindih dua situs secara luas"
+    ]
+   ]
+  },
+  "content": "<section class=\"seo\">\n<h2>Cara melihat kata kunci yang dimiliki dua situs — dan perbandingan alat utamanya</h2>\n<p>Kamu ingin membandingkan situs klien dengan situs pesaing pada <strong>kata kunci yang membuat keduanya muncul</strong>. Masukkan dua domain, dan alat ini menampilkan hingga 100 kata kunci yang sama-sama dimiliki keduanya, lengkap dengan posisi tiap situs dan volume pencariannya.</p>\n<p class=\"note\">* Kamu bisa memilih 100, 300, atau 1.000 baris (bawaannya 100). Bagian \"100\" di teks di bawah ini menjelaskan pengaturan bawaan. Biayanya ada di tabel paling atas.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Cara / alat</th><th>Model harga</th><th>Catatan</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>Alat ini (DataForSEO)</td><td>Bayar per permintaan. Sekitar $0.024 per panggilan untuk 100 baris (hasil ukur)</td><td>Kata kunci yang sama dari dua domain, masing-masing dengan posisi dan volumenya, 100 baris. Bisa disimpan sebagai CSV</td></tr>\n<tr><td>Semrush Keyword Gap</td><td>Langganan (paketnya lihat situs resmi)</td><td>Membandingkan kata kunci situsmu dengan beberapa pesaing (batasnya lihat situs resmi). Alat ini memakai dua situs</td></tr>\n<tr><td>Ahrefs Site Explorer (Content gap)</td><td>Langganan (paketnya lihat situs resmi)</td><td>Fitur untuk menemukan kata kunci yang diperingkatkan pesaing tetapi tidak olehmu (lihat situs resmi)</td></tr>\n<tr><td>Mencocokkan di spreadsheet (manual)</td><td>Tergantung alat yang kamu pakai</td><td>Ambil daftar kata kunci masing-masing lalu cocokkan dengan VLOOKUP atau sejenisnya</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Dicek pada November 2026. Harga bisa berubah — pastikan di situs resmi masing-masing sebelum membeli.</p>\n\n<h2>Kenapa pakai alat ini</h2>\n<ul>\n<li><strong>Posisi dua situs berdampingan.</strong> Untuk \"targets\", target.com di posisi 1 dan walmart.com di posisi 11 (hasil ukur untuk target.com dan walmart.com).</li>\n<li><strong>Diurutkan menurut volume.</strong> Totalnya sekitar 6,25 juta kata kunci yang sama (target.com dan walmart.com, hasil ukur); baris teratasnya \"targets\" dengan sekitar 45,5 juta pencarian per bulan.</li>\n<li><strong>Sekitar $0.024 per panggilan.</strong> Sekitar 40 panggilan per $1.</li>\n<li><strong>Hanya beberapa detik.</strong> Panggilan contoh memakan waktu sekitar 6 detik (hasil ukur).</li>\n<li><strong>Simpan sebagai CSV.</strong></li>\n</ul>\n\n<h2>Kapan alat ini kurang cocok</h2>\n<ul>\n<li>Kamu ingin <strong>kata kunci yang hanya dimiliki pesaing</strong> (kesenjanganmu) → alat ini hanya mengembalikan kata kunci yang membuat keduanya muncul.</li>\n<li>Kamu ingin membandingkan <strong>tiga situs atau lebih</strong> → hanya dua situs.</li>\n<li>Kamu ingin <strong>lebih dari 100</strong> → pilih 300 atau 1.000 di kolom jumlah.</li>\n<li>Kata merek bisa memimpin daftar: untuk target.com dan walmart.com, \"targets\" muncul pertama (hasil ukur).</li>\n</ul>\n<p>Alat ini hanya melakukan satu hal: menampilkan 100 kata kunci yang membuat dua domain sama-sama muncul, beserta posisi dan volumenya.</p>\n\n<h2>FAQ</h2>\n<details><summary>Mana situs pertama dan mana situs kedua?</summary><p>Isian di atas adalah situs pertama dan isian di bawah adalah situs kedua. Kolom \"peringkat situs pertama\" dan \"peringkat situs kedua\" sesuai dengan urutan itu.</p></details>\n<details><summary>Bisakah posisinya kosong?</summary><p>Hanya kata kunci yang sama yang ditampilkan, jadi kedua posisi biasanya terisi.</p></details>\n<details><summary>Kenapa hanya 100? Dan bagaimana harganya?</summary><p>Bawaannya 100 per panggilan; kamu bisa memilih 300 atau 1.000. Harganya mengikuti jumlah baris yang dikembalikan: pada uji kecil dengan domain Jepang, 4 kata kunci yang sama biayanya $0.012 (hasil ukur di Jepang).</p></details>\n<details><summary>Apa yang berubah saat negara dan bahasa diganti?</summary><p>Pasar untuk angka-angkanya. Misalnya, Amerika Serikat dan bahasa Inggris memberi posisi pada hasil pencarian di AS.</p></details>\n<details><summary>Bisakah mendaftar dengan email gratis?</summary><p>Tidak. DataForSEO tidak menerima penyedia email gratis. Lihat <a href=\"/dfs-id.html\">Apa itu DataForSEO?</a></p></details>\n</section>\n"
+ }
+}
