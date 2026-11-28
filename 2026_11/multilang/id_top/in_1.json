@@ -1,0 +1,48 @@
+{
+ "categories": {
+  "title": "What you can do here",
+  "intro": "These are DataForSEO API features, one per tool, on screen. Rank checking (SERP), keyword research (search volume, related keywords, difficulty), competitor analysis, local SEO (Google Maps), AI search visibility (ChatGPT, Gemini, Claude, Perplexity, Google AI Mode), YouTube analysis, site audits (page speed, headings) and domain tools (WHOIS, technologies): about 60 tools. BYOK (bring your own key): no subscription, you pay per use with your own API key. Every tool has a free sample, so you can see what you get before you run it. You can pick from every country and language DataForSEO supports, so you can look at local-language searches too (the list depends on the tool).",
+  "sections": [
+   {
+    "title": "Search results and rankings (SEO and local SEO)",
+    "text": "Check Google rankings and see who ranks at the top. Local SEO (Google Maps), news, image and YouTube results are listed per keyword too. For when you want to see who already ranks before you write, or where a shop appears on the map."
+   },
+   {
+    "title": "Keyword research (search volume, related keywords, difficulty)",
+    "text": "Check monthly search volume for up to 1,000 keywords per call for $0.09. Related keywords, long-tail keywords, autocomplete suggestions, keyword difficulty, search intent and monthly history. For choosing the next article's keyword or building ad keyword lists."
+   },
+   {
+    "title": "Search trends and audience",
+    "text": "Google Trends, weekly popularity, popularity by region, the age and gender of people searching, and search volume by country. To see when demand peaks and who it appeals to."
+   },
+   {
+    "title": "Competitor sites and traffic",
+    "text": "Which keywords a competitor ranks for, how much search traffic it gets (estimated) and which pages are strongest. Shared keywords between two sites, finding rival sites, and comparing the size of many sites."
+   },
+   {
+    "title": "AI search (LLM SEO / GEO)",
+    "text": "What ChatGPT, Gemini, Claude, Perplexity and Google AI Mode answer, and whether your site is cited. Search volume for AI questions too. Groundwork for LLM SEO and GEO."
+   },
+   {
+    "title": "Advertising (Google Ads)",
+    "text": "Find out whether a competitor runs Google Ads and what the ads look like."
+   },
+   {
+    "title": "YouTube analysis",
+    "text": "Numbers for a single video, its comments and its full subtitle text."
+   },
+   {
+    "title": "Site audits and page analysis",
+    "text": "Basic page facts (title, headings, word count), extracting headings and body text, page speed scores, screenshots, the technologies a site uses and a domain's registration and expiry dates (WHOIS)."
+   },
+   {
+    "title": "Brand mentions and reputation",
+    "text": "Where your company or product name is being discussed online: mention counts, the share of positive and negative, and monthly trends. Groundwork for PR and sales."
+   },
+   {
+    "title": "Leads, local businesses and hotels",
+    "text": "Lists of local businesses, Google Business Profile details, hotel prices nearby and sites that use a given technology. For finding prospects and researching local competitors."
+   }
+  ]
+ }
+}
