@@ -1,0 +1,68 @@
+{
+ "C19": {
+  "locale_en": {
+   "c19.name": "See Claude's answer",
+   "c19.desc": "See what Claude says when asked",
+   "c19.price": "Cost: about $0.002 per question (no web search, about 450 per $1). The sample is free. With several inputs you pay per item.",
+   "c19.eta": "Typical time: a few seconds",
+   "c19.title": "Claude Answers Check | See What Claude Says and Compare It with ChatGPT (Free Sample)",
+   "c19.meta": "See the answer Claude gives to a question. Compare it with ChatGPT and Gemini, and check how your brand or a competitor is described. Free sample.",
+   "c19.prompt": "Question (e.g. What are good attendance tools for a small company?) (one per line, up to 30)",
+   "c19.col.answer": "Claude's answer",
+   "c19.answer": "Claude's answer",
+   "c19.ai_prompt": "You are an assistant who helps read Claude answers.\nThe reader is a person who wants to check whether their company or product appears when customers ask AI such questions.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Contents: the AI answer text and a table of sources\n- Columns\n  - Answer: the text of Claude's answer.\n  - Answers can change each time you ask. This is one result from this day.\n- The Claude in this tool does not use web search. No sources are shown.\n\n# What I would like you to do\n1. List every company, product and shop name in the answer, in the order they appear.\n2. List 3 points to check whether my company or product appears.\n3. If sources are shown, count the domains. If not, write \"none\".\n4. Briefly say what cannot be known from the data alone (for example, how to get into the answer).\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table (name / order of appearance).\n\n# Data (tab-separated)\n```\n{data}\n```",
+   "c19.steps": [
+    [
+     "1 item",
+     "$0.002 (a guide)",
+     "Check one question"
+    ],
+    [
+     "5 items",
+     "$0.01 (a guide)",
+     "Line up several questions and compare"
+    ],
+    [
+     "30 items",
+     "$0.06 (a guide)",
+     "Go through many questions at once and keep them as a table or CSV"
+    ]
+   ]
+  },
+  "content_en": "<section class=\"seo\">\n<h2>Ways to see how Claude answers — and how the main tools compare</h2>\n<p>When a prospect asks Claude \"what are good attendance-tracking tools for a small company?\", <strong>does your name come up</strong>? You want to know before the sales call. Enter a question and this tool shows Claude's answer as text.</p>\n<p class=\"note\">* You can now enter many items, one per line (each is sent one by one, so you pay per item). The table gets an \"Input\" column. Where the text below says \"one\", it describes a single item. See the table at the top for the cost.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.002 each (measured, no web search)</td><td>Enter a question; get the answer text. Save as CSV. The model is fixed to claude-haiku-4-5</td></tr>\n<tr><td>The Claude app (by hand)</td><td>Free plan available (see the official site for limits)</td><td>You ask and read. The real screen, so the most accurate. You keep your own record</td></tr>\n<tr><td>Ahrefs Brand Radar (Prompt Tracking)</td><td>Subscription (see the official site for prices and supported AI tools)</td><td>Tracks chosen questions every day. For ongoing tracking</td></tr>\n<tr><td>SE Ranking SE Visible</td><td>Subscription (see the official site for prices)</td><td>Tracks exposure across several AI tools. Check the official site for which ones</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Checked in November 2026. Prices change — confirm on each vendor's official site before you buy.</p>\n\n<h2>Why use this tool</h2>\n<ul>\n<li><strong>Read the answer as text.</strong> See whether you or your rivals are named.</li>\n<li><strong>About $0.002 and a few seconds.</strong> Our New York ramen sample took 2.9 seconds and cost $0.0018. About 450 per $1, so you can try many questions.</li>\n<li><strong>Any question you like.</strong> Phrase it as a prospect would.</li>\n<li><strong>Save as CSV.</strong> Keep the answer with a date.</li>\n<li><strong>Headings and bullet lists display as written.</strong></li>\n</ul>\n\n<h2>When it is not the right fit</h2>\n<ul>\n<li>You want <strong>fresh information or sources</strong> → this tool does not use web search. Claude answers from what it already knows and shows no sources (web search cost about $0.025 in our test).</li>\n<li>You want <strong>exactly what the Claude app shows</strong> → this asks claude-haiku-4-5 through the API. The model and answer can differ from the app.</li>\n<li>You want a <strong>verdict on whether you were named</strong> → the tool just lays out the answer.</li>\n<li>You want <strong>ongoing tracking</strong> → one call is one answer at one moment.</li>\n</ul>\n<p>This tool does one thing: show how Claude answers a question without web search.</p>\n\n<h2>FAQ</h2>\n<details><summary>Why are there no sources?</summary><p>The tool does not use web search. For sources, the Perplexity and Gemini tools fit better.</p></details>\n<details><summary>Does the cost depend on the answer length?</summary><p>We measured about $0.002 (the US sample cost $0.0018; two earlier calls cost $0.0022 and $0.0024). The cost for a long answer is untested.</p></details>\n<details><summary>Why is there no country or language selector?</summary><p>This call has no country or language setting.</p></details>\n<details><summary>Is the answer the same each time?</summary><p>Answers can change from call to call.</p></details>\n<details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href=\"/dfs-en.html\">What is DataForSEO?</a></p></details>\n</section>\n"
+ },
+ "C20": {
+  "locale_en": {
+   "c20.name": "See Gemini's answer",
+   "c20.desc": "See what Gemini says when asked",
+   "c20.price": "Cost: about $0.016–0.06 per question (with web search; 3 tests). The sample is free. With several inputs you pay per item.",
+   "c20.eta": "Typical time: about 4–8 seconds",
+   "c20.title": "Gemini Answers Check | Compare Gemini vs ChatGPT and See If Your Brand Appears (Free Sample)",
+   "c20.meta": "See the answer Gemini gives to a question. Compare Gemini vs ChatGPT and check whether your brand appears. Free sample.",
+   "c20.prompt": "Question (e.g. Recommend three good ramen restaurants in New York City) (one per line, up to 20)",
+   "c20.col.title": "Source name",
+   "c20.col.url": "Cited page URL",
+   "c20.answer": "Gemini's answer",
+   "c20.refs": "Cited pages",
+   "c20.ai_prompt": "You are an assistant who helps read Gemini answers.\nThe reader is a person who wants to check whether their company or product appears when customers ask AI such questions.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Contents: the AI answer text and a table of sources\n- Columns\n  - Source name / URL: the pages the answer cited.\n  - Answers can change each time you ask. This is one result from this day.\n\n# What I would like you to do\n1. List every company, product and shop name in the answer, in the order they appear.\n2. List 3 points to check whether my company or product appears.\n3. If sources are shown, count the domains. If not, write \"none\".\n4. Briefly say what cannot be known from the data alone (for example, how to get into the answer).\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table (name / order of appearance).\n\n# Data (tab-separated)\n```\n{data}\n```",
+   "c20.steps": [
+    [
+     "1 item",
+     "$0.06 (a guide)",
+     "Check one question"
+    ],
+    [
+     "5 items",
+     "$0.30 (a guide)",
+     "Line up several questions and compare"
+    ],
+    [
+     "20 items",
+     "$1.20 (a guide)",
+     "Go through many questions at once and keep them as a table or CSV"
+    ]
+   ]
+  },
+  "content_en": "<section class=\"seo\">\n<h2>Ways to see how Gemini answers — and how the main tools compare</h2>\n<p>When someone asks Gemini about your client's industry, <strong>which sites does it cite</strong>? You want a line like \"this is how AI search looks today\" in your proposal. Enter a question and this tool returns Gemini's answer with web search, plus the pages it cited.</p>\n<p class=\"note\">* You can now enter many items, one per line (each is sent one by one, so you pay per item). The table gets an \"Input\" column. Where the text below says \"one\", it describes a single item. See the table at the top for the cost.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.016–0.06 each (3 tests; average about $0.035)</td><td>Enter a question; get the answer text and the cited pages (title and URL). Save as CSV. The model is fixed to gemini-3.5-flash-lite</td></tr>\n<tr><td>The Gemini app (by hand)</td><td>Free plan available (see the official site for limits)</td><td>You ask and read. The real screen. You keep your own record</td></tr>\n<tr><td>SE Ranking SE Visible</td><td>Subscription (see the official site for prices)</td><td>Tracks exposure across several AI tools, Gemini included. For ongoing tracking</td></tr>\n<tr><td>Ahrefs Brand Radar</td><td>Subscription (see the official pricing page)</td><td>Research and tracking of AI exposure</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Checked in November 2026. Prices change — confirm on each vendor's official site before you buy.</p>\n\n<h2>Why use this tool</h2>\n<ul>\n<li><strong>The answer and its sources, side by side.</strong> Keep the cited titles and URLs as they are.</li>\n<li><strong>Real source URLs.</strong> You get the original page URL, not a Google redirect link.</li>\n<li><strong>A few seconds.</strong> We measured about 4–8 seconds (our New York sample took 4.5 seconds).</li>\n<li><strong>Any question you like.</strong> Phrase it for your client's industry.</li>\n<li><strong>Save as CSV.</strong> Paste it into a proposal draft.</li>\n</ul>\n\n<h2>When it is not the right fit</h2>\n<ul>\n<li>You need a <strong>fixed price</strong> → with web search the cost varies with answer length and searches. In 3 tests it was $0.016, $0.030 and $0.058 (the New York sample cost $0.030).</li>\n<li>You want <strong>exactly what the Gemini app shows</strong> → this asks gemini-3.5-flash-lite through the API, so the answer can differ.</li>\n<li>You call at a <strong>busy moment</strong> → the service behind DataForSEO sometimes returned a busy error (50301). The tool retries up to 3 times, then says it is busy (no charge in that case).</li>\n<li>You want <strong>ongoing tracking</strong> → one call is one answer at one moment.</li>\n</ul>\n<p>This tool does one thing: show how web-search Gemini answers a question and what it cites.</p>\n\n<h2>FAQ</h2>\n<details><summary>Why does the cost vary?</summary><p>With web search, the cost depends on the amount of searching and the answer length. We measured about $0.016 to $0.058.</p></details>\n<details><summary>Why is a source title just a site name?</summary><p>Gemini often names a citation by its site. We show it as returned.</p></details>\n<details><summary>Am I charged when an error comes back?</summary><p>For the busy error (50301) the cost was $0.</p></details>\n<details><summary>Why is there no country or language selector?</summary><p>This call has no country or language setting.</p></details>\n<details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href=\"/dfs-en.html\">What is DataForSEO?</a></p></details>\n</section>\n"
+ }
+}

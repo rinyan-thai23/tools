@@ -1,0 +1,71 @@
+{
+ "C05": {
+  "locale_en": {
+   "c05.name": "See Google News articles",
+   "c05.desc": "See how your company or industry appears in the news",
+   "c05.price": "Approx. cost: about $0.002 for 10 results, $0.004 for 20 (adds up per 10). The sample view is free. With several inputs you pay per item. Each item takes time, so many items mean a long wait.",
+   "c05.eta": "Typical for this tool: about 1–1.5 minutes",
+   "c05.title": "Google News Search Results | Track News Coverage of Your Company or Topic (Free Sample)",
+   "c05.meta": "Enter a keyword or company name and get the Google News articles as a table: source, date and title. Use it for news monitoring and to see how your company or industry appears in the news.",
+   "c05.keyword": "Keyword (e.g. a company name) (one per line, up to 10)",
+   "c05.count": "Number of results (from the top)",
+   "c05.col.source": "Source",
+   "c05.col.date": "Date",
+   "c05.col.title": "Title",
+   "c05.col.url": "URL",
+   "c05.ai_prompt": "You are an assistant who helps organize news articles.\nThe reader is a PR or sales person who wants to know how a company or product shows up in the news.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Rows: {n}\n- Columns\n  - Source / date / title: the outlet, the date and the headline.\n  - Results and numbers can change with place and time. This is for this day and these conditions.\n\n# What I would like you to do\n1. Count the articles per outlet.\n2. Sum up the topics in 3-5 groups, newest date first.\n3. List words that appear often in the titles, as far as they can be counted.\n4. Briefly say what cannot be known from the data alone (for example, whether coverage is favorable).\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table (outlet / number of articles).\n\n# Data (tab-separated)\n```\n{data}\n```",
+   "c05.steps": [
+    [
+     "1 item",
+     "$0.002 (a guide)",
+     "Check one keyword"
+    ],
+    [
+     "5 items",
+     "$0.01 (a guide)",
+     "Line up several keywords and compare"
+    ],
+    [
+     "10 items",
+     "$0.02 (a guide)",
+     "Go through many keywords at once and keep them as a table or CSV"
+    ]
+   ]
+  },
+  "content_en": "<section class=\"seo\">\n<h2>Ways to see how your company appears in the news — and how the main tools compare</h2>\n<p>After a press release, or when a client says \"I saw you in the news\", you want to see in one place <strong>which outlets covered you, when, and under what headline</strong>. There are several ways to find out.</p>\n<p class=\"note\">* You can now enter many items, one per line (each is sent one by one, so you pay per item). The table gets an \"Input\" column. Where the text below says \"one\", it describes a single item. See the table at the top for the cost.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.002 for 10 results (US sample), $0.004 for 20 (measured in an earlier test in Japan); adds up per 10</td><td>Source, date, title and URL in one table. Choose country and language. Save as CSV. Takes about 1–1.5 minutes</td></tr>\n<tr><td>Search Google News by hand</td><td>Free</td><td>Quick, but you note each article yourself and saving the list is on you</td></tr>\n<tr><td>Google Alerts</td><td>Free</td><td>Notifies you when a search term gets new results. Good for watching over time; little analysis</td></tr>\n<tr><td>Paid media-monitoring services (monthly subscription)</td><td>Subscription pricing varies by vendor; see each vendor's official site</td><td>Typically built for continuous monitoring across many sources rather than one-off lists</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Checked in November 2026. Prices change — confirm on each vendor's official site before you buy.</p>\n\n<h2>Why use this tool</h2>\n<ul>\n<li><strong>Source, date, title and URL in one table.</strong> Use the list as-is in a meeting or report.</li>\n<li><strong>Only as many as you need.</strong> Choose 10, 20, 50 or 100 results. In our tests, 10 results cost about $0.002 (US sample, \"tesla\") and 20 cost about $0.004 (earlier test in Japan); for larger counts, check the cost shown under the results.</li>\n<li><strong>No monthly fee.</strong> The day after a press release, check which outlets picked it up.</li>\n<li><strong>Pick country and language.</strong> See how you appear in news abroad, too.</li>\n<li><strong>Save as CSV.</strong> Pull it monthly and compare how coverage grows.</li>\n</ul>\n\n<h2>When it is not the right fit</h2>\n<ul>\n<li>You want <strong>automatic alerts</strong> for new articles → Google Alerts fits better (free).</li>\n<li>You want <strong>social mentions or sentiment analysis</strong> → a paid monitoring service fits better. This tool only lists Google News articles.</li>\n<li>You want <strong>every past article</strong> → Google News returns mostly recent articles.</li>\n</ul>\n<p>This tool does one thing: show which articles Google News lists right now, as many as you ask for, in a table.</p>\n\n<h2>FAQ</h2>\n<details><summary>Is the date the publication date?</summary><p>It is the article time Google returns, shown as a date. Google itself shows relative text such as \"2 days ago\"; this tool shows the returned timestamp as a date.</p></details>\n<details><summary>Why does it take a minute or more?</summary><p>Google now routes each result link through Google first (for click tracking). The tool follows those links to find the real article URLs, which took about 77 seconds in our US sample (\"tesla\", 10 results) and 50 seconds to 1 minute in earlier tests in Japan.</p></details>\n<details><summary>How much does a larger count cost?</summary><p>In our tests, 10 results cost $0.002 (US sample) and 20 results cost $0.004 (earlier test in Japan). We have not measured larger counts; check the cost shown under the results.</p></details>\n<details><summary>Searching my company name shows unrelated articles.</summary><p>Articles matching the keyword are shown as returned. Adding an industry word to the company name narrows them.</p></details>\n<details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href=\"/dfs-en.html\">What is DataForSEO?</a></p></details>\n</section>\n"
+ },
+ "C07": {
+  "locale_en": {
+   "c07.name": "See top image search results",
+   "c07.desc": "See what covers and thumbnails look like for a keyword",
+   "c07.price": "Approx. cost: about $0.002 for 20–100 results (measured; the same price at any count). The sample view is free. With several inputs you pay per item.",
+   "c07.eta": "Typical for this tool: about 7–10 seconds",
+   "c07.title": "Google Image Search Results | Thumbnail and Book Cover Inspiration, Image SEO (Free Sample)",
+   "c07.meta": "Enter a keyword and get the top Google image results as a list of thumbnails. Use it for thumbnail ideas, book cover design inspiration and image SEO research: see what kind of images rank.",
+   "c07.keyword": "Keyword (one per line, up to 30)",
+   "c07.count": "Number of results (from the top)",
+   "c07.col.image": "Image",
+   "c07.col.title": "Title",
+   "c07.col.url": "Source page URL",
+   "c07.ai_prompt": "You are an assistant who helps organize image search results.\nThe reader is a person who wants to see what shows at the top of image search before designing thumbnails, covers or blog images.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Rows: {n}\n- Columns\n  - Image: the image shown in the results (the copied table does not include the image itself).\n  - Title / page URL: the image title and the page it appears on.\n  - Results and numbers can change with place and time. This is for this day and these conditions.\n\n# What I would like you to do\n1. Count the page domains and list the sites that appear often.\n2. List words the titles share, as far as they can be counted.\n3. You cannot see the images themselves, so do not judge how they look.\n4. Briefly say what cannot be known from the data alone (for example, the reasons or future results).\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table (domain / count).\n\n# Data (tab-separated)\n```\n{data}\n```",
+   "c07.steps": [
+    [
+     "1 item",
+     "$0.002 (a guide)",
+     "Check one keyword"
+    ],
+    [
+     "5 items",
+     "$0.01 (a guide)",
+     "Line up several keywords and compare"
+    ],
+    [
+     "30 items",
+     "$0.06 (a guide)",
+     "Go through many keywords at once and keep them as a table or CSV"
+    ]
+   ]
+  },
+  "content_en": "<section class=\"seo\">\n<h2>Ways to see cover and thumbnail trends — and how the main tools compare</h2>\n<p>Before you design an ebook cover or a blog header image, you want to see <strong>what looks dominate the image results</strong> for your topic: the colors, the text size, photo or illustration. This is the \"get a feel for the trend\" stage.</p>\n<p class=\"note\">* You can now enter many items, one per line (each is sent one by one, so you pay per item). The table gets an \"Input\" column. Where the text below says \"one\", it describes a single item. See the table at the top for the cost.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.002 for 20–100 results (measured)</td><td>Thumbnails with title and source page URL in one table, up to 100 at once. Save as CSV</td></tr>\n<tr><td>Google Images by hand</td><td>Free</td><td>Quick, but you scroll and keep your own record of what you saw and the source pages</td></tr>\n<tr><td>Ahrefs Rank Tracker</td><td>Monthly subscription (see the official site for plans)</td><td>Tracks whether your site shows in the image pack. Its purpose is tracking your own rank</td></tr>\n<tr><td>Amazon bestseller lists / Kindle store</td><td>Free</td><td>Shows the covers of books that actually sell — a different view from search results</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Checked in November 2026. Prices change — confirm on each vendor's official site before you buy.</p>\n\n<h2>Why use this tool</h2>\n<ul>\n<li><strong>Thumbnails in a row.</strong> See the trend along with each title and source page URL.</li>\n<li><strong>100 results for $0.002.</strong> In our test even 100 results cost about $0.002, so you can look beyond the first few.</li>\n<li><strong>About 7–10 seconds.</strong> We measured about 9 seconds for \"ebook cover design\". Swap keywords and compare several topics.</li>\n<li><strong>A first step for a new cover.</strong> With no monthly fee, compare the trends for several topics the day you start.</li>\n<li><strong>Save as CSV.</strong> Keep the source page URLs and revisit them later.</li>\n</ul>\n\n<h2>When it is not the right fit</h2>\n<ul>\n<li>Depending on the keyword, the results can be <strong>design-service samples rather than real book covers</strong> (in our sample for \"ebook cover design\", most of the 100 results were cover-design services, templates and marketplace listings such as Etsy and Fiverr). Try other words, such as a genre plus \"cover\".</li>\n<li>You want a <strong>high-resolution copy</strong> or to <strong>use the image</strong> → the table shows small search-result thumbnails and the source page URL. Other people's images are copyrighted; use them as reference only.</li>\n<li>You want to compare covers by <strong>sales</strong> → image-search rank is unrelated to sales. Amazon's bestseller lists fit better.</li>\n<li>You want to <strong>keep tracking</strong> where your own image ranks → a rank-tracking tool such as Ahrefs Rank Tracker fits better.</li>\n</ul>\n<p>This tool does one thing: show which images lead Google Images for a keyword, as many as you ask for.</p>\n\n<h2>FAQ</h2>\n<details><summary>Can I use a displayed image for my own cover?</summary><p>No. Images are copyrighted. Treat them as a reference for trends. The tool shows search-result thumbnails only.</p></details>\n<details><summary>Does the rank relate to sales?</summary><p>No. It is the order in Google Images.</p></details>\n<details><summary>The source page URL has a long string on the end.</summary><p>The URL is shown exactly as Google returned it. The page still opens normally.</p></details>\n<details><summary>Does a larger count cost more?</summary><p>In our test, 20 results and 100 results both cost about $0.002.</p></details>\n<details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href=\"/dfs-en.html\">What is DataForSEO?</a></p></details>\n</section>\n"
+ }
+}

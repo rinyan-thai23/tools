@@ -1,0 +1,75 @@
+{
+ "C21": {
+  "locale_en": {
+   "c21.name": "See Perplexity's answer",
+   "c21.desc": "See which sites Perplexity cites",
+   "c21.price": "Cost: about $0.006 per question (about 170 per $1). The sample is free. With several inputs you pay per item.",
+   "c21.eta": "Typical time: a few seconds",
+   "c21.title": "Perplexity Answers and Sources | See Which Sites Perplexity Cites (Free Sample)",
+   "c21.meta": "See the answer Perplexity gives, together with the sources it cites. Find out which sites Perplexity cites for a question: a starting point for Perplexity SEO and LLM SEO. Free sample.",
+   "c21.prompt": "Question (e.g. Recommend three good ramen restaurants in New York City) (one per line, up to 30)",
+   "c21.col.title": "Page title",
+   "c21.col.url": "Page URL",
+   "c21.answer": "Perplexity's answer",
+   "c21.refs": "Cited search results",
+   "c21.ai_prompt": "You are an assistant who helps read Perplexity answers.\nThe reader is a person who wants to check whether their company or product appears when customers ask AI such questions.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Contents: the AI answer text and a table of sources\n- Columns\n  - Page title / URL: the pages the answer used.\n  - Answers can change each time you ask. This is one result from this day.\n\n# What I would like you to do\n1. List every company, product and shop name in the answer, in the order they appear.\n2. List 3 points to check whether my company or product appears.\n3. If sources are shown, count the domains. If not, write \"none\".\n4. Briefly say what cannot be known from the data alone (for example, how to get into the answer).\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table (name / order of appearance).\n\n# Data (tab-separated)\n```\n{data}\n```",
+   "c21.steps": [
+    [
+     "1 item",
+     "$0.006 (a guide)",
+     "Check one question"
+    ],
+    [
+     "5 items",
+     "$0.03 (a guide)",
+     "Line up several questions and compare"
+    ],
+    [
+     "30 items",
+     "$0.18 (a guide)",
+     "Go through many questions at once and keep them as a table or CSV"
+    ]
+   ]
+  },
+  "content_en": "<section class=\"seo\">\n<h2>Ways to see what Perplexity cites — and how the main tools compare</h2>\n<p>When you write affiliate articles, you want to know <strong>which sites Perplexity cites for your topic</strong>. Enter a question and this tool returns Perplexity's (sonar) answer and the search results it used, with title and URL.</p>\n<p class=\"note\">* You can now enter many items, one per line (each is sent one by one, so you pay per item). The table gets an \"Input\" column. Where the text below says \"one\", it describes a single item. See the table at the top for the cost.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.006 each (measured)</td><td>Enter a question; get the answer text and the cited search results (title and URL). Save as CSV. The model is fixed to sonar</td></tr>\n<tr><td>The Perplexity app (by hand)</td><td>Free plan available; Pro is $20/month (per its pricing page; see the official site for details)</td><td>You ask and read. The real screen. You keep your own record</td></tr>\n<tr><td>Ahrefs Brand Radar (AI Visibility)</td><td>Subscription (see the official pricing page)</td><td>Researches and tracks AI exposure. For ongoing tracking</td></tr>\n<tr><td>Semrush AI Visibility Toolkit</td><td>Subscription (requires a Semrush plan; see the official site for prices)</td><td>Researches exposure across several AI tools. Broad</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Checked in November 2026. Prices change — confirm on each vendor's official site before you buy.</p>\n\n<h2>Why use this tool</h2>\n<ul>\n<li><strong>Ten search results in a row.</strong> Our New York sample returned 10; keep their titles and URLs.</li>\n<li><strong>About $0.006 and a few seconds.</strong> Our sample took 2.3 seconds. About 170 per $1, so you can try many topics.</li>\n<li><strong>Clues to what the answer rests on.</strong> Compare which kinds of pages get used.</li>\n<li><strong>Any question you like.</strong></li>\n<li><strong>Save as CSV.</strong></li>\n</ul>\n\n<h2>When it is not the right fit</h2>\n<ul>\n<li>You want <strong>exactly what the Perplexity app shows</strong> → this is the API's sonar model. Pro search in the app can differ.</li>\n<li>You want a <strong>verdict on how the sources are used</strong> → the tool only lists the search results.</li>\n<li>You want <strong>ongoing tracking</strong> → one call is one answer at one moment.</li>\n<li>You want to <strong>choose the model</strong> → fixed to sonar.</li>\n</ul>\n<p>This tool does one thing: show how Perplexity answers a question and which pages it cites.</p>\n\n<h2>FAQ</h2>\n<details><summary>Does the table match the citations inside the answer?</summary><p>The table is the list of search results the API returned. We do not map them to the numbered citations in the answer.</p></details>\n<details><summary>Why is there no web-search setting?</summary><p>sonar returns search results with its answer (in both our sample and our test). The tool has no setting for it.</p></details>\n<details><summary>Why is there no country or language selector?</summary><p>This call has no country or language setting.</p></details>\n<details><summary>Does the cost depend on the answer length?</summary><p>We measured about $0.006 (two calls, $0.0059 each; the New York sample cost $0.0058). The cost for a long answer is untested.</p></details>\n<details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href=\"/dfs-en.html\">What is DataForSEO?</a></p></details>\n</section>\n"
+ },
+ "C22": {
+  "locale_en": {
+   "c22.name": "See ChatGPT search",
+   "c22.desc": "See which products ChatGPT search shows",
+   "c22.price": "Cost: about $0.004 per search (about 250 per $1). Takes about 20–30 seconds. The sample is free. With several inputs you pay per item.",
+   "c22.eta": "Typical time: about 20–30 seconds",
+   "c22.title": "ChatGPT Search and Shopping Results | See Which Products and Sources Appear (Free Sample)",
+   "c22.meta": "See the products and cited sources ChatGPT search returns for a shopping-style question. Check whether your product appears in ChatGPT search and shopping results. Free sample.",
+   "c22.keyword": "Keyword (e.g. how to start a blog) (one per line, up to 10)",
+   "c22.col.title": "Source title",
+   "c22.col.domain": "Site",
+   "c22.col.url": "Source URL",
+   "c22.col.p_image": "Image",
+   "c22.col.p_title": "Product",
+   "c22.col.p_tag": "Tag",
+   "c22.answer": "ChatGPT search answer",
+   "c22.refs": "Sources",
+   "c22.products": "Recommended products",
+   "c22.ai_prompt": "You are an assistant who helps read ChatGPT search results.\nThe reader is a person who wants to check whether their product or shop appears in ChatGPT shopping and search answers.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Contents: the AI answer text and a table of sources\n- Columns\n  - Source title / site / URL: the pages the answer used.\n  - Product / tag: the products shown in the answer and their tags (second table).\n  - Answers can change each time you ask. This is one result from this day.\n\n# What I would like you to do\n1. List every product and brand name in the answer, in the order they appear.\n2. Count the source sites and list the ones that appear often.\n3. List 3 points to check whether my product appears.\n4. Briefly say what cannot be known from the data alone (for example, the reasons or future results).\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table (brand / product / order).\n\n# Data (tab-separated)\n```\n{data}\n```",
+   "c22.steps": [
+    [
+     "1 item",
+     "$0.004 (a guide)",
+     "Check one keyword"
+    ],
+    [
+     "5 items",
+     "$0.02 (a guide)",
+     "Line up several keywords and compare"
+    ],
+    [
+     "10 items",
+     "$0.04 (a guide)",
+     "Go through many keywords at once and keep them as a table or CSV"
+    ]
+   ]
+  },
+  "content_en": "<section class=\"seo\">\n<h2>Ways to see ChatGPT search results — and how the main tools compare</h2>\n<p>If you sell goods online, you wonder <strong>which products ChatGPT search shows when someone asks about your product category</strong>. Enter a keyword and this tool fetches a result shaped like the ChatGPT search screen: the answer, the sources and the products.</p>\n<p class=\"note\">* You can now enter many items, one per line (each is sent one by one, so you pay per item). The table gets an \"Input\" column. Where the text below says \"one\", it describes a single item. See the table at the top for the cost.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.004 each (measured). Takes about 20–30 seconds (21 s for the \"how to start a blog\" sample; 24–31 s in two earlier tests)</td><td>From a keyword: the answer text, a table of sources and a table of products (name, tag, image). Save as CSV</td></tr>\n<tr><td>The ChatGPT app (by hand)</td><td>Free plan available (see the official site for limits)</td><td>You ask and look. The real screen, so the most accurate. You keep your own record</td></tr>\n<tr><td>Semrush AI Visibility Toolkit</td><td>Subscription (requires a Semrush plan; see the official site for prices)</td><td>Researches exposure across several AI tools. For ongoing tracking</td></tr>\n<tr><td>Ahrefs Brand Radar</td><td>Subscription (see the official pricing page)</td><td>Researches and tracks AI exposure. For ongoing tracking</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Checked in November 2026. Prices change — confirm on each vendor's official site before you buy.</p>\n\n<h2>Why use this tool</h2>\n<ul>\n<li><strong>Close to the screen.</strong> The answer, the sources and the recommended products come together.</li>\n<li><strong>About $0.004.</strong> About 250 per $1, so you can check many keywords.</li>\n<li><strong>Product name and tag.</strong> When ChatGPT shows products, see how each was introduced, such as \"best overall\" or \"best value\". Our \"how to start a blog\" sample returned an answer and 4 sources (WordPress.com, Wix, Blogger, Substack) but no products; shopping keywords such as \"wireless earbuds\" are more likely to show them.</li>\n<li><strong>Choose the market.</strong> Pick country and language, such as the U.S. and English.</li>\n<li><strong>Save as CSV.</strong> Keep the sources table.</li>\n</ul>\n\n<h2>When it is not the right fit</h2>\n<ul>\n<li>You want <strong>a quick result</strong> → it takes about 20–30 seconds (21 s for our sample; 24–31 s in earlier tests) because it searches before it answers.</li>\n<li>You want <strong>product prices or URLs</strong> → the product table shows name, tag and image. Price and URL were mostly empty in our earlier tests (measured in Japan with a Japanese keyword), and our U.S. sample returned no products at all.</li>\n<li>You want a <strong>verdict on whether your product appeared</strong> → the tool only lays out what came back.</li>\n<li>You want <strong>ongoing tracking</strong> → one call is one answer at one moment.</li>\n</ul>\n<p>This tool does one thing: show how ChatGPT search answers a keyword, what it cites and which products it shows.</p>\n\n<h2>FAQ</h2>\n<details><summary>Why does it take 20–30 seconds?</summary><p>It searches first and then writes the answer. We measured 21 seconds for the sample and 24–31 seconds in earlier tests.</p></details>\n<details><summary>Which model is it?</summary><p>The API reported the model as gpt-6. The result is not guaranteed to match the ChatGPT app.</p></details>\n<details><summary>How is it different from \"see ChatGPT's answer\"?</summary><p>That tool asks a ChatGPT model directly through the API. This one fetches a result shaped like the ChatGPT search screen, with sources and products.</p></details>\n<details><summary>May I use the product images?</summary><p>The images come from ChatGPT. Other people's images are copyrighted; use them as reference only.</p></details>\n<details><summary>What does the country and language choice change?</summary><p>It runs the ChatGPT search for that country and language.</p></details>\n<details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href=\"/dfs-en.html\">What is DataForSEO?</a></p></details>\n</section>\n"
+ }
+}

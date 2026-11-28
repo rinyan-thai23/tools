@@ -1,0 +1,78 @@
+{
+ "C03": {
+  "locale_en": {
+   "c03.name": "See the top places on Google Maps",
+   "c03.desc": "See where your shop and your competitors rank on the map",
+   "c03.price": "Approx. cost: about $0.002 for 10–100 results (measured; the same price at any count, about 500 per $1). The sample view is free. With several inputs you pay per item.",
+   "c03.eta": "Typical for this tool: a few seconds",
+   "c03.title": "Google Maps Rank Checker | See the Top Local Businesses for a Keyword (Free Sample)",
+   "c03.meta": "Enter a keyword and get the top local businesses on Google Maps as a table: rank, rating, review count and phone number. A Google Maps rank checker and local SEO research tool. It uses a country-wide ",
+   "c03.keyword": "Keyword (e.g. massage san francisco) (one per line, up to 30)",
+   "c03.count": "Number of results (from the top)",
+   "c03.col.rank": "Rank",
+   "c03.col.title": "Name",
+   "c03.col.rating": "Rating",
+   "c03.col.votes": "Reviews",
+   "c03.col.address": "Address",
+   "c03.col.phone": "Phone",
+   "c03.col.url": "Website",
+   "c03.ai_prompt": "You are an assistant who helps organize map rankings of shops.\nThe reader is a shop owner (or someone helping a shop) who wants to know which shops show at the top of the map.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Rows: {n}\n- Columns\n  - Rank: the position in the map results.\n  - Rating / reviews: the star rating and the number of reviews shown on the map.\n  - Address, phone, site: the shop info shown on the map.\n  - Results and numbers can change with place and time. This is for this day and these conditions.\n\n# What I would like you to do\n1. Line up the rating and review count of the top 5 shops and briefly sum up what they have in common.\n2. Tell me, with numbers, how shops with many reviews differ from those with few.\n3. List 3 things I can check to get my shop to show higher (only as far as the data allows).\n4. Briefly say what cannot be known from the data alone (for example, the reasons or future results).\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table (shop / rank / rating / reviews).\n\n# Data (tab-separated)\n```\n{data}\n```",
+   "c03.steps": [
+    [
+     "1 item",
+     "$0.002 (a guide)",
+     "Check one keyword"
+    ],
+    [
+     "5 items",
+     "$0.01 (a guide)",
+     "Line up several keywords and compare"
+    ],
+    [
+     "30 items",
+     "$0.06 (a guide)",
+     "Go through many keywords at once and keep them as a table or CSV"
+    ]
+   ]
+  },
+  "content_en": "<section class=\"seo\">\n<h2>Ways to see where your shop ranks on Google Maps — and how the main tools compare</h2>\n<p>When a customer searches \"massage San Francisco\", <strong>where does your shop appear</strong> on the map? Who are the competitors, and how far apart are your ratings and review counts? Often you first just want to see today's list in one place.</p>\n<p class=\"note\">* You can now enter many items, one per line (each is sent one by one, so you pay per item). The table gets an \"Input\" column. Where the text below says \"one\", it describes a single item. See the table at the top for the cost.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.002 for 10–100 results (measured; about 500 per $1)</td><td>Rank, name, rating, review count, address, phone and website in one table. Returns in a few seconds. Save as CSV</td></tr>\n<tr><td>Search Google Maps by hand</td><td>Free</td><td>Quick, but ranks shift with your location, time and history, and noting competitors one by one takes effort</td></tr>\n<tr><td>Local Falcon</td><td>Monthly subscription; see the official site for pricing</td><td>Geo-grid tracking: measures rank from many points on the map, so you see strong and weak areas</td></tr>\n<tr><td>Semrush Local (Map Rank Tracker)</td><td>Monthly subscription per location; see the official site for pricing</td><td>Map rank tracking plus listing management</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Checked in November 2026, including third-party listings. Prices change — confirm on each vendor's official site before you buy.</p>\n\n<h2>Why use this tool</h2>\n<ul>\n<li><strong>See the competitive set at a glance.</strong> Ratings, review counts, phones and websites of the top places sit in one table.</li>\n<li><strong>The same price at any count.</strong> In our tests (a US sample and an earlier test in Japan with a Japanese keyword), 10, 20 and 100 results all cost $0.002, so you can check whether you are in the top 100.</li>\n<li><strong>Fast.</strong> Results came back in under 2 seconds in our US sample (\"massage san francisco\", 10 results), so you can try several keywords.</li>\n<li><strong>Pay only when you look.</strong> No monthly fee, so check on the day you need it — before reprinting flyers or signage, say.</li>\n<li><strong>Save as CSV.</strong> Pull the list monthly and compare how ratings and review counts grow.</li>\n</ul>\n\n<h2>When it is not the right fit</h2>\n<ul>\n<li>You want your <strong>rank at points around the shop</strong> (a grid) → a geo-grid tool such as Local Falcon fits better.</li>\n<li>You want your rank <strong>logged automatically every day</strong> → a local-SEO tracking tool fits better. This tool gives one snapshot per request.</li>\n<li>You need the exact rank someone sees standing next to your shop → this tool uses a country-wide location, so it can differ from the rank on the spot.</li>\n</ul>\n<p>This tool does one thing: show which places rank on the map for a keyword, as many as you ask for, quickly.</p>\n\n<h2>FAQ</h2>\n<details><summary>My shop does not appear.</summary><p>It may be outside the count you chose. Set the count to 100 and look again. If it still does not appear, the keyword or the shop name may be written differently.</p></details>\n<details><summary>Why does it differ from what I see on the map?</summary><p>Map ranks change with the searcher's location and the time. This tool uses a country-wide location, so it can differ from a search done right next to your shop.</p></details>\n<details><summary>Does asking for 100 results cost more?</summary><p>In our tests, 10, 20 and 100 results all cost $0.002 (10 in a US sample; 20 and 100 in an earlier test in Japan).</p></details>\n<details><summary>Some places have no phone or website.</summary><p>Fields that are not on the place's Google Maps listing are shown blank.</p></details>\n<details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href=\"/dfs-en.html\">What is DataForSEO?</a></p></details>\n</section>\n"
+ },
+ "C04": {
+  "locale_en": {
+   "c04.name": "See the \"more places\" list on the map",
+   "c04.desc": "See your shop and competitors beyond the top 3 map slots",
+   "c04.price": "Approx. cost: about $0.002 for 20 results, $0.01 for 100 (measured). Keywords with no results are still charged. The sample view is free. With several inputs you pay per item. Each item takes time, so many items mean a long wait.",
+   "c04.eta": "Typical for this tool: about 2–2.5 minutes",
+   "c04.title": "Google Local Finder & Map Pack Results | See Businesses Beyond the Top 3 (Free Sample)",
+   "c04.meta": "Get the Google Maps \"more places\" list (the local finder), including positions beyond the top 3 of the map pack. See where competing businesses sit after the local pack. A follow-up to a local rank ch",
+   "c04.keyword": "Keyword (e.g. massage san francisco) (one per line, up to 10)",
+   "c04.count": "Number of results (from the top)",
+   "c04.col.rank": "Rank",
+   "c04.col.title": "Name",
+   "c04.col.rating": "Rating",
+   "c04.col.votes": "Reviews",
+   "c04.col.description": "Description (area, opening hours)",
+   "c04.col.phone": "Phone",
+   "c04.col.url": "Website",
+   "c04.ai_prompt": "You are an assistant who helps organize the map \"more places\" list.\nThe reader is a shop person who wants to know competitors, including shops listed after the top 3 on the map.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Rows: {n}\n- Columns\n  - Rank: the position in the \"more places\" list.\n  - Rating / reviews: the star rating and the number of reviews.\n  - Description: a short note such as area or opening hours.\n  - Results and numbers can change with place and time. This is for this day and these conditions.\n\n# What I would like you to do\n1. From rating and review count, list 5 shops that look like competitors.\n2. Briefly sum up what the descriptions (area, hours) have in common.\n3. List 3 points to check when comparing with my own shop.\n4. Briefly say what cannot be known from the data alone (for example, the reasons or future results).\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table (shop / rank / rating / reviews).\n\n# Data (tab-separated)\n```\n{data}\n```",
+   "c04.steps": [
+    [
+     "1 item",
+     "$0.01 (a guide)",
+     "Check one keyword"
+    ],
+    [
+     "5 items",
+     "$0.05 (a guide)",
+     "Line up several keywords and compare"
+    ],
+    [
+     "10 items",
+     "$0.10 (a guide)",
+     "Go through many keywords at once and keep them as a table or CSV"
+    ]
+   ]
+  },
+  "content_en": "<section class=\"seo\">\n<h2>Ways to see your rank below the top 3 map slots — and how the main tools compare</h2>\n<p>The map above Google's results shows just three shops (the local pack). Tap \"more places\" and a longer list opens, rank 4 and beyond. Many customers pick from those first three — so where does <strong>a shop that missed the top 3</strong> actually stand?</p>\n<p class=\"note\">* You can now enter many items, one per line (each is sent one by one, so you pay per item). The table gets an \"Input\" column. Where the text below says \"one\", it describes a single item. See the table at the top for the cost.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.002 for 20 results (US sample), $0.01 for 100 (measured in an earlier test in Japan)</td><td>The \"more places\" list as a table: rank, name, rating, reviews, description, phone, website. Save as CSV. Takes about 2–2.5 minutes</td></tr>\n<tr><td>Open \"more places\" by hand</td><td>Free</td><td>Quick, but ranks shift with location and time, and counting the position is manual</td></tr>\n<tr><td>Semrush Local (Map Rank Tracker)</td><td>Monthly subscription per location; see the official site for pricing</td><td>Map rank tracking plus listing management</td></tr>\n<tr><td>Local Falcon</td><td>Monthly subscription; see the official site for pricing</td><td>Geo-grid tracking from many points on the map</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Checked in November 2026, including third-party listings. Prices change — confirm on each vendor's official site before you buy.</p>\n\n<h2>Why use this tool</h2>\n<ul>\n<li><strong>See rank 4 and beyond.</strong> Check where shops outside the top 3 slots stand, with rank numbers.</li>\n<li><strong>Competitors' ratings and review counts side by side.</strong> The gap with your own shop shows in numbers.</li>\n<li><strong>The description carries area and opening hours.</strong> You can tell which area a shop covers and whether it is open, right in the list.</li>\n<li><strong>No subscription — one look at a turning point.</strong> Check how nearby shops line up before you change prices or run an ad.</li>\n<li><strong>Save as CSV.</strong> Pull the list monthly and compare how ranks move.</li>\n</ul>\n\n<h2>When it is not the right fit</h2>\n<ul>\n<li>You want the rank of <strong>hotels or inns</strong> → in an earlier test in Japan with Japanese keywords, \"Kyoto hotel\" and \"Kyoto inn\" returned nothing (and were still charged). We did not find out why; one possibility is that lodging is shown by a different Google feature.</li>\n<li>You want <strong>address</strong> as its own column → this list has no address field; the area is inside the description.</li>\n<li>You just want the map results quickly → <a href=\"/C03/en/\">See the top places on Google Maps</a> is faster (seconds) and includes the address.</li>\n<li>You want your <strong>rank at points around the shop</strong> (a grid) → a geo-grid tool such as Local Falcon fits better.</li>\n</ul>\n<p>This tool does one thing: show which shops sit in the \"more places\" list on the map, and in what order, right now.</p>\n\n<h2>FAQ</h2>\n<details><summary>I got \"no results\". Was I charged?</summary><p>Yes. In an earlier test in Japan, a no-result request was still charged $0.004 (a normal 20-result request cost $0.002; we do not know why the amounts differ — check the cost shown under the results). It happens with keywords where this list does not appear, such as hotels and inns. Try a service keyword like \"massage san francisco\".</p></details>\n<details><summary>Why does it take about 2 minutes?</summary><p>Google now routes each result link through Google first (for click tracking). The tool follows those links to find the real URLs, which takes time. In our US sample (\"massage san francisco\") 20 results took about 2.5 minutes (153 seconds); in an earlier test in Japan, 20 results took about 2 minutes and 100 about 2.5 minutes.</p></details>\n<details><summary>How is this different from the Google Maps tool?</summary><p>This one reads the \"more places\" list behind the map slots in the search results, not the Maps search itself. The order and the set of shops can differ.</p></details>\n<details><summary>Why is there no address?</summary><p>This list's data has no address field. Area names and opening hours are inside the description.</p></details>\n<details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href=\"/dfs-en.html\">What is DataForSEO?</a></p></details>\n</section>\n"
+ }
+}
