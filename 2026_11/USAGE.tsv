@@ -72,3 +72,4 @@
 2026-11-28	ベトナム語の紹介ページ3本（DataForSEOとは・カスタム依頼・運営者）	API $0; subagents 0
 2026-11-28	英語版に国を12か国追加（ID PH IN TH SG MY NZ IE ZA AE NG PK）。C08で4か国の動作確認	API $0.008（4回）; subagents 0
 2026-11-28	国・言語の選択欄を共通パーツに作り直し（全国・全言語、無料一覧から生成）。C08で組み合わせ3回の確認	API $0.006（3回）; subagents 0
+2026-11-28	次の言語の再調査（fr pt id th tr、各約40語、Google広告）	API $0.45（5回）; subagents 0

@@ -1,0 +1,2726 @@
+{
+    "version": "0.1.20261117",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "2.7912 sec.",
+    "cost": 0.09,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11280333-1289-0367-0000-e10bbf100c96",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "2.7754 sec.",
+            "cost": 0.09,
+            "result_count": 41,
+            "path": [
+                "v3",
+                "keywords_data",
+                "google_ads",
+                "search_volume",
+                "live"
+            ],
+            "data": {
+                "api": "keywords_data",
+                "function": "search_volume",
+                "se": "google_ads",
+                "location_code": 2360,
+                "language_code": "id",
+                "keywords": [
+                    "riset kata kunci",
+                    "alat seo",
+                    "affiliate marketing",
+                    "cara membuat blog",
+                    "belajar seo",
+                    "jasa seo",
+                    "alat riset kata kunci",
+                    "tools seo",
+                    "seo tools gratis",
+                    "software seo",
+                    "tools seo terbaik",
+                    "pelacak peringkat",
+                    "cek posisi google",
+                    "cek ranking keyword",
+                    "backlink",
+                    "cek backlink",
+                    "link building",
+                    "audit seo",
+                    "audit seo gratis",
+                    "analisis website",
+                    "tes kecepatan website",
+                    "api seo",
+                    "api serp",
+                    "api google",
+                    "semrush",
+                    "ahrefs",
+                    "ubersuggest",
+                    "dataforseo",
+                    "konsultan seo",
+                    "freelance seo",
+                    "kursus seo",
+                    "buat blog",
+                    "generator kata kunci",
+                    "perencana kata kunci",
+                    "long tail keyword",
+                    "volume pencarian",
+                    "analisis kompetitor seo",
+                    "penulisan artikel seo",
+                    "optimasi mesin pencari",
+                    "tools optimasi",
+                    "scraper google"
+                ]
+            },
+            "result": [
+                {
+                    "keyword": "riset kata kunci",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 20,
+                    "search_volume": 90,
+                    "low_top_of_page_bid": 0.13,
+                    "high_top_of_page_bid": 2.17,
+                    "cpc": 0.9,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 170
+                        }
+                    ]
+                },
+                {
+                    "keyword": "alat seo",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 13,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 20
+                        }
+                    ]
+                },
+                {
+                    "keyword": "affiliate marketing",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 23,
+                    "search_volume": 3600,
+                    "low_top_of_page_bid": 0.09,
+                    "high_top_of_page_bid": 1.07,
+                    "cpc": 1.09,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 6600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 2900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 2900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 2900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 3600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 2900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 2900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 4400
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 3600
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 4400
+                        }
+                    ]
+                },
+                {
+                    "keyword": "cara membuat blog",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 4,
+                    "search_volume": 2900,
+                    "low_top_of_page_bid": 0.06,
+                    "high_top_of_page_bid": 0.24,
+                    "cpc": 0.39,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 5400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 5400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 2900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 1300
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 1000
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 1900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 1300
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 1900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 3600
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 2900
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 6600
+                        }
+                    ]
+                },
+                {
+                    "keyword": "belajar seo",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 32,
+                    "search_volume": 260,
+                    "low_top_of_page_bid": 0.08,
+                    "high_top_of_page_bid": 0.28,
+                    "cpc": 0.3,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 260
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 260
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 260
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 390
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 320
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 390
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 260
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 260
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 320
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 320
+                        }
+                    ]
+                },
+                {
+                    "keyword": "jasa seo",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 20,
+                    "search_volume": 4400,
+                    "low_top_of_page_bid": 0.44,
+                    "high_top_of_page_bid": 1.1,
+                    "cpc": 1.53,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 6600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 3600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 2900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 3600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 3600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 3600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 4400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 3600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 6600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 5400
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 6600
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 5400
+                        }
+                    ]
+                },
+                {
+                    "keyword": "alat riset kata kunci",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 10
+                        }
+                    ]
+                },
+                {
+                    "keyword": "tools seo",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 15,
+                    "search_volume": 1300,
+                    "low_top_of_page_bid": 0.14,
+                    "high_top_of_page_bid": 1.34,
+                    "cpc": 5.32,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 880
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 880
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 1000
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 1300
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 1600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 1300
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 1600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 1300
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 1300
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 1300
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 880
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 1000
+                        }
+                    ]
+                },
+                {
+                    "keyword": "seo tools gratis",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 27,
+                    "search_volume": 50,
+                    "low_top_of_page_bid": 0.09,
+                    "high_top_of_page_bid": 0.54,
+                    "cpc": null,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 50
+                        }
+                    ]
+                },
+                {
+                    "keyword": "software seo",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 4,
+                    "search_volume": 50,
+                    "low_top_of_page_bid": 0.47,
+                    "high_top_of_page_bid": 2.36,
+                    "cpc": 0.67,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 40
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 20
+                        }
+                    ]
+                },
+                {
+                    "keyword": "tools seo terbaik",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "MEDIUM",
+                    "competition_index": 57,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 10
+                        }
+                    ]
+                },
+                {
+                    "keyword": "pelacak peringkat",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "cek posisi google",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "cek ranking keyword",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "backlink",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 29,
+                    "search_volume": 1600,
+                    "low_top_of_page_bid": 0.22,
+                    "high_top_of_page_bid": 1.06,
+                    "cpc": 1.02,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 1600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 1300
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 1600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 1300
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 1300
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 1300
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 1600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 1300
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 1600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 1300
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 1300
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 1900
+                        }
+                    ]
+                },
+                {
+                    "keyword": "cek backlink",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 1,
+                    "search_volume": 2900,
+                    "low_top_of_page_bid": 0.48,
+                    "high_top_of_page_bid": 2.89,
+                    "cpc": 1.74,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 1900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 2900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 2900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 2900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 3600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 3600
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 3600
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 3600
+                        }
+                    ]
+                },
+                {
+                    "keyword": "link building",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 17,
+                    "search_volume": 90,
+                    "low_top_of_page_bid": 0.22,
+                    "high_top_of_page_bid": 2.58,
+                    "cpc": 2.2,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 90
+                        }
+                    ]
+                },
+                {
+                    "keyword": "audit seo",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 20,
+                    "search_volume": 170,
+                    "low_top_of_page_bid": 0.26,
+                    "high_top_of_page_bid": 0.99,
+                    "cpc": 0.78,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 110
+                        }
+                    ]
+                },
+                {
+                    "keyword": "audit seo gratis",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "HIGH",
+                    "competition_index": 71,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 0
+                        }
+                    ]
+                },
+                {
+                    "keyword": "analisis website",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 29,
+                    "search_volume": 110,
+                    "low_top_of_page_bid": 0.16,
+                    "high_top_of_page_bid": 0.51,
+                    "cpc": 0.53,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 140
+                        }
+                    ]
+                },
+                {
+                    "keyword": "tes kecepatan website",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 2,
+                    "search_volume": 260,
+                    "low_top_of_page_bid": 0.23,
+                    "high_top_of_page_bid": 1.29,
+                    "cpc": 0.65,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 320
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 260
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 320
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 260
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 210
+                        }
+                    ]
+                },
+                {
+                    "keyword": "api seo",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 6,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 10
+                        }
+                    ]
+                },
+                {
+                    "keyword": "api serp",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "MEDIUM",
+                    "competition_index": 62,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": 0.18,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 10
+                        }
+                    ]
+                },
+                {
+                    "keyword": "api google",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 16,
+                    "search_volume": 2900,
+                    "low_top_of_page_bid": 0.12,
+                    "high_top_of_page_bid": 0.71,
+                    "cpc": 0.13,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 3600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 3600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 3600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 3600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 3600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 3600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 2900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 2900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 2400
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 2900
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 2400
+                        }
+                    ]
+                },
+                {
+                    "keyword": "semrush",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 12,
+                    "search_volume": 9900,
+                    "low_top_of_page_bid": 0.21,
+                    "high_top_of_page_bid": 0.85,
+                    "cpc": 0.07,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 9900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 12100
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 9900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 9900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 9900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 9900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 9900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 8100
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 9900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 9900
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 9900
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 12100
+                        }
+                    ]
+                },
+                {
+                    "keyword": "ahrefs",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 1,
+                    "search_volume": 12100,
+                    "low_top_of_page_bid": 1.39,
+                    "high_top_of_page_bid": 251.72,
+                    "cpc": 20.34,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 12100
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 12100
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 9900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 12100
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 12100
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 12100
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 12100
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 9900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 9900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 12100
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 9900
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 14800
+                        }
+                    ]
+                },
+                {
+                    "keyword": "ubersuggest",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 5,
+                    "search_volume": 6600,
+                    "low_top_of_page_bid": 0.24,
+                    "high_top_of_page_bid": 3.07,
+                    "cpc": 2.62,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 4400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 6600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 4400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 6600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 6600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 8100
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 8100
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 5400
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 6600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 6600
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 6600
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 8100
+                        }
+                    ]
+                },
+                {
+                    "keyword": "dataforseo",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 6,
+                    "search_volume": 320,
+                    "low_top_of_page_bid": 1.13,
+                    "high_top_of_page_bid": 31.16,
+                    "cpc": 4.23,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 590
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 590
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 590
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 590
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 320
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 320
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 260
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 260
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 110
+                        }
+                    ]
+                },
+                {
+                    "keyword": "konsultan seo",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 23,
+                    "search_volume": 170,
+                    "low_top_of_page_bid": 0.56,
+                    "high_top_of_page_bid": 1.8,
+                    "cpc": 1.49,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 210
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 480
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 590
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 170
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 110
+                        }
+                    ]
+                },
+                {
+                    "keyword": "freelance seo",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 10,
+                    "search_volume": 110,
+                    "low_top_of_page_bid": 0.23,
+                    "high_top_of_page_bid": 1.57,
+                    "cpc": 0.64,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 90
+                        }
+                    ]
+                },
+                {
+                    "keyword": "kursus seo",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 9,
+                    "search_volume": 1000,
+                    "low_top_of_page_bid": 0.12,
+                    "high_top_of_page_bid": 0.45,
+                    "cpc": 0.45,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 720
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 390
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 1600
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 1300
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 880
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 1300
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 1000
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 1900
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 880
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 1300
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 880
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 720
+                        }
+                    ]
+                },
+                {
+                    "keyword": "buat blog",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 9,
+                    "search_volume": 1000,
+                    "low_top_of_page_bid": 0.07,
+                    "high_top_of_page_bid": 0.3,
+                    "cpc": 0.29,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 1000
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 1300
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 1000
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 880
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 720
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 880
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 1000
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 590
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 880
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 1300
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 720
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 1300
+                        }
+                    ]
+                },
+                {
+                    "keyword": "generator kata kunci",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "perencana kata kunci",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 10
+                        }
+                    ]
+                },
+                {
+                    "keyword": "long tail keyword",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 5,
+                    "search_volume": 90,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": 2.71,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 50
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 110
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 140
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 90
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 70
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 70
+                        }
+                    ]
+                },
+                {
+                    "keyword": "volume pencarian",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "analisis kompetitor seo",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "penulisan artikel seo",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 14,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": 0.27,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 30
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 10
+                        }
+                    ]
+                },
+                {
+                    "keyword": "optimasi mesin pencari",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "MEDIUM",
+                    "competition_index": 34,
+                    "search_volume": 390,
+                    "low_top_of_page_bid": 0.3,
+                    "high_top_of_page_bid": 0.94,
+                    "cpc": 1.16,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 390
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 390
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 320
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 320
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 390
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 480
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 480
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 480
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 320
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 320
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 390
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 390
+                        }
+                    ]
+                },
+                {
+                    "keyword": "tools optimasi",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "scraper google",
+                    "spell": null,
+                    "location_code": 2360,
+                    "language_code": "id",
+                    "search_partners": false,
+                    "competition": "LOW",
+                    "competition_index": 4,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 10,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 9,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 8,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 7,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 6,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 10
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
