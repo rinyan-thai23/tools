@@ -1,10 +1,13 @@
-# ベトナム語の翻訳（out_N.json）を検査して、vi.json と _content.vi.html に入れる
-# 使い方: python3 merge_vi.py <フォルダ> [--write]
+# 翻訳（out_N.json）を検査して、<lang>.json と _content.<lang>.html に入れる
+# 使い方: python3 merge_lang.py <フォルダ> [--lang vi|id] [--write]   （--lang の既定は vi）
 import json,glob,re,sys
 R='/home/user/tools/'
 src=sys.argv[1].rstrip('/'); write='--write' in sys.argv
+LANG=sys.argv[sys.argv.index('--lang')+1] if '--lang' in sys.argv else 'vi'
+FIT={'vi':'không phù hợp','id':'kurang cocok'}[LANG]
+DFS={'vi':'/dfs-vi.html','id':'/dfs-id.html'}[LANG]
 en=json.load(open(R+'site/locales/en.json',encoding='utf-8'))
-vp=R+'site/locales/vi.json'; vi=json.load(open(vp,encoding='utf-8'))
+vp=R+f'site/locales/{LANG}.json'; vi=json.load(open(vp,encoding='utf-8'))
 PH=re.compile(r'\{\w+\}')
 def money(s): return sorted(re.findall(r'\$[0-9]+(?:[.,][0-9]+)*',s))
 def tags(s): return {t:len(re.findall(t,s)) for t in ('<h2>','<li>','<tr','<details>','<summary>','<table>','<ul>','<a ','<p','<strong>')}
@@ -34,14 +37,14 @@ for f in sorted(glob.glob(src+'/out_*.json')):
         e=open(R+f'site/{tid}/_content.en.html',encoding='utf-8').read()
         if money(e)!=money(c): print('CONTENT$',tid,money(e),money(c)); bad+=1
         if tags(e)!=tags(c): print('TAGS',tid,{t:(tags(e)[t],tags(c)[t]) for t in tags(e) if tags(e)[t]!=tags(c)[t]}); bad+=1
-        if 'không phù hợp' not in c: print('NOFIT',tid); bad+=1
+        if FIT not in c: print('NOFIT',tid); bad+=1
         if 'bin/bash' in c: print('BASH content',tid); bad+=1
-        if re.findall(r'href="([^"]+)"',e)!=re.findall(r'href="([^"]+)"',c): print('HREF',tid); bad+=1
+        if [h.replace('/dfs-en.html',DFS) for h in re.findall(r'href="([^"]+)"',e)]!=re.findall(r'href="([^"]+)"',c): print('HREF',tid); bad+=1
         ok_loc.update(loc); ok_con[tid]=c
 print('tools',len(ok_con),'keys',len(ok_loc),'problems',bad)
 if write and bad==0:
     vi.update(ok_loc)
     out={k:vi[k] for k in en if k in vi}
     json.dump(out,open(vp,'w',encoding='utf-8'),ensure_ascii=False,indent=2); open(vp,'a').write('\n')
-    for tid,c in ok_con.items(): open(R+f'site/{tid}/_content.vi.html','w',encoding='utf-8').write(c if c.endswith('\n') else c+'\n')
+    for tid,c in ok_con.items(): open(R+f'site/{tid}/_content.{LANG}.html','w',encoding='utf-8').write(c if c.endswith('\n') else c+'\n')
     print('written')
