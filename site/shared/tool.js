@@ -192,7 +192,7 @@ function applyShared() { // URLに入力があれば、入力欄に入れる（�
   const q = new URLSearchParams(location.search); let any = false;
   cfg.inputs.forEach((i) => { if (q.has('i_' + i.id)) { $('in-' + i.id).value = q.get('i_' + i.id); any = true; } });
   if (!any) return false;
-  if ($('country') && q.get('country')) $('country').value = q.get('country');
+  if ($('country') && q.get('country')) { $('country').value = q.get('country'); $('country').dispatchEvent(new Event('change')); } // 国を変えると、言語の一覧が変わる
   if ($('language') && q.get('language')) $('language').value = q.get('language');
   if ($('count') && q.get('count')) $('count').value = q.get('count');
   document.querySelectorAll('[id^=in-]').forEach((e) => e.dispatchEvent(new Event('input')));
@@ -283,7 +283,7 @@ await init();
   const esc = (x) => String(x).replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
   $('steps').innerHTML = `<details open><summary>${t('ui.steps_title')}</summary><div class="scroll"><table class="steps"><thead><tr><th>${t('ui.steps_amount')}</th><th>${t('ui.steps_cost')}</th><th>${t('ui.steps_use')}</th></tr></thead><tbody>${rowsS.map((r) => `<tr>${r.map((c) => `<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div></details>`;
 })();
-if (cfg.markets) await fillMarkets($('country'), $('language'), cfg.country_codes, cfg.endpoint); // 'country' / 'language' のときは、ない方は null
+if (cfg.markets) await fillMarkets($('country'), $('language'), cfg.endpoint); // 'country' / 'language' のときは、ない方は null
 if (cfg.inputs.some((i) => i.transform === 'technology')) loadTech().catch(() => {});
 if (cfg.chunk) { // 入力した語数と、送る回数・料金の目安を、その場で見せる
   const ta = $('in-' + cfg.chunk.input), nt = $('chunk-note');

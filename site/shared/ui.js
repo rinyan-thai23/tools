@@ -46,26 +46,35 @@ function renderKeyBox(box, referral) {
   draw();
 }
 
-export async function fillMarkets(countrySel, langSel, allowed, endpoint = '') {
-  const m = await getJson('/shared/markets.json');
-  m.countries = m.countries.filter((c) => !c.only || c.only.includes(lang)); m.languages = m.languages.filter((c) => !c.only || c.only.includes(lang)); // only：その言語の画面にだけ出す
-  if (allowed) m.countries = m.countries.filter((c) => allowed.includes(c.code)); // そのAPIが対応している国だけ
-  const opt = (a, d) => a.map((x) => `<option value="${x.code}" ${x.code === d ? 'selected' : ''}>${x[lang] || x.en}</option>`).join('');
-  const dflt = m.defaults[lang] || m.defaults.en;
-  if (countrySel) countrySel.innerHTML = opt(m.countries, allowed && !allowed.includes(dflt.country) ? allowed[0] : dflt.country);
-  // 言語：国に langs があれば、その言語だけ（現地語を選べる）。not_lang_for：そのAPIが対応しない言語を外す。country_only の言語は、その国を選んだときだけ出す
+// 国と言語の選択欄。一覧は markets.generated.json（scripts/gen-markets.mjs が、DataForSEOの無料の一覧から作る）。
+// 名前は Intl.DisplayNames で、ISOコード／言語コードから画面の言語で作る（訳を手で書かない）。初期値は、画面の言語の国と言語（markets.json の defaults）。
+const FAM = [['serp/youtube/', 'yt'], ['serp/', 'serp'], ['keywords_data/google_ads/', 'ads'], ['keywords_data/google_trends/', 'gt'], ['keywords_data/dataforseo_trends/', 'dt'], ['dataforseo_labs/', 'labs'], ['ai_optimization/ai_keyword_data/', 'aikw'], ['ai_optimization/', 'llm']];
+export async function fillMarkets(countrySel, langSel, endpoint = '') {
+  const [g, d] = await Promise.all([getJson('/shared/markets.generated.json'), getJson('/shared/markets.json')]);
+  const fam = (FAM.find(([p]) => endpoint.startsWith(p)) || [0, 'serp'])[1];
+  const dflt = d.defaults[lang] || d.defaults.en;
+  const dn = (type) => { try { return new Intl.DisplayNames([lang], { type }); } catch { return null; } };
+  const rn = dn('region'), ln = dn('language');
+  const norm = (c) => String(c).replace('_', '-');
+  const cname = (code) => { const [iso, en] = g.countries[code] || ['', String(code)]; try { return (iso && rn && rn.of(iso)) || en; } catch { return en; } };
+  const lname = (code) => { try { const n = ln && ln.of(norm(code)); if (n && n !== norm(code)) return n; } catch { /* 予備へ */ } return g.langNames[code] || code; };
+  const sorted = (codes, name, first) => [...codes].sort((a, b) => (String(a) === String(first) ? -1 : String(b) === String(first) ? 1 : name(a).localeCompare(name(b), lang)));
+  const opt = (codes, name, sel) => codes.map((c) => `<option value="${c}" ${String(c) === String(sel) ? 'selected' : ''}>${name(c)}</option>`).join('');
+  const pick = (list) => list.find((c) => norm(c) === dflt.language) || list.find((c) => norm(c) === 'en') || list[0]; // 言語の初期値：画面の言語 → 英語 → 先頭
+  const langsOf = (country) => (country != null && g.perCountry[fam] && g.perCountry[fam][country]) || g.langs[fam] || [];
   const fillLangs = () => {
     if (!langSel) return;
-    const c = countrySel ? m.countries.find((x) => String(x.code) === countrySel.value) : null;
-    const bad = c && c.not_lang_for ? Object.entries(c.not_lang_for).filter(([p]) => endpoint.startsWith(p)).flatMap(([, v]) => v) : [];
-    let ls = m.languages.filter((x) => !x.country_only || (c && (c.langs || []).includes(x.code)));
-    if (c && c.langs) ls = c.langs.map((k) => ls.find((x) => x.code === k)).filter((x) => x && !bad.includes(x.code));
-    const prev = langSel.value;
-    langSel.innerHTML = opt(ls, c && c.langs ? ls[0]?.code : dflt.language);
-    if (prev && ls.some((x) => x.code === prev) && !(c && c.langs)) langSel.value = prev;
+    const list = langsOf(countrySel ? countrySel.value : null), prev = langSel.value;
+    const first = pick(list);
+    langSel.innerHTML = opt(sorted(list, lname, first), lname, list.includes(prev) ? prev : first);
   };
+  if (countrySel) {
+    const codes = g.fam[fam] || [];
+    const first = codes.includes(dflt.country) ? dflt.country : (codes.includes(2840) ? 2840 : codes[0]);
+    countrySel.innerHTML = opt(sorted(codes, cname, first), cname, first);
+    countrySel.addEventListener('change', fillLangs);
+  }
   fillLangs();
-  if (countrySel) countrySel.addEventListener('change', fillLangs);
 }
 
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
