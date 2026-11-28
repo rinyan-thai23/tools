@@ -1,0 +1,90 @@
+{
+ "C62": {
+  "locale_en": {
+   "c62.name": "See a page's speed scores",
+   "c62.desc": "Check how fast the page opens on a phone",
+   "c62.price": "Cost: $0.005 per URL (measured). Each takes about 12-75 seconds. With several inputs you pay and wait per URL (about $0.10 for 20). The sample is free.",
+   "c62.eta": "Typical time: about 25-30 seconds",
+   "c62.title": "Lighthouse Score and Page Speed Test | Mobile Performance, SEO and Accessibility Scores (Free Sample)",
+   "c62.meta": "Enter a URL and get four Lighthouse scores (performance, accessibility, best practices, SEO) for mobile, plus key speed metrics.",
+   "c62.url": "Page URLs (one per line, up to 20. e.g. https://example.com/)",
+   "c62.col.category": "Item",
+   "c62.col.score": "Score (0-100)",
+   "c62.col.metric": "Speed metric",
+   "c62.col.value": "Value",
+   "c62.cat_title": "Lighthouse scores (mobile)",
+   "c62.metrics_title": "Speed figures",
+   "c62.v.performance": "Performance",
+   "c62.v.accessibility": "Accessibility",
+   "c62.v.best-practices": "Best practices",
+   "c62.v.seo": "SEO",
+   "c62.v.first-contentful-paint": "First Contentful Paint (FCP)",
+   "c62.v.largest-contentful-paint": "Largest Contentful Paint (LCP)",
+   "c62.v.total-blocking-time": "Total Blocking Time (TBT)",
+   "c62.v.cumulative-layout-shift": "Cumulative Layout Shift (CLS)",
+   "c62.v.speed-index": "Speed Index",
+   "c62.ai_prompt": "You are an assistant who helps read page speed scores.\nThe reader is a person who wants to check how fast their own or a competitor's page shows up.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Rows: {n}\n- Columns\n  - Item / score: the four Lighthouse scores (performance, accessibility, best practices, SEO), out of 100, mobile settings.\n  - Speed metrics (second table): the values of FCP, LCP, TBT, CLS and Speed Index.\n  - Numbers change a little each time. This is not what real visitors experience.\n\n# What I would like you to do\n1. List the low scores and say which metrics seem related, within what the data shows.\n2. List metrics with especially large (slow) values.\n3. Suggest 3 steps for trying improvements, in order (marked as guesses).\n4. Briefly say what cannot be known from the data alone (for example, the reasons or future results).\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table (item / number / concern).\n\n# Data (tab-separated)\n```\n{data}\n```",
+   "c62.steps": [
+    [
+     "1 URL",
+     "$0.005, about 25 s (measured)",
+     "See the scores of one page"
+    ],
+    [
+     "5 URLs",
+     "about $0.025, about 2 min",
+     "Measure the main pages of your site"
+    ],
+    [
+     "10 URLs",
+     "about $0.05, about 4 min",
+     "Compare your pages with rivals'"
+    ],
+    [
+     "20 URLs",
+     "about $0.10, about 8 min",
+     "Check the main pages of a whole site in one go"
+    ]
+   ]
+  },
+  "content_en": "<section class=\"seo\">\n<h2>Ways to check a site's speed scores — and how the main tools compare</h2>\n<p>A local shop's owner wants to know <strong>whether the shop's site really opens fast on a phone</strong>. Enter one URL and this tool returns four Lighthouse scores and five speed figures, in two tables.</p>\n<p class=\"note\">* You can now enter many items, one per line (each is sent one by one, so you pay per item). The table gets an \"Input\" column. Where the text below says \"one\", it describes a single item. See the table at the top for the cost.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.005 per call (measured), roughly 200 per $1</td><td>Four scores (performance, accessibility, best practices, SEO) and five speed figures in tables. Save as CSV</td></tr>\n<tr><td>PageSpeed Insights (Google)</td><td>Free</td><td>Shows Lighthouse results plus real-user data for the URL (per Google's page)</td></tr>\n<tr><td>Chrome DevTools (Lighthouse)</td><td>Free</td><td>Runs the test in Chrome on your own computer</td></tr>\n<tr><td>GTmetrix</td><td>A free account and paid plans exist (see its official pricing page)</td><td>A service for testing page speed</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Checked in November 2026. Prices change — confirm on each vendor's official site before you buy.</p>\n\n<h2>Why use this tool</h2>\n<ul>\n<li><strong>Scores and speed figures on one screen.</strong> The blog article we tried (shopify.com/blog/how-to-start-a-blog) scored 76 for performance, 92 for accessibility, 96 for best practices and 92 for SEO (measured, mobile setting).</li>\n<li><strong>Detailed figures.</strong> 3.7 seconds to first content, 4.1 seconds to the largest content, and so on (measured).</li>\n<li><strong>About $0.005 per call.</strong> Roughly 200 per $1, handy for before-and-after comparisons.</li>\n<li><strong>Save as CSV.</strong> Keep a record from before and after a fix.</li>\n<li><strong>Fixed to mobile.</strong> A fit for shops whose customers mostly use phones.</li>\n</ul>\n\n<h2>When it is not the right fit</h2>\n<ul>\n<li><strong>Free is enough</strong> → for a one-off check, PageSpeed Insights and similar free tools do the job. This tool is for people who want a CSV record per client.</li>\n<li>You want <strong>desktop</strong> scores → this tool runs with the mobile setting.</li>\n<li>You want <strong>real visitors' speed</strong> → these are values measured in a test environment.</li>\n<li>You expect <strong>the same score every time</strong> → scores can vary from run to run (per Google's explanation).</li>\n</ul>\n<p>This tool does one thing: show one page's four Lighthouse scores and five speed figures.</p>\n\n<h2>FAQ</h2>\n<details><summary>What is a perfect score?</summary><p>100. Lighthouse scores run from 0 to 100.</p></details>\n<details><summary>Why does the score differ a little each time?</summary><p>Network conditions and other factors make each run vary. The same page can move by a few points.</p></details>\n<details><summary>How long does it take?</summary><p>We measured about 25 to 30 seconds (27 seconds for the US sample; 24 to 26 seconds in an earlier test in Japan), a little longer than the other tools.</p></details>\n<details><summary>Can I choose desktop?</summary><p>Not in this tool. It tests with the mobile setting.</p></details>\n<details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href=\"/dfs-en.html\">What is DataForSEO?</a></p></details>\n</section>\n"
+ },
+ "C74": {
+  "locale_en": {
+   "c74.name": "See a site's technologies",
+   "c74.desc": "See what a site is built with",
+   "c74.price": "Cost: $0.012 per domain (measured). Empty results are still charged (errors are free). With several inputs you pay per domain (about $0.36 for 30). The sample is free.",
+   "c74.eta": "Typical time: a few seconds",
+   "c74.title": "Website Technology Checker | See the CMS, Servers and Analytics a Site Uses – a Wappalyzer / BuiltWith-Style Lookup (Free Sample)",
+   "c74.meta": "Enter a domain and get the technologies a site uses: CMS, servers, analytics, advertising and more. A website technology checker for tech stack lookups, in the spirit of Wappalyzer and BuiltWith.",
+   "c74.keyword": "Domains (one per line, up to 30. e.g. example.com)",
+   "c74.col.group": "Category",
+   "c74.col.type": "Type",
+   "c74.col.names": "Technologies",
+   "c74.ai_prompt": "You are an assistant who helps organize the technologies a site uses.\nThe reader is a person who wants to know what technologies a competitor or interesting site uses.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Rows: {n}\n- Columns\n  - Group / type / names: the technology group, type and names.\n  - Only technologies that were found. It does not mean the rest are not used.\n\n# What I would like you to do\n1. Organize the technologies by group.\n2. List the technologies for servers, analytics, ads and how the site is built.\n3. List 3 things to check if I want to use the same technologies.\n4. Do not say a technology \"is not used\" just because it was not found.\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table (group / technology).\n\n# Data (tab-separated)\n```\n{data}\n```",
+   "c74.steps": [
+    [
+     "1 domain",
+     "$0.012 (measured)",
+     "See the technologies of one site"
+    ],
+    [
+     "5 domains",
+     "$0.06",
+     "Compare the technologies of rival sites"
+    ],
+    [
+     "10 domains",
+     "$0.12",
+     "Sort a list of interesting sites by technology"
+    ],
+    [
+     "30 domains",
+     "$0.36",
+     "Check a whole list of sites at once (e.g. a sales list)"
+    ]
+   ]
+  },
+  "content_en": "<section class=\"seo\">\n<h2>Ways to check what technologies a site uses — and how the main tools compare</h2>\n<p>In web production you first want to know <strong>what a prospect's site is built with</strong>. Enter a domain and this tool tabulates the technologies the site uses (servers, analytics, advertising and more) by category.</p>\n<p class=\"note\">* You can now enter many items, one per line (each is sent one by one, so you pay per item). The table gets an \"Input\" column. Where the text below says \"one\", it describes a single item. See the table at the top for the cost.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.012 per call (measured), roughly 83 per $1</td><td>One domain's technologies by category and type in a table. Save as CSV</td></tr>\n<tr><td>Wappalyzer</td><td>A free account gives 50 technology lookups a month (official pricing page). See the official site for paid prices</td><td>A service for identifying a site's technologies</td></tr>\n<tr><td>BuiltWith</td><td>Single-site lookups are free (official plans page)</td><td>A service for identifying a site's technologies; exporting lists is paid</td></tr>\n<tr><td>Read the page source (by hand)</td><td>Free</td><td>Needs know-how; turning it into a list is manual</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Checked in November 2026. Prices change — confirm on each vendor's official site before you buy.</p>\n\n<h2>Why use this tool</h2>\n<ul>\n<li><strong>The technologies in one list.</strong> When a result comes back, each row gives a category, a type and the technology names. In our test in Japan, xserver.ne.jp came out as six rows (servers, analytics, tag management, JavaScript and more). For theverge.com (US sample) it returned 12 rows, including advertising (Amazon Advertising, DoubleClick for Publishers), JavaScript (Next.js, React), servers (Varnish, MySQL), privacy (OneTrust) and content (WordPress) (measured). For nytimes.com the table came back empty, so an empty table can happen.</li>\n<li><strong>About $0.012 per call.</strong> Roughly 83 per $1.</li>\n<li><strong>A few seconds.</strong> We measured about 1 to 2 seconds for theverge.com and about 4 seconds in Japan.</li>\n<li><strong>Paste a URL if you like.</strong> \"https://www.theverge.com/\" is converted to the domain before the lookup.</li>\n<li><strong>Save as CSV.</strong> Groundwork for a proposal to the client.</li>\n</ul>\n\n<h2>When it is not the right fit</h2>\n<ul>\n<li>You want <strong>a history of technology use</strong> → this is a snapshot of now.</li>\n<li>You want <strong>category names in another language</strong> → categories and types are English names (e.g. Web servers).</li>\n<li>You want <strong>figures such as traffic</strong> → the table has technology names only.</li>\n<li>You are missing <strong>a technology you expected</strong> → only technologies DataForSEO detected are listed. The nytimes.com test returned none, so an empty table can happen.</li>\n</ul>\n<p>This tool does one thing: show one domain's technologies (category, type and name).</p>\n\n<h2>FAQ</h2>\n<details><summary>What are the categories and types?</summary><p>DataForSEO's classification, in two levels: for example \"Web servers\" and \"Hosting\" under \"Servers\".</p></details>\n<details><summary>Should I add www?</summary><p>Either way works. The tool converts what you type into the plain domain.</p></details>\n<details><summary>Does the price change with the number of technologies?</summary><p>It was about $0.012 for each domain we tried (nytimes.com returned nothing and was still charged that amount; theverge.com returned 12 rows for the same price). We did not look at how the number of technologies matters.</p></details>\n<details><summary>Is this per page?</summary><p>No. It is a result per domain, not per page.</p></details>\n<details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href=\"/dfs-en.html\">What is DataForSEO?</a></p></details>\n</section>\n"
+ }
+}

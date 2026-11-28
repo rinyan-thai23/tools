@@ -54,7 +54,8 @@
   "sample_langs": [
     "zh-TW",
     "en",
-    "vi"
+    "vi",
+    "id"
   ],
   "copy": true,
   "chunk": {

@@ -1,0 +1,80 @@
+{
+ "C35": {
+  "locale_en": {
+   "c35.name": "See related keywords",
+   "c35.desc": "See candidates for your next article",
+   "c35.price": "Cost: about $0.024 for 100 rows and about $0.13 for 1,000 (measured on the Labs endpoints; it rises about $0.0001 per row). The sample is free.",
+   "c35.eta": "Typical time: a few seconds",
+   "c35.title": "Related Keywords and Semantic Keywords | Find Related Terms with Volume and Difficulty (Free Sample)",
+   "c35.meta": "Enter a keyword and get related keywords and related searches as a list, with search volume and keyword difficulty. Find what to write next, and semantic keywords to cover. Free sample.",
+   "c35.keyword": "Keyword (one)",
+   "c35.col.keyword": "Keyword",
+   "c35.col.volume": "Monthly searches",
+   "c35.col.kd": "Difficulty (0–100)",
+   "c35.ai_prompt": "You are an assistant who helps choose the next article.\nThe reader is a beginner blogger who wants to pick the next article from keywords related to the one I entered.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Rows: {n}\n- Columns\n  - Keyword: a candidate related to the keyword I entered.\n  - Monthly searches: an estimate of monthly searches on Google. Blank means \"no data\", not necessarily zero.\n  - Difficulty (0-100): a guide to how hard it is to rank at the top. Bigger is harder. It is a guide, not a guarantee.\n\n# What I would like you to do\n1. Look at the balance of searches and difficulty and pick 5 keywords that look easy for a beginner. Give reasons with numbers.\n2. Group the keywords into 3-4 themes.\n3. For 3 of the keywords you picked, suggest one article title each.\n4. Briefly say what cannot be known from searches and difficulty alone (for example, whether I can reach the top if I write it).\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table (keyword / monthly searches / difficulty / reason).\n\n# Data (tab-separated)\n```\n{data}\n```",
+   "c35.count": "Number of rows to fetch (more rows cost more; see the table below)",
+   "c35.steps": [
+    [
+     "100 rows",
+     "about $0.024 (measured)",
+     "See the top related keywords first"
+    ],
+    [
+     "300 rows",
+     "about $0.05 (a guide)",
+     "See how the related terms spread, theme by theme"
+    ],
+    [
+     "1,000 rows",
+     "about $0.13 (a guide)",
+     "Get everything available (measured: 154 rows was everything, $0.0305)"
+    ]
+   ]
+  },
+  "content_en": "<section class=\"seo\">\n<h2>Ways to find related keywords — and how the main tools compare</h2>\n<p>When you decide what to write next, you want to know <strong>which words sit near your current topic</strong>. Enter one keyword and this tool lists up to 100 related keywords with monthly volume and difficulty.</p>\n<p class=\"note\">* You can choose 100, 300 or 1,000 rows (the default is 100). Where the text below says \"100\", it describes the default. See the table at the top for the cost.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.024 per call at depth 4 for 100 rows (measured)</td><td>From one keyword: up to 100 related keywords with volume and difficulty. Save as CSV</td></tr>\n<tr><td>Google \"related searches\" (by hand)</td><td>Free</td><td>Shown at the bottom of results, without volume</td></tr>\n<tr><td>Ahrefs Keywords Explorer (Related terms)</td><td>Subscription (see the official site for plans)</td><td>A list of related terms (see the official site for features)</td></tr>\n<tr><td>Ubersuggest</td><td>Subscription (see the official site for plans)</td><td>Keyword ideas from a seed word (see the official site for features)</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Checked in November 2026. Prices change — confirm on each vendor's official site before you buy.</p>\n\n<h2>Why use this tool</h2>\n<ul>\n<li><strong>One word grows to 100 candidates.</strong> \"how to start a blog\" returned 100 rows out of 432 in total (measured).</li>\n<li><strong>Volume and difficulty included.</strong> Look for words that seem easy to write about.</li>\n<li><strong>About $0.024 for 100.</strong> About 40 per $1.</li>\n<li><strong>A few seconds.</strong> We measured under 1 second for the US sample.</li>\n<li><strong>Save as CSV.</strong></li>\n</ul>\n\n<h2>When it is not the right fit</h2>\n<ul>\n<li>You want <strong>only close words</strong> → this tool follows relations to depth 4 and reaches far words to fill 100. At depth 1 a Japanese keyword gave 9 rows (about $0.013; measured in Japan with a Japanese keyword).</li>\n<li>You want <strong>a table with every difficulty filled in</strong> → DataForSEO says keyword difficulty needs SERP data, so it is only available for keywords in its SERP database.In our US test (\"how to start a blog\", depth 4), none of the 30 rows kept in the sample were blank, but blanks do occur: in a test in Japan with a Japanese keyword (depth 4), 28 of 100 rows were blank.</li>\n<li>You want <strong>more than 100</strong> → choose 300 or 1,000 in the count field.</li>\n<li>The table can include your seed keyword itself.</li>\n</ul>\n<p>This tool does one thing: show up to 100 related keywords for one keyword, with volume and difficulty.</p>\n\n<h2>FAQ</h2>\n<details><summary>What is \"depth\"?</summary><p>How far the tool follows related words — related words of related words. We fix it at 4. In our test (measured in Japan with a Japanese keyword) depth 1 gave 9 rows, 2 gave 35, 3 gave 79 and 4 gave 100.</p></details>\n<details><summary>Why are many difficulty values blank?</summary><p>DataForSEO says keyword difficulty needs SERP data, so it is only available for keywords in its SERP database.In our US test (\"how to start a blog\", depth 4), none of the 30 rows kept in the sample were blank, but blanks do occur: in a test in Japan with a Japanese keyword (depth 4), 28 of 100 rows were blank.</p></details>\n<details><summary>Can I choose the count?</summary><p>Yes: 100, 300 or 1,000 rows (depth is fixed at 4).</p></details>\n<details><summary>What do country and language change?</summary><p>The market for the numbers. The United States and English give US English volumes.</p></details>\n<details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href=\"/dfs-en.html\">What is DataForSEO?</a></p></details>\n</section>\n"
+ },
+ "C40": {
+  "locale_en": {
+   "c40.name": "See a keyword's basic data",
+   "c40.desc": "See one keyword's numbers together",
+   "c40.price": "Cost: about $0.012 for 1 keyword and $0.0294 for 500 (measured; 145 had data). The price follows the rows returned. The sample is free.",
+   "c40.eta": "Typical time: under 1 second",
+   "c40.title": "Keyword Analysis Tool | Volume, CPC, Difficulty and Intent for One Keyword (Free Sample)",
+   "c40.meta": "Get search volume, CPC, keyword difficulty, search intent and a 12-month average for one keyword in a single table. A starting point for keyword analysis. Free sample.",
+   "c40.keyword": "Keywords (one per line, up to 2,000)",
+   "c40.col.volume": "Monthly searches",
+   "c40.col.cpc": "CPC (USD)",
+   "c40.col.kd": "Difficulty (0–100)",
+   "c40.col.intent": "Search intent",
+   "c40.v.informational": "Informational",
+   "c40.v.commercial": "Commercial",
+   "c40.v.transactional": "Transactional",
+   "c40.v.navigational": "Navigational",
+   "c40.ai_prompt": "You are an assistant who helps size up a keyword.\nThe reader is a beginner blogger who wants to decide whether to write about one keyword.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Rows: {n}\n- Columns\n  - Monthly searches: an estimate based on Google Ads data. Blank means \"no data\", not necessarily zero.\n  - CPC (USD): the average price per click for advertisers. It is not the value of an article.\n  - Difficulty (0-100): a guide to how hard it is to rank at the top. It is a guide, not a guarantee.\n  - Search intent: a classification of what the searcher wants (to know, to compare, to buy...). A guide only.\n- The input is one keyword, so the table has one row.\n\n# What I would like you to do\n1. List 3 points to look at, using the numbers, when deciding whether to write about this keyword.\n2. Briefly sum up what the numbers tell (size of searches, difficulty, intent).\n3. Briefly say what cannot be known from the data alone (for example, whether I can reach the top if I write it).\n4. List 3 things to check next, in order.\n\n# Rules\n- If there are several keywords, answer for each keyword separately.\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- End with one of \"write it\" / \"research a bit more\", with a one-line reason.\n\n# Data (tab-separated)\n```\n{data}\n```",
+   "c40.col.keyword": "Keyword",
+   "c40.steps": [
+    [
+     "1 keyword",
+     "about $0.012 (measured)",
+     "Decide whether to write about one keyword"
+    ],
+    [
+     "30 keywords",
+     "about $0.013 (a guide)",
+     "Line up candidates and compare searches, difficulty and intent"
+    ],
+    [
+     "500 keywords",
+     "$0.0294 (measured, 145 had data)",
+     "List article ideas and narrow them down"
+    ],
+    [
+     "2,000 keywords",
+     "about $0.12 (a guide, in 4 requests)",
+     "Screen a large list with basic data"
+    ]
+   ]
+  },
+  "content_en": "<section class=\"seo\">\n<h2>Ways to see a keyword's basic data — and how the main tools compare</h2>\n<p>Before you settle on one blog keyword, you want <strong>its numbers in one place</strong>. Enter one keyword and this tool shows monthly volume, CPC, difficulty and search intent in a single row.</p>\n<p class=\"note\">* You can now enter many keywords at once, one per line. The table has a \"Keyword\" column. Where the text below says \"one keyword\", it describes entering a single keyword. See the table at the top for the cost.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.012 per call (measured)</td><td>One keyword's volume, CPC, difficulty and intent in one row. Save as CSV</td></tr>\n<tr><td>Semrush Keyword Overview</td><td>Subscription (see the official site for plans)</td><td>Volume, KD%, intent and CPC on one screen (per Semrush's help)</td></tr>\n<tr><td>Ahrefs Keywords Explorer</td><td>Subscription (see the official site for plans)</td><td>A keyword overview with volume, difficulty and more</td></tr>\n<tr><td>Google Keyword Planner</td><td>Free (needs a Google Ads account)</td><td>Volume and CPC guides (see the official site for whether difficulty or intent appear)</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Checked in November 2026. Prices change — confirm on each vendor's official site before you buy.</p>\n\n<h2>Why use this tool</h2>\n<ul>\n<li><strong>Four numbers in one row.</strong> Volume, CPC, difficulty and intent.</li>\n<li><strong>About $0.012 per call.</strong> About 80 per $1.</li>\n<li><strong>A few seconds.</strong> We measured under 1 second for the call.</li>\n<li><strong>Intent in plain words.</strong></li>\n<li><strong>Save as CSV.</strong></li>\n</ul>\n\n<h2>When it is not the right fit</h2>\n<ul>\n<li>You want to <strong>compare several keywords</strong> → this tool takes one per call. \"See search volume\" or \"see keyword difficulty\" fit better for several.</li>\n<li><strong>CPC</strong> is in US dollars. The tool does not convert it.</li>\n<li>Some keywords have <strong>no difficulty</strong> → DataForSEO says keyword difficulty needs SERP data, so it is only available for keywords in its SERP database. The one word we entered (\"how to start a blog\") returned a value, 38 (measured in the US).</li>\n<li>No 12-month trend is shown. \"See monthly volume history\" fits for trends.</li>\n<li><strong>What the volume means</strong> → the monthly volume is close to the average of the last 12 months (measured for \"how to start a blog\" in the US: 6,600 against a 12-month average of about 6,940). It is not the latest month's value.</li>\n</ul>\n<p>This tool does one thing: show one keyword's volume, CPC, difficulty and intent in a row.</p>\n\n<h2>FAQ</h2>\n<details><summary>Is intent just one value?</summary><p>Only the main one is shown, the strongest even if the keyword has mixed intent.</p></details>\n<details><summary>What unit is CPC in?</summary><p>US dollars, a per-click guide.</p></details>\n<details><summary>Why is difficulty sometimes blank?</summary><p>DataForSEO says keyword difficulty needs SERP data, so it is only available for keywords in its SERP database. The one word we entered (\"how to start a blog\") returned a value, 38 (measured in the US).</p></details>\n<details><summary>What do country and language change?</summary><p>The market for the numbers. For example, the US and English give US numbers, as in our sample.</p></details>\n<details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href=\"/dfs-en.html\">What is DataForSEO?</a></p></details>\n</section>\n"
+ }
+}

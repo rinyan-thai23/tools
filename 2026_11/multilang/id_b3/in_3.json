@@ -1,0 +1,76 @@
+{
+ "C41": {
+  "locale_en": {
+   "c41.name": "See past monthly search volume",
+   "c41.desc": "See when the peak season comes each year",
+   "c41.price": "Cost: $0.012 for 1 keyword, $0.0156 for 30 and $0.072 for 500 (measured). The more you batch, the cheaper per keyword. The sample is free.",
+   "c41.eta": "Typical time: a few seconds",
+   "c41.title": "Historical Search Volume | Monthly Search Volume by Month and Keyword Seasonality (Free Sample)",
+   "c41.meta": "Enter a keyword and get its monthly search volume over past years as a table and a chart. See keyword seasonality: when the peak season comes each year. Free sample.",
+   "c41.keyword": "Keywords (one per line, up to 500)",
+   "c41.col.ym": "Month",
+   "c41.col.volume": "Searches",
+   "c41.ai_prompt": "You are an assistant who helps find the best selling season.\nThe reader is someone who sells products or services and wants to know \"when is the busy season each year\" to plan preparation.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Rows: {n}\n- Columns\n  - Year-month: the month of the record. Months without a record may have no row.\n  - Searches: an estimate of Google searches in that month.\n- The number for a month may later be replaced by a different value. These are estimates, not exact counts.\n\n# What I would like you to do\n1. For each year, name the month with the most searches. Also tell me whether it is the same month every year.\n2. Calculate the ratio between the busiest month and the quietest month.\n3. Tell me about months with no record or with zero.\n4. Suggest when to start preparing for the season, marking it as \"this is a guess\", and keep it short.\n\n# Rules\n- If there are several keywords, answer for each keyword separately.\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table (year / peak month / searches in the peak month).\n\n# Data (tab-separated)\n```\n{data}\n```",
+   "c41.col.keyword": "Keyword",
+   "c41.steps": [
+    [
+     "1 keyword",
+     "$0.012 (measured)",
+     "See five years of one keyword"
+    ],
+    [
+     "30 keywords",
+     "$0.0156 (measured)",
+     "Line up seasonal terms and compare their peak months"
+    ],
+    [
+     "100 keywords",
+     "about $0.022 (a guide)",
+     "Build a season chart for a whole genre"
+    ],
+    [
+     "500 keywords",
+     "$0.072 (measured)",
+     "Sort a whole site's article ideas by season"
+    ]
+   ]
+  },
+  "content_en": "<section class=\"seo\">\n<h2>Ways to see past monthly search volume — and how the main tools compare</h2>\n<p>If you sell products online, you want to know <strong>when the peak season comes each year</strong>. Enter one keyword and this tool shows its past monthly search volume as a year-month table (62 months in our sample, from August 2021 to October 2026).</p>\n<p class=\"note\">* You can now enter many keywords at once, one per line. The table has a \"Keyword\" column. Where the text below says \"one keyword\", it describes entering a single keyword. See the table at the top for the cost.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.012 per call (measured)</td><td>One keyword's past monthly volume in a year-month table. Save as CSV</td></tr>\n<tr><td>Keywords Everywhere</td><td>Credit-based (see the official site for prices)</td><td>Volume, CPC, competition, a 12-month trend and more (see the official site for features)</td></tr>\n<tr><td>Google Trends (by hand)</td><td>Free</td><td>Popularity over time. Relative to a peak of 100, not a search count</td></tr>\n<tr><td>Google Keyword Planner (by hand)</td><td>Free (needs a Google Ads account)</td><td>Monthly volume guides. See the official site for the period shown</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Checked in November 2026. Prices change — confirm on each vendor's official site before you buy.</p>\n\n<h2>Why use this tool</h2>\n<ul>\n<li><strong>Five years of monthly numbers.</strong> \"how to start a blog\" returned 62 months (measured in the US).</li>\n<li><strong>Search counts, not popularity.</strong> Unlike Google Trends, these are volume numbers.</li>\n<li><strong>About $0.012 per call.</strong> About 80 per $1.</li>\n<li><strong>A few seconds.</strong> We measured under 1 second for the call.</li>\n<li><strong>Save as CSV.</strong> Overlay years in a spreadsheet chart.</li>\n</ul>\n\n<h2>When it is not the right fit</h2>\n<ul>\n<li>You need <strong>no missing months</strong> → 62 months came back, so one month in the span was missing (measured).</li>\n<li>You want <strong>the 12-month average</strong> → this table shows each month's own volume (the API also holds a 12-month average per date; we do not show it).</li>\n<li>You want to <strong>compare several keywords</strong> → one keyword per call.</li>\n<li>You want <strong>a forecast</strong> → only past numbers.</li>\n</ul>\n<p>This tool does one thing: fetch the past monthly search volume of one keyword.</p>\n\n<h2>FAQ</h2>\n<details><summary>What does \"volume\" count?</summary><p>An estimate of how many times the keyword was searched in that month. We show the monthly value.</p></details>\n<details><summary>Why separate the monthly value from the 12-month average?</summary><p>For each month the API returns both that month's value and the 12-month average at that date. For finding peak seasons, the monthly value fits better.</p></details>\n<details><summary>How far back does it go?</summary><p>August 2021 in our sample.</p></details>\n<details><summary>What do country and language change?</summary><p>The market for the numbers. For example, the US and English give US numbers, as in our sample.</p></details>\n<details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href=\"/dfs-en.html\">What is DataForSEO?</a></p></details>\n</section>\n"
+ },
+ "C45": {
+  "locale_en": {
+   "c45.name": "See keywords a site ranks high for",
+   "c45.desc": "See which keywords your or a rival's blog ranks for",
+   "c45.price": "Cost: $0.024 for 100 rows and $0.132 for 1,000 rows (both measured). It rises slowly with the number of rows (about $0.0001 per row). The sample is free.",
+   "c45.eta": "Typical time: a few seconds",
+   "c45.title": "Ranked Keywords | See What Keywords a Website Ranks For, with Position and Volume (Free Sample)",
+   "c45.meta": "Enter a domain and get the keywords it ranks for on Google, with position and search volume. Use it for competitor keyword research and to see which keywords your own blog appears for. Free sample.",
+   "c45.keyword": "Domain (e.g. example.com)",
+   "c45.col.keyword": "Keyword",
+   "c45.col.rank": "Position",
+   "c45.col.volume": "Monthly searches",
+   "c45.col.url": "Page URL",
+   "c45.ai_prompt": "You are an assistant who helps analyze a site's keywords.\nThe reader is an affiliate blogger who wants to see which keywords their own or a competitor's blog shows up for in search.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Rows: {n}\n- Columns\n  - Keyword: a keyword for which the site I entered is in the top 10 of the normal search results.\n  - Rank: the position for that keyword (1-10).\n  - Monthly searches: an estimate based on Google Ads data.\n  - Page URL: the page that shows up for that keyword.\n- This data is only the top 100 by search volume. It is not all the keywords in the top 10. Spelling variants can appear as separate keywords.\n\n# What I would like you to do\n1. Group the keywords into 3-5 themes.\n2. List keywords with large search volume but a lower rank (candidates for improvement).\n3. List keywords ranked 1st with small search volume, if any.\n4. Suggest 5 articles to write next, with reasons.\n5. Briefly say what cannot be known from the data alone (for example, why the page ranks there).\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table (group / keyword / rank / monthly searches).\n\n# Data (tab-separated)\n```\n{data}\n```",
+   "c45.ai_prompt_diff": "You are an assistant who helps compare a site's keywords over time.\nThe reader is an affiliate blogger who checked the same site twice, on different days, and wants to know how the rankings changed.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Rows: {n}\n- Last time: {prev_date}\n- Columns: Keyword is one in the top 10, Rank is 1-10, Monthly searches is an estimate based on Google Ads data.\n- The data is only the top 100 by search volume. Keywords that appear in only one of the two should be listed as \"new\" or \"gone\".\n\n# What I would like you to do\n1. Keywords whose rank went up or down, with last time and this time.\n2. Keywords that are new and keywords that are gone, with their searches.\n3. Briefly sum up, with numbers, whether the change is large or small.\n4. Say what cannot be known from the data alone: is the change real, or just noise in the data?\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table (keyword / last rank / current rank).\n\n# Previous data (tab-separated)\n```\n{prev_data}\n```\n\n# Current data (tab-separated)\n```\n{data}\n```",
+   "c45.count": "Number of rows to fetch (more rows cost more; see the table below)",
+   "c45.steps": [
+    [
+     "100 rows",
+     "$0.024 (measured)",
+     "Get the big picture. The top rows by search volume are enough"
+    ],
+    [
+     "300 rows",
+     "about $0.05 (a guide)",
+     "Look at a competitor's top keywords theme by theme"
+    ],
+    [
+     "1,000 rows",
+     "$0.132 (measured)",
+     "Dig into a big site's keywords with sorting and filtering"
+    ]
+   ]
+  },
+  "content_en": "<section class=\"seo\">\n<h2>Ways to see which keywords a site ranks high for — and how the main tools compare</h2>\n<p>If you run affiliate blogs, you want to know <strong>which keywords your own or a rival's blog ranks high for</strong>. Enter a domain and this tool lists up to 100 keywords it ranks in the top 10 for, in order of search volume, with position and URL.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.024 per call for 100 rows (measured)</td><td>From a domain: top-10 keywords by volume, 100 rows, with position and URL. Works on other people's sites. Save as CSV</td></tr>\n<tr><td>Google Search Console</td><td>Free</td><td>Shows which searches your own site appeared for, and at what position. You cannot view other sites</td></tr>\n<tr><td>Ahrefs Site Explorer (Organic keywords)</td><td>Subscription (see the official site for plans)</td><td>A list of keywords a site ranks for. The free version covers only sites you verify (per Ahrefs' page)</td></tr>\n<tr><td>Semrush Organic Research</td><td>Subscription (see the official site for plans)</td><td>Researches a site's search keywords</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Checked in November 2026. Prices change — confirm on each vendor's official site before you buy.</p>\n\n<h2>Why use this tool</h2>\n<ul>\n<li><strong>Works on other people's blog domains.</strong> See a rival's main earners.</li>\n<li><strong>Top 10 only, by volume.</strong> target.com had about 3.0 million organic top-10 keywords; we took the 100 with the highest volume (measured).</li>\n<li><strong>Position and URL included.</strong> See which page ranks where.</li>\n<li><strong>About $0.024 per call.</strong> About 40 per $1.</li>\n<li><strong>Save as CSV.</strong></li>\n</ul>\n\n<h2>When it is not the right fit</h2>\n<ul>\n<li>You want <strong>all positions</strong> → it is limited to the top 10. Positions 11 and below are not shown.</li>\n<li>You want <strong>more than 100</strong> → it stops at 100.</li>\n<li>You want <strong>promising words</strong> → sorted by volume, the top rows are brand, store and product names (for target.com, \"target\", \"targets\", \"needohs\" and \"store near me\" led, and \"target\" ranked 1st).</li>\n<li>You want <strong>real visits</strong> → volume is the keyword's monthly searches, not the visitors the site received.</li>\n</ul>\n<p>This tool does one thing: show the 100 highest-volume keywords a domain ranks in the top 10 for.</p>\n\n<h2>FAQ</h2>\n<details><summary>Why limit it to the top 10?</summary><p>To serve as a \"keywords it ranks high for\" tool, we limit it to the top 10 and sort by volume. That limit is this tool's own rule.</p></details>\n<details><summary>Does the position include ads?</summary><p>No. Only organic results (not ads) are included, with the position within organic results (rank_group).</p></details>\n<details><summary>Why only 100?</summary><p>The tool fixes the count at 100 per call.</p></details>\n<details><summary>What do country and language change?</summary><p>The market for the numbers. The sample uses the United States and English, so positions are in US results.</p></details>\n<details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href=\"/dfs-en.html\">What is DataForSEO?</a></p></details>\n</section>\n"
+ }
+}

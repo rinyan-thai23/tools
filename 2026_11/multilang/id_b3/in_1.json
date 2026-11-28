@@ -1,0 +1,76 @@
+{
+ "C08": {
+  "locale_en": {
+   "c08.name": "See search-box suggestions",
+   "c08.desc": "See what readers search for alongside your keyword",
+   "c08.price": "Cost: $0.002 per item (measured). With several inputs you pay per item (about $0.04 for 20). The sample is free.",
+   "c08.eta": "Typical time: a few seconds",
+   "c08.title": "Google Autocomplete Keywords | Get Search Suggestions for Any Keyword as a List (Free Sample)",
+   "c08.meta": "Get the Google autocomplete (search suggest) keywords for any keyword as a list. See what readers search alongside your keyword. Save the suggestions as CSV. Free sample.",
+   "c08.keyword": "Keywords (one per line, up to 50)",
+   "c08.col.suggestion": "Suggestion",
+   "c08.ai_prompt": "You are an assistant who helps organize search suggestions.\nThe reader is a beginner blogger looking for article ideas and keyword variations.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Rows: {n}\n- Columns\n  - Suggestion: a candidate shown in the Google search box. Up to 15, not a search volume.\n  - Results and numbers can change with place and time. This is for this day and these conditions.\n\n# What I would like you to do\n1. Group the suggestions into 3-5 themes.\n2. Make 3 article title ideas from the suggestions.\n3. List suggestions that look like worries or questions.\n4. Briefly say what cannot be known from the data alone (for example, which suggestion is searched the most).\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table (group / suggestion).\n\n# Data (tab-separated)\n```\n{data}\n```",
+   "c08.steps": [
+    [
+     "1 item",
+     "$0.002 (measured)",
+     "See the suggestions for one word"
+    ],
+    [
+     "5 items",
+     "$0.01",
+     "Compare suggestions for related words"
+    ],
+    [
+     "20 items",
+     "$0.04",
+     "Collect suggestions by varying the word, e.g. \"blog a\"..."
+    ],
+    [
+     "50 items",
+     "$0.10",
+     "Gather raw material for article ideas at once"
+    ]
+   ]
+  },
+  "content_en": "<section class=\"seo\">\n<h2>Ways to see Google's search suggestions — and how the main tools compare</h2>\n<p>When you choose a topic, it helps to know <strong>what readers search alongside your keyword</strong>. The suggestions that appear when you type into the search box are a good hint. There are several ways to see them.</p>\n<p class=\"note\">* You can now enter many items, one per line (each is sent one by one, so you pay per item). The table gets an \"Input\" column. Where the text below says \"one\", it describes a single item. See the table at the top for the cost.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.002 each (about 500 per $1)</td><td>Suggestions as a list. Choose country and language. Returns in a few seconds (1.3 measured for \"how to start a blog\"). Save as CSV</td></tr>\n<tr><td>Type into the Google search box</td><td>Free</td><td>Quick, but you copy each suggestion by hand</td></tr>\n<tr><td>Ubersuggest</td><td>Subscription (the Individual plan is listed at $29/month on the official pricing page; see the site for current plans)</td><td>From keyword ideas to rank and competitor analysis</td></tr>\n<tr><td>AnswerThePublic</td><td>See the official site</td><td>Shows question-style suggestions as a visual</td></tr>\n<tr><td>Google Keyword Planner</td><td>Needs a Google Ads account with billing details; see the official site for cost</td><td>Keyword ideas inside Google Ads</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Checked in November 2026. Prices and free tiers change — confirm on each vendor's official site before you use them.</p>\n\n<h2>Why use this tool</h2>\n<ul>\n<li><strong>Back in a few seconds.</strong> Try many words without thinking twice.</li>\n<li><strong>The suggestions come as a list.</strong> No copying — save them as CSV.</li>\n<li><strong>Pay per use, not per daily quota.</strong> No monthly fee, about $0.002 each, and $0 in months you do not use it.</li>\n<li><strong>Pick country and language.</strong> See suggestions for markets beyond your own.</li>\n<li><strong>Just a keyword, plus country and language.</strong> With so few settings, you can try it between brainstorming sessions.</li>\n</ul>\n\n<h2>When it is not the right fit</h2>\n<ul>\n<li>You want to <strong>expand suggestions in bulk</strong> with letter prefixes → a dedicated keyword research tool, such as those in the table above, fits better.</li>\n<li>You want the <strong>search volume</strong> of each suggestion → this tool lists suggestions only.</li>\n<li>A few free lookups a day are enough → the Google search box itself will do.</li>\n</ul>\n<p>This tool does one thing: show which suggestions Google's search box offers for a keyword, quickly.</p>\n\n<h2>FAQ</h2>\n<details><summary>How many suggestions appear?</summary><p>In our test (\"how to start a blog\") there were 15. The number Google returns varies by keyword. There is no option to choose a count.</p></details>\n<details><summary>How is it different from typing into the Google search box?</summary><p>You get the suggestion list for one word as a table you can save as CSV, with no copying by hand, and you can pick the country and language. It is the same kind of suggestions, paid per use.</p></details>\n<details><summary>When are the suggestions from?</summary><p>They are what Google returned at the moment you pressed the button, and they can change with time and place.</p></details>\n<details><summary>Some suggestions look oddly written.</summary><p>The suggestions are shown exactly as Google returned them. Our sample run for \"how to start a blog\" included entries such as \"how to start a blog post\" and \"how to start a blog page\" that read as off-topic. Treat the order as a rough guide and pick suggestions that make sense for your topic.</p></details>\n<details><summary>How can I use the suggestions when planning an article?</summary><p>They hint at what readers tend to look up next. For \"how to start a blog\", for instance, the list shows words such as \"for free\", \"and make money\" and \"on wordpress\". The tool only lists suggestions; it does not judge which are good.</p></details>\n<details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href=\"/dfs-en.html\">What is DataForSEO?</a></p></details>\n</section>\n"
+ },
+ "C23": {
+  "locale_en": {
+   "c23.name": "See how often AI is asked",
+   "c23.desc": "Check whether a topic is asked of AI often",
+   "c23.price": "Cost: about $0.0101 for 1 keyword and $0.0638 for 538 (measured). Up to 1,000 go in one request; more are split automatically (up to 2,000). The sample is free.",
+   "c23.eta": "Typical time: a few seconds",
+   "c23.title": "AI Search Volume | See How Often Topics Are Asked in AI Search (Free Sample)",
+   "c23.meta": "See how often a topic is asked in AI search such as ChatGPT search. Check whether a topic is a popular AI question: a keyword research tool for AI search. Free sample.",
+   "c23.keyword": "Keywords (one per line, up to 2,000)",
+   "c23.col.ym": "Month",
+   "c23.col.volume": "AI search volume",
+   "c23.ai_prompt": "You are an assistant who helps read AI question volumes.\nThe reader is a person who wants to know whether this topic is also asked in AI.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Rows: {n}\n- Columns\n  - Year-month: the month.\n  - AI searches: an estimate of how many times it was asked in AI that month. Not exact. Zero is possible.\n\n# What I would like you to do\n1. Name the busiest and quietest months and calculate the ratio.\n2. Compare the average of the first 3 months with the last 3 months to see if it is rising or falling.\n3. Tell me about months with zero, if any.\n4. Briefly say what cannot be known from the data alone (for example, the reasons or future results).\n\n# Rules\n- If there are several keywords, answer for each keyword separately.\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table (year-month / AI searches).\n\n# Data (tab-separated)\n```\n{data}\n```",
+   "c23.col.keyword": "Keyword",
+   "c23.steps": [
+    [
+     "1 keyword",
+     "about $0.0101 (measured)",
+     "See whether one topic is asked in AI"
+    ],
+    [
+     "30 keywords",
+     "about $0.013 (a guide)",
+     "Line up related topics and compare AI question counts"
+    ],
+    [
+     "538 keywords",
+     "$0.0638 (measured)",
+     "Put it next to Google volume (C24) to find terms asked in AI"
+    ],
+    [
+     "2,000 keywords",
+     "about $0.25 (a guide, in 2 requests)",
+     "Sort a huge keyword list by AI question volume"
+    ]
+   ]
+  },
+  "content_en": "<section class=\"seo\">\n<h2>Ways to check how often a topic is asked of AI — and how the main tools compare</h2>\n<p>When you choose a topic for a book or article, you want to know <strong>whether people also ask AI about it</strong>. Enter a keyword and this tool shows its monthly search volume on AI platforms as a table of the last 12 months.</p>\n<p class=\"note\">* You can now enter many keywords at once, one per line. The table has a \"Keyword\" column. Where the text below says \"one keyword\", it describes entering a single keyword. See the table at the top for the cost.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.01 each (measured $0.0101–0.0102; 0.5 s for the \"wireless earbuds\" sample)</td><td>One keyword in; monthly AI search volume for 12 months in a table. Save as CSV</td></tr>\n<tr><td>Semrush Prompt Research</td><td>Subscription (part of the Semrush AI Visibility Toolkit; see the official site for prices)</td><td>Finds what people ask AI. Its volume is described as an estimate at the topic level</td></tr>\n<tr><td>Google Trends</td><td>Free</td><td>Popularity over time in Google Search. Not the number of AI questions</td></tr>\n<tr><td>Google Keyword Planner</td><td>Free (needs a Google Ads account; see the official site for conditions)</td><td>Monthly search volume in Google Search. Not an AI number</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Checked in November 2026. Prices change — confirm on each vendor's official site before you buy.</p>\n\n<h2>Why use this tool</h2>\n<ul>\n<li><strong>Only the AI number.</strong> See how much is asked of AI, separate from Google search.</li>\n<li><strong>A 12-month trend.</strong> A hint whether a topic is seasonal or a passing spike.</li>\n<li><strong>About $0.01, a few seconds at most.</strong> About 99 per $1, so you can check many topic ideas. Our U.S. sample for \"wireless earbuds\" took 0.5 seconds and showed 9,245 for October 2026.</li>\n<li><strong>Pick country and language.</strong> See U.S. numbers, or another country's.</li>\n<li><strong>Save as CSV.</strong></li>\n</ul>\n\n<h2>When it is not the right fit</h2>\n<ul>\n<li>You want the <strong>Google search volume</strong> → this tool is the AI number. Google Keyword Planner and similar tools fit better.</li>\n<li>You need <strong>exact numbers</strong> → the tool shows the API's estimate as returned.</li>\n<li>You want <strong>several keywords at once</strong> → one keyword per call.</li>\n<li>A word nobody asks about shows 12 months of zeros and still costs one call (confirmed in an earlier test, not in the U.S. sample).</li>\n</ul>\n<p>This tool does one thing: show a keyword's monthly AI search volume over 12 months.</p>\n\n<h2>FAQ</h2>\n<details><summary>What does \"AI search volume\" count?</summary><p>The API's estimate of how often the keyword comes up in conversations with AI. This tool cannot tell how it is calculated.</p></details>\n<details><summary>Why do some keywords show zeros?</summary><p>A word with no sign of being asked of AI shows zeros. A call is still charged.</p></details>\n<details><summary>What is the month column?</summary><p>Year and month such as \"2026-10\". The top row is the latest month.</p></details>\n<details><summary>How is it different from Google search volume?</summary><p>Google volume counts searches in Google. This counts conversations with AI.</p></details>\n<details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href=\"/dfs-en.html\">What is DataForSEO?</a></p></details>\n</section>\n"
+ }
+}
