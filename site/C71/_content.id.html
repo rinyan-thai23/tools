@@ -1,0 +1,38 @@
+<section class="seo">
+<h2>Cara mengecek harga penginapan di sekitar — dan perbandingan alat utamanya</h2>
+<p>Pemilik penginapan ingin tahu <strong>berapa tarif penginapan di sekitarnya untuk Sabtu yang akan datang</strong>. Masukkan sebuah area, dan alat ini menampilkan dalam tabel nama hotel, harga, dan rating untuk satu malam, dua orang dewasa, check-in Sabtu depan.</p>
+<div class="scroll"><table>
+<thead><tr><th>Cara / alat</th><th>Model harga</th><th>Catatan</th></tr></thead>
+<tbody>
+<tr class="me"><td>Alat ini (DataForSEO)</td><td>Bayar per permintaan. Sekitar $0.004 per panggilan (hasil ukur), sekitar 250 per $1</td><td>Sekitar 20 hotel di area itu dengan nama, harga, dan rating dalam tabel. Bisa disimpan sebagai CSV</td></tr>
+<tr><td>Google Travel (Hotel)</td><td>Lihat situs resminya</td><td>Layar tempat kamu menentukan tanggal dan jumlah tamu lalu melihat harga hotel</td></tr>
+<tr><td>Rakuten Travel / Jalan (manual)</td><td>Lihat situs resminya</td><td>Kamu menentukan tanggal dan mengecek penginapan satu per satu; menderetkannya harus manual</td></tr>
+<tr><td>Booking.com (manual)</td><td>Lihat situs resminya</td><td>Kamu menentukan tanggal dan mengecek penginapan satu per satu; menderetkannya harus manual</td></tr>
+</tbody></table></div>
+<p class="asof">Dicek pada November 2026. Harga bisa berubah — pastikan di situs resmi masing-masing sebelum membeli.</p>
+
+<h2>Kenapa pakai alat ini</h2>
+<ul>
+<li><strong>Penginapan di sekitar berderet dalam satu panggilan.</strong> "京都" mengembalikan 20 baris dalam sekitar 5 detik (hasil ukur).</li>
+<li><strong>Harga dan rating berdampingan.</strong> Rating dan jumlah ulasan ikut tampil.</li>
+<li><strong>Sekitar $0.004 per panggilan.</strong> Sekitar 250 per $1, jadi kamu bisa memperbaruinya setiap Sabtu.</li>
+<li><strong>Tanggal dikunci pada "Sabtu depan, satu malam, dua orang dewasa".</strong> Kamu tidak perlu memilih tanggal.</li>
+<li><strong>Simpan sebagai CSV.</strong> Pakai untuk catatan mingguan.</li>
+</ul>
+
+<h2>Kapan alat ini kurang cocok</h2>
+<ul>
+<li>Kamu ingin <strong>harga hari kerja atau hari libur</strong> → tanggal dikunci pada satu malam mulai Sabtu depan.</li>
+<li><strong>Harga kosong</strong> → saat API mengembalikan harga 0, selnya dikosongkan. Kemungkinan artinya tidak ada harga yang tersedia, bukan kamar gratis (alasannya belum dipastikan). Jumlah yang kosong berbeda menurut area dan tanggal (hasil ukur: 2 dari 20 untuk "京都", 12 dari 20 untuk "東京 ホテル", dan 2 dari 18 untuk pencarian yang sama pada tanggal lain).</li>
+<li>Kamu ingin <strong>harga per tipe kamar</strong> → tabel hanya memuat satu harga per penginapan.</li>
+<li>Kamu ingin <strong>peringkat penginapanmu sendiri</strong> → tabel tidak menampilkan peringkat.</li>
+</ul>
+<p>Alat ini hanya melakukan satu hal: menampilkan harga dan rating penginapan di suatu area untuk satu malam mulai Sabtu depan.</p>
+
+<h2>FAQ</h2>
+<details><summary>Harga itu untuk apa?</summary><p>Satu malam untuk dua orang dewasa, check-in Sabtu depan dan check-out hari Minggu. Satuannya yen.</p></details>
+<details><summary>Kenapa ada harga yang kosong?</summary><p>API mengembalikan 0 untuk hotel itu, dan alat ini menampilkan 0 sebagai kosong. Kemungkinan artinya tidak ada harga yang tersedia (misalnya sudah penuh), tetapi kami belum memastikan alasannya.</p></details>
+<details><summary>Bagaimana menulis areanya?</summary><p>Nama tempat seperti "京都" atau "浅草". Menambahkan kata, seperti "東京 ホテル", juga bisa.</p></details>
+<details><summary>Bisakah mengubah tanggal?</summary><p>Tidak di alat ini. Tanggalnya dikunci pada Sabtu depan.</p></details>
+<details><summary>Bisakah mendaftar dengan email gratis?</summary><p>Tidak. DataForSEO tidak menerima penyedia email gratis. Lihat <a href="/dfs-id.html">Apa itu DataForSEO?</a></p></details>
+</section>
