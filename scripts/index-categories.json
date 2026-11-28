@@ -193,7 +193,7 @@
  },
  "en": {
   "title": "What you can do here",
-  "intro": "These are DataForSEO API features, one per tool, on screen. Rank checking (SERP), keyword research (search volume, related keywords, difficulty), competitor analysis, local SEO (Google Maps), AI search visibility (ChatGPT, Gemini, Claude, Perplexity, Google AI Mode), YouTube analysis, site audits (page speed, headings) and domain tools (WHOIS, technologies): about 60 tools. BYOK (bring your own key): no subscription, you pay per use with your own API key. Every tool has a free sample, so you can see what you get before you run it.",
+  "intro": "These are DataForSEO API features, one per tool, on screen. Rank checking (SERP), keyword research (search volume, related keywords, difficulty), competitor analysis, local SEO (Google Maps), AI search visibility (ChatGPT, Gemini, Claude, Perplexity, Google AI Mode), YouTube analysis, site audits (page speed, headings) and domain tools (WHOIS, technologies): about 60 tools. BYOK (bring your own key): no subscription, you pay per use with your own API key. Every tool has a free sample, so you can see what you get before you run it. You can choose Indonesia, the Philippines, India or Thailand as the country (a few tools do not support every country).",
   "sections": [
    {
     "title": "Search results and rankings (SEO and local SEO)",

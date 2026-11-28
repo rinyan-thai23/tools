@@ -283,7 +283,7 @@ await init();
   const esc = (x) => String(x).replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
   $('steps').innerHTML = `<details open><summary>${t('ui.steps_title')}</summary><div class="scroll"><table class="steps"><thead><tr><th>${t('ui.steps_amount')}</th><th>${t('ui.steps_cost')}</th><th>${t('ui.steps_use')}</th></tr></thead><tbody>${rowsS.map((r) => `<tr>${r.map((c) => `<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div></details>`;
 })();
-if (cfg.markets) await fillMarkets($('country'), $('language'), cfg.country_codes); // 'country' / 'language' のときは、ない方は null
+if (cfg.markets) await fillMarkets($('country'), $('language'), cfg.country_codes, cfg.endpoint); // 'country' / 'language' のときは、ない方は null
 if (cfg.inputs.some((i) => i.transform === 'technology')) loadTech().catch(() => {});
 if (cfg.chunk) { // 入力した語数と、送る回数・料金の目安を、その場で見せる
   const ta = $('in-' + cfg.chunk.input), nt = $('chunk-note');

@@ -46,9 +46,10 @@ function renderKeyBox(box, referral) {
   draw();
 }
 
-export async function fillMarkets(countrySel, langSel, allowed) {
+export async function fillMarkets(countrySel, langSel, allowed, endpoint = '') {
   const m = await getJson('/shared/markets.json');
   m.countries = m.countries.filter((c) => !c.only || c.only.includes(lang)); m.languages = m.languages.filter((c) => !c.only || c.only.includes(lang)); // only：その言語の画面にだけ出す
+  m.countries = m.countries.filter((c) => !(c.not_for || []).some((p) => endpoint.startsWith(p))); // not_for：そのAPIが、この国の英語に対応していない
   if (allowed) m.countries = m.countries.filter((c) => allowed.includes(c.code)); // そのAPIが対応している国だけ
   const opt = (a, d) => a.map((x) => `<option value="${x.code}" ${x.code === d ? 'selected' : ''}>${x[lang] || x.en}</option>`).join('');
   if (countrySel) countrySel.innerHTML = opt(m.countries, allowed && !allowed.includes((m.defaults[lang] || m.defaults.en).country) ? allowed[0] : (m.defaults[lang] || m.defaults.en).country);

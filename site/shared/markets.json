@@ -58,6 +58,50 @@
       "only": [
         "vi"
       ]
+    },
+    {
+      "code": 2360,
+      "ja": "インドネシア",
+      "en": "Indonesia",
+      "zh-TW": "印尼",
+      "vi": "Indonesia",
+      "only": [
+        "en"
+      ]
+    },
+    {
+      "code": 2608,
+      "ja": "フィリピン",
+      "en": "Philippines",
+      "zh-TW": "菲律賓",
+      "vi": "Philippines",
+      "only": [
+        "en"
+      ]
+    },
+    {
+      "code": 2356,
+      "ja": "インド",
+      "en": "India",
+      "zh-TW": "印度",
+      "vi": "Ấn Độ",
+      "only": [
+        "en"
+      ]
+    },
+    {
+      "code": 2764,
+      "ja": "タイ",
+      "en": "Thailand",
+      "zh-TW": "泰國",
+      "vi": "Thái Lan",
+      "only": [
+        "en"
+      ],
+      "not_for": [
+        "dataforseo_labs/",
+        "ai_optimization/ai_keyword_data/"
+      ]
     }
   ],
   "languages": [
