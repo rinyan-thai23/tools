@@ -1,0 +1,60 @@
+{
+ "C65": {
+  "locale_en": {
+   "c65.name": "See a summary of mentions",
+   "c65.desc": "See the big picture of talk about a company",
+   "c65.price": "Cost: about $0.024 per call (about 40 per $1). The sample is free.",
+   "c65.eta": "Typical time: about 7-26 seconds (a repeat of the same word can take a few seconds)",
+   "c65.title": "Web Mentions Summary | Mention Count, Sentiment and Page Types – a Social Listening Starting Point (Free Sample)",
+   "c65.meta": "Enter a keyword and get the number of web mentions, the sentiment split, page types, languages and the most frequent domains.",
+   "c65.keyword": "Keyword (e.g. company name)",
+   "c65.col.total": "Mentions (ceiling 4,000,000)",
+   "c65.col.kind": "Category",
+   "c65.col.count": "Count",
+   "c65.col.lang": "Language",
+   "c65.col.domain": "Domain",
+   "c65.total_title": "Mention count",
+   "c65.tone_title": "Sentiment split",
+   "c65.types_title": "Page types",
+   "c65.lang_title": "Languages (top)",
+   "c65.domains_title": "Most frequent domains",
+   "c65.v.positive": "Positive",
+   "c65.v.negative": "Negative",
+   "c65.v.neutral": "Neutral",
+   "c65.v.news": "News",
+   "c65.v.blogs": "Blogs",
+   "c65.v.organization": "Organizations",
+   "c65.v.ecommerce": "E-commerce",
+   "c65.v.message-boards": "Message boards",
+   "c65.ai_prompt": "You are an assistant who helps read the overall picture of web mentions.\nThe reader is a person who wants to know how much and in what form a company or product is mentioned online.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Rows: {n}\n- Columns\n  - Mentions (cap 4,000,000): the total number of mentions.\n  - Group / language / domain (later tables): counts by sentiment, page type, language and top domains.\n\n# What I would like you to do\n1. Calculate the shares of sentiment (positive, negative, neutral).\n2. List the 5 domains with the most mentions.\n3. Tell me, as shares, how languages are split.\n4. Counts are estimates with a cap. Briefly say what cannot be known from the data alone (for example, why the reputation is good or bad).\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table of the shares you calculated.\n\n# Data (tab-separated)\n```\n{data}\n```"
+  },
+  "content_en": "<section class=\"seo\">\n<h2>Ways to see the big picture of web mentions (count, tone, type) — and how the main tools compare</h2>\n<p>Before a sales visit, you want to know <strong>how much, and in what tone, the prospect is being talked about online</strong>. Enter a keyword and this tool tabulates the mention count, positive/negative counts, page types, languages and top domains.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.024 per call (measured), roughly 40 per $1</td><td>Count, sentiment split, page types, languages and top domains in tables. Save as CSV</td></tr>\n<tr><td>Google Alerts</td><td>Free</td><td>Emails you when new pages appear; no tallies. It does not catch every mention (per Ahrefs' guide)</td></tr>\n<tr><td>Brandwatch</td><td>See the official site for pricing</td><td>A paid service for monitoring social media and news (see the official site for features)</td></tr>\n<tr><td>Meltwater</td><td>See the official site for pricing</td><td>A paid service for monitoring news and social media (see the official site for features)</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Checked in November 2026. Prices change — confirm on each vendor's official site before you buy.</p>\n\n<h2>Why use this tool</h2>\n<ul>\n<li><strong>The big picture in one call.</strong> Count, tone, page types, languages and top domains together.</li>\n<li><strong>Sentiment counts included.</strong> For \"Starbucks\": about 1.96 million positive, 881 thousand negative and 1.15 million neutral (measured).</li>\n<li><strong>Page types shown.</strong> E-commerce, news, company pages, blogs and message boards.</li>\n<li><strong>About $0.024 per call.</strong> Roughly 40 per $1, so you can check many prospects.</li>\n<li><strong>Save as CSV.</strong> Use it as a note before a visit.</li>\n</ul>\n\n<h2>When it is not the right fit</h2>\n<ul>\n<li>You want <strong>pages in one language only</strong> → this summary is not filtered by language. For \"Starbucks\", about 2.76 million were English and 584 thousand Japanese (measured). Check the language table.</li>\n<li>You want <strong>numbers above 4 million</strong> → the count stops at 4,000,000 (measured). Popular words show \"4,000,000\".</li>\n<li>You want <strong>the individual pages</strong> → \"See web mentions\" fits better.</li>\n<li>You want <strong>recent movement</strong> → this tool sets no time range. Use \"See how mentions change\" for monthly movement.</li>\n</ul>\n<p>This tool does one thing: show a keyword's mention count, sentiment split, page types, languages and top domains.</p>\n\n<h2>FAQ</h2>\n<details><summary>Why is the count 4,000,000?</summary><p>For heavily mentioned words like \"Starbucks\" the count stops at 4,000,000 in our test (measured). Treat it as a ceiling we observed, not the real number.</p></details>\n<details><summary>Can I filter by language?</summary><p>Not in this tool. It shows counts per language in a table instead.</p></details>\n<details><summary>How is the sentiment decided?</summary><p>DataForSEO analyses each page's text. A person did not judge it.</p></details>\n<details><summary>Are the top domains the company's official sites?</summary><p>No. They are the sites with the most pages containing the keyword, which need not be official sites.</p></details>\n<details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href=\"/dfs-en.html\">What is DataForSEO?</a></p></details>\n</section>\n"
+ },
+ "C66": {
+  "locale_en": {
+   "c66.name": "See the sentiment counts of mentions",
+   "c66.desc": "See if talk is positive or negative",
+   "c66.price": "Cost: about $0.024 per call (about 40 per $1). The sample is free.",
+   "c66.eta": "Typical time: about 10-29 seconds (a repeat of the same word can take a few seconds)",
+   "c66.title": "Sentiment Analysis of Mentions | Positive, Negative and Neutral Counts for Any Keyword (Free Sample)",
+   "c66.meta": "Enter a keyword and get the number of mentions that are positive, negative and neutral, and per emotion (happiness, love, fun, sadness, anger, share).",
+   "c66.keyword": "Keyword (e.g. company or product name)",
+   "c66.col.group": "Group",
+   "c66.col.count": "Mentions",
+   "c66.col.emotion": "Emotion",
+   "c66.group_title": "Mentions per positive / negative / neutral group (ceiling 4,000,000)",
+   "c66.emotion_title": "Mentions per emotion",
+   "c66.v.positive": "Positive",
+   "c66.v.negative": "Negative",
+   "c66.v.neutral": "Neutral",
+   "c66.v.happiness": "Happiness",
+   "c66.v.love": "Love",
+   "c66.v.fun": "Fun",
+   "c66.v.sadness": "Sadness",
+   "c66.v.anger": "Anger",
+   "c66.v.share": "Urge to share",
+   "c66.ai_prompt": "You are an assistant who helps read the sentiment of mentions.\nThe reader is a person who wants to know whether mentions of a company or product are positive or negative.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Rows: {n}\n- Columns\n  - Group / mentions: the number of mentions per positive, negative and neutral.\n  - Emotions (second table): the number of mentions per emotion.\n\n# What I would like you to do\n1. Calculate the shares of positive, negative and neutral.\n2. Order the emotion types by count.\n3. If negatives are large, list 3 things to check next.\n4. The sentiment is automatic. Briefly say what cannot be known from the data alone (for example, why it is negative).\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table (group / count / share).\n\n# Data (tab-separated)\n```\n{data}\n```"
+  },
+  "content_en": "<section class=\"seo\">\n<h2>Ways to see sentiment counts of web mentions — and how the main tools compare</h2>\n<p>PR staff want to know <strong>whether talk about their company is positive or negative</strong>. Enter a keyword and this tool returns mention counts per positive, negative and neutral group, and per six emotions such as joy and anger, in two tables.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.024 per call (measured), roughly 40 per $1</td><td>Mention counts for three groups and six emotions in tables. Save as CSV</td></tr>\n<tr><td>Google Alerts</td><td>Free</td><td>Emails you when new pages appear; no sentiment analysis. It does not catch every mention (per Ahrefs' guide)</td></tr>\n<tr><td>Paid web-mention monitoring services</td><td>Varies (see each official site)</td><td>Some include sentiment analysis; scope and features differ by vendor</td></tr>\n<tr><td>Read the articles and sort them yourself (by hand)</td><td>Free</td><td>Accurate, but slow when there are many</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Checked in November 2026. Prices change — confirm on each vendor's official site before you buy.</p>\n\n<h2>Why use this tool</h2>\n<ul>\n<li><strong>Counts per emotion.</strong> For \"Starbucks\", in the positive group: about 296 thousand for love, 97 thousand for happiness and 55 thousand for fun (measured).</li>\n<li><strong>Counts for the three groups too.</strong> Positive, negative and neutral mention counts line up.</li>\n<li><strong>About $0.024 per call.</strong> Roughly 40 per $1.</li>\n<li><strong>About 10 to 25 seconds.</strong> We measured about 11 seconds for \"Starbucks\" and about 23 seconds for a Japanese keyword; repeating the same word sometimes returned in a few seconds.</li>\n<li><strong>Save as CSV.</strong> Groundwork for a report.</li>\n</ul>\n\n<h2>When it is not the right fit</h2>\n<ul>\n<li>You want <strong>pages in one language only</strong> → this analysis is not filtered by language.</li>\n<li>You want <strong>numbers above 4 million</strong> → counts stop at 4,000,000. The positive count for \"Starbucks\" was about 3.98 million, close to that ceiling (measured).</li>\n<li>You want <strong>percentages</strong> → this tool shows counts only. When a count stops at its ceiling, a percentage would be wrong.</li>\n<li>You want <strong>the individual pages</strong> → \"See web mentions\" fits better.</li>\n</ul>\n<p>This tool does one thing: show mention counts per positive/negative/neutral group and per emotion.</p>\n\n<h2>FAQ</h2>\n<details><summary>What are the six emotions?</summary><p>Happiness, love, fun, sadness, anger and share (the urge to share). This is DataForSEO's classification.</p></details>\n<details><summary>Why counts and not percentages?</summary><p>Some counts stop at the 4,000,000 ceiling, so a percentage would be inaccurate.</p></details>\n<details><summary>How does it differ from \"See a summary of mentions\"?</summary><p>That one shows total count, page types, languages and top domains. This one shows counts per positive/negative/neutral group and per emotion.</p></details>\n<details><summary>Did a person judge the sentiment?</summary><p>No. DataForSEO analysed the pages' text.</p></details>\n<details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href=\"/dfs-en.html\">What is DataForSEO?</a></p></details>\n</section>\n"
+ }
+}
