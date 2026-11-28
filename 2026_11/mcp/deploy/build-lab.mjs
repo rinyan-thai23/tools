@@ -78,7 +78,7 @@ th{background:var(--accent-soft);white-space:nowrap}tr:last-child td{border-bott
 const FONT = '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap">';
 function shell({title, body, crumbs = ''}) {
   return `<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">${NOINDEX}<title>${esc(title)}</title>${FONT}<style>${CSS}</style></head><body>
-<nav class="top"><a href="/"><b>MCP実験室</b></a>${crumbs}<span class="sp"></span><a href="/show/">見せる用</a><a href="/ideas/">アイデア帳</a><a href="/industries/">業種メモ</a><a href="/patterns/">型の判断</a><a href="/about/">進め方</a><span class="tag">社内用・検索に出しません</span></nav>
+<nav class="top"><a href="/"><b>MCP実験室</b></a>${crumbs}<span class="sp"></span><a href="/show/">見せる用</a><a href="/ideas/">アイデア帳</a><a href="/plans/">契約の形</a><a href="/industries/">業種メモ</a><a href="/patterns/">型の判断</a><a href="/about/">進め方</a><span class="tag">社内用・検索に出しません</span></nav>
 <main>${body}</main></body></html>`;
 }
 const md = s => marked.parse(s, {gfm: true}).replace(/<table>/g, '<div class="tw"><table>').replace(/<\/table>/g, '</table></div>');
@@ -172,6 +172,7 @@ const indexBody = `
 put('/index.html', shell({title: 'MCP実験室', body: indexBody}), '.html');
 put('/about/index.html', shell({title: '進め方', body: md(fs.readFileSync(path.join(root, 'README.md'), 'utf8')), crumbs: '<span>／</span><span>進め方</span>'}), '.html');
 put('/ideas/index.html', shell({title: 'アイデア帳', body: md(fs.readFileSync(path.join(root, 'IDEAS.md'), 'utf8')), crumbs: '<span>／</span><span>アイデア帳</span>'}), '.html');
+put('/plans/index.html', shell({title: '契約の形ごとの詳細', body: md(fs.readFileSync(path.join(root, 'PLANS.md'), 'utf8')), crumbs: '<span>／</span><span>契約の形ごとの詳細</span>'}), '.html');
 put('/industries/index.html', shell({title: '業種メモ', body: md(fs.readFileSync(path.join(root, 'INDUSTRIES.md'), 'utf8')), crumbs: '<span>／</span><span>業種メモ</span>'}), '.html');
 putHtml('/show/index.html', path.join(root, 'exp/022_feedback_kit/show/index.html'));
 put('/patterns/index.html', shell({title: '型の判断', body: md(fs.readFileSync(path.join(root, 'PATTERNS.md'), 'utf8')), crumbs: '<span>／</span><span>型の判断</span>'}), '.html');

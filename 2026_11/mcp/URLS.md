@@ -8,6 +8,7 @@
 | トップ（一覧・進み具合） | https://lab.byokkit.com/ |
 | 進め方・基準 | https://lab.byokkit.com/about/ |
 | アイデア帳（強引チェック付き） | https://lab.byokkit.com/ideas/ |
+| 契約の形ごとの詳細（スポット／月極／その他・没案） | https://lab.byokkit.com/plans/ |
 | 業種メモ（取れる率の実測） | https://lab.byokkit.com/industries/ |
 | 型の判断（成り立つ／成り立たない） | https://lab.byokkit.com/patterns/ |
 | 見せる用ページ（外の反応を取る） | https://lab.byokkit.com/show/ |
