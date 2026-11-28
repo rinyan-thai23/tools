@@ -1,0 +1,71 @@
+{
+ "C05": {
+  "locale": {
+   "c05.name": "Lihat artikel Google News",
+   "c05.desc": "Lihat bagaimana perusahaan atau industrimu muncul di berita",
+   "c05.price": "Perkiraan biaya: sekitar $0.002 untuk 10 hasil, $0.004 untuk 20 (bertambah per 10). Tampilan contoh gratis. Kalau memasukkan beberapa isian, kamu membayar per isian. Tiap isian butuh waktu, jadi banyak isian berarti menunggu lama.",
+   "c05.eta": "Waktu rata-rata alat ini: sekitar 1–1,5 menit",
+   "c05.title": "Hasil Google News | Pantau Berita Perusahaanmu (Contoh Gratis)",
+   "c05.meta": "Masukkan kata kunci atau nama perusahaan, dapatkan artikel Google News dalam tabel: sumber, tanggal, judul. Cocok untuk memantau berita dan melihat bagaimana perusahaan atau industrimu muncul.",
+   "c05.keyword": "Kata kunci (misalnya nama perusahaan) (satu per baris, maksimal 10)",
+   "c05.count": "Jumlah hasil (dari teratas)",
+   "c05.col.source": "Sumber",
+   "c05.col.date": "Tanggal",
+   "c05.col.title": "Judul",
+   "c05.col.url": "URL",
+   "c05.ai_prompt": "Kamu adalah asisten yang membantu merapikan artikel berita.\nPembaca adalah orang PR atau sales yang ingin tahu bagaimana sebuah perusahaan atau produk muncul di berita.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Sumber / tanggal / judul: media, tanggal, dan judul beritanya.\n  - Hasil dan angka bisa berubah menurut tempat dan waktu. Ini hanya untuk hari dan kondisi ini.\n\n# Yang saya minta\n1. Hitung jumlah artikel per media.\n2. Rangkum topiknya dalam 3-5 kelompok, mulai dari tanggal terbaru.\n3. Daftarkan kata yang sering muncul di judul, sejauh bisa dihitung.\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya, apakah pemberitaannya positif).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (media / jumlah artikel).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+   "c05.steps": [
+    [
+     "1 item",
+     "$0.002 (perkiraan)",
+     "Cek satu kata kunci"
+    ],
+    [
+     "5 item",
+     "$0.01 (perkiraan)",
+     "Deretkan beberapa kata kunci dan bandingkan"
+    ],
+    [
+     "10 item",
+     "$0.02 (perkiraan)",
+     "Periksa banyak kata kunci sekaligus dan simpan sebagai tabel atau CSV"
+    ]
+   ]
+  },
+  "content": "<section class=\"seo\">\n<h2>Cara melihat bagaimana perusahaanmu muncul di berita — dan perbandingan alat utamanya</h2>\n<p>Setelah rilis pers, atau saat klien bilang \"saya lihat kamu di berita\", kamu ingin melihat di satu tempat <strong>media mana yang memberitakanmu, kapan, dan dengan judul apa</strong>. Ada beberapa cara untuk mengetahuinya.</p>\n<p class=\"note\">* Sekarang kamu bisa memasukkan banyak isian, satu per baris (masing-masing dikirim satu per satu, jadi kamu membayar per isian). Tabelnya mendapat kolom \"Isian\". Kalau teks di bawah menyebut \"satu\", artinya satu isian. Lihat tabel di bagian atas untuk biayanya.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Cara / alat</th><th>Model harga</th><th>Catatan</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>Alat ini (DataForSEO)</td><td>Bayar per permintaan. Sekitar $0.002 untuk 10 hasil (contoh AS), $0.004 untuk 20 (diukur pada uji sebelumnya di Jepang); bertambah per 10</td><td>Sumber, tanggal, judul, dan URL dalam satu tabel. Pilih negara dan bahasa. Simpan sebagai CSV. Butuh sekitar 1–1,5 menit</td></tr>\n<tr><td>Cari di Google News secara manual</td><td>Gratis</td><td>Cepat, tapi kamu mencatat tiap artikel sendiri dan menyimpan daftarnya juga urusanmu</td></tr>\n<tr><td>Google Alerts</td><td>Gratis</td><td>Memberi tahu kalau kata pencarian punya hasil baru. Cocok untuk memantau dari waktu ke waktu; analisisnya sedikit</td></tr>\n<tr><td>Layanan pemantauan media berbayar (langganan bulanan)</td><td>Harga langganan berbeda tiap penyedia; lihat situs resmi masing-masing</td><td>Biasanya dibuat untuk pemantauan terus-menerus dari banyak sumber, bukan daftar sekali jalan</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Dicek pada November 2026. Harga bisa berubah — pastikan di situs resmi masing-masing sebelum membeli.</p>\n\n<h2>Kenapa pakai alat ini</h2>\n<ul>\n<li><strong>Sumber, tanggal, judul, dan URL dalam satu tabel.</strong> Pakai daftarnya apa adanya di rapat atau laporan.</li>\n<li><strong>Hanya sebanyak yang kamu perlukan.</strong> Pilih 10, 20, 50, atau 100 hasil. Pada uji kami, 10 hasil biayanya sekitar $0.002 (contoh AS, \"tesla\") dan 20 hasil sekitar $0.004 (uji sebelumnya di Jepang); untuk jumlah yang lebih besar, cek biaya yang tampil di bawah hasil.</li>\n<li><strong>Tanpa biaya bulanan.</strong> Sehari setelah rilis pers, cek media mana yang mengutipnya.</li>\n<li><strong>Pilih negara dan bahasa.</strong> Lihat juga bagaimana kamu muncul di berita luar negeri.</li>\n<li><strong>Simpan sebagai CSV.</strong> Ambil tiap bulan dan bandingkan perkembangan pemberitaannya.</li>\n</ul>\n\n<h2>Kapan alat ini kurang cocok</h2>\n<ul>\n<li>Kamu ingin <strong>peringatan otomatis</strong> untuk artikel baru → Google Alerts lebih cocok (gratis).</li>\n<li>Kamu ingin <strong>sebutan di media sosial atau analisis sentimen</strong> → layanan pemantauan berbayar lebih cocok. Alat ini hanya mendaftar artikel Google News.</li>\n<li>Kamu ingin <strong>semua artikel lama</strong> → Google News kebanyakan mengembalikan artikel terbaru.</li>\n</ul>\n<p>Alat ini hanya melakukan satu hal: menampilkan dalam tabel artikel yang saat ini terdaftar di Google News, sebanyak yang kamu minta.</p>\n\n<h2>FAQ</h2>\n<details><summary>Apakah tanggalnya adalah tanggal terbit?</summary><p>Itu waktu artikel yang dikembalikan Google, ditampilkan sebagai tanggal. Google sendiri menampilkan teks relatif seperti \"2 hari lalu\"; alat ini menampilkan stempel waktu yang dikembalikan sebagai tanggal.</p></details>\n<details><summary>Kenapa butuh satu menit atau lebih?</summary><p>Google kini mengarahkan setiap tautan hasil lewat Google dulu (untuk pelacakan klik). Alat ini mengikuti tautan itu untuk menemukan URL artikel yang asli, yang memakan sekitar 77 detik pada contoh AS kami (\"tesla\", 10 hasil) dan 50 detik sampai 1 menit pada uji sebelumnya di Jepang.</p></details>\n<details><summary>Berapa biaya untuk jumlah yang lebih besar?</summary><p>Pada uji kami, 10 hasil biayanya $0.002 (contoh AS) dan 20 hasil $0.004 (uji sebelumnya di Jepang). Jumlah yang lebih besar belum kami ukur; cek biaya yang tampil di bawah hasil.</p></details>\n<details><summary>Saat mencari nama perusahaanku, muncul artikel yang tidak terkait.</summary><p>Artikel yang cocok dengan kata kunci ditampilkan sebagaimana dikembalikan. Menambahkan kata industri ke nama perusahaan akan mempersempitnya.</p></details>\n<details><summary>Bisakah mendaftar dengan email gratis?</summary><p>Tidak. DataForSEO tidak menerima penyedia email gratis. Lihat <a href=\"/dfs-id.html\">Apa itu DataForSEO?</a></p></details>\n</section>\n"
+ },
+ "C07": {
+  "locale": {
+   "c07.name": "Lihat hasil teratas pencarian gambar",
+   "c07.desc": "Lihat seperti apa sampul dan thumbnail untuk sebuah kata kunci",
+   "c07.price": "Perkiraan biaya: sekitar $0.002 untuk 20–100 hasil (hasil ukur; harganya sama di jumlah berapa pun). Tampilan contoh gratis. Kalau memasukkan beberapa isian, kamu membayar per isian.",
+   "c07.eta": "Waktu rata-rata alat ini: sekitar 7–10 detik",
+   "c07.title": "Hasil Pencarian Gambar Google | Inspirasi Thumbnail & Sampul (Gratis)",
+   "c07.meta": "Masukkan kata kunci, dapatkan hasil teratas pencarian gambar Google sebagai daftar thumbnail. Cocok untuk ide thumbnail, inspirasi sampul buku, dan riset SEO gambar: lihat gambar apa yang berperingkat.",
+   "c07.keyword": "Kata kunci (satu per baris, maksimal 30)",
+   "c07.count": "Jumlah hasil (dari teratas)",
+   "c07.col.image": "Gambar",
+   "c07.col.title": "Judul",
+   "c07.col.url": "URL halaman sumber",
+   "c07.ai_prompt": "Kamu adalah asisten yang membantu merapikan hasil pencarian gambar.\nPembaca adalah orang yang ingin melihat apa yang tampil di urutan atas pencarian gambar sebelum mendesain thumbnail, sampul, atau gambar blog.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Gambar: gambar yang tampil di hasil (tabel yang disalin tidak menyertakan gambarnya).\n  - Judul / URL halaman: judul gambar dan halaman tempat gambar itu muncul.\n  - Hasil dan angka bisa berubah menurut tempat dan waktu. Ini hanya untuk hari dan kondisi ini.\n\n# Yang saya minta\n1. Hitung domain halamannya dan daftarkan situs yang sering muncul.\n2. Daftarkan kata yang sama-sama muncul di judul, sejauh bisa dihitung.\n3. Kamu tidak bisa melihat gambarnya, jadi jangan menilai tampilannya.\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya, alasannya atau hasil di masa depan).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (domain / jumlah).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+   "c07.steps": [
+    [
+     "1 item",
+     "$0.002 (perkiraan)",
+     "Cek satu kata kunci"
+    ],
+    [
+     "5 item",
+     "$0.01 (perkiraan)",
+     "Deretkan beberapa kata kunci dan bandingkan"
+    ],
+    [
+     "30 item",
+     "$0.06 (perkiraan)",
+     "Periksa banyak kata kunci sekaligus dan simpan sebagai tabel atau CSV"
+    ]
+   ]
+  },
+  "content": "<section class=\"seo\">\n<h2>Cara melihat tren sampul dan thumbnail — dan perbandingan alat utamanya</h2>\n<p>Sebelum mendesain sampul ebook atau gambar header blog, kamu ingin melihat <strong>tampilan apa yang mendominasi hasil gambar</strong> untuk topikmu: warnanya, ukuran teksnya, foto atau ilustrasi. Ini tahap \"merasakan tren\".</p>\n<p class=\"note\">* Sekarang kamu bisa memasukkan banyak isian, satu per baris (masing-masing dikirim satu per satu, jadi kamu membayar per isian). Tabelnya mendapat kolom \"Isian\". Kalau teks di bawah menyebut \"satu\", artinya satu isian. Lihat tabel di bagian atas untuk biayanya.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Cara / alat</th><th>Model harga</th><th>Catatan</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>Alat ini (DataForSEO)</td><td>Bayar per permintaan. Sekitar $0.002 untuk 20–100 hasil (hasil ukur)</td><td>Thumbnail beserta judul dan URL halaman sumber dalam satu tabel, hingga 100 sekaligus. Simpan sebagai CSV</td></tr>\n<tr><td>Google Images secara manual</td><td>Gratis</td><td>Cepat, tapi kamu menggulir dan mencatat sendiri apa yang kamu lihat beserta halaman sumbernya</td></tr>\n<tr><td>Ahrefs Rank Tracker</td><td>Langganan bulanan (lihat situs resminya untuk paketnya)</td><td>Melacak apakah situsmu tampil di paket gambar. Tujuannya melacak peringkat situsmu sendiri</td></tr>\n<tr><td>Daftar buku terlaris Amazon / toko Kindle</td><td>Gratis</td><td>Menampilkan sampul buku yang benar-benar laku — sudut pandang yang berbeda dari hasil pencarian</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Dicek pada November 2026. Harga bisa berubah — pastikan di situs resmi masing-masing sebelum membeli.</p>\n\n<h2>Kenapa pakai alat ini</h2>\n<ul>\n<li><strong>Thumbnail berderet.</strong> Lihat tren bersama judul dan URL halaman sumber masing-masing.</li>\n<li><strong>100 hasil hanya $0.002.</strong> Pada uji kami, bahkan 100 hasil biayanya sekitar $0.002, jadi kamu bisa melihat lebih jauh dari beberapa hasil pertama.</li>\n<li><strong>Sekitar 7–10 detik.</strong> Kami mengukur sekitar 9 detik untuk \"ebook cover design\". Ganti kata kunci dan bandingkan beberapa topik.</li>\n<li><strong>Langkah pertama untuk sampul baru.</strong> Tanpa biaya bulanan, bandingkan tren beberapa topik di hari kamu mulai.</li>\n<li><strong>Simpan sebagai CSV.</strong> Simpan URL halaman sumber dan buka lagi nanti.</li>\n</ul>\n\n<h2>Kapan alat ini kurang cocok</h2>\n<ul>\n<li>Tergantung kata kuncinya, hasilnya bisa berupa <strong>contoh layanan desain, bukan sampul buku asli</strong> (pada contoh kami untuk \"ebook cover design\", sebagian besar dari 100 hasil adalah layanan desain sampul, template, dan listing marketplace seperti Etsy dan Fiverr). Coba kata lain, misalnya genre ditambah \"cover\".</li>\n<li>Kamu ingin <strong>salinan beresolusi tinggi</strong> atau ingin <strong>memakai gambarnya</strong> → tabel hanya menampilkan thumbnail kecil dari hasil pencarian dan URL halaman sumber. Gambar milik orang lain dilindungi hak cipta; pakai hanya sebagai referensi.</li>\n<li>Kamu ingin membandingkan sampul menurut <strong>penjualan</strong> → peringkat pencarian gambar tidak berhubungan dengan penjualan. Daftar buku terlaris Amazon lebih cocok.</li>\n<li>Kamu ingin <strong>terus melacak</strong> posisi gambarmu sendiri → alat pelacak peringkat seperti Ahrefs Rank Tracker lebih cocok.</li>\n</ul>\n<p>Alat ini hanya melakukan satu hal: menampilkan gambar mana yang memimpin Google Images untuk sebuah kata kunci, sebanyak yang kamu minta.</p>\n\n<h2>FAQ</h2>\n<details><summary>Bolehkah memakai gambar yang tampil untuk sampulku sendiri?</summary><p>Tidak. Gambar dilindungi hak cipta. Anggap saja sebagai referensi tren. Alat ini hanya menampilkan thumbnail hasil pencarian.</p></details>\n<details><summary>Apakah peringkat berhubungan dengan penjualan?</summary><p>Tidak. Itu hanya urutan di Google Images.</p></details>\n<details><summary>URL halaman sumber punya string panjang di ujungnya.</summary><p>URL ditampilkan persis seperti yang dikembalikan Google. Halamannya tetap terbuka seperti biasa.</p></details>\n<details><summary>Apakah jumlah yang lebih besar lebih mahal?</summary><p>Pada uji kami, 20 hasil dan 100 hasil sama-sama berbiaya sekitar $0.002.</p></details>\n<details><summary>Bisakah mendaftar dengan email gratis?</summary><p>Tidak. DataForSEO tidak menerima penyedia email gratis. Lihat <a href=\"/dfs-id.html\">Apa itu DataForSEO?</a></p></details>\n</section>\n"
+ }
+}

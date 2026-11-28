@@ -1,0 +1,68 @@
+{
+ "C19": {
+  "locale": {
+   "c19.name": "Lihat jawaban Claude",
+   "c19.desc": "Lihat apa jawaban Claude saat ditanya",
+   "c19.price": "Biaya: sekitar $0.002 per pertanyaan (tanpa pencarian web, sekitar 450 per $1). Contoh gratis. Kalau isiannya banyak, kamu membayar per isian.",
+   "c19.eta": "Waktu rata-rata: beberapa detik",
+   "c19.title": "Cek Jawaban Claude | Bandingkan dengan ChatGPT (Contoh Gratis)",
+   "c19.meta": "Lihat jawaban Claude untuk sebuah pertanyaan. Bandingkan dengan ChatGPT dan Gemini, lalu cek bagaimana mereknya atau pesaing digambarkan. Ada contoh gratis.",
+   "c19.prompt": "Pertanyaan (mis. Apa alat absensi yang bagus untuk perusahaan kecil?) (satu per baris, maksimal 30)",
+   "c19.col.answer": "Jawaban Claude",
+   "c19.answer": "Jawaban Claude",
+   "c19.ai_prompt": "Kamu adalah asisten yang membantu membaca jawaban Claude.\nPembaca adalah orang yang ingin mengecek apakah perusahaan atau produknya muncul ketika pelanggan menanyakan hal seperti itu ke AI.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Isi: teks jawaban AI dan tabel sumber\n- Kolom\n  - Jawaban: teks jawaban Claude.\n  - Jawaban bisa berubah setiap kali ditanyakan. Ini satu hasil pada hari ini.\n- Claude di alat ini tidak memakai pencarian web. Tidak ada sumber yang ditampilkan.\n\n# Yang saya minta\n1. Daftarkan semua nama perusahaan, produk, dan toko di dalam jawaban, sesuai urutan kemunculannya.\n2. Tulis 3 hal yang perlu dicek untuk mengetahui apakah perusahaan atau produk saya muncul.\n3. Kalau sumber ditampilkan, hitung domainnya. Kalau tidak, tulis \"tidak ada\".\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya, cara agar masuk ke dalam jawaban).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (nama / urutan kemunculan).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+   "c19.steps": [
+    [
+     "1 isian",
+     "$0.002 (perkiraan)",
+     "Cek satu pertanyaan"
+    ],
+    [
+     "5 isian",
+     "$0.01 (perkiraan)",
+     "Deretkan beberapa pertanyaan lalu bandingkan"
+    ],
+    [
+     "30 isian",
+     "$0.06 (perkiraan)",
+     "Telusuri banyak pertanyaan sekaligus dan simpan sebagai tabel atau CSV"
+    ]
+   ]
+  },
+  "content": "<section class=\"seo\">\n<h2>Cara melihat jawaban Claude — dan perbandingan alat utamanya</h2>\n<p>Ketika calon pelanggan bertanya ke Claude \"apa alat absensi yang bagus untuk perusahaan kecil?\", <strong>apakah namamu muncul</strong>? Kamu pasti ingin tahu sebelum bertemu klien. Masukkan sebuah pertanyaan, dan alat ini menampilkan jawaban Claude sebagai teks.</p>\n<p class=\"note\">* Sekarang kamu bisa memasukkan banyak isian, satu per baris (dikirim satu per satu, jadi kamu membayar per isian). Tabel mendapat kolom \"Isian\". Kalau teks di bawah menyebut \"satu\", artinya satu isian. Biayanya ada di tabel paling atas.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Cara / alat</th><th>Model harga</th><th>Catatan</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>Alat ini (DataForSEO)</td><td>Bayar per permintaan. Sekitar $0.002 per permintaan (hasil ukur, tanpa pencarian web)</td><td>Masukkan pertanyaan, dapatkan teks jawabannya. Bisa disimpan sebagai CSV. Modelnya tetap claude-haiku-4-5</td></tr>\n<tr><td>Aplikasi Claude (manual)</td><td>Ada paket gratis (batasannya lihat situs resminya)</td><td>Kamu bertanya dan membaca sendiri. Tampilan aslinya, jadi paling akurat. Kamu mencatat sendiri</td></tr>\n<tr><td>Ahrefs Brand Radar (Prompt Tracking)</td><td>Langganan (harga dan AI yang didukung lihat situs resminya)</td><td>Memantau pertanyaan pilihanmu setiap hari. Untuk pemantauan berkelanjutan</td></tr>\n<tr><td>SE Ranking SE Visible</td><td>Langganan (harga lihat situs resminya)</td><td>Memantau kemunculan di beberapa alat AI. Cek situs resminya untuk tahu alat mana saja</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Dicek pada November 2026. Harga bisa berubah — pastikan di situs resmi masing-masing sebelum membeli.</p>\n\n<h2>Kenapa pakai alat ini</h2>\n<ul>\n<li><strong>Baca jawabannya sebagai teks.</strong> Lihat apakah kamu atau pesaingmu disebut.</li>\n<li><strong>Sekitar $0.002 dan beberapa detik.</strong> Contoh ramen New York kami butuh 2,9 detik dan biayanya $0.0018. Sekitar 450 pertanyaan per $1, jadi kamu bisa mencoba banyak pertanyaan.</li>\n<li><strong>Pertanyaan apa pun.</strong> Tulis seperti cara calon pelangganmu bertanya.</li>\n<li><strong>Simpan sebagai CSV.</strong> Simpan jawaban beserta tanggalnya.</li>\n<li><strong>Judul dan daftar berpoin tampil seperti aslinya.</strong></li>\n</ul>\n\n<h2>Kapan alat ini kurang cocok</h2>\n<ul>\n<li>Kamu ingin <strong>informasi terbaru atau sumber</strong> → alat ini tidak memakai pencarian web. Claude menjawab dari yang sudah diketahuinya dan tidak menampilkan sumber (pencarian web berbiaya sekitar $0.025 dalam uji kami).</li>\n<li>Kamu ingin <strong>persis seperti yang ditampilkan aplikasi Claude</strong> → alat ini bertanya ke claude-haiku-4-5 lewat API. Model dan jawabannya bisa berbeda dari aplikasi.</li>\n<li>Kamu ingin <strong>penilaian apakah namamu disebut</strong> → alat ini hanya menampilkan jawabannya.</li>\n<li>Kamu ingin <strong>pemantauan berkelanjutan</strong> → satu panggilan hanya satu jawaban pada satu saat.</li>\n</ul>\n<p>Alat ini hanya melakukan satu hal: menampilkan bagaimana Claude menjawab sebuah pertanyaan tanpa pencarian web.</p>\n\n<h2>FAQ</h2>\n<details><summary>Kenapa tidak ada sumber?</summary><p>Alat ini tidak memakai pencarian web. Kalau butuh sumber, alat Perplexity dan Gemini lebih cocok.</p></details>\n<details><summary>Apakah biayanya tergantung panjang jawaban?</summary><p>Kami mengukur sekitar $0.002 (contoh AS kami berbiaya $0.0018; dua panggilan sebelumnya berbiaya $0.0022 dan $0.0024). Biaya untuk jawaban yang panjang belum diuji.</p></details>\n<details><summary>Kenapa tidak ada pilihan negara atau bahasa?</summary><p>Panggilan ini tidak punya pengaturan negara atau bahasa.</p></details>\n<details><summary>Apakah jawabannya selalu sama?</summary><p>Jawaban bisa berubah dari satu panggilan ke panggilan berikutnya.</p></details>\n<details><summary>Bisakah mendaftar dengan email gratis?</summary><p>Tidak. DataForSEO tidak menerima penyedia email gratis. Lihat <a href=\"/dfs-id.html\">Apa itu DataForSEO?</a></p></details>\n</section>\n"
+ },
+ "C20": {
+  "locale": {
+   "c20.name": "Lihat jawaban Gemini",
+   "c20.desc": "Lihat apa jawaban Gemini saat ditanya",
+   "c20.price": "Biaya: sekitar $0.016–0.06 per pertanyaan (dengan pencarian web; 3 uji). Contoh gratis. Kalau isiannya banyak, kamu membayar per isian.",
+   "c20.eta": "Waktu rata-rata: sekitar 4–8 detik",
+   "c20.title": "Cek Jawaban Gemini | Gemini vs ChatGPT, Apakah Mereknya Muncul?",
+   "c20.meta": "Lihat jawaban Gemini untuk sebuah pertanyaan. Bandingkan Gemini dengan ChatGPT dan cek apakah mereknya muncul. Ada contoh gratis.",
+   "c20.prompt": "Pertanyaan (mis. Rekomendasikan tiga restoran ramen yang bagus di New York City) (satu per baris, maksimal 20)",
+   "c20.col.title": "Nama sumber",
+   "c20.col.url": "URL halaman yang dikutip",
+   "c20.answer": "Jawaban Gemini",
+   "c20.refs": "Halaman yang dikutip",
+   "c20.ai_prompt": "Kamu adalah asisten yang membantu membaca jawaban Gemini.\nPembaca adalah orang yang ingin mengecek apakah perusahaan atau produknya muncul ketika pelanggan menanyakan hal seperti itu ke AI.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Isi: teks jawaban AI dan tabel sumber\n- Kolom\n  - Nama sumber / URL: halaman yang dikutip oleh jawaban.\n  - Jawaban bisa berubah setiap kali ditanyakan. Ini satu hasil pada hari ini.\n\n# Yang saya minta\n1. Daftarkan semua nama perusahaan, produk, dan toko di dalam jawaban, sesuai urutan kemunculannya.\n2. Tulis 3 hal yang perlu dicek untuk mengetahui apakah perusahaan atau produk saya muncul.\n3. Kalau sumber ditampilkan, hitung domainnya. Kalau tidak, tulis \"tidak ada\".\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya, cara agar masuk ke dalam jawaban).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (nama / urutan kemunculan).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+   "c20.steps": [
+    [
+     "1 isian",
+     "$0.06 (perkiraan)",
+     "Cek satu pertanyaan"
+    ],
+    [
+     "5 isian",
+     "$0.30 (perkiraan)",
+     "Deretkan beberapa pertanyaan lalu bandingkan"
+    ],
+    [
+     "20 isian",
+     "$1.20 (perkiraan)",
+     "Telusuri banyak pertanyaan sekaligus dan simpan sebagai tabel atau CSV"
+    ]
+   ]
+  },
+  "content": "<section class=\"seo\">\n<h2>Cara melihat jawaban Gemini — dan perbandingan alat utamanya</h2>\n<p>Ketika seseorang bertanya ke Gemini tentang industri klienmu, <strong>situs mana yang dikutip</strong>? Kamu ingin menulis kalimat seperti \"beginilah tampilan pencarian AI hari ini\" di proposalmu. Masukkan sebuah pertanyaan, dan alat ini mengembalikan jawaban Gemini dengan pencarian web, beserta halaman yang dikutipnya.</p>\n<p class=\"note\">* Sekarang kamu bisa memasukkan banyak isian, satu per baris (dikirim satu per satu, jadi kamu membayar per isian). Tabel mendapat kolom \"Isian\". Kalau teks di bawah menyebut \"satu\", artinya satu isian. Biayanya ada di tabel paling atas.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Cara / alat</th><th>Model harga</th><th>Catatan</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>Alat ini (DataForSEO)</td><td>Bayar per permintaan. Sekitar $0.016–0.06 per permintaan (3 uji; rata-rata sekitar $0.035)</td><td>Masukkan pertanyaan, dapatkan teks jawaban dan halaman yang dikutip (judul dan URL). Bisa disimpan sebagai CSV. Modelnya tetap gemini-3.5-flash-lite</td></tr>\n<tr><td>Aplikasi Gemini (manual)</td><td>Ada paket gratis (batasannya lihat situs resminya)</td><td>Kamu bertanya dan membaca sendiri. Tampilan aslinya. Kamu mencatat sendiri</td></tr>\n<tr><td>SE Ranking SE Visible</td><td>Langganan (harga lihat situs resminya)</td><td>Memantau kemunculan di beberapa alat AI, termasuk Gemini. Untuk pemantauan berkelanjutan</td></tr>\n<tr><td>Ahrefs Brand Radar</td><td>Langganan (lihat halaman harga resminya)</td><td>Riset dan pemantauan kemunculan di AI</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Dicek pada November 2026. Harga bisa berubah — pastikan di situs resmi masing-masing sebelum membeli.</p>\n\n<h2>Kenapa pakai alat ini</h2>\n<ul>\n<li><strong>Jawaban dan sumbernya berdampingan.</strong> Judul dan URL yang dikutip disimpan apa adanya.</li>\n<li><strong>URL sumber yang asli.</strong> Kamu mendapat URL halaman aslinya, bukan tautan pengalihan Google.</li>\n<li><strong>Beberapa detik.</strong> Kami mengukur sekitar 4–8 detik (contoh New York kami butuh 4,5 detik).</li>\n<li><strong>Pertanyaan apa pun.</strong> Tulis sesuai industri klienmu.</li>\n<li><strong>Simpan sebagai CSV.</strong> Tempel ke draf proposal.</li>\n</ul>\n\n<h2>Kapan alat ini kurang cocok</h2>\n<ul>\n<li>Kamu butuh <strong>harga tetap</strong> → dengan pencarian web, biayanya bervariasi menurut panjang jawaban dan jumlah pencarian. Dalam 3 uji biayanya $0.016, $0.030, dan $0.058 (contoh New York berbiaya $0.030).</li>\n<li>Kamu ingin <strong>persis seperti yang ditampilkan aplikasi Gemini</strong> → alat ini bertanya ke gemini-3.5-flash-lite lewat API, jadi jawabannya bisa berbeda.</li>\n<li>Kamu memanggil di <strong>saat ramai</strong> → layanan di balik DataForSEO kadang mengembalikan error sibuk (50301). Alat ini mencoba lagi hingga 3 kali, lalu memberi tahu bahwa layanan sedang sibuk (dalam kasus itu tidak ada biaya).</li>\n<li>Kamu ingin <strong>pemantauan berkelanjutan</strong> → satu panggilan hanya satu jawaban pada satu saat.</li>\n</ul>\n<p>Alat ini hanya melakukan satu hal: menampilkan bagaimana Gemini dengan pencarian web menjawab sebuah pertanyaan dan apa yang dikutipnya.</p>\n\n<h2>FAQ</h2>\n<details><summary>Kenapa biayanya bervariasi?</summary><p>Dengan pencarian web, biayanya tergantung banyaknya pencarian dan panjang jawaban. Kami mengukur sekitar $0.016 sampai $0.058.</p></details>\n<details><summary>Kenapa judul sumber hanya berupa nama situs?</summary><p>Gemini sering menamai kutipan dengan nama situsnya. Kami menampilkannya seperti yang dikembalikan.</p></details>\n<details><summary>Apakah saya ditagih kalau muncul error?</summary><p>Untuk error sibuk (50301), biayanya $0.</p></details>\n<details><summary>Kenapa tidak ada pilihan negara atau bahasa?</summary><p>Panggilan ini tidak punya pengaturan negara atau bahasa.</p></details>\n<details><summary>Bisakah mendaftar dengan email gratis?</summary><p>Tidak. DataForSEO tidak menerima penyedia email gratis. Lihat <a href=\"/dfs-id.html\">Apa itu DataForSEO?</a></p></details>\n</section>\n"
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "C21": {
+  "locale": {
+   "c21.name": "Lihat jawaban Perplexity",
+   "c21.desc": "Lihat situs mana yang dikutip Perplexity",
+   "c21.price": "Biaya: sekitar $0.006 per pertanyaan (sekitar 170 per $1). Contoh gratis. Jika memasukkan beberapa isian, kamu membayar per item.",
+   "c21.eta": "Waktu rata-rata: beberapa detik",
+   "c21.title": "Jawaban dan Sumber Perplexity | Situs yang Dikutip (Contoh Gratis)",
+   "c21.meta": "Lihat jawaban Perplexity beserta sumber yang dikutipnya. Cari tahu situs mana yang dikutip Perplexity untuk sebuah pertanyaan: titik awal untuk Perplexity SEO dan LLM SEO. Contoh gratis.",
+   "c21.prompt": "Pertanyaan (contoh: Rekomendasikan tiga warung makan enak di Jakarta) (satu per baris, maksimal 30)",
+   "c21.col.title": "Judul halaman",
+   "c21.col.url": "URL halaman",
+   "c21.answer": "Jawaban Perplexity",
+   "c21.refs": "Hasil pencarian yang dikutip",
+   "c21.ai_prompt": "Kamu adalah asisten yang membantu membaca jawaban Perplexity.\nPembaca ingin mengecek apakah perusahaan atau produknya muncul saat pelanggan menanyakan hal seperti ini kepada AI.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Isi: teks jawaban AI dan tabel sumber\n- Kolom\n  - Judul halaman / URL: halaman yang dipakai jawaban.\n  - Jawaban bisa berubah setiap kali ditanyakan. Ini satu hasil dari hari ini.\n\n# Yang saya minta\n1. Daftarkan semua nama perusahaan, produk, dan toko dalam jawaban, sesuai urutan kemunculannya.\n2. Tulis 3 hal yang perlu dicek untuk melihat apakah perusahaan atau produk saya muncul.\n3. Jika ada sumber, hitung domainnya. Jika tidak ada, tulis \"tidak ada\".\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya cara agar masuk ke dalam jawaban).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (nama / urutan kemunculan).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+   "c21.steps": [
+    [
+     "1 item",
+     "$0.006 (perkiraan)",
+     "Cek satu pertanyaan"
+    ],
+    [
+     "5 item",
+     "$0.03 (perkiraan)",
+     "Deretkan beberapa pertanyaan lalu bandingkan"
+    ],
+    [
+     "30 item",
+     "$0.18 (perkiraan)",
+     "Telusuri banyak pertanyaan sekaligus dan simpan sebagai tabel atau CSV"
+    ]
+   ]
+  },
+  "content": "<section class=\"seo\">\n<h2>Cara melihat situs yang dikutip Perplexity — dan perbandingan alat utamanya</h2>\n<p>Saat menulis artikel afiliasi, kamu pasti ingin tahu <strong>situs mana yang dikutip Perplexity untuk topikmu</strong>. Masukkan pertanyaan, dan alat ini mengembalikan jawaban Perplexity (sonar) beserta hasil pencarian yang dipakainya, lengkap dengan judul dan URL.</p>\n<p class=\"note\">* Sekarang kamu bisa memasukkan banyak item, satu per baris (masing-masing dikirim satu per satu, jadi kamu membayar per item). Tabel mendapat kolom \"Isian\". Kalimat di bawah yang menyebut \"satu\" menjelaskan satu item. Biayanya lihat tabel di bagian atas.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Cara / alat</th><th>Model harga</th><th>Catatan</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>Alat ini (DataForSEO)</td><td>Bayar per permintaan. Sekitar $0.006 per permintaan (hasil pengukuran)</td><td>Masukkan pertanyaan; dapatkan teks jawaban dan hasil pencarian yang dikutip (judul dan URL). Simpan sebagai CSV. Model dikunci ke sonar</td></tr>\n<tr><td>Aplikasi Perplexity (manual)</td><td>Ada paket gratis; Pro $20/bulan (menurut halaman harganya; detail lihat situs resminya)</td><td>Kamu bertanya dan membaca sendiri. Tampilan aslinya. Catatan harus kamu simpan sendiri</td></tr>\n<tr><td>Ahrefs Brand Radar (AI Visibility)</td><td>Langganan (lihat halaman harga resminya)</td><td>Meneliti dan melacak kemunculan di AI. Untuk pemantauan berkelanjutan</td></tr>\n<tr><td>Semrush AI Visibility Toolkit</td><td>Langganan (butuh paket Semrush; harga lihat situs resminya)</td><td>Meneliti kemunculan di beberapa alat AI. Cakupannya luas</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Dicek pada November 2026. Harga bisa berubah — pastikan di situs resmi masing-masing sebelum membeli.</p>\n\n<h2>Kenapa pakai alat ini</h2>\n<ul>\n<li><strong>Sepuluh hasil pencarian berurutan.</strong> Contoh New York kami mengembalikan 10; simpan judul dan URL-nya.</li>\n<li><strong>Sekitar $0.006 dan beberapa detik.</strong> Contoh kami memakan 2,3 detik. Sekitar 170 per $1, jadi kamu bisa mencoba banyak topik.</li>\n<li><strong>Petunjuk tentang dasar jawabannya.</strong> Bandingkan jenis halaman apa yang dipakai.</li>\n<li><strong>Pertanyaan apa pun.</strong></li>\n<li><strong>Simpan sebagai CSV.</strong></li>\n</ul>\n\n<h2>Kapan alat ini kurang cocok</h2>\n<ul>\n<li>Kamu ingin <strong>persis seperti yang tampil di aplikasi Perplexity</strong> → ini model sonar dari API. Pencarian Pro di aplikasi bisa berbeda.</li>\n<li>Kamu ingin <strong>penilaian tentang cara sumber dipakai</strong> → alat ini hanya menampilkan daftar hasil pencarian.</li>\n<li>Kamu ingin <strong>pemantauan berkelanjutan</strong> → satu panggilan hanya satu jawaban pada satu waktu.</li>\n<li>Kamu ingin <strong>memilih model</strong> → dikunci ke sonar.</li>\n</ul>\n<p>Alat ini hanya melakukan satu hal: menampilkan bagaimana Perplexity menjawab sebuah pertanyaan dan halaman mana yang dikutipnya.</p>\n\n<h2>FAQ</h2>\n<details><summary>Apakah tabelnya sama dengan kutipan di dalam jawaban?</summary><p>Tabel adalah daftar hasil pencarian yang dikembalikan API. Kami tidak mencocokkannya dengan kutipan bernomor di dalam jawaban.</p></details>\n<details><summary>Kenapa tidak ada pengaturan pencarian web?</summary><p>sonar mengembalikan hasil pencarian bersama jawabannya (baik di contoh maupun di uji coba kami). Alat ini tidak punya pengaturan untuk itu.</p></details>\n<details><summary>Kenapa tidak ada pilihan negara atau bahasa?</summary><p>Panggilan ini tidak punya pengaturan negara atau bahasa.</p></details>\n<details><summary>Apakah biayanya tergantung panjang jawaban?</summary><p>Kami mengukur sekitar $0.006 (dua panggilan, masing-masing $0.0059; contoh New York berbiaya $0.0058). Biaya untuk jawaban panjang belum diuji.</p></details>\n<details><summary>Bisakah mendaftar dengan email gratis?</summary><p>Tidak. DataForSEO tidak menerima penyedia email gratis. Lihat <a href=\"/dfs-id.html\">Apa itu DataForSEO?</a></p></details>\n</section>\n"
+ },
+ "C22": {
+  "locale": {
+   "c22.name": "Lihat pencarian ChatGPT",
+   "c22.desc": "Lihat produk apa yang ditampilkan pencarian ChatGPT",
+   "c22.price": "Biaya: sekitar $0.004 per pencarian (sekitar 250 per $1). Butuh sekitar 20–30 detik. Contoh gratis. Jika memasukkan beberapa isian, kamu membayar per item.",
+   "c22.eta": "Waktu rata-rata: sekitar 20–30 detik",
+   "c22.title": "Hasil Pencarian dan Belanja ChatGPT | Produk dan Sumber (Gratis)",
+   "c22.meta": "Lihat produk dan sumber yang dikutip pencarian ChatGPT untuk pertanyaan bergaya belanja. Cek apakah produkmu muncul di hasil pencarian dan belanja ChatGPT. Contoh gratis.",
+   "c22.keyword": "Kata kunci (contoh: how to start a blog) (satu per baris, maksimal 10)",
+   "c22.col.title": "Judul sumber",
+   "c22.col.domain": "Situs",
+   "c22.col.url": "URL sumber",
+   "c22.col.p_image": "Gambar",
+   "c22.col.p_title": "Produk",
+   "c22.col.p_tag": "Tag",
+   "c22.answer": "Jawaban pencarian ChatGPT",
+   "c22.refs": "Sumber",
+   "c22.products": "Produk yang direkomendasikan",
+   "c22.ai_prompt": "Kamu adalah asisten yang membantu membaca hasil pencarian ChatGPT.\nPembaca ingin mengecek apakah produk atau tokonya muncul di jawaban belanja dan pencarian ChatGPT.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Isi: teks jawaban AI dan tabel sumber\n- Kolom\n  - Judul sumber / situs / URL: halaman yang dipakai jawaban.\n  - Produk / tag: produk yang ditampilkan dalam jawaban beserta tag-nya (tabel kedua).\n  - Jawaban bisa berubah setiap kali ditanyakan. Ini satu hasil dari hari ini.\n\n# Yang saya minta\n1. Daftarkan semua nama produk dan brand dalam jawaban, sesuai urutan kemunculannya.\n2. Hitung situs sumber dan sebutkan yang sering muncul.\n3. Tulis 3 hal yang perlu dicek untuk melihat apakah produk saya muncul.\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya alasannya atau hasil di masa depan).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (brand / produk / urutan).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+   "c22.steps": [
+    [
+     "1 item",
+     "$0.004 (perkiraan)",
+     "Cek satu kata kunci"
+    ],
+    [
+     "5 item",
+     "$0.02 (perkiraan)",
+     "Deretkan beberapa kata kunci lalu bandingkan"
+    ],
+    [
+     "10 item",
+     "$0.04 (perkiraan)",
+     "Telusuri banyak kata kunci sekaligus dan simpan sebagai tabel atau CSV"
+    ]
+   ]
+  },
+  "content": "<section class=\"seo\">\n<h2>Cara melihat hasil pencarian ChatGPT — dan perbandingan alat utamanya</h2>\n<p>Kalau kamu berjualan barang online, kamu pasti penasaran <strong>produk apa yang ditampilkan pencarian ChatGPT saat orang bertanya tentang kategori produkmu</strong>. Masukkan kata kunci, dan alat ini mengambil hasil yang bentuknya seperti layar pencarian ChatGPT: jawaban, sumber, dan produk.</p>\n<p class=\"note\">* Sekarang kamu bisa memasukkan banyak item, satu per baris (masing-masing dikirim satu per satu, jadi kamu membayar per item). Tabel mendapat kolom \"Isian\". Kalimat di bawah yang menyebut \"satu\" menjelaskan satu item. Biayanya lihat tabel di bagian atas.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Cara / alat</th><th>Model harga</th><th>Catatan</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>Alat ini (DataForSEO)</td><td>Bayar per permintaan. Sekitar $0.004 per permintaan (hasil pengukuran). Butuh sekitar 20–30 detik (21 detik untuk contoh \"how to start a blog\"; 24–31 detik pada dua uji coba sebelumnya)</td><td>Dari satu kata kunci: teks jawaban, tabel sumber, dan tabel produk (nama, tag, gambar). Simpan sebagai CSV</td></tr>\n<tr><td>Aplikasi ChatGPT (manual)</td><td>Ada paket gratis (batasannya lihat situs resminya)</td><td>Kamu bertanya dan melihat sendiri. Tampilan aslinya, jadi paling akurat. Catatan harus kamu simpan sendiri</td></tr>\n<tr><td>Semrush AI Visibility Toolkit</td><td>Langganan (butuh paket Semrush; harga lihat situs resminya)</td><td>Meneliti kemunculan di beberapa alat AI. Untuk pemantauan berkelanjutan</td></tr>\n<tr><td>Ahrefs Brand Radar</td><td>Langganan (lihat halaman harga resminya)</td><td>Meneliti dan melacak kemunculan di AI. Untuk pemantauan berkelanjutan</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Dicek pada November 2026. Harga bisa berubah — pastikan di situs resmi masing-masing sebelum membeli.</p>\n\n<h2>Kenapa pakai alat ini</h2>\n<ul>\n<li><strong>Mirip tampilan aslinya.</strong> Jawaban, sumber, dan produk yang direkomendasikan terkumpul jadi satu.</li>\n<li><strong>Sekitar $0.004.</strong> Sekitar 250 per $1, jadi kamu bisa mengecek banyak kata kunci.</li>\n<li><strong>Nama produk dan tag.</strong> Saat ChatGPT menampilkan produk, lihat bagaimana tiap produk diperkenalkan, seperti \"best overall\" atau \"best value\". Contoh \"how to start a blog\" kami mengembalikan jawaban dan 4 sumber (WordPress.com, Wix, Blogger, Substack) tetapi tanpa produk; kata kunci belanja seperti \"wireless earbuds\" lebih mungkin menampilkannya.</li>\n<li><strong>Pilih pasarnya.</strong> Pilih negara dan bahasa, misalnya AS dan bahasa Inggris.</li>\n<li><strong>Simpan sebagai CSV.</strong> Simpan tabel sumbernya.</li>\n</ul>\n\n<h2>Kapan alat ini kurang cocok</h2>\n<ul>\n<li>Kamu ingin <strong>hasil cepat</strong> → butuh sekitar 20–30 detik (21 detik untuk contoh kami; 24–31 detik pada uji coba sebelumnya) karena mencari dulu sebelum menjawab.</li>\n<li>Kamu ingin <strong>harga atau URL produk</strong> → tabel produk menampilkan nama, tag, dan gambar. Harga dan URL kebanyakan kosong pada uji coba kami sebelumnya (diukur di Jepang dengan kata kunci berbahasa Jepang), dan contoh AS kami tidak mengembalikan produk sama sekali.</li>\n<li>Kamu ingin <strong>penilaian apakah produkmu muncul</strong> → alat ini hanya menata apa yang dikembalikan.</li>\n<li>Kamu ingin <strong>pemantauan berkelanjutan</strong> → satu panggilan hanya satu jawaban pada satu waktu.</li>\n</ul>\n<p>Alat ini hanya melakukan satu hal: menampilkan bagaimana pencarian ChatGPT menjawab sebuah kata kunci, apa yang dikutipnya, dan produk apa yang ditampilkannya.</p>\n\n<h2>FAQ</h2>\n<details><summary>Kenapa butuh 20–30 detik?</summary><p>Alat ini mencari dulu, baru menulis jawaban. Kami mengukur 21 detik untuk contoh dan 24–31 detik pada uji coba sebelumnya.</p></details>\n<details><summary>Modelnya apa?</summary><p>API melaporkan modelnya gpt-6. Hasilnya tidak dijamin sama dengan aplikasi ChatGPT.</p></details>\n<details><summary>Apa bedanya dengan \"Lihat jawaban ChatGPT\"?</summary><p>Alat itu bertanya langsung ke model ChatGPT lewat API. Alat ini mengambil hasil yang bentuknya seperti layar pencarian ChatGPT, lengkap dengan sumber dan produk.</p></details>\n<details><summary>Bolehkah memakai gambar produknya?</summary><p>Gambarnya berasal dari ChatGPT. Gambar milik orang lain dilindungi hak cipta; pakai hanya sebagai referensi.</p></details>\n<details><summary>Apa yang diubah oleh pilihan negara dan bahasa?</summary><p>Pencarian ChatGPT dijalankan untuk negara dan bahasa itu.</p></details>\n<details><summary>Bisakah mendaftar dengan email gratis?</summary><p>Tidak. DataForSEO tidak menerima penyedia email gratis. Lihat <a href=\"/dfs-id.html\">Apa itu DataForSEO?</a></p></details>\n</section>\n"
+ }
+}

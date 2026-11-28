@@ -1,0 +1,78 @@
+{
+ "C03": {
+  "locale": {
+   "c03.name": "Lihat tempat teratas di Google Maps",
+   "c03.desc": "Lihat posisi tokomu dan pesaingmu di peta",
+   "c03.price": "Perkiraan biaya: sekitar $0.002 untuk 10–100 hasil (hasil ukur; harga sama berapa pun jumlahnya, sekitar 500 per $1). Contoh gratis. Jika memasukkan beberapa isian, kamu membayar per item.",
+   "c03.eta": "Waktu rata-rata alat ini: beberapa detik",
+   "c03.title": "Cek Peringkat Google Maps | Lihat Bisnis Lokal Teratas (Contoh Gratis)",
+   "c03.meta": "Masukkan kata kunci dan dapatkan bisnis lokal teratas di Google Maps dalam tabel: peringkat, rating, jumlah ulasan, dan telepon. Alat cek peringkat Google Maps untuk riset SEO lokal.",
+   "c03.keyword": "Kata kunci (contoh: massage san francisco) (satu per baris, maksimal 30)",
+   "c03.count": "Jumlah hasil (dari peringkat teratas)",
+   "c03.col.rank": "Peringkat",
+   "c03.col.title": "Nama",
+   "c03.col.rating": "Rating",
+   "c03.col.votes": "Ulasan",
+   "c03.col.address": "Alamat",
+   "c03.col.phone": "Telepon",
+   "c03.col.url": "Situs",
+   "c03.ai_prompt": "Kamu adalah asisten yang membantu merapikan peringkat toko di peta.\nPembaca adalah pemilik toko (atau orang yang membantu sebuah toko) yang ingin tahu toko mana yang tampil di urutan atas peta.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Peringkat: posisi dalam hasil peta.\n  - Rating / ulasan: rating bintang dan jumlah ulasan yang tampil di peta.\n  - Alamat, telepon, situs: info toko yang tampil di peta.\n  - Hasil dan angka bisa berubah menurut tempat dan waktu. Ini untuk hari dan kondisi ini.\n\n# Yang saya minta\n1. Deretkan rating dan jumlah ulasan 5 toko teratas, lalu rangkum singkat kesamaan mereka.\n2. Beri tahu saya, dengan angka, apa bedanya toko yang ulasannya banyak dengan yang sedikit.\n3. Tulis 3 hal yang bisa saya cek agar toko saya tampil lebih tinggi (hanya sejauh data memungkinkan).\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya alasannya atau hasil di masa depan).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (toko / peringkat / rating / ulasan).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+   "c03.steps": [
+    [
+     "1 item",
+     "$0.002 (perkiraan)",
+     "Cek satu kata kunci"
+    ],
+    [
+     "5 item",
+     "$0.01 (perkiraan)",
+     "Deretkan beberapa kata kunci lalu bandingkan"
+    ],
+    [
+     "30 item",
+     "$0.06 (perkiraan)",
+     "Telusuri banyak kata kunci sekaligus dan simpan sebagai tabel atau CSV"
+    ]
+   ]
+  },
+  "content": "<section class=\"seo\">\n<h2>Cara melihat peringkat tokomu di Google Maps — dan perbandingan alat utamanya</h2>\n<p>Saat pelanggan mencari \"massage San Francisco\", <strong>di mana tokomu muncul</strong> di peta? Siapa saja pesaingnya, dan seberapa jauh selisih rating dan jumlah ulasannya? Sering kali kamu cuma ingin melihat daftar hari ini di satu tempat.</p>\n<p class=\"note\">* Sekarang kamu bisa memasukkan banyak item, satu per baris (masing-masing dikirim satu per satu, jadi kamu membayar per item). Tabel hasil mendapat kolom \"Input\". Kalau teks di bawah menyebut \"satu\", itu menjelaskan satu item. Lihat tabel di bagian atas untuk biayanya.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Cara / alat</th><th>Model harga</th><th>Catatan</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>Alat ini (DataForSEO)</td><td>Bayar per permintaan. Sekitar $0.002 untuk 10–100 hasil (hasil ukur; sekitar 500 per $1)</td><td>Peringkat, nama, rating, jumlah ulasan, alamat, telepon, dan situs dalam satu tabel. Hasil kembali dalam beberapa detik. Bisa disimpan sebagai CSV</td></tr>\n<tr><td>Cari di Google Maps secara manual</td><td>Gratis</td><td>Cepat, tetapi peringkat berubah menurut lokasi, waktu, dan riwayatmu, dan mencatat pesaing satu per satu butuh usaha</td></tr>\n<tr><td>Local Falcon</td><td>Langganan bulanan; harga lihat situs resminya</td><td>Pelacakan geo-grid: mengukur peringkat dari banyak titik di peta, jadi terlihat area yang kuat dan lemah</td></tr>\n<tr><td>Semrush Local (Map Rank Tracker)</td><td>Langganan bulanan per lokasi; harga lihat situs resminya</td><td>Pelacakan peringkat peta plus pengelolaan listing</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Dicek pada November 2026, termasuk daftar dari pihak ketiga. Harga bisa berubah — pastikan di situs resmi masing-masing sebelum membeli.</p>\n\n<h2>Kenapa pakai alat ini</h2>\n<ul>\n<li><strong>Lihat para pesaing sekilas.</strong> Rating, jumlah ulasan, telepon, dan situs tempat-tempat teratas ada dalam satu tabel.</li>\n<li><strong>Harga sama untuk berapa pun jumlahnya.</strong> Dalam uji kami (contoh AS dan uji sebelumnya di Jepang dengan kata kunci bahasa Jepang), 10, 20, dan 100 hasil sama-sama $0.002, jadi kamu bisa mengecek apakah tokomu ada di 100 teratas.</li>\n<li><strong>Cepat.</strong> Hasil kembali dalam kurang dari 2 detik pada contoh AS kami (\"massage san francisco\", 10 hasil), jadi kamu bisa mencoba beberapa kata kunci.</li>\n<li><strong>Bayar hanya saat melihat.</strong> Tanpa biaya bulanan, jadi cek saja di hari kamu membutuhkannya — misalnya sebelum mencetak ulang brosur atau papan nama.</li>\n<li><strong>Simpan sebagai CSV.</strong> Ambil daftarnya tiap bulan dan bandingkan bagaimana rating dan jumlah ulasan bertambah.</li>\n</ul>\n\n<h2>Kapan alat ini kurang cocok</h2>\n<ul>\n<li>Kamu ingin <strong>peringkat di titik-titik sekitar toko</strong> (grid) → alat geo-grid seperti Local Falcon lebih cocok.</li>\n<li>Kamu ingin peringkatmu <strong>dicatat otomatis setiap hari</strong> → alat pelacak SEO lokal lebih cocok. Alat ini memberi satu cuplikan per permintaan.</li>\n<li>Kamu butuh peringkat persis yang dilihat orang yang berdiri di samping tokomu → alat ini memakai lokasi satu negara, jadi bisa berbeda dari peringkat di tempat itu.</li>\n</ul>\n<p>Alat ini hanya melakukan satu hal: menampilkan tempat mana yang berperingkat di peta untuk sebuah kata kunci, sebanyak yang kamu minta, dengan cepat.</p>\n\n<h2>FAQ</h2>\n<details><summary>Tokoku tidak muncul.</summary><p>Mungkin tokomu di luar jumlah hasil yang kamu pilih. Atur jumlahnya ke 100 lalu lihat lagi. Kalau masih tidak muncul, kata kunci atau nama tokomu mungkin ditulis dengan cara yang berbeda.</p></details>\n<details><summary>Kenapa hasilnya berbeda dari yang saya lihat di peta?</summary><p>Peringkat di peta berubah menurut lokasi pencari dan waktu. Alat ini memakai lokasi satu negara, jadi bisa berbeda dari pencarian yang dilakukan tepat di samping tokomu.</p></details>\n<details><summary>Apakah meminta 100 hasil lebih mahal?</summary><p>Dalam uji kami, 10, 20, dan 100 hasil sama-sama $0.002 (10 pada contoh AS; 20 dan 100 pada uji sebelumnya di Jepang).</p></details>\n<details><summary>Beberapa tempat tidak punya telepon atau situs.</summary><p>Isian yang tidak ada di listing Google Maps tempat itu ditampilkan kosong.</p></details>\n<details><summary>Bisakah mendaftar dengan email gratis?</summary><p>Tidak. DataForSEO tidak menerima penyedia email gratis. Lihat <a href=\"/dfs-id.html\">Apa itu DataForSEO?</a></p></details>\n</section>\n"
+ },
+ "C04": {
+  "locale": {
+   "c04.name": "Lihat daftar \"tempat lainnya\" di peta",
+   "c04.desc": "Lihat tokomu dan pesaing di luar 3 slot teratas peta",
+   "c04.price": "Perkiraan biaya: sekitar $0.002 untuk 20 hasil, $0.01 untuk 100 (hasil ukur). Kata kunci tanpa hasil tetap dikenai biaya. Contoh gratis. Jika memasukkan beberapa isian, kamu membayar per item. Setiap item butuh waktu, jadi banyak item berarti menunggu lebih lama.",
+   "c04.eta": "Waktu rata-rata alat ini: sekitar 2–2,5 menit",
+   "c04.title": "Google Local Finder & Map Pack | Bisnis di Luar 3 Teratas (Gratis)",
+   "c04.meta": "Dapatkan daftar \"tempat lainnya\" di Google Maps (local finder), termasuk posisi di luar 3 teratas map pack. Lihat posisi bisnis pesaing setelah local pack. Lanjutan dari cek peringkat lokal.",
+   "c04.keyword": "Kata kunci (contoh: massage san francisco) (satu per baris, maksimal 10)",
+   "c04.count": "Jumlah hasil (dari peringkat teratas)",
+   "c04.col.rank": "Peringkat",
+   "c04.col.title": "Nama",
+   "c04.col.rating": "Rating",
+   "c04.col.votes": "Ulasan",
+   "c04.col.description": "Deskripsi (area, jam buka)",
+   "c04.col.phone": "Telepon",
+   "c04.col.url": "Situs",
+   "c04.ai_prompt": "Kamu adalah asisten yang membantu merapikan daftar \"tempat lainnya\" di peta.\nPembaca adalah orang toko yang ingin tahu pesaingnya, termasuk toko yang ada setelah 3 teratas di peta.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Peringkat: posisi dalam daftar \"tempat lainnya\".\n  - Rating / ulasan: rating bintang dan jumlah ulasan.\n  - Deskripsi: catatan singkat seperti area atau jam buka.\n  - Hasil dan angka bisa berubah menurut tempat dan waktu. Ini untuk hari dan kondisi ini.\n\n# Yang saya minta\n1. Dari rating dan jumlah ulasan, sebutkan 5 toko yang tampak seperti pesaing.\n2. Rangkum singkat kesamaan deskripsi (area, jam buka).\n3. Tulis 3 hal yang perlu dicek saat membandingkan dengan toko saya.\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya alasannya atau hasil di masa depan).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (toko / peringkat / rating / ulasan).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+   "c04.steps": [
+    [
+     "1 item",
+     "$0.01 (perkiraan)",
+     "Cek satu kata kunci"
+    ],
+    [
+     "5 item",
+     "$0.05 (perkiraan)",
+     "Deretkan beberapa kata kunci lalu bandingkan"
+    ],
+    [
+     "10 item",
+     "$0.10 (perkiraan)",
+     "Telusuri banyak kata kunci sekaligus dan simpan sebagai tabel atau CSV"
+    ]
+   ]
+  },
+  "content": "<section class=\"seo\">\n<h2>Cara melihat peringkatmu di bawah 3 teratas peta — dan perbandingan alat utamanya</h2>\n<p>Peta di atas hasil Google hanya menampilkan tiga toko (local pack). Ketuk \"tempat lainnya\" dan daftar yang lebih panjang terbuka, mulai peringkat 4 ke bawah. Banyak pelanggan memilih dari tiga yang pertama — jadi di mana sebenarnya posisi <strong>toko yang tidak masuk 3 teratas</strong>?</p>\n<p class=\"note\">* Sekarang kamu bisa memasukkan banyak item, satu per baris (masing-masing dikirim satu per satu, jadi kamu membayar per item). Tabel hasil mendapat kolom \"Input\". Kalau teks di bawah menyebut \"satu\", itu menjelaskan satu item. Lihat tabel di bagian atas untuk biayanya.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Cara / alat</th><th>Model harga</th><th>Catatan</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>Alat ini (DataForSEO)</td><td>Bayar per permintaan. Sekitar $0.002 untuk 20 hasil (contoh AS), $0.01 untuk 100 (hasil ukur pada uji sebelumnya di Jepang)</td><td>Daftar \"tempat lainnya\" dalam tabel: peringkat, nama, rating, ulasan, deskripsi, telepon, situs. Bisa disimpan sebagai CSV. Butuh sekitar 2–2,5 menit</td></tr>\n<tr><td>Buka \"tempat lainnya\" secara manual</td><td>Gratis</td><td>Cepat, tetapi peringkat berubah menurut lokasi dan waktu, dan menghitung posisinya dilakukan manual</td></tr>\n<tr><td>Semrush Local (Map Rank Tracker)</td><td>Langganan bulanan per lokasi; harga lihat situs resminya</td><td>Pelacakan peringkat peta plus pengelolaan listing</td></tr>\n<tr><td>Local Falcon</td><td>Langganan bulanan; harga lihat situs resminya</td><td>Pelacakan geo-grid dari banyak titik di peta</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Dicek pada November 2026, termasuk daftar dari pihak ketiga. Harga bisa berubah — pastikan di situs resmi masing-masing sebelum membeli.</p>\n\n<h2>Kenapa pakai alat ini</h2>\n<ul>\n<li><strong>Lihat peringkat 4 ke bawah.</strong> Cek posisi toko di luar 3 slot teratas, lengkap dengan nomor peringkat.</li>\n<li><strong>Rating dan jumlah ulasan pesaing berdampingan.</strong> Selisih dengan tokomu terlihat dalam angka.</li>\n<li><strong>Deskripsi memuat area dan jam buka.</strong> Kamu bisa tahu area yang dilayani sebuah toko dan apakah sedang buka, langsung di daftar.</li>\n<li><strong>Tanpa langganan — sekali lihat di titik penting.</strong> Cek bagaimana toko-toko di sekitarmu berderet sebelum mengubah harga atau memasang iklan.</li>\n<li><strong>Simpan sebagai CSV.</strong> Ambil daftarnya tiap bulan dan bandingkan bagaimana peringkat bergerak.</li>\n</ul>\n\n<h2>Kapan alat ini kurang cocok</h2>\n<ul>\n<li>Kamu ingin peringkat <strong>hotel atau penginapan</strong> → pada uji sebelumnya di Jepang dengan kata kunci bahasa Jepang, \"Kyoto hotel\" dan \"Kyoto inn\" tidak mengembalikan apa pun (dan tetap dikenai biaya). Kami tidak tahu sebabnya; salah satu kemungkinan, penginapan ditampilkan oleh fitur Google yang lain.</li>\n<li>Kamu ingin <strong>alamat</strong> sebagai kolom tersendiri → daftar ini tidak punya kolom alamat; areanya ada di dalam deskripsi.</li>\n<li>Kamu hanya ingin hasil peta dengan cepat → <a href=\"/C03/id/\">Lihat tempat teratas di Google Maps</a> lebih cepat (hitungan detik) dan memuat alamat.</li>\n<li>Kamu ingin <strong>peringkat di titik-titik sekitar toko</strong> (grid) → alat geo-grid seperti Local Falcon lebih cocok.</li>\n</ul>\n<p>Alat ini hanya melakukan satu hal: menampilkan toko mana yang ada di daftar \"tempat lainnya\" di peta, dan dalam urutan apa, saat ini juga.</p>\n\n<h2>FAQ</h2>\n<details><summary>Saya mendapat \"tidak ada hasil\". Apakah saya dikenai biaya?</summary><p>Ya. Pada uji sebelumnya di Jepang, permintaan tanpa hasil tetap dikenai $0.004 (permintaan normal dengan 20 hasil $0.002; kami tidak tahu kenapa jumlahnya berbeda — cek biaya yang tampil di bawah hasil). Ini terjadi pada kata kunci yang tidak punya daftar ini, seperti hotel dan penginapan. Coba kata kunci layanan seperti \"massage san francisco\".</p></details>\n<details><summary>Kenapa butuh sekitar 2 menit?</summary><p>Google sekarang mengarahkan setiap tautan hasil lewat Google dulu (untuk pelacakan klik). Alat ini mengikuti tautan itu untuk menemukan URL yang sebenarnya, dan itu butuh waktu. Pada contoh AS kami (\"massage san francisco\") 20 hasil butuh sekitar 2,5 menit (153 detik); pada uji sebelumnya di Jepang, 20 hasil butuh sekitar 2 menit dan 100 hasil sekitar 2,5 menit.</p></details>\n<details><summary>Apa bedanya dengan alat Google Maps?</summary><p>Alat ini membaca daftar \"tempat lainnya\" di balik slot peta pada hasil pencarian, bukan pencarian Maps itu sendiri. Urutan dan kumpulan tokonya bisa berbeda.</p></details>\n<details><summary>Kenapa tidak ada alamat?</summary><p>Data daftar ini tidak punya kolom alamat. Nama area dan jam buka ada di dalam deskripsi.</p></details>\n<details><summary>Bisakah mendaftar dengan email gratis?</summary><p>Tidak. DataForSEO tidak menerima penyedia email gratis. Lihat <a href=\"/dfs-id.html\">Apa itu DataForSEO?</a></p></details>\n</section>\n"
+ }
+}
