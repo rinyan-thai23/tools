@@ -1,0 +1,90 @@
+{
+ "C62": {
+  "locale": {
+   "c62.name": "Lihat skor kecepatan halaman",
+   "c62.desc": "Cek seberapa cepat halaman terbuka di ponsel",
+   "c62.price": "Biaya: $0.005 per URL (hasil ukur). Tiap URL butuh sekitar 12-75 detik. Jika memasukkan beberapa isian, kamu membayar dan menunggu per URL (sekitar $0.10 untuk 20). Contoh gratis.",
+   "c62.eta": "Waktu rata-rata: sekitar 25-30 detik",
+   "c62.title": "Cek Skor Lighthouse dan Kecepatan Halaman | Contoh Gratis",
+   "c62.meta": "Masukkan URL dan dapatkan empat skor Lighthouse (performa, aksesibilitas, praktik terbaik, SEO) untuk seluler, plus angka kecepatan utama. Ada contoh gratis.",
+   "c62.url": "URL halaman (satu per baris, maksimal 20. contoh: https://example.com/)",
+   "c62.col.category": "Item",
+   "c62.col.score": "Skor (0-100)",
+   "c62.col.metric": "Metrik kecepatan",
+   "c62.col.value": "Nilai",
+   "c62.cat_title": "Skor Lighthouse (seluler)",
+   "c62.metrics_title": "Angka kecepatan",
+   "c62.v.performance": "Performa",
+   "c62.v.accessibility": "Aksesibilitas",
+   "c62.v.best-practices": "Praktik terbaik",
+   "c62.v.seo": "SEO",
+   "c62.v.first-contentful-paint": "First Contentful Paint (FCP)",
+   "c62.v.largest-contentful-paint": "Largest Contentful Paint (LCP)",
+   "c62.v.total-blocking-time": "Total Blocking Time (TBT)",
+   "c62.v.cumulative-layout-shift": "Cumulative Layout Shift (CLS)",
+   "c62.v.speed-index": "Speed Index",
+   "c62.ai_prompt": "Kamu adalah asisten yang membantu membaca skor kecepatan halaman.\nPembaca ingin mengecek seberapa cepat halamannya sendiri atau halaman pesaing tampil.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Item / skor: empat skor Lighthouse (performa, aksesibilitas, praktik terbaik, SEO), skala 100, pengaturan seluler.\n  - Metrik kecepatan (tabel kedua): nilai FCP, LCP, TBT, CLS, dan Speed Index.\n  - Angkanya sedikit berubah setiap kali. Ini bukan yang dialami pengunjung sungguhan.\n\n# Yang saya minta\n1. Sebutkan skor yang rendah dan metrik yang tampaknya terkait, sebatas yang terlihat di data.\n2. Sebutkan metrik dengan nilai yang sangat besar (lambat).\n3. Usulkan 3 langkah untuk mencoba perbaikan, secara berurutan (tandai sebagai tebakan).\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya alasannya atau hasil di masa depan).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini tebakan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (item / angka / yang perlu diperhatikan).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+   "c62.steps": [
+    [
+     "1 URL",
+     "$0.005, sekitar 25 dtk (hasil ukur)",
+     "Lihat skor satu halaman"
+    ],
+    [
+     "5 URL",
+     "sekitar $0.025, sekitar 2 menit",
+     "Ukur halaman-halaman utama situsmu"
+    ],
+    [
+     "10 URL",
+     "sekitar $0.05, sekitar 4 menit",
+     "Bandingkan halamanmu dengan halaman pesaing"
+    ],
+    [
+     "20 URL",
+     "sekitar $0.10, sekitar 8 menit",
+     "Cek halaman-halaman utama seluruh situs sekaligus"
+    ]
+   ]
+  },
+  "content": "<section class=\"seo\">\n<h2>Cara mengecek skor kecepatan situs — dan perbandingan alat utamanya</h2>\n<p>Pemilik toko lokal ingin tahu <strong>apakah situs tokonya benar-benar cepat terbuka di ponsel</strong>. Masukkan satu URL, dan alat ini mengembalikan empat skor Lighthouse dan lima angka kecepatan dalam dua tabel.</p>\n<p class=\"note\">* Sekarang kamu bisa memasukkan banyak item, satu per baris (masing-masing dikirim satu per satu, jadi kamu membayar per item). Tabel mendapat kolom \"Isian\". Kalimat di bawah yang menyebut \"satu\" menjelaskan satu item. Biayanya lihat tabel di bagian atas.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Cara / alat</th><th>Model harga</th><th>Catatan</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>Alat ini (DataForSEO)</td><td>Bayar per permintaan. Sekitar $0.005 per panggilan (hasil ukur), sekitar 200 per $1</td><td>Empat skor (performa, aksesibilitas, praktik terbaik, SEO) dan lima angka kecepatan dalam tabel. Simpan sebagai CSV</td></tr>\n<tr><td>PageSpeed Insights (Google)</td><td>Gratis</td><td>Menampilkan hasil Lighthouse plus data pengguna sungguhan untuk URL itu (menurut halaman Google)</td></tr>\n<tr><td>Chrome DevTools (Lighthouse)</td><td>Gratis</td><td>Menjalankan tes di Chrome pada komputermu sendiri</td></tr>\n<tr><td>GTmetrix</td><td>Tersedia akun gratis dan paket berbayar (lihat halaman harga resminya)</td><td>Layanan untuk menguji kecepatan halaman</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Dicek pada November 2026. Harga bisa berubah — pastikan di situs resmi masing-masing sebelum membeli.</p>\n\n<h2>Kenapa pakai alat ini</h2>\n<ul>\n<li><strong>Skor dan angka kecepatan di satu layar.</strong> Artikel blog yang kami coba (shopify.com/blog/how-to-start-a-blog) mendapat 76 untuk performa, 92 untuk aksesibilitas, 96 untuk praktik terbaik, dan 92 untuk SEO (hasil ukur, pengaturan seluler).</li>\n<li><strong>Angka yang rinci.</strong> 3,7 detik sampai konten pertama muncul, 4,1 detik sampai konten terbesar muncul, dan seterusnya (hasil ukur).</li>\n<li><strong>Sekitar $0.005 per panggilan.</strong> Sekitar 200 per $1, praktis untuk membandingkan sebelum dan sesudah.</li>\n<li><strong>Simpan sebagai CSV.</strong> Simpan catatan dari sebelum dan sesudah perbaikan.</li>\n<li><strong>Dikunci ke seluler.</strong> Cocok untuk toko yang pelanggannya kebanyakan memakai ponsel.</li>\n</ul>\n\n<h2>Kapan alat ini kurang cocok</h2>\n<ul>\n<li><strong>Yang gratis sudah cukup</strong> → untuk cek sekali saja, PageSpeed Insights dan alat gratis sejenisnya sudah memadai. Alat ini untuk kamu yang ingin catatan CSV per klien.</li>\n<li>Kamu ingin skor <strong>desktop</strong> → alat ini berjalan dengan pengaturan seluler.</li>\n<li>Kamu ingin <strong>kecepatan yang dialami pengunjung sungguhan</strong> → ini nilai yang diukur di lingkungan uji.</li>\n<li>Kamu berharap <strong>skor yang sama setiap kali</strong> → skor bisa berbeda dari satu pengujian ke pengujian lain (menurut penjelasan Google).</li>\n</ul>\n<p>Alat ini hanya melakukan satu hal: menampilkan empat skor Lighthouse dan lima angka kecepatan untuk satu halaman.</p>\n\n<h2>FAQ</h2>\n<details><summary>Berapa skor sempurna?</summary><p>100. Skor Lighthouse berkisar dari 0 sampai 100.</p></details>\n<details><summary>Kenapa skornya sedikit berbeda setiap kali?</summary><p>Kondisi jaringan dan faktor lain membuat setiap pengujian berbeda. Halaman yang sama bisa bergeser beberapa poin.</p></details>\n<details><summary>Berapa lama waktunya?</summary><p>Kami mengukur sekitar 25 sampai 30 detik (27 detik untuk contoh AS; 24 sampai 26 detik pada uji sebelumnya di Jepang), sedikit lebih lama dari alat lain.</p></details>\n<details><summary>Bisakah memilih desktop?</summary><p>Tidak di alat ini. Pengujiannya memakai pengaturan seluler.</p></details>\n<details><summary>Bisakah mendaftar dengan email gratis?</summary><p>Tidak. DataForSEO tidak menerima penyedia email gratis. Lihat <a href=\"/dfs-id.html\">Apa itu DataForSEO?</a></p></details>\n</section>\n"
+ },
+ "C74": {
+  "locale": {
+   "c74.name": "Lihat teknologi sebuah situs",
+   "c74.desc": "Lihat situs dibuat dengan apa",
+   "c74.price": "Biaya: $0.012 per domain (hasil ukur). Hasil kosong tetap dikenai biaya (error gratis). Jika memasukkan beberapa isian, kamu membayar per domain (sekitar $0.36 untuk 30). Contoh gratis.",
+   "c74.eta": "Waktu rata-rata: beberapa detik",
+   "c74.title": "Cek Teknologi Situs Web | CMS, Server, Analitik (Contoh Gratis)",
+   "c74.meta": "Masukkan domain dan lihat teknologi yang dipakai sebuah situs: CMS, server, analitik, iklan, dan lainnya. Pengecek teknologi situs web ala Wappalyzer dan BuiltWith. Ada contoh gratis.",
+   "c74.keyword": "Domain (satu per baris, maksimal 30. contoh: example.com)",
+   "c74.col.group": "Kategori",
+   "c74.col.type": "Jenis",
+   "c74.col.names": "Teknologi",
+   "c74.ai_prompt": "Kamu adalah asisten yang membantu merapikan teknologi yang dipakai sebuah situs.\nPembaca ingin tahu teknologi apa yang dipakai oleh pesaing atau situs yang menarik baginya.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Kategori / jenis / nama: kategori, jenis, dan nama teknologi.\n  - Hanya teknologi yang berhasil ditemukan. Itu tidak berarti sisanya tidak dipakai.\n\n# Yang saya minta\n1. Kelompokkan teknologi berdasarkan kategori.\n2. Daftarkan teknologi untuk server, analitik, iklan, dan cara situs dibuat.\n3. Tulis 3 hal yang perlu dicek jika saya ingin memakai teknologi yang sama.\n4. Jangan bilang sebuah teknologi \"tidak dipakai\" hanya karena tidak ditemukan.\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini tebakan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (kategori / teknologi).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+   "c74.steps": [
+    [
+     "1 domain",
+     "$0.012 (hasil ukur)",
+     "Lihat teknologi satu situs"
+    ],
+    [
+     "5 domain",
+     "$0.06",
+     "Bandingkan teknologi situs-situs pesaing"
+    ],
+    [
+     "10 domain",
+     "$0.12",
+     "Kelompokkan daftar situs yang menarik menurut teknologinya"
+    ],
+    [
+     "30 domain",
+     "$0.36",
+     "Cek seluruh daftar situs sekaligus (misalnya daftar calon klien)"
+    ]
+   ]
+  },
+  "content": "<section class=\"seo\">\n<h2>Cara mengecek teknologi yang dipakai sebuah situs — dan perbandingan alat utamanya</h2>\n<p>Dalam pembuatan situs web, hal pertama yang ingin kamu tahu adalah <strong>dengan apa situs calon klien dibuat</strong>. Masukkan domain, dan alat ini menyusun teknologi yang dipakai situs itu (server, analitik, iklan, dan lainnya) dalam tabel menurut kategori.</p>\n<p class=\"note\">* Sekarang kamu bisa memasukkan banyak item, satu per baris (masing-masing dikirim satu per satu, jadi kamu membayar per item). Tabel mendapat kolom \"Isian\". Kalimat di bawah yang menyebut \"satu\" menjelaskan satu item. Biayanya lihat tabel di bagian atas.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Cara / alat</th><th>Model harga</th><th>Catatan</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>Alat ini (DataForSEO)</td><td>Bayar per permintaan. Sekitar $0.012 per panggilan (hasil ukur), sekitar 83 per $1</td><td>Teknologi satu domain menurut kategori dan jenis dalam tabel. Simpan sebagai CSV</td></tr>\n<tr><td>Wappalyzer</td><td>Akun gratis mendapat 50 pengecekan teknologi per bulan (halaman harga resmi). Harga paket berbayar lihat situs resminya</td><td>Layanan untuk mengenali teknologi sebuah situs</td></tr>\n<tr><td>BuiltWith</td><td>Pengecekan satu situs gratis (halaman paket resmi)</td><td>Layanan untuk mengenali teknologi sebuah situs; mengekspor daftar berbayar</td></tr>\n<tr><td>Membaca kode sumber halaman (manual)</td><td>Gratis</td><td>Butuh keahlian; menyusunnya menjadi daftar dilakukan manual</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Dicek pada November 2026. Harga bisa berubah — pastikan di situs resmi masing-masing sebelum membeli.</p>\n\n<h2>Kenapa pakai alat ini</h2>\n<ul>\n<li><strong>Teknologinya dalam satu daftar.</strong> Saat hasil kembali, setiap baris berisi kategori, jenis, dan nama teknologi. Pada uji kami di Jepang, xserver.ne.jp muncul sebagai enam baris (server, analitik, manajemen tag, JavaScript, dan lainnya). Untuk theverge.com (contoh AS), hasilnya 12 baris, termasuk iklan (Amazon Advertising, DoubleClick for Publishers), JavaScript (Next.js, React), server (Varnish, MySQL), privasi (OneTrust), dan konten (WordPress) (hasil ukur). Untuk nytimes.com tabelnya kembali kosong, jadi tabel kosong bisa terjadi.</li>\n<li><strong>Sekitar $0.012 per panggilan.</strong> Sekitar 83 per $1.</li>\n<li><strong>Beberapa detik.</strong> Kami mengukur sekitar 1 sampai 2 detik untuk theverge.com dan sekitar 4 detik di Jepang.</li>\n<li><strong>Boleh tempel URL.</strong> \"https://www.theverge.com/\" diubah menjadi domain sebelum pengecekan.</li>\n<li><strong>Simpan sebagai CSV.</strong> Bahan dasar untuk proposal ke klien.</li>\n</ul>\n\n<h2>Kapan alat ini kurang cocok</h2>\n<ul>\n<li>Kamu ingin <strong>riwayat pemakaian teknologi</strong> → ini gambaran saat ini.</li>\n<li>Kamu ingin <strong>nama kategori dalam bahasa lain</strong> → kategori dan jenis memakai nama bahasa Inggris (misalnya Web servers).</li>\n<li>Kamu ingin <strong>angka seperti lalu lintas</strong> → tabel hanya berisi nama teknologi.</li>\n<li>Kamu kehilangan <strong>teknologi yang kamu harapkan</strong> → hanya teknologi yang terdeteksi DataForSEO yang dicantumkan. Uji nytimes.com tidak mengembalikan apa pun, jadi tabel kosong bisa terjadi.</li>\n</ul>\n<p>Alat ini hanya melakukan satu hal: menampilkan teknologi satu domain (kategori, jenis, dan nama).</p>\n\n<h2>FAQ</h2>\n<details><summary>Apa itu kategori dan jenis?</summary><p>Klasifikasi DataForSEO dalam dua tingkat: misalnya \"Web servers\" dan \"Hosting\" di bawah \"Servers\".</p></details>\n<details><summary>Perlu menambahkan www?</summary><p>Keduanya bisa. Alat ini mengubah yang kamu ketik menjadi domain polos.</p></details>\n<details><summary>Apakah harganya berubah menurut jumlah teknologi?</summary><p>Sekitar $0.012 untuk setiap domain yang kami coba (nytimes.com tidak mengembalikan apa pun dan tetap dikenai biaya sebesar itu; theverge.com mengembalikan 12 baris dengan harga yang sama). Kami belum melihat apakah jumlah teknologi berpengaruh.</p></details>\n<details><summary>Apakah ini per halaman?</summary><p>Tidak. Hasilnya per domain, bukan per halaman.</p></details>\n<details><summary>Bisakah mendaftar dengan email gratis?</summary><p>Tidak. DataForSEO tidak menerima penyedia email gratis. Lihat <a href=\"/dfs-id.html\">Apa itu DataForSEO?</a></p></details>\n</section>\n"
+ }
+}
