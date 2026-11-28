@@ -1,0 +1,48 @@
+{
+ "categories": {
+  "title": "Apa yang bisa kamu lakukan di sini",
+  "intro": "Ini adalah fitur-fitur API DataForSEO, satu fitur satu alat, langsung di layar. Cek peringkat (SERP), riset kata kunci (volume pencarian, kata kunci terkait, tingkat kesulitan), analisis pesaing, SEO lokal (Google Maps), visibilitas di pencarian AI (ChatGPT, Gemini, Claude, Perplexity, Google AI Mode), analisis YouTube, audit situs (kecepatan halaman, heading) dan alat domain (WHOIS, teknologi): sekitar 60 alat. BYOK (bawa Kunci API sendiri): tanpa langganan, kamu bayar sesuai pemakaian dengan Kunci API milikmu sendiri. Setiap alat punya sampel gratis, jadi kamu bisa melihat hasilnya sebelum menjalankannya. Kamu bisa memilih semua negara dan bahasa yang didukung DataForSEO, jadi pencarian dalam bahasa lokal pun bisa dilihat (daftarnya tergantung alatnya).",
+  "sections": [
+   {
+    "title": "Hasil pencarian dan peringkat (SEO dan SEO lokal)",
+    "text": "Cek peringkat Google dan lihat siapa yang ada di posisi teratas. Hasil SEO lokal (Google Maps), berita, gambar, dan YouTube juga ditampilkan per kata kunci. Cocok kalau kamu ingin tahu siapa yang sudah berada di peringkat atas sebelum menulis, atau di mana sebuah toko muncul di peta."
+   },
+   {
+    "title": "Riset kata kunci (volume pencarian, kata kunci terkait, tingkat kesulitan)",
+    "text": "Lihat volume pencarian bulanan untuk hingga 1.000 kata kunci per panggilan hanya dengan $0.09. Ada juga kata kunci terkait, kata kunci long-tail, saran autocomplete, tingkat kesulitan kata kunci, maksud pencarian, dan riwayat bulanan. Berguna untuk memilih kata kunci artikel berikutnya atau menyusun daftar kata kunci iklan."
+   },
+   {
+    "title": "Tren pencarian dan audiens",
+    "text": "Google Trends, popularitas mingguan, popularitas per wilayah, usia dan jenis kelamin orang yang mencari, serta volume pencarian per negara. Untuk melihat kapan permintaan memuncak dan siapa yang tertarik."
+   },
+   {
+    "title": "Situs pesaing dan trafik",
+    "text": "Kata kunci apa saja yang membuat pesaing berperingkat, berapa trafik pencarian yang didapatnya (perkiraan), dan halaman mana yang paling kuat. Kata kunci yang sama antara dua situs, mencari situs pesaing, dan membandingkan ukuran banyak situs."
+   },
+   {
+    "title": "Pencarian AI (LLM SEO / GEO)",
+    "text": "Apa yang dijawab ChatGPT, Gemini, Claude, Perplexity, dan Google AI Mode, dan apakah situsmu dikutip. Volume pencarian untuk pertanyaan AI juga ada. Dasar untuk LLM SEO dan GEO."
+   },
+   {
+    "title": "Iklan (Google Ads)",
+    "text": "Cari tahu apakah pesaing memasang Google Ads dan seperti apa tampilan iklannya."
+   },
+   {
+    "title": "Analisis YouTube",
+    "text": "Angka-angka untuk satu video, komentarnya, dan teks subtitle lengkapnya."
+   },
+   {
+    "title": "Audit situs dan analisis halaman",
+    "text": "Fakta dasar halaman (judul, heading, jumlah kata), pengambilan heading dan teks isi, skor kecepatan halaman, tangkapan layar, teknologi yang dipakai sebuah situs, serta tanggal pendaftaran dan kedaluwarsa sebuah domain (WHOIS)."
+   },
+   {
+    "title": "Penyebutan merek dan reputasi",
+    "text": "Di mana nama perusahaan atau produkmu dibicarakan di internet: jumlah penyebutan, porsi yang positif dan negatif, serta tren bulanan. Dasar untuk PR dan penjualan."
+   },
+   {
+    "title": "Prospek, bisnis lokal, dan hotel",
+    "text": "Daftar bisnis lokal, detail Google Business Profile, harga hotel di sekitar, dan situs yang memakai teknologi tertentu. Untuk mencari calon pelanggan dan meneliti pesaing lokal."
+   }
+  ]
+ }
+}
