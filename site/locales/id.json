@@ -77,6 +77,59 @@
   "c02.refs": "Sumber yang dikutip",
   "c02.col.title": "Judul",
   "c02.col.url": "URL",
+  "c03.name": "Lihat tempat teratas di Google Maps",
+  "c03.desc": "Lihat posisi tokomu dan pesaingmu di peta",
+  "c03.price": "Perkiraan biaya: sekitar $0.002 untuk 10–100 hasil (hasil ukur; harga sama berapa pun jumlahnya, sekitar 500 per $1). Contoh gratis. Jika memasukkan beberapa isian, kamu membayar per item.",
+  "c03.eta": "Waktu rata-rata alat ini: beberapa detik",
+  "c03.title": "Cek Peringkat Google Maps | Lihat Bisnis Lokal Teratas (Contoh Gratis)",
+  "c03.meta": "Masukkan kata kunci dan dapatkan bisnis lokal teratas di Google Maps dalam tabel: peringkat, rating, jumlah ulasan, dan telepon. Alat cek peringkat Google Maps untuk riset SEO lokal.",
+  "c03.keyword": "Kata kunci (contoh: massage san francisco) (satu per baris, maksimal 30)",
+  "c03.count": "Jumlah hasil (dari peringkat teratas)",
+  "c03.col.rank": "Peringkat",
+  "c03.col.title": "Nama",
+  "c03.col.rating": "Rating",
+  "c03.col.votes": "Ulasan",
+  "c03.col.address": "Alamat",
+  "c03.col.phone": "Telepon",
+  "c03.col.url": "Situs",
+  "c04.name": "Lihat daftar \"tempat lainnya\" di peta",
+  "c04.desc": "Lihat tokomu dan pesaing di luar 3 slot teratas peta",
+  "c04.price": "Perkiraan biaya: sekitar $0.002 untuk 20 hasil, $0.01 untuk 100 (hasil ukur). Kata kunci tanpa hasil tetap dikenai biaya. Contoh gratis. Jika memasukkan beberapa isian, kamu membayar per item. Setiap item butuh waktu, jadi banyak item berarti menunggu lebih lama.",
+  "c04.eta": "Waktu rata-rata alat ini: sekitar 2–2,5 menit",
+  "c04.title": "Google Local Finder & Map Pack | Bisnis di Luar 3 Teratas (Gratis)",
+  "c04.meta": "Dapatkan daftar \"tempat lainnya\" di Google Maps (local finder), termasuk posisi di luar 3 teratas map pack. Lihat posisi bisnis pesaing setelah local pack. Lanjutan dari cek peringkat lokal.",
+  "c04.keyword": "Kata kunci (contoh: massage san francisco) (satu per baris, maksimal 10)",
+  "c04.count": "Jumlah hasil (dari peringkat teratas)",
+  "c04.col.rank": "Peringkat",
+  "c04.col.title": "Nama",
+  "c04.col.rating": "Rating",
+  "c04.col.votes": "Ulasan",
+  "c04.col.description": "Deskripsi (area, jam buka)",
+  "c04.col.phone": "Telepon",
+  "c04.col.url": "Situs",
+  "c05.name": "Lihat artikel Google News",
+  "c05.desc": "Lihat bagaimana perusahaan atau industrimu muncul di berita",
+  "c05.price": "Perkiraan biaya: sekitar $0.002 untuk 10 hasil, $0.004 untuk 20 (bertambah per 10). Tampilan contoh gratis. Kalau memasukkan beberapa isian, kamu membayar per isian. Tiap isian butuh waktu, jadi banyak isian berarti menunggu lama.",
+  "c05.eta": "Waktu rata-rata alat ini: sekitar 1–1,5 menit",
+  "c05.title": "Hasil Google News | Pantau Berita Perusahaanmu (Contoh Gratis)",
+  "c05.meta": "Masukkan kata kunci atau nama perusahaan, dapatkan artikel Google News dalam tabel: sumber, tanggal, judul. Cocok untuk memantau berita dan melihat bagaimana perusahaan atau industrimu muncul.",
+  "c05.keyword": "Kata kunci (misalnya nama perusahaan) (satu per baris, maksimal 10)",
+  "c05.count": "Jumlah hasil (dari teratas)",
+  "c05.col.source": "Sumber",
+  "c05.col.date": "Tanggal",
+  "c05.col.title": "Judul",
+  "c05.col.url": "URL",
+  "c07.name": "Lihat hasil teratas pencarian gambar",
+  "c07.desc": "Lihat seperti apa sampul dan thumbnail untuk sebuah kata kunci",
+  "c07.price": "Perkiraan biaya: sekitar $0.002 untuk 20–100 hasil (hasil ukur; harganya sama di jumlah berapa pun). Tampilan contoh gratis. Kalau memasukkan beberapa isian, kamu membayar per isian.",
+  "c07.eta": "Waktu rata-rata alat ini: sekitar 7–10 detik",
+  "c07.title": "Hasil Pencarian Gambar Google | Inspirasi Thumbnail & Sampul (Gratis)",
+  "c07.meta": "Masukkan kata kunci, dapatkan hasil teratas pencarian gambar Google sebagai daftar thumbnail. Cocok untuk ide thumbnail, inspirasi sampul buku, dan riset SEO gambar.",
+  "c07.keyword": "Kata kunci (satu per baris, maksimal 30)",
+  "c07.count": "Jumlah hasil (dari teratas)",
+  "c07.col.image": "Gambar",
+  "c07.col.title": "Judul",
+  "c07.col.url": "URL halaman sumber",
   "c08.name": "Lihat saran di kotak pencarian",
   "c08.desc": "Lihat apa yang dicari pembaca bersama kata kunci kamu",
   "c08.price": "Biaya: $0.002 per item (hasil ukur). Jika memasukkan beberapa isian, kamu membayar per item (sekitar $0.04 untuk 20). Contoh gratis.",
@@ -96,6 +149,53 @@
   "c18.col.url": "URL halaman yang dikutip",
   "c18.answer": "Jawaban ChatGPT",
   "c18.refs": "Halaman yang dikutip",
+  "c19.name": "Lihat jawaban Claude",
+  "c19.desc": "Lihat apa jawaban Claude saat ditanya",
+  "c19.price": "Biaya: sekitar $0.002 per pertanyaan (tanpa pencarian web, sekitar 450 per $1). Contoh gratis. Kalau isiannya banyak, kamu membayar per isian.",
+  "c19.eta": "Waktu rata-rata: beberapa detik",
+  "c19.title": "Cek Jawaban Claude | Bandingkan dengan ChatGPT (Contoh Gratis)",
+  "c19.meta": "Lihat jawaban Claude untuk sebuah pertanyaan. Bandingkan dengan ChatGPT dan Gemini, lalu cek bagaimana mereknya atau pesaing digambarkan. Ada contoh gratis.",
+  "c19.prompt": "Pertanyaan (mis. Apa alat absensi yang bagus untuk perusahaan kecil?) (satu per baris, maksimal 30)",
+  "c19.col.answer": "Jawaban Claude",
+  "c19.answer": "Jawaban Claude",
+  "c20.name": "Lihat jawaban Gemini",
+  "c20.desc": "Lihat apa jawaban Gemini saat ditanya",
+  "c20.price": "Biaya: sekitar $0.016–0.06 per pertanyaan (dengan pencarian web; 3 uji). Contoh gratis. Kalau isiannya banyak, kamu membayar per isian.",
+  "c20.eta": "Waktu rata-rata: sekitar 4–8 detik",
+  "c20.title": "Cek Jawaban Gemini | Gemini vs ChatGPT, Apakah Mereknya Muncul?",
+  "c20.meta": "Lihat jawaban Gemini untuk sebuah pertanyaan. Bandingkan Gemini dengan ChatGPT dan cek apakah mereknya muncul. Ada contoh gratis.",
+  "c20.prompt": "Pertanyaan (mis. Rekomendasikan tiga restoran ramen yang bagus di New York City) (satu per baris, maksimal 20)",
+  "c20.col.title": "Nama sumber",
+  "c20.col.url": "URL halaman yang dikutip",
+  "c20.answer": "Jawaban Gemini",
+  "c20.refs": "Halaman yang dikutip",
+  "c21.name": "Lihat jawaban Perplexity",
+  "c21.desc": "Lihat situs mana yang dikutip Perplexity",
+  "c21.price": "Biaya: sekitar $0.006 per pertanyaan (sekitar 170 per $1). Contoh gratis. Jika memasukkan beberapa isian, kamu membayar per item.",
+  "c21.eta": "Waktu rata-rata: beberapa detik",
+  "c21.title": "Jawaban dan Sumber Perplexity | Situs yang Dikutip (Contoh Gratis)",
+  "c21.meta": "Lihat jawaban Perplexity beserta sumber yang dikutipnya. Cari tahu situs mana yang dikutip Perplexity untuk sebuah pertanyaan: titik awal untuk Perplexity SEO dan LLM SEO. Contoh gratis.",
+  "c21.prompt": "Pertanyaan (contoh: Rekomendasikan tiga warung makan enak di Jakarta) (satu per baris, maksimal 30)",
+  "c21.col.title": "Judul halaman",
+  "c21.col.url": "URL halaman",
+  "c21.answer": "Jawaban Perplexity",
+  "c21.refs": "Hasil pencarian yang dikutip",
+  "c22.name": "Lihat pencarian ChatGPT",
+  "c22.desc": "Lihat produk apa yang ditampilkan pencarian ChatGPT",
+  "c22.price": "Biaya: sekitar $0.004 per pencarian (sekitar 250 per $1). Butuh sekitar 20–30 detik. Contoh gratis. Jika memasukkan beberapa isian, kamu membayar per item.",
+  "c22.eta": "Waktu rata-rata: sekitar 20–30 detik",
+  "c22.title": "Hasil Pencarian dan Belanja ChatGPT | Produk dan Sumber (Gratis)",
+  "c22.meta": "Lihat produk dan sumber yang dikutip pencarian ChatGPT untuk pertanyaan bergaya belanja. Cek apakah produkmu muncul di hasil pencarian dan belanja ChatGPT. Contoh gratis.",
+  "c22.keyword": "Kata kunci (contoh: how to start a blog) (satu per baris, maksimal 10)",
+  "c22.col.title": "Judul sumber",
+  "c22.col.domain": "Situs",
+  "c22.col.url": "URL sumber",
+  "c22.col.p_image": "Gambar",
+  "c22.col.p_title": "Produk",
+  "c22.col.p_tag": "Tag",
+  "c22.answer": "Jawaban pencarian ChatGPT",
+  "c22.refs": "Sumber",
+  "c22.products": "Produk yang direkomendasikan",
   "c23.name": "Lihat seberapa sering AI ditanya",
   "c23.desc": "Cek apakah sebuah topik sering ditanyakan ke AI",
   "c23.price": "Biaya: sekitar $0.0101 untuk 1 kata kunci dan $0.0638 untuk 538 (hasil ukur). Hingga 1.000 masuk dalam satu permintaan; lebih dari itu dibagi otomatis (maksimal 2.000). Contoh gratis.",
@@ -117,6 +217,28 @@
   "c24.col.cpc": "CPC (USD)",
   "c24.col.competition": "Persaingan (0–100)",
   "c24.col.monthly": "12 bulan terakhir (terbaru dulu)",
+  "c25.name": "Cari ide kata kunci untuk sebuah situs",
+  "c25.desc": "Temukan ide kata kunci yang cocok dengan situs klien",
+  "c25.price": "Biaya: $0.09 per panggilan (sekitar 11 panggilan per $1). Hingga sekitar 1.000 baris per panggilan. Contoh gratis.",
+  "c25.eta": "Waktu rata-rata: sekitar 5–8 detik",
+  "c25.title": "Riset Kata Kunci Pesaing | Kata Kunci dari Domain, Volume dan CPC",
+  "c25.meta": "Masukkan domain dan dapatkan ide kata kunci yang cocok dengan situs itu, lengkap dengan volume pencarian dan CPC. Untuk riset kata kunci pesaing. Berdasarkan data Google Ads.",
+  "c25.keyword": "Domain (misalnya example.com)",
+  "c25.col.keyword": "Kata kunci",
+  "c25.col.volume": "Pencarian per bulan",
+  "c25.col.cpc": "CPC (USD)",
+  "c25.col.competition": "Persaingan (0–100)",
+  "c26.name": "Cari kata kunci terkait untuk iklan",
+  "c26.desc": "Temukan kata kunci yang bisa kamu pakai di iklan",
+  "c26.price": "Biaya: $0.09 per panggilan (sekitar 11 panggilan per $1). Contoh gratis.",
+  "c26.eta": "Waktu rata-rata: sekitar 4 detik",
+  "c26.title": "Ide Kata Kunci dari Data Google Ads | Kata Kunci Terkait PPC dan SEO",
+  "c26.meta": "Masukkan satu kata kunci dan dapatkan ide kata kunci terkait dari data Google Ads, lengkap dengan volume dan CPC. Sumber data sama dengan Keyword Planner, untuk PPC dan SEO.",
+  "c26.keyword": "Kata kunci (satu)",
+  "c26.col.keyword": "Kata kunci",
+  "c26.col.volume": "Pencarian per bulan",
+  "c26.col.cpc": "CPC (USD)",
+  "c26.col.competition": "Persaingan (0–100)",
   "c35.name": "Lihat kata kunci terkait",
   "c35.desc": "Lihat kandidat untuk artikel berikutnya",
   "c35.price": "Biaya: sekitar $0.024 untuk 100 baris dan sekitar $0.13 untuk 1.000 (hasil ukur di endpoint Labs; naik sekitar $0.0001 per baris). Contoh gratis.",
@@ -223,6 +345,7 @@
   "c24.ai_prompt_diff": "Kamu adalah asisten yang membantu blogger pemula memilih kata kunci untuk ditulis.\nPembaca mengecek volume pencarian kata kunci dua kali, pada hari yang berbeda, dan ingin tahu \"apa yang berubah sejak terakhir kali\".\n\n# Tentang data\n- Kali ini: {date} / Terakhir kali: {prev_date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah kata kunci kali ini: {n}\n- Kolom\n  - Pencarian per bulan: perkiraan berdasarkan data Google Ads. Kosong berarti \"tidak ada data\", belum tentu nol.\n  - CPC (USD): rata-rata harga per klik bagi pengiklan. Ini bukan nilai sebuah artikel.\n  - Persaingan (0-100): seberapa ketat persaingan iklan untuk kata kunci itu. Ini bukan tingkat kesulitan SEO.\n  - 12 bulan terakhir: volume pencarian bulanan, dari bulan terbaru sampai terlama.\n- Bandingkan kata kunci yang sama antara terakhir kali dan kali ini. Kata kunci yang hanya muncul di salah satunya harus ditulis sebagai \"baru\" atau \"hilang\".\n\n# Yang saya minta\n1. 5 kata kunci yang pencarian bulanannya berubah paling besar, mulai dari perubahan terbesar. Tampilkan terakhir kali, kali ini, dan selisihnya.\n2. Beri tahu kata kunci yang dulu kosong dan sekarang ada angkanya (atau sebaliknya).\n3. Jelaskan singkat apa yang tidak bisa diketahui dari data saja: apakah perubahannya nyata, atau hanya selisih kecil akibat perkiraan?\n4. Tulis 3 langkah berikutnya secara berurutan.\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (kata kunci / terakhir kali / kali ini / selisih).\n\n# Data sebelumnya (dipisah tab)\n```\n{prev_data}\n```\n\n# Data sekarang (dipisah tab)\n```\n{data}\n```",
   "c01.ai_prompt": "Kamu adalah asisten yang membantu memeriksa hasil pencarian.\nPembaca adalah blogger pemula yang akan menulis artikel dan ingin tahu \"halaman mana yang sedang ada di peringkat atas sekarang\".\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Peringkat: posisi di antara hasil biasa (tautan biru). Ringkasan AI, peta, dan sejenisnya tidak termasuk.\n  - Judul: judul yang tampil di hasil pencarian. Judul panjang bisa terpotong dengan \"...\".\n  - URL / Domain: alamat halaman dan nama situsnya.\n- Hasil pencarian berubah menurut tempat dan waktu. Ini hasil untuk hari dan kondisi ini.\n\n# Yang saya minta\n1. Jika ada domain yang muncul berkali-kali, beri tahu berapa kali.\n2. Sebutkan kata atau pola yang sama pada judul-judul (tanda kurung, tahun, angka, dan sebagainya), sejauh bisa dihitung. Hati-hati dengan judul yang terpotong \"...\".\n3. Usulkan 3 ide judul untuk artikel yang akan saya tulis, berdasarkan kesamaan judul-judul teratas. Beri alasan singkat untuk masing-masing.\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya, \"apakah saya bisa menang?\").\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (domain / jumlah kemunculan).\n\n# Data (dipisah tab)\n```\n{data}\n```",
   "c01.ai_prompt_diff": "Kamu adalah asisten yang membantu membandingkan hasil pencarian dari waktu ke waktu.\nPembaca adalah blogger pemula yang mengecek kata kunci yang sama dua kali, pada hari yang berbeda, dan ingin tahu bagaimana halaman teratas berubah.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Terakhir kali: {prev_date}\n- Kolom: Peringkat adalah posisi di antara hasil biasa (tautan biru). URL dan Domain adalah halaman dan situsnya.\n- Bandingkan URL yang sama antara terakhir kali dan kali ini. URL yang hanya muncul di salah satunya harus ditulis sebagai \"baru\" atau \"hilang\".\n\n# Yang saya minta\n1. URL yang peringkatnya naik atau turun, dengan peringkat terakhir kali dan kali ini.\n2. URL yang baru dan URL yang hilang, beserta domainnya.\n3. Rangkum singkat, dengan angka, apakah yang berubah banyak atau sedikit.\n4. Jelaskan apa yang tidak bisa diketahui dari data saja: apakah perubahannya nyata, atau hanya naik-turun kecil yang biasa terjadi pada hasil pencarian?\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (URL / peringkat terakhir kali / peringkat sekarang).\n\n# Data sebelumnya (dipisah tab)\n```\n{prev_data}\n```\n\n# Data sekarang (dipisah tab)\n```\n{data}\n```",
+  "c25.ai_prompt": "Kamu adalah asisten yang membantu mengusulkan kata kunci yang cocok untuk sebuah situs.\nPembaca adalah freelancer SEO yang ingin memasukkan ide kata kunci untuk situs kliennya ke dalam proposal.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Kata kunci: kandidat yang diperkirakan cocok dengan situs (domain) yang saya masukkan.\n  - Pencarian per bulan: perkiraan berdasarkan data Google Ads. Kosong berarti \"tidak ada data\", belum tentu nol.\n  - CPC (USD): rata-rata harga per klik bagi pengiklan. Ini bukan nilai sebuah artikel.\n  - Persaingan (0-100): seberapa ketat persaingan iklan untuk kata kunci itu. Ini bukan tingkat kesulitan SEO.\n- Ini bukan data tentang peringkat situs yang sebenarnya untuk kata kunci tersebut.\n\n# Yang saya minta\n1. Kelompokkan kata kunci menjadi 3-5 tema.\n2. Pilih 10 kata kunci yang sebaiknya dibidik lebih dulu. Lihat pencarian dan persaingan, lalu beri alasan dengan angka.\n3. Buat kerangka proposal untuk klien, hanya berupa judul (maksimal 5 butir).\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya peringkat atau hasil saat ini).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (kata kunci / pencarian per bulan / persaingan / alasan).\n\n# Data (dipisah tab)\n```\n{data}\n```",
   "c35.ai_prompt": "Kamu adalah asisten yang membantu memilih artikel berikutnya.\nPembaca adalah blogger pemula yang ingin memilih artikel berikutnya dari kata kunci yang terkait dengan kata kunci yang saya masukkan.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Kata kunci: kandidat yang terkait dengan kata kunci yang saya masukkan.\n  - Pencarian per bulan: perkiraan pencarian bulanan di Google. Kosong berarti \"tidak ada data\", belum tentu nol.\n  - Tingkat kesulitan (0-100): panduan seberapa sulit untuk menembus peringkat teratas. Makin besar makin sulit. Ini panduan, bukan jaminan.\n\n# Yang saya minta\n1. Lihat keseimbangan antara pencarian dan tingkat kesulitan, lalu pilih 5 kata kunci yang tampak mudah bagi pemula. Beri alasan dengan angka.\n2. Kelompokkan kata kunci ke dalam 3-4 tema.\n3. Untuk 3 kata kunci yang kamu pilih, usulkan masing-masing satu judul artikel.\n4. Jelaskan singkat apa yang tidak bisa diketahui dari pencarian dan tingkat kesulitan saja (misalnya, apakah saya bisa mencapai peringkat teratas kalau menulisnya).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (kata kunci / pencarian per bulan / tingkat kesulitan / alasan).\n\n# Data (dipisah tab)\n```\n{data}\n```",
   "c41.ai_prompt": "Kamu adalah asisten yang membantu menemukan musim jual terbaik.\nPembaca adalah orang yang menjual produk atau jasa dan ingin tahu \"kapan musim ramai setiap tahun\" untuk merencanakan persiapan.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Tahun-bulan: bulan pencatatan. Bulan tanpa catatan bisa jadi tidak punya baris.\n  - Pencarian: perkiraan jumlah pencarian Google pada bulan itu.\n- Angka sebuah bulan bisa diganti nanti dengan nilai lain. Ini perkiraan, bukan hitungan pasti.\n\n# Yang saya minta\n1. Untuk setiap tahun, sebutkan bulan dengan pencarian terbanyak. Beri tahu juga apakah bulannya sama setiap tahun.\n2. Hitung rasio antara bulan paling ramai dan bulan paling sepi.\n3. Ceritakan tentang bulan yang tidak ada catatannya atau bernilai nol.\n4. Sarankan kapan sebaiknya mulai bersiap menghadapi musim itu, tandai dengan \"ini perkiraan\", dan tulis singkat.\n\n# Aturan\n- Jika ada beberapa kata kunci, jawab untuk setiap kata kunci secara terpisah.\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (tahun / bulan puncak / pencarian di bulan puncak).\n\n# Data (dipisah tab)\n```\n{data}\n```",
   "c45.ai_prompt": "Kamu adalah asisten yang membantu menganalisis kata kunci sebuah situs.\nPembaca adalah blogger afiliasi yang ingin melihat kata kunci apa saja yang membuat blognya sendiri atau blog pesaing muncul di hasil pencarian.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Kata kunci: kata kunci yang membuat situs yang saya masukkan masuk 10 besar hasil pencarian biasa.\n  - Peringkat: posisi untuk kata kunci itu (1-10).\n  - Pencarian per bulan: perkiraan berdasarkan data Google Ads.\n  - URL halaman: halaman yang muncul untuk kata kunci itu.\n- Data ini hanya 100 teratas berdasarkan volume pencarian. Ini bukan semua kata kunci di 10 besar. Variasi ejaan bisa muncul sebagai kata kunci terpisah.\n\n# Yang saya minta\n1. Kelompokkan kata kunci ke dalam 3-5 tema.\n2. Daftarkan kata kunci dengan volume pencarian besar tetapi peringkat lebih rendah (kandidat untuk diperbaiki).\n3. Daftarkan kata kunci peringkat 1 dengan volume pencarian kecil, jika ada.\n4. Sarankan 5 artikel yang bisa ditulis berikutnya, beserta alasannya.\n5. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya, kenapa halaman itu ada di peringkat tersebut).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (kelompok / kata kunci / peringkat / pencarian per bulan).\n\n# Data (dipisah tab)\n```\n{data}\n```",
@@ -231,9 +354,18 @@
   "ui.ai_answer_head": "[Jawaban]",
   "ui.ai_refs_head": "[Tabel sumber]",
   "c02.ai_prompt": "Kamu adalah asisten yang membantu membaca jawaban Google AI Mode.\nPembaca ingin melihat apakah situsnya dikutip dalam jawaban Google AI Mode.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Isi: teks jawaban AI dan tabel sumber\n- Kolom\n  - Judul / URL: halaman yang dikutip oleh jawaban AI Mode.\n  - Jawaban bisa berubah setiap kali ditanyakan. Ini satu hasil dari hari ini.\n- Beberapa pertanyaan tidak mengembalikan sumber sama sekali.\n\n# Yang saya minta\n1. Rangkum jawabannya dalam 3 baris.\n2. Hitung domain yang dikutip dan beri tahu berapa kali masing-masing muncul.\n3. Tulis 3 hal yang perlu dicek untuk melihat apakah situs saya dikutip.\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya alasannya atau hasil di masa depan).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (domain / jumlah).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+  "c03.ai_prompt": "Kamu adalah asisten yang membantu merapikan peringkat toko di peta.\nPembaca adalah pemilik toko (atau orang yang membantu sebuah toko) yang ingin tahu toko mana yang tampil di urutan atas peta.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Peringkat: posisi dalam hasil peta.\n  - Rating / ulasan: rating bintang dan jumlah ulasan yang tampil di peta.\n  - Alamat, telepon, situs: info toko yang tampil di peta.\n  - Hasil dan angka bisa berubah menurut tempat dan waktu. Ini untuk hari dan kondisi ini.\n\n# Yang saya minta\n1. Deretkan rating dan jumlah ulasan 5 toko teratas, lalu rangkum singkat kesamaan mereka.\n2. Beri tahu saya, dengan angka, apa bedanya toko yang ulasannya banyak dengan yang sedikit.\n3. Tulis 3 hal yang bisa saya cek agar toko saya tampil lebih tinggi (hanya sejauh data memungkinkan).\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya alasannya atau hasil di masa depan).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (toko / peringkat / rating / ulasan).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+  "c04.ai_prompt": "Kamu adalah asisten yang membantu merapikan daftar \"tempat lainnya\" di peta.\nPembaca adalah orang toko yang ingin tahu pesaingnya, termasuk toko yang ada setelah 3 teratas di peta.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Peringkat: posisi dalam daftar \"tempat lainnya\".\n  - Rating / ulasan: rating bintang dan jumlah ulasan.\n  - Deskripsi: catatan singkat seperti area atau jam buka.\n  - Hasil dan angka bisa berubah menurut tempat dan waktu. Ini untuk hari dan kondisi ini.\n\n# Yang saya minta\n1. Dari rating dan jumlah ulasan, sebutkan 5 toko yang tampak seperti pesaing.\n2. Rangkum singkat kesamaan deskripsi (area, jam buka).\n3. Tulis 3 hal yang perlu dicek saat membandingkan dengan toko saya.\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya alasannya atau hasil di masa depan).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (toko / peringkat / rating / ulasan).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+  "c05.ai_prompt": "Kamu adalah asisten yang membantu merapikan artikel berita.\nPembaca adalah orang PR atau sales yang ingin tahu bagaimana sebuah perusahaan atau produk muncul di berita.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Sumber / tanggal / judul: media, tanggal, dan judul beritanya.\n  - Hasil dan angka bisa berubah menurut tempat dan waktu. Ini hanya untuk hari dan kondisi ini.\n\n# Yang saya minta\n1. Hitung jumlah artikel per media.\n2. Rangkum topiknya dalam 3-5 kelompok, mulai dari tanggal terbaru.\n3. Daftarkan kata yang sering muncul di judul, sejauh bisa dihitung.\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya, apakah pemberitaannya positif).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (media / jumlah artikel).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+  "c07.ai_prompt": "Kamu adalah asisten yang membantu merapikan hasil pencarian gambar.\nPembaca adalah orang yang ingin melihat apa yang tampil di urutan atas pencarian gambar sebelum mendesain thumbnail, sampul, atau gambar blog.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Gambar: gambar yang tampil di hasil (tabel yang disalin tidak menyertakan gambarnya).\n  - Judul / URL halaman: judul gambar dan halaman tempat gambar itu muncul.\n  - Hasil dan angka bisa berubah menurut tempat dan waktu. Ini hanya untuk hari dan kondisi ini.\n\n# Yang saya minta\n1. Hitung domain halamannya dan daftarkan situs yang sering muncul.\n2. Daftarkan kata yang sama-sama muncul di judul, sejauh bisa dihitung.\n3. Kamu tidak bisa melihat gambarnya, jadi jangan menilai tampilannya.\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya, alasannya atau hasil di masa depan).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (domain / jumlah).\n\n# Data (dipisah tab)\n```\n{data}\n```",
   "c08.ai_prompt": "Kamu adalah asisten yang membantu merapikan saran pencarian.\nPembaca adalah blogger pemula yang mencari ide artikel dan variasi kata kunci.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Saran: kandidat yang tampil di kotak pencarian Google. Maksimal 15, bukan volume pencarian.\n  - Hasil dan angka bisa berubah menurut tempat dan waktu. Ini untuk hari dan kondisi ini.\n\n# Yang saya minta\n1. Kelompokkan saran-saran itu ke dalam 3-5 tema.\n2. Buat 3 ide judul artikel dari saran-saran itu.\n3. Daftarkan saran yang terlihat seperti kekhawatiran atau pertanyaan.\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya, saran mana yang paling banyak dicari).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (kelompok / saran).\n\n# Data (dipisah tab)\n```\n{data}\n```",
   "c18.ai_prompt": "Kamu adalah asisten yang membantu membaca jawaban ChatGPT.\nPembaca ingin mengecek apakah perusahaan atau produknya muncul saat pelanggan menanyakan hal seperti ini kepada AI.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Isi: teks jawaban AI dan tabel sumber\n- Kolom\n  - Judul / URL halaman yang dikutip: halaman yang dipakai jawaban.\n  - Jawaban bisa berubah setiap kali ditanyakan. Ini satu hasil dari hari ini.\n- ChatGPT yang dipakai alat ini bisa berbeda dari tampilan ChatGPT.\n\n# Yang saya minta\n1. Daftarkan semua nama perusahaan, produk, dan toko dalam jawaban, sesuai urutan kemunculannya.\n2. Tulis 3 hal yang perlu dicek untuk melihat apakah perusahaan atau produk saya muncul.\n3. Jika ada sumber, hitung domainnya. Jika tidak ada, tulis \"tidak ada\".\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya cara agar masuk ke dalam jawaban).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (nama / urutan kemunculan).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+  "c19.ai_prompt": "Kamu adalah asisten yang membantu membaca jawaban Claude.\nPembaca adalah orang yang ingin mengecek apakah perusahaan atau produknya muncul ketika pelanggan menanyakan hal seperti itu ke AI.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Isi: teks jawaban AI dan tabel sumber\n- Kolom\n  - Jawaban: teks jawaban Claude.\n  - Jawaban bisa berubah setiap kali ditanyakan. Ini satu hasil pada hari ini.\n- Claude di alat ini tidak memakai pencarian web. Tidak ada sumber yang ditampilkan.\n\n# Yang saya minta\n1. Daftarkan semua nama perusahaan, produk, dan toko di dalam jawaban, sesuai urutan kemunculannya.\n2. Tulis 3 hal yang perlu dicek untuk mengetahui apakah perusahaan atau produk saya muncul.\n3. Kalau sumber ditampilkan, hitung domainnya. Kalau tidak, tulis \"tidak ada\".\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya, cara agar masuk ke dalam jawaban).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (nama / urutan kemunculan).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+  "c20.ai_prompt": "Kamu adalah asisten yang membantu membaca jawaban Gemini.\nPembaca adalah orang yang ingin mengecek apakah perusahaan atau produknya muncul ketika pelanggan menanyakan hal seperti itu ke AI.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Isi: teks jawaban AI dan tabel sumber\n- Kolom\n  - Nama sumber / URL: halaman yang dikutip oleh jawaban.\n  - Jawaban bisa berubah setiap kali ditanyakan. Ini satu hasil pada hari ini.\n\n# Yang saya minta\n1. Daftarkan semua nama perusahaan, produk, dan toko di dalam jawaban, sesuai urutan kemunculannya.\n2. Tulis 3 hal yang perlu dicek untuk mengetahui apakah perusahaan atau produk saya muncul.\n3. Kalau sumber ditampilkan, hitung domainnya. Kalau tidak, tulis \"tidak ada\".\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya, cara agar masuk ke dalam jawaban).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (nama / urutan kemunculan).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+  "c21.ai_prompt": "Kamu adalah asisten yang membantu membaca jawaban Perplexity.\nPembaca ingin mengecek apakah perusahaan atau produknya muncul saat pelanggan menanyakan hal seperti ini kepada AI.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Isi: teks jawaban AI dan tabel sumber\n- Kolom\n  - Judul halaman / URL: halaman yang dipakai jawaban.\n  - Jawaban bisa berubah setiap kali ditanyakan. Ini satu hasil dari hari ini.\n\n# Yang saya minta\n1. Daftarkan semua nama perusahaan, produk, dan toko dalam jawaban, sesuai urutan kemunculannya.\n2. Tulis 3 hal yang perlu dicek untuk melihat apakah perusahaan atau produk saya muncul.\n3. Jika ada sumber, hitung domainnya. Jika tidak ada, tulis \"tidak ada\".\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya cara agar masuk ke dalam jawaban).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (nama / urutan kemunculan).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+  "c22.ai_prompt": "Kamu adalah asisten yang membantu membaca hasil pencarian ChatGPT.\nPembaca ingin mengecek apakah produk atau tokonya muncul di jawaban belanja dan pencarian ChatGPT.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Isi: teks jawaban AI dan tabel sumber\n- Kolom\n  - Judul sumber / situs / URL: halaman yang dipakai jawaban.\n  - Produk / tag: produk yang ditampilkan dalam jawaban beserta tag-nya (tabel kedua).\n  - Jawaban bisa berubah setiap kali ditanyakan. Ini satu hasil dari hari ini.\n\n# Yang saya minta\n1. Daftarkan semua nama produk dan brand dalam jawaban, sesuai urutan kemunculannya.\n2. Hitung situs sumber dan sebutkan yang sering muncul.\n3. Tulis 3 hal yang perlu dicek untuk melihat apakah produk saya muncul.\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya alasannya atau hasil di masa depan).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (brand / produk / urutan).\n\n# Data (dipisah tab)\n```\n{data}\n```",
   "c23.ai_prompt": "Kamu adalah asisten yang membantu membaca volume pertanyaan ke AI.\nPembaca adalah orang yang ingin tahu apakah topik ini juga ditanyakan ke AI.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Tahun-bulan: bulannya.\n  - Pencarian AI: perkiraan berapa kali topik itu ditanyakan ke AI pada bulan tersebut. Tidak persis. Bisa saja nol.\n\n# Yang saya minta\n1. Sebutkan bulan paling ramai dan paling sepi, lalu hitung rasionya.\n2. Bandingkan rata-rata 3 bulan pertama dengan 3 bulan terakhir untuk melihat apakah naik atau turun.\n3. Beri tahu saya tentang bulan yang nol, jika ada.\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya, alasannya atau hasil di masa depan).\n\n# Aturan\n- Jika ada beberapa kata kunci, jawab untuk setiap kata kunci secara terpisah.\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (tahun-bulan / pencarian AI).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+  "c26.ai_prompt": "Kamu adalah asisten yang membantu merapikan kata kunci untuk iklan.\nPembaca adalah orang yang memilih kata kunci untuk iklan atau SEO dari daftar kandidat.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Pencarian per bulan: perkiraan berdasarkan data Google Ads. Kosong berarti \"tidak ada data\", belum tentu nol.\n  - CPC (USD): rata-rata harga per klik bagi pengiklan. Ini bukan nilai sebuah artikel.\n  - Persaingan (0-100): seberapa ketat persaingan iklan untuk kata kunci itu. Ini bukan tingkat kesulitan SEO.\n\n# Yang saya minta\n1. Kelompokkan kata kunci menjadi 3-5 tema.\n2. Sebutkan 5 kandidat dengan pencarian besar dan CPC lebih rendah, lengkap dengan alasan dan angkanya.\n3. Sebutkan kandidat dengan persaingan tinggi dan hal yang perlu diwaspadai.\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya alasannya atau hasil di masa depan).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (kelompok / kata kunci / pencarian / CPC).\n\n# Data (dipisah tab)\n```\n{data}\n```",
   "c62.ai_prompt": "Kamu adalah asisten yang membantu membaca skor kecepatan halaman.\nPembaca ingin mengecek seberapa cepat halamannya sendiri atau halaman pesaing tampil.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Item / skor: empat skor Lighthouse (performa, aksesibilitas, praktik terbaik, SEO), skala 100, pengaturan seluler.\n  - Metrik kecepatan (tabel kedua): nilai FCP, LCP, TBT, CLS, dan Speed Index.\n  - Angkanya sedikit berubah setiap kali. Ini bukan yang dialami pengunjung sungguhan.\n\n# Yang saya minta\n1. Sebutkan skor yang rendah dan metrik yang tampaknya terkait, sebatas yang terlihat di data.\n2. Sebutkan metrik dengan nilai yang sangat besar (lambat).\n3. Usulkan 3 langkah untuk mencoba perbaikan, secara berurutan (tandai sebagai perkiraan).\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya alasannya atau hasil di masa depan).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (item / angka / yang perlu diperhatikan).\n\n# Data (dipisah tab)\n```\n{data}\n```",
   "c74.ai_prompt": "Kamu adalah asisten yang membantu merapikan teknologi yang dipakai sebuah situs.\nPembaca ingin tahu teknologi apa yang dipakai oleh pesaing atau situs yang menarik baginya.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Kategori / jenis / nama: kategori, jenis, dan nama teknologi.\n  - Hanya teknologi yang berhasil ditemukan. Itu tidak berarti sisanya tidak dipakai.\n\n# Yang saya minta\n1. Kelompokkan teknologi berdasarkan kategori.\n2. Daftarkan teknologi untuk server, analitik, iklan, dan cara situs dibuat.\n3. Tulis 3 hal yang perlu dicek jika saya ingin memakai teknologi yang sama.\n4. Jangan bilang sebuah teknologi \"tidak dipakai\" hanya karena tidak ditemukan.\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (kategori / teknologi).\n\n# Data (dipisah tab)\n```\n{data}\n```",
   "ui.steps_title": "Seberapa banyak yang bisa didapat, dan biayanya",
@@ -456,6 +588,74 @@
       "Telusuri banyak kata kunci (pertanyaan) sekaligus dan simpan sebagai tabel atau CSV"
     ]
   ],
+  "c03.steps": [
+    [
+      "1 item",
+      "$0.002 (perkiraan)",
+      "Cek satu kata kunci"
+    ],
+    [
+      "5 item",
+      "$0.01 (perkiraan)",
+      "Deretkan beberapa kata kunci lalu bandingkan"
+    ],
+    [
+      "30 item",
+      "$0.06 (perkiraan)",
+      "Telusuri banyak kata kunci sekaligus dan simpan sebagai tabel atau CSV"
+    ]
+  ],
+  "c04.steps": [
+    [
+      "1 item",
+      "$0.01 (perkiraan)",
+      "Cek satu kata kunci"
+    ],
+    [
+      "5 item",
+      "$0.05 (perkiraan)",
+      "Deretkan beberapa kata kunci lalu bandingkan"
+    ],
+    [
+      "10 item",
+      "$0.10 (perkiraan)",
+      "Telusuri banyak kata kunci sekaligus dan simpan sebagai tabel atau CSV"
+    ]
+  ],
+  "c05.steps": [
+    [
+      "1 item",
+      "$0.002 (perkiraan)",
+      "Cek satu kata kunci"
+    ],
+    [
+      "5 item",
+      "$0.01 (perkiraan)",
+      "Deretkan beberapa kata kunci dan bandingkan"
+    ],
+    [
+      "10 item",
+      "$0.02 (perkiraan)",
+      "Periksa banyak kata kunci sekaligus dan simpan sebagai tabel atau CSV"
+    ]
+  ],
+  "c07.steps": [
+    [
+      "1 item",
+      "$0.002 (perkiraan)",
+      "Cek satu kata kunci"
+    ],
+    [
+      "5 item",
+      "$0.01 (perkiraan)",
+      "Deretkan beberapa kata kunci dan bandingkan"
+    ],
+    [
+      "30 item",
+      "$0.06 (perkiraan)",
+      "Periksa banyak kata kunci sekaligus dan simpan sebagai tabel atau CSV"
+    ]
+  ],
   "c18.steps": [
     [
       "1 item",
@@ -471,6 +671,74 @@
       "20 item",
       "$0.60 (perkiraan)",
       "Telusuri banyak pertanyaan sekaligus dan simpan sebagai tabel atau CSV"
+    ]
+  ],
+  "c19.steps": [
+    [
+      "1 isian",
+      "$0.002 (perkiraan)",
+      "Cek satu pertanyaan"
+    ],
+    [
+      "5 isian",
+      "$0.01 (perkiraan)",
+      "Deretkan beberapa pertanyaan lalu bandingkan"
+    ],
+    [
+      "30 isian",
+      "$0.06 (perkiraan)",
+      "Telusuri banyak pertanyaan sekaligus dan simpan sebagai tabel atau CSV"
+    ]
+  ],
+  "c20.steps": [
+    [
+      "1 isian",
+      "$0.06 (perkiraan)",
+      "Cek satu pertanyaan"
+    ],
+    [
+      "5 isian",
+      "$0.30 (perkiraan)",
+      "Deretkan beberapa pertanyaan lalu bandingkan"
+    ],
+    [
+      "20 isian",
+      "$1.20 (perkiraan)",
+      "Telusuri banyak pertanyaan sekaligus dan simpan sebagai tabel atau CSV"
+    ]
+  ],
+  "c21.steps": [
+    [
+      "1 item",
+      "$0.006 (perkiraan)",
+      "Cek satu pertanyaan"
+    ],
+    [
+      "5 item",
+      "$0.03 (perkiraan)",
+      "Deretkan beberapa pertanyaan lalu bandingkan"
+    ],
+    [
+      "30 item",
+      "$0.18 (perkiraan)",
+      "Telusuri banyak pertanyaan sekaligus dan simpan sebagai tabel atau CSV"
+    ]
+  ],
+  "c22.steps": [
+    [
+      "1 item",
+      "$0.004 (perkiraan)",
+      "Cek satu kata kunci"
+    ],
+    [
+      "5 item",
+      "$0.02 (perkiraan)",
+      "Deretkan beberapa kata kunci lalu bandingkan"
+    ],
+    [
+      "10 item",
+      "$0.04 (perkiraan)",
+      "Telusuri banyak kata kunci sekaligus dan simpan sebagai tabel atau CSV"
     ]
   ]
 }

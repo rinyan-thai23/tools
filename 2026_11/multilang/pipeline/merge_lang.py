@@ -39,7 +39,7 @@ for f in sorted(glob.glob(src+'/out_*.json')):
         if tags(e)!=tags(c): print('TAGS',tid,{t:(tags(e)[t],tags(c)[t]) for t in tags(e) if tags(e)[t]!=tags(c)[t]}); bad+=1
         if FIT not in c: print('NOFIT',tid); bad+=1
         if 'bin/bash' in c: print('BASH content',tid); bad+=1
-        if [h.replace('/dfs-en.html',DFS) for h in re.findall(r'href="([^"]+)"',e)]!=re.findall(r'href="([^"]+)"',c): print('HREF',tid); bad+=1
+        if [re.sub(r'^(/C\d+)/en/$',r'\1/'+LANG+'/',h.replace('/dfs-en.html',DFS)) for h in re.findall(r'href="([^"]+)"',e)]!=re.findall(r'href="([^"]+)"',c): print('HREF',tid); bad+=1
         ok_loc.update(loc); ok_con[tid]=c
 print('tools',len(ok_con),'keys',len(ok_loc),'problems',bad)
 if write and bad==0:
