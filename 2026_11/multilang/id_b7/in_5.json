@@ -1,0 +1,107 @@
+{
+ "C60": {
+  "locale_en": {
+   "c60.name": "See a page's basic facts",
+   "c60.desc": "Check the state of a client's page",
+   "c60.price": "Cost: about $0.00015 per call (about 6,600 per $1). The sample is free. With several inputs you pay per item.",
+   "c60.eta": "Typical time: a few seconds",
+   "c60.title": "On-Page SEO Checker | Title, Headings, Word Count and Load Time for Any URL (Free Sample)",
+   "c60.meta": "Enter a URL and get the page's title, description, number of headings, word count, load time and SEO check flags as tables. An on-page SEO checker and a quick page audit. Free sample.",
+   "c60.url": "Page URL (e.g. https://example.com/) (one per line, up to 50)",
+   "c60.col.status": "Status",
+   "c60.col.title": "Title",
+   "c60.col.description": "Description",
+   "c60.col.words": "Words",
+   "c60.col.load": "Load time (ms)",
+   "c60.col.level": "Level",
+   "c60.col.count": "Count",
+   "c60.col.headings": "Headings",
+   "c60.col.item": "Item",
+   "c60.col.answer": "Answer",
+   "c60.summary": "This page's basic facts",
+   "c60.headings_title": "Heading counts",
+   "c60.counts_title": "Counts of links, images and more",
+   "c60.checks_title": "Check flags (DataForSEO's judgment)",
+   "c60.v.h1": "Heading 1 (H1)",
+   "c60.v.h2": "Heading 2 (H2)",
+   "c60.v.h3": "Heading 3 (H3)",
+   "c60.v.h4": "Heading 4 (H4)",
+   "c60.v.h5": "Heading 5 (H5)",
+   "c60.v.h6": "Heading 6 (H6)",
+   "c60.v.internal_links_count": "Internal links",
+   "c60.v.external_links_count": "External links",
+   "c60.v.images_count": "Images",
+   "c60.v.scripts_count": "Scripts",
+   "c60.v.is_broken": "Page is broken",
+   "c60.v.is_4xx_code": "4xx error",
+   "c60.v.is_5xx_code": "5xx error",
+   "c60.v.is_redirect": "Redirects elsewhere",
+   "c60.v.is_https": "Uses HTTPS",
+   "c60.v.canonical": "Has canonical tag",
+   "c60.v.no_title": "No title",
+   "c60.v.no_description": "No description",
+   "c60.v.no_h1_tag": "No H1",
+   "c60.v.no_image_alt": "Has images without alt text",
+   "c60.v.title_too_long": "Title too long (DataForSEO judgment)",
+   "c60.v.title_too_short": "Title too short (DataForSEO judgment)",
+   "c60.v.high_loading_time": "Slow to load (DataForSEO judgment)",
+   "c60.v.duplicate_title_tag": "Duplicate title tag",
+   "c60.v.has_micromarkup": "Has structured data",
+   "c60.v.no_favicon": "No favicon",
+   "c60.v.yes": "Yes",
+   "c60.v.no": "No",
+   "c60.ai_prompt": "You are an assistant who helps check a page's basics.\nThe reader is a person who wants to check the title and headings of their own or a competitor's page.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Rows: {n}\n- Columns\n  - Status / title / description: the page status, title and description.\n  - Words / load time (ms): the number of words and the time to load.\n  - Later tables: heading counts, check items, etc.\n\n# What I would like you to do\n1. Count the length (characters) of the title and description and tell me if either looks too short or too long.\n2. Explain the page structure in 3 lines from the heading counts (H1-H4).\n3. List check items that are \"no\" or blank.\n4. Briefly say what cannot be known from the data alone (for example, the effect on rankings).\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table (item / current state / concern).\n\n# Data (tab-separated)\n```\n{data}\n```",
+   "c60.steps": [
+    [
+     "1 item",
+     "$0.00015 (a guide)",
+     "Check one URL"
+    ],
+    [
+     "5 items",
+     "$0.00075 (a guide)",
+     "Line up several URLs and compare"
+    ],
+    [
+     "50 items",
+     "$0.0075 (a guide)",
+     "Go through many URLs at once and keep them as a table or CSV"
+    ]
+   ]
+  },
+  "content_en": "<section class=\"seo\">\n<h2>Ways to check a page's basic facts — and how the main tools compare</h2>\n<p>In web building and SEO work you first want to know <strong>what state the client's page is in right now</strong>. Enter one URL and this tool lays out the title, description, heading counts, word count, load time and the check flags DataForSEO attaches, in four tables.</p>\n<p class=\"note\">* You can now enter many items, one per line (each is sent one by one, so you pay per item). The table gets an \"Input\" column. Where the text below says \"one\", it describes a single item. See the table at the top for the cost.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.00015 per call (measured), roughly 6,600 per $1</td><td>One page's title, description, headings, word count, load time and check flags in tables. Save as CSV</td></tr>\n<tr><td>Screaming Frog SEO Spider</td><td>The free version covers up to 500 URLs; the paid licence is £199 per year (official pricing page)</td><td>Desktop software that crawls a whole site</td></tr>\n<tr><td>Google Search Console (URL inspection)</td><td>Free</td><td>Covers sites whose ownership you have verified (see the official site for features)</td></tr>\n<tr><td>Browser \"view page source\" (by hand)</td><td>Free</td><td>You read one page at a time; counting headings is manual work</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Checked in November 2026. Prices change — confirm on each vendor's official site before you buy.</p>\n\n<h2>Why use this tool</h2>\n<ul>\n<li><strong>One page becomes a table in seconds.</strong> We measured under a second.</li>\n<li><strong>Heading counts included.</strong> The blog article we tried (about 5,054 words) had one H1, 19 H2, 31 H3 and eight H4 (measured with shopify.com/blog/how-to-start-a-blog).</li>\n<li><strong>About $0.00015 per call.</strong> Roughly 6,600 per $1, so checking a client's pages one by one costs very little.</li>\n<li><strong>Load time is shown.</strong> That article loaded in 85 ms (DataForSEO's own measurement).</li>\n<li><strong>Save as CSV.</strong> Use the result as a draft for a quote or a report.</li>\n</ul>\n\n<h2>When it is not the right fit</h2>\n<ul>\n<li>You want to check <strong>a whole site</strong> at once → this tool does one page at a time. Crawler software fits better.</li>\n<li>You want <strong>a speed score</strong> → \"See a page's speed scores\" fits better.</li>\n<li>You want <strong>search rankings</strong> → the tables here do not show rankings.</li>\n<li>Words such as \"too long\", \"too short\" and \"slow\" in the check flags are DataForSEO's own thresholds. See DataForSEO's documentation for the thresholds.</li>\n</ul>\n<p>This tool does one thing: show one page's title, description, headings, word count, load time and check flags.</p>\n\n<h2>FAQ</h2>\n<details><summary>How far do you count headings?</summary><p>H1 through H6. For each level you get the count and the heading text.</p></details>\n<details><summary>What unit is the load time in?</summary><p>Milliseconds (1,000 ms = 1 second). It is measured on DataForSEO's side, so it can differ from what you see on your own computer.</p></details>\n<details><summary>Does \"Yes\" in the check flags mean something is wrong?</summary><p>No. It simply answers the sentence in the item name. If \"No H1 tag\" says Yes, no H1 was found.</p></details>\n<details><summary>Can it check pages behind a login?</summary><p>We have not tried it. We tested public pages.</p></details>\n<details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href=\"/dfs-en.html\">What is DataForSEO?</a></p></details>\n</section>\n"
+ },
+ "C61": {
+  "locale_en": {
+   "c61.name": "Pull a page's headings and text",
+   "c61.desc": "See how top articles are built",
+   "c61.price": "Cost: about $0.00015 per call (about 6,600 per $1). The sample is free. With several inputs you pay per item.",
+   "c61.eta": "Typical time: a few seconds",
+   "c61.title": "Extract Headings from a Webpage | H1–H4 Page Headings and Text as a Table (Free Sample)",
+   "c61.meta": "Enter an article URL and get the text under each heading (H1 to H4) as a table. Extract the headings of a competitor's article to learn how it is structured. Free sample.",
+   "c61.url": "Article URL (e.g. https://example.com/blog/) (one per line, up to 30)",
+   "c61.col.level": "Level",
+   "c61.col.heading": "Heading",
+   "c61.col.body": "Text",
+   "c61.ai_prompt": "You are an assistant who helps read the structure of an article.\nThe reader is a person who wants to know what headings a competitor's article uses.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Rows: {n}\n- Columns\n  - Level: the heading level (H1-H4).\n  - Heading / body: the heading and the text below it.\n\n# What I would like you to do\n1. List only the headings, in a form that shows the hierarchy.\n2. Summarize the body under each heading in one line each.\n3. List 3 points from this article's structure that I could use in my own article.\n4. Do not judge whether the body is correct or well written.\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table (heading / one-line summary).\n\n# Data (tab-separated)\n```\n{data}\n```",
+   "c61.steps": [
+    [
+     "1 item",
+     "$0.00015 (a guide)",
+     "Check one URL"
+    ],
+    [
+     "5 items",
+     "$0.00075 (a guide)",
+     "Line up several URLs and compare"
+    ],
+    [
+     "30 items",
+     "$0.0045 (a guide)",
+     "Go through many URLs at once and keep them as a table or CSV"
+    ]
+   ]
+  },
+  "content_en": "<section class=\"seo\">\n<h2>Ways to pull a rival article's headings and text — and how the main tools compare</h2>\n<p>When you write a blog post, you want to know <strong>what headings the top articles use and what they say under each one</strong>. Enter an article URL and this tool tabulates the text under each heading (H1 to H4).</p>\n<p class=\"note\">* You can now enter many items, one per line (each is sent one by one, so you pay per item). The table gets an \"Input\" column. Where the text below says \"one\", it describes a single item. See the table at the top for the cost.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.00015 per call (measured), roughly 6,600 per $1</td><td>Heading level, heading and the text under it, one row each. Save as CSV</td></tr>\n<tr><td>Read the article in a browser (by hand)</td><td>Free</td><td>You note the headings yourself; slow for long articles</td></tr>\n<tr><td>Screaming Frog SEO Spider</td><td>The free version covers up to 500 URLs; the paid licence is £199 per year (official pricing page)</td><td>Crawler software; see the official site for how headings are extracted</td></tr>\n<tr><td>Paste the text into an AI chat (by hand)</td><td>Varies by service (see each official site)</td><td>You have to collect and paste the text yourself</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Checked in November 2026. Prices change — confirm on each vendor's official site before you buy.</p>\n\n<h2>Why use this tool</h2>\n<ul>\n<li><strong>The skeleton of an article at a glance.</strong> The article we tried (shopify.com/blog/how-to-start-a-blog) came out as 42 headings with their text (measured).</li>\n<li><strong>Text sits next to its heading.</strong> Read what appears under a heading in one row.</li>\n<li><strong>About $0.00015 per call.</strong> Roughly 6,600 per $1, so you can check as many articles as you like.</li>\n<li><strong>A few seconds.</strong> The sample came back in under a second.</li>\n<li><strong>Save as CSV.</strong> Use it as groundwork when you plan your own headings.</li>\n</ul>\n\n<h2>When it is not the right fit</h2>\n<ul>\n<li>You want to <strong>copy the article as is</strong> → reusing someone else's writing raises copyright issues. Use this only to learn structure.</li>\n<li>You need <strong>images or table contents</strong> → the table shows headings and text only.</li>\n<li>You want <strong>word count or load time</strong> → \"See a page's basic facts\" fits better.</li>\n<li>The split between main and other content is DataForSEO's own call, so the order can differ from top-to-bottom on the page.</li>\n</ul>\n<p>This tool does one thing: pull an article's headings (H1 to H4) and the text under them.</p>\n\n<h2>FAQ</h2>\n<details><summary>Why is the order not top to bottom?</summary><p>DataForSEO returns the page split into main content and other content. This tool lists the main part first.</p></details>\n<details><summary>What happens with long text?</summary><p>The sentences under a heading are joined into one cell. For long ones, save as CSV and read it in a spreadsheet.</p></details>\n<details><summary>May I use other people's articles?</summary><p>Looking at them for research rarely causes trouble, but copying text and publishing it raises copyright issues. Ask a professional if you are unsure.</p></details>\n<details><summary>Does it work on any page?</summary><p>We tried one blog article. Other pages may come back differently.</p></details>\n<details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href=\"/dfs-en.html\">What is DataForSEO?</a></p></details>\n</section>\n"
+ }
+}

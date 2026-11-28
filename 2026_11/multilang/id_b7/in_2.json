@@ -1,0 +1,67 @@
+{
+ "C48": {
+  "locale_en": {
+   "c48.name": "See a site's top-traffic pages",
+   "c48.desc": "See a rival's high-traffic articles",
+   "c48.price": "Cost: about $0.024 for 100 rows and about $0.13 for 1,000 (measured on the Labs endpoints; it rises about $0.0001 per row). The sample is free.",
+   "c48.eta": "Typical time: a few seconds",
+   "c48.title": "Top Pages of a Website | See a Competitor's Pages with the Most Estimated Search Traffic (Free Sample)",
+   "c48.meta": "Enter a domain and get the pages with the most estimated search traffic, in descending order. See which articles and pages are strongest on a competitor's site. Traffic is an estimate. Free sample.",
+   "c48.keyword": "Domain (e.g. example.com)",
+   "c48.col.url": "Page URL",
+   "c48.col.etv": "Estimated traffic",
+   "c48.col.keywords": "Keywords",
+   "c48.ai_prompt": "You are an assistant who helps find a site's strong pages.\nThe reader is a blogger who wants to know which articles on a competitor's site bring people from search.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Rows: {n}\n- Columns\n  - Page URL: a page on the site.\n  - Estimated traffic: an estimate of search visits to that page. It is not the real number of visits.\n  - Keywords: the number of keywords for which the page appears in results.\n- Only the top 100 by estimated traffic.\n\n# What I would like you to do\n1. List the 5 pages with the most estimated traffic. If the URL shapes (folder names, etc.) show anything in common, write it briefly.\n2. Tell me, with a number (share of the top 5 pages), whether traffic is concentrated in a few top pages.\n3. List pages with many keywords but small traffic, if any.\n4. Briefly say what cannot be known from the data alone (for example, whether the page content is good).\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table (page URL / estimated traffic / keywords).\n\n# Data (tab-separated)\n```\n{data}\n```",
+   "c48.count": "Number of rows to fetch (more rows cost more; see the table below)",
+   "c48.steps": [
+    [
+     "100 rows",
+     "about $0.024 (measured)",
+     "See the pages with the most traffic first"
+    ],
+    [
+     "300 rows",
+     "about $0.05 (a guide)",
+     "See what strong articles have in common from URL shapes"
+    ],
+    [
+     "1,000 rows",
+     "about $0.13 (a guide)",
+     "See how traffic is spread across the whole site"
+    ]
+   ]
+  },
+  "content_en": "<section class=\"seo\">\n<h2>Ways to see which pages bring a site the most traffic — and how the main tools compare</h2>\n<p>If you want results from an affiliate site, you want to see <strong>the rival articles that draw the most search traffic</strong>. Enter a domain and this tool lists up to 100 pages with the most estimated search traffic, in descending order, with keyword counts.</p>\n<p class=\"note\">* You can choose 100, 300 or 1,000 rows (the default is 100). Where the text below says \"100\", it describes the default. See the table at the top for the cost.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.024 per call for 100 rows (measured)</td><td>From a domain: the 100 pages with the most estimated traffic, with keyword counts. Works on other people's sites. Save as CSV</td></tr>\n<tr><td>Google Search Console</td><td>Free</td><td>Shows your own pages' search impressions and clicks. You cannot view other sites</td></tr>\n<tr><td>Ahrefs Site Explorer (Top pages)</td><td>Subscription (see the official site for plans)</td><td>A list of a site's pages with the most search traffic. The free version covers only sites you verify (per Ahrefs' page)</td></tr>\n<tr><td>Semrush Organic Research</td><td>Subscription (see the official site for plans)</td><td>Researches a site's search keywords and pages</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Checked in November 2026. Prices change — confirm on each vendor's official site before you buy.</p>\n\n<h2>Why use this tool</h2>\n<ul>\n<li><strong>See it page by page.</strong> See which articles have the most estimated search traffic (an estimate).</li>\n<li><strong>Sorted by estimated traffic.</strong> For target.com the top page was the home page, with about 24.9 million (measured).</li>\n<li><strong>Keyword counts included.</strong> See how many keywords a page appears for.</li>\n<li><strong>About $0.024 per call.</strong> About 40 per $1.</li>\n<li><strong>Save as CSV.</strong></li>\n</ul>\n\n<h2>When it is not the right fit</h2>\n<ul>\n<li>You want <strong>articles only</strong> → on big sites, non-article pages lead: for target.com the top three were the home page, a store locator page and a careers page (measured).</li>\n<li>You want <strong>real visits</strong> → Estimated traffic (ETV) is a modeled estimate from rankings and search volume (per DataForSEO), not measured visits, and the calculation may be updated (see the official site).</li>\n<li>You want <strong>more than 100</strong> → choose 300 or 1,000 in the count field (target.com had about 1.35 million pages in total).</li>\n<li>Long URLs with parameters can appear.</li>\n</ul>\n<p>This tool does one thing: show the 100 pages of a domain with the most estimated search traffic.</p>\n\n<h2>FAQ</h2>\n<details><summary>In what order are the rows?</summary><p>By estimated traffic, descending. The tool sorts them that way.</p></details>\n<details><summary>What is the keyword count?</summary><p>The number of keywords for which the page appears in results.</p></details>\n<details><summary>Why do non-article pages lead?</summary><p>This tool cannot tell why. For target.com, the home page showed about 24.9 million estimated traffic from 2,271 keywords (measured). On other sites articles may lead.</p></details>\n<details><summary>What do country and language change?</summary><p>The market for the numbers. For example, the United States and English give numbers for US results.</p></details>\n<details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href=\"/dfs-en.html\">What is DataForSEO?</a></p></details>\n</section>\n"
+ },
+ "C49": {
+  "locale_en": {
+   "c49.name": "See a site's estimated traffic",
+   "c49.desc": "See how big a prospect's site is",
+   "c49.price": "Cost: about $0.012 per call (about 80 per $1). The sample is free.",
+   "c49.eta": "Typical time: a few seconds at most",
+   "c49.title": "Website Traffic Checker | Estimated Organic Search Traffic for Any Domain (Free Sample)",
+   "c49.meta": "Enter a domain and get estimated organic search traffic and the number of keywords, plus keywords by position band. A website traffic checker for gauging a competitor's size.",
+   "c49.keyword": "Domain (e.g. example.com)",
+   "c49.col.etv": "Estimated traffic",
+   "c49.col.keywords": "Keywords",
+   "c49.col.band": "Position band",
+   "c49.col.count": "Keywords",
+   "c49.summary": "Estimated traffic and keywords",
+   "c49.bands_title": "Keywords per position band",
+   "c49.v.pos_1": "1st",
+   "c49.v.pos_2_3": "2nd–3rd",
+   "c49.v.pos_4_10": "4th–10th",
+   "c49.v.pos_11_20": "11th–20th",
+   "c49.v.pos_21_30": "21st–30th",
+   "c49.v.pos_31_40": "31st–40th",
+   "c49.v.pos_41_50": "41st–50th",
+   "c49.v.pos_51_60": "51st–60th",
+   "c49.v.pos_61_70": "61st–70th",
+   "c49.v.pos_71_80": "71st–80th",
+   "c49.v.pos_81_90": "81st–90th",
+   "c49.v.pos_91_100": "91st–100th",
+   "c49.ai_prompt": "You are an assistant who helps read the size of a site.\nThe reader is a person who wants to estimate how many visits a competitor gets from search.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Rows: {n}\n- Columns\n  - Estimated traffic: an estimate of search visits. It is not the real number of visits.\n  - Keywords: the number of keywords shown in the results.\n  - Rank band / keywords (second table): the number of keywords per rank range.\n\n# What I would like you to do\n1. Describe the site's size in a sentence using estimated traffic and keywords.\n2. Tell me, as shares, how keywords are split across rank bands.\n3. Calculate the share of rank 1-3 keywords in the total.\n4. Briefly say what cannot be known from the data alone (for example, the reasons or future results).\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table of the numbers you calculated.\n\n# Data (tab-separated)\n```\n{data}\n```"
+  },
+  "content_en": "<section class=\"seo\">\n<h2>Ways to gauge a prospect's site size — and how the main tools compare</h2>\n<p>Before you meet a sales prospect, you want to know <strong>how much traffic their site draws from search</strong>. Enter a domain and this tool returns its estimated search traffic and keyword count, plus the keyword count per position band, in two tables.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.012 per call (measured)</td><td>One domain's estimated traffic and keyword count, plus counts per position band (1st, 2nd–3rd … 91st–100th). Save as CSV</td></tr>\n<tr><td>Similarweb</td><td>Subscription (its pricing page lists a Starter plan from $125/month)</td><td>A service that estimates site traffic and more (see the official site for features)</td></tr>\n<tr><td>Ahrefs Site Explorer (Overview)</td><td>Subscription (see the official site for plans)</td><td>An overview of a site's search traffic and more. The free version covers only sites you verify (per Ahrefs' page)</td></tr>\n<tr><td>Semrush Domain Overview</td><td>Subscription (see the official site for plans)</td><td>Shows a domain overview (see the official site for features)</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Checked in November 2026. Prices change — confirm on each vendor's official site before you buy.</p>\n\n<h2>Why use this tool</h2>\n<ul>\n<li><strong>A prospect's size in numbers.</strong> target.com showed about 57.6 million in estimated traffic and about 7.8 million keywords (measured).</li>\n<li><strong>Counts per position band too.</strong> See how many keywords rank 1st and how many reach the top 10.</li>\n<li><strong>About $0.012 per call.</strong> About 80 per $1, so you can check many prospects.</li>\n<li><strong>A few seconds at most.</strong> The sample call took well under a second (measured).</li>\n<li><strong>Save as CSV.</strong></li>\n</ul>\n\n<h2>When it is not the right fit</h2>\n<ul>\n<li>You want <strong>real visit counts</strong> → estimated traffic is a modeled figure from rankings and search volume (per DataForSEO), not real visitors, and the calculation may be updated (see the official site).</li>\n<li>You want <strong>ads (paid)</strong> numbers → the tables show organic search only.</li>\n<li>You want traffic from <strong>outside search</strong> (social, direct) → this tool cannot show it.</li>\n<li>You want <strong>a trend</strong> → one call is one snapshot. \"See a site's estimated traffic trend\" fits better.</li>\n</ul>\n<p>This tool does one thing: show a domain's estimated search traffic, keyword count and count per position band.</p>\n\n<h2>FAQ</h2>\n<details><summary>What is a \"position band\"?</summary><p>A grouping of keywords by rank: 1st, 2nd–3rd, 4th–10th, 11th–20th … 91st–100th, twelve bands in all.</p></details>\n<details><summary>Does estimated traffic include ads?</summary><p>No, organic search only. The API also returns ad figures, which this tool does not show.</p></details>\n<details><summary>Why two tables?</summary><p>Traffic and keyword count are one row; the position bands are twelve rows.</p></details>\n<details><summary>What do country and language change?</summary><p>The market for the numbers. For example, the United States and English give numbers for US results.</p></details>\n<details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href=\"/dfs-en.html\">What is DataForSEO?</a></p></details>\n</section>\n"
+ }
+}

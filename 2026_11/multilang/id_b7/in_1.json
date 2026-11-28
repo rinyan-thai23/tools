@@ -1,0 +1,72 @@
+{
+ "C46": {
+  "locale_en": {
+   "c46.name": "See sites sharing your keywords",
+   "c46.desc": "Find your rivals online",
+   "c46.price": "Cost: about $0.024 for 100 rows and about $0.13 for 1,000 (measured on the Labs endpoints; it rises about $0.0001 per row). The sample is free.",
+   "c46.eta": "Typical time: about 5–12 seconds",
+   "c46.title": "Find Website Competitors | Similar Sites That Rank for the Same Keywords (Free Sample)",
+   "c46.meta": "Enter a domain and get competitor sites that rank for the same keywords. Find your rivals online with a competitor analysis tool. Free sample.",
+   "c46.keyword": "Domain (e.g. example.com)",
+   "c46.col.domain": "Domain",
+   "c46.col.shared": "Shared keywords",
+   "c46.col.etv": "Estimated traffic (whole site)",
+   "c46.ai_prompt": "You are an assistant who helps organize rival sites.\nThe reader is a blogger who wants to know which sites collide with their own site in search.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Rows: {n}\n- Columns\n  - Domain: a site that shares keywords with the site I entered.\n  - Shared keywords: the number of keywords it shares with the site I entered.\n  - Estimated traffic (whole site): an estimate of search visits to that whole site. It is not the real number of visits.\n- The order is as the API returned it. Only the top 100.\n\n# What I would like you to do\n1. List the 5 sites with the most shared keywords.\n2. List 3 sites with large and 3 with small estimated traffic.\n3. If any site has \"many shared keywords but small traffic\", list it (a candidate for a rival of similar size).\n4. Briefly say what cannot be known from the data alone (for example, what the site is about or its strengths).\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table (domain / shared keywords / estimated traffic).\n\n# Data (tab-separated)\n```\n{data}\n```",
+   "c46.count": "Number of rows to fetch (more rows cost more; see the table below)",
+   "c46.steps": [
+    [
+     "100 rows",
+     "about $0.024 (measured)",
+     "See the top sites that share keywords first"
+    ],
+    [
+     "300 rows",
+     "about $0.05 (a guide)",
+     "List many rival candidates and choose by size"
+    ],
+    [
+     "1,000 rows",
+     "about $0.13 (a guide)",
+     "Find as many online rivals as possible"
+    ]
+   ]
+  },
+  "content_en": "<section class=\"seo\">\n<h2>Ways to find sites that share your keywords — and how the main tools compare</h2>\n<p>If you run a company site, you want to know <strong>who your rivals are online</strong>. Enter a domain and this tool lists up to 100 sites that appear for the same keywords in search, with the number of shared keywords and estimated traffic.</p>\n<p class=\"note\">* You can choose 100, 300 or 1,000 rows (the default is 100). Where the text below says \"100\", it describes the default. See the table at the top for the cost.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.024 per call for 100 rows (measured)</td><td>From a domain: sites that share keywords, with shared-keyword counts and estimated traffic, 100 rows. Save as CSV</td></tr>\n<tr><td>Reading the results yourself (by hand)</td><td>Free</td><td>Search your main keywords and look at the top. Laborious as the list grows</td></tr>\n<tr><td>Semrush Organic Research (Competitors)</td><td>Subscription (see the official site for plans)</td><td>Ranks competitors by shared keywords and more. Semrush's help says SEO competitors are not necessarily business competitors</td></tr>\n<tr><td>Ahrefs Site Explorer</td><td>Subscription (see the official site for plans)</td><td>Has a way to find competing domains (see the official site)</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Checked in November 2026. Prices change — confirm on each vendor's official site before you buy.</p>\n\n<h2>Why use this tool</h2>\n<ul>\n<li><strong>Find rivals by shared keywords.</strong> For target.com, amazon.com shared about 2.7 million, youtube.com about 2.6 million and walmart.com about 2.4 million (measured).</li>\n<li><strong>Whole-site estimated traffic included.</strong> See how big they are.</li>\n<li><strong>About $0.024 per call.</strong> About 40 per $1.</li>\n<li><strong>Slower than our other tools.</strong> About 11 seconds in the US sample (about 5 seconds in a test in Japan).</li>\n<li><strong>Save as CSV.</strong></li>\n</ul>\n\n<h2>When it is not the right fit</h2>\n<ul>\n<li>You want <strong>only business rivals</strong> → the list is sites that appear for the same words. Big portals and YouTube are included. Semrush also notes SEO competitors can differ from business rivals.</li>\n<li><strong>The first row</strong> is your own domain → the top row is the domain you entered. We show it as returned.</li>\n<li>You want <strong>more than 100</strong> → choose 300 or 1,000 in the count field (target.com had about 337 thousand in total).</li>\n<li>The estimated traffic in the table is a whole-site figure. It is a modeled number, not real visits.</li>\n</ul>\n<p>This tool does one thing: show 100 sites that share keywords with a domain, with shared-keyword counts.</p>\n\n<h2>FAQ</h2>\n<details><summary>Why does my own domain come first?</summary><p>The API includes the domain you entered. We show it as returned.</p></details>\n<details><summary>What is the \"shared keywords\" count?</summary><p>The number of keywords for which both your domain and that site appear in results.</p></details>\n<details><summary>Is estimated traffic for the shared keywords only?</summary><p>No. It is the whole site's estimated traffic.</p></details>\n<details><summary>What do country and language change?</summary><p>The market for the numbers. The sample uses the United States and English, so the numbers are for US results.</p></details>\n<details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href=\"/dfs-en.html\">What is DataForSEO?</a></p></details>\n</section>\n"
+ },
+ "C47": {
+  "locale_en": {
+   "c47.name": "See keywords two sites share",
+   "c47.desc": "See keywords you share with a rival",
+   "c47.price": "Cost: about $0.024 for 100 rows and about $0.13 for 1,000 (measured on the Labs endpoints; it rises about $0.0001 per row). The sample is free.",
+   "c47.eta": "Typical time: a few seconds (about 6 seconds measured)",
+   "c47.title": "Keyword Gap Analysis | Keywords Two Websites Both Rank For (Free Sample)",
+   "c47.meta": "Enter two domains and get the keywords both rank for. See how your keywords overlap with a competitor's: groundwork for keyword gap and content gap analysis. Free sample.",
+   "c47.target1": "Domain 1 (e.g. example.com)",
+   "c47.target2": "Domain 2 (e.g. example.org)",
+   "c47.col.keyword": "Keyword",
+   "c47.col.rank1": "First site position",
+   "c47.col.rank2": "Second site position",
+   "c47.col.volume": "Monthly searches",
+   "c47.ai_prompt": "You are an assistant who helps compare two sites.\nThe reader is a blogger who wants to know which keywords overlap between their own site and a competitor.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Rows: {n}\n- Columns\n  - Keyword: a keyword for which both sites show up in the results.\n  - Rank of the 1st / 2nd site: the rank of each of the two sites I entered.\n  - Monthly searches: an estimate based on Google Ads data.\n- Only the top 100 by search volume.\n\n# What I would like you to do\n1. List the 5 keywords (by search volume) where the 2nd site ranks higher (smaller number) than the 1st.\n2. List the 5 keywords (by search volume) where the 1st site ranks higher.\n3. From keywords where the 1st site loses to the 2nd and search volume is large, suggest 3 articles to improve.\n4. Briefly say what cannot be known from the data alone (for example, the reason for the rank difference).\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table (keyword / rank of 1st / rank of 2nd / monthly searches).\n\n# Data (tab-separated)\n```\n{data}\n```",
+   "c47.count": "Number of rows to fetch (more rows cost more; see the table below)",
+   "c47.steps": [
+    [
+     "100 rows",
+     "about $0.024 (measured)",
+     "See only the shared keywords with the most searches"
+    ],
+    [
+     "300 rows",
+     "about $0.05 (a guide)",
+     "Compare shared keywords by rank difference"
+    ],
+    [
+     "1,000 rows",
+     "about $0.13 (a guide)",
+     "Find the overlap of two sites broadly"
+    ]
+   ]
+  },
+  "content_en": "<section class=\"seo\">\n<h2>Ways to see keywords two sites share — and how the main tools compare</h2>\n<p>You want to compare a client's site with a competitor's on <strong>the keywords both appear for</strong>. Enter two domains and this tool lists up to 100 keywords both rank for, with each site's position and the search volume.</p>\n<p class=\"note\">* You can choose 100, 300 or 1,000 rows (the default is 100). Where the text below says \"100\", it describes the default. See the table at the top for the cost.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.024 per call for 100 rows (measured)</td><td>Shared keywords of two domains, each with its position and volume, 100 rows. Save as CSV</td></tr>\n<tr><td>Semrush Keyword Gap</td><td>Subscription (see the official site for plans)</td><td>Compares your site's keywords with several rivals (see the official site for the limit). This tool takes two sites</td></tr>\n<tr><td>Ahrefs Site Explorer (Content gap)</td><td>Subscription (see the official site for plans)</td><td>A feature to find keywords a rival ranks for and you do not (see the official site)</td></tr>\n<tr><td>Matching up in a spreadsheet (by hand)</td><td>Depends on the tools you use</td><td>Pull each keyword list and match them with VLOOKUP or similar</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Checked in November 2026. Prices change — confirm on each vendor's official site before you buy.</p>\n\n<h2>Why use this tool</h2>\n<ul>\n<li><strong>Two sites' positions side by side.</strong> For \"targets\", target.com was 1st and walmart.com 11th (measured for target.com and walmart.com).</li>\n<li><strong>Sorted by volume.</strong> About 6.25 million shared keywords in total (target.com and walmart.com, measured); the top row was \"targets\" at about 45.5 million searches a month.</li>\n<li><strong>About $0.024 per call.</strong> About 40 per $1.</li>\n<li><strong>A few seconds.</strong> The sample call took about 6 seconds (measured).</li>\n<li><strong>Save as CSV.</strong></li>\n</ul>\n\n<h2>When it is not the right fit</h2>\n<ul>\n<li>You want <strong>keywords only the rival has</strong> (your gaps) → this tool returns only keywords both appear for.</li>\n<li>You want to compare <strong>three or more sites</strong> → two only.</li>\n<li>You want <strong>more than 100</strong> → choose 300 or 1,000 in the count field.</li>\n<li>Brand words can lead the list: for target.com and walmart.com, \"targets\" came first (measured).</li>\n</ul>\n<p>This tool does one thing: show 100 keywords two domains both appear for, with positions and volume.</p>\n\n<h2>FAQ</h2>\n<details><summary>Which is the first site and which the second?</summary><p>The upper input is the first and the lower the second. The \"first site position\" and \"second site position\" columns match them.</p></details>\n<details><summary>Can a position be blank?</summary><p>Only shared keywords are listed, so both positions are normally filled.</p></details>\n<details><summary>Why only 100? And the price?</summary><p>The default is 100 per call; you can choose 300 or 1,000. The price follows the rows returned: in a small test with Japanese domains, 4 shared keywords cost $0.012 (measured in Japan).</p></details>\n<details><summary>What do country and language change?</summary><p>The market for the numbers. For example, the United States and English give positions in US results.</p></details>\n<details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href=\"/dfs-en.html\">What is DataForSEO?</a></p></details>\n</section>\n"
+ }
+}
