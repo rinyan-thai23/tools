@@ -77,6 +77,14 @@
   "c02.refs": "Sumber yang dikutip",
   "c02.col.title": "Judul",
   "c02.col.url": "URL",
+  "c08.name": "Lihat saran di kotak pencarian",
+  "c08.desc": "Lihat apa yang dicari pembaca bersama kata kunci kamu",
+  "c08.price": "Biaya: $0.002 per item (hasil ukur). Jika memasukkan beberapa isian, kamu membayar per item (sekitar $0.04 untuk 20). Contoh gratis.",
+  "c08.eta": "Waktu rata-rata: beberapa detik",
+  "c08.title": "Kata Kunci Autocomplete Google | Saran Pencarian, Contoh Gratis",
+  "c08.meta": "Dapatkan kata kunci autocomplete Google (saran pencarian) untuk kata kunci apa pun dalam bentuk daftar. Lihat apa yang dicari pembaca bersama kata kunci kamu. Simpan sebagai CSV. Contoh gratis.",
+  "c08.keyword": "Kata kunci (satu per baris, maksimal 50)",
+  "c08.col.suggestion": "Saran",
   "c18.name": "Lihat jawaban ChatGPT",
   "c18.desc": "Lihat apa kata ChatGPT saat pelanggan bertanya",
   "c18.price": "Biaya: sekitar $0.03 per pertanyaan (dengan pencarian web, sekitar 37 per $1). Contoh gratis. Jika memasukkan beberapa isian, kamu membayar per item.",
@@ -88,6 +96,15 @@
   "c18.col.url": "URL halaman yang dikutip",
   "c18.answer": "Jawaban ChatGPT",
   "c18.refs": "Halaman yang dikutip",
+  "c23.name": "Lihat seberapa sering AI ditanya",
+  "c23.desc": "Cek apakah sebuah topik sering ditanyakan ke AI",
+  "c23.price": "Biaya: sekitar $0.0101 untuk 1 kata kunci dan $0.0638 untuk 538 (hasil ukur). Hingga 1.000 masuk dalam satu permintaan; lebih dari itu dibagi otomatis (maksimal 2.000). Contoh gratis.",
+  "c23.eta": "Waktu rata-rata: beberapa detik",
+  "c23.title": "Volume Pencarian AI | Seberapa Sering Topik Ditanyakan ke AI",
+  "c23.meta": "Lihat seberapa sering sebuah topik ditanyakan di pencarian AI seperti ChatGPT search. Cek apakah topik populer sebagai pertanyaan ke AI: alat riset kata kunci untuk pencarian AI. Contoh gratis.",
+  "c23.keyword": "Kata kunci (satu per baris, maksimal 2.000)",
+  "c23.col.ym": "Bulan",
+  "c23.col.volume": "Volume pencarian AI",
   "c24.name": "Lihat volume pencarian sekaligus",
   "c24.desc": "Lihat volume pencarian bulanan untuk banyak kata kunci sekaligus",
   "c24.price": "Biaya: $0.09 per panggilan untuk hingga 1.000 kata kunci (sekitar $0.00009 per kata kunci). Di atas 1.000, alat ini membagi daftar: $0.09 per 1.000. Contoh gratis.",
@@ -100,6 +117,83 @@
   "c24.col.cpc": "CPC (USD)",
   "c24.col.competition": "Persaingan (0–100)",
   "c24.col.monthly": "12 bulan terakhir (terbaru dulu)",
+  "c35.name": "Lihat kata kunci terkait",
+  "c35.desc": "Lihat kandidat untuk artikel berikutnya",
+  "c35.price": "Biaya: sekitar $0.024 untuk 100 baris dan sekitar $0.13 untuk 1.000 (hasil ukur di endpoint Labs; naik sekitar $0.0001 per baris). Contoh gratis.",
+  "c35.eta": "Waktu rata-rata: beberapa detik",
+  "c35.title": "Kata Kunci Terkait dan Semantik | Cari Istilah Terkait (Contoh Gratis)",
+  "c35.meta": "Masukkan satu kata kunci dan dapatkan kata kunci terkait dalam daftar, lengkap dengan volume pencarian dan tingkat kesulitan. Temukan topik tulisan berikutnya dan kata kunci semantik. Contoh gratis.",
+  "c35.keyword": "Kata kunci (satu)",
+  "c35.col.keyword": "Kata kunci",
+  "c35.col.volume": "Pencarian per bulan",
+  "c35.col.kd": "Tingkat kesulitan (0–100)",
+  "c40.name": "Lihat data dasar kata kunci",
+  "c40.desc": "Lihat angka-angka satu kata kunci sekaligus",
+  "c40.price": "Biaya: sekitar $0.012 untuk 1 kata kunci dan $0.0294 untuk 500 (hasil ukur; 145 punya data). Harga mengikuti jumlah baris yang dikembalikan. Contoh gratis.",
+  "c40.eta": "Waktu rata-rata: kurang dari 1 detik",
+  "c40.title": "Analisis Kata Kunci | Volume, CPC, Kesulitan, Maksud Pencarian",
+  "c40.meta": "Dapatkan volume pencarian, CPC, tingkat kesulitan, maksud pencarian, dan rata-rata 12 bulan untuk satu kata kunci dalam satu tabel. Titik awal analisis kata kunci. Contoh gratis.",
+  "c40.keyword": "Kata kunci (satu per baris, maksimal 2.000)",
+  "c40.col.volume": "Pencarian per bulan",
+  "c40.col.cpc": "CPC (USD)",
+  "c40.col.kd": "Tingkat kesulitan (0–100)",
+  "c40.col.intent": "Maksud pencarian",
+  "c40.v.informational": "Informasional",
+  "c40.v.commercial": "Komersial",
+  "c40.v.transactional": "Transaksional",
+  "c40.v.navigational": "Navigasional",
+  "c41.name": "Lihat volume pencarian bulanan di masa lalu",
+  "c41.desc": "Lihat kapan musim puncak datang setiap tahun",
+  "c41.price": "Biaya: $0.012 untuk 1 kata kunci, $0.0156 untuk 30, dan $0.072 untuk 500 (hasil ukur). Makin banyak yang digabung, makin murah per kata kunci. Contoh gratis.",
+  "c41.eta": "Waktu rata-rata: beberapa detik",
+  "c41.title": "Volume Pencarian Historis | Musim Puncak Kata Kunci (Contoh Gratis)",
+  "c41.meta": "Masukkan kata kunci dan dapatkan volume pencarian bulanannya di tahun-tahun lalu dalam tabel dan grafik. Lihat musim kata kunci: kapan puncaknya datang setiap tahun. Contoh gratis.",
+  "c41.keyword": "Kata kunci (satu per baris, maksimal 500)",
+  "c41.col.ym": "Bulan",
+  "c41.col.volume": "Pencarian",
+  "c45.name": "Lihat kata kunci yang membuat sebuah situs berperingkat tinggi",
+  "c45.desc": "Lihat kata kunci apa saja yang membuat blogmu atau blog pesaing berperingkat",
+  "c45.price": "Biaya: $0.024 untuk 100 baris dan $0.132 untuk 1.000 baris (keduanya hasil ukur). Naik pelan-pelan seiring jumlah baris (sekitar $0.0001 per baris). Contoh gratis.",
+  "c45.eta": "Waktu rata-rata: beberapa detik",
+  "c45.title": "Kata Kunci Peringkat Situs | Posisi dan Volume (Contoh Gratis)",
+  "c45.meta": "Masukkan domain dan dapatkan kata kunci yang membuatnya berperingkat di Google, lengkap dengan posisi dan volume pencarian. Untuk riset kata kunci pesaing dan blogmu sendiri. Contoh gratis.",
+  "c45.keyword": "Domain (contoh: example.com)",
+  "c45.col.keyword": "Kata kunci",
+  "c45.col.rank": "Posisi",
+  "c45.col.volume": "Pencarian per bulan",
+  "c45.col.url": "URL halaman",
+  "c62.name": "Lihat skor kecepatan halaman",
+  "c62.desc": "Cek seberapa cepat halaman terbuka di ponsel",
+  "c62.price": "Biaya: $0.005 per URL (hasil ukur). Tiap URL butuh sekitar 12-75 detik. Jika memasukkan beberapa isian, kamu membayar dan menunggu per URL (sekitar $0.10 untuk 20). Contoh gratis.",
+  "c62.eta": "Waktu rata-rata: sekitar 25-30 detik",
+  "c62.title": "Cek Skor Lighthouse dan Kecepatan Halaman | Contoh Gratis",
+  "c62.meta": "Masukkan URL dan dapatkan empat skor Lighthouse (performa, aksesibilitas, praktik terbaik, SEO) untuk seluler, plus angka kecepatan utama. Ada contoh gratis.",
+  "c62.url": "URL halaman (satu per baris, maksimal 20. contoh: https://example.com/)",
+  "c62.col.category": "Item",
+  "c62.col.score": "Skor (0-100)",
+  "c62.col.metric": "Metrik kecepatan",
+  "c62.col.value": "Nilai",
+  "c62.cat_title": "Skor Lighthouse (seluler)",
+  "c62.metrics_title": "Angka kecepatan",
+  "c62.v.performance": "Performa",
+  "c62.v.accessibility": "Aksesibilitas",
+  "c62.v.best-practices": "Praktik terbaik",
+  "c62.v.seo": "SEO",
+  "c62.v.first-contentful-paint": "First Contentful Paint (FCP)",
+  "c62.v.largest-contentful-paint": "Largest Contentful Paint (LCP)",
+  "c62.v.total-blocking-time": "Total Blocking Time (TBT)",
+  "c62.v.cumulative-layout-shift": "Cumulative Layout Shift (CLS)",
+  "c62.v.speed-index": "Speed Index",
+  "c74.name": "Lihat teknologi sebuah situs",
+  "c74.desc": "Lihat situs dibuat dengan apa",
+  "c74.price": "Biaya: $0.012 per domain (hasil ukur). Hasil kosong tetap dikenai biaya (error gratis). Jika memasukkan beberapa isian, kamu membayar per domain (sekitar $0.36 untuk 30). Contoh gratis.",
+  "c74.eta": "Waktu rata-rata: beberapa detik",
+  "c74.title": "Cek Teknologi Situs Web | CMS, Server, Analitik (Contoh Gratis)",
+  "c74.meta": "Masukkan domain dan lihat teknologi yang dipakai sebuah situs: CMS, server, analitik, iklan, dan lainnya. Pengecek teknologi situs web ala Wappalyzer dan BuiltWith. Ada contoh gratis.",
+  "c74.keyword": "Domain (satu per baris, maksimal 30. contoh: example.com)",
+  "c74.col.group": "Kategori",
+  "c74.col.type": "Jenis",
+  "c74.col.names": "Teknologi",
   "ui.chunk_one": "{n} kata kunci → dikirim dalam 1 panggilan (sekitar ${cost})",
   "ui.chunk_multi": "{n} kata kunci → dikirim dalam {calls} panggilan, masing-masing hingga 1.000 (sekitar ${cost})",
   "ui.chunk_over": "Batasnya {max} kata kunci; sisanya tidak dikirim.",
@@ -129,10 +223,19 @@
   "c24.ai_prompt_diff": "Kamu adalah asisten yang membantu blogger pemula memilih kata kunci untuk ditulis.\nPembaca mengecek volume pencarian kata kunci dua kali, pada hari yang berbeda, dan ingin tahu \"apa yang berubah sejak terakhir kali\".\n\n# Tentang data\n- Kali ini: {date} / Terakhir kali: {prev_date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah kata kunci kali ini: {n}\n- Kolom\n  - Pencarian per bulan: perkiraan berdasarkan data Google Ads. Kosong berarti \"tidak ada data\", belum tentu nol.\n  - CPC (USD): rata-rata harga per klik bagi pengiklan. Ini bukan nilai sebuah artikel.\n  - Persaingan (0-100): seberapa ketat persaingan iklan untuk kata kunci itu. Ini bukan tingkat kesulitan SEO.\n  - 12 bulan terakhir: volume pencarian bulanan, dari bulan terbaru sampai terlama.\n- Bandingkan kata kunci yang sama antara terakhir kali dan kali ini. Kata kunci yang hanya muncul di salah satunya harus ditulis sebagai \"baru\" atau \"hilang\".\n\n# Yang saya minta\n1. 5 kata kunci yang pencarian bulanannya berubah paling besar, mulai dari perubahan terbesar. Tampilkan terakhir kali, kali ini, dan selisihnya.\n2. Beri tahu kata kunci yang dulu kosong dan sekarang ada angkanya (atau sebaliknya).\n3. Jelaskan singkat apa yang tidak bisa diketahui dari data saja: apakah perubahannya nyata, atau hanya selisih kecil akibat perkiraan?\n4. Tulis 3 langkah berikutnya secara berurutan.\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (kata kunci / terakhir kali / kali ini / selisih).\n\n# Data sebelumnya (dipisah tab)\n```\n{prev_data}\n```\n\n# Data sekarang (dipisah tab)\n```\n{data}\n```",
   "c01.ai_prompt": "Kamu adalah asisten yang membantu memeriksa hasil pencarian.\nPembaca adalah blogger pemula yang akan menulis artikel dan ingin tahu \"halaman mana yang sedang ada di peringkat atas sekarang\".\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Peringkat: posisi di antara hasil biasa (tautan biru). Ringkasan AI, peta, dan sejenisnya tidak termasuk.\n  - Judul: judul yang tampil di hasil pencarian. Judul panjang bisa terpotong dengan \"...\".\n  - URL / Domain: alamat halaman dan nama situsnya.\n- Hasil pencarian berubah menurut tempat dan waktu. Ini hasil untuk hari dan kondisi ini.\n\n# Yang saya minta\n1. Jika ada domain yang muncul berkali-kali, beri tahu berapa kali.\n2. Sebutkan kata atau pola yang sama pada judul-judul (tanda kurung, tahun, angka, dan sebagainya), sejauh bisa dihitung. Hati-hati dengan judul yang terpotong \"...\".\n3. Usulkan 3 ide judul untuk artikel yang akan saya tulis, berdasarkan kesamaan judul-judul teratas. Beri alasan singkat untuk masing-masing.\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya, \"apakah saya bisa menang?\").\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (domain / jumlah kemunculan).\n\n# Data (dipisah tab)\n```\n{data}\n```",
   "c01.ai_prompt_diff": "Kamu adalah asisten yang membantu membandingkan hasil pencarian dari waktu ke waktu.\nPembaca adalah blogger pemula yang mengecek kata kunci yang sama dua kali, pada hari yang berbeda, dan ingin tahu bagaimana halaman teratas berubah.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Terakhir kali: {prev_date}\n- Kolom: Peringkat adalah posisi di antara hasil biasa (tautan biru). URL dan Domain adalah halaman dan situsnya.\n- Bandingkan URL yang sama antara terakhir kali dan kali ini. URL yang hanya muncul di salah satunya harus ditulis sebagai \"baru\" atau \"hilang\".\n\n# Yang saya minta\n1. URL yang peringkatnya naik atau turun, dengan peringkat terakhir kali dan kali ini.\n2. URL yang baru dan URL yang hilang, beserta domainnya.\n3. Rangkum singkat, dengan angka, apakah yang berubah banyak atau sedikit.\n4. Jelaskan apa yang tidak bisa diketahui dari data saja: apakah perubahannya nyata, atau hanya naik-turun kecil yang biasa terjadi pada hasil pencarian?\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (URL / peringkat terakhir kali / peringkat sekarang).\n\n# Data sebelumnya (dipisah tab)\n```\n{prev_data}\n```\n\n# Data sekarang (dipisah tab)\n```\n{data}\n```",
+  "c35.ai_prompt": "Kamu adalah asisten yang membantu memilih artikel berikutnya.\nPembaca adalah blogger pemula yang ingin memilih artikel berikutnya dari kata kunci yang terkait dengan kata kunci yang saya masukkan.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Kata kunci: kandidat yang terkait dengan kata kunci yang saya masukkan.\n  - Pencarian per bulan: perkiraan pencarian bulanan di Google. Kosong berarti \"tidak ada data\", belum tentu nol.\n  - Tingkat kesulitan (0-100): panduan seberapa sulit untuk menembus peringkat teratas. Makin besar makin sulit. Ini panduan, bukan jaminan.\n\n# Yang saya minta\n1. Lihat keseimbangan antara pencarian dan tingkat kesulitan, lalu pilih 5 kata kunci yang tampak mudah bagi pemula. Beri alasan dengan angka.\n2. Kelompokkan kata kunci ke dalam 3-4 tema.\n3. Untuk 3 kata kunci yang kamu pilih, usulkan masing-masing satu judul artikel.\n4. Jelaskan singkat apa yang tidak bisa diketahui dari pencarian dan tingkat kesulitan saja (misalnya, apakah saya bisa mencapai peringkat teratas kalau menulisnya).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (kata kunci / pencarian per bulan / tingkat kesulitan / alasan).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+  "c41.ai_prompt": "Kamu adalah asisten yang membantu menemukan musim jual terbaik.\nPembaca adalah orang yang menjual produk atau jasa dan ingin tahu \"kapan musim ramai setiap tahun\" untuk merencanakan persiapan.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Tahun-bulan: bulan pencatatan. Bulan tanpa catatan bisa jadi tidak punya baris.\n  - Pencarian: perkiraan jumlah pencarian Google pada bulan itu.\n- Angka sebuah bulan bisa diganti nanti dengan nilai lain. Ini perkiraan, bukan hitungan pasti.\n\n# Yang saya minta\n1. Untuk setiap tahun, sebutkan bulan dengan pencarian terbanyak. Beri tahu juga apakah bulannya sama setiap tahun.\n2. Hitung rasio antara bulan paling ramai dan bulan paling sepi.\n3. Ceritakan tentang bulan yang tidak ada catatannya atau bernilai nol.\n4. Sarankan kapan sebaiknya mulai bersiap menghadapi musim itu, tandai dengan \"ini perkiraan\", dan tulis singkat.\n\n# Aturan\n- Jika ada beberapa kata kunci, jawab untuk setiap kata kunci secara terpisah.\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (tahun / bulan puncak / pencarian di bulan puncak).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+  "c45.ai_prompt": "Kamu adalah asisten yang membantu menganalisis kata kunci sebuah situs.\nPembaca adalah blogger afiliasi yang ingin melihat kata kunci apa saja yang membuat blognya sendiri atau blog pesaing muncul di hasil pencarian.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Kata kunci: kata kunci yang membuat situs yang saya masukkan masuk 10 besar hasil pencarian biasa.\n  - Peringkat: posisi untuk kata kunci itu (1-10).\n  - Pencarian per bulan: perkiraan berdasarkan data Google Ads.\n  - URL halaman: halaman yang muncul untuk kata kunci itu.\n- Data ini hanya 100 teratas berdasarkan volume pencarian. Ini bukan semua kata kunci di 10 besar. Variasi ejaan bisa muncul sebagai kata kunci terpisah.\n\n# Yang saya minta\n1. Kelompokkan kata kunci ke dalam 3-5 tema.\n2. Daftarkan kata kunci dengan volume pencarian besar tetapi peringkat lebih rendah (kandidat untuk diperbaiki).\n3. Daftarkan kata kunci peringkat 1 dengan volume pencarian kecil, jika ada.\n4. Sarankan 5 artikel yang bisa ditulis berikutnya, beserta alasannya.\n5. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya, kenapa halaman itu ada di peringkat tersebut).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (kelompok / kata kunci / peringkat / pencarian per bulan).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+  "c45.ai_prompt_diff": "Kamu adalah asisten yang membantu membandingkan kata kunci sebuah situs dari waktu ke waktu.\nPembaca adalah blogger afiliasi yang mengecek situs yang sama dua kali, pada hari yang berbeda, dan ingin tahu bagaimana peringkatnya berubah.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Terakhir kali: {prev_date}\n- Kolom: Kata kunci adalah kata kunci di 10 besar, Peringkat adalah 1-10, Pencarian per bulan adalah perkiraan berdasarkan data Google Ads.\n- Datanya hanya 100 teratas berdasarkan volume pencarian. Kata kunci yang hanya muncul di salah satu dari dua data harus ditulis sebagai \"baru\" atau \"hilang\".\n\n# Yang saya minta\n1. Kata kunci yang peringkatnya naik atau turun, dengan peringkat terakhir kali dan kali ini.\n2. Kata kunci yang baru dan yang hilang, beserta jumlah pencariannya.\n3. Rangkum singkat, dengan angka, apakah perubahannya besar atau kecil.\n4. Jelaskan apa yang tidak bisa diketahui dari data saja: apakah perubahannya nyata, atau hanya fluktuasi acak pada data?\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (kata kunci / peringkat terakhir kali / peringkat sekarang).\n\n# Data sebelumnya (dipisah tab)\n```\n{prev_data}\n```\n\n# Data sekarang (dipisah tab)\n```\n{data}\n```",
+  "c40.ai_prompt": "Kamu adalah asisten yang membantu menilai sebuah kata kunci.\nPembaca adalah blogger pemula yang ingin memutuskan apakah akan menulis tentang satu kata kunci.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Pencarian per bulan: perkiraan berdasarkan data Google Ads. Kosong berarti \"tidak ada data\", belum tentu nol.\n  - CPC (USD): rata-rata harga per klik bagi pengiklan. Ini bukan nilai sebuah artikel.\n  - Tingkat kesulitan (0-100): panduan seberapa sulit untuk menembus peringkat teratas. Ini panduan, bukan jaminan.\n  - Maksud pencarian: pengelompokan apa yang diinginkan pencari (ingin tahu, membandingkan, membeli...). Hanya panduan.\n- Isiannya satu kata kunci, jadi tabel hanya punya satu baris.\n\n# Yang saya minta\n1. Tulis 3 hal yang perlu dilihat, dengan angka, saat memutuskan apakah akan menulis tentang kata kunci ini.\n2. Rangkum singkat apa yang ditunjukkan angka-angkanya (besar pencarian, tingkat kesulitan, maksud).\n3. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya, apakah saya bisa mencapai peringkat teratas kalau menulisnya).\n4. Tulis 3 hal yang perlu dicek berikutnya, secara berurutan.\n\n# Aturan\n- Jika ada beberapa kata kunci, jawab untuk setiap kata kunci secara terpisah.\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Akhiri dengan salah satu dari \"tulis\" / \"riset sedikit lagi\", beserta alasan satu baris.\n\n# Data (dipisah tab)\n```\n{data}\n```",
   "ui.ai_answer_head": "[Jawaban]",
   "ui.ai_refs_head": "[Tabel sumber]",
   "c02.ai_prompt": "Kamu adalah asisten yang membantu membaca jawaban Google AI Mode.\nPembaca ingin melihat apakah situsnya dikutip dalam jawaban Google AI Mode.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Isi: teks jawaban AI dan tabel sumber\n- Kolom\n  - Judul / URL: halaman yang dikutip oleh jawaban AI Mode.\n  - Jawaban bisa berubah setiap kali ditanyakan. Ini satu hasil dari hari ini.\n- Beberapa pertanyaan tidak mengembalikan sumber sama sekali.\n\n# Yang saya minta\n1. Rangkum jawabannya dalam 3 baris.\n2. Hitung domain yang dikutip dan beri tahu berapa kali masing-masing muncul.\n3. Tulis 3 hal yang perlu dicek untuk melihat apakah situs saya dikutip.\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya alasannya atau hasil di masa depan).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (domain / jumlah).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+  "c08.ai_prompt": "Kamu adalah asisten yang membantu merapikan saran pencarian.\nPembaca adalah blogger pemula yang mencari ide artikel dan variasi kata kunci.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Saran: kandidat yang tampil di kotak pencarian Google. Maksimal 15, bukan volume pencarian.\n  - Hasil dan angka bisa berubah menurut tempat dan waktu. Ini untuk hari dan kondisi ini.\n\n# Yang saya minta\n1. Kelompokkan saran-saran itu ke dalam 3-5 tema.\n2. Buat 3 ide judul artikel dari saran-saran itu.\n3. Daftarkan saran yang terlihat seperti kekhawatiran atau pertanyaan.\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya, saran mana yang paling banyak dicari).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (kelompok / saran).\n\n# Data (dipisah tab)\n```\n{data}\n```",
   "c18.ai_prompt": "Kamu adalah asisten yang membantu membaca jawaban ChatGPT.\nPembaca ingin mengecek apakah perusahaan atau produknya muncul saat pelanggan menanyakan hal seperti ini kepada AI.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Isi: teks jawaban AI dan tabel sumber\n- Kolom\n  - Judul / URL halaman yang dikutip: halaman yang dipakai jawaban.\n  - Jawaban bisa berubah setiap kali ditanyakan. Ini satu hasil dari hari ini.\n- ChatGPT yang dipakai alat ini bisa berbeda dari tampilan ChatGPT.\n\n# Yang saya minta\n1. Daftarkan semua nama perusahaan, produk, dan toko dalam jawaban, sesuai urutan kemunculannya.\n2. Tulis 3 hal yang perlu dicek untuk melihat apakah perusahaan atau produk saya muncul.\n3. Jika ada sumber, hitung domainnya. Jika tidak ada, tulis \"tidak ada\".\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya cara agar masuk ke dalam jawaban).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (nama / urutan kemunculan).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+  "c23.ai_prompt": "Kamu adalah asisten yang membantu membaca volume pertanyaan ke AI.\nPembaca adalah orang yang ingin tahu apakah topik ini juga ditanyakan ke AI.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Tahun-bulan: bulannya.\n  - Pencarian AI: perkiraan berapa kali topik itu ditanyakan ke AI pada bulan tersebut. Tidak persis. Bisa saja nol.\n\n# Yang saya minta\n1. Sebutkan bulan paling ramai dan paling sepi, lalu hitung rasionya.\n2. Bandingkan rata-rata 3 bulan pertama dengan 3 bulan terakhir untuk melihat apakah naik atau turun.\n3. Beri tahu saya tentang bulan yang nol, jika ada.\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya, alasannya atau hasil di masa depan).\n\n# Aturan\n- Jika ada beberapa kata kunci, jawab untuk setiap kata kunci secara terpisah.\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (tahun-bulan / pencarian AI).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+  "c62.ai_prompt": "Kamu adalah asisten yang membantu membaca skor kecepatan halaman.\nPembaca ingin mengecek seberapa cepat halamannya sendiri atau halaman pesaing tampil.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Item / skor: empat skor Lighthouse (performa, aksesibilitas, praktik terbaik, SEO), skala 100, pengaturan seluler.\n  - Metrik kecepatan (tabel kedua): nilai FCP, LCP, TBT, CLS, dan Speed Index.\n  - Angkanya sedikit berubah setiap kali. Ini bukan yang dialami pengunjung sungguhan.\n\n# Yang saya minta\n1. Sebutkan skor yang rendah dan metrik yang tampaknya terkait, sebatas yang terlihat di data.\n2. Sebutkan metrik dengan nilai yang sangat besar (lambat).\n3. Usulkan 3 langkah untuk mencoba perbaikan, secara berurutan (tandai sebagai perkiraan).\n4. Jelaskan singkat apa yang tidak bisa diketahui dari data saja (misalnya alasannya atau hasil di masa depan).\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (item / angka / yang perlu diperhatikan).\n\n# Data (dipisah tab)\n```\n{data}\n```",
+  "c74.ai_prompt": "Kamu adalah asisten yang membantu merapikan teknologi yang dipakai sebuah situs.\nPembaca ingin tahu teknologi apa yang dipakai oleh pesaing atau situs yang menarik baginya.\n\n# Tentang data\n- Tanggal: {date}\n- Negara dan bahasa: {country} / {language}\n- Jumlah baris: {n}\n- Kolom\n  - Kategori / jenis / nama: kategori, jenis, dan nama teknologi.\n  - Hanya teknologi yang berhasil ditemukan. Itu tidak berarti sisanya tidak dipakai.\n\n# Yang saya minta\n1. Kelompokkan teknologi berdasarkan kategori.\n2. Daftarkan teknologi untuk server, analitik, iklan, dan cara situs dibuat.\n3. Tulis 3 hal yang perlu dicek jika saya ingin memakai teknologi yang sama.\n4. Jangan bilang sebuah teknologi \"tidak dipakai\" hanya karena tidak ditemukan.\n\n# Aturan\n- Pakai hanya angka yang saya berikan. Jangan mengarang angka.\n- Katakan \"ini perkiraan\" saat kamu menebak.\n- Tulis singkat dan sederhana, supaya anak SMP pun bisa mengerti.\n- Tutup dengan tabel (kategori / teknologi).\n\n# Data (dipisah tab)\n```\n{data}\n```",
   "ui.steps_title": "Seberapa banyak yang bisa didapat, dan biayanya",
   "ui.steps_amount": "Jumlah",
   "ui.steps_cost": "Biaya",
@@ -141,6 +244,111 @@
   "ui.table_shown": "Menampilkan {shown} dari {total} baris (penyaringan dan pengurutan berlaku untuk semua baris; pakai CSV atau salin untuk semuanya)",
   "ui.table_more": "Tampilkan {n} lagi",
   "ui.table_all": "Tampilkan semua",
+  "c45.count": "Jumlah baris yang diambil (makin banyak makin mahal; lihat tabel di bawah)",
+  "c45.steps": [
+    [
+      "100 baris",
+      "$0.024 (hasil ukur)",
+      "Dapatkan gambaran besar. Baris teratas menurut volume pencarian sudah cukup"
+    ],
+    [
+      "300 baris",
+      "sekitar $0.05 (perkiraan)",
+      "Lihat kata kunci teratas pesaing tema demi tema"
+    ],
+    [
+      "1.000 baris",
+      "$0.132 (hasil ukur)",
+      "Telusuri kata kunci situs besar dengan pengurutan dan penyaringan"
+    ]
+  ],
+  "c35.count": "Jumlah baris yang diambil (makin banyak makin mahal; lihat tabel di bawah)",
+  "c35.steps": [
+    [
+      "100 baris",
+      "sekitar $0.024 (hasil ukur)",
+      "Lihat dulu kata kunci terkait teratas"
+    ],
+    [
+      "300 baris",
+      "sekitar $0.05 (perkiraan)",
+      "Lihat sebaran istilah terkait, tema demi tema"
+    ],
+    [
+      "1.000 baris",
+      "sekitar $0.13 (perkiraan)",
+      "Ambil semua yang tersedia (hasil ukur: 154 baris sudah semuanya, $0.0305)"
+    ]
+  ],
+  "c41.col.keyword": "Kata kunci",
+  "c41.steps": [
+    [
+      "1 kata kunci",
+      "$0.012 (hasil ukur)",
+      "Lihat lima tahun satu kata kunci"
+    ],
+    [
+      "30 kata kunci",
+      "$0.0156 (hasil ukur)",
+      "Deretkan kata kunci musiman dan bandingkan bulan puncaknya"
+    ],
+    [
+      "100 kata kunci",
+      "sekitar $0.022 (perkiraan)",
+      "Buat grafik musim untuk satu genre penuh"
+    ],
+    [
+      "500 kata kunci",
+      "$0.072 (hasil ukur)",
+      "Urutkan ide artikel satu situs berdasarkan musim"
+    ]
+  ],
+  "c23.col.keyword": "Kata kunci",
+  "c23.steps": [
+    [
+      "1 kata kunci",
+      "sekitar $0.0101 (hasil ukur)",
+      "Lihat apakah satu topik ditanyakan ke AI"
+    ],
+    [
+      "30 kata kunci",
+      "sekitar $0.013 (perkiraan)",
+      "Deretkan topik terkait dan bandingkan jumlah pertanyaan ke AI"
+    ],
+    [
+      "538 kata kunci",
+      "$0.0638 (hasil ukur)",
+      "Sandingkan dengan volume Google (C24) untuk menemukan kata yang ditanyakan ke AI"
+    ],
+    [
+      "2.000 kata kunci",
+      "sekitar $0.25 (perkiraan, dalam 2 permintaan)",
+      "Urutkan daftar kata kunci yang sangat besar menurut volume pertanyaan ke AI"
+    ]
+  ],
+  "c40.col.keyword": "Kata kunci",
+  "c40.steps": [
+    [
+      "1 kata kunci",
+      "sekitar $0.012 (hasil ukur)",
+      "Putuskan apakah akan menulis tentang satu kata kunci"
+    ],
+    [
+      "30 kata kunci",
+      "sekitar $0.013 (perkiraan)",
+      "Deretkan kandidat dan bandingkan pencarian, tingkat kesulitan, dan maksud"
+    ],
+    [
+      "500 kata kunci",
+      "$0.0294 (hasil ukur, 145 punya data)",
+      "Susun ide artikel lalu persempit"
+    ],
+    [
+      "2.000 kata kunci",
+      "sekitar $0.12 (perkiraan, dalam 4 permintaan)",
+      "Saring daftar besar dengan data dasar"
+    ]
+  ],
   "ui.multi_input": "Isian",
   "ui.multi_progress": "Terambil {n} dari {m}",
   "ui.multi_note": "{n} item → dikirim satu per satu, {n} permintaan (sekitar ${cost})",
@@ -148,6 +356,72 @@
   "ui.multi_over": "Batasnya {max} item. Sisanya tidak akan dikirim.",
   "ui.multi_confirm": "Mengambil {n} item butuh biaya sekitar ${cost}. Lanjutkan?",
   "ui.multi_failed": "{n} item tidak bisa diambil ({list}). Yang berhasil ada di tabel.",
+  "c08.steps": [
+    [
+      "1 item",
+      "$0.002 (hasil ukur)",
+      "Lihat saran untuk satu kata"
+    ],
+    [
+      "5 item",
+      "$0.01",
+      "Bandingkan saran untuk kata-kata terkait"
+    ],
+    [
+      "20 item",
+      "$0.04",
+      "Kumpulkan saran dengan memvariasikan kata, misalnya \"blog a\"..."
+    ],
+    [
+      "50 item",
+      "$0.10",
+      "Kumpulkan bahan ide artikel sekaligus"
+    ]
+  ],
+  "c62.steps": [
+    [
+      "1 URL",
+      "$0.005, sekitar 25 dtk (hasil ukur)",
+      "Lihat skor satu halaman"
+    ],
+    [
+      "5 URL",
+      "sekitar $0.025, sekitar 2 menit",
+      "Ukur halaman-halaman utama situsmu"
+    ],
+    [
+      "10 URL",
+      "sekitar $0.05, sekitar 4 menit",
+      "Bandingkan halamanmu dengan halaman pesaing"
+    ],
+    [
+      "20 URL",
+      "sekitar $0.10, sekitar 8 menit",
+      "Cek halaman-halaman utama seluruh situs sekaligus"
+    ]
+  ],
+  "c74.steps": [
+    [
+      "1 domain",
+      "$0.012 (hasil ukur)",
+      "Lihat teknologi satu situs"
+    ],
+    [
+      "5 domain",
+      "$0.06",
+      "Bandingkan teknologi situs-situs pesaing"
+    ],
+    [
+      "10 domain",
+      "$0.12",
+      "Kelompokkan daftar situs yang menarik menurut teknologinya"
+    ],
+    [
+      "30 domain",
+      "$0.36",
+      "Cek seluruh daftar situs sekaligus (misalnya daftar calon klien)"
+    ]
+  ],
   "c01.steps": [
     [
       "1 item",

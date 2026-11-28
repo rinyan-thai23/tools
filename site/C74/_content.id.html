@@ -1,0 +1,39 @@
+<section class="seo">
+<h2>Cara mengecek teknologi yang dipakai sebuah situs — dan perbandingan alat utamanya</h2>
+<p>Dalam pembuatan situs web, hal pertama yang ingin kamu tahu adalah <strong>dengan apa situs calon klien dibuat</strong>. Masukkan domain, dan alat ini menyusun teknologi yang dipakai situs itu (server, analitik, iklan, dan lainnya) dalam tabel menurut kategori.</p>
+<p class="note">* Sekarang kamu bisa memasukkan banyak item, satu per baris (masing-masing dikirim satu per satu, jadi kamu membayar per item). Tabel mendapat kolom "Isian". Kalimat di bawah yang menyebut "satu" menjelaskan satu item. Biayanya lihat tabel di bagian atas.</p>
+<div class="scroll"><table>
+<thead><tr><th>Cara / alat</th><th>Model harga</th><th>Catatan</th></tr></thead>
+<tbody>
+<tr class="me"><td>Alat ini (DataForSEO)</td><td>Bayar per permintaan. Sekitar $0.012 per panggilan (hasil ukur), sekitar 83 per $1</td><td>Teknologi satu domain menurut kategori dan jenis dalam tabel. Simpan sebagai CSV</td></tr>
+<tr><td>Wappalyzer</td><td>Akun gratis mendapat 50 pengecekan teknologi per bulan (halaman harga resmi). Harga paket berbayar lihat situs resminya</td><td>Layanan untuk mengenali teknologi sebuah situs</td></tr>
+<tr><td>BuiltWith</td><td>Pengecekan satu situs gratis (halaman paket resmi)</td><td>Layanan untuk mengenali teknologi sebuah situs; mengekspor daftar berbayar</td></tr>
+<tr><td>Membaca kode sumber halaman (manual)</td><td>Gratis</td><td>Butuh keahlian; menyusunnya menjadi daftar dilakukan manual</td></tr>
+</tbody></table></div>
+<p class="asof">Dicek pada November 2026. Harga bisa berubah — pastikan di situs resmi masing-masing sebelum membeli.</p>
+
+<h2>Kenapa pakai alat ini</h2>
+<ul>
+<li><strong>Teknologinya dalam satu daftar.</strong> Saat hasil kembali, setiap baris berisi kategori, jenis, dan nama teknologi. Pada uji kami di Jepang, xserver.ne.jp muncul sebagai enam baris (server, analitik, manajemen tag, JavaScript, dan lainnya). Untuk theverge.com (contoh AS), hasilnya 12 baris, termasuk iklan (Amazon Advertising, DoubleClick for Publishers), JavaScript (Next.js, React), server (Varnish, MySQL), privasi (OneTrust), dan konten (WordPress) (hasil ukur). Untuk nytimes.com tabelnya kembali kosong, jadi tabel kosong bisa terjadi.</li>
+<li><strong>Sekitar $0.012 per panggilan.</strong> Sekitar 83 per $1.</li>
+<li><strong>Beberapa detik.</strong> Kami mengukur sekitar 1 sampai 2 detik untuk theverge.com dan sekitar 4 detik di Jepang.</li>
+<li><strong>Boleh tempel URL.</strong> "https://www.theverge.com/" diubah menjadi domain sebelum pengecekan.</li>
+<li><strong>Simpan sebagai CSV.</strong> Bahan dasar untuk proposal ke klien.</li>
+</ul>
+
+<h2>Kapan alat ini kurang cocok</h2>
+<ul>
+<li>Kamu ingin <strong>riwayat pemakaian teknologi</strong> → ini gambaran saat ini.</li>
+<li>Kamu ingin <strong>nama kategori dalam bahasa lain</strong> → kategori dan jenis memakai nama bahasa Inggris (misalnya Web servers).</li>
+<li>Kamu ingin <strong>angka seperti lalu lintas</strong> → tabel hanya berisi nama teknologi.</li>
+<li><strong>Teknologi yang kamu harapkan tidak muncul</strong> → hanya teknologi yang terdeteksi DataForSEO yang dicantumkan. Uji nytimes.com tidak mengembalikan apa pun, jadi tabel kosong bisa terjadi.</li>
+</ul>
+<p>Alat ini hanya melakukan satu hal: menampilkan teknologi satu domain (kategori, jenis, dan nama).</p>
+
+<h2>FAQ</h2>
+<details><summary>Apa itu kategori dan jenis?</summary><p>Klasifikasi DataForSEO dalam dua tingkat: misalnya "Web servers" dan "Hosting" di bawah "Servers".</p></details>
+<details><summary>Perlu menambahkan www?</summary><p>Keduanya bisa. Alat ini mengubah yang kamu ketik menjadi domain polos.</p></details>
+<details><summary>Apakah harganya berubah menurut jumlah teknologi?</summary><p>Sekitar $0.012 untuk setiap domain yang kami coba (nytimes.com tidak mengembalikan apa pun dan tetap dikenai biaya sebesar itu; theverge.com mengembalikan 12 baris dengan harga yang sama). Kami belum melihat apakah jumlah teknologi berpengaruh.</p></details>
+<details><summary>Apakah ini per halaman?</summary><p>Tidak. Hasilnya per domain, bukan per halaman.</p></details>
+<details><summary>Bisakah mendaftar dengan email gratis?</summary><p>Tidak. DataForSEO tidak menerima penyedia email gratis. Lihat <a href="/dfs-id.html">Apa itu DataForSEO?</a></p></details>
+</section>
