@@ -64,7 +64,8 @@
   "csv": "C32.csv",
   "sample_langs": [
     "en",
-    "vi"
+    "vi",
+    "id"
   ],
   "copy": true
 }

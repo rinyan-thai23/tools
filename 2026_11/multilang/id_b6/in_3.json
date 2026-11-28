@@ -1,0 +1,73 @@
+{
+ "C37": {
+  "locale_en": {
+   "c37.name": "See keywords in the same genre",
+   "c37.desc": "Find rephrased keywords",
+   "c37.price": "Cost: about $0.024 for 100 rows and about $0.13 for 1,000 (measured on the Labs endpoints; it rises about $0.0001 per row). The sample is free.",
+   "c37.eta": "Typical time: a few seconds",
+   "c37.title": "Keyword Generator | Keyword Ideas, Synonyms and Similar Terms with Volume (Free Sample)",
+   "c37.meta": "Enter a keyword and get keyword ideas, synonyms and similar terms from the same topic, with search volume. A keyword generator for brainstorming alternative wording. Free sample.",
+   "c37.keyword": "Keyword (one)",
+   "c37.col.keyword": "Keyword",
+   "c37.col.volume": "Monthly searches",
+   "c37.col.kd": "Difficulty (0–100)",
+   "c37.ai_prompt": "You are an assistant who helps organize keywords in the same genre.\nThe reader is a person who wants paraphrases and near terms of one keyword.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Rows: {n}\n- Columns\n  - Monthly searches: an estimate based on Google Ads data. Blank means \"no data\", not necessarily zero.\n  - Difficulty (0-100): a guide to how hard it is to rank at the top. It is a guide, not a guarantee.\n  - Results and numbers can change with place and time. This is for this day and these conditions.\n\n# What I would like you to do\n1. Gather paraphrases and keywords with the same meaning.\n2. List 5 by search volume.\n3. Suggest 3 terms that can be used as variations in an article.\n4. Briefly say what cannot be known from the data alone (for example, the reasons or future results).\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table (keyword / searches / difficulty).\n\n# Data (tab-separated)\n```\n{data}\n```",
+   "c37.count": "Number of rows to fetch (more rows cost more; see the table below)",
+   "c37.steps": [
+    [
+     "100 rows",
+     "about $0.024 (measured)",
+     "See the top candidates first"
+    ],
+    [
+     "300 rows",
+     "about $0.05 (a guide)",
+     "See how near terms spread, theme by theme"
+    ],
+    [
+     "1,000 rows",
+     "about $0.13 (a guide)",
+     "Collect as many as possible for article ideas"
+    ]
+   ]
+  },
+  "content_en": "<section class=\"seo\">\n<h2>Ways to find keywords in the same genre — and how the main tools compare</h2>\n<p>In affiliate articles you also want to catch <strong>people who say the same thing another way</strong>. Enter one keyword and this tool lists up to 100 keywords in the same genre, with monthly volume and difficulty.</p>\n<p class=\"note\">* You can choose 100, 300 or 1,000 rows (the default is 100). Where the text below says \"100\", it describes the default. See the table at the top for the cost.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.024 per call for 100 rows (measured)</td><td>Keywords in the same genre with volume and difficulty, 100 rows. Save as CSV</td></tr>\n<tr><td>Google \"people also search for\" (by hand)</td><td>Free</td><td>Shown in results, without volume</td></tr>\n<tr><td>Ahrefs Keywords Explorer (Keyword ideas)</td><td>Subscription (see the official site for plans)</td><td>A list of ideas with numbers</td></tr>\n<tr><td>Google Keyword Planner</td><td>Free (needs a Google Ads account)</td><td>Has a feature that suggests ideas from keywords (see the official site)</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Checked in November 2026. Prices change — confirm on each vendor's official site before you buy.</p>\n\n<h2>Why use this tool</h2>\n<ul>\n<li><strong>Rephrasings turn up.</strong> Close words that do not contain yours appear (from \"how to start a blog\" came \"how to get blog\" and \"blogger tutorial for beginners\"; measured in the US).</li>\n<li><strong>The total is visible.</strong> About 174 thousand in total for \"how to start a blog\" (measured in the US).</li>\n<li><strong>About $0.024 for 100.</strong> About 40 per $1.</li>\n<li><strong>A few seconds.</strong> We measured under 2 seconds for the call.</li>\n<li><strong>Save as CSV.</strong></li>\n</ul>\n\n<h2>When it is not the right fit</h2>\n<ul>\n<li>You want <strong>only close words</strong> → topics far from yours also mix in. For \"how to start a blog\", some rows were off-topic, such as \"how to make a twitter thread\" (measured in the US).</li>\n<li>You want <strong>a table with every difficulty filled in</strong> → DataForSEO says keyword difficulty needs SERP data, so it is only available for keywords in its SERP database. In our test (\"how to start a blog\"), 2 of the 30 rows in the saved sample were blank.</li>\n<li>You want <strong>more than 100</strong> → choose 300 or 1,000 in the count field.</li>\n<li>Some rows can come back without a volume (none of the 30 saved sample rows did).</li>\n</ul>\n<p>This tool does one thing: show up to 100 keywords in the same genre as your keyword, with volume and difficulty.</p>\n\n<h2>FAQ</h2>\n<details><summary>Why do loosely related words appear?</summary><p>We show what the API returns as the same genre, unfiltered.</p></details>\n<details><summary>Why are many difficulty values blank?</summary><p>DataForSEO says keyword difficulty needs SERP data, so it is only available for keywords in its SERP database. In our test (\"how to start a blog\"), 2 of the 30 rows in the saved sample were blank.</p></details>\n<details><summary>What does a blank volume mean?</summary><p>The API returned no value for that row. We leave it blank.</p></details>\n<details><summary>How is it different from \"related keywords\" and \"phrases containing a keyword\"?</summary><p>Related keywords widen by following relations. Phrases that contain a keyword must contain your word. This one widens by genre grouping.</p></details>\n<details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href=\"/dfs-en.html\">What is DataForSEO?</a></p></details>\n</section>\n"
+ },
+ "C38": {
+  "locale_en": {
+   "c38.name": "See keyword difficulty",
+   "c38.desc": "See how hard several keywords are at once",
+   "c38.price": "Cost: about $0.012 for 3 keywords and $0.072 for 500 (both measured). About $0.13 for up to 1,000 in one go (a guide). Above 1,000 it splits automatically, up to 5,000 (about $0.66). The sample is free.",
+   "c38.eta": "Typical time: a few seconds",
+   "c38.title": "Keyword Difficulty Checker | Check Difficulty for Many Keywords at Once (Free Sample)",
+   "c38.meta": "Enter several keywords and get the keyword difficulty of each in one table. Compare which keywords look easier to rank for. Difficulty can be blank for keywords outside DataForSEO's SERP data.",
+   "c38.keyword": "Keywords (one per line, up to 5,000)",
+   "c38.col.keyword": "Keyword",
+   "c38.col.kd": "Difficulty (0–100)",
+   "c38.ai_prompt": "You are an assistant who helps compare keyword difficulty.\nThe reader is a beginner blogger who wants to narrow down many keyword candidates.\n\n# About the data\n- Date: {date}\n- Country and language: {country} / {language}\n- Rows: {n}\n- Columns\n  - Difficulty (0-100): a guide to how hard it is to rank at the top. Bigger is harder. It is a guide, not a guarantee. Blank means no data.\n\n# What I would like you to do\n1. List 10 keywords with the lowest difficulty (leave out blanks).\n2. If you can read anything from the words of the high-difficulty keywords, write it briefly.\n3. If there are blank keywords, list them and note that \"no data\" does not mean the difficulty is unknown to be low.\n4. Briefly say what cannot be known from the data alone (for example, whether I can reach the top if I write it).\n\n# Rules\n- Use only the numbers I gave you. Do not make up numbers.\n- Say \"this is a guess\" when you guess.\n- Write short and simple, so that a middle-school student can understand.\n- Finish with a table (keyword / difficulty).\n\n# Data (tab-separated)\n```\n{data}\n```",
+   "c38.steps": [
+    [
+     "100 keywords",
+     "about $0.024 (a guide)",
+     "Quickly compare candidates for one topic"
+    ],
+    [
+     "500 keywords",
+     "$0.072 (measured)",
+     "Sort out article candidates for a whole site"
+    ],
+    [
+     "1,000 keywords",
+     "about $0.13 (a guide)",
+     "The upper limit for one request. A big list at once"
+    ],
+    [
+     "5,000 keywords",
+     "about $0.66 (a guide, in 5 requests)",
+     "Very large lists, such as a competitor's whole keyword set"
+    ]
+   ]
+  },
+  "content_en": "<section class=\"seo\">\n<h2>Ways to check keyword difficulty — and how the main tools compare</h2>\n<p>When you propose article topics to a client, you want to check <strong>which keywords are easier and which are hard</strong>, all at once. Enter keywords one per line and this tool returns a difficulty (0–100) per keyword as a table.</p>\n<div class=\"scroll\"><table>\n<thead><tr><th>Method / tool</th><th>Pricing model</th><th>Notes</th></tr></thead>\n<tbody>\n<tr class=\"me\"><td>This tool (DataForSEO)</td><td>Pay per request. About $0.012 for 3 keywords and $0.072 for 500 (measured). Above 1,000 it splits automatically (up to 5,000)</td><td>Difficulty for several keywords in one table. Save as CSV</td></tr>\n<tr><td>Ahrefs Keywords Explorer</td><td>Subscription (see the official site for plans)</td><td>Its KD is a 0–100 estimate based on the backlinks of the top 10 results (per Ahrefs' help)</td></tr>\n<tr><td>Semrush Keyword Overview</td><td>Subscription (see the official site for plans)</td><td>Its KD% is a 0–100 score from evaluating the top 10 results (per Semrush's help)</td></tr>\n<tr><td>Ubersuggest</td><td>Subscription and one-time options are advertised (prices differ by source; see the official site)</td><td>See the official site for features</td></tr>\n</tbody></table></div>\n<p class=\"asof\">Checked in November 2026. Prices change — confirm on each vendor's official site before you buy.</p>\n\n<h2>Why use this tool</h2>\n<ul>\n<li><strong>Check many keywords together.</strong> Line up your proposed candidates and compare in one call.</li>\n<li><strong>Numbers as returned.</strong> No verdicts or colors.</li>\n<li><strong>About $0.012 for 3 keywords and $0.072 for 500 (measured).</strong> Up to 1,000 go in one request; more are split automatically (up to 5,000).</li>\n<li><strong>A few seconds.</strong> We measured under 1 second for the call.</li>\n<li><strong>Save as CSV.</strong> Paste it into a proposal.</li>\n</ul>\n\n<h2>When it is not the right fit</h2>\n<ul>\n<li>You expect <strong>the same number as another tool</strong> → each tool calculates difficulty its own way (Ahrefs' own article notes the same keyword can score very differently). Do not set numbers from different tools side by side.</li>\n<li>A keyword has <strong>no difficulty</strong> → DataForSEO says keyword difficulty needs SERP data, so it is only available for keywords in its SERP database. The 3 words we entered all returned a value. Words that come back blank in one search can stay blank when you re-enter them.</li>\n<li>You also want <strong>volume</strong> → this table shows difficulty only. \"See search volume\" fits for volume.</li>\n<li>Difficulty is a guide. Whether you can reach the top also depends on your content, backlinks and more.</li>\n</ul>\n<p>This tool does one thing: show the difficulty (0–100) of several keywords at once.</p>\n\n<h2>FAQ</h2>\n<details><summary>What is the 0–100 number?</summary><p>DataForSEO describes it as its own score for how hard it is to reach the top 10 results, with 0 easy and 100 extremely hard.</p></details>\n<details><summary>Is it the same as Ahrefs' difficulty?</summary><p>Not necessarily. The calculations differ, so the same keyword can score differently.</p></details>\n<details><summary>How many keywords can I enter?</summary><p>DataForSEO's spec says up to 1000. We confirmed up to 3 here.</p></details>\n<details><summary>Why do some keywords show nothing?</summary><p>Words missing from DataForSEO's SERP data come back with a blank difficulty. We have not checked whether a blank row is still charged.</p></details>\n<details><summary>Can I sign up with a free email address?</summary><p>No. DataForSEO does not accept free email providers. See <a href=\"/dfs-en.html\">What is DataForSEO?</a></p></details>\n</section>\n"
+ }
+}
