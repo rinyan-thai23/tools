@@ -18,13 +18,13 @@
 <li><strong>Tanyakan seperti pelanggan bertanya.</strong> Ketik dengan kata-kata mereka.</li>
 <li><strong>Sekitar $0.03 dan beberapa detik.</strong> Contoh New York kami memakan 4,1 detik dan biayanya $0.027. Sekitar 37 per $1, jadi kamu bisa mencoba berbagai pertanyaan dengan santai.</li>
 <li><strong>Jawaban dengan pencarian web.</strong> Jawabannya memakai hasil pencarian, bukan hanya pengetahuan yang tersimpan.</li>
-<li><strong>Simpan sebagai CSV.</strong> Simpan halaman yang dikutip menurut tanggal.</li>
+<li><strong>Simpan sebagai CSV.</strong> Simpan halaman yang dikutip per tanggal.</li>
 </ul>
 
 <h2>Kapan alat ini kurang cocok</h2>
 <ul>
 <li>Kamu ingin <strong>persis seperti yang tampil di layar ChatGPT</strong> → alat ini bertanya ke gpt-4o-mini lewat API. Model dan jawabannya bisa berbeda dari aplikasinya. Untuk layar aslinya, pakai alat "lihat pencarian ChatGPT".</li>
-<li>Kamu ingin <strong>putusan apakah tokomu muncul</strong> → alat ini hanya menyajikan jawabannya.</li>
+<li>Kamu ingin <strong>kepastian apakah tokomu muncul</strong> → alat ini hanya menampilkan jawabannya.</li>
 <li>Kamu ingin <strong>pelacakan harian</strong> → satu panggilan adalah satu jawaban pada satu saat, dan pertanyaan yang sama bisa kembali sedikit berbeda setiap kali.</li>
 <li>Kamu ingin jawaban <strong>untuk pelanggan di tempat tertentu</strong> → lokasi tidak bisa diatur.</li>
 <li><strong>Tautannya belum tentu situs rujukan</strong> → pada contoh New York kami, ketiga tautan mengarah ke halaman pencarian Google Maps. Tabel menampilkan tautan yang ada di dalam jawaban.</li>
@@ -32,7 +32,7 @@
 <p>Alat ini hanya melakukan satu hal: menampilkan bagaimana ChatGPT dengan pencarian web menjawab sebuah pertanyaan dan apa yang dikutipnya.</p>
 
 <h2>FAQ</h2>
-<details><summary>Kenapa satu panggilan sekitar $0.03?</summary><p>Pencarian web menambah masukan pada permintaan. Dalam uji kami, model murah tanpa pencarian web biayanya sekitar $0.002, sedangkan gpt-4o-mini dengan pencarian web sekitar $0.027.</p></details>
+<details><summary>Kenapa satu panggilan sekitar $0.03?</summary><p>Pencarian web menambah input pada permintaan. Dalam uji kami, model murah tanpa pencarian web biayanya sekitar $0.002, sedangkan gpt-4o-mini dengan pencarian web sekitar $0.027.</p></details>
 <details><summary>Bisakah tabel sumber kosong?</summary><p>Bisa, jika jawabannya tidak menyertakan kutipan.</p></details>
 <details><summary>Kenapa tidak ada pilihan negara atau bahasa?</summary><p>Panggilan API ini tidak punya pengaturan negara atau bahasa. Tulis pertanyaan dalam bahasa yang kamu inginkan untuk jawabannya.</p></details>
 <details><summary>Apakah pertanyaan yang sama memberi jawaban yang sama?</summary><p>Jawaban bisa berubah dari panggilan ke panggilan. Untuk melihat bedanya, ambil lagi pada hari lain.</p></details>
