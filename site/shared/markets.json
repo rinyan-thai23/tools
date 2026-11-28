@@ -102,6 +102,86 @@
         "dataforseo_labs/",
         "ai_optimization/ai_keyword_data/"
       ]
+    },
+    {
+      "code": 2702,
+      "ja": "シンガポール",
+      "en": "Singapore",
+      "zh-TW": "新加坡",
+      "vi": "Singapore",
+      "only": [
+        "en"
+      ]
+    },
+    {
+      "code": 2458,
+      "ja": "マレーシア",
+      "en": "Malaysia",
+      "zh-TW": "馬來西亞",
+      "vi": "Malaysia",
+      "only": [
+        "en"
+      ]
+    },
+    {
+      "code": 2554,
+      "ja": "ニュージーランド",
+      "en": "New Zealand",
+      "zh-TW": "紐西蘭",
+      "vi": "New Zealand",
+      "only": [
+        "en"
+      ]
+    },
+    {
+      "code": 2372,
+      "ja": "アイルランド",
+      "en": "Ireland",
+      "zh-TW": "愛爾蘭",
+      "vi": "Ireland",
+      "only": [
+        "en"
+      ]
+    },
+    {
+      "code": 2710,
+      "ja": "南アフリカ",
+      "en": "South Africa",
+      "zh-TW": "南非",
+      "vi": "Nam Phi",
+      "only": [
+        "en"
+      ]
+    },
+    {
+      "code": 2784,
+      "ja": "アラブ首長国連邦",
+      "en": "United Arab Emirates",
+      "zh-TW": "阿拉伯聯合大公國",
+      "vi": "Các Tiểu vương quốc Ả Rập Thống nhất",
+      "only": [
+        "en"
+      ]
+    },
+    {
+      "code": 2566,
+      "ja": "ナイジェリア",
+      "en": "Nigeria",
+      "zh-TW": "奈及利亞",
+      "vi": "Nigeria",
+      "only": [
+        "en"
+      ]
+    },
+    {
+      "code": 2586,
+      "ja": "パキスタン",
+      "en": "Pakistan",
+      "zh-TW": "巴基斯坦",
+      "vi": "Pakistan",
+      "only": [
+        "en"
+      ]
     }
   ],
   "languages": [
