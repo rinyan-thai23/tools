@@ -38,6 +38,7 @@
 | 020 | 3業種の口コミ不満マップ（歯科・美容室・整骨院） | 見本完了 | https://lab.byokkit.com/c/020/ | https://lab.byokkit.com/c/020/lp/ |
 | 021 | お店の総合診断書（002の強化版） | 見本完了 | https://lab.byokkit.com/c/021/ | https://lab.byokkit.com/c/021/lp/ |
 | 022 | 外の反応を取る準備（聞き取りキット） | 準備完了 | https://lab.byokkit.com/c/022/ | — |
+| 023 | 猫の自動トイレ：口コミで評価が割れる所（記事の見本） | 見本完了 | https://lab.byokkit.com/c/023/ | https://lab.byokkit.com/c/023/lp/ |
 
 ## 特記
 - 000 の調査レポート：https://lab.byokkit.com/c/000/report/ （LPではなく簡易コンサルの見本）
